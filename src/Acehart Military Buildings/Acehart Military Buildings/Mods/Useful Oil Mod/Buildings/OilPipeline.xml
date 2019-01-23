@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/30/2012 6:22:06 PM -->
+<!-- Oil PipEline -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_OIL_PIPELINE</Type>
+			<DefaultBuilding>BUILDING_OIL_PIPELINE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_OIL_PIPELINE</Description>
+			<MaxPlayerInstances>20</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_OIL_PIPELINE</Type>
+			<BuildingClass>BUILDINGCLASS_OIL_PIPELINE</BuildingClass>
+			<Cost>550</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_OIL_PIPELINE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDING_OIL_PIPELINE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_OIL_PIPELINE_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_OIL_PIPELINE_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>15</HurryCostModifier>
+			<IconAtlas>UNIT_COLOR_ATLAS_OIL_PIPELINE</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_OIL_PIPELINE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_OIL_PIPELINE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_OIL_FIELDS</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_ResourceQuantityRequirements>
+		<Row>
+			<BuildingType>BUILDING_OIL_PIPELINE</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Building_ResourceQuantityRequirements>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_OIL_PIPELINE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>17</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_OIL_PIPELINE">
+			<Text>Oil Pipeline</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OIL_PIPELINE_HELP">
+			<Text>Oil Pipelines provide +4 [ICON_GOLD] but cost 1 [ICON_RES_OIL] to build (because they export the oil). They require Oil Fields to build.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OIL_PIPELINE_STRATEGY">
+			<Text>Oil Pipelines are a good source of income but keep in mind that you are losing an oil resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_OIL_PIPELINE_TEXT">
+			<Text>Pipeline transport is the transportation of goods through a pipe. Most commonly, liquids and gases are sent, but pneumatic tubes using compressed air can also transport solid capsules.[NEWLINE][NEWLINE]As for gases and liquids, any chemically stable substance can be sent through a pipeline. Therefore sewage, slurry, water, or even beer pipelines exist; but arguably the most valuable are those transporting crude petroleum and refined petroleum product including fuels: oil (oleoduct), natural gas (gas grid), and biofuels.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

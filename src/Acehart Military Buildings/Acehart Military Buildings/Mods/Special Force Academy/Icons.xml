@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2012-09-07 오후 6:01:22 -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>ICON_ATLAS_JUNGLE</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>JunglerAtlas256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ICON_ATLAS_JUNGLE</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>JunglerAtlas128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	
+		<Row>
+			<Atlas>ICON_ATLAS_JUNGLE</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>JunglerAtlas64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ICON_ATLAS_JUNGLE</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>JunglerAtlas45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+
+		<Row>
+			<Atlas>ICON_ATLAS_MARINE</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>MarineAtlas256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ICON_ATLAS_MARINE</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>MarineAtlas128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	
+		<Row>
+			<Atlas>ICON_ATLAS_MARINE</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>MarineAtlas64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ICON_ATLAS_MARINE</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>MarineAtlas45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+
+		<Row>
+			<Atlas>ICON_ATLAS_MOUNT</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>HannibalAtlas256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ICON_ATLAS_MOUNT</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>HannibalAtlas128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>ICON_ATLAS_MOUNT</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>HannibalAtlas64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ICON_ATLAS_MOUNT</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>HannibalAtlas45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+	</IconTextureAtlases>
+</GameData>

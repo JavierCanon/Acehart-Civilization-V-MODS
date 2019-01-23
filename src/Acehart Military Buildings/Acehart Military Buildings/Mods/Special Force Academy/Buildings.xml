@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/13/2013 11:25:09 PM -->
+<GameData>
+	<!-- TODO: Insert table creation example here. -->
+
+	<!-- TODO: Insert table data example here.-->
+
+	<!-- Enter your Game Data here. -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_MARINE_ACADEMY</Type>
+			<BuildingClass>BUILDINGCLASS_MARINE_ACADEMY</BuildingClass>
+			<Cost>500</Cost>
+			<PrereqTech>TECH_PENICILIN</PrereqTech>
+			<Help>TXT_KEY_BUILDING_MARINE_ACADEMY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_MARINE_ACADEMY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HEROIC_EPIC_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HEROIC_EPIC_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_HEROIC_EPIC</ArtDefineTag>
+			<TrainedFreePromotion>PROMOTION_AMPHIBIOUS</TrainedFreePromotion>
+			<NukeImmune>true</NukeImmune>
+			<GoldMaintenance>2</GoldMaintenance>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>ICON_ATLAS_MARINE</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_FOREST_ACADEMY</Type>
+			<BuildingClass>BUILDINGCLASS_FOREST_ACADEMY</BuildingClass>
+			<Cost>450</Cost>
+			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+			<Help>TXT_KEY_FOREST_ACADEMY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_FOREST_ACADEMY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HEROIC_EPIC_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HEROIC_EPIC_STRATEGY</Strategy>
+			<TrainedFreePromotion>PROMOTION_WOODSMAN</TrainedFreePromotion>
+			<NukeImmune>true</NukeImmune>
+			<GoldMaintenance>2</GoldMaintenance>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<ArtDefineTag>ART_DEF_BUILDING_HEROIC_EPIC</ArtDefineTag>
+			<IconAtlas>ICON_ATLAS_JUNGLE</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<!--Row>
+			<Type>BUILDING_MOUNT_BLADE</Type>
+			<BuildingClass>BUILDINGCLASS_MOUNT_BLADE</BuildingClass>
+			<Cost>500</Cost>
+			<PrereqTech>TECH_DYNAMITE</PrereqTech>
+			<Help>TXT_KEY_BUILDING_MOUNT_BLADE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_MOUNT_BLADE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HEROIC_EPIC_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HEROIC_EPIC_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_HEROIC_EPIC</ArtDefineTag>
+			<TrainedFreePromotion>PROMOTION_HOVERING_UNIT</TrainedFreePromotion>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>ICON_ATLAS_MOUNT</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_MOUNT_BLADE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HEROIC_EPIC</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>-->
+</GameData>

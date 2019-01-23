@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/15/2012 5:43:49 AM by Kelaris (enigmaomni@gmail.com) -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_CORRAL">
+			<Text>Corral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CORRAL_STRATEGY">
+			<Text>Each Corral provides 2 [ICON_RES_HORSE] Horses. Maximum of 3 of these buildings in your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CORRAL_TEXT">
+			<Text>Following the domestication of the horse by mankind, farming, transport, and travel swiftly become inseparably amalgamated with the animal. As an empire grows dependent on the endurance of these beasts of burden, settlements without native horses will frequently import them to breed their own regional stock. Local corrals allow the cultivation and spread of horses in areas where few or none are naturally available.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CORRAL_HELP">
+			<Text> Provides 2 [ICON_RES_HORSE] Horses. Maximum of 3 of these buildings in your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FOUNDRY">
+			<Text>Foundry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FOUNDRY_STRATEGY">
+			<Text>Each Foundry provides 2 [ICON_RES_IRON] Iron. Maximum of 3 of these buildings in your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FOUNDRY_TEXT">
+			<Text>By encouraging the trade and everyday use of iron, a nation without easy access to large deposits can encourage growth of more expensive mining methods, and trade routes that might otherwise be overlooked.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FOUNDRY_HELP">
+			<Text> Provides 2 [ICON_RES_IRON] Iron. Maximum of 3 of these buildings in your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DEEP_MINE">
+			<Text>Deep Mine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DEEP_MINE_STRATEGY">
+			<Text>Each Deep Mine provides 2 [ICON_RES_COAL] Coal. Maximum of 5 of these buildings in your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_DEEP_MINE_TEXT">
+			<Text>Much of the world's coal reserves are too deep underground for efficient surface mining to access them. While expensive, deep mining allows access to coal when other deposits are exhausted or unavailable.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DEEP_MINE_HELP">
+			<Text> Provides 2 [ICON_RES_COAL] Coal. Maximum of 5 of these buildings in your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BIOFUEL_REFINERY">
+			<Text>Biofuel Refinery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BIOFUEL_REFINERY_STRATEGY">
+			<Text>Each Biofuel Refinery provides 2 [ICON_RES_OIL] Oil. Maximum of 5 of these buildings in your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BIOFUEL_REFINERY_TEXT">
+			<Text>A biofuel is a type of fuel whose energy is derived from biological carbon fixation. Biofuels include fuels derived from biomass conversion, as well as solid biomass, liquid fuels and various biogases. While expensive to produce, it is a viable alternative when oil is unable to fulfill a society's fuel demands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BIOFUEL_REFINERY_HELP">
+			<Text> Provides 2 [ICON_RES_OIL] Oil. Maximum of 5 of these buildings in your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ENRICHMENT_FACILITY">
+			<Text>Enrichment Facility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ENRICHMENT_FACILITY_STRATEGY">
+			<Text>Each Enrichment Facility provides 2 [ICON_RES_URANIUM] Uranium. Maximum of 5 of these buildings in your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_ENRICHMENT_FACILITY_TEXT">
+			<Text>Enriched uranium is a critical component for both civil nuclear power generation and military nuclear weapons.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ENRICHMENT_FACILITY_HELP">
+			<Text> Provides 2 [ICON_RES_URANIUM] Uranium. Maximum of 5 of these buildings in your empire.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

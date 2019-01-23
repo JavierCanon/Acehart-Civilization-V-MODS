@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/30/2012 6:22:06 PM -->
+<!-- Oil Refinery-->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_OIL_REFINERY</Type>
+			<DefaultBuilding>BUILDING_OIL_REFINERY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_OIL_REFINERY</Description>
+			<MaxPlayerInstances>20</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_OIL_REFINERY</Type>
+			<BuildingClass>BUILDINGCLASS_OIL_REFINERY</BuildingClass>
+			<Cost>600</Cost>
+			<GoldMaintenance>3</GoldMaintenance>
+			<PrereqTech>TECH_COMBUSTION</PrereqTech>
+			<Description>TXT_KEY_BUILDING_OIL_REFINERY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDING_OIL_REFINERY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_OIL_REFINERY_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_OIL_REFINERY_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_FACTORY</ArtDefineTag>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>UNIT_COLOR_ATLAS_OIL_REFINERY</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_OIL_FIELDS</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_ResourceQuantity>
+		<Row>
+			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_OIL_REFINERY">
+			<Text>Oil Refinery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OIL_REFINERY_HELP">
+			<Text>Oil Refineries provide +3 [ICON_RES_OIL] Oil resource, +2 [ICON_PRODUCTION] production, and have a gold maintenance of 3 [ICON_GOLD]. Oil Refineries require Oil Fields to be built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OIL_REFINERY_STRATEGY">
+			<Text>Build Oil Refineries if you need oil. Provides 1 engineer specialist slot. You can build a maximum of 20 oil refineries in your cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_OIL_REFINERY_TEXT">
+			<Text>An oil refinery or petroleum refinery is an industrial process plant where crude oil is processed and refined into more useful products such as petroleum naphtha, gasoline, diesel fuel, asphalt base, heating oil, kerosene, and liquefied petroleum gas. Oil refineries are typically large, sprawling industrial complexes with extensive piping running throughout, carrying streams of fluids between large chemical processing units. In many ways, oil refineries use much of the technology of, and can be thought of, as types of chemical plants. The crude oil feedstock has typically been processed by an oil production plant. There is usually an oil depot (tank farm) at or near an oil refinery for storage of bulk liquid products.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

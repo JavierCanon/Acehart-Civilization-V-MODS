@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/30/2012 6:04:04 PM -->
+<GameData>
+	<Resource_YieldChanges>
+		<Row>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Update>
+			<Where>
+				<ResourceType>RESOURCE_OIL</ResourceType>
+				<YieldType>YIELD_PRODUCTION</YieldType>
+			</Where>
+			<Set>
+				<Yield>2</Yield>
+			</Set>
+		</Update>
+	</Resource_YieldChanges>
+	
+	<Building_ResourceQuantityRequirements>
+			<Row>
+				<BuildingType>BUILDING_MILITARY_BASE</BuildingType>
+				<ResourceType>RESOURCE_OIL</ResourceType>
+				<Cost>1</Cost>
+			</Row>
+	</Building_ResourceQuantityRequirements>
+</GameData>

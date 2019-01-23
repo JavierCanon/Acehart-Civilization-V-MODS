@@ -1,0 +1,34 @@
+-- Insert SQL Rules Here 
+UPDATE Units SET
+Domain = 'DOMAIN_LAND'
+WHERE
+Type = 'UNIT_HELICOPTER_GUNSHIP'
+;
+
+DELETE FROM UnitPromotions_UnitCombats 
+WHERE 
+PromotionType = 'PROMOTION_EMBARKATION' AND UnitCombatType = 'UNITCOMBAT_HELICOPTER'
+;
+DELETE FROM UnitPromotions_UnitCombats 
+WHERE 
+PromotionType = 'PROMOTION_DEFENSIVE_EMBARKATION' AND UnitCombatType = 'UNITCOMBAT_HELICOPTER'
+;
+DELETE FROM UnitPromotions_UnitCombats 
+WHERE 
+PromotionType = 'PROMOTION_ALLWATER_EMBARKATION' AND UnitCombatType = 'UNITCOMBAT_HELICOPTER'
+;
+
+
+INSERT INTO Unit_FreePromotions(
+     UnitType      
+    ,PromotionType 
+)
+SELECT 
+     'UNIT_HELICOPTER_GUNSHIP'
+    ,'PROMOTION_STEAM_POWERED'
+UNION
+SELECT 
+     'UNIT_HELICOPTER_GUNSHIP'
+    ,'PROMOTION_TARGETING_1'
+;
+

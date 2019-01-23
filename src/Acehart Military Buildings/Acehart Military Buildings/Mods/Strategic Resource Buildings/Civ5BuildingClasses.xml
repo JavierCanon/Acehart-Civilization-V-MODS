@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/15/2012 5:41:49 AM by Kelaris (enigmaomni@gmail.com) -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_CORRAL</Type>
+			<DefaultBuilding>BUILDING_CORRAL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CORRAL</Description>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_FOUNDRY</Type>
+			<DefaultBuilding>BUILDING_FOUNDRY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_FOUNDRY</Description>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_DEEP_MINE</Type>
+			<DefaultBuilding>BUILDING_DEEP_MINE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_DEEP_MINE</Description>
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_BIOFUEL_REFINERY</Type>
+			<DefaultBuilding>BUILDING_BIOFUEL_REFINERY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BIOFUEL_REFINERY</Description>
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_ENRICHMENT_FACILITY</Type>
+			<DefaultBuilding>BUILDING_ENRICHMENT_FACILITY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ENRICHMENT_FACILITY</Description>
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+
+</GameData>

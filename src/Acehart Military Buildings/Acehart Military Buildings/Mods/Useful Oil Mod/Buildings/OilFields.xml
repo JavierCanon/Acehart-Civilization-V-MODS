@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/30/2012 6:22:06 PM -->
+<!-- Oil Fields -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_OIL_FIELDS</Type>
+			<DefaultBuilding>BUILDING_OIL_FIELDS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_OIL_FIELDS</Description>
+			<MaxPlayerInstances>10</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_OIL_FIELDS</Type>
+			<BuildingClass>BUILDINGCLASS_OIL_FIELDS</BuildingClass>
+			<Cost>175</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>TECH_BIOLOGY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_OIL_FIELDS</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDING_OIL_FIELDS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_OIL_FIELDS_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_OIL_FIELDS_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>50</HurryCostModifier>
+			<IconAtlas>UNIT_COLOR_ATLAS_OIL_FIELDS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_OIL_FIELDS</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OIL_FIELDS</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_OIL_FIELDS</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_GEOLOGICAL_SURVEY</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_OIL_FIELDS</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OIL_FIELDS</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OIL_FIELDS</BuildingType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_OIL_FIELDS">
+			<Text>Oil Fields</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OIL_FIELDS_HELP">
+			<Text>Oil Fields require a Geological Survey before they can be built. They provide +1 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OIL_FIELDS_STRATEGY">
+			<Text>Oil Fields are prerequisites to Oil Refineries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_OIL_FIELDS_TEXT">
+			<Text>An oil field is a region with an abundance of oil wells extracting petroleum (crude oil) from below ground. Because the oil reservoirs typically extend over a large area, possibly several hundred kilometres across, full exploitation entails multiple wells scattered across the area. In addition, there may be exploratory wells probing the edges, pipelines to transport the oil elsewhere, and support facilities.[NEWLINE][NEWLINE]Because an oil field may be remote from civilization, establishing a field is often an extremely complicated exercise in logistics. For instance, workers have to work there for months or years and require housing. In turn, housing and equipment require electricity and water. Pipelines in cold areas may need to be heated. Excess natural gas may be burned off if there is no way to make use of it, requiring a furnace and stacks, and pipes to carry it from well to furnace.[NEWLINE][NEWLINE]In the modern age, the location of oil fields with proven oil reserves is a key underlying factor in many geopolitical conflicts.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

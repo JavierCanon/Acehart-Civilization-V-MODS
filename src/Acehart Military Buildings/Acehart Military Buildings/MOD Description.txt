@@ -1,0 +1,151 @@
+-- MOD Description
+-- Author: javier
+-- DateCreated: 4/30/2014 11:44:50 AM
+--------------------------------------------------------------
+
+MOD STATUS: Alpha.
+
+Military buildings for make a wargame from industrial era to informatic era.
+
+Current integrate these mods (i fixed errors that i found in them :b, and all mods need optimization):
+
+>>> Modern Military Buildings 1 MOD: <<<
+
+This mod adds 3 new buildings: 
+
+1. the Airbase (+15 XP for air units),
+2. the Firing Range (+15% production building melee units),
+3. the Military Headquarters (+30 XP for all units and a free Great General). Also updates the Pentagon to give a free Military HQ.
+
+
+>>> National Navy Academy MOD: <<<
+1 Free Great Admiral. +15 XP and +15% Production for all Sea Units. Requires a SeaPort in the city. Grants the Supply Promotion to each new naval unit produced in this city.
+
+
+>>> Special Force Academy MOD: <<<
+
+New 2 buildings are added to increase efficiency of units each buildings can be only built on one city maximum, 1 national wonder.
+
+1. Jungler Academy: trained units will have woodsman promotion
+2. Marine Academy: trained units will have Amphibious promotion
+3. Hannibal Legend: trained units will be able to pass mountains
+
+
+>>> Strategic Resource Buildings MOD: <<<
+
+Adds buildings that generate strategic resources.
+
+1. Corral: 1 maintenance for 2 horses - requires horseback riding. 40 production to build. Maximum of 3.
+2. Foundry: 1 maintenance for 2 iron - requires metal working. 80 production to build. Maximum of 3.
+3. Deep Mine: 2 maintenance for 2 coal - requires railroad. 200 production to build. Maximum of 5.
+4. Biofuel Refinery: 3 maintenance for 2 oil - requires refrigeration. 300 production to build. Maximum of 5.
+5. Enrichment Facility: 4 maintenance for 2 uranium - requires particle physics. 500 production to build. Maximum of 5.
+Note: There is already an aluminum generating building in game, added in G&amp;K. (Recycling Center)
+
+>>> Enhanced Military Buildings Mod: <<<
+
+Military buildings have been revamped. The Barracks now adds City Hit Points and Defense, reflecting its crucial role in city defense. The Armory now does not supply XP, but provides a free promotion. The Military Academy now provides +30 XP and a free promotion, but only 3 may be built.
+Defensive buildings have also been revamped, with City Hit Points generally receiving an increase to better reflect the difficulty Urban Warfare has provided throughout the ages.
+In addition, maintenance costs have been increased for Military buildings and added for Defensive buildings to better reflect the cost of militarization.
+Below are the new building yields.
+
+1. Barracks:
+  +15 XP all units
+  +25 City Hit Points
+  +1 Defense
+  2 Maintenance
+
+Krepost and Ikanda do not have increased maintenance.
+
+2. Armory:
+  Free Cover I Promotion
+  +10% Production of Melee Units
+  1 Maintenance
+  Requires 1 Iron
+
+3. Military Academy:
+  +30 XP all units
+  +2 Culture
+  Free Great Generals I Promotion
+  2 Maintenance
+  Only 3 may be built
+
+4. Walls:
+  +50 City Hit Points
+  +5 Defense
+  1 Maintenance
+
+No changes to Wall of Babylon.
+
+5. Castle:
+  +50 City Hit Points
+  +7 Defense
+  +1 Tourism after researching Dynamite
+  1 Maintenance
+
+Mughal Fort reflects increased City Hit Points, but no other changes.
+
+6. Arsenal:
+  +50 City Hit Points
+  +9 Defense
+  +10% Production of Gunpowder Units
+  2 Maintenance
+
+7. Military Base:
+  +15 XP all units
+  +50 City Hit Points
+  +15 Defense
+  3 Maintenance
+  Requires 1 Oil
+
+8. Bomb Shelter:
+  +100 City Hit Points
+  -75% Population Loss from Nuclear Bombs
+  1 Maintenance
+
+>>> Citadel Mod: <<<
+
+This Mod allow you to create Citadel "outside" the border ( TAKE NOTE!!: "OUTSIDE the border" not adjacent the border )
+
+
+>>> Useful Oil Mod: <<<
+Makes oil a useful resource. More units need it PLUS new buildings that deal with oil production.
+
+
+
+>>> PROMOTIONS <<< 
+
+
+>>> TECH <<< 
+
+
+>>> TO DO <<< 
+
+
+
+>>> ¿Sugestions? <<<  
+Please post or PM.
+
+***************
+*** HISTORY ***
+***************
+
+>>> Ver 0.1
+- Included building Mods
+
+
+
+
+
+***************
+*** CREDITS ***
+***************
+I use art and ideas from others mods.
+knightmare13
+thecrazyscotsman
+Ender
+Joshua Adams
+Kelaris
+midway
+swatmp5
+All Modders.

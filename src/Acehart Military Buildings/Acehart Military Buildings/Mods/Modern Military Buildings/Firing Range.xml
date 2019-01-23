@@ -1,0 +1,45 @@
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_FIRING_RANGE</Type>
+			<DefaultBuilding>BUILDING_FIRING_RANGE</DefaultBuilding>
+			<Description>Firing Range</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_FIRING_RANGE</Type>
+			<BuildingClass>BUILDINGCLASS_FIRING_RANGE</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_RIFLING</PrereqTech>
+			<Help>+15% [ICON_PRODUCTION] Production when building Melee units.</Help>
+			<Description>Firing Range</Description>
+			<Civilopedia>A shooting range or firing range is a specialized facility designed for firearms practice. Each facility is typically overseen by one or more supervisory personnel, called variously a range master or "RSO – Range Safety Officer" in the United States or a range conducting officer or "RCO" in the UK. These supervisory personnel are responsible for ensuring that all weapon safety rules are followed at all times.[NEWLINE]Shooting ranges can be indoor or outdoor and possibly restricted to certain types of firearms, e.g. handguns only or rifles, or they can specialize in certain shooting sports such Skeet shooting or 10 m Air Pistol/Rifle.[NEWLINE][NEWLINE]In urban areas, most shooting ranges will be at indoor facilities. Similarly, in less-populated areas, shooting ranges are often at outdoor facilities.[NEWLINE]Indoor ranges usually have a back wall with a sloped earthen berm or bank, with reinforced baffles additionally situated along the roof and side walls. Ranges with proper ventilation pull smoke and lead particles away from the shooting line and discharge them from the building to reduce potential lead poisoning. When ranges lack proper ventilation, employees and users are exposed to lead dust from bullets or cartridge primers. It can be inhaled or can settle on skin or clothing. Additionally, discharge of firearms in indoor ranges can produce noise levels of over 140 dB sound pressure level. To combat this, it is commonly recommended to "double up" ear protection by using both earplugs and over the head earmuffs. To protect range bystanders from sound exposure, many modern ranges have an air-locked corridor for sound-proofing, with two doors at opposite ends of the egress corridor. Most indoor ranges restrict the use of certain powerful calibers, rifles or the use of fully automatic weapons. In many shooting ranges, .50 caliber or higher bullets are not allowed.[NEWLINE]Outdoor shooting ranges are often required for longer distance shooting sometimes exceeding 1,000 metres (1,094 yd). Training might also specifically require exposure to the elements such as wind or rain.[NEWLINE]Outdoor shooting ranges usually are backed by a high retaining wall, earth mound, sandbag barrier or specially designed funnel-shaped traps to prevent the ricochet of bullets or shots going outside the bounds of the shooting range. Most outdoor ranges additionally restrict the maximum caliber size, or have separate ranges devoted to use for higher-powered firearms.</Civilopedia>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<IconAtlas>MILITARY_BUILDINGS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<NukeImmune>true</NukeImmune>
+			<ConquestProb>100</ConquestProb>
+		</Row>
+	</Buildings>
+	<Building_UnitCombatProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_FIRING_RANGE</BuildingType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+	</Building_UnitCombatProductionModifiers>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_FIRING_RANGE</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FIRING_RANGE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+</GameData>

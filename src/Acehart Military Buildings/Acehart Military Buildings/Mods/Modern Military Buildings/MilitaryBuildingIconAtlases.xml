@@ -1,0 +1,32 @@
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>MILITARY_BUILDINGS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>MilitaryBuildingIcons256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MILITARY_BUILDINGS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>MilitaryBuildingIcons128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MILITARY_BUILDINGS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>MilitaryBuildingIcons64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MILITARY_BUILDINGS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>MilitaryBuildingIcons45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

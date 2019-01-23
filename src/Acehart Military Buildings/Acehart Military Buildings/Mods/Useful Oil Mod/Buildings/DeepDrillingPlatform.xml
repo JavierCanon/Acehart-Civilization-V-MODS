@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/30/2012 6:22:06 PM -->
+<!-- Deep Drilling Platform-->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_DEEP_DRILLING_PLATFORM</Type>
+			<DefaultBuilding>BUILDING_DEEP_DRILLING_PLATFORM</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_DEEP_DRILLING_PLATFORM</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_DEEP_DRILLING_PLATFORM</Type>
+			<BuildingClass>BUILDINGCLASS_DEEP_DRILLING_PLATFORM</BuildingClass>
+			<Cost>1000</Cost>
+			<GoldMaintenance>15</GoldMaintenance>
+			<PrereqTech>TECH_BALLISTICS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_DEEP_DRILLING_PLATFORM</Description>
+			<Civilopedia>TXT_KEY_BUILDING_DEEP_DRILLING_PLATFORM_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_DEEP_DRILLING_PLATFORM_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_DEEP_DRILLING_PLATFORM_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_FACTORY</ArtDefineTag>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<IconAtlas>UNIT_COLOR_ATLAS_DEEP_DRILLING_PLATFORM</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_DEEP_DRILLING_PLATFORM</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_ResourceQuantity>
+		<Row>
+			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Quantity>10</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
+	<Building_PrereqBuildingClasses>
+		<Row>
+			<BuildingType>BUILDING_DEEP_DRILLING_PLATFORM</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_OIL_REFINERY</BuildingClassType>
+			<NumBuildingNeeded>5</NumBuildingNeeded>
+		</Row>
+	</Building_PrereqBuildingClasses>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_DEEP_DRILLING_PLATFORM</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>70</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DEEP_DRILLING_PLATFORM</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>70</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DEEP_DRILLING_PLATFORM</BuildingType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>70</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_DEEP_DRILLING_PLATFORM">
+			<Text>Deep Drilling Platform</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DEEP_DRILLING_PLATFORM_HELP">
+			<Text>You must have built 5 Oil Refineries in all your other cities before you can build this. The Deep Drilling Platform provides +5 [ICON_PRODUCTION] and +10 [ICON_RES_OIL] Oil Resources. It costs 15 [ICON_GOLD] in maintenance. You may only build one.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DEEP_DRILLING_PLATFORM_STRATEGY">
+			<Text>The Deep Drilling Platform provides a wealth of oil but is costly to implement and maintain. Provides 2 engineer specialist slots.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DEEP_DRILLING_PLATFORM_TEXT">
+			<Text>A drilling rig is a machine which creates holes in the ground. Drilling rigs can be massive structures housing equipment used to drill water wells, oil wells, or natural gas extraction wells, or they can be small enough to be moved manually by one person.[citation needed] They sample sub-surface mineral deposits, test rock, soil and groundwater physical properties, and also can be used to install sub-surface fabrications, such as underground utilities, instrumentation, tunnels or wells. Drilling rigs can be mobile equipment mounted on trucks, tracks or trailers, or more permanent land or marine-based structures (such as oil platforms, commonly called 'offshore oil rigs' even if they don't contain a drilling rig). The term "rig" therefore generally refers to the complex of equipment that is used to penetrate the surface of the Earth's crust.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

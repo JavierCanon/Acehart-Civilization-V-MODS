@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/18/2013 8:06:46 PM -->
+<!-- Author: knightmare13-->
+<GameData>
+<!-- Allow you to build Citadel outside your borders -->
+<!-- what make this possible is the "OutsideBorders" ,-->
+<!-- i get this from the "IMPROVEMENT_FORT" codes, in which forts -->
+<!-- could be build outside you borders. -->
+	
+	<Improvements>
+		<Update>
+			<Where Type="IMPROVEMENT_CITADEL"/>
+			<Set>
+				<OutsideBorders>true</OutsideBorders>
+				<CultureBombRadius>1</CultureBombRadius>
+			</Set>
+		</Update>
+	</Improvements>
+
+<!-- make Heroic Epic promotion, "MORALE" a National promotion -->
+<!-- ( or what ever you called it :D) means every military unit -->
+<!-- in the game receives this promotion even it is build before -->
+<!-- the Heroic Epic been build in one of your Cities. -->
+	
+<!-- If you don't want this effect in the game feel free to delete -->
+<!-- the whole "Buildings" tree.-->
+
+	<Buildings>
+		<Update>
+			<Where Name="BUILDING_HEROIC_EPIC"/>
+			<Set>
+				<TrainedFreePromotion>NULL</TrainedFreePromotion>
+				<FreePromotion>PROMOTION_MORALE</FreePromotion>
+			</Set>
+		</Update>
+	</Buildings>
+	
+</GameData>

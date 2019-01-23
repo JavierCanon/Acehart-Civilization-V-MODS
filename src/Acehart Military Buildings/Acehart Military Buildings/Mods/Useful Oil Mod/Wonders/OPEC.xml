@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/2/2012 10:27:39 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_OPEC</Type>
+			<DefaultBuilding>BUILDING_OPEC</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_OPEC</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_OPEC</Type>
+			<BuildingClass>BUILDINGCLASS_OPEC</BuildingClass>
+			<Description>TXT_KEY_BUILDING_OPEC</Description>
+			<Help>TXT_KEY_WONDER_OPEC_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_OPEC_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_OPEC_QUOTE</Quote>
+			<ArtDefineTag>PENTAGON</ArtDefineTag>
+			<Cost>1500</Cost>
+			<PrereqTech>TECH_ECOLOGY</PrereqTech>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>UNIT_COLOR_ATLAS_OPEC</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+			<WonderSplashImage>OPECHQ.dds</WonderSplashImage>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_OPEC</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_DEEP_DRILLING_PLATFORM</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_OPEC</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>12</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_ResourceQuantity>
+		<Row>
+			<BuildingType>BUILDING_OPEC</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Quantity>12</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_OPEC</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OPEC</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OPEC</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_OPEC</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_OPEC</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_OPEC">
+			<Text>OPEC</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_OPEC_HELP">
+			<Text>The city in which this is built must have a Deep Drilling Platform. When OPEC is built, it provides +12 [ICON_GOLD] Gold and +12 [ICON_RES_OIL] Oil resources.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_OPEC_QUOTE">
+			<Text>"The use of solar energy has not been opened up because the oil industry does not own the sun."[NEWLINE] - Ralph Nader</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_OPEC_PEDIA">
+			<Text>The Organization of the Petroleum Exporting Countries or OPEC is an intergovernmental organization of twelve oil-producing countries made up of Algeria, Angola, Ecuador, Iran, Iraq, Kuwait, Libya, Nigeria, Qatar, Saudi Arabia, the United Arab Emirates, and Venezuela. OPEC has had its headquarters in Vienna since 1965, and hosts regular meetings among the oil ministers of its Member Countries. Indonesia withdrew in 2008 after it became a net importer of oil, but stated it would likely return if it became a net exporter again.[NEWLINE][NEWLINE]According to its statutes, one of the principal goals is the determination of the best means for safeguarding the organization's interests, individually and collectively. It also pursues ways and means of ensuring the stabilization of prices in international oil markets with a view to eliminating harmful and unnecessary fluctuations; giving due regard at all times to the interests of the producing nations and to the necessity of securing a steady income to the producing countries; an efficient and regular supply of petroleum to consuming nations, and a fair return on their capital to those investing in the petroleum industry.[NEWLINE][NEWLINE]OPEC's influence on the market has been widely criticized, since it became effective in determining production and prices. Arab members of OPEC alarmed the developed world when they used the “oil weapon” during the Yom Kippur War by implementing oil embargoes and initiating the 1973 oil crisis. Although largely political explanations for the timing and extent of the OPEC price increases are also valid, from OPEC’s point of view, these changes were triggered largely by previous unilateral changes in the world financial system and the ensuing period of high inflation in both the developed and developing world. This explanation encompasses OPEC actions both before and after the outbreak of hostilities in October 1973, and concludes that “OPEC countries were only 'staying even' by dramatically raising the dollar price of oil.”</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

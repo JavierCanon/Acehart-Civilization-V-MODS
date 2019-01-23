@@ -1,0 +1,87 @@
+-- MOD Description
+-- Author: javier
+-- DateCreated: 4/30/2014 11:44:50 AM
+--------------------------------------------------------------
+
+Adds the Sniper, Modern Sniper, AT (Antitank) Sniper, as a ranged unit. Use it for recon and support unit, good for attack, bad defending, so protect them or run. The sniper has 1 moves but a large range of view, and also can move after attacking (promotions). This means it can perform hit-and-run attacks; attack, and move out. Its strong in ranged. 
+
+>>> PROMOTIONS <<< 
+Specific:
+1. Bad for attack cities, ships and melee combat. (all) 
+2. Headshot: bonus vs mounted, ranged, gun, melee and recon units. (all) 
+3. AntiTank: bonus vs armor and tanks. (only AT Sniper) 
+4. very weak defending themselves. (all)
+
+General:
+1 = true
+<RangedSupportFire>1</RangedSupportFire>
+<CanMoveImpassable>1</CanMoveImpassable>
+<OnlyDefensive>1</OnlyDefensive>
+<NoDefensiveBonus>1</NoDefensiveBonus>
+<AllowsEmbarkation>1</AllowsEmbarkation>
+<RangeAttackIgnoreLOS>1</RangeAttackIgnoreLOS>
+<CityAttack>-100</CityAttack>
+<CityDefense>50</CityDefense>
+<OpenRangedAttackMod>30</OpenRangedAttackMod>
+<RoughRangedAttackMod>-20</RoughRangedAttackMod>
+<AttackFortifiedMod>20</AttackFortifiedMod>
+<FlankAttackModifier>20</FlankAttackModifier>
+<FriendlyLandsAttackModifier>20</FriendlyLandsAttackModifier>
+
+>>> TECH <<< 
+1. <Type>UNIT_SNIPER</Type>
+<PrereqTech>TECH_RIFLING</PrereqTech>
+<ObsoleteTech>TECH_PLASTIC</ObsoleteTech>
+
+2. <Type>UNIT_MODERN_SNIPER</Type>
+<PrereqTech>TECH_PLASTIC</PrereqTech>
+
+3. <Type>UNIT_AT_SNIPER</Type>
+<PrereqTech>TECH_BALLISTICS</PrereqTech>
+
+>>> TO DO <<< 
+1. Balance, please suggest.
+2. AI tests.
+
+¿Sugestions? 
+Example:
+1. ¿Invisible for some units? (like submarine) 
+2. ¿Paradrop?
+
+*** IMPORTANT SO YOU CAN SEE ANIMATIONS AND SOUNDS ***
+
+NOTE: You dont need to make this, if you have and make this for the  R.E.D. Modpack Mod.
+
+1. Use the "Copy Edited_Animations" folder inside mod folder:
+C:\Users\[username]\Documents\My Games\Sid Meier's Civilization 5\MODS\Acehart Snipers (v [1])\
+
+2. Please put the folder and contents "Edited_Animations" to the install dir:
+C:\Program Files (x86)\Steam\steamapps\common\sid meier's civilization v\Assets\Units\
+and replace the files.
+
+3. Added some effects, please put the "civ5artdefines_viseffects.xml" to the install dir:
+C:\Program Files (x86)\Steam\steamapps\common\sid meier's civilization v\resource\Common\
+and replace it.
+
+[h1]>>> For Errors, Bugs and Crahses: <<<[/h1]
+1. Enable logs in config.ini 
+Location: 
+C:\Users\[Uername]\Documents\My Games\Sid Meier's Civilization 5
+2. Enable in [DEBUG] section:
+; Enable the logging system
+LoggingEnabled = 1
+; Show combat debugging overlays
+CombatDebug = 1
+3. Play a NEW game enabling the mods.
+4. Check the logs folder:
+C:\Users\[username]\Documents\My Games\Sid Meier's Civilization 5\Logs
+5. Share or post the Database.log file.
+
+(http://forums.civfanatics.com/showthread.php?t=487482)
+
+*** CREDITS ***
+I use art and ideas from others mods:
+Danrell (Civ5 WWII Unit Pack 16 : Paratrooper - R.E.D. Modpack).
+Spencerhart.
+Harald B. for the original concept, and Skirmisher Icon.
+All Modders.

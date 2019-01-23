@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SNIPER</Type>
+			<Description>TXT_KEY_UNIT_SNIPER</Description>
+			<DefaultUnit>UNIT_SNIPER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MODERN_SNIPER</Type>
+			<Description>TXT_KEY_UNIT_MODERN_SNIPER</Description>
+			<DefaultUnit>UNIT_MODERN_SNIPER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_AT_SNIPER</Type>
+			<Description>TXT_KEY_UNIT_AT_SNIPER</Description>
+			<DefaultUnit>UNIT_AT_SNIPER</DefaultUnit>
+		</Row>	
+	</UnitClasses>
+</GameData>

@@ -1,0 +1,61 @@
+-- MOD Description
+-- Author: javier
+-- DateCreated: 05/06/2014 08:00:00 PM
+--------------------------------------------------------------
+
+NOTE: MOD IN DEVELOPMENT. STATUS: ALPHA.
+(Help Wanted) new Graphic units: UH-1, UH-60, and/or other if you have the art ;) 
+
+General New Behavior:
+- Attak Helis now can enter in lakes and coast (not in ocean). Good vs tanks and armor, weak vs airplanes and AA guns/missiles.
+- Heli's now need aluminium and oil resource.  Why? because they are powerful, strategic and versatile units, and this is a war for resources... or make infantry...
+
+Adds the following units:
+_____________________________________________________
+1. HeliSquad = remember vietnam?, infantry with more movility, atomic era helicopters.  Cant enter any water tile.
+
+_____________________________________________________
+2. HeliSquad II = infantry with more movility, final atomic era helicopters. Cant enter any water tile.
+
+_____________________________________________________
+3. AttackHeli = final atomic era attack helicopters.
+ Current Gunship.
+_____________________________________________________
+4. AttackHeli II = information era attack helicopters, bonus vs. tanks, armor and cities.
+
+_____________________________________________________
+5. HeliMedic = early atomic era medic heli. Healts nearby units.
+
+_____________________________________________________
+6. HeliMedic II = information era medic heli. Healts nearby units.
+* PENDING *
+
+_____________________________________________________
+7. HeliTransport = atomic era transport. Large movement.
+Can carry 3 cargo to the front of the battle.
+Current limitation: can only load/unload in coast, like a ship...
+_____________________________________________________
+8. ASWHeli = 
+Atomic era anti-submarine warfare. Helicopters with anti-submarine warfare (ASW) systems are widely deployed by naval forces as a means to counter submarines at long ranges. 
+Bonus vs submarines.
+
+
+>>> TECH <<< 
+
+
+>>> PROMOTIONS <<< 
+
+
+>>> TO DO <<< 
+1. Balance, please suggest.
+2. (Help Wanted) new Graphic units: UH-1, UH-60. 
+
+¿Sugestions? ¿want to help? 
+Please post your comments.
+
+
+
+*** CREDITS ***
+Im using art and ideas from others mods:
+Danrell (R.E.D. Modpack).
+All Modders.

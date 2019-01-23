@@ -1,0 +1,40 @@
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_AIRBASE</Type>
+			<DefaultBuilding>BUILDING_AIRBASE</DefaultBuilding>
+			<Description>Airbase</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AIRBASE</Type>
+			<BuildingClass>BUILDINGCLASS_AIRBASE</BuildingClass>
+			<Cost>200</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_RADIO</PrereqTech>
+			<Help>+15 XP for all air units.</Help>
+			<Description>Airbase</Description>
+			<Civilopedia>An airbase (sometimes referred to as a military airfield, military airport, air force station or air force base) is an airfield used by a military force for the operation of military aircraft.[NEWLINE][NEWLINE]An airbase typically has some facilities similar to a civilian airport—for example air traffic control and firefighting. Some military airfields have passenger facilities; for example RAF Brize Norton in England has a terminal used by passengers for the Royal Air Force's flights by TriStar to the Falkland Islands. A number of military airbases also have a civil enclave for commercial passenger flights, e.g. Beijing Nanyuan Airport (China), Ibaraki Airport (Japan), Burlington International Airport (USA).[NEWLINE]Some airbases have revetments, hardened aircraft shelters, or even underground hangars, to protect aircraft from enemy attack. Combat aircraft require storage of aircraft ordnance. An airbase may be defended by anti-aircraft weapons and force protection troops.[NEWLINE][NEWLINE]Road airbases are highways constructed to double as auxiliary airbases in the event of war. Nations known to utilize this strategy are Sweden, Finland, Pakistan, Germany, Singapore, Switzerland, South Korea, Turkey and Poland. In the case of Finnish road airbases, the space needed for landing aircraft is reduced by means of an arrestor wire, similar to that used on some aircraft carriers.[NEWLINE][NEWLINE]An aircraft carrier is a type of naval ship which serves as a seaborne airbase, the development of which has greatly enhanced the capabilities of modern air forces. They are now a key part of the military, allowing for military aircraft to be staged much nearer the theatre of conflict. Aircraft carriers were vital to the United States during World War II and to the United Kingdom in the 1982 Falklands War. They retain modern roles as well as "several acres of sovereign territory a nation can move about at will," which allows greater flexibility in diplomacy as well as military affairs. Aircraft carriers are also used in disaster relief.</Civilopedia>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<IconAtlas>MILITARY_BUILDINGS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<NukeImmune>true</NukeImmune>
+			<ConquestProb>100</ConquestProb>
+		</Row>
+	</Buildings>
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_AIRBASE</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>15</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AIRBASE</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+</GameData>

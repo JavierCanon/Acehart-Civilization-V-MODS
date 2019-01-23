@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/13/2013 11:25:18 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_FOREST_ACADEMY">
+			<Text>Jungler Academy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOREST_ACADEMY_HELP">
+			<Text>1 per each Civ[NEWLINE] Trained units have Woodsman promotion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MARINE_ACADEMY">
+			<Text>Marine academy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MARINE_ACADEMY_HELP">
+			<Text>1 per each Civ[NEWLINE]Trained units have Amphibious promotion  </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MOUNT_BLADE">
+			<Text>Legends of Hannibal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MOUNT_BLADE_HELP">
+			<Text>1 per each Civ[NEWLINE]Trained units have Hovering promotion</Text>
+		</Row>
+
+	</Language_en_US>
+	<Language_KO_KR>
+		<Row Tag="TXT_KEY_BUILDING_FOREST_ACADEMY">
+			<Text>정글러 사관학교</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOREST_ACADEMY_HELP">
+			<Text>문명당 1개[NEWLINE] 훈련된 유닛은 벌목꾼 승급을 갖습니다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MARINE_ACADEMY">
+			<Text>해병 사관학교</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MARINE_ACADEMY_HELP">
+			<Text>문명당 1개 [NEWLINE]훈련된 유닛은 수륙양용 승급을 갖습니다</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MOUNT_BLADE">
+			<Text>한니발의 전설</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MOUNT_BLADE_HELP">
+			<Text>문명당 1개 [NEWLINE]훈련된 유닛은 산악 승급을 갖습니다</Text>
+		</Row>
+
+	</Language_KO_KR>
+</GameData>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/30/2012 5:51:44 PM -->
+<!-- KEEP CHANGING THEM, ALSO CHECK THIS http://forums.civfanatics.com/showthread.php?t=475497 IT SAYS HOW How to make unit cost 2 strategic resources? -->
+<GameData>
+	<Unit_ResourceQuantityRequirements>
+			<Row>
+				<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+				<ResourceType>RESOURCE_OIL</ResourceType>
+			</Row>
+			<Row>
+				<UnitType>UNIT_CARRIER</UnitType>
+				<ResourceType>RESOURCE_OIL</ResourceType>
+			</Row>
+			<Row>
+				<UnitType>UNIT_SUBMARINE</UnitType>
+				<ResourceType>RESOURCE_OIL</ResourceType>
+			</Row>
+			<Row>
+				<UnitType>UNIT_DESTROYER</UnitType>
+				<ResourceType>RESOURCE_OIL</ResourceType>
+			</Row>
+			<Row>
+				<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+				<ResourceType>RESOURCE_OIL</ResourceType>
+			</Row>
+			<Row>
+				<UnitType>UNIT_JET_FIGHTER</UnitType>
+				<ResourceType>RESOURCE_OIL</ResourceType>
+			</Row>
+			<Row>
+				<UnitType>UNIT_MODERN_ARMOR</UnitType>
+				<ResourceType>RESOURCE_OIL</ResourceType>
+			</Row>
+			<Row>
+				<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+				<ResourceType>RESOURCE_OIL</ResourceType>
+			</Row>
+			<Row>
+				<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
+				<ResourceType>RESOURCE_OIL</ResourceType>
+			</Row>
+			<Row>
+				<UnitType>UNIT_MECHANIZED_INFANTRY</UnitType>
+				<ResourceType>RESOURCE_OIL</ResourceType>
+			</Row>
+	</Unit_ResourceQuantityRequirements>
+</GameData>

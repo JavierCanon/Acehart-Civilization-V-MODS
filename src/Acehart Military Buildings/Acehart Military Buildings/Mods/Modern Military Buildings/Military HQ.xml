@@ -1,0 +1,63 @@
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_MILITARY_HQ</Type>
+			<DefaultBuilding>BUILDING_MILITARY_HQ</DefaultBuilding>
+			<Description>Military Headquarters</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_MILITARY_HQ</Type>
+			<BuildingClass>BUILDINGCLASS_MILITARY_HQ</BuildingClass>
+			<Cost>300</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+			<Help>+30 XP for all units. A Great General appears near the city.</Help>
+			<Description>Military Headquarters</Description>
+			<Civilopedia>Military headquarters take many forms depending on the size and nature of the unit or formation they command. Typically, they are split into the forward, main and rear components, both within NATO nations, and those following the organization and doctrine of the former Soviet Union (see Isby, 1988).[NEWLINE]The forward or tactical HQs (known as 'Tac' for short) is a small group of staff and communicators. Usually very mobile, they exist to allow the commander to go forward in an operation, and command the key parts of it from a position where they can see the ground and influence their immediate subordinates.[NEWLINE]The main HQs (known as 'Main') is less mobile and is involved in both the planning and execution of operations. There are a number of staff assembled here from various staff branches to advise the commander, and to control the various aspects of planning and the conduct of discrete operations. A main HQ for a large formation will have a chief of staff (CoS) who coordinates the staff effort; in a smaller HQ this may be done by the second-in-command.[NEWLINE]The rear or logistic HQs ('Rear') is some distance from the battle or front line in conventional operations. Its function is to ensure the logistical support to front line troops, which it does by organizing the delivery of combat supplies, material and equipment to where they are needed, and by organizing services such as combat medicine, equipment recovery and repair.</Civilopedia>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<IconAtlas>MILITARY_BUILDINGS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+	</Buildings>
+	<Building_FreeUnits>
+		<Row>
+			<BuildingType>BUILDING_MILITARY_HQ</BuildingType>
+			<UnitType>UNIT_GREAT_GENERAL</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+	</Building_FreeUnits>
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_MILITARY_HQ</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>30</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MILITARY_HQ</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>30</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MILITARY_HQ</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>30</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_MILITARY_HQ</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MILITARY_HQ</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+</GameData>

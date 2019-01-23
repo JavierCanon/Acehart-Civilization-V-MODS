@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="edcd12a0-40d1-462a-a8dc-3fab7b31cb12" version="1">
+  <Properties>
+    <Name>Acehart Military Buildings</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds Military Buildings like a Wargame</Teaser>
+    <Description>Adds Military Buildings like a Wargame</Description>
+    <Authors>Acehart</Authors>
+    <SpecialThanks>Danrell</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">ART/no_gloss.dds</File>
+    <File md5="FC9B5406C026FA7ABE1F8E6F9F6CE172" import="0">Install Instructions.txt</File>
+    <File md5="950618FFB2666A9F22B3CF72B912F3FC" import="0">MOD Description.txt</File>
+    <File md5="A79277AA52DDCC684254BDFA4380CC4C" import="0">Mods/Citadel/CIV5Units.xml</File>
+    <File md5="4CE2E9D829F8E8A4C9C29E465FA8F08B" import="0">Mods/Enhanced Military Buildings/Enhanced Military Buildings.xml</File>
+    <File md5="EFF6819CD223C358C56D3CD3992E4266" import="0">Mods/Modern Military Buildings/Airbase.xml</File>
+    <File md5="D737116EA7B568CF0DFF61DF5EFB64A3" import="0">Mods/Modern Military Buildings/Firing Range.xml</File>
+    <File md5="F8C35A33DF5E3F548AE337FA0AE3CC12" import="0">Mods/Modern Military Buildings/Military HQ.xml</File>
+    <File md5="F76891128B015F4CB76138F3C368711D" import="0">Mods/Modern Military Buildings/MilitaryBuildingIconAtlases.xml</File>
+    <File md5="38DA5B4DAF3F2668AC1EC7B2E9FA112B" import="1">Mods/Modern Military Buildings/MilitaryBuildingIcons128.dds</File>
+    <File md5="A1BC2E0D7269CEC1B4F296350F0F8106" import="1">Mods/Modern Military Buildings/MilitaryBuildingIcons256.dds</File>
+    <File md5="9D032B182FFF7C0B1EE9DD60D2DFDD75" import="1">Mods/Modern Military Buildings/MilitaryBuildingIcons45.dds</File>
+    <File md5="493425E27CAD02EB1CF0F6877B9BD4C0" import="1">Mods/Modern Military Buildings/MilitaryBuildingIcons64.dds</File>
+    <File md5="86EBD918ECA468C4859F08B949CEA36B" import="0">Mods/Modern Military Buildings/Pentagon Updates.xml</File>
+    <File md5="B8B9DD4E8D373210E39257519AF8C81E" import="1">Mods/National Navy Academy/AN_Atlas45.dds</File>
+    <File md5="C9B32C231B515349B9C5DAD2328E3F44" import="1">Mods/National Navy Academy/AN_SMALL_ATLAS128.dds</File>
+    <File md5="BAEB08680935871E9039871E8D5CD6A1" import="1">Mods/National Navy Academy/AN_SMALL_ATLAS256.dds</File>
+    <File md5="681B4E7D2ABCE8C8CAA1CEBAC5B78DFE" import="1">Mods/National Navy Academy/AN_SMALL_ATLAS64.dds</File>
+    <File md5="89782AC73D6B30760F1E8DD1411649CA" import="0">Mods/National Navy Academy/National Navy Academy.xml</File>
+    <File md5="77CCF2D2DFF7274B0A4064F6BF88D783" import="0">Mods/Special Force Academy/Buildings.xml</File>
+    <File md5="81455E1E670F7A6CA41EEB5B58BCE141" import="0">Mods/Special Force Academy/Building_classes.xml</File>
+    <File md5="6B0CC1ABCA2F1BC12732EA5269F58232" import="1">Mods/Special Force Academy/HannibalAtlas128.dds</File>
+    <File md5="8DAF2B3D3CB14348893D65759F9AD61E" import="1">Mods/Special Force Academy/HannibalAtlas256.dds</File>
+    <File md5="7D0AFEFF006236E3D1915A87C10BBA53" import="1">Mods/Special Force Academy/HannibalAtlas45.dds</File>
+    <File md5="7D0AFEFF006236E3D1915A87C10BBA53" import="1">Mods/Special Force Academy/HannibalAtlas64.dds</File>
+    <File md5="24DA3AD7390D346113F0DC2A37DCF556" import="0">Mods/Special Force Academy/Icons.xml</File>
+    <File md5="3BB8EEE1BCF273E5440C8CD4E064F4EE" import="1">Mods/Special Force Academy/JunglerAtlas128.dds</File>
+    <File md5="C32FC1BD9BD755C9FC40410C5E7364F4" import="1">Mods/Special Force Academy/JunglerAtlas256.dds</File>
+    <File md5="43AC38910FCFDDA08CCD3EDC57AA1178" import="1">Mods/Special Force Academy/JunglerAtlas45.dds</File>
+    <File md5="43AC38910FCFDDA08CCD3EDC57AA1178" import="1">Mods/Special Force Academy/JunglerAtlas64.dds</File>
+    <File md5="95D4FCB6EEE79186BC3F35AD4C3871F1" import="1">Mods/Special Force Academy/MarineAtlas128.dds</File>
+    <File md5="4B5E0FDC1F30A0ACF3A446240D96BF15" import="1">Mods/Special Force Academy/MarineAtlas256.dds</File>
+    <File md5="1CEE1F4589F9E3AA397CA965EE2B36AB" import="1">Mods/Special Force Academy/MarineAtlas45.dds</File>
+    <File md5="BF054C7A03B355CA39D0D5F9746AF0FC" import="1">Mods/Special Force Academy/MarineAtlas64.dds</File>
+    <File md5="22E691CE614EA954FECE4EFDDF8F59C8" import="0">Mods/Special Force Academy/Text.xml</File>
+    <File md5="3AC8A3B27787A6A3121AC6F83B515390" import="0">Mods/Strategic Resource Buildings/Civ5BuildingClasses.xml</File>
+    <File md5="151C8FFA6C67DC45D1902F3326373AC6" import="0">Mods/Strategic Resource Buildings/Civ5Buildings.xml</File>
+    <File md5="FC595AD94D4F41EF9FD177B16F606938" import="0">Mods/Strategic Resource Buildings/Civ5GameText.xml</File>
+    <File md5="7E01E66B0D4C78EC0940C33941A4460A" import="1">Mods/Useful Oil Mod/Art/DeepDrillingPlatform128.dds</File>
+    <File md5="3DA7BA00116EEBBE9B891D26734EF0B9" import="1">Mods/Useful Oil Mod/Art/DeepDrillingPlatform256.dds</File>
+    <File md5="10AF9BAB3688315AF063D0D1AA98F998" import="1">Mods/Useful Oil Mod/Art/DeepDrillingPlatform45.dds</File>
+    <File md5="EB777B456E589530C4DF5275F074A830" import="1">Mods/Useful Oil Mod/Art/DeepDrillingPlatform64.dds</File>
+    <File md5="D5CE10281981FEF0268C6AC51B83025A" import="1">Mods/Useful Oil Mod/Art/GeologicalSurvey128.dds</File>
+    <File md5="2B30679EA2A3981179CE5A6C0C90F857" import="1">Mods/Useful Oil Mod/Art/GeologicalSurvey256.dds</File>
+    <File md5="874AF2923CC490A179C4A1979F1B216B" import="1">Mods/Useful Oil Mod/Art/GeologicalSurvey45.dds</File>
+    <File md5="959685FA44C94A9952D3FFE5A18EA820" import="1">Mods/Useful Oil Mod/Art/GeologicalSurvey64.dds</File>
+    <File md5="3BE7F2CAB8D48AE3AF8734EBDC4DA83D" import="1">Mods/Useful Oil Mod/Art/OilFields128.dds</File>
+    <File md5="EBEA6F83DCC1903F420B6FA6BE193E58" import="1">Mods/Useful Oil Mod/Art/OilFields256.dds</File>
+    <File md5="F2738BCE4B27331A4614657B4D91ECD6" import="1">Mods/Useful Oil Mod/Art/OilFields45.dds</File>
+    <File md5="7FF524B6FEFEAE7D3DB0E02A79860CE7" import="1">Mods/Useful Oil Mod/Art/OilFields64.dds</File>
+    <File md5="9456B5CA9916866863BB0DDF2F516762" import="1">Mods/Useful Oil Mod/Art/OilPipeline128.dds</File>
+    <File md5="5D7AD8BD42FF4D6C332DBF2F6621BA56" import="1">Mods/Useful Oil Mod/Art/OilPipeline256.dds</File>
+    <File md5="688DA27FB02E7C9BDC63B6E8B1243063" import="1">Mods/Useful Oil Mod/Art/OilPipeline45.dds</File>
+    <File md5="1776FA82F66965F35A20AF04A8F4AD65" import="1">Mods/Useful Oil Mod/Art/OilPipeline64.dds</File>
+    <File md5="B380565907EF6E712D51BA90FD55F15F" import="1">Mods/Useful Oil Mod/Art/OilRefinery128.dds</File>
+    <File md5="7B87C3E9271CAD649A80379365C95CEC" import="1">Mods/Useful Oil Mod/Art/OilRefinery256.dds</File>
+    <File md5="3B76C7205DCB8632929D1763E34CC046" import="1">Mods/Useful Oil Mod/Art/OilRefinery45.dds</File>
+    <File md5="7FF2EE51FE550E2C92E88AE22566F46D" import="1">Mods/Useful Oil Mod/Art/OilRefinery64.dds</File>
+    <File md5="5ECA3BEC845B862F04C1F571E7FA015A" import="1">Mods/Useful Oil Mod/Art/OPEC128.dds</File>
+    <File md5="5F3E220EE26687C5429426D13F666891" import="1">Mods/Useful Oil Mod/Art/OPEC256.dds</File>
+    <File md5="C87B045BF24E55B12E3CDE23C1E15BF1" import="1">Mods/Useful Oil Mod/Art/OPEC45.dds</File>
+    <File md5="F4D09793147CCB03C772B4CBA8CF9DD9" import="1">Mods/Useful Oil Mod/Art/OPEC64.dds</File>
+    <File md5="69FCFBD601C811CB2AF9BD5E3CF20CA5" import="1">Mods/Useful Oil Mod/Art/OPEC80.dds</File>
+    <File md5="555BD42B06E3520F9C5BFE897EFEB08D" import="1">Mods/Useful Oil Mod/Art/OPECHQ.dds</File>
+    <File md5="C09B00310AA19B82A7082B7E2D389746" import="0">Mods/Useful Oil Mod/Buildings/DeepDrillingPlatform.xml</File>
+    <File md5="75E0CE092793DF9BB9DA994EC39BA677" import="0">Mods/Useful Oil Mod/Buildings/GeologicalSurvey.xml</File>
+    <File md5="CD723CC45965FB885E7D4CEC5E399443" import="0">Mods/Useful Oil Mod/Buildings/OilFields.xml</File>
+    <File md5="3E839A8E4590816BBFE6BFAFDC394CF0" import="0">Mods/Useful Oil Mod/Buildings/OilPipeline.xml</File>
+    <File md5="98898C0C7CA2DD201C4E619CD74BFFAF" import="0">Mods/Useful Oil Mod/Buildings/OilRefinery.xml</File>
+    <File md5="2BE2840910041270D3733A1394A4CDA2" import="0">Mods/Useful Oil Mod/GameInfo/CIV5IconTextureAtlases.xml</File>
+    <File md5="5F354607F85365C0618840906DDC3A1F" import="0">Mods/Useful Oil Mod/UnitResourceUpdate.xml</File>
+    <File md5="ED83421327D021E811FEB345B9D524FA" import="0">Mods/Useful Oil Mod/Wonders/OPEC.xml</File>
+    <File md5="7C68C6AAF84AA1EB47F7B861AAE60DCC" import="0">Mods/Useful Oil Mod/YieldsUpdate.xml</File>
+    <File md5="E7F07EAAE87CD8FE5149213BE65DBA3A" import="0">Version History.txt</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Mods/Citadel/CIV5Units.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Enhanced Military Buildings/Enhanced Military Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Modern Military Buildings/Airbase.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Modern Military Buildings/Firing Range.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Modern Military Buildings/Military HQ.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Modern Military Buildings/MilitaryBuildingIconAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Modern Military Buildings/Pentagon Updates.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/National Navy Academy/National Navy Academy.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Useful Oil Mod/Buildings/DeepDrillingPlatform.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Useful Oil Mod/Buildings/GeologicalSurvey.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Useful Oil Mod/Buildings/OilFields.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Useful Oil Mod/Buildings/OilPipeline.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Useful Oil Mod/Buildings/OilRefinery.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Useful Oil Mod/GameInfo/CIV5IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Useful Oil Mod/Wonders/OPEC.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Useful Oil Mod/UnitResourceUpdate.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Useful Oil Mod/YieldsUpdate.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Strategic Resource Buildings/Civ5BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Strategic Resource Buildings/Civ5Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Strategic Resource Buildings/Civ5GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Special Force Academy/Building_classes.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Special Force Academy/Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Special Force Academy/Icons.xml</UpdateDatabase>
+      <UpdateDatabase>Mods/Special Force Academy/Text.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
