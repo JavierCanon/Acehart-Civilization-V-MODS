@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Units>
+    
 		<Row>
 			<Class>UNITCLASS_SNIPER</Class>
 			<Type>UNIT_SNIPER</Type>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<ObsoleteTech>TECH_PLASTIC</ObsoleteTech>
-			<Combat>20</Combat>
+			<Combat>100</Combat>
 			<RangedCombat>100</RangedCombat>
 			<Cost>240</Cost>
 			<Moves>1</Moves>
@@ -25,19 +26,20 @@
 			<GoodyHutUpgradeUnitClass>UNITCLASS_MODERN_SNIPER</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>30</AdvancedStartCost>
 			<XPValueAttack>1</XPValueAttack>
-			<XPValueDefense>1</XPValueDefense>
+			<XPValueDefense>0</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_SNIPER</UnitArtInfo>
 			<UnitFlagAtlas>SNIPERS_UNITS_FLAGS</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_SNIPER</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
+    
 		<Row>
 			<Class>UNITCLASS_MODERN_SNIPER</Class>
 			<Type>UNIT_MODERN_SNIPER</Type>
 			<PrereqTech>TECH_PLASTIC</PrereqTech>
-			<Combat>30</Combat>
-			<RangedCombat>200</RangedCombat>
+			<Combat>120</Combat>
+			<RangedCombat>120</RangedCombat>
 			<Cost>360</Cost>
 			<Moves>1</Moves>
 			<Range>2</Range>
@@ -55,7 +57,7 @@
 			<GoodyHutUpgradeUnitClass>UNITCLASS_AT_SNIPER</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>30</AdvancedStartCost>
 			<XPValueAttack>1</XPValueAttack>
-			<XPValueDefense>1</XPValueDefense>
+			<XPValueDefense>0</XPValueDefense>
 			<Conscription>6</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_MODERN_SNIPER</UnitArtInfo>
 			<UnitFlagAtlas>SNIPERS_UNITS_FLAGS</UnitFlagAtlas>
@@ -63,12 +65,13 @@
 			<IconAtlas>CIV_COLOR_ATLAS_SNIPER</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
+    
 		<Row>
 			<Class>UNITCLASS_AT_SNIPER</Class>
 			<Type>UNIT_AT_SNIPER</Type>
 			<PrereqTech>TECH_BALLISTICS</PrereqTech>
-			<Combat>40</Combat>
-			<RangedCombat>300</RangedCombat>
+			<Combat>200</Combat>
+			<RangedCombat>200</RangedCombat>
 			<Cost>480</Cost>
 			<Moves>1</Moves>
 			<Range>2</Range>
@@ -85,7 +88,7 @@
 			<Pillage>false</Pillage>
 			<AdvancedStartCost>30</AdvancedStartCost>
 			<XPValueAttack>1</XPValueAttack>
-			<XPValueDefense>1</XPValueDefense>
+			<XPValueDefense>0</XPValueDefense>
 			<Conscription>6</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_AT_SNIPER</UnitArtInfo>
 			<UnitFlagAtlas>SNIPERS_UNITS_FLAGS</UnitFlagAtlas>
@@ -93,11 +96,13 @@
 			<IconAtlas>CIV_COLOR_ATLAS_SNIPER</IconAtlas>
 			<PortraitIndex>1</PortraitIndex>
 		</Row>
+    
 		<Update>
 			<Set GoodyHutUpgradeUnitClass="UNITCLASS_SNIPER"/>
 			<Where Class="UNITCLASS_CROSSBOWMAN"/>
 		</Update>	
 	</Units>
+  
 	<Unit_AITypes>
 		<Row>
 			<UnitType>UNIT_SNIPER</UnitType>
@@ -112,6 +117,7 @@
 			<UnitAIType>UNITAI_RANGED</UnitAIType>
 		</Row>		
 	</Unit_AITypes>
+  
 	<Unit_ClassUpgrades>
 		<Update>
 			<Set UnitClassType="UNITCLASS_SNIPER"/>
@@ -135,6 +141,7 @@
 		</Row>
 
 	</Unit_ClassUpgrades>
+  
 	<Unit_Flavors>
 		<Row>
 			<UnitType>UNIT_SNIPER</UnitType>

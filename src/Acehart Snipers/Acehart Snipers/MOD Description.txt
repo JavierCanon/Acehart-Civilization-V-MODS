@@ -3,30 +3,30 @@
 -- DateCreated: 4/30/2014 11:44:50 AM
 --------------------------------------------------------------
 
-Adds the Sniper, Modern Sniper, AT (Antitank) Sniper, as a ranged unit. Use it for recon and support unit, good for attack, bad defending, so protect them or run. The sniper has 1 moves but a large range of view, and also can move after attacking (promotions). This means it can perform hit-and-run attacks; attack, and move out. Its strong in ranged. 
+Adds the Sniper in industrial era, in modern era: Modern Sniper,  AT (Antitank) Sniper, as a ranged unit. Use it for recon and support unit, good for attack, bad defending, so protect them or hit and run. The sniper has 1 moves but large ranged view, can use as sentry . This means it can perform hit-and-run attacks; attack, and move out. Its strong in ranged. 
 
 >>> PROMOTIONS <<< 
 Specific:
 1. Bad for attack cities, ships and melee combat. (all) 
 2. Headshot: bonus vs mounted, ranged, gun, melee and recon units. (all) 
 3. AntiTank: bonus vs armor and tanks. (only AT Sniper) 
-4. very weak defending themselves. (all)
+4. Very weak defending themselves. (all)
 
 General:
 1 = true
-<RangedSupportFire>1</RangedSupportFire>
-<CanMoveImpassable>1</CanMoveImpassable>
-<OnlyDefensive>1</OnlyDefensive>
-<NoDefensiveBonus>1</NoDefensiveBonus>
-<AllowsEmbarkation>1</AllowsEmbarkation>
-<RangeAttackIgnoreLOS>1</RangeAttackIgnoreLOS>
-<CityAttack>-100</CityAttack>
-<CityDefense>50</CityDefense>
-<OpenRangedAttackMod>30</OpenRangedAttackMod>
-<RoughRangedAttackMod>-20</RoughRangedAttackMod>
-<AttackFortifiedMod>20</AttackFortifiedMod>
-<FlankAttackModifier>20</FlankAttackModifier>
-<FriendlyLandsAttackModifier>20</FriendlyLandsAttackModifier>
+      <RangedSupportFire>20</RangedSupportFire>
+      <CanMoveImpassable>1</CanMoveImpassable>
+      <OnlyDefensive>0</OnlyDefensive>
+      <NoDefensiveBonus>1</NoDefensiveBonus>
+      <AllowsEmbarkation>1</AllowsEmbarkation>
+      <RangeAttackIgnoreLOS>0</RangeAttackIgnoreLOS>
+      <CityAttack>-100</CityAttack>
+      <CityDefense>50</CityDefense>
+      <OpenRangedAttackMod>100</OpenRangedAttackMod>
+      <RoughRangedAttackMod>-50</RoughRangedAttackMod>
+      <AttackFortifiedMod>50</AttackFortifiedMod>
+      <FlankAttackModifier>50</FlankAttackModifier>
+      <FriendlyLandsAttackModifier>100</FriendlyLandsAttackModifier>
 
 >>> TECH <<< 
 1. <Type>UNIT_SNIPER</Type>
@@ -50,7 +50,9 @@ Example:
 
 *** IMPORTANT SO YOU CAN SEE ANIMATIONS AND SOUNDS ***
 
-NOTE: You dont need to make this, if you have and make this for the  R.E.D. Modpack Mod.
+NOTE: You dont need to make this, if you have and make this for the  R.E.D. Modpack Mod or others mods...
+
+Download here: https://www.dropbox.com/s/gjecumdr43hjudu/Edited_Animations-v2.7.zip?dl=0
 
 1. Use the "Copy Edited_Animations" folder inside mod folder:
 C:\Users\[username]\Documents\My Games\Sid Meier's Civilization 5\MODS\Acehart Snipers (v [1])\
@@ -64,6 +66,9 @@ C:\Program Files (x86)\Steam\steamapps\common\sid meier's civilization v\resourc
 and replace it.
 
 [h1]>>> For Errors, Bugs and Crahses: <<<[/h1]
+
+You can report in Github: https://github.com/JavierCanon/Acehart-Civilization-V-MODS/issues
+
 1. Enable logs in config.ini 
 Location: 
 C:\Users\[Uername]\Documents\My Games\Sid Meier's Civilization 5

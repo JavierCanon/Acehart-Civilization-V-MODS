@@ -55,6 +55,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "src", "src\", "{283DD39E-59
 		SlnRelativePath = "src\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Sid Meier's Civilization 5", "C:\Users\JAVIER\Documents\My Games\Sid Meier's Civilization 5\", "{74DD7C1D-460F-4AB5-983A-B3D37EA1478D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51304"
+		Debug.AspNetCompiler.PhysicalPath = "C:\Users\JAVIER\Documents\My Games\Sid Meier's Civilization 5\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51304\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51304"
+		Release.AspNetCompiler.PhysicalPath = "C:\Users\JAVIER\Documents\My Games\Sid Meier's Civilization 5\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51304\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51304"
+		SlnRelativePath = "C:\Users\JAVIER\Documents\My Games\Sid Meier's Civilization 5\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -64,6 +85,8 @@ Global
 		{84B6C4BF-0F22-42E4-BDA3-28A440DC467A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{283DD39E-59AB-4811-921B-8F068CEFD9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{283DD39E-59AB-4811-921B-8F068CEFD9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74DD7C1D-460F-4AB5-983A-B3D37EA1478D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74DD7C1D-460F-4AB5-983A-B3D37EA1478D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

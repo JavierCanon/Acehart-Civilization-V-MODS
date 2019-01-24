@@ -82,6 +82,7 @@
 			<IconsPerColumn>4</IconsPerColumn>
 		</Row>		
 	</IconTextureAtlases>
+	
 <!-- ****** STRATEGY VIEW ICONS ******* -->
 	<ArtDefine_StrategicView>
 		<Row>

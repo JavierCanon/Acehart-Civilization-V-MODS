@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# ModBuddy Solution File, Format Version 11.00
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Acehart Snipers", "Acehart Snipers\Acehart Snipers.civ5proj", "{CA12902F-D1EA-4603-A4FB-96ED45164D10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|x86 = Default|x86
+		Deploy Only|x86 = Deploy Only|x86
+		Package Only|x86 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA12902F-D1EA-4603-A4FB-96ED45164D10}.Default|x86.ActiveCfg = Default|x86
+		{CA12902F-D1EA-4603-A4FB-96ED45164D10}.Default|x86.Build.0 = Default|x86
+		{CA12902F-D1EA-4603-A4FB-96ED45164D10}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{CA12902F-D1EA-4603-A4FB-96ED45164D10}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{CA12902F-D1EA-4603-A4FB-96ED45164D10}.Package Only|x86.ActiveCfg = Package Only|x86
+		{CA12902F-D1EA-4603-A4FB-96ED45164D10}.Package Only|x86.Build.0 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

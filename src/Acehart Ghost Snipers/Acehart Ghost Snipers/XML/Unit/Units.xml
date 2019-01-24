@@ -1,18 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Units>
+	
 		<Row>
-			<Class>UNITCLASS_SNIPER</Class>
+			<Class>UNITCLASS_SFSNIPER</Class>
 			<Type>UNIT_SNIPER</Type>
-			<PrereqTech>TECH_RIFLING</PrereqTech>
-			<ObsoleteTech>TECH_PLASTIC</ObsoleteTech>
-			<Combat>0</Combat>
-			<RangedCombat>40</RangedCombat>
-			<Cost>580</Cost>
+			<PrereqTech>TECH_PLASTIC</PrereqTech>
+			<Combat>40</Combat>
+			<RangedCombat>50</RangedCombat>
+			<Cost>340</Cost>
 			<Moves>1</Moves>
 			<Range>2</Range>
-			<BaseSightRange>2</BaseSightRange>
-			<RivalTerritory>true</RivalTerritory>			
+			<BaseSightRange>1</BaseSightRange>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
@@ -23,27 +22,29 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>false</Pillage>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_MODERN_SNIPER</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_SFMODERN_SNIPER</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>30</AdvancedStartCost>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
+			<XPValueAttack>1</XPValueAttack>
+			<XPValueDefense>0</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_SNIPER</UnitArtInfo>
 			<UnitFlagAtlas>SNIPERS_UNITS_FLAGS</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_SNIPER</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
+			
+			<RivalTerritory>true</RivalTerritory>				
 		</Row>
+		
 		<Row>
-			<Class>UNITCLASS_MODERN_SNIPER</Class>
+			<Class>UNITCLASS_SFMODERN_SNIPER</Class>
 			<Type>UNIT_MODERN_SNIPER</Type>
 			<PrereqTech>TECH_PLASTIC</PrereqTech>
-			<Combat>0</Combat>
-			<RangedCombat>70</RangedCombat>
-			<Cost>720</Cost>
+			<Combat>120</Combat>
+			<RangedCombat>120</RangedCombat>
+			<Cost>460</Cost>
 			<Moves>1</Moves>
 			<Range>2</Range>
-			<BaseSightRange>2</BaseSightRange>
-			<RivalTerritory>true</RivalTerritory>
+			<BaseSightRange>1</BaseSightRange>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
@@ -54,28 +55,30 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>false</Pillage>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_AT_SNIPER</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_SFAT_SNIPER</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>30</AdvancedStartCost>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
+			<XPValueAttack>1</XPValueAttack>
+			<XPValueDefense>0</XPValueDefense>
 			<Conscription>6</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_MODERN_SNIPER</UnitArtInfo>
 			<UnitFlagAtlas>SNIPERS_UNITS_FLAGS</UnitFlagAtlas>
 			<UnitFlagIconOffset>1</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_SNIPER</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
+			
+			<RivalTerritory>true</RivalTerritory>				
 		</Row>
-		<Row>
-			<Class>UNITCLASS_AT_SNIPER</Class>
+		
+		<Row>		
+			<Class>UNITCLASS_SFAT_SNIPER</Class>
 			<Type>UNIT_AT_SNIPER</Type>
 			<PrereqTech>TECH_BALLISTICS</PrereqTech>
-			<Combat>0</Combat>
-			<RangedCombat>90</RangedCombat>
-			<Cost>960</Cost>
+			<Combat>200</Combat>
+			<RangedCombat>200</RangedCombat>
+			<Cost>580</Cost>
 			<Moves>1</Moves>
 			<Range>2</Range>
-			<BaseSightRange>2</BaseSightRange>
-			<RivalTerritory>true</RivalTerritory>			
+			<BaseSightRange>1</BaseSightRange>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
@@ -87,20 +90,23 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>false</Pillage>
 			<AdvancedStartCost>30</AdvancedStartCost>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
+			<XPValueAttack>1</XPValueAttack>
+			<XPValueDefense>0</XPValueDefense>
 			<Conscription>6</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_AT_SNIPER</UnitArtInfo>
 			<UnitFlagAtlas>SNIPERS_UNITS_FLAGS</UnitFlagAtlas>
 			<UnitFlagIconOffset>2</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_SNIPER</IconAtlas>
-			<PortraitIndex>1</PortraitIndex>
+			<PortraitIndex>0</PortraitIndex>
+			
+			<RivalTerritory>true</RivalTerritory>	
 		</Row>
 		<Update>
-			<Set GoodyHutUpgradeUnitClass="UNITCLASS_SNIPER"/>
+			<Set GoodyHutUpgradeUnitClass="UNITCLASS_SFSNIPER"/>
 			<Where Class="UNITCLASS_CROSSBOWMAN"/>
 		</Update>	
 	</Units>
+		
 	<Unit_AITypes>
 		<Row>
 			<UnitType>UNIT_SNIPER</UnitType>
@@ -115,29 +121,31 @@
 			<UnitAIType>UNITAI_RANGED</UnitAIType>
 		</Row>		
 	</Unit_AITypes>
+	
 	<Unit_ClassUpgrades>
 		<Update>
-			<Set UnitClassType="UNITCLASS_SNIPER"/>
+			<Set UnitClassType="UNITCLASS_SFSNIPER"/>
 			<Where UnitType="UNIT_ENGLISH_LONGBOWMAN"/>
 		</Update>
 		<Update>
-			<Set UnitClassType="UNITCLASS_SNIPER"/>
+			<Set UnitClassType="UNITCLASS_SFSNIPER"/>
 			<Where UnitType="UNIT_CROSSBOWMAN"/>
 		</Update>
 		<Update>
-			<Set UnitClassType="UNITCLASS_SNIPER"/>
+			<Set UnitClassType="UNITCLASS_SFSNIPER"/>
 			<Where UnitType="UNIT_CHINESE_CHUKONU"/>
 		</Update>
 		<Row>
 			<UnitType>UNIT_SNIPER</UnitType>
-			<UnitClassType>UNITCLASS_MODERN_SNIPER</UnitClassType>
+			<UnitClassType>UNITCLASS_SFMODERN_SNIPER</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MODERN_SNIPER</UnitType>
-			<UnitClassType>UNITCLASS_AT_SNIPER</UnitClassType>
+			<UnitClassType>UNITCLASS_SFAT_SNIPER</UnitClassType>
 		</Row>
 
 	</Unit_ClassUpgrades>
+	
 	<Unit_Flavors>
 		<Row>
 			<UnitType>UNIT_SNIPER</UnitType>
@@ -200,4 +208,5 @@
 			<Flavor>6</Flavor>
 		</Row>				
 	</Unit_Flavors>
+	
 </GameData>

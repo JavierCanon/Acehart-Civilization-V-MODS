@@ -2,17 +2,17 @@
 <GameData>
 	<UnitClasses>
 		<Row>
-			<Type>UNITCLASS_SNIPER</Type>
+			<Type>UNITCLASS_SFSNIPER</Type>
 			<Description>TXT_KEY_UNIT_SNIPER</Description>
 			<DefaultUnit>UNIT_SNIPER</DefaultUnit>
 		</Row>
 		<Row>
-			<Type>UNITCLASS_MODERN_SNIPER</Type>
+			<Type>UNITCLASS_SFMODERN_SNIPER</Type>
 			<Description>TXT_KEY_UNIT_MODERN_SNIPER</Description>
 			<DefaultUnit>UNIT_MODERN_SNIPER</DefaultUnit>
 		</Row>
 		<Row>
-			<Type>UNITCLASS_AT_SNIPER</Type>
+			<Type>UNITCLASS_SFAT_SNIPER</Type>
 			<Description>TXT_KEY_UNIT_AT_SNIPER</Description>
 			<DefaultUnit>UNIT_AT_SNIPER</DefaultUnit>
 		</Row>	

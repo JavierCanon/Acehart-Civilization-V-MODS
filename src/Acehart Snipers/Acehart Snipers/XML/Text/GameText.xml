@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Language_en_US>
+    
 		<Row Tag="TXT_KEY_UNIT_SNIPER">
 			<Text>Sniper</Text>
 		</Row>
@@ -13,6 +14,7 @@
 		<Row Tag="TXT_KEY_UNIT_SNIPER_STRATEGY">
 			<Text>Use it for recon, the Sniper has 1 moves, and also can move after attacking. This means it can perform hit-and-run attacks; attack, and move out. Its strong in ranged.</Text>
 		</Row>
+    
 		<Row Tag="TXT_KEY_UNIT_MODERN_SNIPER">
 			<Text>Modern Sniper</Text>
 		</Row>
@@ -25,6 +27,7 @@
 		<Row Tag="TXT_KEY_UNIT_MODERN_SNIPER_STRATEGY">
 			<Text>Use it for recon, the Sniper has 1 moves, and also can move after attacking. This means it can perform hit-and-run attacks; attack, and move out. Its strong in ranged.</Text>
 		</Row>
+    
 		<Row Tag="TXT_KEY_UNIT_AT_SNIPER">
 			<Text>AT Sniper</Text>
 		</Row>
@@ -37,6 +40,7 @@
 		<Row Tag="TXT_KEY_UNIT_AT_SNIPER_STRATEGY">
 			<Text>Use it for recon, the Sniper has 1 moves, and also can move after attacking. This means it can perform hit-and-run attacks; attack, and move out. Its strong in ranged.</Text>
 		</Row>
+    
 		<Row Tag="TXT_KEY_PROMOTION_HEADSHOT">
 			<Text>Headshot Promotion</Text>
 		</Row>

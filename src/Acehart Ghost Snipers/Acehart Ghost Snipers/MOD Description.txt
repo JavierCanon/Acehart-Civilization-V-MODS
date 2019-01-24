@@ -4,7 +4,7 @@
 --------------------------------------------------------------
 
 NOTE: 
-Variation of Acehart Sniper Mod, now are invisible for most units:
+Special Forces Snipers, variation of Acehart Snipers MOD., now are invisible for most units:
 * Can enter in another territory in peace or war.
 * Less range of combat and view.
 * Less powerful.
@@ -15,7 +15,12 @@ KNOW BUGS:
 + The units are always invisible.
 
 
-Adds the Sniper, Modern Sniper, AT (Antitank) Sniper, as a ranged unit. Use it for recon and support unit, good for attack, bad defending, so protect them or run. The sniper has 1 moves but a large range of view, and also can move after attacking (promotions). This means it can perform hit-and-run attacks; attack, and move out. Its strong in ranged. 
+Adds in modern era: 
+SF SPT Sniper (Support, not good for direct attack, use as adjacent unit),
+SF Sniper, 
+SF AT Sniper (Antitank, AntiHeli), as a ranged unit. 
+
+Use it for recon and support unit, good for attack, bad defending, so protect them or hit and run. The sniper has 1 moves but large ranged view, can use as sentry . This means it can perform hit-and-run attacks; attack, and move out. Its strong in ranged. 
 
 >>> PROMOTIONS <<< 
 Specific:
@@ -62,6 +67,8 @@ Write a post.
 
 NOTE: You dont need to make this, if you have and make this for the  R.E.D. Modpack Mod.
 
+Download here: https://www.dropbox.com/s/gjecumdr43hjudu/Edited_Animations-v2.7.zip?dl=0
+
 1. Use the "Copy Edited_Animations" folder inside mod folder:
 C:\Users\[username]\Documents\My Games\Sid Meier's Civilization 5\MODS\Acehart Snipers (v [1])\
 
@@ -72,6 +79,26 @@ and replace the files.
 3. Added some effects, please put the "civ5artdefines_viseffects.xml" to the install dir:
 C:\Program Files (x86)\Steam\steamapps\common\sid meier's civilization v\resource\Common\
 and replace it.
+
+
+[h1]>>> For Errors, Bugs and Crahses: <<<[/h1]
+
+You can report in Github: https://github.com/JavierCanon/Acehart-Civilization-V-MODS/issues
+
+1. Enable logs in config.ini 
+Location: 
+C:\Users\[Uername]\Documents\My Games\Sid Meier's Civilization 5
+2. Enable in [DEBUG] section:
+; Enable the logging system
+LoggingEnabled = 1
+; Show combat debugging overlays
+CombatDebug = 1
+3. Play a NEW game enabling the mods.
+4. Check the logs folder:
+C:\Users\[username]\Documents\My Games\Sid Meier's Civilization 5\Logs
+5. Share or post the Database.log file.
+
+(http://forums.civfanatics.com/showthread.php?t=487482)
 
 
 *** CREDITS ***
