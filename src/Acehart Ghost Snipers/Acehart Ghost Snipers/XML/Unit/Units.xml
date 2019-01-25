@@ -4,7 +4,7 @@
 	
 		<Row>
 			<Class>UNITCLASS_SFSNIPER</Class>
-			<Type>UNIT_SNIPER</Type>
+			<Type>UNIT_SF_SNIPER</Type>
 			<PrereqTech>TECH_PLASTIC</PrereqTech>
 			<Combat>40</Combat>
 			<RangedCombat>50</RangedCombat>
@@ -15,10 +15,12 @@
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_SNIPER</Description>
-			<Civilopedia>TXT_KEY_UNIT_SNIPER_CIVILOPEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_SNIPER_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_SNIPER_HELP</Help>
+			
+			<Description>TXT_KEY_UNIT_SF_SNIPER</Description>
+			<Civilopedia>TXT_KEY_UNIT_SF_SNIPER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SF_SNIPER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SF_SNIPER_HELP</Help>
+			
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>false</Pillage>
@@ -26,7 +28,7 @@
 			<AdvancedStartCost>30</AdvancedStartCost>
 			<XPValueAttack>1</XPValueAttack>
 			<XPValueDefense>0</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_SNIPER</UnitArtInfo>
+			<UnitArtInfo>ART_DEF_UNIT_SF_SNIPER</UnitArtInfo>
 			<UnitFlagAtlas>SNIPERS_UNITS_FLAGS</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_SNIPER</IconAtlas>
@@ -37,7 +39,7 @@
 		
 		<Row>
 			<Class>UNITCLASS_SFMODERN_SNIPER</Class>
-			<Type>UNIT_MODERN_SNIPER</Type>
+			<Type>UNIT_SFMODERN_SNIPER</Type>
 			<PrereqTech>TECH_PLASTIC</PrereqTech>
 			<Combat>120</Combat>
 			<RangedCombat>120</RangedCombat>
@@ -48,10 +50,12 @@
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_MODERN_SNIPER</Description>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_RIFLEMEN_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_RIFLEMAN_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_MODERN_SNIPER</Help>
+		
+			<Description>TXT_KEY_UNIT_SFMODERN_SNIPER</Description>
+			<Civilopedia>TXT_KEY_UNIT_SFMODERN_SNIPER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SFMODERN_SNIPER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SFMODERN_SNIPER_HELP</Help>
+			
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>false</Pillage>
@@ -60,7 +64,7 @@
 			<XPValueAttack>1</XPValueAttack>
 			<XPValueDefense>0</XPValueDefense>
 			<Conscription>6</Conscription>
-			<UnitArtInfo>ART_DEF_UNIT_MODERN_SNIPER</UnitArtInfo>
+			<UnitArtInfo>ART_DEF_UNIT_SFMODERN_SNIPER</UnitArtInfo>
 			<UnitFlagAtlas>SNIPERS_UNITS_FLAGS</UnitFlagAtlas>
 			<UnitFlagIconOffset>1</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_SNIPER</IconAtlas>
@@ -71,7 +75,7 @@
 		
 		<Row>		
 			<Class>UNITCLASS_SFAT_SNIPER</Class>
-			<Type>UNIT_AT_SNIPER</Type>
+			<Type>UNIT_SFAT_SNIPER</Type>
 			<PrereqTech>TECH_BALLISTICS</PrereqTech>
 			<Combat>200</Combat>
 			<RangedCombat>200</RangedCombat>
@@ -82,10 +86,12 @@
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_AT_SNIPER</Description>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_RIFLEMEN_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_RIFLEMAN_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_MODERN_SNIPER</Help>
+			
+			<Description>TXT_KEY_UNIT_SFAT_SNIPER</Description>
+			<Civilopedia>TXT_KEY_UNIT_SFAT_SNIPER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SFAT_SNIPER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SFAT_SNIPER_HELP</Help>
+
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>false</Pillage>
@@ -93,7 +99,7 @@
 			<XPValueAttack>1</XPValueAttack>
 			<XPValueDefense>0</XPValueDefense>
 			<Conscription>6</Conscription>
-			<UnitArtInfo>ART_DEF_UNIT_AT_SNIPER</UnitArtInfo>
+			<UnitArtInfo>ART_DEF_UNIT_SFAT_SNIPER</UnitArtInfo>
 			<UnitFlagAtlas>SNIPERS_UNITS_FLAGS</UnitFlagAtlas>
 			<UnitFlagIconOffset>2</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_SNIPER</IconAtlas>
@@ -109,15 +115,15 @@
 		
 	<Unit_AITypes>
 		<Row>
-			<UnitType>UNIT_SNIPER</UnitType>
+			<UnitType>UNIT_SF_SNIPER</UnitType>
 			<UnitAIType>UNITAI_RANGED</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MODERN_SNIPER</UnitType>
+			<UnitType>UNIT_SFMODERN_SNIPER</UnitType>
 			<UnitAIType>UNITAI_RANGED</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_AT_SNIPER</UnitType>
+			<UnitType>UNIT_SFAT_SNIPER</UnitType>
 			<UnitAIType>UNITAI_RANGED</UnitAIType>
 		</Row>		
 	</Unit_AITypes>
@@ -136,11 +142,11 @@
 			<Where UnitType="UNIT_CHINESE_CHUKONU"/>
 		</Update>
 		<Row>
-			<UnitType>UNIT_SNIPER</UnitType>
+			<UnitType>UNIT_SF_SNIPER</UnitType>
 			<UnitClassType>UNITCLASS_SFMODERN_SNIPER</UnitClassType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MODERN_SNIPER</UnitType>
+			<UnitType>UNIT_SFMODERN_SNIPER</UnitType>
 			<UnitClassType>UNITCLASS_SFAT_SNIPER</UnitClassType>
 		</Row>
 
@@ -148,62 +154,62 @@
 	
 	<Unit_Flavors>
 		<Row>
-			<UnitType>UNIT_SNIPER</UnitType>
+			<UnitType>UNIT_SF_SNIPER</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>1</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_SNIPER</UnitType>
+			<UnitType>UNIT_SF_SNIPER</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>1</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_SNIPER</UnitType>
+			<UnitType>UNIT_SF_SNIPER</UnitType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MODERN_SNIPER</UnitType>
+			<UnitType>UNIT_SFMODERN_SNIPER</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>1</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MODERN_SNIPER</UnitType>
+			<UnitType>UNIT_SFMODERN_SNIPER</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>1</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MODERN_SNIPER</UnitType>
+			<UnitType>UNIT_SFMODERN_SNIPER</UnitType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>	
 		<Row>
-			<UnitType>UNIT_AT_SNIPER</UnitType>
+			<UnitType>UNIT_SFAT_SNIPER</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>1</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_AT_SNIPER</UnitType>
+			<UnitType>UNIT_SFAT_SNIPER</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>1</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_AT_SNIPER</UnitType>
+			<UnitType>UNIT_SFAT_SNIPER</UnitType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_SNIPER</UnitType>
+			<UnitType>UNIT_SF_SNIPER</UnitType>
 			<FlavorType>FLAVOR_RECON</FlavorType>
 			<Flavor>6</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MODERN_SNIPER</UnitType>
+			<UnitType>UNIT_SFMODERN_SNIPER</UnitType>
 			<FlavorType>FLAVOR_RECON</FlavorType>
 			<Flavor>6</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_AT_SNIPER</UnitType>
+			<UnitType>UNIT_SFAT_SNIPER</UnitType>
 			<FlavorType>FLAVOR_RECON</FlavorType>
 			<Flavor>6</Flavor>
 		</Row>				

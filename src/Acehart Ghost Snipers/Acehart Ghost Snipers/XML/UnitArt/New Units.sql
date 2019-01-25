@@ -7,7 +7,7 @@ INSERT INTO ArtDefine_UnitInfos (
 	,Formation
 	)
 SELECT 
-     ('ART_DEF_UNIT_SNIPER')
+     ('ART_DEF_UNIT_SF_SNIPER')
 	,1 --DamageStates
 	,('UnFormed') --Formation
 ;
@@ -18,7 +18,7 @@ INSERT INTO ArtDefine_UnitInfoMemberInfos (
 	,NumMembers
 	)
 SELECT 
-     ('ART_DEF_UNIT_SNIPER')
+     ('ART_DEF_UNIT_SF_SNIPER')
 	,('ART_DEF_UNIT_MEMBER_SNIPER')
 	,1 --NumMembers
 ;
@@ -177,7 +177,7 @@ INSERT INTO ArtDefine_UnitInfos (
 	,Formation
 	)
 SELECT 
-     ('ART_DEF_UNIT_MODERN_SNIPER')
+     ('ART_DEF_UNIT_SFMODERN_SNIPER')
 	,1 --DamageStates
 	,('UnFormed') --Formation
 ;
@@ -189,7 +189,7 @@ INSERT INTO ArtDefine_UnitInfoMemberInfos (
 	,NumMembers
 	)
 SELECT 
-     ('ART_DEF_UNIT_MODERN_SNIPER')
+     ('ART_DEF_UNIT_SFMODERN_SNIPER')
 	,('ART_DEF_UNIT_MEMBER_MODERN_SNIPER')
 	,1 --NumMembers
 ;
@@ -350,7 +350,7 @@ INSERT INTO ArtDefine_UnitInfos (
 	,Formation
 	)
 SELECT 
-     ('ART_DEF_UNIT_AT_SNIPER')
+     ('ART_DEF_UNIT_SFAT_SNIPER')
 	,1 --DamageStates
 	,('UnFormed') --Formation
 ;
@@ -361,7 +361,7 @@ INSERT INTO ArtDefine_UnitInfoMemberInfos (
 	,NumMembers
 	)
 SELECT 
-   ('ART_DEF_UNIT_AT_SNIPER')
+   ('ART_DEF_UNIT_SFAT_SNIPER')
 	,('ART_DEF_UNIT_MEMBER_AT_SNIPER')
 	,1 --NumMembers
 ;

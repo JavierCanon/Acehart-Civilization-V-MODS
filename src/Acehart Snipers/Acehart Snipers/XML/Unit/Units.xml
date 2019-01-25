@@ -16,10 +16,12 @@
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			
 			<Description>TXT_KEY_UNIT_SNIPER</Description>
-			<Civilopedia>TXT_KEY_UNIT_SNIPER_CIVILOPEDIA</Civilopedia>
+			<Civilopedia>TXT_KEY_UNIT_SNIPER_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_SNIPER_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_SNIPER_HELP</Help>
+			
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>false</Pillage>
@@ -47,10 +49,12 @@
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			
 			<Description>TXT_KEY_UNIT_MODERN_SNIPER</Description>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_RIFLEMEN_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_RIFLEMAN_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_MODERN_SNIPER</Help>
+			<Civilopedia>TXT_KEY_UNIT_MODERN_SNIPER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_MODERN_SNIPER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_MODERN_SNIPER_HELP</Help>
+			
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>false</Pillage>
@@ -79,10 +83,12 @@
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+
 			<Description>TXT_KEY_UNIT_AT_SNIPER</Description>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_RIFLEMEN_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_RIFLEMAN_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_MODERN_SNIPER</Help>
+			<Civilopedia>TXT_KEY_UNIT_AT_SNIPER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AT_SNIPER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_AT_SNIPER_HELP</Help>
+			
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>false</Pillage>

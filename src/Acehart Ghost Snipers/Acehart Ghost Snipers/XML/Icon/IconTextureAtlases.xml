@@ -86,17 +86,17 @@
 <!-- ****** STRATEGY VIEW ICONS ******* -->
 	<ArtDefine_StrategicView>
 		<Row>
-			<StrategicViewType>ART_DEF_UNIT_SNIPER</StrategicViewType>
+			<StrategicViewType>ART_DEF_UNIT_SF_SNIPER</StrategicViewType>
 			<TileType>Unit</TileType>
 			<Asset>SV_SnipersIcon128.dds</Asset>
 		</Row>
 		<Row>
-			<StrategicViewType>ART_DEF_UNIT_MODERN_SNIPER</StrategicViewType>
+			<StrategicViewType>ART_DEF_UNIT_SFMODERN_SNIPER</StrategicViewType>
 			<TileType>Unit</TileType>
 			<Asset>SV_ModernSnipersIcon128.dds</Asset>
 		</Row>
 		<Row>
-			<StrategicViewType>ART_DEF_UNIT_AT_SNIPER</StrategicViewType>
+			<StrategicViewType>ART_DEF_UNIT_SFAT_SNIPER</StrategicViewType>
 			<TileType>Unit</TileType>
 			<Asset>SV_ATSnipersIcon128.dds</Asset>
 		</Row>

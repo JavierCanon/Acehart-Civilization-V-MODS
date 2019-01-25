@@ -100,43 +100,43 @@
 			<PromotionType>PROMOTION_SEE_INVISIBLE_SNIPER</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_SNIPER</UnitType>
+			<UnitType>UNIT_SF_SNIPER</UnitType>
 			<PromotionType>PROMOTION_SEE_INVISIBLE_SNIPER</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MODERN_SNIPER</UnitType>
+			<UnitType>UNIT_SFMODERN_SNIPER</UnitType>
 			<PromotionType>PROMOTION_SEE_INVISIBLE_SNIPER</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_AT_SNIPER</UnitType>
+			<UnitType>UNIT_SFAT_SNIPER</UnitType>
 			<PromotionType>PROMOTION_SEE_INVISIBLE_SNIPER</PromotionType>
 		</Row>
 		<!-- end -->
 		
     <Row>
-      <UnitType>UNIT_SNIPER</UnitType>
+      <UnitType>UNIT_SF_SNIPER</UnitType>
       <PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
     </Row>
     <Row>
-      <UnitType>UNIT_SNIPER</UnitType>
+      <UnitType>UNIT_SF_SNIPER</UnitType>
       <PromotionType>PROMOTION_SPT_SNIPER</PromotionType>
     </Row>
 
     <Row>
-      <UnitType>UNIT_MODERN_SNIPER</UnitType>
+      <UnitType>UNIT_SFMODERN_SNIPER</UnitType>
       <PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
     </Row> 
     <Row>
-      <UnitType>UNIT_MODERN_SNIPER</UnitType>
+      <UnitType>UNIT_SFMODERN_SNIPER</UnitType>
       <PromotionType>PROMOTION_HEADSHOT</PromotionType>
     </Row>
 
     <Row>
-      <UnitType>UNIT_AT_SNIPER</UnitType>
+      <UnitType>UNIT_SFAT_SNIPER</UnitType>
       <PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
     </Row>	
     <Row>
-      <UnitType>UNIT_AT_SNIPER</UnitType>
+      <UnitType>UNIT_SFAT_SNIPER</UnitType>
       <PromotionType>PROMOTION_ANTITANK</PromotionType>
     </Row>    
 

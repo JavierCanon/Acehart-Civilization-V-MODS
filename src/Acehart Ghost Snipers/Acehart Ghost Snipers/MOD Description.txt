@@ -46,14 +46,13 @@ General:
 <FriendlyLandsAttackModifier>20</FriendlyLandsAttackModifier>
 
 >>> TECH <<< 
-1. <Type>UNIT_SNIPER</Type>
-<PrereqTech>TECH_RIFLING</PrereqTech>
-<ObsoleteTech>TECH_PLASTIC</ObsoleteTech>
-
-2. <Type>UNIT_MODERN_SNIPER</Type>
+1. <Type>UNIT_SF_SNIPER</Type>
 <PrereqTech>TECH_PLASTIC</PrereqTech>
 
-3. <Type>UNIT_AT_SNIPER</Type>
+2. <Type>UNIT_SFMODERN_SNIPER</Type>
+<PrereqTech>TECH_PLASTIC</PrereqTech>
+
+3. <Type>UNIT_SFAT_SNIPER</Type>
 <PrereqTech>TECH_BALLISTICS</PrereqTech>
 
 >>> TO DO <<< 

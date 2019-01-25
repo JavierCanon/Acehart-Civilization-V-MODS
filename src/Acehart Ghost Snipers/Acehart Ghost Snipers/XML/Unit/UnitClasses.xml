@@ -3,18 +3,18 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_SFSNIPER</Type>
-			<Description>TXT_KEY_UNIT_SNIPER</Description>
-			<DefaultUnit>UNIT_SNIPER</DefaultUnit>
+			<Description>TXT_KEY_UNIT_SF_SNIPER</Description>
+			<DefaultUnit>UNIT_SF_SNIPER</DefaultUnit>
 		</Row>
 		<Row>
 			<Type>UNITCLASS_SFMODERN_SNIPER</Type>
-			<Description>TXT_KEY_UNIT_MODERN_SNIPER</Description>
-			<DefaultUnit>UNIT_MODERN_SNIPER</DefaultUnit>
+			<Description>TXT_KEY_UNIT_SFMODERN_SNIPER</Description>
+			<DefaultUnit>UNIT_SFMODERN_SNIPER</DefaultUnit>
 		</Row>
 		<Row>
 			<Type>UNITCLASS_SFAT_SNIPER</Type>
-			<Description>TXT_KEY_UNIT_AT_SNIPER</Description>
-			<DefaultUnit>UNIT_AT_SNIPER</DefaultUnit>
+			<Description>TXT_KEY_UNIT_SFAT_SNIPER</Description>
+			<DefaultUnit>UNIT_SFAT_SNIPER</DefaultUnit>
 		</Row>	
 	</UnitClasses>
 </GameData>
