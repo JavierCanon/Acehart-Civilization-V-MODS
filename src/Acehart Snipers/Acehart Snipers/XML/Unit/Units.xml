@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Units>
-    
+
 		<Row>
 			<Class>UNITCLASS_SNIPER</Class>
 			<Type>UNIT_SNIPER</Type>
@@ -16,12 +16,12 @@
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
-			
+
 			<Description>TXT_KEY_UNIT_SNIPER</Description>
 			<Civilopedia>TXT_KEY_UNIT_SNIPER_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_SNIPER_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_SNIPER_HELP</Help>
-			
+
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>false</Pillage>
@@ -35,7 +35,7 @@
 			<IconAtlas>CIV_COLOR_ATLAS_SNIPER</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
-    
+
 		<Row>
 			<Class>UNITCLASS_MODERN_SNIPER</Class>
 			<Type>UNIT_MODERN_SNIPER</Type>
@@ -49,12 +49,12 @@
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
-			
+
 			<Description>TXT_KEY_UNIT_MODERN_SNIPER</Description>
 			<Civilopedia>TXT_KEY_UNIT_MODERN_SNIPER_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MODERN_SNIPER_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_MODERN_SNIPER_HELP</Help>
-			
+
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>false</Pillage>
@@ -69,7 +69,7 @@
 			<IconAtlas>CIV_COLOR_ATLAS_SNIPER</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
-    
+
 		<Row>
 			<Class>UNITCLASS_AT_SNIPER</Class>
 			<Type>UNIT_AT_SNIPER</Type>
@@ -88,7 +88,7 @@
 			<Civilopedia>TXT_KEY_UNIT_AT_SNIPER_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_AT_SNIPER_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_AT_SNIPER_HELP</Help>
-			
+
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>false</Pillage>
@@ -102,13 +102,13 @@
 			<IconAtlas>CIV_COLOR_ATLAS_SNIPER</IconAtlas>
 			<PortraitIndex>1</PortraitIndex>
 		</Row>
-    
+
 		<Update>
 			<Set GoodyHutUpgradeUnitClass="UNITCLASS_SNIPER"/>
 			<Where Class="UNITCLASS_CROSSBOWMAN"/>
-		</Update>	
+		</Update>
 	</Units>
-  
+
 	<Unit_AITypes>
 		<Row>
 			<UnitType>UNIT_SNIPER</UnitType>
@@ -121,9 +121,9 @@
 		<Row>
 			<UnitType>UNIT_AT_SNIPER</UnitType>
 			<UnitAIType>UNITAI_RANGED</UnitAIType>
-		</Row>		
+		</Row>
 	</Unit_AITypes>
-  
+
 	<Unit_ClassUpgrades>
 		<Update>
 			<Set UnitClassType="UNITCLASS_SNIPER"/>
@@ -147,7 +147,7 @@
 		</Row>
 
 	</Unit_ClassUpgrades>
-  
+
 	<Unit_Flavors>
 		<Row>
 			<UnitType>UNIT_SNIPER</UnitType>
@@ -178,7 +178,7 @@
 			<UnitType>UNIT_MODERN_SNIPER</UnitType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
 			<Flavor>10</Flavor>
-		</Row>	
+		</Row>
 		<Row>
 			<UnitType>UNIT_AT_SNIPER</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -208,6 +208,64 @@
 			<UnitType>UNIT_AT_SNIPER</UnitType>
 			<FlavorType>FLAVOR_RECON</FlavorType>
 			<Flavor>6</Flavor>
-		</Row>				
+		</Row>
 	</Unit_Flavors>
+
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_UNIT_SNIPER">
+			<Text>Sniper</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_SNIPER_PEDIA">
+			<Text>Snipers - highly trained marksmen - operate, almost independantly, in a pair or sometimes a sniper team; their aim to maintain close visual contact with the enemy and engage targets from concealed places. The term Sniper originated in British India- it meant a hunter skilled enough to kill the snipe, a wading bird with camouflage which may cause them to be undetected by hunters in marshland. Snipers are trained in Marksmanship, but also in camouflage, field craft, infiltration, special reconnaissance, target acquisition and surveillance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SNIPER_HELP">
+			<Text>A Industrial Era Unit designed for hit-and-run attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SNIPER_STRATEGY">
+			<Text>Use it for recon, the Sniper has 1 moves. This means it can perform hit-and-run attacks; attack, and move out. Its strong in ranged.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_MODERN_SNIPER">
+			<Text>Modern Sniper</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MODERN_SNIPER_PEDIA">
+			<Text>Modern Snipers - highly trained marksmen - operate, almost independantly, in a pair or sometimes a sniper team; their aim to maintain close visual contact with the enemy and engage targets from concealed places. The term Sniper originated in British India- it meant a hunter skilled enough to kill the snipe, a wading bird with camouflage which may cause them to be undetected by hunters in marshland. Snipers are trained in Marksmanship, but also in camouflage, field craft, infiltration, special reconnaissance, target acquisition and surveillance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MODERN_SNIPER_HELP">
+			<Text>A Modern Era Unit designed for hit-and-run attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MODERN_SNIPER_STRATEGY">
+			<Text>Use it for recon, the Sniper has 1 moves. This means it can perform hit-and-run attacks; attack, and move out. Its strong in ranged.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_AT_SNIPER">
+			<Text>AT Sniper</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AT_SNIPER_PEDIA">
+			<Text>AT Snipers - AT Snipers were able to quickly locate and target the weak points of various vehicles, at times even disable the sights of armored vehicles, temporally making their targets unable to fire a single shot. highly trained marksmen - operate, almost independantly, in a pair or sometimes a sniper team; their aim to maintain close visual contact with the enemy and engage targets from concealed places. Snipers are trained in Marksmanship, but also in camouflage, field craft, infiltration, special reconnaissance, target acquisition and surveillance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AT_SNIPER_HELP">
+			<Text>A Modern Era Unit designed for damage tanks (ex. visibility), vehicles (ex. engine) and soldiers inside buildings (through walls).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AT_SNIPER_STRATEGY">
+			<Text>Use it for recon, the Sniper has 1 moves. This means it can perform hit-and-run attacks; attack, and move out. Its strong in ranged.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_HEADSHOT">
+			<Text>Headshot Promotion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEADSHOT_HELP">
+			<Text>+25% vs fortified, mounted and units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTITANK">
+			<Text>Antitank Promotion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTITANK_HELP">
+			<Text>+25% vs fortified, mounted, unit, gun, siege, +40% vs armor.</Text>
+		</Row>
+
+	</Language_en_US>
+
 </GameData>

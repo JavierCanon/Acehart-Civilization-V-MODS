@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Deploy" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <ProjectGuid>{c9015331-b871-4f3e-8f7e-42c854c3d67b}</ProjectGuid>
+    <Name>Acehart Naval</Name>
+    <Guid>b6a75d8c-857c-4b9e-98ea-6d54df823c74</Guid>
+    <ModVersion>1</ModVersion>
+    <Stability>Alpha</Stability>
+    <Teaser>Generic naval mod. add more generic units from all eras.
+
+1. Amphibious assault ship (can carry units, tanks, and helicopters</Teaser>
+    <Description>Generic naval mod. add more generic units from all eras.
+
+1. Amphibious assault ship (can carry units, tanks, and helicopters) 
+2. Submarines.
+3. Frigates.
+4. Destroyers. 
+5. Cruisers.
+6. Carriers. (can carry someone helicopters and units)</Description>
+    <Authors>Acehart</Authors>
+    <SpecialThanks>Acehart</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <SupportsMac>true</SupportsMac>
+    <AssemblyName>Acehart Naval</AssemblyName>
+    <RootNamespace>Acehart Naval</RootNamespace>
+    <ModReferences />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Package Only' ">
+    <PackageMod>true</PackageMod>
+    <DeployMod>false</DeployMod>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Deploy Only' ">
+    <PackageMod>false</PackageMod>
+    <DeployMod>true</DeployMod>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
+</Project>

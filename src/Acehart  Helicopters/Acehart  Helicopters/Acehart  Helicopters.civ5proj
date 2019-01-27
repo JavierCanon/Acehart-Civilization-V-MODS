@@ -5,13 +5,43 @@
     <ProjectGuid>{5db364d3-a093-47ce-a028-fb738e307404}</ProjectGuid>
     <Name>Acehart  Helicopters</Name>
     <Guid>b9f93474-311b-43dc-824d-1c1d2d76dcb0</Guid>
-    <ModVersion>1</ModVersion>
-    <Stability>Alpha</Stability>
-    <Teaser>Acehart  Helicopters v1.1</Teaser>
-    <Description>Acehart  Helicopters v1.1</Description>
+    <ModVersion>2</ModVersion>
+    <Stability>Beta</Stability>
+    <Teaser>Acehart  Helicopters</Teaser>
+    <Description>General New Behavior:
+- Attak Helis now can enter in lakes and coast (not in ocean). Good vs tanks and armor, weak vs airplanes and AA guns/missiles.
+- Heli's now need aluminium and oil resource.  Why? because they are powerful, strategic and versatile units, and this is a war for resources... or make infantry...
+
+Adds the following units:
+_____________________________________________________
+1. HeliSquad = remember vietnam?, infantry with more movility, atomic era helicopters.  Cant enter any water tile.
+
+_____________________________________________________
+2. HeliSquad II = infantry with more movility, final atomic era helicopters. Cant enter any water tile.
+
+_____________________________________________________
+3. AttackHeli = final atomic era attack helicopters.
+ Current Gunship.
+_____________________________________________________
+4. AttackHeli II = information era attack helicopters, bonus vs. tanks, armor and cities.
+
+_____________________________________________________
+5. HeliMedic = early atomic era medic heli. Healts nearby units.
+
+_____________________________________________________
+6. HeliMedic II = information era medic heli. Healts nearby units.
+* PENDING *
+
+_____________________________________________________
+7. HeliTransport = atomic era transport. Large movement.
+Can carry 3 cargo to the front of the battle.
+Current limitation: can only load/unload in coast, like a ship...
+_____________________________________________________
+8. ASWHeli = 
+Atomic era anti-submarine warfare. Helicopters with anti-submarine warfare (ASW) systems are widely deployed by naval forces as a means to counter submarines at long ranges. 
+Bonus vs submarines.</Description>
     <Authors>Acehart</Authors>
-    <SpecialThanks>
-    </SpecialThanks>
+    <SpecialThanks>Acehart</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
     <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
@@ -22,6 +52,76 @@
     <RootNamespace>Acehart  Helicopters</RootNamespace>
     <ModReferences />
     <ModProperties />
+    <ReloadLandmarkSystem>true</ReloadLandmarkSystem>
+    <ReloadUnitSystem>true</ReloadUnitSystem>
+    <ReloadAudioSystem>false</ReloadAudioSystem>
+    <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
+    <Homepage>http://https://github.com/JavierCanon/Acehart-Civilization-V-MODS</Homepage>
+    <ModDependencies>
+      <Association>
+        <Type>Dlc</Type>
+        <Name>Expansion 1 - Gods and Kings</Name>
+        <Id>0E3751A1-F840-4e1b-9706-519BF484E59D</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Dlc</Type>
+        <Name>Expansion 2 - Brave New World</Name>
+        <Id>6DA07636-4123-4018-B643-6575B4EC336B</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Game</Type>
+        <Name />
+        <Id />
+        <MinVersion>1.0.3.279</MinVersion>
+        <MaxVersion>2.0.0.0</MaxVersion>
+      </Association>
+    </ModDependencies>
+    <ModActions>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>UNITS/ASWHeli.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>UNITS/AttackHeli II.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>UNITS/AttackHeli.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>UNITS/Heli_Fly.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>UNITS/HeliMedic.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>UNITS/HeliSquad II.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>UNITS/HeliSquad.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>UNITS/HeliTransport.sql</FileName>
+      </Action>
+    </ModActions>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -34,5 +134,187 @@
     <PackageMod>false</PackageMod>
     <DeployMod>true</DeployMod>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="ART\" />
+    <Folder Include="ART\ASWHeli\" />
+    <Folder Include="ART\AttackHeli\" />
+    <Folder Include="ART\AttackHeli_II\" />
+    <Folder Include="ART\HeliMedic\" />
+    <Folder Include="ART\HeliMedic_II\" />
+    <Folder Include="ART\HeliSquad\" />
+    <Folder Include="ART\HeliSquad_II\" />
+    <Folder Include="ART\HeliTransport\" />
+    <Folder Include="UNITS\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ART\ASWHeli\eurotiger_nightblueTC.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\ASWHeli\eurotiger_nightblueTC.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\ASWHeli\eurotiger_nightblueTC.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\AttackHeli\helicoptergunship_camo2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\AttackHeli\helicoptergunship_camo2.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\AttackHeli\helicoptergunship_camo2.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\AttackHeli_II\AH64PlainTeamColor.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\AttackHeli_II\AH64PlainTeamColor.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\AttackHeli_II\AH64PlainTeamColor.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\AttackHeli_II\AH64SREF.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\fx_triggers_Mi8.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliMedic\helicoptergunship_snowTC.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliMedic\helicoptergunship_snowTC.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliMedic\helicoptergunship_snowTC.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliMedic_II\Mi8Egypt.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliMedic_II\Mi8Egypt.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliMedic_II\Mi8Egypt.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliSquad\fx_triggers_gazelle.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliSquad\gazelle.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliSquad\Gazelle.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliSquad\Gazelle_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliSquad\Gazelle_Medic.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliSquad\Gazelle_Medic.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliSquad\Gazelle_Medic.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliSquad\Gazelle_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliSquad_II\Mi8Russia.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliSquad_II\Mi8Russia.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliSquad_II\Mi8Russia.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliTransport\Mi8PlainTeamColor.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliTransport\Mi8PlainTeamColor.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\HeliTransport\Mi8PlainTeamColor.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\Mi8SREF.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="UNITS\ASWHeli.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="UNITS\AttackHeli II.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="UNITS\AttackHeli.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="UNITS\HeliMedic.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="UNITS\HeliSquad II.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="UNITS\HeliSquad.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="UNITS\HeliTransport.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="UNITS\Heli_Fly.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="UNITS\New Unit Template.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
 </Project>
