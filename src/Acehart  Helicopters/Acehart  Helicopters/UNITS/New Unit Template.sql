@@ -271,10 +271,10 @@ INSERT INTO Units (
 	,UnitFlagAtlas
 	)
 SELECT ('UNIT_BIPLAN')
-	,('Biplan')
-	,Civilopedia
-	,Strategy
-	,HELP
+    ( 'TXT_KEY_UNIT_BIPLAN_Description' ), 
+    'TXT_KEY_UNIT_BIPLAN_Civilopedia'                  ,
+    'TXT_KEY_UNIT_BIPLAN_Strategy'                     ,
+    'TXT_KEY_UNIT_BIPLAN_Help'                         ,
 	,Requirements
 	,Combat
 	,(25)
@@ -398,3 +398,31 @@ SELECT ('UNIT_BIPLAN')
 	,Cost
 FROM Unit_ResourceQuantityRequirements
 WHERE (UnitType = 'UNIT_FIGHTER');
+
+
+ -- *** TEXTS INFO ***
+
+INSERT INTO [Language_en_US](
+            [Tag] --TEXT
+           ,[Text] --TEXT
+		   )
+SELECT
+
+           'TXT_KEY_UNIT_BIPLAN_Description' 
+           ,'AntiSubmarine Heli'
+UNION
+SELECT
+
+           'TXT_KEY_UNIT_BIPLAN_Civilopedia' 
+           ,'AntiSubmarine Heli'
+UNION
+SELECT
+
+           'TXT_KEY_UNIT_BIPLAN_Strategy' 
+           ,'AntiSubmarine Heli'
+UNION
+SELECT
+
+           'TXT_KEY_UNIT_BIPLAN_Help' 
+           ,'AntiSubmarine Heli'   
+;

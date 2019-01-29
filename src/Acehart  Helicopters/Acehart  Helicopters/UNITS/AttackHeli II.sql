@@ -302,10 +302,10 @@ INSERT INTO Units (
 ) 
 SELECT 
     ( 'UNIT_ATTACKHELI_II' ), --Type, --TEXT NOT NULL UNIQUE,
-    ( 'Attack Heli II' ), --Description, --TEXT,
-    Civilopedia                  ,--TEXT,
-    Strategy                     ,--TEXT,
-    Help                         ,--TEXT,
+    ( 'TXT_KEY_UNIT_ATTACKHELI_II_Description' ), --Description, --TEXT,
+    'TXT_KEY_UNIT_ATTACKHELI_II_Civilopedia'                  ,--TEXT,
+    'TXT_KEY_UNIT_ATTACKHELI_II_Strategy'                     ,--TEXT,
+    'TXT_KEY_UNIT_ATTACKHELI_II_Help'                         ,--TEXT,
     Requirements                 ,--TEXT,
     90, --Combat, --INTEGER DEFAULT 0,
     90, --RangedCombat, --INTEGER DEFAULT 0,
@@ -475,3 +475,29 @@ SELECT
 ;
  
  
+  -- *** TEXTS INFO ***
+
+INSERT INTO [Language_en_US](
+            [Tag] --TEXT
+           ,[Text] --TEXT
+		   )
+SELECT
+
+           'TXT_KEY_UNIT_ATTACKHELI_II_Description' 
+           ,'AntiSubmarine Heli'
+UNION
+SELECT
+
+           'TXT_KEY_UNIT_ATTACKHELI_II_Civilopedia' 
+           ,'AntiSubmarine Heli'
+UNION
+SELECT
+
+           'TXT_KEY_UNIT_ATTACKHELI_II_Strategy' 
+           ,'AntiSubmarine Heli'
+UNION
+SELECT
+
+           'TXT_KEY_UNIT_ATTACKHELI_II_Help' 
+           ,'AntiSubmarine Heli'   
+;

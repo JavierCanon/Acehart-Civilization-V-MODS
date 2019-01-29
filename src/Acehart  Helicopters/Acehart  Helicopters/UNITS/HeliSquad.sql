@@ -305,10 +305,10 @@ INSERT INTO Units (
 ) 
 SELECT 
     ( 'UNIT_HELISQUAD' ), --Type, --TEXT NOT NULL UNIQUE,
-    ( 'Heli Squad' ), --Description, --TEXT,
-    Civilopedia                  ,--TEXT,
-    Strategy                     ,--TEXT,
-    Help                         ,--TEXT,
+    ( 'TXT_KEY_UNIT_HELISQUAD_Description' ), --Description, --TEXT,
+    'TXT_KEY_UNIT_HELISQUAD_Civilopedia'                  ,--TEXT,
+    'TXT_KEY_UNIT_HELISQUAD_Strategy'                     ,--TEXT,
+    'TXT_KEY_UNIT_HELISQUAD_Help'                         ,--TEXT,
     Requirements                 ,--TEXT,
     75 , --Combat, --INTEGER DEFAULT 0,
     RangedCombat                 ,--INTEGER DEFAULT 0,
@@ -473,7 +473,32 @@ SELECT
 ,1
 ;
  
- 
+ -- *** TEXTS INFO ***
+
+INSERT INTO [Language_en_US](
+            [Tag] --TEXT
+           ,[Text] --TEXT
+		   )
+SELECT
+
+           'TXT_KEY_UNIT_HELISQUAD_Description' 
+           ,'AntiSubmarine Heli'
+UNION
+SELECT
+
+           'TXT_KEY_UNIT_HELISQUAD_Civilopedia' 
+           ,'AntiSubmarine Heli'
+UNION
+SELECT
+
+           'TXT_KEY_UNIT_HELISQUAD_Strategy' 
+           ,'AntiSubmarine Heli'
+UNION
+SELECT
+
+           'TXT_KEY_UNIT_HELISQUAD_Help' 
+           ,'AntiSubmarine Heli'   
+; 
 
 /*
 <Formations>

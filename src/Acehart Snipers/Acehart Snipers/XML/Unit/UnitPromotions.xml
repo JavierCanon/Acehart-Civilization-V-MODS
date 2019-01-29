@@ -1,82 +1,99 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GameData>
-  <UnitPromotions>
-    <Row>
-      <Type>PROMOTION_HEADSHOT</Type>
-      <Description>TXT_KEY_PROMOTION_HEADSHOT</Description>
-      <Help>TXT_KEY_PROMOTION_HEADSHOT_HELP</Help>
-      <PortraitIndex>13</PortraitIndex>
-      <IconAtlas>CIV_COLOR_ATLAS_PROMOTION_ICON</IconAtlas>
-      <OrderPriority>1</OrderPriority>
-      <Sound>AS2D_IF_LEVELUP</Sound>
-      <CannotBeChosen>0</CannotBeChosen>
-      <PediaType>PEDIA_SHARED</PediaType>
-      <PediaEntry>TXT_KEY_PROMOTION_HEADSHOT</PediaEntry>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_HEADSHOT</Type>
+			<Description>TXT_KEY_PROMOTION_HEADSHOT</Description>
+			<Help>TXT_KEY_PROMOTION_HEADSHOT_HELP</Help>
+			<PortraitIndex>13</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_PROMOTION_ICON</IconAtlas>
+			<OrderPriority>1</OrderPriority>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>0</CannotBeChosen>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_HEADSHOT</PediaEntry>
 
-      <RangedSupportFire>20</RangedSupportFire>
-      <CanMoveImpassable>1</CanMoveImpassable>
-      <OnlyDefensive>0</OnlyDefensive>
-      <NoDefensiveBonus>1</NoDefensiveBonus>
-      <AllowsEmbarkation>1</AllowsEmbarkation>
-      <RangeAttackIgnoreLOS>0</RangeAttackIgnoreLOS>
-      <CityAttack>-100</CityAttack>
-      <CityDefense>50</CityDefense>
-      <OpenRangedAttackMod>100</OpenRangedAttackMod>
-      <RoughRangedAttackMod>-50</RoughRangedAttackMod>
-      <AttackFortifiedMod>50</AttackFortifiedMod>
-      <FlankAttackModifier>50</FlankAttackModifier>
-      <FriendlyLandsAttackModifier>100</FriendlyLandsAttackModifier>
-    </Row>
+			<Recon>1</Recon>
+			<CanMoveAfterAttack>1</CanMoveAfterAttack>
+			<CanMoveImpassable>1</CanMoveImpassable>
+			<NoDefensiveBonus>1</NoDefensiveBonus>
+			<AllowsEmbarkation>1</AllowsEmbarkation>
 
-    <Row>
-      <Type>PROMOTION_ANTITANK</Type>
-      <Description>TXT_KEY_PROMOTION_ANTITANK</Description>
-      <Help>TXT_KEY_PROMOTION_ANTITANK_HELP</Help>
-      <PortraitIndex>12</PortraitIndex>
-      <IconAtlas>CIV_COLOR_ATLAS_PROMOTION_ICON</IconAtlas>
-      <OrderPriority>1</OrderPriority>
-      <Sound>AS2D_IF_LEVELUP</Sound>
-      <CannotBeChosen>1</CannotBeChosen>
-      <PediaType>PEDIA_SHARED</PediaType>
-      <PediaEntry>TXT_KEY_PROMOTION_ANTITANK</PediaEntry>
-    </Row>
-  </UnitPromotions>
-
-  <Unit_FreePromotions>
-    
-    <Row>
-      <UnitType>UNIT_SNIPER</UnitType>
-      <PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
-    </Row>
-    <Row>
-      <UnitType>UNIT_SNIPER</UnitType>
-      <PromotionType>PROMOTION_HEADSHOT</PromotionType>
-    </Row>
-
-    <Row>
-      <UnitType>UNIT_MODERN_SNIPER</UnitType>
-      <PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
-    </Row> 
-    <Row>
-      <UnitType>UNIT_MODERN_SNIPER</UnitType>
-      <PromotionType>PROMOTION_HEADSHOT</PromotionType>
-    </Row>
-
-    <Row>
-      <UnitType>UNIT_AT_SNIPER</UnitType>
-      <PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
-    </Row>	
-    <Row>
-      <UnitType>UNIT_AT_SNIPER</UnitType>
-      <PromotionType>PROMOTION_ANTITANK</PromotionType>
-    </Row>    
+			<AttackMod></AttackMod>
+			<RoughAttack>-50</RoughAttack>
+			<OpenRangedAttackMod></OpenRangedAttackMod>
+			<RoughRangedAttackMod>-50</RoughRangedAttackMod>
+			<AttackWoundedMod>-100</AttackWoundedMod>
+			<AttackFortifiedMod>100</AttackFortifiedMod>
+			<FlankAttackModifier>50</FlankAttackModifier>
+			<FriendlyLandsAttackModifier>50</FriendlyLandsAttackModifier>
 
 
-	
-  </Unit_FreePromotions>
+			<DefenseMod>-900</DefenseMod>
+			<OpenDefense>-900</OpenDefense>
+			<RangedDefenseMod>-900</RangedDefenseMod>
+			<RoughDefense>-900</RoughDefense>
 
-  <UnitPromotions_Features>
-    <!--
+			<HillsAttack>-50</HillsAttack>
+			<HillsDefense>-900</HillsDefense>
+
+			<RangeAttackIgnoreLOS>0</RangeAttackIgnoreLOS>
+			<RangedSupportFire>50</RangedSupportFire>
+
+			<CityAttack>-100</CityAttack>
+			<CityDefense>50</CityDefense>
+
+		</Row>
+
+		<Row>
+			<Type>PROMOTION_ANTITANK</Type>
+			<Description>TXT_KEY_PROMOTION_ANTITANK</Description>
+			<Help>TXT_KEY_PROMOTION_ANTITANK_HELP</Help>
+			<PortraitIndex>12</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_PROMOTION_ICON</IconAtlas>
+			<OrderPriority>1</OrderPriority>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>1</CannotBeChosen>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_ANTITANK</PediaEntry>
+		</Row>
+	</UnitPromotions>
+
+	<Unit_FreePromotions>
+
+		<Row>
+			<UnitType>UNIT_SNIPER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SNIPER</UnitType>
+			<PromotionType>PROMOTION_HEADSHOT</PromotionType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_MODERN_SNIPER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERN_SNIPER</UnitType>
+			<PromotionType>PROMOTION_HEADSHOT</PromotionType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_AT_SNIPER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AT_SNIPER</UnitType>
+			<PromotionType>PROMOTION_ANTITANK</PromotionType>
+		</Row>
+
+
+
+	</Unit_FreePromotions>
+
+	<UnitPromotions_Features>
+		<!--
 	<Row>
 			<PromotionType>PROMOTION_LIMITED_VISIBILITY_SNIPER</PromotionType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
@@ -88,61 +105,56 @@
 			<Defense>25</Defense>
 		</Row>
 	-->
-  </UnitPromotions_Features>
+	</UnitPromotions_Features>
 
-  <!-- *** PROMOTION HEADSHOT *** -->
-  <UnitPromotions_UnitCombatMods>
-    
-    <Row>
-      <PromotionType>PROMOTION_HEADSHOT</PromotionType>
-      <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-      <Modifier>50</Modifier>
-    </Row>
-    <Row>
-      <PromotionType>PROMOTION_HEADSHOT</PromotionType>
-      <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-      <Modifier>50</Modifier>
-    </Row>
-    <Row>
-      <PromotionType>PROMOTION_HEADSHOT</PromotionType>
-      <UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
-      <Modifier>50</Modifier>
-    </Row>
-    <Row>
-      <PromotionType>PROMOTION_HEADSHOT</PromotionType>
-      <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-      <Modifier>50</Modifier>
-    </Row>
-    <Row>
-      <PromotionType>PROMOTION_HEADSHOT</PromotionType>
-      <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-      <Modifier>50</Modifier>
-    </Row>
-    
-  </UnitPromotions_UnitCombatMods>
-  
-  <!-- *** PROMOTION ANTITANK *** -->
-  <UnitPromotions_UnitCombatMods>
-   
-    
-    <Row>
-      <PromotionType>PROMOTION_ANTITANK</PromotionType>
-      <UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-      <Modifier>100</Modifier>
-    </Row>
+	<!-- *** PROMOTION HEADSHOT *** -->
+	<UnitPromotions_UnitCombatMods>
 
-    <Row>
-      <PromotionType>PROMOTION_ANTITANK</PromotionType>
-      <UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
-      <Modifier>100</Modifier>
-    </Row>
+		<Row>
+			<PromotionType>PROMOTION_HEADSHOT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<Modifier>100</Modifier>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_HEADSHOT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<Modifier>100</Modifier>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_HEADSHOT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<Modifier>100</Modifier>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_HEADSHOT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<Modifier>100</Modifier>
+		</Row>
 
-    <Row>
-      <PromotionType>PROMOTION_ANTITANK</PromotionType>
-      <UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
-      <Modifier>100</Modifier>
-    </Row>
-    
-  </UnitPromotions_UnitCombatMods>
+	</UnitPromotions_UnitCombatMods>
+
+	<!-- *** PROMOTION ANTITANK *** -->
+	<UnitPromotions_UnitCombatMods>
+
+
+		<Row>
+			<PromotionType>PROMOTION_ANTITANK</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<Modifier>100</Modifier>
+		</Row>
+
+		<Row>
+			<PromotionType>PROMOTION_ANTITANK</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<Modifier>100</Modifier>
+		</Row>
+
+		<Row>
+			<PromotionType>PROMOTION_ANTITANK</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+			<Modifier>100</Modifier>
+		</Row>
+
+	</UnitPromotions_UnitCombatMods>
 
 </GameData>

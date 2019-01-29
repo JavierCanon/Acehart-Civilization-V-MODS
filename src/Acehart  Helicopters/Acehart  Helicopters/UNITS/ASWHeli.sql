@@ -304,10 +304,10 @@ INSERT INTO Units (
 ) 
 SELECT 
     ( 'UNIT_ASWHELI' ), --Type, --TEXT NOT NULL UNIQUE,
-    ( 'AntiSubmarine Heli' ), --Description, --TEXT,
-    Civilopedia                  ,--TEXT,
-    Strategy                     ,--TEXT,
-    Help                         ,--TEXT,
+    ( 'TXT_KEY_UNIT_ASWHELI_Description' ), --Description, --TEXT,
+    'TXT_KEY_UNIT_ASWHELI_Civilopedia'                  ,--TEXT,
+    'TXT_KEY_UNIT_ASWHELI_Strategy'                     ,--TEXT,
+    'TXT_KEY_UNIT_ASWHELI_Help'                         ,--TEXT,
     Requirements                 ,--TEXT,
     50, --Combat, --INTEGER DEFAULT 0,
     50, --RangedCombat, --INTEGER DEFAULT 0,
@@ -477,4 +477,29 @@ SELECT
 ,1
 ;
  
- 
+ -- *** TEXTS INFO ***
+
+INSERT INTO [Language_en_US](
+            [Tag] --TEXT
+           ,[Text] --TEXT
+		   )
+SELECT
+
+           'TXT_KEY_UNIT_ASWHELI_Description' 
+           ,'AntiSubmarine Heli'
+UNION
+SELECT
+
+           'TXT_KEY_UNIT_ASWHELI_Civilopedia' 
+           ,'AntiSubmarine Heli'
+UNION
+SELECT
+
+           'TXT_KEY_UNIT_ASWHELI_Strategy' 
+           ,'AntiSubmarine Heli'
+UNION
+SELECT
+
+           'TXT_KEY_UNIT_ASWHELI_Help' 
+           ,'AntiSubmarine Heli'   
+;

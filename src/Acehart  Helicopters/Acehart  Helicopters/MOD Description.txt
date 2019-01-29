@@ -1,5 +1,5 @@
 -- MOD Description
--- Author: javier
+-- Author: Acehart
 -- DateCreated: 05/06/2014 08:00:00 PM
 --------------------------------------------------------------
 
@@ -56,6 +56,6 @@ Please post your comments.
 
 
 *** CREDITS ***
-Im using art and ideas from others mods:
+Im using art and ideas from others mods.
 Danrell (R.E.D. Modpack).
 All Modders.

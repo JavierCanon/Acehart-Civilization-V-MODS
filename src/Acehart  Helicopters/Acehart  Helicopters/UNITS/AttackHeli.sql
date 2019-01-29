@@ -26,3 +26,4 @@ SELECT
 ,'RESOURCE_OIL'
 ,1
 ;
+

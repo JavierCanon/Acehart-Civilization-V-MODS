@@ -1,4 +1,4 @@
-Acehart Sniper Mod
+Acehart Helicopters Mod
 
 If anyone finds any type of bug, feels anything is unbalanced, or thinks something needs changing... please post or 
 contact me, and Ill consider it and fix asap.
@@ -6,52 +6,13 @@ contact me, and Ill consider it and fix asap.
 Based in other mods, so credits to them.
 
 
-----------------------------------------------------------------------------
-2014.04.30 ver. 1.1.0
-----------------------------------------------------------------------------
-- new unit graphics based in Danrell (Civ5 WWII Unit Pack 16 : Paratrooper - R.E.D. Modpack).
 
 ----------------------------------------------------------------------------
 2014.04.27 ver. 1.0.0
 ----------------------------------------------------------------------------
 Initial Release
 
-This does not remove any promotions from the game, only for sniper class.
-Promotions removed compared to Archer Units: 
-Indirect fire
-Seige
-Barrage I, II, III
-Accuracy I, II, III - Basically the same as Sharpshooter
-Volley - Same as Dead Eye
 
-New Promotions:
-Sharp Shooter I - +20% Combat Strength VS Non-Armored/Siege Land Units.
-Prerequisite: None
-Sharp Shooter II - +20% Combat Strength VS Non-Armored/Siege Land Units.
-Prerequisite: Sharp Shooter I
-Sharp Shooter III - +25% Combat Strength VS Non-Armored/Siege Land Units.
-Prerequisite: Sharp Shooter II
-Camouflage I - +25% Defense in all terrains.
-Prerequisite: none
-Camouflage II - +25% Defense in Forest and Jungle.
-Prerequisite: Camouflage I
-Camouflage III - +25% Defense in Forest and Jungle.
-Prerequisite: Camouflage II
-Eagle Eye I - +25% Combat Strength VS Fortified Units.
-Prerequisite: Sharp Shooter I
-Prerequisite: Camouflage I
-Easy Prey - +25% combat Strength VS Wounded Units.
-Prerequisite: Sharp Shooter III
-Prerequisite: Camouflage III
-Limited Visibility -25% Combat Strength VS Units in Forest and Jungle.
-Cover III - +25% VS Ranged Attacks
-Prerequisite: Cover II
-
-Special Thanks To:
-Danrell (Civ5 WWII Unit Pack 16 : Paratrooper - R.E.D. Modpack).
-Spencerhart.
-Harald B. for the original concept, and Skirmisher Icon.
-All Modders.
 
 
 

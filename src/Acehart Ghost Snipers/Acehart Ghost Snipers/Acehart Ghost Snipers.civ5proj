@@ -5,7 +5,7 @@
     <ProjectGuid>{e31c49ef-5d0f-479f-8140-63d8b6477470}</ProjectGuid>
     <Name>Acehart Ghost Snipers</Name>
     <Guid>22ddd8ea-a673-4dba-8b8d-4352d06ddbfd</Guid>
-    <ModVersion>2</ModVersion>
+    <ModVersion>3</ModVersion>
     <Stability>Alpha</Stability>
     <Teaser>Acehart Ghost Snipers</Teaser>
     <Description>Special Forces Snipers, variation of Acehart Snipers MOD.
@@ -57,11 +57,6 @@ Specific:
       </Association>
     </ModDependencies>
     <ModActions>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>XML/Text/GameText.xml</FileName>
-      </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
@@ -219,10 +214,6 @@ Specific:
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Text\GameText.xml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
     <Content Include="XML\UnitArt\New Unit Template.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -257,7 +248,6 @@ Specific:
     <Folder Include="ART\Sniper\" />
     <Folder Include="XML\" />
     <Folder Include="XML\Icon\" />
-    <Folder Include="XML\Text\" />
     <Folder Include="XML\UnitArt\" />
     <Folder Include="XML\Unit\" />
   </ItemGroup>

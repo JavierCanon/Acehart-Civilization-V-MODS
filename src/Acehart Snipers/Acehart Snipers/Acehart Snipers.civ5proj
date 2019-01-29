@@ -5,7 +5,7 @@
     <ProjectGuid>{ca12902f-d1ea-4603-a4fb-96ed45164d10}</ProjectGuid>
     <Name>Acehart Snipers</Name>
     <Guid>7104f711-ef25-4c60-8c85-b9604d20497a</Guid>
-    <ModVersion>2</ModVersion>
+    <ModVersion>3</ModVersion>
     <Stability>Beta</Stability>
     <Teaser>Acehart Snipers</Teaser>
     <Description>Adds the Sniper in industrial era, in modern era: Modern Sniper,  AT (Antitank) Sniper, as a ranged unit. Use it for recon and support unit, good for attack, bad defending, so protect them or hit and run. The sniper has 1 moves but large ranged view, can use as sentry . This means it can perform hit-and-run attacks; attack, and move out. Its strong in ranged. 
@@ -211,10 +211,6 @@ Specific:
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Text\GameText.xml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
     <Content Include="XML\UnitArt\New Unit Template.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -245,7 +241,6 @@ Specific:
     <Folder Include="ART\Sniper\" />
     <Folder Include="XML\" />
     <Folder Include="XML\Icon\" />
-    <Folder Include="XML\Text\" />
     <Folder Include="XML\UnitArt\" />
     <Folder Include="XML\Unit\" />
   </ItemGroup>
