@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/5/2015 2:08:43 PM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_MOBILEARTILLERY888</Type>
+			<Description>Modern Mobile Artillery</Description>
+			<DefaultUnit>NONE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_MOBILE_ARTILLERY888">
+			<Text>Mobile Artillery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MOBILE_ARTILLERY888_STRATEGY">
+			<Text>Artillery is a deadly siege weapon, more powerful than standard artillery or mortars and with a longer range. Its Ranged Combat strength is tremendous. Artillery also has the "indirect fire" ability, allowing it to shoot over obstructions at targets it cannot see (as long as other friendly units can see them). Like other siege weapons, Artillery is vulnerable to melee attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MOBILE_ARTILLERY888_HELP">
+			<Text>Fast Siege Unit of the late-game. Unlike other Siege Units, it does not need to set up prior to firing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MOBILE_ARTILLERY888_PEDIA">
+			<Text>As technology has advanced, artillery has assumed ever greater importance on the battlefield. The 19th century guns of the Napoleonic and American Civil Wars are gone, having been replaced by ever-larger, more accurate and deadlier weapons as the years have passed. The German 88 mm gun is one of the best and most versatile artillery weapons of the Second World War. Originally designed as an anti-aircraft weapon, the gun proved so successful as an anti-tank weapon that variants were created for just that purpose.</Text>
+		</Row>
+	</Language_en_US>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_MOBILE_ARTILLERY888</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ICON_UNIT_MOBILE_ARTILLERY888_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_MOBILE_ARTILLERY888</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ICON_UNIT_MOBILE_ARTILLERY888_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_MOBILE_ARTILLERY888</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>ICON_UNIT_MOBILE_ARTILLERY888_80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_MOBILE_ARTILLERY888</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ICON_UNIT_MOBILE_ARTILLERY888_64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_MOBILE_ARTILLERY888</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ICON_UNIT_MOBILE_ARTILLERY888_45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

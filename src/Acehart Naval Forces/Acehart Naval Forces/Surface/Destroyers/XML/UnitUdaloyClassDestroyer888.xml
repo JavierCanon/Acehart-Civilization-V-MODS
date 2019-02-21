@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_UDALOYCLASS888</Type>
+			<Description>Udaloy Class Destroyer</Description>
+			<DefaultUnit>NONE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+  <Units>
+    <Row>
+      <Type>UNIT_UDALOY_CLASS_DESTROYER888</Type>
+      <Description>TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888</Description>
+      <CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+      <Domain>DOMAIN_SEA</Domain>
+      <Class>UNITCLASS_UDALOYCLASS888</Class>
+      <Cost>420</Cost>
+      <HurryCostModifier>48</HurryCostModifier>
+      <AdvancedStartCost>55</AdvancedStartCost>
+      <Combat>95</Combat>
+      <RangeAttackIgnoreLOS>true</RangeAttackIgnoreLOS>
+      <IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+      <Moves>6</Moves>
+      <AirInterceptRange>3</AirInterceptRange>
+      <SpecialCargo>SPECIALUNIT_HELIMISSILE</SpecialCargo>
+      <Strategy>TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_STRATEGY</Strategy>
+      <Help>TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_HELP</Help>
+      <Civilopedia>TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_PEDIA</Civilopedia>
+      <PrereqTech>TECH_COMPUTERS</PrereqTech>
+      <Pillage>true</Pillage>
+      <MoveRate>BOAT</MoveRate>
+      <Mechanized>true</Mechanized>
+      <UnitArtInfo>ART_DEF_UNIT_UDALOY_CLASS_DESTROYER888</UnitArtInfo>
+      <IconAtlas>ATLAS_ICON_UNIT_UDALOY_CLASS_DESTROYER888</IconAtlas>
+      <PortraitIndex>0</PortraitIndex>
+      <UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
+      <UnitFlagIconOffset>67</UnitFlagIconOffset>
+      <CombatLimit>100</CombatLimit>
+      <DomainCargo>DOMAIN_AIR</DomainCargo>
+      <MinAreaSize>10</MinAreaSize>
+      <MilitaryProduction>true</MilitaryProduction>
+      <MilitarySupport>true</MilitarySupport>
+      <DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+    </Row>
+  </Units>
+  <Unit_AITypes>
+    <Row>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+      <UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+      <UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+      <UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+      <UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+      <UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+    </Row>
+    </Unit_AITypes>
+  <Unit_Flavors>
+    <Row>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+      <FlavorType>FLAVOR_OFFENSE</FlavorType>
+      <Flavor>15</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+      <FlavorType>FLAVOR_NAVAL</FlavorType>
+      <Flavor>25</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+      <FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+      <Flavor>7</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+      <FlavorType>FLAVOR_DEFENSE</FlavorType>
+      <Flavor>25</Flavor>
+    </Row>
+  </Unit_Flavors>
+  <Civilization_UnitClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
+      <UnitClassType>UNITCLASS_UDALOYCLASS888</UnitClassType>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+    </Row>
+  </Civilization_UnitClassOverrides>
+  <Unit_FreePromotions>
+    <Row>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+      <PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+      <PromotionType>PROMOTION_ANTI_SUBMARINE_I</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+      <PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+      <PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+      <PromotionType>PROMOTION_INTERCEPTION_I</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+      <PromotionType>PROMOTION_INTERCEPTION_II</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+      <PromotionType>PROMOTION_WITHDRAW_BEFORE_MELEE</PromotionType>
+    </Row>
+	  <Row>
+		  <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+		  <PromotionType>PROMOTION_CARGO_XXI</PromotionType>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+		  <PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+		  <PromotionType>PROMOTION_TARGETING_1</PromotionType>
+	  </Row>
+	 
+	  <Row>
+		  <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+		  <PromotionType>PROMOTION_BOARDING_PARTY_1</PromotionType>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+		  <PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
+	  </Row>
+  </Unit_FreePromotions>
+  <Unit_ResourceQuantityRequirements>
+    <Row>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+      <ResourceType>RESOURCE_ALUMINUM</ResourceType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+      <ResourceType>RESOURCE_IRON</ResourceType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+      <ResourceType>RESOURCE_OIL</ResourceType>
+    </Row>
+  </Unit_ResourceQuantityRequirements>
+  <ArtDefine_UnitInfos>
+    <Row>
+      <Type>ART_DEF_UNIT_UDALOY_CLASS_DESTROYER888</Type>
+      <DamageStates>1</DamageStates>
+      <Formation>BomberWing</Formation>
+    </Row>
+  </ArtDefine_UnitInfos>
+  <ArtDefine_UnitInfoMemberInfos>
+    <Row>
+      <UnitInfoType>ART_DEF_UNIT_UDALOY_CLASS_DESTROYER888</UnitInfoType>
+      <UnitMemberInfoType>ART_DEF_UNIT_MEMBER_UDALOY_CLASS_DESTROYER888</UnitMemberInfoType>
+      <NumMembers>1</NumMembers>
+    </Row>
+  </ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_UDALOY_CLASS_DESTROYER888</Type>
+			<Scale>0.09</Scale>
+			<Domain>Sea</Domain>
+			<Model>SURFACE/DESTROYERS/ART/BPK1155.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_UDALOY_CLASS_DESTROYER888</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLeftRightAttack>1</HasLeftRightAttack>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasIndependentWeaponFacing>1</HasIndependentWeaponFacing>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_UDALOY_CLASS_DESTROYER888</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25.0</VisKillStrengthMin>
+			<VisKillStrengthMax>50.0</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_UDALOY_CLASS_DESTROYER888</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25.0</VisKillStrengthMin>
+			<VisKillStrengthMax>50.0</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+			<SelectionSound>AS2D_SELECT_BATTLESHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_BATTLESHIP</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+  <IconTextureAtlases>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_UDALOY_CLASS_DESTROYER888</Atlas>
+      <IconSize>256</IconSize>
+      <Filename>ICON_UNIT_UDALOY_CLASS_DESTROYER888_256.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_UDALOY_CLASS_DESTROYER888</Atlas>
+      <IconSize>128</IconSize>
+      <Filename>ICON_UNIT_UDALOY_CLASS_DESTROYER888_128.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_UDALOY_CLASS_DESTROYER888</Atlas>
+      <IconSize>80</IconSize>
+      <Filename>ICON_UNIT_UDALOY_CLASS_DESTROYER888_80.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_UDALOY_CLASS_DESTROYER888</Atlas>
+      <IconSize>64</IconSize>
+      <Filename>ICON_UNIT_UDALOY_CLASS_DESTROYER888_64.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_UDALOY_CLASS_DESTROYER888</Atlas>
+      <IconSize>45</IconSize>
+      <Filename>ICON_UNIT_UDALOY_CLASS_DESTROYER888_45.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+  </IconTextureAtlases>
+  <ArtDefine_StrategicView>
+    <Row>
+      <StrategicViewType>ART_DEF_UNIT_UDALOY_CLASS_DESTROYER888</StrategicViewType>
+      <TileType>Unit</TileType>
+		<Asset>sv_destroyer.dds</Asset>
+    </Row>
+  </ArtDefine_StrategicView>
+  <Language_en_US>
+    <Row Tag="TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888">
+      <Text>Udaloy Class Destroyer</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_STRATEGY">
+      <Text>The Udaloy Class Soviet Destroyer is designed to hunt down and destroy submarines and to provide anti-aircraft support, and can carry 10 missles. It often operates as an escort to embarked units, battleships and carriers when in range of enemy planes and subs. The Destroyer is shockingly fast and its indirect fire ability allows it to bombard targets it cannot see (as long as other friendly units can see them).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_HELP">
+      <Text>Fast late game ship making it highly effective at recon. Also used to hunt down and destroy enemy Submarines.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_PEDIA">
+      <Text>The Udaloy I class are a series of anti-submarine destroyers built for the Soviet Navy, eight of which are currently in service with the Russian Navy. The Russian designation is Project 1155 Fregat (Frigate bird). Twelve ships were built between 1980 and 1991, while a thirteenth ship built to a modified design as the Udaloy II class followed in 1999. They complement the Sovremenny-class destroyer in anti-aircraft warfare and anti-surface warfare operations.[NEWLINE]The Project 1155 dates to the 1970s when it was concluded that it was too costly to build large-displacement, multi-role combatants. The concept of a specialized surface ship was developed by Soviet designers. Two different types of warships were laid down which were designed by the Severnoye Design Bureau: Project 956 destroyer and Project 1155 large anti-submarine ship. The Udaloy class are generally considered the Soviet equivalent of the American Spruance-class destroyers. There are variations in SAM and air search radar among units of the class. Based on the Krivak class, the emphasis on anti-submarine warfare (ASW) left these ships with limited anti-surface and anti-air capabilities. - Wikipedia</Text>
+    </Row>
+	  <Row Tag="TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_UDALOY">
+		  <Text>Udaloy</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_KULAKOV">
+		  <Text>Vice Admiral Kulakov</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_VASILYEVSKY">
+		  <Text>Marshal Vasilyevsky</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_ZAKHAROV">
+		  <Text>Admiral Zakharov</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_SPIRIDONOV">
+		  <Text>Admiral Spiridonov</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_TRIBUTS">
+		  <Text>Admiral Tributs</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_SHAPOSHNIKOV">
+		  <Text>Marshal Shaposhnikov</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_SEVEROMORSK">
+		  <Text>Severomorsk</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_LEVCHENKO">
+		  <Text>Admiral Levchenko</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_VINOGRADOV">
+		  <Text>Admiral Vinogradov</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_KHARLAMOV">
+		  <Text>Admiral Kharlamov</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_PANTELEYEV">
+		  <Text>Admiral Panteleyev</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_CHABANENKO">
+		  <Text>Admiral Chabanenko</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_BASISTY">
+		  <Text>Admiral Basisty</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_KUCHEROV">
+		  <Text>Admiral Kucherov</Text>
+	  </Row>
+  </Language_en_US>
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_UDALOY</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_KULAKOV</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_VASILYEVSKY</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_ZAKHAROV</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_SPIRIDONOV</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_TRIBUTS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_SHAPOSHNIKOV</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_SEVEROMORSK</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_LEVCHENKO</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_VINOGRADOV</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_KHARLAMOV</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_PANTELEYEV</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_CHABANENKO</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_BASISTY</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UDALOY_CLASS_DESTROYER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UDALOY_CLASS_DESTROYER888_KUCHEROV</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+</GameData>
+

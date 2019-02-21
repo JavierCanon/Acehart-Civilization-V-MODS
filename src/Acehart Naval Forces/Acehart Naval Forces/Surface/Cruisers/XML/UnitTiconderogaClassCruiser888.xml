@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_TICONDEROGACLASS888</Type>
+			<Description>Ticonderoga Class Guided Missle Cruiser</Description>
+			<DefaultUnit>NONE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+  <Units>
+    <Row>
+      <Type>UNIT_TICONDEROGA_CLASS_CRUISER888</Type>
+      <Description>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888</Description>
+      <CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+      <Domain>DOMAIN_SEA</Domain>
+      <Class>UNITCLASS_TICONDEROGACLASS888</Class>
+      <Cost>460</Cost>
+      <HurryCostModifier>60</HurryCostModifier>
+      <AdvancedStartCost>60</AdvancedStartCost>
+      <Combat>115</Combat>
+      <RangedCombat>135</RangedCombat>
+      <Range>3</Range>
+      <RangeAttackIgnoreLOS>true</RangeAttackIgnoreLOS>
+      <IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+      <Moves>7</Moves>
+      <AirInterceptRange>3</AirInterceptRange>
+      <SpecialCargo>SPECIALUNIT_HELIMISSILE</SpecialCargo>
+      <Strategy>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_STRATEGY</Strategy>
+      <Help>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_HELP</Help>
+      <Civilopedia>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_PEDIA</Civilopedia>
+      <PrereqTech>TECH_ROBOTICS</PrereqTech>
+      <Pillage>true</Pillage>
+      <MoveRate>BOAT</MoveRate>
+      <Mechanized>true</Mechanized>
+      <UnitArtInfo>ART_DEF_UNIT_MISSILE_CRUISER</UnitArtInfo>
+      <IconAtlas>ATLAS_ICON_UNIT_TICONDEROGA_CLASS_CRUISER888</IconAtlas>
+      <PortraitIndex>0</PortraitIndex>
+      <UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
+      <UnitFlagIconOffset>80</UnitFlagIconOffset>
+      <RangedCombatLimit>100</RangedCombatLimit>
+      <DomainCargo>DOMAIN_AIR</DomainCargo>
+      <MinAreaSize>10</MinAreaSize>
+      <MilitaryProduction>true</MilitaryProduction>
+      <MilitarySupport>true</MilitarySupport>
+      <DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+		<XPValueAttack>4</XPValueAttack>
+		<XPValueDefense>4</XPValueDefense>
+    </Row>
+  </Units>
+  <Unit_AITypes>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
+    </Row>
+  </Unit_AITypes>
+  <Unit_Flavors>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <FlavorType>FLAVOR_NAVAL</FlavorType>
+      <Flavor>25</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <FlavorType>FLAVOR_OFFENSE</FlavorType>
+      <Flavor>18</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <FlavorType>FLAVOR_DEFENSE</FlavorType>
+      <Flavor>15</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+      <Flavor>7</Flavor>
+    </Row>
+  </Unit_Flavors>
+  <Civilization_UnitClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+      <UnitClassType>UNITCLASS_TICONDEROGACLASS888</UnitClassType>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+    </Row>
+  </Civilization_UnitClassOverrides>
+  <Unit_FreePromotions>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <PromotionType>PROMOTION_FIRE_SUPPORT</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <PromotionType>PROMOTION_NAVAL_BONUS</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <PromotionType>PROMOTION_CARGO_XXI</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <PromotionType>PROMOTION_STRONGER_VS_DAMAGED</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <PromotionType>PROMOTION_NAVAL_TRADITION</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <PromotionType>PROMOTION_HEAL_IF_DESTROY_ENEMY</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+    </Row>
+	  <Row>
+		  <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+		  <PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+		  <PromotionType>PROMOTION_TARGETING_1</PromotionType>
+	  </Row>
+  </Unit_FreePromotions>
+  <Unit_ResourceQuantityRequirements>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <ResourceType>RESOURCE_IRON</ResourceType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+      <ResourceType>RESOURCE_OIL</ResourceType>
+    </Row>
+  </Unit_ResourceQuantityRequirements>
+  <UnitGameplay2DScripts>
+   	  <Row>
+		  <UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+		  <SelectionSound>AS2D_SELECT_BATTLESHIP</SelectionSound>
+		  <FirstSelectionSound>AS2D_BIRTH_BATTLESHIP</FirstSelectionSound>
+	  </Row>
+  </UnitGameplay2DScripts>
+  <IconTextureAtlases>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_TICONDEROGA_CLASS_CRUISER888</Atlas>
+      <IconSize>256</IconSize>
+      <Filename>ICON_UNIT_TICONDEROGA_CLASS_CRUISER888_256.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_TICONDEROGA_CLASS_CRUISER888</Atlas>
+      <IconSize>128</IconSize>
+      <Filename>ICON_UNIT_TICONDEROGA_CLASS_CRUISER888_128.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_TICONDEROGA_CLASS_CRUISER888</Atlas>
+      <IconSize>80</IconSize>
+      <Filename>ICON_UNIT_TICONDEROGA_CLASS_CRUISER888_80.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_TICONDEROGA_CLASS_CRUISER888</Atlas>
+      <IconSize>64</IconSize>
+      <Filename>ICON_UNIT_TICONDEROGA_CLASS_CRUISER888_64.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_TICONDEROGA_CLASS_CRUISER888</Atlas>
+      <IconSize>45</IconSize>
+      <Filename>ICON_UNIT_TICONDEROGA_CLASS_CRUISER888_45.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+  </IconTextureAtlases>
+  <ArtDefine_StrategicView>
+    <Row>
+      <StrategicViewType>ART_DEF_UNIT_TICONDEROGA_CLASS_CRUISER888</StrategicViewType>
+      <TileType>Unit</TileType>
+      <Asset>sv_missilecruiser.dds</Asset>
+    </Row>
+  </ArtDefine_StrategicView>
+  <Language_en_US>
+    <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888">
+      <Text>Ticonderoga Class Cruiser</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_STRATEGY">
+      <Text>The Ticonderoga Class Cruiser is a naval powerhouse, designed for anti-ship combat, as well as bombarding  units along the coastline with it's variety of weapons.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_HELP">
+      <Text>The Ticonderoga Class Guided Missle Cruiser uses AN/SPY-1 Radar for enhanced naval vision, along with it's supporting cast of anti-air missles, and cruise missles to keep it from raiding aircraft.  It boasts numerous guns and missile systems, as well as the ability to carry helicopters to perform anti-naval interdiction.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_PEDIA">
+      <Text>The Ticonderoga-class of guided missile cruisers is a class of warships in the United States Navy, first ordered and authorized in the 1978 fiscal year. The class uses passive phased-array radar and was originally planned as a class of destroyers. However, the increased combat capability offered by the Aegis Combat System and the AN/SPY-1 radar system was used to justify the change of the classification from DDG (guided missile destroyer) to CG (guided-missile cruiser) shortly before the keels were laid down for Ticonderoga and Yorktown.[NEWLINE]Ticonderoga-class guided-missile cruisers are multi-role warships. Their Mk 41 VLS can launch Tomahawk cruise missiles to strike strategic or tactical targets, or fire long-range antiaircraft Standard Missiles for defense against aircraft or anti-ship missiles. Their LAMPS III helicopters and sonar systems allow them to perform antisubmarine missions. Ticonderoga-class ships are designed to be elements of carrier battle groups, amphibious assault groups, as well as performing missions such as interdiction or escort.[NEWLINE]Of the 27 completed vessels, 19 were built by Ingalls Shipbuilding and eight by Bath Iron Works (BIW). All but one (Thomas S. Gates) of the ships in the class are named for noteworthy events in U.S. military history, and at least twelve; Ticonderoga, Cowpens, Anzio, Yorktown, Valley Forge, Bunker Hill, Antietam, San Jacinto, Lake Champlain, Philippine Sea, Princeton, Monterey, and Vella Gulf; share their names with World War II aircraft carriers. - Wikipedia</Text>
+    </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_TICONDEROGA">
+		  <Text>USS Ticonderoga</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_YORKTOWN">
+		  <Text>USS Yorktown</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_VINCENNES">
+		  <Text>USS Vincennes</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_VALLEY_FORGE">
+		  <Text>USS Valley Forge</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_THOMAS_S_GATES">
+		  <Text>USS Thomas S. Gates</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_BUNKER_HILL">
+		  <Text>USS Bunker Hill</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_MOBILE_BAY">
+		  <Text>USS Mobile Bay</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_ANTIETAM">
+		  <Text>USS Antietam</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_LEYTE_GULF">
+		  <Text>USS Leyte Gulf</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_SAN_JACINTO">
+		  <Text>USS San Jacinto</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_LAKE_CHAMPLAIN">
+		  <Text>USS Lake Champlain</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_PHILIPPINE_SEA">
+		  <Text>USS Philippine Sea</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_PRINCETON">
+		  <Text>USS Princeton</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_NORMANDY">
+		  <Text>USS Normandy</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_MONTEREY">
+		  <Text>USS Monterey</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_CHANCELLORSVILLE">
+		  <Text>USS Chancellorsville</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_COWPENS">
+		  <Text>USS Cowpens</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_GETTYSBURG">
+		  <Text>USS Gettysburg</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_CHOSIN">
+		  <Text>USS Chosin</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_HUE_CITY">
+		  <Text>USS Hue City</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_SHILOH">
+		  <Text>USS Shiloh</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_ANZIO">
+		  <Text>USS Anzio</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_VICKSBURG">
+		  <Text>USS Vicksburg</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_LAKE_ERIE">
+		  <Text>USS Lake Erie</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_CAPE_ST_GEORGE">
+		  <Text>USS Cape St. George</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_VELLA_GULF">
+		  <Text>USS Vella Gulf</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_PORT_ROYAL">
+		  <Text>USS Port Royal</Text>
+	  </Row>
+	  
+  </Language_en_US>
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_TICONDEROGA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_YORKTOWN</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_VINCENNES</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_VALLEY_FORGE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_THOMAS_S_GATES</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_BUNKER_HILL</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_MOBILE_BAY</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_ANTIETAM</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_LEYTE_GULF</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_SAN_JACINTO</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_LAKE_CHAMPLAIN</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_PHILIPPINE_SEA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_PRINCETON</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_NORMANDY</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_MONTEREY</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_CHANCELLORSVILLE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_COWPENS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_GETTYSBURG</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_CHOSIN</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_HUE_CITY</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_SHILOH</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_ANZIO</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_VICKSBURG</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_LAKE_ERIE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_CAPE_ST_GEORGE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_VELLA_GULF</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TICONDEROGA_CLASS_CRUISER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_TICONDEROGA_CLASS_CRUISER888_PORT_ROYAL</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+</GameData>
+

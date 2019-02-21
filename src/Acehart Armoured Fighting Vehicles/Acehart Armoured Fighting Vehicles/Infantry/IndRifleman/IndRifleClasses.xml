@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/21/2015 9:18:54 PM -->
+<GameData>
+	
+		<UnitClasses>
+			<Row>
+				<Type>UNITCLASS_INDRIFLECLASS888</Type>
+				<Description>Industrial Era Rifleman</Description>
+				<DefaultUnit>NONE</DefaultUnit>
+			</Row>
+		</UnitClasses>
+
+	
+  
+</GameData>

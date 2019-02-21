@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/20/2015 9:15:34 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_RENAULT_FT17">
+			<Text>Renault FT-17</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_RENAULT_FT17_STRATEGY">
+			<Text>The Light Tank is a powerful and mobile land unit. It can move after combat, allowing it to blow holes in enemy lines and then move into the now-vacant hexes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_RENAULT_FT17_HELP">
+			<Text>The first of its kind, this powerful late game unit can move after attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_RENAULT_FT17_PEDIA">
+			<Text>The Renault FT, frequently referred to in post-World War I literature as the "FT-17" or "FT17", was a French light tank that was among the most revolutionary and influential tank designs in history. The FT was the first production tank to have its armament within a fully rotating turret.  The Renault FT's configuration – crew compartment at the front, engine compartment at the back, and main armament in a revolving turret – became and remains the standard tank layout. Over 3,000 Renault FT tanks were manufactured by French industry, most of them during the year 1918. Another 950 of an almost identical licensed copy of the FT (the M1917) were made in the United States, but not in time to enter combat. Armoured warfare historian Steven Zaloga has called the Renault FT "the world's first modern tank.  --  WikiPedia</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

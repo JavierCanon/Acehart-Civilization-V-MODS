@@ -3,10 +3,11 @@
 -- http://forums.civfanatics.com/showthread.php?t=461429
 
 
--- ************************************************
--- ***************** ASWHeli **********************
--- ************************************************
 -- Description: AntiSubmarine Helicopter.
+-- UNIT_ASWHELI
+
+
+
 
 -- *** ART ***
 
@@ -209,7 +210,7 @@ SELECT ( 'UNITCLASS_ASWHELI' ), --Type
        InstanceCostModifier,
        DefaultUnit
   FROM UnitClasses
- WHERE ( Type = 'UNITCLASS_HELICOPTERGUNSHIP' )
+ WHERE ( Type = 'UNITCLASS_HELICOPTER_GUNSHIP' )
  ;
 
 INSERT INTO Units ( 
@@ -304,25 +305,25 @@ INSERT INTO Units (
 ) 
 SELECT 
     ( 'UNIT_ASWHELI' ), --Type, --TEXT NOT NULL UNIQUE,
-    ( 'TXT_KEY_UNIT_ASWHELI_Description' ), --Description, --TEXT,
-    'TXT_KEY_UNIT_ASWHELI_Civilopedia'                  ,--TEXT,
-    'TXT_KEY_UNIT_ASWHELI_Strategy'                     ,--TEXT,
-    'TXT_KEY_UNIT_ASWHELI_Help'                         ,--TEXT,
+    ( 'TXT_KEY_UNIT_ASWHELI_DESCRIPTION' ), --Description, --TEXT,
+    'TXT_KEY_UNIT_ASWHELI_CIVILOPEDIA'                  ,--TEXT,
+    'TXT_KEY_UNIT_ASWHELI_STRATEGY'                     ,--TEXT,
+    'TXT_KEY_UNIT_ASWHELI_HELP'                         ,--TEXT,
     Requirements                 ,--TEXT,
-    50, --Combat, --INTEGER DEFAULT 0,
-    50, --RangedCombat, --INTEGER DEFAULT 0,
+    60, --Combat, --INTEGER DEFAULT 0,
+    70, --RangedCombat, --INTEGER DEFAULT 0,
     600, --Cost, --INTEGER DEFAULT 0,
     FaithCost                    ,--INTEGER DEFAULT 0,
     RequiresFaithPurchaseEnabled ,--BOOLEAN DEFAULT 0,
-    8, --Moves, --INTEGER DEFAULT 0,
+    4, --Moves, --INTEGER DEFAULT 0,
     Immobile                     ,--BOOLEAN DEFAULT 0,
     2, --Range, --INTEGER DEFAULT 0,
-    BaseSightRange               ,--INTEGER DEFAULT 2,
+    4, --BaseSightRange               ,--INTEGER DEFAULT 2,
     ( 'UNITCLASS_ASWHELI' ), --Class, --TEXT DEFAULT NULL,
     Special                      ,--TEXT    DEFAULT NULL,
     Capture                      ,--TEXT    DEFAULT NULL,
     CombatClass                  ,--TEXT    DEFAULT NULL,
-    Domain                       ,--TEXT    DEFAULT NULL,
+    'DOMAIN_SEA', --Domain                       ,--TEXT    DEFAULT NULL,
     CivilianAttackPriority       ,--TEXT    DEFAULT NULL,
     DefaultUnitAI                ,--TEXT    DEFAULT NULL,
     Food                         ,--BOOLEAN DEFAULT 0,
@@ -341,7 +342,7 @@ SELECT
     1, --Mechanized, --BOOLEAN DEFAULT 0,
     Suicide                      ,--BOOLEAN DEFAULT 0,
     CaptureWhileEmbarked         ,--BOOLEAN DEFAULT 0,
-    PrereqTech, --TEXT    DEFAULT NULL,
+    PrereqTech                   , --TEXT    DEFAULT NULL,
     ObsoleteTech                 ,--TEXT    DEFAULT NULL,
     GoodyHutUpgradeUnitClass     ,--TEXT    DEFAULT NULL,
     HurryCostModifier            ,--INTEGER DEFAULT 0,
@@ -386,7 +387,7 @@ SELECT
     LeaderExperience             ,--INTEGER DEFAULT 0,
     DontShowYields               ,--BOOLEAN DEFAULT 0,
     ShowInPedia                  ,--BOOLEAN DEFAULT 1,
-    MoveRate                     ,--TEXT    DEFAULT 'BIPED',
+    'WHEELED'	,--MoveRate   --TEXT    DEFAULT 'BIPED',
     UnitFlagIconOffset           ,--INTEGER DEFAULT 0,
     PortraitIndex                ,--INTEGER DEFAULT '-1',
     IconAtlas                    ,--TEXT    DEFAULT NULL,
@@ -430,33 +431,41 @@ SELECT ( 'UNIT_ASWHELI' ),
   FROM Unit_Flavors
  WHERE ( UnitType = 'UNIT_HELICOPTER_GUNSHIP' );
 
+
 -- *** PROMOTIONS ***
+INSERT INTO UnitPromotions(
+	 Type
+)
+SELECT
+	 'PROMOTION_HELIANTI_SUBMARINE' --Type
+;
+
+INSERT INTO UnitPromotions_UnitCombatMods(
+  PromotionType
+ ,UnitCombatType
+ ,Modifier
+)
+SELECT
+  'PROMOTION_HELIANTI_SUBMARINE' --PromotionType
+ ,'UNITCOMBAT_SUBMARINE' --UnitCombatType
+ ,100 --Modifier
+ ;
 
 INSERT INTO Unit_FreePromotions ( 
     UnitType      ,--TEXT,
     PromotionType  --TEXT,
 ) 
-SELECT ( 'UNIT_ASWHELI' ),
-       PromotionType
-  FROM Unit_FreePromotions
- WHERE ( UnitType = 'UNIT_HELICOPTER_GUNSHIP' )
- UNION
 SELECT 
  'UNIT_ASWHELI'
-,'PROMOTION_ANTI_SUBMARINE_I'
-UNION
+,'PROMOTION_HELIANTI_SUBMARINE'
+	UNION
 SELECT 
  'UNIT_ASWHELI'
-,'PROMOTION_HELI_REPAIR'
-UNION
+,'PROMOTION_SECOND_ATTACK' 
+	UNION
 SELECT 
  'UNIT_ASWHELI'
-,'PROMOTION_DEFENSE_PENALTY' 
-UNION
-SELECT 
- 'UNIT_ASWHELI'
-,'PROMOTION_SEE_INVISIBLE_SUBMARINE'
-
+ ,'PROMOTION_SEE_INVISIBLE_SUBMARINE'
 ;
 
  -- *** RESOURCES ***
@@ -477,29 +486,30 @@ SELECT
 ,1
 ;
  
- -- *** TEXTS INFO ***
+ 
+  -- *** TEXTS INFO ***
 
-INSERT INTO [Language_en_US](
-            [Tag] --TEXT
-           ,[Text] --TEXT
+INSERT INTO Language_en_US(
+            Tag --TEXT
+           ,Text --TEXT
 		   )
 SELECT
 
-           'TXT_KEY_UNIT_ASWHELI_Description' 
-           ,'AntiSubmarine Heli'
+           'TXT_KEY_UNIT_ASWHELI_DESCRIPTION' 
+           ,'Antisubmarine Heli'
 UNION
 SELECT
 
-           'TXT_KEY_UNIT_ASWHELI_Civilopedia' 
-           ,'AntiSubmarine Heli'
+           'TXT_KEY_UNIT_ASWHELI_CIVILOPEDIA' 
+           ,'Antisubmarine Heli'
 UNION
 SELECT
 
-           'TXT_KEY_UNIT_ASWHELI_Strategy' 
-           ,'AntiSubmarine Heli'
+           'TXT_KEY_UNIT_ASWHELI_STRATEGY' 
+           ,'Antisubmarine Heli'
 UNION
 SELECT
 
-           'TXT_KEY_UNIT_ASWHELI_Help' 
-           ,'AntiSubmarine Heli'   
+           'TXT_KEY_UNIT_ASWHELI_HELP' 
+           ,'Antisubmarine Heli'   
 ;

@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/22/2013 2:22:17 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_CUTTER">
+			<Text>Cutter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CUTTER">
+			<Text>This fast and agile ship was used for patrolling coasts. Due to it's lightweight materials it can not enter deep waters.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CUTTER_TEXT">
+			<Text>
+				Cutters were widely used by several navies in the 17th and 18th centuries and were usually the smallest commissioned ships in the fleet. As with cutters in general they were distinguished by their large fore-aft sail plans with multiple headsails, usually carried on a very long bowsprit, which was sometimes as long as half the length of the boat's hull. The rig gave the cutter excellent maneuverability and they were much better at sailing to windward than a larger square rigged ship. Larger naval cutters often had the ability to hoist two or three square-rigged sails from their mast to improve their downwind sailing performance as well. Navies used cutters for coastal patrol, customs duties, escort, carrying personnel and dispatches and for small 'cutting out' raids. As befitted their size and intended role naval cutters were lightly armed, often with between six and twelve small cannon (or carronades in the Royal Navy).
+				In the rating system of the Royal Navy 'cutter' was the lowest classification, coming below the sloop-of-war as an 'unrated' vessel. Whilst the classification included true sailing cutters the rating was given to any ship of suitable size and/or importance. Under the system a 'cutter' was commanded by a lieutenant who would be the only commissioned officer on board. HMS Bounty was classed as a cutter under the command of Lieutenant William Bligh despite being a true ship with three square rigged masts.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CUTTER_STRATEGY">
+			<Text>The Cutter is useful for patrolling your coastal cities. Protecting them along with your fishing boats and cargo ships. Begins the privateer tree.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LIBURNIAN">
+			<Text>Liburnian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_LIBURNIAN">
+			<Text>This ship is faster and more agile then the standard Trireme, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ANTIQUITY_LIBURNIAN_TEXT">
+			<Text>
+				In its original form, the liburna was similar to the Greek penteconter. It had one bench with 25 oars on each side. Later, in the time of the Roman Republic, it became a smaller version of a trireme, but with two banks of oars (a bireme), faster, lighter, and more agile than biremes and triremes. The liburnian design was adopted by the Romans and became a key part of the Roman Navy, possibly by way of the Macedonian navy, in the 2nd half of the 1st century BC. Liburnae ships played a crucial role in the naval battle of Actium in Greece, which lasted from August 31 to September 2 of 31 BC. Because of the liburna's maneuverability and the bravery of its Liburnian crews, these ships completely defeated much bigger and heavier eastern ships, quadriremes and penterames. The liburna was different from the battle triremes, quadriremes and quinqueremes — not in terms of rowing, but rather in its specific construction. It was 109 ft (33 m) long and 16 ft (5 m) wide with a 3 ft (0.91 m) draft. Two rows of oarsmen pulled 18 oars per side. The ship could make up to 14 knots under sail and more than 7 under oars. Such a vessel, used as a merchantman, might take on a passenger, as Lycinus relates in the 2nd-century dialogue, traditionally attributed to Lucian of Samosata: "I had a speedy vessel readied, the kind of bireme used above all by the Liburnians of the Ionian Gulf." Bireme Roman warships, probably liburnians, of the Danube fleet during Trajan's Dacian Wars.
+				Once the Romans had adopted the liburna, they improved it. The benefits gained from the addition of rams and protection from missiles more than made up for the slight loss of speed. The ships also required that the regular Roman military unit be simplified in order to function more smoothly. Each ship operated as an individual entity, so the more complicated organization normally used was not necessary. Within the navy, there were probably liburnae of several varying sizes, all put to specific tasks such as scouting and patrolling Roman waters against piracy. The Romans made use of liburnae particularly in some provinces where they formed the bulk of the fleets, while they were included in smaller numbers in the fleets at Ravenna and Micenum where a large number of Illyrians were serving, especially Dalmatae, Liburnians and Pannonians.
+				Gradually liburna became a generic name for different types of Roman ships, attached also to cargo ships in later Antiquity. Tacitus and Suetonius were using it as a synonym for battle ship. In inscriptions it was mentioned as the last class of battle ships: hexeres, penteres, quadrieres, trieres, liburna.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LIBURNIAN_STRATEGY">
+			<Text>Faster then a Trireme it allows the Roman navy to explore/defend/attack more easily.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GALLEON">
+			<Text>Galleon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_GALLEON">
+			<Text>The mainstay of all fleets, this ship has a stronger hull and greater range then other ships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_GALLEON_TEXT">
+			<Text>
+				The galleon was an ocean going ship type which evolved from the carrack in the second half of 16th century. A lowering of the forecastle and elongation of the hull gave galleons an unprecedented level of stability in the water, and reduced wind resistance at the front, leading to a faster, more maneuverable vessel. The galleon differed from the older types primarily by being longer, lower and narrower, with a square tuck stern instead of a round tuck, and by having a snout or head projecting forward from the bows below the level of the forecastle. In Portugal at least, carracks were usually very large ships for their time (often over 1000 tons), while galleons were mostly under 500 tons, although the Manila galleons were to reach up to 2000 tons. With the introduction of the galleon in Portuguese India Armadas during the first quarter of the 16th century, carracks gradually began to be less armed and became almost exclusively cargo ships (which is why the Portuguese Carracks were pushed to such large sizes), leaving any fighting to be done to the galleons. One of the largest and most famous of Portuguese galleons was the São João Baptista (nicknamed Botafogo, 'spitfire'), a 1,000-ton galleon built in 1534, said to have carried 366 guns. Carracks also tended to be lightly armed and used for transporting cargo in all the fleets of other Western European states, while galleons were purpose-built warships, and were stronger, more heavily armed, and also cheaper to build (5 galleons could cost around the same as 3 carracks) and were therefore a much better investment for use as warships or transports. There are disputes about its origins and development but each Atlantic sea power built types suited to its needs, while constantly learning from their rivals. It was the captains of the Spanish navy Pedro Menéndez de Avilés and Álvaro de Bazán who designed the definitive long and relatively narrow hulled galleon in the 1550s.
+				The galleon was powered entirely by wind, using sails carried on three or four masts, with a lateen sail continuing to be used on the last (usually third and fourth) masts. They were used in both military and trade applications, most famously in the Spanish treasure fleet, and the Manila Galleons. While carracks played the leading role in early global explorations, galleons also played a part in the 16th and 17th centuries. In fact, galleons were so versatile that a single vessel may have been refitted for wartime and peacetime roles several times during its lifespan. The galleon was the prototype of all square rigged ships with three or more masts for over two and a half centuries, including the later full rigged ship.
+				The principal warships of the opposing English and Spanish fleets in the 1588 confrontation of the Spanish Armada were galleons, with the modified English "race built" galleons developed by John Hawkins proving decisive, while the capacious Spanish galleons, designed primarily as transports, showed great endurance in the battles and in the great storms on the voyage home; most survived the ordeal.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GALLEON_STRATEGY">
+			<Text>Galleons are hardier vessels with far more cannons then a Frigate or Carrack. Very useful for mounting real naval assaults on coastal cities, firing on coastal units or just plain controlling the sea.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARRACK">
+			<Text>Carrack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CARRACK">
+			<Text>The forerunner of all the great ships of the age of sail. Easily produced ship designed for ranged combat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_CARRACK_TEXT">
+			<Text>
+				A carrack or nau was a three- or four-masted sailing ship developed in the 15th century by the Portuguese for use in the Atlantic Ocean and became widely used by Europe's maritime powers. It had a high rounded stern with large aftcastle, forecastle and bowsprit at the stem. It was first used by the Portuguese, and later by the Spanish, to explore and map the world. It was usually square-rigged on the foremast and mainmast and lateen-rigged on the mizzenmast.
+				Carracks were ocean-going ships: large enough to be stable in heavy seas, and roomy enough to carry provisions for long voyages. They were the ships in which the Portuguese and the Spanish explored the world in the 15th and 16th centuries. In Portuguese this type was called a nau, while in Spanish it is called a carraca or nao. In French it was called a caraque or nef.
+				As the forerunner of the great ships of the age of sail, the carrack was one of the most influential ship designs in history; while ships became more specialized, the basic design remained unchanged throughout the Age of Sail.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARRACK_STRATEGY">
+			<Text>Carracks are the first naval ranged vessel. Providing much needed fire support versus pirates and other enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EAST_INDIAMAN">
+			<Text>East Indiaman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_EAST_INDIAMAN">
+			<Text>East Indiamen carried both passengers and goods, and were armed to defend themselves against pirates. Mass produced by the Dutch East India Company.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_EAST_INDIAMAN_TEXT">
+			<Text>East Indiaman was a general name for any ship operating under charter or license to any of the East India Companies of the major European trading powers of the 17th through the 19th centuries. Thus, one can speak of a Danish, Dutch, English, French, Portuguese, or Swedish East Indiaman. East Indiamen were the largest merchant ships regularly built during the late 18th and early 19th centuries, generally measuring between 1100 and 1400 tons burthen (bm).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EAST_INDIAMAN_STRATEGY">
+			<Text>Lighter armed but faster then the Galleon they replace. Use them in larger numbers to your advantage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FLUYT">
+			<Text>Fluyt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FLUYT">
+			<Text>A ship designed to be a dedicated cargo vessel.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_FLUYT_TEXT">
+			<Text>A fluyt, fluit, or flute is a Dutch type of sailing vessel originally designed as a dedicated cargo vessel. Originating from the Netherlands in the 16th century, the vessel was designed to facilitate transoceanic delivery with the maximum of space and crew efficiency. Unlike rivals, it was not built for conversion in wartime to a warship, so it was cheaper to build and carried twice the cargo, and could be handled by a smaller crew. Construction by specialized shipyards using new tools made it half the cost of rival ships. The factors combined to sharply lower the cost of transportation for Dutch merchants, giving them a major competitive advantage. The fluyt was a significant factor in the 17th century rise of the Dutch seaborne empire. In 1670 the Dutch merchant marine totalled 568,000 tons of shipping—about half the European total.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FLUYT_STRATEGY">
+			<Text>Fluyts are half the cost of a standard Clipper. Very useful for mounting massive trade operations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CLIPPER">
+			<Text>Clipper</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CLIPPER">
+			<Text>A very fast ship designed for trading and exploration.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_CLIPPER_TEXT">
+			<Text>
+				A clipper was a very fast sailing ship of the 19th century that had three or more masts and a square rig. They were generally narrow for their length, could carry limited bulk freight, small by later 19th century standards, and had a large total sail area. Clipper ships were mostly constructed in British and American shipyards, though France, the Netherlands and other nations also produced some. Clippers sailed all over the world, primarily on the trade routes between the United Kingdom and its colonies in the east, in trans-Atlantic trade, and the New York-to-San Francisco route round Cape Horn during the California Gold Rush. Dutch clippers were built beginning in 1850s for the tea trade and passenger service to Java.
+				The boom years of the Clipper Ship Era began in 1843 as a result of the growing demand for a more rapid delivery of tea from China. It continued under the stimulating influence of the discovery of gold in California and Australia in 1848 and 1851, and ended with the opening of the Suez Canal in 1869.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CLIPPER_STRATEGY">
+			<Text>Clipper ships make excellent naval exploration vessels as well as having the ability to perform trade missions with City-States</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CRUISER">
+			<Text>Cruiser</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CRUISER">
+			<Text>A versatile ship capable of any duty. Larger then a destroyer, smaller then a battleship, it is a good blend of speed and power.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_CRUISER_TEXT">
+			<Text>
+				A cruiser is a type of warship. The term has been in use for several hundred years, and has had different meanings throughout this period. During the Age of Sail, the term cruising referred to certain kinds of missions – independent scouting, raiding or commerce protection – fulfilled by a frigate or sloop, which were the cruising warships of a fleet.
+				From the middle of the 19th century, cruiser came to be a classification for the ships intended for this kind of role, though cruisers came in a wide variety of sizes, from the small protected cruiser to armored cruisers which were as large (though not as powerful) as a battleship.
+				By the early 20th century, cruisers could be placed on a consistent scale of warship size, smaller than a battleship but larger than a destroyer. In 1922, the Washington Naval Treaty placed a formal limit on cruisers, which were defined as warships of up to 10,000 tons displacement carrying guns no larger than 8 inches in calibre. These limits shaped cruisers up until the end of World War II. The very large battlecruisers of the World War I era were now classified, along with battleships, as capital ships.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CRUISER_STRATEGY">
+			<Text>Cruisers are cheaper to produce then battleships, faster as well, which makes them a great support to any fleet action.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_FISHERMEN">
+			<Text>Fishermen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_OCEANOGRAPHER">
+			<Text>Oceanographer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_FISHERMEN">
+			<Text>Fishermen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_FISHERMEN_TEXT">
+			<Text>A group of fishermen making their life on the Ocean.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_FISHERMEN_HELP">
+			<Text>Creates the Fishermen Improvement, increasing food yield from this tile by 1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_OCEANOGRAPHER">
+			<Text>Oceanographer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_OCEANOGRAPHER_TEXT">
+			<Text>A group of scientists devoted to the study of the Ocean.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_OCEANOGRAPHER_HELP">
+			<Text>Creates the Oceanographer Improvement, increasing science yield from this tile by 1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DHOW">
+			<Text>Dhow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_DHOW">
+			<Text>Dhows are used to create the Fishermen Improvement on Coasts, Lakes, or Ocean tiles. In the modern era they also create the Oceanographer Improvement on Coast or Ocean tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SPANISH_GALLEON">
+			<Text>Treasure Galleon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SPANISH_GALLEON">
+			<Text>The Treasure Galleon is a heavy combat vessel that can also be used to gain some gold in a pinch.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WAR_CANOE">
+			<Text>War Canoe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_WAR_CANOE">
+			<Text>War Canoes can enter the Ocean early on leading the way for Polynesian expansion. Used to sailing the seas they have +2 naval sight range.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VIKING_LONGBOAT">
+			<Text>Viking Longboat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_VIKING_LONGBOAT">
+			<Text>The Viking Longboat is the perfect example of Viking resolution against the open sea. Able to sail the Ocean and pillage water tiles for free.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VOYAGING">
+			<Text>Voyaging</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VOYAGING_HELP">
+			<Text>Gains 2 extra naval sight range.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ADVANCED_BATTLESHIP">
+			<Text>The Battleship is a powerful ranged vessel that becomes obsolete with the advent of Stealth technology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KING_GEORGE_CLASS_KING_GEORGE">
+			<Text>HMS King George V</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KING_GEORGE_CLASS_PRINCE_WALES">
+			<Text>HMS Prince of Wales</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KING_GEORGE_CLASS_DUKE_YORK">
+			<Text>HMS Duke of York</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KING_GEORGE_CLASS_HOWE">
+			<Text>HMS Howe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KING_GEORGE_CLASS_ANSON">
+			<Text>HMS Anson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ILLUSTRIOUS_CLASS_ILLUSTRIOUS">
+			<Text>HMS Illustrious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ILLUSTRIOUS_CLASS_FORMIDABLE">
+			<Text>HMS Formidable</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ILLUSTRIOUS_CLASS_VICTORIOUS">
+			<Text>HMS Victorious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ILLUSTRIOUS_CLASS_INDOMITABLE">
+			<Text>HMS Indomitable</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIDO_CLASS_BONAVENTURE">
+			<Text>HMS Bonaventure</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIDO_CLASS_NAIAD">
+			<Text>HMS Naiad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIDO_CLASS_PHOEBE">
+			<Text>HMS Phoebe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIDO_CLASS_DIDO">
+			<Text>HMS Dido</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIDO_CLASS_EURYALUS">
+			<Text>HMS Euryalus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIDO_CLASS_HERMIONE">
+			<Text>HMS Hermione</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIDO_CLASS_SIRIUS">
+			<Text>HMS Sirius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIDO_CLASS_CLEOPATRA">
+			<Text>HMS Cleopatra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIDO_CLASS_ARGONAUT">
+			<Text>HMS Argonaut</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIDO_CLASS_SCYLLA">
+			<Text>HMS Scylla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIDO_CLASS_CHARYBDIS">
+			<Text>HMS Charybdis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIBAL_CLASS_AFRIDI">
+			<Text>HMS Afridi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIBAL_CLASS_ASHANTI">
+			<Text>HMS Ashanti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIBAL_CLASS_BEDOUIN">
+			<Text>HMS Bedouin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIBAL_CLASS_COSSACK">
+			<Text>HMS Cossack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIBAL_CLASS_ESKIMO">
+			<Text>HMS Eskimo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIBAL_CLASS_GURKHA">
+			<Text>HMS Gurkha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIBAL_CLASS_MAORI">
+			<Text>HMS Maori</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIBAL_CLASS_MASHONA">
+			<Text>HMS Mashona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIBAL_CLASS_MATABELE">
+			<Text>HMS Matabele</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIBAL_CLASS_MOHAWK">
+			<Text>HMS Mohawk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIBAL_CLASS_NUBIAN">
+			<Text>HMS Nubian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIBAL_CLASS_PUNJABI">
+			<Text>HMS Punjabi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIBAL_CLASS_SIKH">
+			<Text>HMS Sikh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIBAL_CLASS_SOMALI">
+			<Text>HMS Somali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIBAL_CLASS_TARTAR">
+			<Text>HMS Tartar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRIBAL_CLASS_ZULU">
+			<Text>HMS Zulu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_T_CLASS_TEMPEST">
+			<Text>HMS Tempest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_T_CLASS_THORN">
+			<Text>HMS Thorn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_T_CLASS_THRASHER">
+			<Text>HMS Thrasher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_T_CLASS_TRAVELLER">
+			<Text>HMS Traveller</Text>
+		</Row>
+		<Row Tag="TXT_KEY_T_CLASS_TROOPER">
+			<Text>HMS Trooper</Text>
+		</Row>
+		<Row Tag="TXT_KEY_T_CLASS_TRUSTY">
+			<Text>HMS Trusty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_T_CLASS_TURBULENT">
+			<Text>HMS Turbulent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROMP_CLASS_TROMP">
+			<Text>HNLMS Tromp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROMP_CLASS_JACOB_VAN_HEEMSKERCK">
+			<Text>HNLMS Jacob van Heemskerck</Text>
+		</Row>
+		<Row Tag="TXT_KEY_O19_CLASS_O19">
+			<Text>HNLMS O-19</Text>
+		</Row>
+		<Row Tag="TXT_KEY_O19_CLASS_O20">
+			<Text>HNLMS O-20</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADMIRALEN_CLASS_VAN_GHENT">
+			<Text>HNLMS Van Ghent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADMIRALEN_CLASS_EVERTSEN">
+			<Text>HNLMS Evertsen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADMIRALEN_CLASS_KORTENAER">
+			<Text>HNLMS Kortenaer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADMIRALEN_CLASS_PIET_HEIN">
+			<Text>HNLMS Piet Hein</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADMIRALEN_CLASS_VAN_GALEN">
+			<Text>HNLMS Van Galen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADMIRALEN_CLASS_WITTE_DE_WITH">
+			<Text>HNLMS Witte de With</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADMIRALEN_CLASS_BANCKERT">
+			<Text>HNLMS Banckert</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADMIRALEN_CLASS_VAN_NES">
+			<Text>HNLMS Van Nes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOUTH_DAKOTA_CLASS_SOUTH_DAKOTA">
+			<Text>USS South Dakota</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOUTH_DAKOTA_CLASS_INDIANA">
+			<Text>USS Indiana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOUTH_DAKOTA_CLASS_MASSACHUSETTS">
+			<Text>USS Massachusetts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOUTH_DAKOTA_CLASS_ALABAMA">
+			<Text>USS Alabama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BALTIMORE_CLASS_BALTIMORE">
+			<Text>USS Baltimore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BALTIMORE_CLASS_BOSTON">
+			<Text>USS Boston</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BALTIMORE_CLASS_CANBERRA">
+			<Text>USS Canberra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BALTIMORE_CLASS_QUINCY">
+			<Text>USS Quincy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BALTIMORE_CLASS_PITTSBURGH">
+			<Text>USS Pittsburgh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BALTIMORE_CLASS_SAINT_PAUL">
+			<Text>USS Saint Paul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BALTIMORE_CLASS_COLUMBUS">
+			<Text>USS Columbus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BALTIMORE_CLASS_HELENA">
+			<Text>USS Helena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BALTIMORE_CLASS_BREMERTON">
+			<Text>USS Bremerton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BALTIMORE_CLASS_FALL_RIVER">
+			<Text>USS Fall River</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BALTIMORE_CLASS_MACON">
+			<Text>USS Macon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BALTIMORE_CLASS_TOLEDO">
+			<Text>USS Toledo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BALTIMORE_CLASS_LOS_ANGELES">
+			<Text>USS Los Angeles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BALTIMORE_CLASS_CHICAGO">
+			<Text>USS Chicago</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FLETCHER_CLASS_FLETCHER">
+			<Text>USS Fletcher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FLETCHER_CLASS_RADFORD">
+			<Text>USS Radford</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FLETCHER_CLASS_JENKINS">
+			<Text>USS Jenkins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FLETCHER_CLASS_LA_VALLETTE">
+			<Text>USS La Vallette</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FLETCHER_CLASS_NICHOLAS">
+			<Text>USS Nicholas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FLETCHER_CLASS_OBANNON">
+			<Text>USS O'Bannon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FLETCHER_CLASS_CHEVALIER">
+			<Text>USS Chevalier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FLETCHER_CLASS_SAUFLEY">
+			<Text>USS Saufley</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FLETCHER_CLASS_WALLER">
+			<Text>USS Waller</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FLETCHER_CLASS_STRONG">
+			<Text>USS Strong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT">
+			<Text>Dreadnought</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_DREADNOUGHT_TEXT">
+			<Text>The dreadnought was the predominant type of battleship in the early 20th century. The first of the kind, the Royal Navy's Dreadnought, had such an impact when launched in 1906 that similar battleships built after her were referred to as "dreadnoughts," and earlier battleships became known as pre-dreadnoughts. Her design had two revolutionary features: an "all-big-gun" armament scheme, with an unprecedented number of heavy-calibre guns, and steam turbine propulsion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT_STRATEGY">
+			<Text>Ideal for breaking down enemy defenses from far away, while still capable of handling large amounts of damage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_DREADNOUGHT">
+			<Text>Dreadnoughts are expensive but powerful ships with longer gunnery range then standard battleships</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PENNSYLVANIA_CLASS_PENNSYLVANIA">
+			<Text>USS Pennsylvania</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PENNSYLVANIA_CLASS_ARIZONA">
+			<Text>USS Arizona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YORKTOWN_CLASS_YORKTOWN">
+			<Text>USS Yorktown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YORKTOWN_CLASS_ENTERPRISE">
+			<Text>USS Enterprise</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YORKTOWN_CLASS_HORNET">
+			<Text>USS Hornet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GATO_CLASS_GATO">
+			<Text>USS Gato</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GATO_CLASS_BARB">
+			<Text>USS Barb</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GATO_CLASS_GROWLER">
+			<Text>USS Growler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GATO_CLASS_HARDER">
+			<Text>USS Harder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GATO_CLASS_WAHOO">
+			<Text>USS Wahoo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GATO_CLASS_ALBACORE">
+			<Text>USS Albacore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GATO_CLASS_FLASHER">
+			<Text>USS Flasher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GATO_CLASS_CAVALLA">
+			<Text>USS Cavalla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUEEN_ELIZABETH_CLASS_QUEEN_ELIZABETH">
+			<Text>HMS Queen Elizabeth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUEEN_ELIZABETH_CLASS_WARSPITE">
+			<Text>HMS Warspite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUEEN_ELIZABETH_CLASS_VALIANT">
+			<Text>HMS Valiant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUEEN_ELIZABETH_CLASS_BARHAM">
+			<Text>HMS Barham</Text>
+		</Row>
+		<Row Tag="TXT_KEY_QUEEN_ELIZABETH_CLASS_MALAYA">
+			<Text>HMS Malaya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YAMATO_CLASS_YAMATO">
+			<Text>IJN Yamato</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YAMATO_CLASS_MUSASHI">
+			<Text>IJN Musashi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KONGO_CLASS_KONGO">
+			<Text>IJN Kongo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KONGO_CLASS_HIEI">
+			<Text>IJN Hiei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KONGO_CLASS_KIRISHIMA">
+			<Text>IJN Kirishima</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KONGO_CLASS_HARUNA">
+			<Text>IJN Haruna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TAKAO_CLASS_TAKAO">
+			<Text>IJN Takao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TAKAO_CLASS_ATAGO">
+			<Text>IJN Atago</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TAKAO_CLASS_MAYA">
+			<Text>IJN Maya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TAKAO_CLASS_CHOKAI">
+			<Text>IJN Chokai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGERO_CLASS_KAGERO">
+			<Text>IJN Kagero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGERO_CLASS_SHIRANUI">
+			<Text>IJN Shiranui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGERO_CLASS_KUROSHIO">
+			<Text>IJN Kuroshio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGERO_CLASS_OYASHIO">
+			<Text>IJN Oyashio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGERO_CLASS_HAYASHIO">
+			<Text>IJN Hayashio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGERO_CLASS_NATSUSHIO">
+			<Text>IJN Natsushio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGERO_CLASS_HATSUKAZE">
+			<Text>IJN Hatsukaze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGERO_CLASS_YUKIKAZE">
+			<Text>IJN Yukikaze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGERO_CLASS_AMATSUKAZE">
+			<Text>IJN Amatsukaze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGERO_CLASS_TOKITSUKAZE">
+			<Text>IJN Tokitsukaze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGERO_CLASS_URAKAZE">
+			<Text>IJN Urakaze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGERO_CLASS_ISOKAZE">
+			<Text>IJN Isokaze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGERO_CLASS_HAMAKAZE">
+			<Text>IJN Hamakaze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGERO_CLASS_TANIKAZE">
+			<Text>IJN Tanikaze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGERO_CLASS_NOWAKI">
+			<Text>IJN Nowaki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGERO_CLASS_ARASHI">
+			<Text>IJN Arashi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGERO_CLASS_HAGIKAZE">
+			<Text>IJN Hagikaze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGERO_CLASS_MAIKAZE">
+			<Text>IJN Maikaze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGERO_CLASS_AKIGUMO">
+			<Text>IJN Akigumo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KAGA_CLASS_KAGA">
+			<Text>IJN Kaga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I15">
+			<Text>IJN I-15</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I17">
+			<Text>IJN I-17</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I19">
+			<Text>IJN I-19</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I21">
+			<Text>IJN I-21</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I23">
+			<Text>IJN I-23</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I25">
+			<Text>IJN I-25</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I26">
+			<Text>IJN I-26</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I27">
+			<Text>IJN I-27</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I28">
+			<Text>IJN I-28</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I29">
+			<Text>IJN I-29</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I30">
+			<Text>IJN I-30</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I31">
+			<Text>IJN I-31</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I32">
+			<Text>IJN I-32</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I33">
+			<Text>IJN I-33</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I34">
+			<Text>IJN I-34</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I35">
+			<Text>IJN I-35</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I36">
+			<Text>IJN I-36</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I37">
+			<Text>IJN I-37</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I38">
+			<Text>IJN I-38</Text>
+		</Row>
+		<Row Tag="TXT_KEY_B1_CLASS_I39">
+			<Text>IJN I-39</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BISMARCK_CLASS_BISMARCK">
+			<Text>SMS Bismarck</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BISMARCK_CLASS_TIRPITZ">
+			<Text>SMS Tirpitz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GRAF_ZEPPELIN_CLASS_GRAF_ZEPPELIN">
+			<Text>SMS Graf Zeppelin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GRAF_ZEPPELIN_CLASS_FLUGZEUGTRAGER_B">
+			<Text>SMS Flugzeugträger B</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GRAF_ZEPPELIN_CLASS_FLUGZEUGTRAGER_C">
+			<Text>SMS Flugzeugträger C</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GRAF_ZEPPELIN_CLASS_FLUGZEUGTRAGER_D">
+			<Text>SMS Flugzeugträger D</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEIPZIG_CLASS_LEIPZIG">
+			<Text>SMS Leipzig</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEIPZIG_CLASS_NURNBERG">
+			<Text>SMS Nurnberg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCHARNHORST_CLASS_SCHARNHORST">
+			<Text>SMS Scharnhorst</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCHARNHORST_CLASS_GNEISENAU">
+			<Text>SMS Gneisenau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_U7_CLASS_27">
+			<Text>SMS 27</Text>
+		</Row>
+		<Row Tag="TXT_KEY_U7_CLASS_28">
+			<Text>SMS 28</Text>
+		</Row>
+		<Row Tag="TXT_KEY_U7_CLASS_29">
+			<Text>SMS 29</Text>
+		</Row>
+		<Row Tag="TXT_KEY_U7_CLASS_30">
+			<Text>SMS 30</Text>
+		</Row>
+		<Row Tag="TXT_KEY_U7_CLASS_31">
+			<Text>SMS 31</Text>
+		</Row>
+		<Row Tag="TXT_KEY_U7_CLASS_32">
+			<Text>SMS 32</Text>
+		</Row>
+		<Row Tag="TXT_KEY_U7_CLASS_33">
+			<Text>SMS 33</Text>
+		</Row>
+		<Row Tag="TXT_KEY_U7_CLASS_34">
+			<Text>SMS 34</Text>
+		</Row>
+		<Row Tag="TXT_KEY_U7_CLASS_35">
+			<Text>SMS 35</Text>
+		</Row>
+		<Row Tag="TXT_KEY_U7_CLASS_36">
+			<Text>SMS 36</Text>
+		</Row>
+		<Row Tag="TXT_KEY_Z_CLASS_Z23">
+			<Text>SMS Z23</Text>
+		</Row>
+		<Row Tag="TXT_KEY_Z_CLASS_Z24">
+			<Text>SMS Z24</Text>
+		</Row>
+		<Row Tag="TXT_KEY_Z_CLASS_Z25">
+			<Text>SMS Z25</Text>
+		</Row>
+		<Row Tag="TXT_KEY_Z_CLASS_Z26">
+			<Text>SMS Z26</Text>
+		</Row>
+		<Row Tag="TXT_KEY_Z_CLASS_Z27">
+			<Text>SMS Z27</Text>
+		</Row>
+		<Row Tag="TXT_KEY_Z_CLASS_Z28">
+			<Text>SMS Z28</Text>
+		</Row>
+		<Row Tag="TXT_KEY_Z_CLASS_Z29">
+			<Text>SMS Z29</Text>
+		</Row>
+		<Row Tag="TXT_KEY_Z_CLASS_Z30">
+			<Text>SMS Z30</Text>
+		</Row>
+		<Row Tag="TXT_KEY_Z_CLASS_Z31">
+			<Text>SMS Z31</Text>
+		</Row>
+		<Row Tag="TXT_KEY_Z_CLASS_Z32">
+			<Text>SMS Z32</Text>
+		</Row>
+		<Row Tag="TXT_KEY_Z_CLASS_Z33">
+			<Text>SMS Z33</Text>
+		</Row>
+		<Row Tag="TXT_KEY_Z_CLASS_Z34">
+			<Text>SMS Z34</Text>
+		</Row>
+		<Row Tag="TXT_KEY_Z_CLASS_Z37">
+			<Text>SMS Z37</Text>
+		</Row>
+		<Row Tag="TXT_KEY_Z_CLASS_Z38">
+			<Text>SMS Z38</Text>
+		</Row>
+		<Row Tag="TXT_KEY_Z_CLASS_Z39">
+			<Text>SMS Z39</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUNKERQUE_CLASS_DUNKERQUE">
+			<Text>FS Dunkerque</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUNKERQUE_CLASS_STRASBOURG">
+			<Text>FS Strasbourg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FANTASQUE_CLASS_FANTASQUE">
+			<Text>FS Fantasque</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FANTASQUE_CLASS_MALIN">
+			<Text>FS Malin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FANTASQUE_CLASS_TERRIBLE">
+			<Text>FS Terrible</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FANTASQUE_CLASS_INDOMPTABLE">
+			<Text>FS Indomptable</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FANTASQUE_CLASS_AUDACIEUX">
+			<Text>FS Audacieux</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FANTASQUE_CLASS_TRIOMPHANT">
+			<Text>FS Triomphant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JOFFRE_CLASS_JOFFRE">
+			<Text>FS Joffre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JOFFRE_CLASS_PAINLEVE">
+			<Text>FS Painleve</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LA_GALISSONNIERE_CLASS_LA_GALISSONNIERE">
+			<Text>FS La Galissonniere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LA_GALISSONNIERE_CLASS_MONTCALM">
+			<Text>FS Montcalm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LA_GALISSONNIERE_CLASS_GEORGES_LEYGUES">
+			<Text>FS Georges Leygues</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LA_GALISSONNIERE_CLASS_JEAN_DE_VIENNE">
+			<Text>FS Jean de Vienne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LA_GALISSONNIERE_CLASS_MARSEILLAISE">
+			<Text>FS Marseillaise</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LA_GALISSONNIERE_CLASS_GLOIRE">
+			<Text>FS Gloire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDOUTABLE_CLASS_REDOUTABLE">
+			<Text>FS Redoutable</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDOUTABLE_CLASS_VENGEUR">
+			<Text>FS Vengeur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDOUTABLE_CLASS_ARCHIMEDE">
+			<Text>FS Archimede</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDOUTABLE_CLASS_FRESNEL">
+			<Text>FS Fresnel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDOUTABLE_CLASS_HENRI_POINCARE">
+			<Text>FS Henri Poincare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDOUTABLE_CLASS_MONGE">
+			<Text>FS Monge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDOUTABLE_CLASS_PASCAL">
+			<Text>FS Pascal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDOUTABLE_CLASS_PASTEUR">
+			<Text>FS Pasteur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDOUTABLE_CLASS_PONCELET">
+			<Text>FS Poncelet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDOUTABLE_CLASS_ACHILLE">
+			<Text>FS Achille</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDOUTABLE_CLASS_AJAX">
+			<Text>FS Ajax</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDOUTABLE_CLASS_ACTEON">
+			<Text>FS Acteon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDOUTABLE_CLASS_ACHERON">
+			<Text>FS Acheron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDOUTABLE_CLASS_ARGO">
+			<Text>FS Argo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDOUTABLE_CLASS_PROTEE">
+			<Text>FS Protee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDOUTABLE_CLASS_PEGASE">
+			<Text>FS Pegase</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDOUTABLE_CLASS_PERSEE">
+			<Text>FS Persee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDOUTABLE_CLASS_PHENIX">
+			<Text>FS Phenix</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REDOUTABLE_CLASS_PROMETHEE">
+			<Text>FS Promethee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RICHELIEU_CLASS_RICHELIEU">
+			<Text>FS Richelieu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RICHELIEU_CLASS_JEAN_BART">
+			<Text>FS Jean Bart</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RICHELIEU_CLASS_CLEMENCEAU">
+			<Text>FS Clemenceau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RICHELIEU_CLASS_GASCOGNE">
+			<Text>FS Gascogne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KATSONIS_CLASS_KATSONIS">
+			<Text>RHN Katsonis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KATSONIS_CLASS_PAPANIKOLIS">
+			<Text>RHN Papanikolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PISA_CLASS_GEORGIOS_AVEROF">
+			<Text>RHN Georgios Averof</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VASILEFS_GEORGIOS_CLASS_VASILEFS_GEORGIOS">
+			<Text>RHN Vasilefs Georgios</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VASILEFS_GEORGIOS_CLASS_VASILISSA_OLGA">
+			<Text>RHN Vasilissa Olga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VASILEFS_GEORGIOS_CLASS_VASILEFS_KONSTANTINOS">
+			<Text>RHN Vasilefs Konstantinos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VASILEFS_GEORGIOS_CLASS_VASILISSA_SOFIA">
+			<Text>RHN Vasilissa Sofia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AQUILA_CLASS_AQUILA">
+			<Text>RN Aquila</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONTE_DI_CAVOUR_CLASS_CONTE_DI_CAVOUR">
+			<Text>RN Conte di Cavour</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONTE_DI_CAVOUR_CLASS_GIULIO_CESARE">
+			<Text>RN Giulio Cesare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONTE_DI_CAVOUR_CLASS_LEONARDO_DA_VINCI">
+			<Text>RN Leonardo da Vinci</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LITTORIO_CLASS_LITTORIO">
+			<Text>RN Littorio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LITTORIO_CLASS_VITTORIO_VENETO">
+			<Text>RN Vittorio Veneto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LITTORIO_CLASS_ROMA">
+			<Text>RN Roma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LITTORIO_CLASS_IMPERO">
+			<Text>RN Impero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MARCELLO_CLASS_MARCELLO">
+			<Text>RN Marcello</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MARCELLO_CLASS_DANDOLO">
+			<Text>RN Dandolo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MARCELLO_CLASS_MOCENIGO">
+			<Text>RN Mocenigo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MARCELLO_CLASS_NANI">
+			<Text>RN Nani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MARCELLO_CLASS_VENIERO">
+			<Text>RN Veniero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MARCELLO_CLASS_PROVANA">
+			<Text>RN Provana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MARCELLO_CLASS_BARBARIGO">
+			<Text>RN Barbarigo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MARCELLO_CLASS_EMO">
+			<Text>RN Emo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MARCELLO_CLASS_MOROSINI">
+			<Text>RN Morosini</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MARCELLO_CLASS_CAPPELLINI">
+			<Text>RN Cappellini</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MARCELLO_CLASS_FAA_DI_BRUNO">
+			<Text>RN Faa di Bruno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOLDATI_CLASS_ALPINO">
+			<Text>RN Alpino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOLDATI_CLASS_ARTIGLIERE">
+			<Text>RN Artigliere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOLDATI_CLASS_ASCARI">
+			<Text>RN Ascari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOLDATI_CLASS_AVIERE">
+			<Text>RN Aviere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOLDATI_CLASS_BERSAGLIERE">
+			<Text>RN Bersagliere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOLDATI_CLASS_CAMICIA_NERA">
+			<Text>RN Camicia Nera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOLDATI_CLASS_CARABINIERE">
+			<Text>RN Carabiniere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOLDATI_CLASS_CORAZZIERE">
+			<Text>RN Corazziere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOLDATI_CLASS_FUCILIERE">
+			<Text>RN Fuciliere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOLDATI_CLASS_GENIERE">
+			<Text>RN Geniere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOLDATI_CLASS_GRANATIERE">
+			<Text>RN Granatiere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOLDATI_CLASS_LANCIERE">
+			<Text>RN Lanciere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOLDATI_CLASS_BOMBARDIERE">
+			<Text>RN Bombardiere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOLDATI_CLASS_CARRISTA">
+			<Text>RN Carrista</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOLDATI_CLASS_CORSARO">
+			<Text>RN Corsaro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOLDATI_CLASS_LEGIONARIO">
+			<Text>RN Legionario</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOLDATI_CLASS_MITRAGLIERE">
+			<Text>RN Mitragliere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOLDATI_CLASS_SQUADRISTA">
+			<Text>RN Squadrista</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOLDATI_CLASS_VELITE">
+			<Text>RN Velite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ZARA_CLASS_ZARA">
+			<Text>RN Zara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ZARA_CLASS_FIUME">
+			<Text>RN Fiume</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ZARA_CLASS_POLA">
+			<Text>RN Pola</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ZARA_CLASS_GORIZIA">
+			<Text>RN Gorizia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DANAE_CLASS_DANAE">
+			<Text>ORP Danae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DANAE_CLASS_DRAGON">
+			<Text>ORP Dragon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROM_CLASS_GROM">
+			<Text>ORP Grom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROM_CLASS_BLYSKAWICA">
+			<Text>ORP Blyskawica</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROM_CLASS_HURAGAN">
+			<Text>ORP Huragan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROM_CLASS_ORKAN">
+			<Text>ORP Orkan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ORZEL_CLASS_ORZEL">
+			<Text>ORP Orzel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ORZEL_CLASS_SEP">
+			<Text>ORP Sep</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRE_KRONOR_CLASS_TRE_KRONOR">
+			<Text>HMS Tre Kronor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRE_KRONOR_CLASS_GOTA_LEJON">
+			<Text>HMS Gota Lejon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOTEBORG_CLASS_GOTEBORG">
+			<Text>HMS Goteborg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOTEBORG_CLASS_STOCKHOLM">
+			<Text>HMS Stockholm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOTEBORG_CLASS_MALMO">
+			<Text>HMS Malmo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOTEBORG_CLASS_KARLSKRONA">
+			<Text>HMS Karlskrona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOTEBORG_CLASS_NORRKOPING">
+			<Text>HMS Norrkoping</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOTEBORG_CLASS_GAVLE">
+			<Text>HMS Gavle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SJOLEJONET_CLASS_SJOLEJONET">
+			<Text>HMS Sjolejonet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SJOLEJONET_CLASS_DYKAREN">
+			<Text>HMS Dykaren</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SJOLEJONET_CLASS_SJOBJORNEN">
+			<Text>HMS Sjobjornen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SJOLEJONET_CLASS_SJOBORREN">
+			<Text>HMS Sjoborren</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SJOLEJONET_CLASS_SJOHASTEN">
+			<Text>HMS Sjohasten</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SJOLEJONET_CLASS_SJOHUNDEN">
+			<Text>HMS Sjohunden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SJOLEJONET_CLASS_SJOORMEN">
+			<Text>HMS Sjoormen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SJOLEJONET_CLASS_SVARDFISKEN">
+			<Text>HMS Svardfisken</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SJOLEJONET_CLASS_TUMLAREN">
+			<Text>HMS Tumlaren</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GANGUT_CLASS_GANGUT">
+			<Text>RFS Gangut</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GANGUT_CLASS_PETROPAVLOVSK">
+			<Text>RFS Petropavlovsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GANGUT_CLASS_SEVASTOPOL">
+			<Text>RFS Sevastopol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GANGUT_CLASS_POLTAVA">
+			<Text>RFS Poltava</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KIROV_CLASS_KIROV">
+			<Text>RFS Kirov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KIROV_CLASS_VOROSHILOV">
+			<Text>RFS Voroshilov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KIROV_CLASS_MAXIM_GORKY">
+			<Text>RFS Maxim Gorky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KIROV_CLASS_MOLOTOV">
+			<Text>RFS Molotov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KIROV_CLASS_KAGANOVICH">
+			<Text>RFS Kaganovich</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KIROV_CLASS_KALININ">
+			<Text>RFS Kalinin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_71_CLASS_PROJECT_71">
+			<Text>RFS Project 71</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHCHUKA_CLASS_SHCH_101">
+			<Text>RFS Shch-101</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHCHUKA_CLASS_SHCH_102">
+			<Text>RFS Shch-102</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHCHUKA_CLASS_SHCH_103">
+			<Text>RFS Shch-103</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHCHUKA_CLASS_SHCH_104">
+			<Text>RFS Shch-104</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHCHUKA_CLASS_SHCH_105">
+			<Text>RFS Shch-105</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHCHUKA_CLASS_SHCH_106">
+			<Text>RFS Shch-106</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHCHUKA_CLASS_SHCH_107">
+			<Text>RFS Shch-107</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHCHUKA_CLASS_SHCH_108">
+			<Text>RFS Shch-108</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHCHUKA_CLASS_SHCH_109">
+			<Text>RFS Shch-109</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHCHUKA_CLASS_SHCH_110">
+			<Text>RFS Shch-110</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHCHUKA_CLASS_SHCH_111">
+			<Text>RFS Shch-111</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHCHUKA_CLASS_SHCH_112">
+			<Text>RFS Shch-112</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOVETSKY_SOYUZ_CLASS_SOVETSKY_SOYUZ">
+			<Text>RFS Sovetsky Soyuz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOVETSKY_SOYUZ_CLASS_SOVETSKY_UKRAINA">
+			<Text>RFS Sovetsky Ukraina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOVETSKY_SOYUZ_CLASS_SOVETSKY_ROSSIYA">
+			<Text>RFS Sovetsky Rossiya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOVETSKY_SOYUZ_CLASS_SOVETSKY_BELORUSSIYA">
+			<Text>RFS Sovetsky Belorussiya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_GNEVNY">
+			<Text>RFS Gnevny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_GORDY">
+			<Text>RFS Gordy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_GROMKY">
+			<Text>RFS Gromky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_GROZNY">
+			<Text>RFS Grozny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_GREMYASHCHY">
+			<Text>RFS Gremyashchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_GROZYASHTCHI">
+			<Text>RFS Grozyashtchi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_SOKRUSHITELNY">
+			<Text>RFS Sokrushitelny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_STEREGUSHCHY">
+			<Text>RFS Steregushchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_STREMITLENY">
+			<Text>RFS Stremitleny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_BODRY">
+			<Text>RFS Bodry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_BYSTRY">
+			<Text>RFS Bystry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_BEZUPRECHNY">
+			<Text>RFS Bezuprechny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_BDITELNY">
+			<Text>RFS Bditelny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_BOIKY">
+			<Text>RFS Boiky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_BEZPOSHCHADNY">
+			<Text>RFS Bezposhchadny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_REZVY">
+			<Text>RFS Rezvy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_RYANY">
+			<Text>RFS Ryany</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_RAZTROPNY">
+			<Text>RFS Raztropny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_REDKI">
+			<Text>RFS Redki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_RAZYASHTCHY">
+			<Text>RFS Razyashtchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_RESHITELNY">
+			<Text>RFS Reshitelny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_RETIVY">
+			<Text>RFS Retivy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_REVNOSTY">
+			<Text>RFS Revnosty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_RAZYARYONNY">
+			<Text>RFS Razyaryonny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_RAZUMNY">
+			<Text>RFS Razumny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_REKORDNY">
+			<Text>RFS Rekordny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GNEVNY_CLASS_REZKIY">
+			<Text>RFS Rezkiy</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

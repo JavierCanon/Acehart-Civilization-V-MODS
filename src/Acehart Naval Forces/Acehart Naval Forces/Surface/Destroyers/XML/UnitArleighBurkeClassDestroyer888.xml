@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_ABCLASS888</Type>
+			<Description>Arleigh Burke Class Destroyer</Description>
+			<DefaultUnit>NONE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+  <Units>
+    <Row>
+      <Type>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</Type>
+      <Description>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</Description>
+      <CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+      <Domain>DOMAIN_SEA</Domain>
+      <Class>UNITCLASS_ABCLASS888</Class>
+      <Cost>450</Cost>
+      <HurryCostModifier>50</HurryCostModifier>
+      <AdvancedStartCost>60</AdvancedStartCost>
+      <Combat>110</Combat>
+      <RangeAttackIgnoreLOS>true</RangeAttackIgnoreLOS>
+      <IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+      <Moves>7</Moves>
+      <AirInterceptRange>3</AirInterceptRange>
+      <SpecialCargo>SPECIALUNIT_HELIMISSILE</SpecialCargo>
+      <Strategy>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_STRATEGY</Strategy>
+      <Help>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_HELP</Help>
+      <Civilopedia>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_PEDIA</Civilopedia>
+      <PrereqTech>TECH_COMPUTERS</PrereqTech>
+      <Pillage>true</Pillage>
+      <MoveRate>BOAT</MoveRate>
+      <Mechanized>true</Mechanized>
+      <UnitArtInfo>ART_DEF_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitArtInfo>
+      <IconAtlas>ATLAS_ICON_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</IconAtlas>
+      <PortraitIndex>0</PortraitIndex>
+      <UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
+      <UnitFlagIconOffset>67</UnitFlagIconOffset>
+      <CombatLimit>100</CombatLimit>
+      <DomainCargo>DOMAIN_AIR</DomainCargo>
+      <MinAreaSize>10</MinAreaSize>
+      <MilitaryProduction>true</MilitaryProduction>
+      <MilitarySupport>true</MilitarySupport>
+      <DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+		<XPValueAttack>4</XPValueAttack>
+		<XPValueDefense>4</XPValueDefense>
+    </Row>
+  </Units>
+  <Unit_AITypes>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+    </Row>
+    
+  </Unit_AITypes>
+  <Unit_Flavors>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <FlavorType>FLAVOR_NAVAL</FlavorType>
+      <Flavor>25</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+      <Flavor>7</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <FlavorType>FLAVOR_DEFENSE</FlavorType>
+      <Flavor>25</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <FlavorType>FLAVOR_OFFENSE</FlavorType>
+      <Flavor>15</Flavor>
+    </Row>
+  </Unit_Flavors>
+  <Civilization_UnitClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+      <UnitClassType>UNITCLASS_ABCLASS888</UnitClassType>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+    </Row>
+  </Civilization_UnitClassOverrides>
+  <Unit_FreePromotions>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <PromotionType>PROMOTION_ANTI_SUBMARINE_I</PromotionType>
+    </Row>
+  
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <PromotionType>PROMOTION_STRONGER_VS_DAMAGED</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <PromotionType>PROMOTION_INTERCEPTION_I</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <PromotionType>PROMOTION_INTERCEPTION_II</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <PromotionType>PROMOTION_WITHDRAW_BEFORE_MELEE</PromotionType>
+    </Row>
+	  <Row>
+		  <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		  <PromotionType>PROMOTION_CARGO_XXII</PromotionType>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		  <PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		  <PromotionType>PROMOTION_TARGETING_1</PromotionType>
+	  </Row>
+	 
+	  <Row>
+		  <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		  <PromotionType>PROMOTION_BOARDING_PARTY_1</PromotionType>
+	  </Row>
+	 
+  </Unit_FreePromotions>
+  <Unit_ResourceQuantityRequirements>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <ResourceType>RESOURCE_ALUMINUM</ResourceType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <ResourceType>RESOURCE_IRON</ResourceType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+      <ResourceType>RESOURCE_OIL</ResourceType>
+    </Row>
+  </Unit_ResourceQuantityRequirements>
+  <ArtDefine_UnitInfos>
+    <Row>
+      <Type>ART_DEF_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</Type>
+      <DamageStates>3</DamageStates>
+    </Row>
+  </ArtDefine_UnitInfos>
+  <ArtDefine_UnitInfoMemberInfos>
+    <Row>
+      <UnitInfoType>ART_DEF_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitInfoType>
+      <UnitMemberInfoType>ART_DEF_UNIT_MEMBER_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitMemberInfoType>
+      <NumMembers>1</NumMembers>
+    </Row>
+  </ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_ARLEIGH_BURKE_CLASS_DESTROYER888</Type>
+			<Scale>0.09</Scale>
+			<Domain>Sea</Domain>
+			<Model>SURFACE/DESTROYERS/ART/ArleighBurke.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLeftRightAttack>1</HasLeftRightAttack>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasIndependentWeaponFacing>1</HasIndependentWeaponFacing>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25.0</VisKillStrengthMin>
+			<VisKillStrengthMax>50.0</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25.0</VisKillStrengthMin>
+			<VisKillStrengthMax>50.0</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+  <UnitGameplay2DScripts>
+ 	  <Row>
+		  <UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		  <SelectionSound>AS2D_SELECT_BATTLESHIP</SelectionSound>
+		  <FirstSelectionSound>AS2D_BIRTH_BATTLESHIP</FirstSelectionSound>
+	  </Row>
+  </UnitGameplay2DScripts>
+  <IconTextureAtlases>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</Atlas>
+      <IconSize>256</IconSize>
+      <Filename>ICON_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_256.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</Atlas>
+      <IconSize>128</IconSize>
+      <Filename>ICON_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_128.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</Atlas>
+      <IconSize>80</IconSize>
+      <Filename>ICON_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_80.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</Atlas>
+      <IconSize>64</IconSize>
+      <Filename>ICON_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_64.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</Atlas>
+      <IconSize>45</IconSize>
+      <Filename>ICON_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_45.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+  </IconTextureAtlases>
+  <ArtDefine_StrategicView>
+    <Row>
+      <StrategicViewType>ART_DEF_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</StrategicViewType>
+      <TileType>Unit</TileType>
+		<Asset>sv_destroyer.dds</Asset>
+    </Row>
+  </ArtDefine_StrategicView>
+  <Language_en_US>
+    <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888">
+      <Text>Arleigh Burke Class Destroyer</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_STRATEGY">
+      <Text>The Arleigh Burke Class Destroyer is designed to hunt down and destroy submarines and to provide anti-aircraft support, and can carry 15 missles. It often operates as an escort to embarked units, battleships and carriers when in range of enemy planes and subs. The Destroyer is shockingly fast and its indirect fire ability allows it to bombard targets it cannot see (as long as other friendly units can see them).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_HELP">
+      <Text>Fast late game ship making it highly effective at recon. Also used to hunt down and destroy enemy Submarines.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_PEDIA">
+      <Text>The Arleigh Burke-class of guided missile destroyers (DDGs) is the United States Navy's first class of destroyer built around the Aegis Combat System and the SPY-1D multi-function Passive electronically scanned array radar. The class is named for Admiral Arleigh Burke, the most famous American destroyer officer of World War II, and later Chief of Naval Operations. The class leader, USS Arleigh Burke, was commissioned during Admiral Burke's lifetime.[NEWLINE]They were designed as multi-role destroyers[8] to fit the AAW (Anti-Aircraft Warfare) role with their powerful Aegis radar and surface-to-air missiles; ASW (Anti-submarine warfare) role, with their towed sonar array, anti-submarine rockets, and ASW helicopter; ASUW (Anti-surface warfare) role with their Harpoon (missile) launcher; and strategic land strike role with their Tomahawk (missile)s. Some versions of the class no longer have the towed sonar, or Harpoon missile launcher. Their hull and superstructure were designed to have a reduced radar cross section[9] The first ship of the class was commissioned on 4 July 1991. With the decommissioning of the last Spruance-class destroyer, Cushing, on 21 September 2005, the Arleigh Burke–class ships became the U.S. Navy's only active destroyers; the class has the longest production run for any post-World War II U.S. Navy surface combatant.[10] Besides the 62 vessels of this class (comprising 21 of Flight I, 7 of Flight II and 34 of Flight IIA) in service by 2013, up to a further 42 (of Flight III) have been envisaged.[NEWLINE]With an overall length of 505 feet (154 m) to 509 feet (155 m), displacement ranging from 8,315 to 9,200 tons, and weaponry including over 90 missiles, the Arleigh Burke–class ships are larger and more heavily armed than most previous ships classified as guided missile cruisers - Wikipedia</Text>
+    </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_ARLEIGH_BURKE">
+		  <Text>USS Arleigh Burke</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_BARRY">
+		  <Text>USS Barry</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_JOHN_PAUL_JONES">
+		  <Text>USS John Paul Jones</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_CURTIS_WILBUR">
+		  <Text>USS Curtis Wilbur</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_STOUT">
+		  <Text>USS Stout</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_JOHN_S_MCCAIN">
+		  <Text>USS John S. McCain</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_MITSCHER">
+		  <Text>USS Mitscher</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_LABOON">
+		  <Text>USS Laboon</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_RUSSELL">
+		  <Text>USS Russell</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_PAUL_HAMILTON">
+		  <Text>USS Paul Hamilton</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_RAMAGE">
+		  <Text>USS Ramage</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_FITZGERALD">
+		  <Text>USS Fitzgerald</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_STETHEM">
+		  <Text>USS Stethem</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_CARNEY">
+		  <Text>USS Carney</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_BENFOLD">
+		  <Text>USS Benfold</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_GONZALEZ">
+		  <Text>USS Gonzalez</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_COLE">
+		  <Text>USS Cole</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_THE_SULLIVANS">
+		  <Text>USS The Sullivans</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_MILIUS">
+		  <Text>USS Milius</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_HOPPER">
+		  <Text>USS Hopper</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_ROSS">
+		  <Text>USS Ross</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_MAHAN">
+		  <Text>USS Mahan</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_DECATUR">
+		  <Text>USS Decatur</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_MCFAUL">
+		  <Text>USS McFaul</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_DONALD_COOK">
+		  <Text>USS Donald Cook</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_HIGGINS">
+		  <Text>USS Higgins</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_OKANE">
+		  <Text>USS O'Kane</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_PORTER">
+		  <Text>USS Porter</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_OSCAR_AUSTIN">
+		  <Text>USS Oscar Austin</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_ROOSEVELT">
+		  <Text>USS Roosevelt</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_WINSTON_S_CHURCHILL">
+		  <Text>USS Winston S. Churchill</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_LASSEN">
+		  <Text>USS Lassen</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_HOWARD">
+		  <Text>USS Howard</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_BULKELEY">
+		  <Text>USS Bulkeley</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_MCCAMPBELL">
+		  <Text>USS McCampbell</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_SHOUP">
+		  <Text>USS Shoup</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_MASON">
+		  <Text>USS Mason</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_PREBLE">
+		  <Text>USS Preble</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_MUSTIN">
+		  <Text>USS Mustin</Text>
+
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_CHAFEE">
+		  <Text>USS Chafee</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_PINCKNEY">
+		  <Text>USS Pinckney</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_MOMSEN">
+		  <Text>USS Momsen</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_CHUNG-HOON">
+		  <Text>USS Chung-Hoon</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_NITZE">
+		  <Text>USS Nitze</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_JAMES_E_WILLIAMS">
+		  <Text>USS James E. Williams</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_BAINBRIDGE">
+		  <Text>USS Bainbridge</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_HALSEY">
+		  <Text>USS Halsey</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_FORREST_SHERMAN">
+		  <Text>USS Forrest Sherman</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_FARRAGUT">
+		  <Text>USS Farragut</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_KIDD">
+		  <Text>USS Kidd</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_GRIDLEY">
+		  <Text>USS Gridley</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_SAMPSON">
+		  <Text>USS Sampson</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_TRUXTUN">
+		  <Text>USS Truxtun</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_STERETT">
+		  <Text>USS Sterett</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_DEWEY">
+		  <Text>USS Dewey</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_STOCKDALE">
+		  <Text>USS Stockdale</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_GRAVELY">
+		  <Text>USS Gravely</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_WAYNE_E_MEYER">
+		  <Text>USS Wayne E. Meyer</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_JASON_DUNHAM">
+		  <Text>USS Jason Dunham</Text>
+
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_WILLIAM_P_LAWRENCE">
+		  <Text>USS William P. Lawrence</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_SPRUANCE">
+		  <Text>USS Spruance</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_MICHAEL_MURPHY">
+		  <Text>USS Michael Murphy</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_JOHN_FINN">
+		  <Text>USS John Finn</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_RALPH_JOHNSON">
+		  <Text>USS Ralph Johnson</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_RAFAEL_PERALTA">
+		  <Text>USS Rafael Peralta</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_THOMAS_HUDNER">
+		  <Text>USS Thomas Hudner</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_PAUL_IGNATIUS">
+		  <Text>USS Paul Ignatius</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_DANIEL_INOUYE">
+		  <Text>USS Daniel Inouye</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_DELBERT_D_BLACK">
+		  <Text>USS Delbert D. Black</Text>
+	  </Row>
+	  
+  </Language_en_US>
+	<Unit_UniqueNames>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_ARLEIGH_BURKE</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_BARRY</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_JOHN_PAUL_JONES</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_CURTIS_WILBUR</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_STOUT</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_JOHN_S_MCCAIN</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_MITSCHER</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_LABOON</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_RUSSELL</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_PAUL_HAMILTON</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_RAMAGE</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_FITZGERALD</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_STETHEM</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_CARNEY</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_BENFOLD</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_GONZALEZ</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_COLE</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_THE_SULLIVANS</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_MILIUS</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_HOPPER</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_ROSS</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_MAHAN</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_DECATUR</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_MCFAUL</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_DONALD_COOK</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_HIGGINS</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_OKANE</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_PORTER</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_OSCAR_AUSTIN</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_ROOSEVELT</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_WINSTON_S_CHURCHILL</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_LASSEN</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_HOWARD</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_BULKELEY</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_MCCAMPBELL</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_SHOUP</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_MASON</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_PREBLE</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_MUSTIN</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_CHAFEE</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_PINCKNEY</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_MOMSEN</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_CHUNG-HOON</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_NITZE</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_JAMES_E_WILLIAMS</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_BAINBRIDGE</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_HALSEY</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_FORREST_SHERMAN</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_FARRAGUT</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_KIDD</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_GRIDLEY</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_SAMPSON</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_TRUXTUN</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_STERETT</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_DEWEY</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_STOCKDALE</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_GRAVELY</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_WAYNE_E_MEYER</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_JASON_DUNHAM</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_WILLIAM_P_LAWRENCE</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_SPRUANCE</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_MICHAEL_MURPHY</UniqueName>
+
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_JOHN_FINN</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_RALPH_JOHNSON</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_RAFAEL_PERALTA</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_THOMAS_HUDNER</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_PAUL_IGNATIUS</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_DANIEL_INOUYE</UniqueName>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitType>
+		<UniqueName>TXT_KEY_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_DELBERT_D_BLACK</UniqueName>
+	</Row>
+		</Unit_UniqueNames>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<Units>
+		<Row>
+			<Type>UNIT_KONGO_CLASS_DESTROYER888</Type>
+			<Description>TXT_KEY_UNIT_KONGO_CLASS_DESTROYER888</Description>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<Class>UNITCLASS_ABCLASS888</Class>
+			<Cost>440</Cost>
+			<HurryCostModifier>50</HurryCostModifier>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<Combat>105</Combat>
+			<RangeAttackIgnoreLOS>true</RangeAttackIgnoreLOS>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Moves>7</Moves>
+			<AirInterceptRange>3</AirInterceptRange>
+			<SpecialCargo>SPECIALUNIT_HELIMISSILE</SpecialCargo>
+			<Strategy>TXT_KEY_UNIT_KONGO_CLASS_DESTROYER888_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_KONGO_CLASS_DESTROYER888_HELP</Help>
+			<Civilopedia>TXT_KEY_UNIT_KONGO_CLASS_DESTROYER888_PEDIA</Civilopedia>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+			<Pillage>true</Pillage>
+			<MoveRate>BOAT</MoveRate>
+			<Mechanized>true</Mechanized>
+			<UnitArtInfo>ART_DEF_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</UnitArtInfo>
+			<IconAtlas>ATLAS_ICON_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>67</UnitFlagIconOffset>
+			<CombatLimit>100</CombatLimit>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<MinAreaSize>10</MinAreaSize>
+			<MilitaryProduction>true</MilitaryProduction>
+			<MilitarySupport>true</MilitarySupport>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<XPValueAttack>4</XPValueAttack>
+			<XPValueDefense>4</XPValueDefense>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<UnitClassType>UNITCLASS_ABCLASS888</UnitClassType>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<PromotionType>PROMOTION_ANTI_SUBMARINE_I</PromotionType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<PromotionType>PROMOTION_STRONGER_VS_DAMAGED</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<PromotionType>PROMOTION_WITHDRAW_BEFORE_MELEE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<PromotionType>PROMOTION_CARGO_XXII</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<PromotionType>PROMOTION_TARGETING_1</PromotionType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<PromotionType>PROMOTION_BOARDING_PARTY_1</PromotionType>
+		</Row>
+
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_KONGO_CLASS_DESTROYER888">
+			<Text>Kongo Class Destroyer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_KONGO_CLASS_DESTROYER888_STRATEGY">
+			<Text>The Kongo Class Destroyer is designed to hunt down and destroy submarines and to provide anti-aircraft support, and can carry 15 missles. It often operates as an escort to embarked units, battleships and carriers when in range of enemy planes and subs. The Destroyer is shockingly fast and its indirect fire ability allows it to bombard targets it cannot see (as long as other friendly units can see them).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_KONGO_CLASS_DESTROYER888_HELP">
+			<Text>Fast late game ship making it highly effective at recon. Also used to hunt down and destroy enemy Submarines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_KONGO_CLASS_DESTROYER888_PEDIA">
+			<Text>The Kongo class of guided missile destroyers serves as the core ship of the Japan Maritime Self-Defense Force (JMSDF)'s Escort Flotillas[NEWLINE]The Kongo class employs the highly advanced Aegis fire control system and is armed with the RIM-66 SM-2MR Block II surface-to-air missile, RUM-139 vertically launched anti-submarine rocket, the RGM-84 Harpoon anti-ship missile, two Mark 15 20 mm CIWS gun mounts, two torpedo mounts in a triple tube configuration, and an Oto Melara 127 mm/54 caliber gun. Its Mark 41 vertical launch system can hold 90 missiles. However, in keeping with the defensive mission of the JMSDF and passive role of the Japan Self-Defense Forces in general, the Kongo-class lacks the Tomahawk missile.[NEWLINE]As on other ships employing the Aegis system, the superstructure is dominated by the SPY-1's phased arrays, which eliminates the need for a traditional rotating antenna. The design of the superstructure also incorporates certain stealth features, designed to reduce radar cross section of the ship; however, as a consequence, the ship is considerably more top-heavy than a typical destroyer and requires a much deeper draft. As such, operations in a littoral (coastal) environment are limited. Overall, Kongo-class destroyers are much larger than traditional destroyers and at 9,485 tons displacement come close to cruisers in size. Because they are built to different operational requirements than the Arleigh Burke-class ships, such as for carrying extra equipment for commanding a squadron, the Kongō-class ships' internal arrangement is quite different from the original design on which they are based. Recognisable external features are the vertical mast and the sleek sides of the bridge. - Wikipedia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_KONGO_CLASS_DESTROYER888_KONGO">
+			<Text>Kongo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_KONGO_CLASS_DESTROYER888_KRISHIMA">
+			<Text>Kirishima</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_KONGO_CLASS_DESTROYER888_MYOKO">
+			<Text>Myoko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_KONGO_CLASS_DESTROYER888_CHOKAI">
+			<Text>Chokai</Text>
+		</Row>
+	</Language_en_US>
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_KONGO_CLASS_DESTROYER888_KONGO</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_KONGO_CLASS_DESTROYER888_KRISHIMA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_KONGO_CLASS_DESTROYER888_MYOKO</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KONGO_CLASS_DESTROYER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_KONGO_CLASS_DESTROYER888_CHOKAI</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+</GameData>
+

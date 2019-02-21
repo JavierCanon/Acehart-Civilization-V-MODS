@@ -1,8 +1,6 @@
 -- http://forums.civfanatics.com/showthread.php?t=461429
 
--- ************************************************
--- ***************** HeliSquad ********************
--- ************************************************
+
 -- Description: Same as infantry but with more mobility
 
 -- *** ART ***
@@ -40,7 +38,7 @@ SELECT ( 'ART_DEF_UNIT_MEMBER_HELISQUAD_II' ), --Type
        Scale,
        ZOffset,
        Domain,
-       'Mi8Russia.fxsxml', --Model
+       'Blackhawk.fxsxml', --Model
        MaterialTypeTag,
        MaterialTypeSoundOverrideTag
   FROM ArtDefine_UnitMemberInfos
@@ -305,17 +303,17 @@ INSERT INTO Units (
 ) 
 SELECT 
     ( 'UNIT_HELISQUAD_II' ), --Type, --TEXT NOT NULL UNIQUE,
-    ( 'TXT_KEY_UNIT_HELISQUAD_II_Description' ), --Description, --TEXT,
-    'TXT_KEY_UNIT_HELISQUAD_II_Civilopedia'                  ,--TEXT,
-    'TXT_KEY_UNIT_HELISQUAD_II_Strategy'                     ,--TEXT,
-    'TXT_KEY_UNIT_HELISQUAD_II_Help'                         ,--TEXT,
+    ( 'TXT_KEY_UNIT_HELISQUAD_II_DESCRIPTION' ), --Description, --TEXT,
+    'TXT_KEY_UNIT_HELISQUAD_II_CIVILOPEDIA'                  ,--TEXT,
+    'TXT_KEY_UNIT_HELISQUAD_II_STRATEGY'                     ,--TEXT,
+    'TXT_KEY_UNIT_HELISQUAD_II_HELP'                         ,--TEXT,
     Requirements                 ,--TEXT,
-    95 , --Combat, --INTEGER DEFAULT 0,
+    65 , --Combat, --INTEGER DEFAULT 0,
     RangedCombat                 ,--INTEGER DEFAULT 0,
     1000, --Cost, --INTEGER DEFAULT 0,
     FaithCost                    ,--INTEGER DEFAULT 0,
     RequiresFaithPurchaseEnabled ,--BOOLEAN DEFAULT 0,
-    7, --Moves, --INTEGER DEFAULT 0,
+    6, --Moves, --INTEGER DEFAULT 0,
     Immobile                     ,--BOOLEAN DEFAULT 0,
     Range                        ,--INTEGER DEFAULT 0,
     4, --BaseSightRange, --INTEGER DEFAULT 2,
@@ -387,7 +385,7 @@ SELECT
     LeaderExperience             ,--INTEGER DEFAULT 0,
     DontShowYields               ,--BOOLEAN DEFAULT 0,
     ShowInPedia                  ,--BOOLEAN DEFAULT 1,
-    MoveRate                     ,--TEXT    DEFAULT 'BIPED',
+    'WHEELED'	,--MoveRate   --TEXT    DEFAULT 'BIPED',
     UnitFlagIconOffset           ,--INTEGER DEFAULT 0,
     PortraitIndex                ,--INTEGER DEFAULT '-1',
     IconAtlas                    ,--TEXT    DEFAULT NULL,
@@ -440,7 +438,7 @@ INSERT INTO Unit_FreePromotions (
 SELECT ( 'UNIT_HELISQUAD_II' ),
        PromotionType
   FROM Unit_FreePromotions
- WHERE ( UnitType = 'UNIT_PARATROOPER' );
+ WHERE ( UnitType = 'UNIT_PARATROOPER' )
  UNION
 SELECT
  'UNIT_HELISQUAD_II'
@@ -476,27 +474,27 @@ SELECT
 
   -- *** TEXTS INFO ***
 
-INSERT INTO [Language_en_US](
-            [Tag] --TEXT
-           ,[Text] --TEXT
+INSERT INTO Language_en_US(
+            Tag --TEXT
+           ,Text --TEXT
 		   )
 SELECT
 
-           'TXT_KEY_UNIT_HELISQUAD_II_Description' 
-           ,'AntiSubmarine Heli'
+           'TXT_KEY_UNIT_HELISQUAD_II_DESCRIPTION' 
+           ,'Squad Heli II'
 UNION
 SELECT
 
-           'TXT_KEY_UNIT_HELISQUAD_II_Civilopedia' 
-           ,'AntiSubmarine Heli'
+           'TXT_KEY_UNIT_HELISQUAD_II_CIVILOPEDIA' 
+           ,'Squad Heli II'
 UNION
 SELECT
 
-           'TXT_KEY_UNIT_HELISQUAD_II_Strategy' 
-           ,'AntiSubmarine Heli'
+           'TXT_KEY_UNIT_HELISQUAD_II_STRATEGY' 
+           ,'Squad Heli II'
 UNION
 SELECT
 
-           'TXT_KEY_UNIT_HELISQUAD_II_Help' 
-           ,'AntiSubmarine Heli'   
+           'TXT_KEY_UNIT_HELISQUAD_II_HELP' 
+           ,'Squad Heli II'   
 ;

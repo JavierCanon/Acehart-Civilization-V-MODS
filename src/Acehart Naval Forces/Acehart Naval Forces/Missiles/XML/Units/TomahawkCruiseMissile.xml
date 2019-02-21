@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/11/2013 1:55:31 AM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_TOMAHAWKCM</Type>
+			<Description>TXT_KEY_UNIT_TOMAHAWKCM</Description>
+			<DefaultUnit>UNIT_TOMAHAWKCM</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_TOMAHAWKCM</Class>
+			<Type>UNIT_TOMAHAWKCM</Type>
+			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
+			<RangedCombat>150</RangedCombat>
+			<Cost>275</Cost>
+			<Moves>2</Moves>
+			<Immobile>true</Immobile>
+			<NoMaintenance>true</NoMaintenance>
+			<Range>22</Range>
+			<Special>SPECIALUNIT_MISSILE</Special>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_MISSILE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_TOMAHAWKCM</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TOMAHAWKCM_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_TOMAHAWKCM_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_TOMAHAWKCM</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<Suicide>true</Suicide>
+			<AdvancedStartCost>40</AdvancedStartCost>
+			<RangedCombatLimit>150</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_GUIDED_MISSILE</UnitArtInfo>
+			<UnitFlagIconOffset>77</UnitFlagIconOffset>
+			<IconAtlas>UNIT_TOMAHAWKCM_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_TOMAHAWKCM</UnitType>
+			<UnitAIType>UNITAI_MISSILE_AIR</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_TOMAHAWKCM</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TOMAHAWKCM</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TOMAHAWKCM</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TOMAHAWKCM</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_TOMAHAWKCM</UnitType>
+			<PromotionType>PROMOTION_EVASION_II</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_TOMAHAWKCM">
+			<!-- Description -->
+			<Text>Tomahawk Cruise Missile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_TOMAHAWKCM_TEXT">
+			<!-- Civilopedia -->
+			<Text>The Tomahawk is a long-range, all-weather, subsonic cruise missile. The missile was named after the Native American axe. Introduced by General Dynamics in the 1970s, it was initially designed as a medium to long-range, low-altitude missile that could be launched from a surface platform. It has been improved several times and, due to corporate divestitures and acquisitions, is now made by Raytheon. Some Tomahawks were also manufactured by McDonnell Douglas (now Boeing Defense, Space and Security).[NEWLINE][NEWLINE]The Tomahawk missile family consists of a number of subsonic, jet engine-powered missiles designed to attack a variety of surface targets. Although a number of launch platforms have been deployed or envisaged, only sea (both surface ship and submarine) launched variants are currently in service. Tomahawk has a modular design, allowing a wide variety of warhead, guidance, and range capabilities.[NEWLINE][NEWLINE]A major improvement to the Tomahawk is network-centric warfare-capabilities, using data from multiple sensors (aircraft, UAVs, satellites, foot soldiers, tanks, ships) to find its target. It will also be able to send data from its sensors to these platforms. It will be a part of the networked force being implemented by the Pentagon.[NEWLINE][NEWLINE]"Tactical Tomahawk" takes advantage of a loitering feature in the missile's flight path and allows commanders to redirect the missile to an alternative target, if required. It can be reprogrammed in-flight to attack predesignated targets with GPS coordinates stored in its memory or to any other GPS coordinates. Also, the missile can send data about its status back to the commander. It entered service with the US Navy in late 2004. In May 2009, Raytheon Missile Systems proposed an upgrade to the Tomahawk Block IV land-attack cruise missile that would allow it to destroy or disable large, hardened warships at 900 nautical miles (1,700 km) range.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TOMAHAWKCM_STRATEGY">
+			<!-- Strategy -->
+			<Text>Tomahawk Cruise Missiles are excellent for softing up targets before moving in ground forces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TOMAHAWKCM">
+			<!-- Halp! -->
+			<Text>The Tomahawk Cruise Missile has a combat strength of [ICON_STRENGTH] 150, an impressive range of 22, and costs 275 [ICON_PRODUCTION] Hammers to build. Although it is considerably more expensive than the traditional guided missile, it does more damage and has a longer effective range. It also has no maintenance cost; meaning you can stock up on the it without worrying about spiralling maintenance costs.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

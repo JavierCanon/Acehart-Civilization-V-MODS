@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/21/2015 9:18:54 PM -->
+<GameData>
+	
+		<UnitClasses>
+			<Row>
+				<Type>UNITCLASS_WWIITD888</Type>
+				<Description>WWII Era Tank Destroyer</Description>
+				<DefaultUnit>NONE</DefaultUnit>
+			</Row>
+		</UnitClasses>
+
+	
+  
+</GameData>

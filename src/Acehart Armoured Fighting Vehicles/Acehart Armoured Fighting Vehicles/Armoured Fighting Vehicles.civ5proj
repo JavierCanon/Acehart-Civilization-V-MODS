@@ -1,0 +1,3992 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Deploy" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <ProjectGuid>{729e28c4-bc68-4952-8666-6bd8096d37f4}</ProjectGuid>
+    <Name>Acehart Tanks</Name>
+    <Guid>04aa2ebe-58ea-4dff-bfde-fd4e33c49166</Guid>
+    <ModVersion>1</ModVersion>
+    <Stability>Alpha</Stability>
+    <Teaser>Generic tanks mod. Early to futuristic tanks.
+
+The tanks now are ranged units , more realistic.
+
+1. Small tank, infantry su</Teaser>
+    <Description>Generic tanks and vehicles for all eras mod, not cultural, you can build any. 
+
+The tanks now are ranged units , more realistic.
+
+(+30) NEW UNITS
+
+TANKS
+1. +10 Light tank: infantry support.
+2. +6 Light Armor: infantry support. 
+3. +16 Heavy tank: infantry support and anti-tank (small to heavy).
+4. +6 Tank Destroyer: Anti-Tank, tank hunter.
+
+MILITARY TRUCKS AND UTILITY VEHICLES
+In a Future (not yet):
+1. Recon Humvee (Modern era) upgrade to JLTV
+2. Medic Humvee  (Modern era) upgrade to JLTV
+3. Recon JLTV  (Joint Light Tactical Vehicle)  (Information era)
+4. Medic  JLTV  (Joint Light Tactical Vehicle)  (Information era)
+
+MISSILES
+1. Anti-Tank Missile
+
+GUNS
+1. 
+
+ARTILLERY
+1. Mobile Artillery
+2. Mobile SAM
+3. +4 Heavy Artillery
+
+ANTIAIR
+1. +9 Anti-Air units
+
+CREDITS
+All modders.</Description>
+    <Authors>Acehart</Authors>
+    <SpecialThanks>Acehart</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <SupportsMac>true</SupportsMac>
+    <AssemblyName>Acehart Tanks</AssemblyName>
+    <RootNamespace>Acehart Tanks</RootNamespace>
+    <ModReferences />
+    <ModDependencies>
+      <Association>
+        <Type>Dlc</Type>
+        <Name>Expansion 1 - Gods and Kings</Name>
+        <Id>0E3751A1-F840-4e1b-9706-519BF484E59D</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Dlc</Type>
+        <Name>Expansion 2 - Brave New World</Name>
+        <Id>6DA07636-4123-4018-B643-6575B4EC336B</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+    </ModDependencies>
+    <ModActions>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Animations/civ5artdefines_viseffects.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Promotions/APC.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Mobile Artillery/GENERIC NATO/UnitMobileArtillery.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Missiles/TOWMissile.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Mobile SAM/UnitModernMobileSAM.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Light Armor/BMP2/UnitBMP2.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Light Armor/Bradley/UnitBradleyFightingVehicle.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Light Armor/Dardo/UnitDardoIFV.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Light Armor/Generic/UnitMechanizedIFV.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Light Armor/Marder/UnitMarderIFV.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Light Armor/Warrior/UnitWarriorIFV.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Anti Air/AAClasses.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Anti Air/40M_Nimrod/Unit40MNimrodAA888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Anti Air/Autocannone_90-53/UnitAutocannone9053AA888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Anti Air/Crusader_III/UnitCrusaderIIIAA888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Anti Air/Flakpanzer_IV_Wirbelwind/UnitFlakpanzerIVWirbelwindAA888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Anti Air/Hotchkiss_Generic/Unit25mmHotchkissHalfTrackAA888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Anti Air/Landsverk_L-62/UnitLandsverkL62AA888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Anti Air/M16A1/UnitM16A1MGMCAA888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Anti Air/Type98_Ko-Hi/UnitType98KoHiAA888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Anti Air/ZSU-37/UnitZSU37AA888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Heavy_Tank/HTClasses.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Heavy_Tank/20-25TP/Unit2025TPHeavyTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Heavy_Tank/44M_TAS/Unit44MTasHeavyTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Heavy_Tank/A22_Churchill/UnitA22ChurchillHeavyTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Heavy_Tank/CharB1/UnitCharB1HeavyTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Heavy_Tank/IS-2/UnitIS2HeavyTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Heavy_Tank/KingTiger/UnitPanzerVIKingTigerHeavyTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Heavy_Tank/M26Pershing/UnitM26PersingHeavyTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Heavy_Tank/P26-40/UnitP2640HeavyTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Heavy_Tank/SHT/SHTClasses.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Heavy_Tank/SHT/A-39_Tortoise/UnitA39TortoiseSuperHeavyTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Heavy_Tank/SHT/Char_2c/UnitChar2CSuperHeavyTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Heavy_Tank/SHT/IS-7/UnitIS7SuperHeavyTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Heavy_Tank/SHT/Panzer_VIII/UnitPanzerVIIIMausSuperHeavyTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Heavy_Tank/SHT/T95/UnitT95SuperHeavyTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Heavy_Tank/SHT/Type_100_OI/UnitType100OISuperHeavyTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Light_Tank/LTClasses.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Light_Tank/41M_Toldi_II/Unit41MToldiIILightTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Light_Tank/A10_Valentine/UnitA10ValentineLightTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Light_Tank/L6-40/UnitL640LightTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Light_Tank/M3Stuart/UnitM3StuartLightTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Light_Tank/PanzerI/UnitPanzerILightTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Light_Tank/Renault_R40/UnitRenaultR40LightTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Light_Tank/Strv_M40/UnitStrvM40LightTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Light_Tank/T-26/UnitT26LightTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Light_Tank/Type4KeNu/UnitType4KeNuLightTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Light_Tank/Vickers_1936/UnitVickers1936LightTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Tank Destroyer/TDClasses.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Tank Destroyer/Archer_TD/UnitArcherTD888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Tank Destroyer/JPanzerIV/UnitJagdpanzerIVTD888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Tank Destroyer/M18_Hellcat/UnitM18HellcatTD8888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Tank Destroyer/Panzerjaeger_I_Generic/UnitPanzerjagerITD888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Tank Destroyer/PVKV_M43/UnitPVKVM43TD888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Tank Destroyer/SU-85/UnitSU85TD888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Artillery/SPGClasses.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Artillery/43M/Unit43MZrinyiIIArtillery888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Artillery/Hummel/UnitSdKfz165HummelArtillery888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Artillery/ISU-152/UnitISU152Artillery888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Artillery/M41M/UnitSemovente9053Artillery888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Artillery/M7_Priest/UnitM7PriestArtillery888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Modern/T 72/T72Classes.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Modern/T 72/UnitT72BattleTankGeneric888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Modern/T-90/UnitT90BattleTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Modern/AMX Leclerc/UnitAMXLeclercBattleTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Modern/Ariete/UnitArieteBattleTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Modern/Centurion/UnitCenturionTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Modern/Challenger 2/UnitChallenger2BattleTank.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Modern/Leopard 2/UnitLeopard2BattleTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Modern/M1 Abrams/UnitM1Abrams888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Modern/Merkava/UnitMerkavaBattleTank888.xml</FileName>
+      </Action>
+    </ModActions>
+    <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
+    <ReloadLandmarkSystem>true</ReloadLandmarkSystem>
+    <ReloadUnitSystem>true</ReloadUnitSystem>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Package Only' ">
+    <PackageMod>true</PackageMod>
+    <DeployMod>false</DeployMod>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Deploy Only' ">
+    <PackageMod>false</PackageMod>
+    <DeployMod>true</DeployMod>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Animations" />
+    <Folder Include="Animations\Edited_Animations\" />
+    <Folder Include="Animations\Edited_Animations\Animations_Chariot\" />
+    <Folder Include="Promotions\" />
+    <Folder Include="Units" />
+    <Folder Include="Units\Anti Air\40M_Nimrod\" />
+    <Folder Include="Units\Anti Air\Autocannone_90-53\" />
+    <Folder Include="Units\Anti Air\Crusader_III\" />
+    <Folder Include="Units\Anti Air\Flakpanzer_IV_Wirbelwind\" />
+    <Folder Include="Units\Anti Air\Hotchkiss_Generic\" />
+    <Folder Include="Units\Anti Air\Landsverk_L-62\" />
+    <Folder Include="Units\Anti Air\M16A1\" />
+    <Folder Include="Units\Anti Air\Type98_Ko-Hi\" />
+    <Folder Include="Units\Anti Air\ZSU-37\" />
+    <Folder Include="Units\Artillery\43M\" />
+    <Folder Include="Units\Artillery\Hummel\" />
+    <Folder Include="Units\Artillery\ISU-152\" />
+    <Folder Include="Units\Artillery\M41M\" />
+    <Folder Include="Units\Artillery\M7_Priest\" />
+    <Folder Include="Units\Heavy_Tank\" />
+    <Folder Include="Units\Heavy_Tank\20-25TP\" />
+    <Folder Include="Units\Heavy_Tank\44M_TAS\" />
+    <Folder Include="Units\Heavy_Tank\A22_Churchill\" />
+    <Folder Include="Units\Heavy_Tank\CharB1\" />
+    <Folder Include="Units\Heavy_Tank\IS-2\" />
+    <Folder Include="Units\Heavy_Tank\KingTiger\" />
+    <Folder Include="Units\Heavy_Tank\M26Pershing\" />
+    <Folder Include="Units\Heavy_Tank\P26-40\" />
+    <Folder Include="Units\Heavy_Tank\SHT\" />
+    <Folder Include="Units\Heavy_Tank\SHT\A-39_Tortoise\" />
+    <Folder Include="Units\Heavy_Tank\SHT\Char_2c\" />
+    <Folder Include="Units\Heavy_Tank\SHT\IS-7\" />
+    <Folder Include="Units\Heavy_Tank\SHT\Panzer_VIII\" />
+    <Folder Include="Units\Heavy_Tank\SHT\T95\" />
+    <Folder Include="Units\Heavy_Tank\SHT\Type_100_OI\" />
+    <Folder Include="Units\Heavy_Tank\STRV-81\" />
+    <Folder Include="Units\Heavy_Tank\TYPE5_CHI_RI\" />
+    <Folder Include="Units\Light Armor\" />
+    <Folder Include="Units\Light Armor\BMP2\" />
+    <Folder Include="Units\Light Armor\BMP2\Art" />
+    <Folder Include="Units\Light Armor\BMP2\Icons" />
+    <Folder Include="Units\Light Armor\Bradley\" />
+    <Folder Include="Units\Light Armor\Bradley\Icons" />
+    <Folder Include="Units\Light Armor\Bradley\Art" />
+    <Folder Include="Units\Light Armor\Dardo\" />
+    <Folder Include="Units\Light Armor\Dardo\Icons" />
+    <Folder Include="Units\Light Armor\Dardo\Art" />
+    <Folder Include="Units\Light Armor\Generic\" />
+    <Folder Include="Units\Light Armor\Generic\Icons" />
+    <Folder Include="Units\Light Armor\Generic\Art" />
+    <Folder Include="Units\Light Armor\Marder\" />
+    <Folder Include="Units\Light Armor\Marder\Art" />
+    <Folder Include="Units\Light Armor\Marder\Icons" />
+    <Folder Include="Units\Light Armor\Warrior\" />
+    <Folder Include="Units\Light Armor\Warrior\Art\" />
+    <Folder Include="Units\Light Armor\Warrior\Icons\" />
+    <Folder Include="Units\Light_Tank\" />
+    <Folder Include="Units\Light_Tank\41M_Toldi_II\" />
+    <Folder Include="Units\Light_Tank\A10_Valentine\" />
+    <Folder Include="Units\Light_Tank\L6-40\" />
+    <Folder Include="Units\Light_Tank\M3Stuart\" />
+    <Folder Include="Units\Light_Tank\PanzerI\" />
+    <Folder Include="Units\Light_Tank\Renault_R40\" />
+    <Folder Include="Units\Light_Tank\Strv_M40\" />
+    <Folder Include="Units\Light_Tank\T-26\" />
+    <Folder Include="Units\Light_Tank\Type4KeNu\" />
+    <Folder Include="Units\Light_Tank\Vickers_1936\" />
+    <Folder Include="Units\Missiles\" />
+    <Folder Include="Units\Mobile Artillery\" />
+    <Folder Include="Units\Mobile Artillery\GENERIC NATO\" />
+    <Folder Include="Units\Mobile Artillery\GENERIC NATO\Icons\" />
+    <Folder Include="Units\Mobile Artillery\GENERIC NATO\Art" />
+    <Folder Include="Units\Mobile SAM\" />
+    <Folder Include="Units\Mobile SAM\Green TC\" />
+    <Folder Include="Units\Mobile SAM\Icons\" />
+    <Folder Include="Units\Artillery" />
+    <Folder Include="Units\Anti Air" />
+    <Folder Include="Units\Modern\" />
+    <Folder Include="Units\Modern\AMX Leclerc\" />
+    <Folder Include="Units\Modern\Ariete\" />
+    <Folder Include="Units\Modern\Centurion\" />
+    <Folder Include="Units\Modern\Challenger 2\" />
+    <Folder Include="Units\Modern\Leopard 2\" />
+    <Folder Include="Units\Modern\M1 Abrams\" />
+    <Folder Include="Units\Modern\Merkava\" />
+    <Folder Include="Units\Modern\T 72\" />
+    <Folder Include="Units\Modern\T-90\" />
+    <Folder Include="Units\Tank Destroyer" />
+    <Folder Include="Units\Tank Destroyer\Archer_TD\" />
+    <Folder Include="Units\Tank Destroyer\JPanzerIV\" />
+    <Folder Include="Units\Tank Destroyer\M18_Hellcat\" />
+    <Folder Include="Units\Tank Destroyer\Panzerjaeger_I_Generic\" />
+    <Folder Include="Units\Tank Destroyer\PVKV_M43\" />
+    <Folder Include="Units\Tank Destroyer\SU-85\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Animations\civ5artdefines_viseffects.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\Chariot_Celtic_MD_DieA.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\Chariot_Celtic_MD_DieA_Fade.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\Chariot_Celtic_MD_Fidget.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\Chariot_Celtic_MD_FortifyA.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\Chariot_Celtic_MD_FortifyA_Idle.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\Chariot_Celtic_MD_HurtA.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\Chariot_Celtic_MD_Idle.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\Chariot_Celtic_MD_Run.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\Chariot_Celtic_MD_StrikeA.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\Chariot_Chinese_MD_DieA.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\Chariot_Chinese_MD_DieA_Fade.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\Chariot_Chinese_MD_Fidget.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\Chariot_Chinese_MD_FortifyA.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\Chariot_Chinese_MD_FortifyA_Idle.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\Chariot_Chinese_MD_HurtA.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\Chariot_Chinese_MD_Idle.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\Chariot_Chinese_MD_Run.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\Chariot_Chinese_MD_StrikeA.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\chariot_md_diea.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\chariot_md_diea_fade.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\chariot_md_fidget.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\chariot_md_fortifya.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\chariot_md_fortifya_idle.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\chariot_md_hurta.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\chariot_md_idle.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\chariot_md_run.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\chariot_md_strikea.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\egyptianwarchariot_md_diea.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\egyptianwarchariot_md_diea_fade.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\egyptianwarchariot_md_fidget.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\egyptianwarchariot_md_fortifya.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\egyptianwarchariot_md_fortifya_idle.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\egyptianwarchariot_md_hurta.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\egyptianwarchariot_md_idle.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\egyptianwarchariot_md_run.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\egyptianwarchariot_md_strikea.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\Animations_Chariot\fx_triggers_Chariot_Civ4.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_attack_city_to_run.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_attack_to_run_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_bombard_defend_loop_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_civilian_activate_captured.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_civilian_death_final.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_civilian_enter_bombard_defend.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_civilian_state_01.fsmxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_combat_ready_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_death_final_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_death_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_enter_bombard_defend_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_enter_combat_ready_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_enter_fortify.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_enter_sleep_civilian.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_fidgets_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_fortify_fidget_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_fortify_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_fortify_leave_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_fortify_to_idle_a.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_idle_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_idle_offset_continue_true_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_leave_bombard_defend_trans_idle_a_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_leave_combat_ready.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_melee_attacks.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_modern_ship_attacks.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_attack_city_to_run.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_attack_to_run_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_bombard_defend_loop_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_civilian_activate_captured.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_civilian_death_final.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_civilian_enter_bombard_defend.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_combat_ready_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_death_final_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_death_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_enter_bombard_defend_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_enter_combat_ready_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_enter_fortify.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_enter_sleep_civilian.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_fidgets_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_fortify_fidget_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_fortify_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_fortify_leave_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_fortify_to_idle_a.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_idle_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_idle_offset_continue_true_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_leave_bombard_defend_trans_idle_a_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_leave_combat_ready.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_melee_attacks.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_modern_ship_attacks.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_running_loop.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_run_no_charge_loop.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_run_start_civilian.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_start_running.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_stop_running.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_stop_running_civilian.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_ms_transitions_for_idles.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_running_loop.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_run_no_charge_loop.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_run_start_civilian.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_start_running.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_stop_running.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_stop_running_civilian.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_aim_transitions_for_idles.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_antiair_vehicle_1gun.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_antiair_vehicle_2gun.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_antiair_vehicle_3gun.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_antiair_vehicle_4gun.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_artillery.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_battleship.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_battleship_4turret.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_Cruiser.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_destroyer.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_EarlyJet.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_EarlyTank_1gun.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_EarlyTank_2gun.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_fighter_2Propellers.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_infantry.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_jetfighter.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_Katyusha.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_modernarmor.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_paratrooper.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_paratrooper_mg.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_tank.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_tank_lightfire.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_tank_mg_1gun.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_fx_triggers_tank_mg_2gun.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_mechanized_aim_state_01.fsmxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\Edited_Animations\edited_modern_ship_aim_state_01.fsmxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="MOD Description.txt">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Promotions\APC.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\40M_Nimrod\40M_Nimrod.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\40M_Nimrod\40M_Nimrod.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\40M_Nimrod\40M_Nimrod.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\40M_Nimrod\40M_Nimrod.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\40M_Nimrod\ICON_UNIT_40M_NIMROD_AA888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\40M_Nimrod\ICON_UNIT_40M_NIMROD_AA888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\40M_Nimrod\ICON_UNIT_40M_NIMROD_AA888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\40M_Nimrod\ICON_UNIT_40M_NIMROD_AA888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\40M_Nimrod\ICON_UNIT_40M_NIMROD_AA888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\40M_Nimrod\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\40M_Nimrod\Unit40MNimrodAA888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\AAClasses.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Autocannone_90-53\Autocannone_90-53.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Autocannone_90-53\Autocannone_90-53.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Autocannone_90-53\Autocannone_90-53.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Autocannone_90-53\Autocannone_90-53.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Autocannone_90-53\ICON_UNIT_AUTOCANNONE_9053_AA888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Autocannone_90-53\ICON_UNIT_AUTOCANNONE_9053_AA888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Autocannone_90-53\ICON_UNIT_AUTOCANNONE_9053_AA888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Autocannone_90-53\ICON_UNIT_AUTOCANNONE_9053_AA888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Autocannone_90-53\ICON_UNIT_AUTOCANNONE_9053_AA888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Autocannone_90-53\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Autocannone_90-53\UnitAutocannone9053AA888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Crusader_III\Crusader_III_AA.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Crusader_III\Crusader_III_AA.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Crusader_III\Crusader_III_AA.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Crusader_III\Crusader_III_AA.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Crusader_III\ICON_UNIT_CRUSADER_III_AA888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Crusader_III\ICON_UNIT_CRUSADER_III_AA888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Crusader_III\ICON_UNIT_CRUSADER_III_AA888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Crusader_III\ICON_UNIT_CRUSADER_III_AA888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Crusader_III\ICON_UNIT_CRUSADER_III_AA888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Crusader_III\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Crusader_III\UnitCrusaderIIIAA888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Flakpanzer_IV_Wirbelwind\Flakpanzer_IV_Wirbelwind.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Flakpanzer_IV_Wirbelwind\Flakpanzer_IV_Wirbelwind.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Flakpanzer_IV_Wirbelwind\Flakpanzer_IV_Wirbelwind.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Flakpanzer_IV_Wirbelwind\Flakpanzer_IV_Wirbelwind.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Flakpanzer_IV_Wirbelwind\Flakpanzer_IV_Wirbelwind_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Flakpanzer_IV_Wirbelwind\Flakpanzer_IV_Wirbelwind_3.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Flakpanzer_IV_Wirbelwind\ICON_UNIT_FLAKPANZER_IV_WIRBELWIND_AA888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Flakpanzer_IV_Wirbelwind\ICON_UNIT_FLAKPANZER_IV_WIRBELWIND_AA888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Flakpanzer_IV_Wirbelwind\ICON_UNIT_FLAKPANZER_IV_WIRBELWIND_AA888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Flakpanzer_IV_Wirbelwind\ICON_UNIT_FLAKPANZER_IV_WIRBELWIND_AA888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Flakpanzer_IV_Wirbelwind\ICON_UNIT_FLAKPANZER_IV_WIRBELWIND_AA888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Flakpanzer_IV_Wirbelwind\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Flakpanzer_IV_Wirbelwind\UnitFlakpanzerIVWirbelwindAA888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Hotchkiss_Generic\citroen_23.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Hotchkiss_Generic\Hotchkiss_25mm_AA_Half-Track.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Hotchkiss_Generic\Hotchkiss_25mm_AA_Half-Track.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Hotchkiss_Generic\Hotchkiss_25mm_AA_Half-Track.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Hotchkiss_Generic\Hotchkiss_25mm_AA_Half-Track.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Hotchkiss_Generic\ICON_UNIT_25MM_HOTCHKISS_HALFTRACK_AA888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Hotchkiss_Generic\ICON_UNIT_25MM_HOTCHKISS_HALFTRACK_AA888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Hotchkiss_Generic\ICON_UNIT_25MM_HOTCHKISS_HALFTRACK_AA888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Hotchkiss_Generic\ICON_UNIT_25MM_HOTCHKISS_HALFTRACK_AA888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Hotchkiss_Generic\ICON_UNIT_25MM_HOTCHKISS_HALFTRACK_AA888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Hotchkiss_Generic\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Hotchkiss_Generic\Unit25mmHotchkissHalfTrackAA888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Landsverk_L-62\ICON_UNIT_LANDSVERK_L62_AA888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Landsverk_L-62\ICON_UNIT_LANDSVERK_L62_AA888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Landsverk_L-62\ICON_UNIT_LANDSVERK_L62_AA888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Landsverk_L-62\ICON_UNIT_LANDSVERK_L62_AA888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Landsverk_L-62\ICON_UNIT_LANDSVERK_L62_AA888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Landsverk_L-62\Landsverk_L-62.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Landsverk_L-62\Landsverk_L-62.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Landsverk_L-62\Landsverk_L-62.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Landsverk_L-62\Landsverk_L-62.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Landsverk_L-62\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Landsverk_L-62\UnitLandsverkL62AA888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\M16A1\ICON_UNIT_M16A1_MGMC_AA888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\M16A1\ICON_UNIT_M16A1_MGMC_AA888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\M16A1\ICON_UNIT_M16A1_MGMC_AA888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\M16A1\ICON_UNIT_M16A1_MGMC_AA888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\M16A1\ICON_UNIT_M16A1_MGMC_AA888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\M16A1\M16A1_MGMC.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\M16A1\M16A1_MGMC.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\M16A1\M16A1_MGMC.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\M16A1\M16A1_MGMC.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\M16A1\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\M16A1\UnitM16A1MGMCAA888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Type98_Ko-Hi\ICON_UNIT_TYPE98_KOHI_AA888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Type98_Ko-Hi\ICON_UNIT_TYPE98_KOHI_AA888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Type98_Ko-Hi\ICON_UNIT_TYPE98_KOHI_AA888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Type98_Ko-Hi\ICON_UNIT_TYPE98_KOHI_AA888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Type98_Ko-Hi\ICON_UNIT_TYPE98_KOHI_AA888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Type98_Ko-Hi\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Type98_Ko-Hi\Type98_Ko-Hi.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Type98_Ko-Hi\Type98_Ko-Hi.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Type98_Ko-Hi\Type98_Ko-Hi.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Type98_Ko-Hi\Type98_Ko-Hi.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\Type98_Ko-Hi\UnitType98KoHiAA888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\ZSU-37\ICON_UNIT_ZSU37_AA888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\ZSU-37\ICON_UNIT_ZSU37_AA888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\ZSU-37\ICON_UNIT_ZSU37_AA888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\ZSU-37\ICON_UNIT_ZSU37_AA888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\ZSU-37\ICON_UNIT_ZSU37_AA888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\ZSU-37\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\ZSU-37\UnitZSU37AA888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\ZSU-37\ZSU-37.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\ZSU-37\ZSU-37.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\ZSU-37\ZSU-37.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\ZSU-37\ZSU-37.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Anti Air\ZSU-37\ZSU-37_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\43M\43M_Zrinyi_II.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\43M\43M_Zrinyi_II.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\43M\43M_Zrinyi_II.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\43M\43M_Zrinyi_II.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\43M\43M_Zrinyi_II_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\43M\ICON_UNIT_43M_ZRINYI_II_ARTILLERY888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\43M\ICON_UNIT_43M_ZRINYI_II_ARTILLERY888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\43M\ICON_UNIT_43M_ZRINYI_II_ARTILLERY888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\43M\ICON_UNIT_43M_ZRINYI_II_ARTILLERY888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\43M\ICON_UNIT_43M_ZRINYI_II_ARTILLERY888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\43M\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\43M\Unit43MZrinyiIIArtillery888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\Hummel\ICON_UNIT_SD_KFZ_165_HUMMEL_ARTILLERY888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\Hummel\ICON_UNIT_SD_KFZ_165_HUMMEL_ARTILLERY888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\Hummel\ICON_UNIT_SD_KFZ_165_HUMMEL_ARTILLERY888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\Hummel\ICON_UNIT_SD_KFZ_165_HUMMEL_ARTILLERY888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\Hummel\ICON_UNIT_SD_KFZ_165_HUMMEL_ARTILLERY888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\Hummel\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\Hummel\Sdkfz165_Hummel.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\Hummel\Sdkfz165_Hummel.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\Hummel\Sdkfz165_Hummel.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\Hummel\Sdkfz165_Hummel.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\Hummel\Sdkfz165_Hummel_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\Hummel\Sdkfz165_Hummel_3.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\Hummel\Sdkfz165_Hummel_4.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\Hummel\Sdkfz165_Hummel_5.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\Hummel\Sdkfz165_Hummel_6.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\Hummel\UnitSdKfz165HummelArtillery888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\ISU-152\ICON_UNIT_ISU152_ARTILLERY888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\ISU-152\ICON_UNIT_ISU152_ARTILLERY888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\ISU-152\ICON_UNIT_ISU152_ARTILLERY888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\ISU-152\ICON_UNIT_ISU152_ARTILLERY888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\ISU-152\ICON_UNIT_ISU152_ARTILLERY888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\ISU-152\ISU-152.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\ISU-152\ISU-152.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\ISU-152\ISU-152.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\ISU-152\ISU-152.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\ISU-152\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\ISU-152\UnitISU152Artillery888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M41M\ICON_UNIT_SEMOVENTE_9053_ARTILLERY888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M41M\ICON_UNIT_SEMOVENTE_9053_ARTILLERY888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M41M\ICON_UNIT_SEMOVENTE_9053_ARTILLERY888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M41M\ICON_UNIT_SEMOVENTE_9053_ARTILLERY888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M41M\ICON_UNIT_SEMOVENTE_9053_ARTILLERY888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M41M\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M41M\Semovente_M41M-90-53.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M41M\Semovente_M41M-90-53.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M41M\Semovente_M41M-90-53.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M41M\Semovente_M41M-90-53.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M41M\Semovente_M41M-90-53_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M41M\Semovente_M41M-90-53_3.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M41M\Semovente_M41M-90-53_4.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M41M\UnitSemovente9053Artillery888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M7_Priest\ICON_UNIT_M7_PRIEST_ARTILLERY888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M7_Priest\ICON_UNIT_M7_PRIEST_ARTILLERY888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M7_Priest\ICON_UNIT_M7_PRIEST_ARTILLERY888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M7_Priest\ICON_UNIT_M7_PRIEST_ARTILLERY888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M7_Priest\ICON_UNIT_M7_PRIEST_ARTILLERY888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M7_Priest\M7_Priest_UK.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M7_Priest\M7_Priest_UK.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M7_Priest\M7_Priest_UK.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M7_Priest\M7_Priest_UK.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M7_Priest\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\M7_Priest\UnitM7PriestArtillery888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Artillery\SPGClasses.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\20-25TP\25TP.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\20-25TP\25TP.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\20-25TP\25TP.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\20-25TP\25TP.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\20-25TP\ICON_UNIT_2025TP_HEAVY_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\20-25TP\ICON_UNIT_2025TP_HEAVY_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\20-25TP\ICON_UNIT_2025TP_HEAVY_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\20-25TP\ICON_UNIT_2025TP_HEAVY_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\20-25TP\ICON_UNIT_2025TP_HEAVY_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\20-25TP\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\20-25TP\Unit2025TPHeavyTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\44M_TAS\44M_Tas.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\44M_TAS\44M_Tas.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\44M_TAS\44M_Tas.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\44M_TAS\44M_Tas.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\44M_TAS\ICON_UNIT_44M_TAS_HEAVY_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\44M_TAS\ICON_UNIT_44M_TAS_HEAVY_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\44M_TAS\ICON_UNIT_44M_TAS_HEAVY_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\44M_TAS\ICON_UNIT_44M_TAS_HEAVY_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\44M_TAS\ICON_UNIT_44M_TAS_HEAVY_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\44M_TAS\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\44M_TAS\Unit44MTasHeavyTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\A22_Churchill\A22_Churchill.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\A22_Churchill\A22_Churchill.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\A22_Churchill\A22_Churchill.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\A22_Churchill\A22_Churchill.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\A22_Churchill\ICON_UNIT_A22_CHURCHILL_HEAVY_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\A22_Churchill\ICON_UNIT_A22_CHURCHILL_HEAVY_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\A22_Churchill\ICON_UNIT_A22_CHURCHILL_HEAVY_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\A22_Churchill\ICON_UNIT_A22_CHURCHILL_HEAVY_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\A22_Churchill\ICON_UNIT_A22_CHURCHILL_HEAVY_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\A22_Churchill\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\A22_Churchill\UnitA22ChurchillHeavyTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\CharB1\Char_B1.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\CharB1\Char_B1.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\CharB1\Char_B1.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\CharB1\Char_B1.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\CharB1\ICON_UNIT_CHAR_B1_HEAVY_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\CharB1\ICON_UNIT_CHAR_B1_HEAVY_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\CharB1\ICON_UNIT_CHAR_B1_HEAVY_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\CharB1\ICON_UNIT_CHAR_B1_HEAVY_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\CharB1\ICON_UNIT_CHAR_B1_HEAVY_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\CharB1\ICON_UNIT_L640_LIGHT_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\CharB1\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\CharB1\UnitCharB1HeavyTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\HTClasses.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\IS-2\ICON_UNIT_IS2_HEAVY_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\IS-2\ICON_UNIT_IS2_HEAVY_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\IS-2\ICON_UNIT_IS2_HEAVY_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\IS-2\ICON_UNIT_IS2_HEAVY_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\IS-2\ICON_UNIT_IS2_HEAVY_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\IS-2\IS-2.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\IS-2\IS-2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\IS-2\IS-2.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\IS-2\IS-2.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\IS-2\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\IS-2\UnitIS2HeavyTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\KingTiger\ICON_UNIT_PANZER_VI_KING_TIGER_HEAVY_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\KingTiger\ICON_UNIT_PANZER_VI_KING_TIGER_HEAVY_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\KingTiger\ICON_UNIT_PANZER_VI_KING_TIGER_HEAVY_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\KingTiger\ICON_UNIT_PANZER_VI_KING_TIGER_HEAVY_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\KingTiger\ICON_UNIT_PANZER_VI_KING_TIGER_HEAVY_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\KingTiger\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\KingTiger\Panzer_VIB_KingTiger.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\KingTiger\Panzer_VIB_KingTiger.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\KingTiger\Panzer_VIB_KingTiger.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\KingTiger\Panzer_VIB_KingTiger.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\KingTiger\UnitPanzerVIKingTigerHeavyTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\M26Pershing\ICON_UNIT_M26_PERSING_HEAVY_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\M26Pershing\ICON_UNIT_M26_PERSING_HEAVY_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\M26Pershing\ICON_UNIT_M26_PERSING_HEAVY_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\M26Pershing\ICON_UNIT_M26_PERSING_HEAVY_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\M26Pershing\ICON_UNIT_M26_PERSING_HEAVY_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\M26Pershing\M26_Pershing.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\M26Pershing\M26_Pershing.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\M26Pershing\M26_Pershing.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\M26Pershing\M26_Pershing.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\M26Pershing\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\M26Pershing\UnitM26PersingHeavyTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\P26-40\ICON_UNIT_P2640_HEAVY_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\P26-40\ICON_UNIT_P2640_HEAVY_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\P26-40\ICON_UNIT_P2640_HEAVY_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\P26-40\ICON_UNIT_P2640_HEAVY_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\P26-40\ICON_UNIT_P2640_HEAVY_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\P26-40\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\P26-40\P26-40.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\P26-40\P26-40.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\P26-40\P26-40.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\P26-40\P26-40.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\P26-40\P26-40_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\P26-40\UnitP2640HeavyTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\A-39_Tortoise\A39_Tortoise.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\A-39_Tortoise\A39_Tortoise.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\A-39_Tortoise\A39_Tortoise.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\A-39_Tortoise\A39_Tortoise.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\A-39_Tortoise\ICON_UNIT_A39_TORTOISE_SUPER_HEAVY_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\A-39_Tortoise\ICON_UNIT_A39_TORTOISE_SUPER_HEAVY_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\A-39_Tortoise\ICON_UNIT_A39_TORTOISE_SUPER_HEAVY_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\A-39_Tortoise\ICON_UNIT_A39_TORTOISE_SUPER_HEAVY_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\A-39_Tortoise\ICON_UNIT_A39_TORTOISE_SUPER_HEAVY_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\A-39_Tortoise\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\A-39_Tortoise\UnitA39TortoiseSuperHeavyTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Char_2c\Char_2C.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Char_2c\Char_2C.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Char_2c\Char_2C.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Char_2c\Char_2C.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Char_2c\ICON_UNIT_CHAR_2C_SUPER_HEAVY_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Char_2c\ICON_UNIT_CHAR_2C_SUPER_HEAVY_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Char_2c\ICON_UNIT_CHAR_2C_SUPER_HEAVY_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Char_2c\ICON_UNIT_CHAR_2C_SUPER_HEAVY_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Char_2c\ICON_UNIT_CHAR_2C_SUPER_HEAVY_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Char_2c\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Char_2c\UnitChar2CSuperHeavyTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\IS-7\ICON_UNIT_IS7_SUPER_HEAVY_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\IS-7\ICON_UNIT_IS7_SUPER_HEAVY_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\IS-7\ICON_UNIT_IS7_SUPER_HEAVY_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\IS-7\ICON_UNIT_IS7_SUPER_HEAVY_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\IS-7\ICON_UNIT_IS7_SUPER_HEAVY_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\IS-7\IS-7.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\IS-7\IS-7.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\IS-7\IS-7.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\IS-7\IS-7.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\IS-7\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\IS-7\UnitIS7SuperHeavyTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Panzer_VIII\ICON_UNIT_PANZER_VIII_MAUS_SUPER_HEAVY_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Panzer_VIII\ICON_UNIT_PANZER_VIII_MAUS_SUPER_HEAVY_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Panzer_VIII\ICON_UNIT_PANZER_VIII_MAUS_SUPER_HEAVY_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Panzer_VIII\ICON_UNIT_PANZER_VIII_MAUS_SUPER_HEAVY_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Panzer_VIII\ICON_UNIT_PANZER_VIII_MAUS_SUPER_HEAVY_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Panzer_VIII\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Panzer_VIII\Panzer_VIII_Maus.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Panzer_VIII\Panzer_VIII_Maus.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Panzer_VIII\Panzer_VIII_Maus.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Panzer_VIII\Panzer_VIII_Maus.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Panzer_VIII\Panzer_VIII_Maus_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Panzer_VIII\Panzer_VIII_Maus_3.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Panzer_VIII\UnitPanzerVIIIMausSuperHeavyTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\SHTClasses.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\T95\ICON_UNIT_T95_SUPER_HEAVY_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\T95\ICON_UNIT_T95_SUPER_HEAVY_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\T95\ICON_UNIT_T95_SUPER_HEAVY_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\T95\ICON_UNIT_T95_SUPER_HEAVY_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\T95\ICON_UNIT_T95_SUPER_HEAVY_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\T95\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\T95\T95.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\T95\T95.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\T95\T95.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\T95\T95.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\T95\UnitT95SuperHeavyTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Type_100_OI\ICON_UNIT_TYPE_100_OI_SUPER_HEAVY_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Type_100_OI\ICON_UNIT_TYPE_100_OI_SUPER_HEAVY_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Type_100_OI\ICON_UNIT_TYPE_100_OI_SUPER_HEAVY_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Type_100_OI\ICON_UNIT_TYPE_100_OI_SUPER_HEAVY_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Type_100_OI\ICON_UNIT_TYPE_100_OI_SUPER_HEAVY_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Type_100_OI\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Type_100_OI\Type100_O-I.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Type_100_OI\Type100_O-I.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Type_100_OI\Type100_O-I.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Type_100_OI\Type100_O-I.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\SHT\Type_100_OI\UnitType100OISuperHeavyTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\STRV-81\ICON_UNIT_STRV_81_HEAVY_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\STRV-81\ICON_UNIT_STRV_81_HEAVY_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\STRV-81\ICON_UNIT_STRV_81_HEAVY_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\STRV-81\ICON_UNIT_STRV_81_HEAVY_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\STRV-81\ICON_UNIT_STRV_81_HEAVY_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\STRV-81\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\STRV-81\Strv_81.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\STRV-81\Strv_81.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\STRV-81\Strv_81.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\STRV-81\Strv_81.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\STRV-81\UnitSTRV81HeavyTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\TYPE5_CHI_RI\ICON_UNIT_TYPE_5_CHIRI_HEAVY_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\TYPE5_CHI_RI\ICON_UNIT_TYPE_5_CHIRI_HEAVY_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\TYPE5_CHI_RI\ICON_UNIT_TYPE_5_CHIRI_HEAVY_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\TYPE5_CHI_RI\ICON_UNIT_TYPE_5_CHIRI_HEAVY_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\TYPE5_CHI_RI\ICON_UNIT_TYPE_5_CHIRI_HEAVY_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\TYPE5_CHI_RI\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\TYPE5_CHI_RI\Type5_Chi-Ri.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\TYPE5_CHI_RI\Type5_Chi-Ri.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\TYPE5_CHI_RI\Type5_Chi-Ri.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\TYPE5_CHI_RI\Type5_Chi-Ri.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Heavy_Tank\TYPE5_CHI_RI\UnitType5ChiRiHeavyTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\BMP2\Art\fx_triggers_bmp2.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\BMP2\Art\BMP2GreenTeam.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\BMP2\Art\BMP2GreenTeam.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\BMP2\Art\BMP2GreenTeam.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\BMP2\Art\BMP2SREF.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\BMP2\Icons\ICON_UNIT_BMP2888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\BMP2\Icons\ICON_UNIT_BMP2888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\BMP2\Icons\ICON_UNIT_BMP2888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\BMP2\Icons\ICON_UNIT_BMP2888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\BMP2\Icons\ICON_UNIT_BMP2888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\BMP2\UnitBMP2.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Bradley\Art\Bradley.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Bradley\Art\Bradley_Camo.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Bradley\Art\Bradley_Desert.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Bradley\Art\Bradley_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Bradley\Art\Civ5_Bradley.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Bradley\Art\Civ5_Bradley.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Bradley\Art\fx_triggers_bradley.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Bradley\Icons\ICON_UNIT_BRADLEY_FIGHTING_VEHICLE888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Bradley\Icons\ICON_UNIT_BRADLEY_FIGHTING_VEHICLE888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Bradley\Icons\ICON_UNIT_BRADLEY_FIGHTING_VEHICLE888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Bradley\Icons\ICON_UNIT_BRADLEY_FIGHTING_VEHICLE888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Bradley\Icons\ICON_UNIT_BRADLEY_FIGHTING_VEHICLE888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Bradley\UnitBradleyFightingVehicle.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Dardo\Art\dardo.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Dardo\Art\Dardo.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Dardo\Art\Dardo_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Dardo\Art\Dardo_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Dardo\Art\track_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Dardo\Art\track_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Dardo\Icons\ICON_UNIT_DARDO_IFV888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Dardo\Icons\ICON_UNIT_DARDO_IFV888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Dardo\Icons\ICON_UNIT_DARDO_IFV888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Dardo\Icons\ICON_UNIT_DARDO_IFV888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Dardo\Icons\ICON_UNIT_DARDO_IFV888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Dardo\UnitDardoIFV.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Generic\Art\fx_triggers_sdkfz251.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Generic\Art\sdkfz251.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Generic\Art\sdkfz251.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Generic\Art\sdkfz251_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Generic\Art\sdkfz251_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Generic\Icons\ICON_UNIT_MECHANIZED_IFV888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Generic\Icons\ICON_UNIT_MECHANIZED_IFV888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Generic\Icons\ICON_UNIT_MECHANIZED_IFV888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Generic\Icons\ICON_UNIT_MECHANIZED_IFV888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Generic\Icons\ICON_UNIT_MECHANIZED_IFV888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Generic\UnitMechanizedIFV.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Marder\Art\fx_triggers_marder.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Marder\Art\Marder.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Marder\Art\Marder.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Marder\Art\Marder_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Marder\Art\Marder_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Marder\Icons\ICON_UNIT_MARDER_IFV888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Marder\Icons\ICON_UNIT_MARDER_IFV888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Marder\Icons\ICON_UNIT_MARDER_IFV888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Marder\Icons\ICON_UNIT_MARDER_IFV888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Marder\Icons\ICON_UNIT_MARDER_IFV888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Marder\UnitMarderIFV.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Warrior\Art\FV510Warrior.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Warrior\Art\FV510Warrior.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Warrior\Art\FV510Warrior_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Warrior\Art\FV510Warrior_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Warrior\Icons\ICON_UNIT_WARRIOR_IFV888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Warrior\Icons\ICON_UNIT_WARRIOR_IFV888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Warrior\Icons\ICON_UNIT_WARRIOR_IFV888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Warrior\Icons\ICON_UNIT_WARRIOR_IFV888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Warrior\Icons\ICON_UNIT_WARRIOR_IFV888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light Armor\Warrior\UnitWarriorIFV.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\41M_Toldi_II\41M_Toldi_II.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\41M_Toldi_II\41M_Toldi_II.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\41M_Toldi_II\41M_Toldi_II.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\41M_Toldi_II\41M_Toldi_II.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\41M_Toldi_II\ICON_UNIT_41M_TOLDI_II_LIGHT_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\41M_Toldi_II\ICON_UNIT_41M_TOLDI_II_LIGHT_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\41M_Toldi_II\ICON_UNIT_41M_TOLDI_II_LIGHT_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\41M_Toldi_II\ICON_UNIT_41M_TOLDI_II_LIGHT_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\41M_Toldi_II\ICON_UNIT_41M_TOLDI_II_LIGHT_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\41M_Toldi_II\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\41M_Toldi_II\Unit41MToldiIILightTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\A10_Valentine\A10_Valentine.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\A10_Valentine\A10_Valentine.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\A10_Valentine\A10_Valentine.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\A10_Valentine\A10_Valentine.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\A10_Valentine\A10_Valentine_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\A10_Valentine\A10_Valentine_3.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\A10_Valentine\A10_Valentine_4.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\A10_Valentine\A10_Valentine_5.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\A10_Valentine\ICON_UNIT_A10_VALENTINE_LIGHT_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\A10_Valentine\ICON_UNIT_A10_VALENTINE_LIGHT_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\A10_Valentine\ICON_UNIT_A10_VALENTINE_LIGHT_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\A10_Valentine\ICON_UNIT_A10_VALENTINE_LIGHT_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\A10_Valentine\ICON_UNIT_A10_VALENTINE_LIGHT_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\A10_Valentine\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\A10_Valentine\UnitA10ValentineLightTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\L6-40\ICON_UNIT_L640_LIGHT_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\L6-40\ICON_UNIT_L640_LIGHT_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\L6-40\ICON_UNIT_L640_LIGHT_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\L6-40\ICON_UNIT_L640_LIGHT_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\L6-40\L6-40.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\L6-40\L6-40.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\L6-40\L6-40.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\L6-40\L6-40.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\L6-40\L6-40_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\L6-40\L6-40_3.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\L6-40\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\L6-40\UnitL640LightTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\LTClasses.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\M3Stuart\ICON_UNIT_JAGDPANZER_IV_TD888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\M3Stuart\ICON_UNIT_M3_STUART_LIGHT_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\M3Stuart\ICON_UNIT_M3_STUART_LIGHT_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\M3Stuart\ICON_UNIT_M3_STUART_LIGHT_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\M3Stuart\ICON_UNIT_M3_STUART_LIGHT_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\M3Stuart\ICON_UNIT_M3_STUART_LIGHT_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\M3Stuart\M3_Stuart.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\M3Stuart\M3_Stuart.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\M3Stuart\M3_Stuart.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\M3Stuart\M3_Stuart.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\M3Stuart\M3_Stuart_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\M3Stuart\M3_Stuart_3.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\M3Stuart\M3_Stuart_4.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\M3Stuart\M3_Stuart_5.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\M3Stuart\M3_Stuart_6.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\M3Stuart\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\M3Stuart\UnitM3StuartLightTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\PanzerI\ICON_UNIT_PANZER_I_LIGHT_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\PanzerI\ICON_UNIT_PANZER_I_LIGHT_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\PanzerI\ICON_UNIT_PANZER_I_LIGHT_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\PanzerI\ICON_UNIT_PANZER_I_LIGHT_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\PanzerI\ICON_UNIT_PANZER_I_LIGHT_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\PanzerI\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\PanzerI\Panzer_I.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\PanzerI\Panzer_I.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\PanzerI\Panzer_I.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\PanzerI\Panzer_I.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\PanzerI\UnitPanzerILightTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Renault_R40\ICON_UNIT_RENAULT_R40_LIGHT_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Renault_R40\ICON_UNIT_RENAULT_R40_LIGHT_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Renault_R40\ICON_UNIT_RENAULT_R40_LIGHT_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Renault_R40\ICON_UNIT_RENAULT_R40_LIGHT_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Renault_R40\ICON_UNIT_RENAULT_R40_LIGHT_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Renault_R40\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Renault_R40\Renault_R-40.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Renault_R40\Renault_R-40.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Renault_R40\Renault_R-40.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Renault_R40\Renault_R-40.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Renault_R40\UnitRenaultR40LightTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Strv_M40\ICON_UNIT_STRV_M40_LIGHT_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Strv_M40\ICON_UNIT_STRV_M40_LIGHT_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Strv_M40\ICON_UNIT_STRV_M40_LIGHT_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Strv_M40\ICON_UNIT_STRV_M40_LIGHT_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Strv_M40\ICON_UNIT_STRV_M40_LIGHT_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Strv_M40\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Strv_M40\Strv_M40.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Strv_M40\Strv_M40.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Strv_M40\Strv_M40.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Strv_M40\Strv_M40.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Strv_M40\UnitStrvM40LightTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\T-26\ICON_UNIT_T26_LIGHT_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\T-26\ICON_UNIT_T26_LIGHT_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\T-26\ICON_UNIT_T26_LIGHT_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\T-26\ICON_UNIT_T26_LIGHT_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\T-26\ICON_UNIT_T26_LIGHT_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\T-26\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\T-26\T-26.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\T-26\T-26.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\T-26\T-26.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\T-26\T-26.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\T-26\UnitT26LightTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Type4KeNu\ICON_UNIT_TYPE_4_KENU_LIGHT_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Type4KeNu\ICON_UNIT_TYPE_4_KENU_LIGHT_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Type4KeNu\ICON_UNIT_TYPE_4_KENU_LIGHT_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Type4KeNu\ICON_UNIT_TYPE_4_KENU_LIGHT_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Type4KeNu\ICON_UNIT_TYPE_4_KENU_LIGHT_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Type4KeNu\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Type4KeNu\Type4_Ke-Nu.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Type4KeNu\Type4_Ke-Nu.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Type4KeNu\Type4_Ke-Nu.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Type4KeNu\Type4_Ke-Nu.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Type4KeNu\UnitType4KeNuLightTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Vickers_1936\ICON_UNIT_VICKERS_1936_LIGHT_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Vickers_1936\ICON_UNIT_VICKERS_1936_LIGHT_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Vickers_1936\ICON_UNIT_VICKERS_1936_LIGHT_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Vickers_1936\ICON_UNIT_VICKERS_1936_LIGHT_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Vickers_1936\ICON_UNIT_VICKERS_1936_LIGHT_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Vickers_1936\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Vickers_1936\UnitVickers1936LightTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Vickers_1936\Vickers_M1936.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Vickers_1936\Vickers_M1936.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Vickers_1936\Vickers_M1936.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Vickers_1936\Vickers_M1936.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Vickers_1936\Vickers_M1936_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Light_Tank\Vickers_1936\Vickers_M1936_3.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Missiles\ICON_UNIT_TOW888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Missiles\ICON_UNIT_TOW888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Missiles\ICON_UNIT_TOW888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Missiles\ICON_UNIT_TOW888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Missiles\ICON_UNIT_TOW888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Missiles\TOWMissile.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Missiles\UnitLandsverkL62AA888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile Artillery\GENERIC NATO\Art\M109Generic.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile Artillery\GENERIC NATO\Art\M109Generic.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile Artillery\GENERIC NATO\Art\M109Generic.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile Artillery\GENERIC NATO\Art\M109SREF.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile Artillery\GENERIC NATO\Icons\ICON_UNIT_MOBILE_ARTILLERY888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile Artillery\GENERIC NATO\Icons\ICON_UNIT_MOBILE_ARTILLERY888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile Artillery\GENERIC NATO\Icons\ICON_UNIT_MOBILE_ARTILLERY888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile Artillery\GENERIC NATO\Icons\ICON_UNIT_MOBILE_ARTILLERY888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile Artillery\GENERIC NATO\Icons\ICON_UNIT_MOBILE_ARTILLERY888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile Artillery\GENERIC NATO\UnitMobileArtillery.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile SAM\Green TC\RolandGreenTeamColor.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile SAM\Green TC\RolandGreenTeamColor.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile SAM\Green TC\RolandGreenTeamColor.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile SAM\Green TC\RolandSREF.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile SAM\Icons\ICON_UNIT_MODERN_MOBILE_SAM_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile SAM\Icons\ICON_UNIT_MODERN_MOBILE_SAM_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile SAM\Icons\ICON_UNIT_MODERN_MOBILE_SAM_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile SAM\Icons\ICON_UNIT_MODERN_MOBILE_SAM_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile SAM\Icons\ICON_UNIT_MODERN_MOBILE_SAM_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Mobile SAM\UnitModernMobileSAM.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\AMX Leclerc\ICON_UNIT_AMX_LECLERC_BATTLETANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\AMX Leclerc\ICON_UNIT_AMX_LECLERC_BATTLETANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\AMX Leclerc\ICON_UNIT_AMX_LECLERC_BATTLETANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\AMX Leclerc\ICON_UNIT_AMX_LECLERC_BATTLETANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\AMX Leclerc\ICON_UNIT_AMX_LECLERC_BATTLETANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\AMX Leclerc\Leclerc.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\AMX Leclerc\leclerc.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\AMX Leclerc\leclerc_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\AMX Leclerc\leclerc_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\AMX Leclerc\UnitAMXLeclercBattleTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Ariete\Ariete.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Ariete\Ariete.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Ariete\Ariete_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Ariete\Ariete_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Ariete\ICON_UNIT_ARIETE_BATTLETANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Ariete\ICON_UNIT_ARIETE_BATTLETANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Ariete\ICON_UNIT_ARIETE_BATTLETANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Ariete\ICON_UNIT_ARIETE_BATTLETANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Ariete\ICON_UNIT_ARIETE_BATTLETANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Ariete\UnitArieteBattleTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Centurion\centurion.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Centurion\Centurion.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Centurion\centurion_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Centurion\centurion_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Centurion\ICON_UNIT_CENTURION_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Centurion\ICON_UNIT_CENTURION_TANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Centurion\ICON_UNIT_CENTURION_TANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Centurion\ICON_UNIT_CENTURION_TANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Centurion\ICON_UNIT_CENTURION_TANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Centurion\UnitCenturionTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Challenger 2\Challenger II.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Challenger 2\Challenger IISREF.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Challenger 2\ChallengerII.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Challenger 2\ChallengerII.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Challenger 2\ICON_UNIT_CHALLENGER_2_BATTLETANK_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Challenger 2\ICON_UNIT_CHALLENGER_2_BATTLETANK_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Challenger 2\ICON_UNIT_CHALLENGER_2_BATTLETANK_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Challenger 2\ICON_UNIT_CHALLENGER_2_BATTLETANK_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Challenger 2\ICON_UNIT_CHALLENGER_2_BATTLETANK_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Challenger 2\UnitChallenger2BattleTank.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Leopard 2\Gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Leopard 2\ICON_UNIT_LEOPARD_2_BATTLETANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Leopard 2\ICON_UNIT_LEOPARD_2_BATTLETANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Leopard 2\ICON_UNIT_LEOPARD_2_BATTLETANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Leopard 2\ICON_UNIT_LEOPARD_2_BATTLETANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Leopard 2\ICON_UNIT_LEOPARD_2_BATTLETANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Leopard 2\Leopard2.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Leopard 2\Leopard2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Leopard 2\Leopard2.fbx">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Leopard 2\Leopard2.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Leopard 2\Leopard2.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Leopard 2\UnitLeopard2BattleTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\M1 Abrams\ICON_UNIT_M1_ABRAMS888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\M1 Abrams\ICON_UNIT_M1_ABRAMS888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\M1 Abrams\ICON_UNIT_M1_ABRAMS888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\M1 Abrams\ICON_UNIT_M1_ABRAMS888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\M1 Abrams\ICON_UNIT_M1_ABRAMS888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\M1 Abrams\M1Abrams.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\M1 Abrams\M1Abrams.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\M1 Abrams\M1Abrams.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\M1 Abrams\UnitM1Abrams888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Merkava\ICON_UNIT_MERKAVA_BATTLETANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Merkava\ICON_UNIT_MERKAVA_BATTLETANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Merkava\ICON_UNIT_MERKAVA_BATTLETANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Merkava\ICON_UNIT_MERKAVA_BATTLETANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Merkava\ICON_UNIT_MERKAVA_BATTLETANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Merkava\merkava.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Merkava\Merkava.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Merkava\Merkava.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Merkava\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\Merkava\UnitMerkavaBattleTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T 72\ICON_UNIT_T72_BATTLE_TANK_GENERIC888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T 72\ICON_UNIT_T72_BATTLE_TANK_GENERIC888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T 72\ICON_UNIT_T72_BATTLE_TANK_GENERIC888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T 72\ICON_UNIT_T72_BATTLE_TANK_GENERIC888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T 72\ICON_UNIT_T72_BATTLE_TANK_GENERIC888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T 72\T72.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T 72\T72.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T 72\T72.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T 72\T72Classes.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T 72\T72SREF.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T 72\UnitT72BattleTankGeneric888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T-90\ICON_UNIT_T90_BATTLETANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T-90\ICON_UNIT_T90_BATTLETANK888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T-90\ICON_UNIT_T90_BATTLETANK888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T-90\ICON_UNIT_T90_BATTLETANK888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T-90\ICON_UNIT_T90_BATTLETANK888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T-90\T90.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T-90\T90.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T-90\T90.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Modern\T-90\UnitT90BattleTank888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Archer_TD\ICON_UNIT_ARCHER_TD888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Archer_TD\ICON_UNIT_ARCHER_TD888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Archer_TD\ICON_UNIT_ARCHER_TD888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Archer_TD\ICON_UNIT_ARCHER_TD888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Archer_TD\ICON_UNIT_ARCHER_TD888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Archer_TD\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Archer_TD\UnitArcherTD888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Archer_TD\Vickers_Archer.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Archer_TD\Vickers_Archer.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Archer_TD\Vickers_Archer.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Archer_TD\Vickers_Archer.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\JPanzerIV\ICON_UNIT_JAGDPANZER_IV_TD888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\JPanzerIV\ICON_UNIT_JAGDPANZER_IV_TD888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\JPanzerIV\ICON_UNIT_JAGDPANZER_IV_TD888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\JPanzerIV\ICON_UNIT_JAGDPANZER_IV_TD888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\JPanzerIV\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\JPanzerIV\Sdkfz162_Jagdpanzer_IV.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\JPanzerIV\Sdkfz162_Jagdpanzer_IV.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\JPanzerIV\Sdkfz162_Jagdpanzer_IV.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\JPanzerIV\Sdkfz162_Jagdpanzer_IV.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\JPanzerIV\Sdkfz162_Jagdpanzer_IV_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\JPanzerIV\UnitJagdpanzerIVTD888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\M18_Hellcat\ICON_UNIT_M18_HELLCAT_TD888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\M18_Hellcat\ICON_UNIT_M18_HELLCAT_TD888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\M18_Hellcat\ICON_UNIT_M18_HELLCAT_TD888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\M18_Hellcat\ICON_UNIT_M18_HELLCAT_TD888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\M18_Hellcat\ICON_UNIT_M18_HELLCAT_TD888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\M18_Hellcat\M18_Hellcat.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\M18_Hellcat\M18_Hellcat.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\M18_Hellcat\M18_Hellcat.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\M18_Hellcat\M18_Hellcat.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\M18_Hellcat\M18_Hellcat_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\M18_Hellcat\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\M18_Hellcat\UnitM18HellcatTD8888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Panzerjaeger_I_Generic\ICON_UNIT_PANZERJAGER_I_TD888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Panzerjaeger_I_Generic\ICON_UNIT_PANZERJAGER_I_TD888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Panzerjaeger_I_Generic\ICON_UNIT_PANZERJAGER_I_TD888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Panzerjaeger_I_Generic\ICON_UNIT_PANZERJAGER_I_TD888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Panzerjaeger_I_Generic\ICON_UNIT_PANZERJAGER_I_TD888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Panzerjaeger_I_Generic\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Panzerjaeger_I_Generic\SdKfz101_Panzerjager_I_Spain.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Panzerjaeger_I_Generic\SdKfz101_Panzerjager_I_Spain.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Panzerjaeger_I_Generic\SdKfz101_Panzerjager_I_Spain.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Panzerjaeger_I_Generic\SdKfz101_Panzerjager_I_Spain.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Panzerjaeger_I_Generic\SdKfz101_Panzerjager_I_Spain_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\Panzerjaeger_I_Generic\UnitPanzerjagerITD888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\PVKV_M43\ICON_UNIT_PVKV_M43_TD888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\PVKV_M43\ICON_UNIT_PVKV_M43_TD888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\PVKV_M43\ICON_UNIT_PVKV_M43_TD888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\PVKV_M43\ICON_UNIT_PVKV_M43_TD888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\PVKV_M43\ICON_UNIT_PVKV_M43_TD888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\PVKV_M43\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\PVKV_M43\PVKV_M43.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\PVKV_M43\PVKV_M43.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\PVKV_M43\PVKV_M43.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\PVKV_M43\PVKV_M43.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\PVKV_M43\UnitPVKVM43TD888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\SU-85\ICON_UNIT_SU85_TD888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\SU-85\ICON_UNIT_SU85_TD888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\SU-85\ICON_UNIT_SU85_TD888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\SU-85\ICON_UNIT_SU85_TD888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\SU-85\ICON_UNIT_SU85_TD888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\SU-85\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\SU-85\SU-85.blend">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\SU-85\SU-85.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\SU-85\SU-85.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\SU-85\SU-85.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\SU-85\SU-85_2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\SU-85\SU-85_3.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\SU-85\SU-85_4.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\SU-85\UnitSU85TD888.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Tank Destroyer\TDClasses.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
+</Project>

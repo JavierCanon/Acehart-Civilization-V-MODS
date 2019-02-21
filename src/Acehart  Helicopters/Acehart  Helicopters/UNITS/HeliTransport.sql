@@ -1,11 +1,7 @@
 -- Insert SQL Rules Here 
 -- http://forums.civfanatics.com/showthread.php?t=461429
 
-
--- ************************************************
--- ************** HeliTransport *******************
--- ************************************************
--- Description: Transport Helicopter.
+-- Description: Troop Transport Helicopter.
 
 -- *** ART ***
 
@@ -26,7 +22,7 @@ SELECT  'ART_DEF_UNIT_HELITRANSPORT', --Type
 		IconAtlas          ,--TEXT,
 		PortraitIndex      --INT 
   FROM ArtDefine_UnitInfos
- WHERE ( Type = 'ART_DEF_UNIT_HELICOPTER_GUNSHIP' )
+ WHERE ( Type = 'ART_DEF_UNIT_MARINE' )
  ;
 
 INSERT INTO ArtDefine_UnitMemberInfos ( 
@@ -55,6 +51,10 @@ INSERT INTO ArtDefine_UnitInfoMemberInfos (
     UnitMemberInfoType,
     NumMembers 
 ) 
+SELECT 'ART_DEF_UNIT_HELITRANSPORT',
+       'ART_DEF_UNIT_MEMBER_MARINE',
+       12 --NumMembers
+UNION
 SELECT 'ART_DEF_UNIT_HELITRANSPORT',
        'ART_DEF_UNIT_MEMBER_HELITRANSPORT',
        1 --NumMembers
@@ -136,7 +136,7 @@ SELECT
     RushAttackFormation          ,--TEXT,
     LastToDie                     --INTEGER,
   FROM ArtDefine_UnitMemberCombats
- WHERE ( UnitMemberType = 'ART_DEF_UNIT_MEMBER_HELICOPTERGUNSHIP' )
+ WHERE ( UnitMemberType = 'ART_DEF_UNIT_MEMBER_MARINE' )
  ;
 
 INSERT INTO ArtDefine_UnitMemberCombatWeapons ( 
@@ -185,7 +185,7 @@ SELECT
     WeaponTypeSoundOverrideTag ,--TEXT,
     MissTargetSlopRadius        --FLOAT,
   FROM ArtDefine_UnitMemberCombatWeapons
- WHERE ( UnitMemberType = 'ART_DEF_UNIT_MEMBER_HELICOPTERGUNSHIP' )
+ WHERE ( UnitMemberType = 'ART_DEF_UNIT_MEMBER_MARINE' )
  ;
 
 
@@ -208,7 +208,7 @@ SELECT ( 'UNITCLASS_HELITRANSPORT' ), --Type
        InstanceCostModifier,
        DefaultUnit
   FROM UnitClasses
- WHERE ( Type = 'UNITCLASS_HELICOPTERGUNSHIP' )
+ WHERE ( Type = 'UNITCLASS_MARINE' )
  ;
 
 INSERT INTO Units ( 
@@ -303,20 +303,20 @@ INSERT INTO Units (
 ) 
 SELECT 
     ( 'UNIT_HELITRANSPORT' ), --Type, --TEXT NOT NULL UNIQUE,
-    ( 'TXT_KEY_UNIT_HELITRANSPORT_Description' ), --Description, --TEXT,
-    'TXT_KEY_UNIT_HELITRANSPORT_Civilopedia'                  ,--TEXT,
-    'TXT_KEY_UNIT_HELITRANSPORT_Strategy'                     ,--TEXT,
-    'TXT_KEY_UNIT_HELITRANSPORT_Help'                         ,--TEXT,
+    ( 'TXT_KEY_UNIT_HELITRANSPORT_DESCRIPTION' ), --Description, --TEXT,
+    'TXT_KEY_UNIT_HELITRANSPORT_CIVILOPEDIA'                  ,--TEXT,
+    'TXT_KEY_UNIT_HELITRANSPORT_STRATEGY'                     ,--TEXT,
+    'TXT_KEY_UNIT_HELITRANSPORT_HELP'                         ,--TEXT,
     Requirements                 ,--TEXT,
-    30, --Combat, --INTEGER DEFAULT 0,
-    40, --RangedCombat, --INTEGER DEFAULT 0,
-    500, --Cost, --INTEGER DEFAULT 0,
+    90 , --Combat, --INTEGER DEFAULT 0,
+    RangedCombat                 ,--INTEGER DEFAULT 0,
+    1600, --Cost, --INTEGER DEFAULT 0,
     FaithCost                    ,--INTEGER DEFAULT 0,
     RequiresFaithPurchaseEnabled ,--BOOLEAN DEFAULT 0,
-    16, --Moves, --INTEGER DEFAULT 0,
+    2, --Moves, --INTEGER DEFAULT 0,
     Immobile                     ,--BOOLEAN DEFAULT 0,
-    2, --Range, --INTEGER DEFAULT 0,
-    BaseSightRange               ,--INTEGER DEFAULT 2,
+    Range                        ,--INTEGER DEFAULT 0,
+    4, --BaseSightRange, --INTEGER DEFAULT 2,
     ( 'UNITCLASS_HELITRANSPORT' ), --Class, --TEXT DEFAULT NULL,
     Special                      ,--TEXT    DEFAULT NULL,
     Capture                      ,--TEXT    DEFAULT NULL,
@@ -340,7 +340,7 @@ SELECT
     1, --Mechanized, --BOOLEAN DEFAULT 0,
     Suicide                      ,--BOOLEAN DEFAULT 0,
     CaptureWhileEmbarked         ,--BOOLEAN DEFAULT 0,
-    PrereqTech, --TEXT    DEFAULT NULL,
+    PrereqTech                   ,--TEXT    DEFAULT NULL,
     ObsoleteTech                 ,--TEXT    DEFAULT NULL,
     GoodyHutUpgradeUnitClass     ,--TEXT    DEFAULT NULL,
     HurryCostModifier            ,--INTEGER DEFAULT 0,
@@ -385,13 +385,13 @@ SELECT
     LeaderExperience             ,--INTEGER DEFAULT 0,
     DontShowYields               ,--BOOLEAN DEFAULT 0,
     ShowInPedia                  ,--BOOLEAN DEFAULT 1,
-    MoveRate                     ,--TEXT    DEFAULT 'BIPED',
+    'WHEELED'	,--MoveRate   --TEXT    DEFAULT 'BIPED',
     UnitFlagIconOffset           ,--INTEGER DEFAULT 0,
     PortraitIndex                ,--INTEGER DEFAULT '-1',
     IconAtlas                    ,--TEXT    DEFAULT NULL,
     UnitFlagAtlas                 --TEXT    DEFAULT 'UNIT_FLAG_ATLAS',
   FROM Units
- WHERE ( Type = 'UNIT_HELICOPTER_GUNSHIP' );
+ WHERE ( Type = 'UNIT_MARINE' );
 
 -- *** UPGRADES ***
 
@@ -403,7 +403,7 @@ INSERT INTO Unit_ClassUpgrades (
 SELECT ( 'UNIT_HELITRANSPORT' ),
        UnitClassType
   FROM Unit_ClassUpgrades
- WHERE ( UnitType = 'UNIT_HELICOPTER_GUNSHIP' );
+ WHERE ( UnitType = 'UNIT_MARINE' );
 
 
 -- *** AI ***
@@ -415,7 +415,7 @@ INSERT INTO Unit_AITypes (
 SELECT ( 'UNIT_HELITRANSPORT' ),
        UnitAIType
   FROM Unit_AITypes
- WHERE ( UnitType = 'UNIT_HELICOPTER_GUNSHIP' );
+ WHERE ( UnitType = 'UNIT_MARINE' );
 
 
 INSERT INTO Unit_Flavors ( 
@@ -427,7 +427,7 @@ SELECT ( 'UNIT_HELITRANSPORT' ),
        FlavorType,
        Flavor
   FROM Unit_Flavors
- WHERE ( UnitType = 'UNIT_HELICOPTER_GUNSHIP' );
+ WHERE ( UnitType = 'UNIT_MARINE' );
 
 -- *** PROMOTIONS ***
 
@@ -438,23 +438,19 @@ INSERT INTO Unit_FreePromotions (
 SELECT ( 'UNIT_HELITRANSPORT' ),
        PromotionType
   FROM Unit_FreePromotions
- WHERE ( UnitType = 'UNIT_HELICOPTER_GUNSHIP' )
- UNION
-SELECT 
- 'UNIT_HELITRANSPORT'
-,'PROMOTION_HELI_REPAIR'
+ WHERE ( UnitType = 'UNIT_MARINE' )
 UNION
-SELECT 
+SELECT
  'UNIT_HELITRANSPORT'
-,'PROMOTION_DEFENSE_PENALTY' 
+,'PROMOTION_IGNORE_TERRAIN_COST'
 UNION
-SELECT 
+SELECT
  'UNIT_HELITRANSPORT'
-,'PROMOTION_ONLY_DEFENSIVE'
+,'PROMOTION_HOVERING_UNIT'
 UNION
-SELECT 
+SELECT
  'UNIT_HELITRANSPORT'
-,'PROMOTION_CARGO_III'
+,'PROMOTION_MOVEMENT_TO_GENERAL'
 ;
 
  -- *** RESOURCES ***
@@ -474,30 +470,31 @@ SELECT
 ,'RESOURCE_ALUMINUM'
 ,1
 ;
-
+ 
  -- *** TEXTS INFO ***
 
-INSERT INTO [Language_en_US](
-            [Tag] --TEXT
-           ,[Text] --TEXT
+INSERT INTO Language_en_US(
+            Tag --TEXT
+           ,Text --TEXT
 		   )
 SELECT
 
-           'TXT_KEY_UNIT_HELITRANSPORT_Description' 
-           ,'AntiSubmarine Heli'
+           'TXT_KEY_UNIT_HELITRANSPORT_DESCRIPTION' 
+           ,'Heli Troops'
 UNION
 SELECT
 
-           'TXT_KEY_UNIT_HELITRANSPORT_Civilopedia' 
-           ,'AntiSubmarine Heli'
+           'TXT_KEY_UNIT_HELITRANSPORT_CIVILOPEDIA' 
+           ,'Heli Troops'
 UNION
 SELECT
 
-           'TXT_KEY_UNIT_HELITRANSPORT_Strategy' 
-           ,'AntiSubmarine Heli'
+           'TXT_KEY_UNIT_HELITRANSPORT_STRATEGY' 
+           ,'Heli Troops'
 UNION
 SELECT
 
-           'TXT_KEY_UNIT_HELITRANSPORT_Help' 
-           ,'AntiSubmarine Heli'   
-;
+           'TXT_KEY_UNIT_HELITRANSPORT_HELP' 
+           ,'Heli Troops'   
+; 
+

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_ESSEX888</Type>
+			<Description>Essex Class Carrier</Description>
+			<DefaultUnit>NONE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+  <Units>
+    <Row>
+      <Type>UNIT_ESSEX_CLASS_CARRIER888</Type>
+      <Description>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888</Description>
+      <CombatClass>UNITCOMBAT_CARRIER</CombatClass>
+		<Domain>DOMAIN_SEA</Domain>
+      <SpecialCargo>SPECIALUNIT_FIGHTER</SpecialCargo>
+		<DomainCargo>DOMAIN_AIR</DomainCargo>
+      <Class>UNITCLASS_ESSEX888</Class>
+      <Cost>450</Cost>
+      <AdvancedStartCost>60</AdvancedStartCost>
+      <Combat>72</Combat>
+      <IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+      <Moves>6</Moves>
+      <AirInterceptRange>2</AirInterceptRange>
+      <Strategy>TXT_KEY_UNIT_CARRIER_STRATEGY</Strategy>
+      <Help>TXT_KEY_UNIT_HELP_CARRIER</Help>
+      <Civilopedia>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_PEDIA</Civilopedia>
+      <PrereqTech>TECH_RADAR</PrereqTech>
+      <ObsoleteTech>TECH_ROBOTICS</ObsoleteTech>
+      <MoveRate>BOAT</MoveRate>
+      <Mechanized>true</Mechanized>
+      <UnitArtInfo>ART_DEF_UNIT_ESSEX_CLASS_CARRIER888</UnitArtInfo>
+      <IconAtlas>ATLAS_ICON_UNIT_ESSEX_CLASS_CARRIER888</IconAtlas>
+      <PortraitIndex>0</PortraitIndex>
+      <UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
+      <UnitFlagIconOffset>70</UnitFlagIconOffset>
+      <CombatLimit>100</CombatLimit>
+      <MilitaryProduction>true</MilitaryProduction>
+      <MilitarySupport>true</MilitarySupport>
+      <DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
+    </Row>
+  </Units>
+  <Unit_AITypes>
+    <Row>
+      <UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+      <UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+      <UnitAIType>UNITAI_EXPLORE</UnitAIType>
+    </Row>
+  </Unit_AITypes>
+  <Unit_Flavors>
+    <Row>
+      <UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+      <FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+      <Flavor>45</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+      <FlavorType>FLAVOR_NAVAL</FlavorType>
+      <Flavor>15</Flavor>
+    </Row>
+  </Unit_Flavors>
+  <Civilization_UnitClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+      <UnitClassType>UNITCLASS_ESSEX888</UnitClassType>
+      <UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+    </Row>
+  </Civilization_UnitClassOverrides>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UnitClassType>UNITCLASS_MODERNCARRIER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+  <Unit_FreePromotions>
+    <Row>
+      <UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+      <PromotionType>PROMOTION_AIR_RECON</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+      <PromotionType>PROMOTION_CARGO_IV</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+      <PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+      <PromotionType>PROMOTION_SPAWN_GENERALS_I</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+      <PromotionType>PROMOTION_FASTER_HEAL</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+      <PromotionType>PROMOTION_INTERCEPTION_II</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+      <PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+    </Row>
+  </Unit_FreePromotions>
+  <Unit_ResourceQuantityRequirements>
+    <Row>
+      <UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+      <ResourceType>RESOURCE_IRON</ResourceType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+      <ResourceType>RESOURCE_OIL</ResourceType>
+    </Row>
+  </Unit_ResourceQuantityRequirements>
+  <ArtDefine_UnitInfos>
+    <Row>
+      <Type>ART_DEF_UNIT_ESSEX_CLASS_CARRIER888</Type>
+      <DamageStates>3</DamageStates>
+     
+    </Row>
+  </ArtDefine_UnitInfos>
+  <ArtDefine_UnitInfoMemberInfos>
+    <Row>
+      <UnitInfoType>ART_DEF_UNIT_ESSEX_CLASS_CARRIER888</UnitInfoType>
+      <UnitMemberInfoType>ART_DEF_UNIT_MEMBER_ESSEX_CLASS_CARRIER888</UnitMemberInfoType>
+      <NumMembers>1</NumMembers>
+    </Row>
+  </ArtDefine_UnitInfoMemberInfos>
+
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_ESSEX_CLASS_CARRIER888</Type>
+			<Scale>0.1</Scale>
+			<Domain>Sea</Domain>
+			<Model>SURFACE/CARRIERS/ART/Essex_Class.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_ESSEX_CLASS_CARRIER888</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLeftRightAttack>1</HasLeftRightAttack>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasIndependentWeaponFacing>1</HasIndependentWeaponFacing>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_ESSEX_CLASS_CARRIER888</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25.0</VisKillStrengthMin>
+			<VisKillStrengthMax>50.0</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_ESSEX_CLASS_CARRIER888</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25.0</VisKillStrengthMin>
+			<VisKillStrengthMax>50.0</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<SelectionSound>AS2D_SELECT_BATTLESHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_BATTLESHIP</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+  <IconTextureAtlases>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_ESSEX_CLASS_CARRIER888</Atlas>
+      <IconSize>256</IconSize>
+      <Filename>ICON_UNIT_ESSEX_CLASS_CARRIER888_256.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_ESSEX_CLASS_CARRIER888</Atlas>
+      <IconSize>128</IconSize>
+      <Filename>ICON_UNIT_ESSEX_CLASS_CARRIER888_128.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_ESSEX_CLASS_CARRIER888</Atlas>
+      <IconSize>80</IconSize>
+      <Filename>ICON_UNIT_ESSEX_CLASS_CARRIER888_80.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_ESSEX_CLASS_CARRIER888</Atlas>
+      <IconSize>64</IconSize>
+      <Filename>ICON_UNIT_ESSEX_CLASS_CARRIER888_64.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_ESSEX_CLASS_CARRIER888</Atlas>
+      <IconSize>45</IconSize>
+      <Filename>ICON_UNIT_ESSEX_CLASS_CARRIER888_45.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+  </IconTextureAtlases>
+  <ArtDefine_StrategicView>
+    <Row>
+      <StrategicViewType>ART_DEF_UNIT_ESSEX_CLASS_CARRIER888</StrategicViewType>
+      <TileType>Unit</TileType>
+		<Asset>sv_carrier.dds</Asset>
+    </Row>
+  </ArtDefine_StrategicView>
+  <Language_en_US>
+    <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888">
+      <Text>Essex Class Carrier</Text>
+    </Row>
+    
+    <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_PEDIA">
+      <Text>The Essex class was a class of aircraft carriers of the United States Navy that constituted the 20th century's most numerous class of capital ships. The class consisted of 24 vessels, which came in both "short-hull" and "long-hull" versions. Thirty-two ships were originally ordered; however as World War II wound down, six were canceled before construction, and two were canceled after construction had begun. No Essex-class ships were lost to enemy action, despite several vessels sustaining very heavy damage. The Essex-class carriers were the backbone of the U.S. Navy's combat strength during World War II from mid-1943 on, and, along with the addition of the three Midway class carriers just after the war, continued to be the heart of U.S. Naval strength until the supercarriers began to come into the fleet in numbers during the 1960s and 1970s.-Wikipedia</Text>
+    </Row>
+	  <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_ESSEX">
+		  <Text>USS Essex</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_YORKTOWN">
+		  <Text>USS Yorktown</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_INTREPID">
+		  <Text>USS Intrepid</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_HORNET">
+		  <Text>USS Hornet</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_FRANKLIN">
+		  <Text>USS Franklin</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_TICONDEROGA">
+		  <Text>USS Ticonderoga</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_RANDOLPH">
+		  <Text>USS Randolph</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_LEXINGTON">
+		  <Text>USS Lexington</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_BUNKER_HILL">
+		  <Text>USS Bunker Hill</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_WASP">
+		  <Text>USS Wasp</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_HANCOCK">
+		  <Text>USS Hancock</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_BENNINGTON">
+		  <Text>USS Bennington</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_BOXER">
+		  <Text>USS Boxer</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_KEARSARGE">
+		  <Text>USS Kearsarge</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_ORISKANY">
+		  <Text>USS Oriskany</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_REPRISAL">
+		  <Text>USS Reprisal</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_PRINCETON">
+		  <Text>USS Princeton</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_SHANGRI-LA">
+		  <Text>USS Shangri-La</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_VALLEY_FORGE">
+		  <Text>USS Valley Forge</Text>
+	  </Row>
+	 
+  </Language_en_US>
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_ESSEX</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_YORKTOWN</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_INTREPID</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_HORNET</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_FRANKLIN</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_TICONDEROGA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_RANDOLPH</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_LEXINGTON</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_ESSEX</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_BUNKER_HILL</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_WASP</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_HANCOCK</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_BENNINGTON</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_BOXER</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_KEARSARGE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_ORISKANY</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_REPRISAL</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_PRINCETON</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_SHANGRI-LA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ESSEX_CLASS_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_ESSEX_CLASS_CARRIER888_VALLEY_FORGE</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+</GameData>
+

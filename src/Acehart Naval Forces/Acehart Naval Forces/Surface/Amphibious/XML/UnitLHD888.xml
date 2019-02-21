@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+	<SpecialUnits>
+		<Row>
+			<Type>SPECIALUNIT_SEAHELICOPTER</Type>
+			<Description>Sea-Based Helicopter</Description>
+			<Valid>true</Valid>
+			<CityLoad>true</CityLoad>
+		</Row>
+		<Row>
+			<Type>SPECIALUNIT_HELIMISSILE</Type>
+			<Description>Helicopters and Missiles for Cruisers and Destroyers</Description>
+			<Valid>true</Valid>
+			<CityLoad>true</CityLoad>
+		</Row>
+		<Row>
+			<Type>SPECIALUNIT_SC888</Type>
+			<Description>Aircraft loads on Submarine Carriers</Description>
+			<Valid>true</Valid>
+			<CityLoad>true</CityLoad>
+		</Row>
+	
+	</SpecialUnits>
+	<SpecialUnit_CarrierUnitAI>
+		<Row>
+			<SpecialUnitType>SPECIALUNIT_SEAHELICOPTER</SpecialUnitType>
+			<UnitAIType>UNITAI_SEAHELICOPTER</UnitAIType>
+		</Row>
+		<Row>
+			<SpecialUnitType>SPECIALUNIT_HELIMISSILE</SpecialUnitType>
+			<UnitAIType>UNITAI_HELIMISSILE</UnitAIType>
+		</Row>
+		<Row>
+			<SpecialUnitType>SPECIALUNIT_SC888</SpecialUnitType>
+			<UnitAIType>UNITAI_SC888</UnitAIType>
+		</Row>
+		
+	</SpecialUnit_CarrierUnitAI>
+	<UnitAIInfos>
+		<Row>
+			<Type>UNITAI_SEAHELICOPTER</Type>
+			<Description>UNITAI_SEAHELICOPTER</Description>
+		</Row>
+		<Row>
+			<Type>UNITAI_HELIMISSILE</Type>
+			<Description>UNITAI_HELIMISSILE</Description>
+		</Row>
+		<Row>
+			<Type>UNITAI_SUBCARRIER</Type>
+			<Description>UNITAI_SC888</Description>
+		</Row>
+	
+	</UnitAIInfos>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_LHD888</Type>
+			<Description>Amphibious Assault Ship</Description>
+			<DefaultUnit>UNIT_LHD8881</DefaultUnit>
+		</Row>
+	</UnitClasses>
+  <Units>
+    <Row>
+      <Type>UNIT_LHD888</Type>
+      <Description>TXT_KEY_UNIT_LHD888</Description>
+      <CombatClass>UNITCOMBAT_CARRIER</CombatClass>
+		<Domain>DOMAIN_SEA</Domain>
+      <Class>UNITCLASS_LHD888</Class>
+      <Cost>550</Cost>
+      <HurryCostModifier>55</HurryCostModifier>
+      <AdvancedStartCost>80</AdvancedStartCost>
+      <Combat>60</Combat>
+      <IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+      <Moves>7</Moves>
+      <AirInterceptRange>4</AirInterceptRange>
+      <SpecialCargo>SPECIALUNIT_SEAHELICOPTER</SpecialCargo>
+      <Strategy>TXT_KEY_UNIT_LHD888_STRATEGY</Strategy>
+      <Help>TXT_KEY_UNIT_LHD888_HELP</Help>
+      <Civilopedia>TXT_KEY_UNIT_LHD888_PEDIA</Civilopedia>
+      <PrereqTech>TECH_COMPUTERS</PrereqTech>
+      <Pillage>true</Pillage>
+      <MoveRate>BOAT</MoveRate>
+      <Mechanized>true</Mechanized>
+      <UnitArtInfo>ART_DEF_UNIT_LHD888</UnitArtInfo>
+      <IconAtlas>ATLAS_ICON_UNIT_LHD888</IconAtlas>
+      <PortraitIndex>0</PortraitIndex>
+      <UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
+      <UnitFlagIconOffset>70</UnitFlagIconOffset>
+      <RangedCombatLimit>100</RangedCombatLimit>
+      <DomainCargo>DOMAIN_AIR</DomainCargo>
+      <MilitaryProduction>true</MilitaryProduction>
+      <MilitarySupport>true</MilitarySupport>
+      <DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
+    </Row>
+  </Units>
+  <Unit_AITypes>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <UnitAIType>UNITAI_EXPLORE</UnitAIType>
+    </Row>
+   </Unit_AITypes>
+  <Unit_Flavors>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+      <Flavor>40</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <FlavorType>FLAVOR_NAVAL</FlavorType>
+      <Flavor>10</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+      <Flavor>17</Flavor>
+    </Row>
+  </Unit_Flavors>
+  <Civilization_UnitClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+      <UnitClassType>UNITCLASS_LHD888</UnitClassType>
+      <UnitType>UNIT_LHD888</UnitType>
+    </Row>
+  </Civilization_UnitClassOverrides>
+  <Unit_FreePromotions>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <PromotionType>PROMOTION_ANTI_SUBMARINE_I</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <PromotionType>PROMOTION_CARGO_XX</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <PromotionType>PROMOTION_EXTRA_SIGHT_II</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <PromotionType>PROMOTION_SPAWN_GENERALS_II</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <PromotionType>PROMOTION_INTERCEPTION_I</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <PromotionType>PROMOTION_INTERCEPTION_II</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <PromotionType>PROMOTION_MEDIC</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <PromotionType>PROMOTION_FAST_ADMIRAL</PromotionType>
+    </Row>
+     <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <PromotionType>PROMOTION_OCEAN_MOVEMENT</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <PromotionType>PROMOTION_WITHDRAW_BEFORE_MELEE</PromotionType>
+    </Row>
+	  <Row>
+		  <UnitType>UNIT_LHD888</UnitType>
+		  <PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
+	  </Row>
+	 </Unit_FreePromotions>
+  <Unit_ResourceQuantityRequirements>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <ResourceType>RESOURCE_ALUMINUM</ResourceType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <ResourceType>RESOURCE_IRON</ResourceType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+      <ResourceType>RESOURCE_OIL</ResourceType>
+    </Row>
+  </Unit_ResourceQuantityRequirements>
+  <ArtDefine_UnitInfos>
+    <Row>
+      <Type>ART_DEF_UNIT_LHD888</Type>
+      <DamageStates>3</DamageStates>
+      </Row>
+  </ArtDefine_UnitInfos>
+  <ArtDefine_UnitInfoMemberInfos>
+    <Row>
+      <UnitInfoType>ART_DEF_UNIT_LHD888</UnitInfoType>
+      <UnitMemberInfoType>ART_DEF_UNIT_MEMBER_LHD888</UnitMemberInfoType>
+      <NumMembers>1</NumMembers>
+    </Row>
+  </ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_LHD888</Type>
+			<Scale>0.12</Scale>
+			<Domain>Sea</Domain>
+			<Model>SURFACE/AMPHIBIOUS/ART/AAS.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_LHD888</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<DisableActions></DisableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLeftRightAttack>1</HasLeftRightAttack>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasIndependentWeaponFacing>1</HasIndependentWeaponFacing>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_LHD888</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25</VisKillStrengthMin>
+			<VisKillStrengthMax>50</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION1TON</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_LHD888</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25</VisKillStrengthMin>
+			<VisKillStrengthMax>50</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+  <UnitGameplay2DScripts>
+    <Row>
+      <UnitType>UNIT_LHD888</UnitType>
+		<SelectionSound>AS2D_SELECT_CARRIER</SelectionSound>
+		<FirstSelectionSound>AS2D_BIRTH_CARRIER</FirstSelectionSound>
+    </Row>
+  </UnitGameplay2DScripts>
+  <IconTextureAtlases>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_LHD888</Atlas>
+      <IconSize>256</IconSize>
+      <Filename>ICON_UNIT_LHD888_256.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_LHD888</Atlas>
+      <IconSize>128</IconSize>
+      <Filename>ICON_UNIT_LHD888_128.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_LHD888</Atlas>
+      <IconSize>80</IconSize>
+      <Filename>ICON_UNIT_LHD888_80.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_LHD888</Atlas>
+      <IconSize>64</IconSize>
+      <Filename>ICON_UNIT_LHD888_64.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_LHD888</Atlas>
+      <IconSize>45</IconSize>
+      <Filename>ICON_UNIT_LHD888_45.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+  </IconTextureAtlases>
+  <ArtDefine_StrategicView>
+    <Row>
+      <StrategicViewType>ART_DEF_UNIT_LHD888</StrategicViewType>
+      <TileType>Unit</TileType>
+		<Asset>sv_carrier.dds</Asset>
+    </Row>
+  </ArtDefine_StrategicView>
+  <Language_en_US>
+    <Row Tag="TXT_KEY_UNIT_LHD888">
+      <Text>Wasp Class LHD</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LHD888_STRATEGY">
+      <Text>The LHD is designed to carry sea based attack helicopters, and perform in the role of a light/escort carrier.[NEWLINE]It is a naval melee unit, is weak at attacking land targets, but has can carry up to 5 air units such as the SeaCobra, F-35B and SeaHarrier.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LHD888_HELP">
+      <Text>The Wasp Class LHD is a naval melee unit, weak against attacking land and city targets, but carries a compliment of up to 5 amphibious air units like the UH-1 SeaHuey Helicopter, F-35B and SeaHarrier.  It cannot carry land units.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LHD888_PEDIA">
+      <Text>The Wasp class LHD is a class of Landing Helicopter Dock (LHD) amphibious assault ships operated by the United States Navy. Based on the Tarawa class, with modifications to operate more advanced aircraft and landing craft, the Wasp class is capable of transporting landing craft or helicopters. All Wasp-class ships were built by Ingalls Shipbuilding, at Pascagoula, Mississippi, with the lead ship, USS Wasp, commissioned on 29 July 1989. Eight Wasp-class ships were built, and as of 2013, all eight are active.</Text>
+    </Row>
+	  <Row Tag="TXT_KEY_UNIT_LHD888_WASP">
+		  <Text>USS Wasp</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_LHD888_ESSEX">
+		  <Text>USS Essex</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_LHD888_KEARSARGE">
+		  <Text>USS Kearsarge</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_LHD888_BOXER">
+		  <Text>USS Boxer</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_LHD888_BATAAN">
+		  <Text>USS Bataan</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_LHD888_BONHOMME_RICHARD">
+		  <Text>USS Bonhomme Richard</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_LHD888_IWO_JIMA">
+		  <Text>USS Iwo Jima</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_LHD888_MAKIN_ISLAND">
+		  <Text>USS Makin Island</Text>
+	  </Row>
+	</Language_en_US>
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_LHD888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_LHD888_WASP</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LHD888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_LHD888_ESSEX</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LHD888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_LHD888_KEARSARGE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LHD888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_LHD888_BOXER</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LHD888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_LHD888_BATAAN</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LHD888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_LHD888_BONHOMME_RICHARD</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LHD888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_LHD888_IWO_JIMA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LHD888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_LHD888_MAKIN_ISLAND</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+	<Units>
+		<Row>
+			<Type>UNIT_LHD8881</Type>
+			<Description>TXT_KEY_UNIT_LHD8881</Description>
+			<CombatClass>UNITCOMBAT_CARRIER</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<Class>UNITCLASS_LHD888</Class>
+			<Cost>525</Cost>
+			<HurryCostModifier>55</HurryCostModifier>
+			<AdvancedStartCost>80</AdvancedStartCost>
+			<Combat>55</Combat>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Moves>6</Moves>
+			<AirInterceptRange>3</AirInterceptRange>
+			<SpecialCargo>SPECIALUNIT_SEAHELICOPTER</SpecialCargo>
+			<Strategy>TXT_KEY_UNIT_LHD8881_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_LHD8881_HELP</Help>
+			<Civilopedia>TXT_KEY_UNIT_LHD8881_PEDIA</Civilopedia>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+			<Pillage>true</Pillage>
+			<MoveRate>BOAT</MoveRate>
+			<Mechanized>true</Mechanized>
+			<UnitArtInfo>ART_DEF_UNIT_LHD8881</UnitArtInfo>
+			<IconAtlas>ATLAS_ICON_UNIT_LHD8881</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>70</UnitFlagIconOffset>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<MilitaryProduction>true</MilitaryProduction>
+			<MilitarySupport>true</MilitarySupport>
+			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_LHD8881</UnitType>
+			<UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LHD8881</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_LHD8881</UnitType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LHD8881</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LHD8881</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>17</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		
+		<Row>
+			<UnitType>UNIT_LHD8881</UnitType>
+			<PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LHD8881</UnitType>
+			<PromotionType>PROMOTION_CARGO_XX</PromotionType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_LHD8881</UnitType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LHD8881</UnitType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_II</PromotionType>
+		</Row>
+	
+		<Row>
+			<UnitType>UNIT_LHD8881</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LHD8881</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_II</PromotionType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_LHD8881</UnitType>
+			<PromotionType>PROMOTION_MEDIC</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LHD8881</UnitType>
+			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LHD8881</UnitType>
+			<PromotionType>PROMOTION_WITHDRAW_BEFORE_MELEE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LHD8881</UnitType>
+			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_LHD8881</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LHD8818</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LHD8881</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<ArtDefine_UnitInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_LHD8881</Type>
+			<DamageStates>3</DamageStates>
+		</Row>
+	</ArtDefine_UnitInfos>
+	<ArtDefine_UnitInfoMemberInfos>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_LHD8881</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_LHD8881</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_LHD8881</Type>
+			<Scale>0.12</Scale>
+			<Domain>Sea</Domain>
+			<Model>SURFACE/AMPHIBIOUS/ART/AAS.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_LHD8881</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<DisableActions></DisableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLeftRightAttack>1</HasLeftRightAttack>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasIndependentWeaponFacing>1</HasIndependentWeaponFacing>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_LHD8881</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25</VisKillStrengthMin>
+			<VisKillStrengthMax>50</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION1TON</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_LHD8881</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25</VisKillStrengthMin>
+			<VisKillStrengthMax>50</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_LHD8881</UnitType>
+			<SelectionSound>AS2D_SELECT_CARRIER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CARRIER</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_LHD8881</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ICON_UNIT_LHD888_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_LHD8881</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ICON_UNIT_LHD888_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_LHD8881</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>ICON_UNIT_LHD888_80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_LHD8881</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ICON_UNIT_LHD888_64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_LHD8881</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ICON_UNIT_LHD888_45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_LHD8881</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>sv_carrier.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_LHD8881">
+			<Text>Amphibious Dock Ship(LHD)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LHD8881_STRATEGY">
+			<Text>The LHD is designed to carry sea based attack helicopters, and perform in the role of a light/escort carrier.[NEWLINE]It is a naval melee unit, is weak at attacking land targets, but has can carry up to 5 air units such as the SeaCobra, F-35B and SeaHarrier.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LHD8881_HELP">
+			<Text>The LHD is a naval melee unit, weak against attacking land and city targets, but carries a compliment of up to 5 amphibious air units like the UH-1 SeaHuey Helicopter, F-35B and SeaHarrier.  It cannot carry land units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LHD8881_PEDIA">
+			<Text>The LHD is a class of Landing Helicopter Dock (LHD) amphibious assault ships. With modifications to operate more advanced aircraft and landing craft, the LHD is capable of transporting landing craft or helicopters.</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+
+
+	
+	
+	
+	
+</GameData>
+

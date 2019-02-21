@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/4/2015 9:59:03 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_BMP2888">
+			<Text>BMP-2 IFV</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BMP2888_STRATEGY">
+			<Text>Light Armor Infantry Fighting Vehicles (IFV) are stronger and faster than regular Infantry. Although fast, Mech Infantry can move after combat like Tanks; their primary responsibility is, hit and run tactics, and anti-tank warfare.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BMP2888_HELP">
+			<Text>Fast ranged late game unit, it is designed to carry anti-tank missiles, and use hit and run tactics to be effective in battle.  -- They have a range of 1 and can't take cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BMP2888_PEDIA">
+			<Text>The BMP-2 is a second-generation, amphibious infantry fighting vehicle introduced in the 1980s in the Soviet Union, following on from the BMP-1 of the 1960s.  --  Wikipedia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BMP2888FRANCE">
+			<Text>VBCI IFV</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BMP2888FRANCE_STRATEGY">
+			<Text>Light Armor Infantry Fighting Vehicles (IFV) are stronger and faster than regular Infantry. Although fast, Mech Infantry can move after combat like Tanks; their primary responsibility is, hit and run tactics, and anti-tank warfare.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BMP2888FRANCE_HELP">
+			<Text>Fast ranged late game unit, it is designed to carry anti-tank missiles, and use hit and run tactics to be effective in battle.  -- They have a range of 1 and can't take cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BMP2888FRANCE_PEDIA">
+			<Text>The Véhicule Blindé de Combat d'Infanterie (VBCI, "Armoured vehicle for infantry combat") is a French Infantry fighting vehicle designed to replace the AMX-10P.[3] They entered active service with the French Army in 2008, with 630 vehicles ordered up to 2010. Other countries like Spain [4] and the UK [5] have shown interest in the vehicle.[NEWLINE]The Véhicule Blindé de Combat d'Infanterie is built on an aluminium hull which carries a modular THD steel and titanium armour, which can be replaced in the field. The 8x8 wheel combination is designed to make the VBCI more comfortable and less costly than a tracked vehicle, while giving it sufficient mobility to back the Leclerc tank. The VBCI is also designed to be transportable by the Airbus A400M, with an empty mass less than 18 tonnes (full load mass up to 28 tonnes).  --  Wikipedia</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_BMP2888</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ICON_UNIT_BMP2888_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_BMP2888</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ICON_UNIT_BMP2888_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_BMP2888</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>ICON_UNIT_BMP2888_80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_BMP2888</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ICON_UNIT_BMP2888_64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_BMP2888</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ICON_UNIT_BMP2888_45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_MOBILE_INFANTRY888</Type>
+			<Description>TXT_KEY_UNIT_MOBILE_INFANTRY888</Description>
+			<DefaultUnit>UNIT_MOBILE_INFANTRY888</DefaultUnit>
+		</Row>
+	</UnitClasses>
+  
+</GameData>

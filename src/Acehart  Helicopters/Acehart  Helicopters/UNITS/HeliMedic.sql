@@ -2,9 +2,6 @@
 
 
 
--- ************************************************
--- ***************** HeliSquad ********************
--- ************************************************
 -- Description: Same as infantry but with more mobility
 
 -- *** ART ***
@@ -307,17 +304,17 @@ INSERT INTO Units (
 ) 
 SELECT 
     ( 'UNIT_HELIMEDIC' ), --Type, --TEXT NOT NULL UNIQUE,
-    ( 'TXT_KEY_UNIT_HELIMEDIC_Description' ), --Description, --TEXT,
-    'TXT_KEY_UNIT_HELIMEDIC_Civilopedia'                  ,--TEXT,
-    'TXT_KEY_UNIT_HELIMEDIC_Strategy'                     ,--TEXT,
-    'TXT_KEY_UNIT_HELIMEDIC_Help'                         ,--TEXT,
+    ( 'TXT_KEY_UNIT_HELIMEDIC_DESCRIPTION' ), --Description, --TEXT,
+    'TXT_KEY_UNIT_HELIMEDIC_CIVILOPEDIA'                  ,--TEXT,
+    'TXT_KEY_UNIT_HELIMEDIC_STRATEGY'                     ,--TEXT,
+    'TXT_KEY_UNIT_HELIMEDIC_HELP'                         ,--TEXT,
     Requirements                 ,--TEXT,
-    35 , --Combat, --INTEGER DEFAULT 0,
+    30 , --Combat, --INTEGER DEFAULT 0,
     RangedCombat                 ,--INTEGER DEFAULT 0,
     800, --Cost, --INTEGER DEFAULT 0,
     FaithCost                    ,--INTEGER DEFAULT 0,
     RequiresFaithPurchaseEnabled ,--BOOLEAN DEFAULT 0,
-    5, --Moves, --INTEGER DEFAULT 0,
+    4, --Moves, --INTEGER DEFAULT 0,
     Immobile                     ,--BOOLEAN DEFAULT 0,
     Range                        ,--INTEGER DEFAULT 0,
     4, --BaseSightRange, --INTEGER DEFAULT 2,
@@ -389,7 +386,7 @@ SELECT
     LeaderExperience             ,--INTEGER DEFAULT 0,
     DontShowYields               ,--BOOLEAN DEFAULT 0,
     ShowInPedia                  ,--BOOLEAN DEFAULT 1,
-    MoveRate                     ,--TEXT    DEFAULT 'BIPED',
+    'WHEELED'	,--MoveRate   --TEXT    DEFAULT 'BIPED',
     UnitFlagIconOffset           ,--INTEGER DEFAULT 0,
     PortraitIndex                ,--INTEGER DEFAULT '-1',
     IconAtlas                    ,--TEXT    DEFAULT NULL,
@@ -442,7 +439,7 @@ INSERT INTO Unit_FreePromotions (
 SELECT ( 'UNIT_HELIMEDIC' ),
        PromotionType
   FROM Unit_FreePromotions
- WHERE ( UnitType = 'UNIT_MARINE' );
+ WHERE ( UnitType = 'UNIT_MARINE' )
 UNION
 SELECT -- make medic
  'UNIT_HELIMEDIC'
@@ -487,30 +484,26 @@ SELECT
 ,1
 ;
  
-  -- *** TEXTS INFO ***
+-- TEXTS INFOS
 
-INSERT INTO [Language_en_US](
-            [Tag] --TEXT
-           ,[Text] --TEXT
+INSERT INTO Language_en_US(
+            Tag --TEXT
+           ,Text --TEXT
 		   )
 SELECT
-
-           'TXT_KEY_UNIT_HELIMEDIC_Description' 
-           ,'AntiSubmarine Heli'
+           'TXT_KEY_UNIT_HELIMEDIC_DESCRIPTION' 
+           ,'Medic Heli'
 UNION
 SELECT
-
-           'TXT_KEY_UNIT_HELIMEDIC_Civilopedia' 
-           ,'AntiSubmarine Heli'
+           'TXT_KEY_UNIT_HELIMEDIC_CIVILOPEDIA' 
+           ,'Medic Heli'
 UNION
 SELECT
-
-           'TXT_KEY_UNIT_HELIMEDIC_Strategy' 
-           ,'AntiSubmarine Heli'
+           'TXT_KEY_UNIT_HELIMEDIC_STRATEGY' 
+           ,'Medic Heli'
 UNION
 SELECT
-
-           'TXT_KEY_UNIT_HELIMEDIC_Help' 
-           ,'AntiSubmarine Heli'   
+           'TXT_KEY_UNIT_HELIMEDIC_HELP' 
+           ,'Medic Heli'   
 ;
 

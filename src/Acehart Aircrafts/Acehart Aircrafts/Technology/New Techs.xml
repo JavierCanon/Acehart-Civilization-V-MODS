@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/6/2015 10:07:57 PM -->
+<GameData>
+	<Technologies>
+		<Update>
+			<Set GridY="6" />
+			<Where Type="TECH_COMPUTERS" />
+		</Update>
+	<Row>
+		<Type>TECH_ADVANCED_RADAR</Type>
+		<Cost>10000</Cost>
+		<Description>TXT_KEY_TECH_ADVANCED_RADAR_TITLE</Description>
+		<Civilopedia>TXT_KEY_TECH_ADVANCED_RADAR_DESC</Civilopedia>
+		<Help>TXT_KEY_TECH_ADVANCED_RADAR_HELP</Help>
+		<Era>ERA_FUTURE</Era>
+		<Trade>true</Trade>
+		<GridX>16</GridX>
+		<GridY>8</GridY>
+		<Quote>TXT_KEY_TECH_ADVANCED_RADAR_QUOTE</Quote>
+		<PortraitIndex>0</PortraitIndex>
+		<IconAtlas>CIV_COLOR_ATLAS_AAU</IconAtlas> 
+		
+	</Row>
+	<Row>
+			<Type>TECH_FLYBYWIRE</Type>
+			<Cost>8000</Cost>
+			<Description>TXT_KEY_TECH_FLYBYWIRE_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_FLYBYWIRE_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_FLYBYWIRE_HELP</Help>
+			<Era>ERA_FUTURE</Era>
+			<Trade>true</Trade>
+			<GridX>15</GridX>
+			<GridY>8</GridY>
+			<Quote>TXT_KEY_TECH_FLYBYWIRE_QUOTE</Quote>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_AAU</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_TURBOSHAFT</Type>
+			<Cost>6500</Cost>
+			<Description>TXT_KEY_TECH_TURBOSHAFT_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_TURBOSHAFT_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_TURBOSHAFT_HELP</Help>
+			<Era>ERA_POSTMODERN</Era>
+			<Trade>true</Trade>
+			<GridX>14</GridX>
+			<GridY>8</GridY>
+			<Quote>TXT_KEY_TECH_TURBOSHAFT_QUOTE</Quote>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_AAU</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_COMPOSITES</Type>
+			<Cost>6500</Cost>
+			<Description>TXT_KEY_TECH_COMPOSITES_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_COMPOSITES_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_COMPOSITES_HELP</Help>
+			<Era>ERA_POSTMODERN</Era>
+			<Trade>true</Trade>
+			<GridX>14</GridX>
+			<GridY>7</GridY>
+			<Quote>TXT_KEY_TECH_COMPOSITES_QUOTE</Quote>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_AAU</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_GASTURBINEENGINE</Type>
+			<Cost>6500</Cost>
+			<Description>TXT_KEY_TECH_GASTURBINEENGINE_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_GASTURBINEENGINE_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_GASTURBINEENGINE_HELP</Help>
+			<Era>ERA_POSTMODERN</Era>
+			<Trade>true</Trade>
+			<GridX>14</GridX>
+			<GridY>9</GridY>
+			<Quote>TXT_KEY_TECH_GASTURBINEENGINE_QUOTE</Quote>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_AAU</IconAtlas>
+		</Row>
+	</Technologies>
+	<Technology_Flavors>
+	<Row>
+		<TechType>TECH_ADVANCED_RADAR</TechType>
+		<FlavorType>FLAVOR_AIR</FlavorType>
+		<Flavor>5</Flavor>
+	</Row>
+		<Row>
+			<TechType>TECH_ADVANCED_RADAR</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_GASTURBINEENGINE</TechType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_GASTURBINEENGINE</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		
+		<Row>
+			<TechType>TECH_FLYBYWIRE</TechType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_FLYBYWIRE</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	
+		<Row>
+			<TechType>TECH_TURBOSHAFT</TechType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_TURBOSHAFT</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	
+		<Row>
+			<TechType>TECH_COMPOSITES</TechType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_COMPOSITES</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		
+		</Technology_Flavors>
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_FUTURE_TECH</TechType>
+			<PrereqTech>TECH_ADVANCED_RADAR</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ADVANCED_RADAR</TechType>
+			<PrereqTech>TECH_LASERS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ADVANCED_RADAR</TechType>
+			<PrereqTech>TECH_FLYBYWIRE</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_FLYBYWIRE</TechType>
+			<PrereqTech>TECH_GASTURBINEENGINE</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_FLYBYWIRE</TechType>
+			<PrereqTech>TECH_COMPOSITES</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_FLYBYWIRE</TechType>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_FLYBYWIRE</TechType>
+			<PrereqTech>TECH_TURBOSHAFT</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_GASTURBINEENGINE</TechType>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_GASTURBINEENGINE</TechType>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_COMPOSITES</TechType>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_COMPOSITES</TechType>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_TURBOSHAFT</TechType>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_TURBOSHAFT</TechType>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TECH_ADVANCED_RADAR_TITLE">
+			<Text>Advanced RADAR</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ADVANCED_RADAR_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]" With unprecedented reliability, superior performance and typically of the order of a one thousandfold improvement in beamsteering speeds, this technology will transform many aspects of air combat and strike operations."[NEWLINE][TAB][TAB] - Dr. C. Kopp[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ADVANCED_RADAR_HELP">
+			<Text> Allows you to build [COLOR_POSITIVE_TEXT]Advanced Radars[ENDCOLOR], a technology that allows the production of advanced aviation platforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ADVANCED_RADAR_DESC">
+			<Text>An active electronically scanned array (AESA), also known as active phased array radar (APAR), is a type of phased array radar whose transmitter and receiver (transceiver) functions are composed of numerous small solid-state transmit/receive modules (TRMs). AESA radars aim their "beam" by emitting separate radio waves from each module that interfere constructively at certain angles in front of the antenna. Advanced AESA radars can improve on the older passive electronically scanned array (PESA) radars by spreading their signal emissions out across a band of frequencies, which makes it very difficult to detect over background noise, allowing ships and aircraft to broadcast powerful radar signals while still remaining stealthy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_GASTURBINEENGINE_TITLE">
+			<Text>Gas Turbine Engine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_GASTURBINEENGINE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]" In its present state … the gas turbine engine could hardly be considered a feasible application to airplanes mainly because of the difficulty in complying with stringent weight requirements imposed by aeronautics."[NEWLINE][TAB][TAB] - National Academy of Sciences, Committee on Gas Turbines (June 1940)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_GASTURBINEENGINE_HELP">
+			<Text> Allows you to build [COLOR_POSITIVE_TEXT]Gas Turbine Engines[ENDCOLOR], a technology that allows the production of advanced aviation platforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_GASTURBINEENGINE_DESC">
+			<Text>A gas turbine, also called a combustion turbine, is a type of internal combustion engine. It has an upstream rotating compressor coupled to a downstream turbine, and a combustion chamber in-between.[NEWLINE]The basic operation of the gas turbine is similar to that of the steam power plant except that air is used instead of water. Fresh atmospheric air flows through a compressor that brings it to higher pressure. Energy is then added by spraying fuel into the air and igniting it so the combustion generates a high-temperature flow. This high-temperature high-pressure gas enters a turbine, where it expands down to the exhaust pressure, producing a shaft work output in the process.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FLYBYWIRE_TITLE">
+			<Text>Fly by Wire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FLYBYWIRE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]" Probably the single most important system in an aircraft, aside from those natural prerequisites for high performance flight, an airframe and powerplant, is the control system."[NEWLINE][TAB][TAB] - Dr. C. Kopp[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FLYBYWIRE_HELP">
+			<Text> Allows you to build a [COLOR_POSITIVE_TEXT]Fly by Wire[ENDCOLOR] system, a technology that allows the production of advanced aviation platforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FLYBYWIRE_DESC">
+			<Text>Fly-by-wire is a system that replaces the conventional manual flight controls of an aircraft with an electronic interface. The movements of flight controls are converted to electronic signals transmitted by wires (hence the fly-by-wire term), and flight control computers determine how to move the actuators at each control surface to provide the ordered response. The fly-by-wire system also allows automatic signals sent by the aircraft's computers to perform functions without the pilot's input, as in systems that automatically help stabilize the aircraft, or prevent unsafe operation of the aircraft outside of its performance envelope.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_TURBOSHAFT_TITLE">
+			<Text>Turboshaft Engine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_TURBOSHAFT_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]" The T700-GE-401C turboshaft engine is one of a new	generation of aviation propulsion systems with modular construction. Modular construction allows intermediate maintenance activities to replace major engine components, such as turbine sections, with basic hand tools, increasing the ability to replace parts at the lowest level of maintenance by decreasing down time."[NEWLINE][TAB][TAB] - Basic Military Requirements[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_TURBOSHAFT_HELP">
+			<Text> Allows you to build [COLOR_POSITIVE_TEXT]Turboshaft and Turboprop Engines[ENDCOLOR], a technology that allows the production of advanced aviation platforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_TURBOSHAFT_DESC">
+			<Text>A turboshaft engine is a form of gas turbine which is optimized to produce shaft power rather than jet thrust.[NEWLINE]In concept, turboshaft engines are very similar to turbojets, with additional turbine expansion to extract heat energy from the exhaust and convert it into output shaft power. They are even more similar to turboprops, with only minor differences, and a single engine is often sold in both forms.[NEWLINE]Turboshaft engines are commonly used in applications that require a sustained high power output, high reliability, small size, and light weight. These include helicopters, auxiliary power units, boats and ships, tanks, hovercraft, and stationary equipment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_COMPOSITES_TITLE">
+			<Text>Composites</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_COMPOSITES_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]" Lightness and exceptional strength are primary characteristics of full composite airframes. With smooth, rivetless surfaces, these carbon fiber structures permit superior aerodynamics. With significantly less exposure to corrosion or fatigue damage than metal, composite technology translates into low maintenance costs."[NEWLINE][TAB][TAB] - Grob Aircraft[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_COMPOSITES_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Composites[ENDCOLOR], a technology that allows the production of advanced aviation platforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_COMPOSITES_DESC">
+			<Text>Composite materials are materials made from two or more constituent materials with significantly different physical or chemical properties, that when combined, produce a material with characteristics different from the individual components. The individual components remain separate and distinct within the finished structure. The new material may be preferred for many reasons: common examples include materials which are stronger, lighter or less expensive when compared to traditional materials.[NEWLINE]Typical engineered composite materials include: [NEWLINE]Composite building materials such as cements, concrete[NEWLINE]Reinforced plastics such as fiber-reinforced polymer[NEWLINE]Metal Composites[NEWLINE]Ceramic Composites (composite ceramic and metal matrices)[NEWLINE]Composite materials are generally used for buildings, bridges and structures such as boat hulls, swimming pool panels, race car bodies, shower stalls, bathtubs, storage tanks, imitation granite and cultured marble sinks and counter tops. The most advanced examples perform routinely on spacecraft and aircraft in demanding environments.</Text>
+		</Row>
+	</Language_en_US>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_AAU</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>AAUTECH_Atlas256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_AAU</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>AAUTECH_Atlas128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_AAU</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>AAUTECH_Atlas80.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_AAU</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>AAUTECH_Atlas64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_AAU</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>AAUTECH_Atlas45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_AAU</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>AAUTECH_Atlas32.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		</IconTextureAtlases>
+</GameData>

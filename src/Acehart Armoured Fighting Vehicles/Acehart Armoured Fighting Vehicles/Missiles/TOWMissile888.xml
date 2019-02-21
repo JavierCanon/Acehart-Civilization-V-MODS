@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/11/2013 1:55:31 AM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_TOWMISSILE888</Type>
+			<Description>Anti-Tank Missile</Description>
+			<DefaultUnit>UNIT_TOWMISSILE888</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_TOWMISSILE8882</Type>
+			<Description>Early Anti-Tank Missile</Description>
+			<DefaultUnit>NONE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_TOWMISSILE888</Class>
+			<Type>UNIT_TOWMISSILE888</Type>
+			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
+			<RangedCombat>60</RangedCombat>
+			<Cost>350</Cost>
+			<Moves>2</Moves>
+			<Immobile>true</Immobile>
+			<NoMaintenance>true</NoMaintenance>
+			<Range>1</Range>
+			<Special>SPECIALUNIT_APC_CARGO</Special>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_MISSILE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_TOWMISSILE888</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TOWMISSILE888_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_TOWMISSILE888_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_TOWMISSILE888</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<Suicide>true</Suicide>
+			<AdvancedStartCost>40</AdvancedStartCost>
+			<RangedCombatLimit>150</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_GUIDED_MISSILE</UnitArtInfo>
+			<UnitFlagIconOffset>77</UnitFlagIconOffset>
+			<IconAtlas>ATLAS_ICON_UNIT_TOWMISSILE888</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_TOWMISSILE888</UnitType>
+			<UnitAIType>UNITAI_MISSILE_AIR</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_TOWMISSILE888</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TOWMISSILE888</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TOWMISSILE888</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_TOWMISSILE888</UnitType>
+			<PromotionType>PROMOTION_EVASION_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TOWMISSILE888</UnitType>
+			<PromotionType>PROMOTION_AMBUSH_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TOWMISSILE888</UnitType>
+			<PromotionType>PROMOTION_AMBUSH_2</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TOWMISSILE888</UnitType>
+			<PromotionType>PROMOTION_AMBUSH_APC</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<IconTextureAtlases>
+		
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_TOWMISSILE888</Atlas>
+      <IconSize>256</IconSize>
+      <Filename>ICON_UNIT_TOW888_256.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_TOWMISSILE888</Atlas>
+      <IconSize>128</IconSize>
+      <Filename>ICON_UNIT_TOW888_128.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_TOWMISSILE888</Atlas>
+      <IconSize>80</IconSize>
+      <Filename>ICON_UNIT_TOW888_80.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_TOWMISSILE888</Atlas>
+      <IconSize>64</IconSize>
+      <Filename>ICON_UNIT_TOW888_64.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_TOWMISSILE888</Atlas>
+      <IconSize>45</IconSize>
+      <Filename>ICON_UNIT_TOW888_45.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+  </IconTextureAtlases>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_TOWMISSILE888">
+			<!-- Description -->
+			<Text>Anti-Tank Missile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_TOWMISSILE888_TEXT">
+			<!-- Civilopedia -->
+			<Text>The Anti-Tank Missile is a short range, all-weather, subsonic projectile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TOWMISSILE888_STRATEGY">
+			<!-- Strategy -->
+			<Text>Anti-Tank Missiles are excellent for damaging and destroying Armor. Has a range of 1 -- Keep this in mind for rebasing and firing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TOWMISSILE888">
+			<!-- Halp! -->
+			<Text>The Anti-Tank Missile has a combat strength of [ICON_STRENGTH] 60, a range of 1, and costs 350 [ICON_PRODUCTION] Hammers to build. Although it is considerably more expensive than the traditional guided missile, it does more damage against armor units. It also has no maintenance cost; meaning you can stock up on the it without worrying about spiralling maintenance costs.</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_TOWMISSILE8882</Class>
+			<Type>UNIT_TOWMISSILE8882</Type>
+			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
+			<RangedCombat>50</RangedCombat>
+			<Cost>300</Cost>
+			<Moves>2</Moves>
+			<Immobile>true</Immobile>
+			<NoMaintenance>true</NoMaintenance>
+			<Range>1</Range>
+			<Special>SPECIALUNIT_APC_CARGO</Special>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_MISSILE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_TOWMISSILE8882</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_TOWMISSILE8882_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_TOWMISSILE8882_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_TOWMISSILE8882</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<Suicide>true</Suicide>
+			<AdvancedStartCost>40</AdvancedStartCost>
+			<RangedCombatLimit>150</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_GUIDED_MISSILE</UnitArtInfo>
+			<UnitFlagIconOffset>77</UnitFlagIconOffset>
+			<IconAtlas>ATLAS_ICON_UNIT_TOWMISSILE8882</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_TOWMISSILE8882</UnitType>
+			<UnitAIType>UNITAI_MISSILE_AIR</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_TOWMISSILE8882</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TOWMISSILE8882</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TOWMISSILE8882</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<UnitClassType>UNITCLASS_TOWMISSILE8882</UnitClassType>
+			<UnitType>UNIT_TOWMISSILE8882</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_INDONESIA</CivilizationType>
+			<UnitClassType>UNITCLASS_TOWMISSILE8882</UnitClassType>
+			<UnitType>UNIT_TOWMISSILE8882</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_TOWMISSILE8882</UnitType>
+			<UnitClassType>UNITCLASS_TOWMISSILE888</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_TOWMISSILE8882</UnitType>
+			<PromotionType>PROMOTION_EVASION_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TOWMISSILE8882</UnitType>
+			<PromotionType>PROMOTION_AMBUSH_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TOWMISSILE8882</UnitType>
+			<PromotionType>PROMOTION_AMBUSH_2</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<IconTextureAtlases>
+
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_TOWMISSILE8882</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ICON_UNIT_TOW888_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_TOWMISSILE8882</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ICON_UNIT_TOW888_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_TOWMISSILE8882</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>ICON_UNIT_TOW888_80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_TOWMISSILE8882</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ICON_UNIT_TOW888_64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_TOWMISSILE8882</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ICON_UNIT_TOW888_45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_TOWMISSILE8882">
+			<!-- Description -->
+			<Text>Early Anti-Tank Missile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_TOWMISSILE8882_TEXT">
+			<!-- Civilopedia -->
+			<Text>The Early Anti-Tank Missile is a short range, all-weather, subsonic projectile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TOWMISSILE8882_STRATEGY">
+			<!-- Strategy -->
+			<Text>Early Anti-Tank Missiles are excellent for damaging and destroying Armor. Has a range of 1 -- Keep this in mind for rebasing and firing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TOWMISSILE8882">
+			<!-- Halp! -->
+			<Text>The Anti-Tank Missile has a combat strength of [ICON_STRENGTH] 50, a range of 1, and costs 300 [ICON_PRODUCTION] Hammers to build. Although it is considerably more expensive than the traditional guided missile, it does more damage against armor units. It also has no maintenance cost; meaning you can stock up on the it without worrying about spiralling maintenance costs.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -3,59 +3,64 @@
 -- DateCreated: 05/06/2014 08:00:00 PM
 --------------------------------------------------------------
 
-NOTE: MOD IN DEVELOPMENT. STATUS: ALPHA.
-(Help Wanted) new Graphic units: UH-1, UH-60, and/or other if you have the art ;) 
+Generic Helicopters MOD.
 
 General New Behavior:
 - Attak Helis now can enter in lakes and coast (not in ocean). Good vs tanks and armor, weak vs airplanes and AA guns/missiles.
+- All terrain type cost is 1.
 - Heli's now need aluminium and oil resource.  Why? because they are powerful, strategic and versatile units, and this is a war for resources... or make infantry...
+- Lost health each turn, if finish outside of friendly territory.
 
-Adds the following units:
+*** UNITS *** 
 _____________________________________________________
-1. HeliSquad = remember vietnam?, infantry with more movility, atomic era helicopters.  Cant enter any water tile.
-
+1. HeliSquad 
+Remember vietnam?, infantry with more movility, modern era helicopters.  Cant enter any water tile.
+Tech required: Electronics
 _____________________________________________________
-2. HeliSquad II = infantry with more movility, final atomic era helicopters. Cant enter any water tile.
-
+2. HeliSquad II = infantry with more movility, final information era helicopters. Cant enter any water tile.
+ Tech required: Computers
 _____________________________________________________
 3. AttackHeli = final atomic era attack helicopters.
  Current Gunship.
+ Tech required: Electronics
 _____________________________________________________
 4. AttackHeli II = information era attack helicopters, bonus vs. tanks, armor and cities.
-
+Tech required: Laser
 _____________________________________________________
 5. HeliMedic = early atomic era medic heli. Healts nearby units.
-
+ Tech required: Electronics
 _____________________________________________________
 6. HeliMedic II = information era medic heli. Healts nearby units.
-* PENDING *
-
+Tech required: Computers
 _____________________________________________________
-7. HeliTransport = atomic era transport. Large movement.
-Can carry 3 cargo to the front of the battle.
-Current limitation: can only load/unload in coast, like a ship...
+7. HeliTransport = 
+Modern era troop transport. More troops that HeliSquad, double powerfull but slower. 
+Tech required: Electronics
 _____________________________________________________
 8. ASWHeli = 
 Atomic era anti-submarine warfare. Helicopters with anti-submarine warfare (ASW) systems are widely deployed by naval forces as a means to counter submarines at long ranges. 
 Bonus vs submarines.
+Tech required: Electronics
+
+*** BUILDINGS *** 
+
+1. Heliport
+A heliport is an area of land, water, or structure used or intended to be used for the landing and takeoff of helicopters, and includes its buildings and facilities (if any).
++50 experience for newly created fighters.
++5 air units per city.
+ 
+
+*** PROMOTIONS *** 
 
 
->>> TECH <<< 
-
-
->>> PROMOTIONS <<< 
-
-
->>> TO DO <<< 
+*** TO DO *** 
 1. Balance, please suggest.
-2. (Help Wanted) new Graphic units: UH-1, UH-60. 
+2. Icons.
 
 ¿Sugestions? ¿want to help? 
 Please post your comments.
 
 
-
 *** CREDITS ***
 Im using art and ideas from others mods.
-Danrell (R.E.D. Modpack).
 All Modders.

@@ -1,9 +1,6 @@
 -- http://forums.civfanatics.com/showthread.php?t=461429
 
 
--- ************************************************
--- ***************** AttackHeli II ********************
--- ************************************************
 -- Description: Attack Helicopter.
 
 -- *** ART ***
@@ -207,7 +204,7 @@ SELECT ( 'UNITCLASS_ATTACKHELI_II' ), --Type
        InstanceCostModifier,
        DefaultUnit
   FROM UnitClasses
- WHERE ( Type = 'UNITCLASS_HELICOPTERGUNSHIP' )
+ WHERE ( Type = 'UNITCLASS_HELICOPTER_GUNSHIP' )
  ;
 
 INSERT INTO Units ( 
@@ -302,20 +299,20 @@ INSERT INTO Units (
 ) 
 SELECT 
     ( 'UNIT_ATTACKHELI_II' ), --Type, --TEXT NOT NULL UNIQUE,
-    ( 'TXT_KEY_UNIT_ATTACKHELI_II_Description' ), --Description, --TEXT,
-    'TXT_KEY_UNIT_ATTACKHELI_II_Civilopedia'                  ,--TEXT,
-    'TXT_KEY_UNIT_ATTACKHELI_II_Strategy'                     ,--TEXT,
-    'TXT_KEY_UNIT_ATTACKHELI_II_Help'                         ,--TEXT,
+    ( 'TXT_KEY_UNIT_ATTACKHELI_II_DESCRIPTION' ), --Description, --TEXT,
+    'TXT_KEY_UNIT_ATTACKHELI_II_CIVILOPEDIA'                  ,--TEXT,
+    'TXT_KEY_UNIT_ATTACKHELI_II_STRATEGY'                     ,--TEXT,
+    'TXT_KEY_UNIT_ATTACKHELI_II_HELP'                         ,--TEXT,
     Requirements                 ,--TEXT,
-    90, --Combat, --INTEGER DEFAULT 0,
+    80, --Combat, --INTEGER DEFAULT 0,
     90, --RangedCombat, --INTEGER DEFAULT 0,
     1000, --Cost, --INTEGER DEFAULT 0,
     FaithCost                    ,--INTEGER DEFAULT 0,
     RequiresFaithPurchaseEnabled ,--BOOLEAN DEFAULT 0,
-    8, --Moves, --INTEGER DEFAULT 0,
+    6, --Moves, --INTEGER DEFAULT 0,
     Immobile                     ,--BOOLEAN DEFAULT 0,
-    2, --Range, --INTEGER DEFAULT 0,
-    BaseSightRange               ,--INTEGER DEFAULT 2,
+    3, --Range, --INTEGER DEFAULT 0,
+    8, --BaseSightRange               ,--INTEGER DEFAULT 2,
     ( 'UNITCLASS_ATTACKHELI_II' ), --Class, --TEXT DEFAULT NULL,
     Special                      ,--TEXT    DEFAULT NULL,
     Capture                      ,--TEXT    DEFAULT NULL,
@@ -384,7 +381,7 @@ SELECT
     LeaderExperience             ,--INTEGER DEFAULT 0,
     DontShowYields               ,--BOOLEAN DEFAULT 0,
     ShowInPedia                  ,--BOOLEAN DEFAULT 1,
-    MoveRate                     ,--TEXT    DEFAULT 'BIPED',
+    'WHEELED'	,--MoveRate   --TEXT    DEFAULT 'BIPED',
     UnitFlagIconOffset           ,--INTEGER DEFAULT 0,
     PortraitIndex                ,--INTEGER DEFAULT '-1',
     IconAtlas                    ,--TEXT    DEFAULT NULL,
@@ -477,27 +474,27 @@ SELECT
  
   -- *** TEXTS INFO ***
 
-INSERT INTO [Language_en_US](
-            [Tag] --TEXT
-           ,[Text] --TEXT
+INSERT INTO Language_en_US(
+            Tag --TEXT
+           ,Text --TEXT
 		   )
 SELECT
 
-           'TXT_KEY_UNIT_ATTACKHELI_II_Description' 
-           ,'AntiSubmarine Heli'
+           'TXT_KEY_UNIT_ATTACKHELI_II_DESCRIPTION' 
+           ,'Attack Heli II'
 UNION
 SELECT
 
-           'TXT_KEY_UNIT_ATTACKHELI_II_Civilopedia' 
-           ,'AntiSubmarine Heli'
+           'TXT_KEY_UNIT_ATTACKHELI_II_CIVILOPEDIA' 
+           ,'Attack Heli II'
 UNION
 SELECT
 
-           'TXT_KEY_UNIT_ATTACKHELI_II_Strategy' 
-           ,'AntiSubmarine Heli'
+           'TXT_KEY_UNIT_ATTACKHELI_II_STRATEGY' 
+           ,'Attack Heli II'
 UNION
 SELECT
 
-           'TXT_KEY_UNIT_ATTACKHELI_II_Help' 
-           ,'AntiSubmarine Heli'   
+           'TXT_KEY_UNIT_ATTACKHELI_II_HELP' 
+           ,'Attack Heli II'   
 ;

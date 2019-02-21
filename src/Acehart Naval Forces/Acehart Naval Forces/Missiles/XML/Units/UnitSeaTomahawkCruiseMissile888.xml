@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SEATOMAHAWK888</Type>
+			<Description>SeaTomahawk Cruise Missile</Description>
+			<DefaultUnit>UNIT_SEATOMAHAWK_CRUISE_MISSILE888</DefaultUnit>
+		</Row>
+	</UnitClasses>
+  <Units>
+    <Row>
+      <Type>UNIT_SEATOMAHAWK_CRUISE_MISSILE888</Type>
+      <Description>TXT_KEY_UNIT_SEATOMAHAWK_CRUISE_MISSILE888</Description>
+      <Domain>DOMAIN_AIR</Domain>
+		<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
+      <Special>SPECIALUNIT_HELIMISSILE</Special>
+      <Class>UNITCLASS_SEATOMAHAWK888</Class>
+      <Cost>275</Cost>
+      <AdvancedStartCost>40</AdvancedStartCost>
+      <NoMaintenance>true</NoMaintenance>
+      <RangedCombat>150</RangedCombat>
+      <Range>22</Range>
+      <RangeAttackIgnoreLOS>true</RangeAttackIgnoreLOS>
+      <IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+      <Moves>2</Moves>
+      <Immobile>true</Immobile>
+      <Suicide>true</Suicide>
+      <Strategy>TXT_KEY_UNIT_SEATOMAHAWK_CRUISE_MISSILE888_STRATEGY</Strategy>
+      <Help>TXT_KEY_UNIT_SEATOMAHAWK_CRUISE_MISSILE888_HELP</Help>
+      <Civilopedia>TXT_KEY_UNIT_SEATOMAHAWK_CRUISE_MISSILE888_PEDIA</Civilopedia>
+      <PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
+      <Pillage>true</Pillage>
+      <MoveRate>AIR_REBASE</MoveRate>
+      <Mechanized>true</Mechanized>
+      <UnitArtInfo>ART_DEF_UNIT_GUIDED_MISSILE</UnitArtInfo>
+      <IconAtlas>ATLAS_ICON_UNIT_SEATOMAHAWK_CRUISE_MISSILE888</IconAtlas>
+      <PortraitIndex>0</PortraitIndex>
+      <UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
+      <UnitFlagIconOffset>77</UnitFlagIconOffset>
+      <RangedCombatLimit>100</RangedCombatLimit>
+      <MinAreaSize>10</MinAreaSize>
+      <MilitaryProduction>true</MilitaryProduction>
+      <MilitarySupport>true</MilitarySupport>
+      <DefaultUnitAI>UNITAI_MISSILE_AIR</DefaultUnitAI>
+    </Row>
+  </Units>
+  <Unit_AITypes>
+    <Row>
+      <UnitType>UNIT_SEATOMAHAWK_CRUISE_MISSILE888</UnitType>
+      <UnitAIType>UNITAI_MISSILE_AIR</UnitAIType>
+    </Row>
+   </Unit_AITypes>
+  <Unit_Flavors>
+    <Row>
+      <UnitType>UNIT_SEATOMAHAWK_CRUISE_MISSILE888</UnitType>
+      <FlavorType>FLAVOR_NAVAL</FlavorType>
+      <Flavor>15</Flavor>
+    </Row>
+	  <Row>
+		  <UnitType>UNIT_SEATOMAHAWK_CRUISE_MISSILE888</UnitType>
+		  <FlavorType>FLAVOR_OFFENSE</FlavorType>
+		  <Flavor>25</Flavor>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_SEATOMAHAWK_CRUISE_MISSILE888</UnitType>
+		  <FlavorType>FLAVOR_DEFENSE</FlavorType>
+		  <Flavor>2</Flavor>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_SEATOMAHAWK_CRUISE_MISSILE888</UnitType>
+		  <FlavorType>FLAVOR_AIR</FlavorType>
+		  <Flavor>2</Flavor>
+	  </Row>
+  </Unit_Flavors>
+  <Civilization_UnitClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+      <UnitClassType>UNITCLASS_SEATOMAHAWK888</UnitClassType>
+      <UnitType>UNIT_SEATOMAHAWK_CRUISE_MISSILE888</UnitType>
+    </Row>
+  </Civilization_UnitClassOverrides>
+  <Unit_FreePromotions>
+    <Row>
+      <UnitType>UNIT_SEATOMAHAWK_CRUISE_MISSILE888</UnitType>
+      <PromotionType>PROMOTION_EVASION_I</PromotionType>
+    </Row>
+  </Unit_FreePromotions>
+  <IconTextureAtlases>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_SEATOMAHAWK_CRUISE_MISSILE888</Atlas>
+      <IconSize>256</IconSize>
+      <Filename>ICON_UNIT_SEATOMAHAWK_CRUISE_MISSILE888_256.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_SEATOMAHAWK_CRUISE_MISSILE888</Atlas>
+      <IconSize>128</IconSize>
+      <Filename>ICON_UNIT_SEATOMAHAWK_CRUISE_MISSILE888_128.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_SEATOMAHAWK_CRUISE_MISSILE888</Atlas>
+      <IconSize>80</IconSize>
+      <Filename>ICON_UNIT_SEATOMAHAWK_CRUISE_MISSILE888_80.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_SEATOMAHAWK_CRUISE_MISSILE888</Atlas>
+      <IconSize>64</IconSize>
+      <Filename>ICON_UNIT_SEATOMAHAWK_CRUISE_MISSILE888_64.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_SEATOMAHAWK_CRUISE_MISSILE888</Atlas>
+      <IconSize>45</IconSize>
+      <Filename>ICON_UNIT_SEATOMAHAWK_CRUISE_MISSILE888_45.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+  </IconTextureAtlases>
+  <ArtDefine_StrategicView>
+    <Row>
+      <StrategicViewType>ART_DEF_UNIT_SEATOMAHAWK_CRUISE_MISSILE888</StrategicViewType>
+      <TileType>Unit</TileType>
+      <Asset>sv_guidedmissile.dds</Asset>
+    </Row>
+  </ArtDefine_StrategicView>
+  <Language_en_US>
+    <Row Tag="TXT_KEY_UNIT_SEATOMAHAWK_CRUISE_MISSILE888">
+      <Text>SeaTomahawk Cruise Missile</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SEATOMAHAWK_CRUISE_MISSILE888_STRATEGY">
+      <Text>The SeaTomahawk Cruise Missiles are excellent for softing up targets before moving in ground forces.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SEATOMAHAWK_CRUISE_MISSILE888_HELP">
+      <Text>The SeaTomahawk Cruise Missile has a combat strength of [ICON_STRENGTH] 150, an impressive range of 22, and costs 275 [ICON_PRODUCTION] to build. Although it is considerably more expensive than the traditional guided missile, it does more damage and has a longer effective range. It also has no maintenance cost; meaning you can stock up on the it without worrying about spiralling maintenance costs.[NEWLINE]It is designed to only work on Destroyers and Amphibious Ships.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SEATOMAHAWK_CRUISE_MISSILE888_PEDIA">
+      <Text>The Tomahawk is a long-range, all-weather, subsonic cruise missile named after the Native American axe. Introduced by McDonnell Douglas in the 1970s, it was initially designed as a medium to long-range, low-altitude missile that could be launched from a surface platform. It has been improved several times, and due to corporate divestitures and acquisitions, is now made by Raytheon. Some Tomahawks were also manufactured by General Dynamics (now Boeing Defense, Space &amp; Security). - Wikipedia</Text>
+    </Row>
+  </Language_en_US>
+</GameData>
+

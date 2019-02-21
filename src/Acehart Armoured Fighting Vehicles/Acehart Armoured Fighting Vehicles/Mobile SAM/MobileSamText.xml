@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/5/2015 1:21:38 PM -->
+<GameData>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_MOBILESAM888</Type>
+			<Description>MODERN MOBILE SAM</Description>
+			<DefaultUnit>NONE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_MODERN_MOBILE_SAM888</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ICON_UNIT_MODERN_MOBILE_SAM888_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_MODERN_MOBILE_SAM888</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ICON_UNIT_MODERN_MOBILE_SAM888_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_MODERN_MOBILE_SAM888</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>ICON_UNIT_MODERN_MOBILE_SAM888_80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_MODERN_MOBILE_SAM888</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ICON_UNIT_MODERN_MOBILE_SAM888_64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_MODERN_MOBILE_SAM888</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ICON_UNIT_MODERN_MOBILE_SAM888_45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_MODERN_MOBILE_SAM888">
+			<Text>Modern Mobile SAM</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MODERN_MOBILE_SAM888_STRATEGY">
+			<Text>Modern Mobile SAM (surface-to-air) units provide an advancing army with anti-air defense. Modern Mobile SAM units can intercept and shoot at enemy aircraft bombing targets within 3 hexes (but only one unit per turn). These units are fairly vulnerable to non-air attack and should be accompanied by infantry or armor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MODERN_MOBILE_SAM888_HELP">
+			<Text>Will intercept enemy aircraft which try to bomb nearby Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MODERN_MOBILE_SAM888_PEDIA">
+			<Text>As helicopters developed into more efficient killing machines, the infantry in turn developed weapons designed to combat the growing menace - not to mention the danger posed by jet fighters. Modern "SAMs" (surface-to-air missiles) are fast, light, and contain radar, allowing them to "lock on" to enemy aircraft and fly into them, exploding violently and doing all sorts of probably lethal damage to the fragile planes and choppers. In response more stealthy vehicles have been created and also better missile-jamming technology has been employed. Still, SAM launchers make it hot indeed for enemy aircraft, providing good protection to fellow ground-pounders from the airborne menace.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

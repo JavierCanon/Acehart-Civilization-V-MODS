@@ -1,0 +1,1539 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2b20b249-e6c8-47a9-8ebc-62a755e0b549" version="13">
+  <Properties>
+    <Name>Advanced Air Units</Name>
+    <Teaser>This mod adds unique Air units into Civ V.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Requires BNW [ENDCOLOR]</Teaser>
+    <Description>Advanced Air Units 13[NEWLINE][NEWLINE]
+This mod adds NEW Fighter and Bomber aircrfaft that range from WWI, WWII, Computer, Modern, Information age, and Advanced aircraft as well. 
+[NEWLINE][NEWLINE]
+Please report any bugs. 
+REQUIRES BRAVE NEW WORLD!! - BIG THANKS TO WHOWARD69 for all his hard work, and inclusions in this mod![NEWLINE][NEWLINE]
+***Improved Air Recon is incorporated in this mod, use air sweep as a recon tool, tiles will reveal*** [NEWLINE][NEWLINE]
+=-= SEE STEAM WORKSHOP CHANGELOG FOR DETAILS PATCHES[NEWLINE] **Now VERSION 10** =-= [NEWLINE][NEWLINE][NEWLINE]
+I have too many aircraft to fit on this Steam Workshop Front Page - ***To see a FULL AIRCRAFT LIST, Navigate to the Dissussion Tab, and to the Aircraft List Thread*** [NEWLINE][NEWLINE]
+**NOTES** [NEWLINE]
+This mod also includes the Modern Carrier Mod integrated[NEWLINE][NEWLINE]
+Credit and thanks to WHoward69, LeeS, Faustaud, Lt. Fairace, Wolfdog, Snafusmith - and hundreds of other I have forgot to mention!
+ [NEWLINE][NEWLINE]
+***Compatability*** 
+Does not play well with the following mods: 
+RED Modpack - Skin &amp;amp; Size conflicts, Ethnic Units - Skin conflicts
+Is 100% compatible with IGE, Beyond the Future, American &amp; German Domination and may other mods</Description>
+    <Authors>Josh LaBrie</Authors>
+    <SpecialThanks>Wolfdogg, Faustaud, arbogli, Lt. Fairace,Kael, Whoward69, Snafusmith</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="66" maxversion="999" title="DLL - Various Mod Components" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="2BE27EF9C382FD58B4E871379322D3E0" import="1">Art/A-10.fxsxml</File>
+    <File md5="B4FC49BD2EAD79B88796C888986CA760" import="1">Art/A-10.gr2</File>
+    <File md5="210F0AAF9CCA036907E90DC209C525F7" import="1">Art/A-10_diff.dds</File>
+    <File md5="6B32B7D4FEE94C70CDE92DC6490D1187" import="1">Art/A-10_sref.dds</File>
+    <File md5="70164AD48AAAB8B9B6ADA634E384BA84" import="1">Art/A-7.fxsxml</File>
+    <File md5="D6312AC7B3CDE1BA3C65EC4719893147" import="1">Art/A-7.gr2</File>
+    <File md5="CD3095C552255D6B641DC00E9CE6D459" import="1">Art/A-7Greece.fxsxml</File>
+    <File md5="22BF2F593CA4DE969A3E9940020DB856" import="1">Art/A-7Greece.gr2</File>
+    <File md5="614AC39B8D8E8C0E9289AE655E1FC67F" import="1">Art/A-7Greece_diff.dds</File>
+    <File md5="8B36496957C8765AC981F7A79A855D59" import="1">Art/A-7Portugal.fxsxml</File>
+    <File md5="DEAB52282FE7E5592FBCCE76DE8E72E9" import="1">Art/A-7Portugal.gr2</File>
+    <File md5="9E5F0D20B1F6B0D5B6AA2FE2FFD87B04" import="1">Art/A-7Portugal_diff.dds</File>
+    <File md5="E181AC814CCBB3FCB946D98F92262BA1" import="1">Art/A-7USA1.fxsxml</File>
+    <File md5="DA2445694E95C965FA6648ECD9703E6A" import="1">Art/A-7USA1.gr2</File>
+    <File md5="A533EE8FCD5CA76863B2636E0300BD35" import="1">Art/A-7USA1_diff.dds</File>
+    <File md5="BB3FD1E16A5369C36C1509EBF0FB376D" import="1">Art/A-7USA2.fxsxml</File>
+    <File md5="E54BC05F9DC867523BABA261F442CBF6" import="1">Art/A-7USA2.gr2</File>
+    <File md5="43EB87DDC3349B50587989F9EDFF0E86" import="1">Art/A-7USA2_diff.dds</File>
+    <File md5="F19DEAF9388B5D6FD6079CE3CA8631E3" import="1">Art/A-7USA3.fxsxml</File>
+    <File md5="2EAAF3F8336002F270D7A890457B6890" import="1">Art/A-7USA3.gr2</File>
+    <File md5="CF109D4D3B35A706C3027C20EE2F9D3B" import="1">Art/A-7USA3_diff.dds</File>
+    <File md5="496410EA5868982493EE7390B2878300" import="1">Art/A-7_diff.dds</File>
+    <File md5="44A38E7237405AB893A3C236C5C89C66" import="1">Art/A-7_sref.dds</File>
+    <File md5="CCFFDB1169FE9FB8CFDAFC505AFB8B95" import="1">Art/AAS.fxsxml</File>
+    <File md5="849EDC7508DE6090C811047EFCBA0C5C" import="1">Art/AAS.gr2</File>
+    <File md5="07E035A7A324AAF75BE5F248077FAB96" import="1">Art/AAS_diff.dds</File>
+    <File md5="6942C7E16D7F3E3649CF2489F68CF612" import="1">Art/AAS_dmg_diff.dds</File>
+    <File md5="DB568C2BDAF287594562241AF1BDAB6B" import="1">Art/AAS_dmg_sref.dds</File>
+    <File md5="FD1B7E7F5DB7D9F065AE81F8B174655B" import="1">Art/AAS_sref.dds</File>
+    <File md5="06035EE60A708DD49B7014B61882E465" import="1">Art/AH64Britain.dds</File>
+    <File md5="528FE3FAEB8850E74EA19A3FBFB8310A" import="1">Art/AH64Britain.fxsxml</File>
+    <File md5="F9DC11654293ED515366FCB210CD838A" import="1">Art/AH64Britain.gr2</File>
+    <File md5="CD9FDB5CE8E2148113B0E362280F8C75" import="1">Art/AH64Greece.dds</File>
+    <File md5="BB9DA51609BCA186CA7191390037A6C6" import="1">Art/AH64Greece.fxsxml</File>
+    <File md5="8B03B328BA60ED4BAA4E473E2010ACAE" import="1">Art/AH64Greece.gr2</File>
+    <File md5="CFA017E78D5B9B5838DEA3BA800F69B5" import="1">Art/AH64Japan.dds</File>
+    <File md5="361626A40B01C60AF9CF2FC98BCF7629" import="1">Art/AH64Japan.fxsxml</File>
+    <File md5="6711B1327E59E56C965218D6BCC2EC4B" import="1">Art/AH64Japan.gr2</File>
+    <File md5="160A7C5C09D2F1810AF67D2E97E7FFA9" import="1">Art/AH64SREF.dds</File>
+    <File md5="A25A899A2E8E2ED7A158100FC216A88F" import="1">Art/AH64USA.dds</File>
+    <File md5="F3EA86C96B98E78EF9449375837C00A4" import="1">Art/AH64USA.fxsxml</File>
+    <File md5="087C461605BE7DDA20397B25FF03140E" import="1">Art/AH64USA.gr2</File>
+    <File md5="F755FFB94D9B33A97D2B61A87288EE7D" import="1">Art/AtlasArt/HornetAtlas128.dds</File>
+    <File md5="8EA41D6170058DC3598235C419281BA0" import="1">Art/AtlasArt/HornetAtlas214.dds</File>
+    <File md5="8E5D20AF828C23484AC4F69BF526A383" import="1">Art/AtlasArt/HornetAtlas256.dds</File>
+    <File md5="7BC35527A2BE3A975E444CC4460D48F4" import="1">Art/AtlasArt/HornetAtlas32.dds</File>
+    <File md5="0C30F67E40B63C0050B81DA9D26A1730" import="1">Art/AtlasArt/HornetAtlas45.dds</File>
+    <File md5="093213296D340411BF9395F55D27EC59" import="1">Art/AtlasArt/HornetAtlas64.dds</File>
+    <File md5="CA7AA5302545DE9528B3C77F8BF8E635" import="1">Art/AtlasArt/HornetAtlas80.dds</File>
+    <File md5="BD4A40EF833F38C52200577367065388" import="1">Art/AtlasArt/ICON_UNIT_A10_THUNDERBOLT_II_128.dds</File>
+    <File md5="3F64EBCE1CF2C7B90DC42E4EF9DE0352" import="1">Art/AtlasArt/ICON_UNIT_A10_THUNDERBOLT_II_256.dds</File>
+    <File md5="6CB0E67D80D60D7D9306D18E5C7D96FC" import="1">Art/AtlasArt/ICON_UNIT_A10_THUNDERBOLT_II_45.dds</File>
+    <File md5="5360DE175A4713E8C2924213DF5B257A" import="1">Art/AtlasArt/ICON_UNIT_A10_THUNDERBOLT_II_64.dds</File>
+    <File md5="D71B6CA338BD88B410EB7BC66C6B5C67" import="1">Art/AtlasArt/ICON_UNIT_A10_THUNDERBOLT_II_80.dds</File>
+    <File md5="F0B94E2B1634C1936C183C98A05454DB" import="1">Art/AtlasArt/ICON_UNIT_A7_CORSAIR_II_128.dds</File>
+    <File md5="48E5653850ADC5E0665721A7DFC4E9C6" import="1">Art/AtlasArt/ICON_UNIT_A7_CORSAIR_II_256.dds</File>
+    <File md5="7E483777887F24C0EC50C99640509BB9" import="1">Art/AtlasArt/ICON_UNIT_A7_CORSAIR_II_45.dds</File>
+    <File md5="53E680C3CB04837F8ACA2FF8AF203CAF" import="1">Art/AtlasArt/ICON_UNIT_A7_CORSAIR_II_64.dds</File>
+    <File md5="9C2DF8096F07FC568D445333B385D2FF" import="1">Art/AtlasArt/ICON_UNIT_A7_CORSAIR_II_80.dds</File>
+    <File md5="90A47791D0BA520B17A598A7B11768BD" import="1">Art/AtlasArt/ICON_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_128.dds</File>
+    <File md5="DD87DEBF886F941B1D05F88C308816EA" import="1">Art/AtlasArt/ICON_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_256.dds</File>
+    <File md5="02CFDE0C1AA400DC7FC2A62DDC43A427" import="1">Art/AtlasArt/ICON_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_45.dds</File>
+    <File md5="31B81D249B40AD2FD99AE5A77E08635E" import="1">Art/AtlasArt/ICON_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_64.dds</File>
+    <File md5="A52BF457F74B5B029DBB656444134978" import="1">Art/AtlasArt/ICON_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_80.dds</File>
+    <File md5="70F577BAD82FB9D2C5099FA8CD1C5FDD" import="1">Art/AtlasArt/ICON_UNIT_F35_LIGHTNING_II_128.dds</File>
+    <File md5="54F4F8B00492B2A00AE918CE365ED82D" import="1">Art/AtlasArt/ICON_UNIT_F35_LIGHTNING_II_256.dds</File>
+    <File md5="61295014DD8448BC3D9D16DDAF2C772E" import="1">Art/AtlasArt/ICON_UNIT_F35_LIGHTNING_II_45.dds</File>
+    <File md5="496633294B6E74625A2ABC2B09F5491B" import="1">Art/AtlasArt/ICON_UNIT_F35_LIGHTNING_II_64.dds</File>
+    <File md5="0FD43793A3A7E388B19926D1DB1788FD" import="1">Art/AtlasArt/ICON_UNIT_F35_LIGHTNING_II_80.dds</File>
+    <File md5="4053BF72D3B346235D5516FBCCAE3205" import="1">Art/AtlasArt/ICON_UNIT_FOKKER_DRI_128.dds</File>
+    <File md5="317B658B151D8E63590D34F168C8963A" import="1">Art/AtlasArt/ICON_UNIT_FOKKER_DRI_256.dds</File>
+    <File md5="34F1A9F7BEAEF38D745D1043BB73477B" import="1">Art/AtlasArt/ICON_UNIT_FOKKER_DRI_45.dds</File>
+    <File md5="2FE52575F407D76A8C933E87E210B599" import="1">Art/AtlasArt/ICON_UNIT_FOKKER_DRI_64.dds</File>
+    <File md5="34DA2B7FC2EC367E6750082630EBA2CE" import="1">Art/AtlasArt/ICON_UNIT_FOKKER_DRI_80.dds</File>
+    <File md5="1BF519D788217841B9881ECE964AB3B7" import="1">Art/AtlasArt/ICON_UNIT_QUEEN_ELIZABETH_CLASS_AIRCRAFT_CARRIER888_128.dds</File>
+    <File md5="857C3FF374998B88A22E34C2FEFDA97B" import="1">Art/AtlasArt/ICON_UNIT_QUEEN_ELIZABETH_CLASS_AIRCRAFT_CARRIER888_256.dds</File>
+    <File md5="7ABA85D50849150A9F1CD48D571BCD3D" import="1">Art/AtlasArt/ICON_UNIT_QUEEN_ELIZABETH_CLASS_AIRCRAFT_CARRIER888_45.dds</File>
+    <File md5="5F51892A4E720E736D05078CEE9FC497" import="1">Art/AtlasArt/ICON_UNIT_QUEEN_ELIZABETH_CLASS_AIRCRAFT_CARRIER888_64.dds</File>
+    <File md5="F88BBB2F355581CF9D85A67255F16497" import="1">Art/AtlasArt/ICON_UNIT_QUEEN_ELIZABETH_CLASS_AIRCRAFT_CARRIER888_80.dds</File>
+    <File md5="88BF9980B18A358CAE4BC13205E8BC5C" import="1">Art/AtlasArt/ICON_UNIT_SOPWITH_CAMEL_128.dds</File>
+    <File md5="DAFB56E4D5A3AD2709DE7525A9958CC3" import="1">Art/AtlasArt/ICON_UNIT_SOPWITH_CAMEL_256.dds</File>
+    <File md5="A7425F4AA09917F733026E15697AB16A" import="1">Art/AtlasArt/ICON_UNIT_SOPWITH_CAMEL_45.dds</File>
+    <File md5="472E79A6AFC79507FE58049D7A5B8F17" import="1">Art/AtlasArt/ICON_UNIT_SOPWITH_CAMEL_64.dds</File>
+    <File md5="F2CFD14C4E1D5AAB2F6B4689D698DC95" import="1">Art/AtlasArt/ICON_UNIT_SOPWITH_CAMEL_80.dds</File>
+    <File md5="DCD07C7B1694A80F4E5759EC2BC849D7" import="1">Art/AtlasArt/ICON_UNIT_SPAD_SXIII_128.dds</File>
+    <File md5="70A4832702C2E16BB089E0CBA8E62490" import="1">Art/AtlasArt/ICON_UNIT_SPAD_SXIII_256.dds</File>
+    <File md5="1ABE5450A0AC1F1BDD06E78A9FC0892A" import="1">Art/AtlasArt/ICON_UNIT_SPAD_SXIII_45.dds</File>
+    <File md5="EC670059B9632E55FBC1CFDD401E2192" import="1">Art/AtlasArt/ICON_UNIT_SPAD_SXIII_64.dds</File>
+    <File md5="59FC4B45231ACFE055795CF51549C62B" import="1">Art/AtlasArt/ICON_UNIT_SPAD_SXIII_80.dds</File>
+    <File md5="1700738047113F34C559C519E8908701" import="1">Art/AtlasArt/ICON_UNIT_SR71_BLACKBIRD_128.dds</File>
+    <File md5="C06C7477B3E1ED823681E65776BFF6F1" import="1">Art/AtlasArt/ICON_UNIT_SR71_BLACKBIRD_256.dds</File>
+    <File md5="BA6D9A52A1275E1F319CE0A7D5572574" import="1">Art/AtlasArt/ICON_UNIT_SR71_BLACKBIRD_45.dds</File>
+    <File md5="059A79F0DABC01B9E5581DAFF801D7D6" import="1">Art/AtlasArt/ICON_UNIT_SR71_BLACKBIRD_64.dds</File>
+    <File md5="A63A6FA9E1A7CD1D40FCAD476728250F" import="1">Art/AtlasArt/ICON_UNIT_SR71_BLACKBIRD_80.dds</File>
+    <File md5="A8D818212DEF10FF499B93C51F5EFD0F" import="1">Art/AtlasArt/SV_MQ1.dds</File>
+    <File md5="FA6D61D0AB7AF957EF09E8CA7DA1D638" import="1">Art/AtlasArt/MQ1atlas128.dds</File>
+    <File md5="ADF4D54987AC6EC6B9F4654624326FCD" import="1">Art/AtlasArt/MQ1atlas256.dds</File>
+    <File md5="E55DE3DE2A81BF86E8A8E37F5FF314FF" import="1">Art/AtlasArt/MQ1atlas32.dds</File>
+    <File md5="7763F0960003B5A0568707C423FE73D8" import="1">Art/AtlasArt/MQ1atlas45.dds</File>
+    <File md5="C60F3988BEF7B401DF6FA37A88AA0E4B" import="1">Art/AtlasArt/MQ1atlas64.dds</File>
+    <File md5="38224851BE5EE8A2D30F6199C103A3D7" import="1">Art/AtlasArt/MQ1atlas80.dds</File>
+    <File md5="5B672D1A8C98089201D9C0680C3D8600" import="1">Art/B52.dds</File>
+    <File md5="85DA270D56771841D9F895FA86C953BA" import="1">Art/B52.fxsxml</File>
+    <File md5="CEF5304A4B810775B212CD1C2E4B9AD8" import="1">Art/B52.gr2</File>
+    <File md5="82F3BD2D9CE63530D88EB7D959D526F9" import="1">Art/cammo_2_f.dds</File>
+    <File md5="E159EADC14504913CABCAE66A5B908C6" import="1">Art/cammo_f.dds</File>
+    <File md5="5B811AF5596286D7B6DAD0FE8E8FA53B" import="1">Art/edited_fx_triggers_jetfighter33.ftsxml</File>
+    <File md5="C63D80377E8FF473E7FBD3C912D519ED" import="1">Art/EurofighterAustria.dds</File>
+    <File md5="061826EE0DA4D464ED95664506E23D5F" import="1">Art/EurofighterAustria.fxsxml</File>
+    <File md5="946E3012EB1F3C6BCFE269D94F30078C" import="1">Art/EurofighterAustria.gr2</File>
+    <File md5="8ACA13AD071B29D9A0C2FFCC368B5E44" import="1">Art/EurofighterGermany.dds</File>
+    <File md5="E021998BC7F5DC820F236E3CDE5DC4B5" import="1">Art/EurofighterGermany33.fxsxml</File>
+    <File md5="A05AA891564ED0AD5EEEA6C99D54D522" import="1">Art/EurofighterGermany33.gr2</File>
+    <File md5="FE22DB0A96FB4B962A1C029F9BD3038E" import="1">Art/EurofighterItaly.dds</File>
+    <File md5="70E532D50153BD28EF5C8CAD4950BEF8" import="1">Art/EurofighterItaly.fxsxml</File>
+    <File md5="79ED4D25DDD0B8D1ADD793411C12CAF9" import="1">Art/EurofighterItaly.gr2</File>
+    <File md5="DCB6E34379B818B9033AD2BD28C83FEB" import="1">Art/EurofighterSArabia.dds</File>
+    <File md5="620A96457571B1643284EBCE8E8F886A" import="1">Art/EurofighterSArabia.fxsxml</File>
+    <File md5="12BA109A3B29A322FEF8A1341BEB80A8" import="1">Art/EurofighterSArabia.gr2</File>
+    <File md5="72389D7216B02B8FF2F808CA46A319B0" import="1">Art/EurofighterSpain.dds</File>
+    <File md5="2B32708DEEB5DD2D3FEEF50A5D2EE8BC" import="1">Art/EurofighterSpain.fxsxml</File>
+    <File md5="8808D303D18AB2B68146A2A65486CA9D" import="1">Art/EurofighterSpain.gr2</File>
+    <File md5="ECB9361A133457BE2779B3AB7489F358" import="1">Art/Eurofighter33SREF.dds</File>
+    <File md5="C9F4FBDE28435D21908933514926AB36" import="1">Art/EurofighterUK.dds</File>
+    <File md5="F5635007FE4502FB70F52F4EFE8C6322" import="1">Art/EurofighterUK.fxsxml</File>
+    <File md5="12BA109A3B29A322FEF8A1341BEB80A8" import="1">Art/EurofighterUK.gr2</File>
+    <File md5="719002754EDCABB3182CFD0FA5C43234" import="1">Art/F-117.fxsxml</File>
+    <File md5="07DFAE2E145C5AEFA5C017276E1EBBA4" import="1">Art/F-117.gr2</File>
+    <File md5="95661C35835330A2B9FF73A96DD2C96C" import="1">Art/F-117_diff.dds</File>
+    <File md5="D95E59AADF2598ECA88F3E24302871D4" import="1">Art/F-117_sref.dds</File>
+    <File md5="16366824DFB0009603EB9AD8F9403ED5" import="1">Art/F-14_5.fxsxml</File>
+    <File md5="2FB3D1A322A511EE1B3D999D4F9BB92D" import="1">Art/F-14_5.gr2</File>
+    <File md5="7218D6BE49DFE2A89CBF38D829E6854E" import="1">Art/F-14_5_diff.dds</File>
+    <File md5="FFD782D930E84AC23ED07A1943F93AB6" import="1">Art/F-14_sref.dds</File>
+    <File md5="33C24A6581BF994A4ED9B03BE40AD5FC" import="1">Art/F-35.fxsxml</File>
+    <File md5="5A58EC9A7FD2E30ADF9B93D95E55286A" import="1">Art/F-35.gr2</File>
+    <File md5="A15AD85EDC6F3AB93E1A32AD70578941" import="1">Art/F-35_diff.dds</File>
+    <File md5="E485AC0F9B72F1037866AA4AB7203F21" import="1">Art/F-35_sref.dds</File>
+    <File md5="3341E659D8BC935E68CF700802825A39" import="1">Art/FA-18.fxsxml</File>
+    <File md5="A7BFAA2660009355E7AF4983DE5370C0" import="1">Art/FA-18.gr2</File>
+    <File md5="BA1E5303419BF5D4CE79FE88F2381188" import="1">Art/FA-18_diff.dds</File>
+    <File md5="84A8757CB8EC4B2EBE1225E92A95F075" import="1">Art/FA-18_sref.dds</File>
+    <File md5="CCB4D28DE1A120E276E6B4FB2A5C4A55" import="1">Art/Fokker_Dr.1.blend</File>
+    <File md5="8F32633B6CC06654B1D899F853754E04" import="1">Art/Fokker_Dr.1.dds</File>
+    <File md5="671163B1CCEE0AEE8E2CD93134C0E3B1" import="1">Art/Fokker_Dr.1.fxsxml</File>
+    <File md5="91DB226CE5822ED70BAB4ED5009FAE4F" import="1">Art/Fokker_Dr.1.gr2</File>
+    <File md5="AB114D4FADD571A819EDA2615F910DB6" import="1">Art/Fokker_Dr.1_2.dds</File>
+    <File md5="F3E4014D5E371DAED3152A92B43CF74E" import="1">Art/gray_tc.dds</File>
+    <File md5="0AC4AE245A5CE1FA9E663B2C260F2BC2" import="1">Art/harrier.fxsxml</File>
+    <File md5="7ED3973CCEAEB197D7D3839C49022CDF" import="1">Art/Harrier.gr2</File>
+    <File md5="AB24EEBE0F92F8E0E49B4CC6ADB2F989" import="1">Art/Harrier_diff.dds</File>
+    <File md5="1E4E47B90E7EE2A55A8933922BC35DA0" import="1">Art/Harrier_sref.dds</File>
+    <File md5="C096D96221C0243CD4C6CB3094A48583" import="1">Art/Illustrious_Class.dds</File>
+    <File md5="9D280E94518F8246CA1C8B78B10C87AC" import="1">Art/Illustrious_Class.fxsxml</File>
+    <File md5="F7942070B735C47A0482311B2F863F80" import="1">Art/Illustrious_Class.gr2</File>
+    <File md5="6E799AC98B062DFE2595A441A88D5172" import="1">Art/Illustrious_Class_gloss.dds</File>
+    <File md5="F7071DE9B993CA70EC27D7129EDEA3A4" import="1">Art/Kuznetsov.fxsxml</File>
+    <File md5="1E66CDD04E2CFDEA98E101D2F6B95F37" import="1">Art/Kuznetsov.gr2</File>
+    <File md5="E044A0F3BE75D5731F1347B1C3909BA4" import="1">Art/kuznetsov_diff.dds</File>
+    <File md5="3992FCB4D0F0C0CA34CA4AABECC14C0A" import="1">Art/kuznetsov_sref.dds</File>
+    <File md5="0B1EE3F2248B79486C976EE4AFD14A1A" import="1">Art/MiG-15tc.dds</File>
+    <File md5="F7698445EA383B3FD76374D4A994C11B" import="1">Art/MiG-15tc.fxsxml</File>
+    <File md5="C75C1D2DE2E58BD518CA1005B5496848" import="1">Art/MiG-15tc.gr2</File>
+    <File md5="0FF2E3BCE1AEE0BEFBA1EB3549F3CB0C" import="1">Art/MiG-15tc_gloss.dds</File>
+    <File md5="B9F73DA4B456982951F9E7D1829DEC3C" import="1">Art/MiG29India.dds</File>
+    <File md5="C33B346375413092E93AEB7F7B351A49" import="1">Art/MiG29India.fxsxml</File>
+    <File md5="4B295FE376A37F2FDBAA6B9DDB51341E" import="1">Art/MiG29India.gr2</File>
+    <File md5="2B6DD2DF3D0BC599CE7ED7C0951734C0" import="1">Art/MiG29Iran.dds</File>
+    <File md5="993D2FA98819DA11F4219ECCD10FAA64" import="1">Art/MiG29Iran.fxsxml</File>
+    <File md5="B9700A6D911290768005C17B4871E611" import="1">Art/MiG29Iran.gr2</File>
+    <File md5="2D50A1EE7CF4276A955C9C2C9CCA0EA4" import="1">Art/MiG29Iraq.dds</File>
+    <File md5="A11005A358CFA46D59E4623EC1AA92C1" import="1">Art/MiG29Iraq.fxsxml</File>
+    <File md5="C05EFFCC266A938365C5EF8D7B0854A9" import="1">Art/MiG29Iraq.gr2</File>
+    <File md5="D554A5A679F2F16D3208A058EDBADC2A" import="1">Art/MiG29Peru.dds</File>
+    <File md5="FCBF4235755A5A1C6068D30DDC0AB84D" import="1">Art/MiG29Peru.fxsxml</File>
+    <File md5="637A28DD4E7C2D5D8686DF38E4D33B09" import="1">Art/MiG29Peru.gr2</File>
+    <File md5="40E981BE76C3F234FD92E972F065B68B" import="1">Art/MiG29Russia.dds</File>
+    <File md5="7D691D7EAED270C3DA5357EE89A29C77" import="1">Art/MiG29Russia.fxsxml</File>
+    <File md5="86665E40B6F034C18312D18BB5AE8293" import="1">Art/MiG29Russia.gr2</File>
+    <File md5="CA29CBE8D2686C9872DEC92BEFCABC80" import="1">Art/MiG29Soviet.dds</File>
+    <File md5="062D48E3745314DD5437FB7605C59FBA" import="1">Art/MiG29Soviet.fxsxml</File>
+    <File md5="35526CF047FDF7B958950EA24FC90B12" import="1">Art/MiG29Soviet.gr2</File>
+    <File md5="1296471C049EBA2EE57D7A04CF640779" import="1">Art/MiG29SREF.dds</File>
+    <File md5="C78A444DDC1BBE3E66C35608CCAB28FA" import="1">Art/MiG29Ukraine.dds</File>
+    <File md5="00B13C18D519E405473AD99574CCDFB1" import="1">Art/MiG29Ukraine.fxsxml</File>
+    <File md5="4E7C55F4387959ECA32304EF1A31C066" import="1">Art/MiG29Ukraine.gr2</File>
+    <File md5="25508B471913335C68040D5530CDA408" import="1">Art/MQ1.dds</File>
+    <File md5="E68672B527C028CF2037BDB953916193" import="1">Art/MQ1.fxsxml</File>
+    <File md5="F4883E68FD3C96A8EBD0C18DCF6DB79E" import="1">Art/MQ1.gr2</File>
+    <File md5="E67EC2B0DCD3D94063F3720CBE02018A" import="1">Art/MQ1_SREF.dds</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Art/no_gloss.dds</File>
+    <File md5="90B5EF09CBBAABB76424BBE56E7B8FBC" import="1">Art/Porte-Avions_2.dds</File>
+    <File md5="13973890B889100C55B8BBD2F386E8A4" import="1">Art/Porte-Avions_2.fxsxml</File>
+    <File md5="9D6BBF89E5155FDEB652EABB37779FBF" import="1">Art/Porte-Avions_2.gr2</File>
+    <File md5="46A546DB98F18A7DB65C259E05B20E22" import="1">Art/Porte-Avions_2_gloss.dds</File>
+    <File md5="1458BA4AD2D8AAE0F1BBEB0E2C7EC198" import="1">Art/Queen_Elizabeth_Class_Carrier.dds</File>
+    <File md5="D969F01BACEC618B4DB4954F012B448F" import="1">Art/Queen_Elizabeth_Class_Carrier.fxsxml</File>
+    <File md5="B4AA996980CDEC1B592C039166C30B4E" import="1">Art/Queen_Elizabeth_Class_Carrier.gr2</File>
+    <File md5="4B27E46F131D3A67BE91DFFBA6D6524D" import="1">Art/Queen_Elizabeth_Class_Carrier_gloss.dds</File>
+    <File md5="8C820AA2974C05BB36E36E6285D3B10B" import="1">Art/Rafale.fxsxml</File>
+    <File md5="9A34B84D41357EE1977D3490C0029C73" import="1">Art/Rafale.gr2</File>
+    <File md5="13F9C95310042771CBEFE53D7FC8B3B2" import="1">Art/Rafale_diff.dds</File>
+    <File md5="6B9C45B9F0D94AA7F6DE942AD7AE42E5" import="1">Art/Rafale_diff.tga</File>
+    <File md5="CB330833E093EDAC3BA9E6FD7B42C30C" import="1">Art/SPAD_S.XIII.blend</File>
+    <File md5="CA197BA98100F02665DE8AF6A8E41019" import="1">Art/SPAD_S.XIII.dds</File>
+    <File md5="DBF7A71E76D7726C12D29F72E663B070" import="1">Art/SPAD_S.XIII.fxsxml</File>
+    <File md5="B26224F8784D414C2792595060ECFA56" import="1">Art/SPAD_S.XIII.gr2</File>
+    <File md5="CB330833E093EDAC3BA9E6FD7B42C30C" import="1">Art/SPAD_SXIII.blend</File>
+    <File md5="CA197BA98100F02665DE8AF6A8E41019" import="1">Art/SPAD_SXIII.dds</File>
+    <File md5="E89A4104BBA2CB34C26516D653936327" import="1">Art/SPAD_SXIII.fxsxml</File>
+    <File md5="B26224F8784D414C2792595060ECFA56" import="1">Art/SPAD_SXIII.gr2</File>
+    <File md5="01378A4175B445B229D85D21D18144FA" import="1">Art/Spowith_Camel.blend</File>
+    <File md5="78B32536F7C6E235EF559DDE22101513" import="1">Art/Spowith_Camel.dds</File>
+    <File md5="964192070BC5D3998302F8E19C4D7F15" import="1">Art/Spowith_Camel.fxsxml</File>
+    <File md5="655F55297930B6223FAF301F2473102A" import="1">Art/Spowith_Camel.gr2</File>
+    <File md5="5C3E7881E688EA724534530132ED9A39" import="1">Art/SR-71_Blackbird.fxsxml</File>
+    <File md5="5B896BA0E4977184441CABC01503821E" import="1">Art/SR-71_Blackbird.gr2</File>
+    <File md5="9257DCA622782AF277B49583F85C4C3C" import="1">Art/SR-71_diff.dds</File>
+    <File md5="2CB870156E94747E8B00CA4F8EC78AC1" import="1">Art/SR-71_sref.dds</File>
+    <File md5="3355C44C9175B4A247B5E0EAEDDE1723" import="1">Art/stealthbomber_gloss.dds</File>
+    <File md5="49F467810B99E5C9CF54B1F225FC0CF0" import="1">Art/Su-25.fxsxml</File>
+    <File md5="E6DC17FA5EE81225543DEA391AFA9CD2" import="1">Art/Su-25.gr2</File>
+    <File md5="2534360B3254610A6B5223151A073C0A" import="1">Art/Su-25_diff.dds</File>
+    <File md5="06B6A2FEA947D2087A158CA427C09D28" import="1">Art/Su-25_sref.dds</File>
+    <File md5="9E8D39BDAC93C1492CCF0E000D7483E5" import="1">Art/Su-27.fxsxml</File>
+    <File md5="BE973396E26C3BF03777A93BCB5086A5" import="1">Art/Su-27.gr2</File>
+    <File md5="4342A257E4E668C1EB411DB4C163C3BB" import="1">Art/Su-27_diff.dds</File>
+    <File md5="15BC476FDBC09646F3CF94065370B927" import="1">Art/Su-27_sref.dds</File>
+    <File md5="A8D818212DEF10FF499B93C51F5EFD0F" import="1">Art/SV_UAV.dds</File>
+    <File md5="4F7359AB4E2A535B7BF58224E0760119" import="1">Art/USS_Nimitz.fxsxml</File>
+    <File md5="963A69CA8D59AB713514176AA624AA18" import="1">Art/USS_Nimitz.gr2</File>
+    <File md5="ED4A5AB326883371F14E49AA082574D5" import="1">Art/USS_Nimitz_diff.dds</File>
+    <File md5="2FF87861C6F97D3DE71A8148E98FD294" import="1">Art/USS_Nimitz_sref.dds</File>
+    <File md5="94BB1326964D0E54EE6C4DF2870BD9FE" import="1">Art/YF23.dds</File>
+    <File md5="E2E0B11C9A7A8B7E96F0A80C86045C67" import="1">Art/YF23.fxsxml</File>
+    <File md5="FE75BBD715B37043C6B140E33512D55B" import="1">Art/YF23.gr2</File>
+    <File md5="CA80074CA0BFAE25B54873E0D156135A" import="1">Art/YF23_SREF.dds</File>
+    <File md5="211EB6911180184FAA6C626A7EF234C7" import="1">Buildings/Art/ICON_UNIT_HANGAR_128.dds</File>
+    <File md5="BE316F82A731E6486890CFFDF5F6BA8E" import="1">Buildings/Art/ICON_UNIT_HANGAR_256.dds</File>
+    <File md5="B8F8B33619C13455A72E676622C69BF1" import="1">Buildings/Art/ICON_UNIT_HANGAR_45.dds</File>
+    <File md5="FC400D51C1FF6D596F96113E7D93E9C9" import="1">Buildings/Art/ICON_UNIT_HANGAR_64.dds</File>
+    <File md5="4D401B1E3EBB93D1F19CBDDF880CDAEA" import="1">Buildings/Art/ICON_UNIT_HANGAR_80.dds</File>
+    <File md5="EB3BE6A9DF9BFB0D8CD59515272FE291" import="0">Buildings/Hangar_Buildings.xml</File>
+    <File md5="95FEC49A08B85281E54705E4D8EE4E21" import="0">Fixinator.sql</File>
+    <File md5="3F57DF89BE21157674E52F7CF03BED74" import="1">Jets3/Jets3Art/A20_Havoc.blend</File>
+    <File md5="74BED1478E0ED56C7FF21C25C0801613" import="1">Jets3/Jets3Art/A20_Havoc.dds</File>
+    <File md5="5A587586450D28505C8EFBD4B4BF7D12" import="1">Jets3/Jets3Art/A20_Havoc.fxsxml</File>
+    <File md5="165CF7473CF1127773D5C44E8F9C911A" import="1">Jets3/Jets3Art/A20_Havoc.gr2</File>
+    <File md5="7BA1E8FAAF30286A930A8EE6644E607B" import="1">Jets3/Jets3Art/Ansaldo_SVA-5.blend</File>
+    <File md5="4EC0EA2F976FECF932EC4C509F9861C1" import="1">Jets3/Jets3Art/Ansaldo_SVA-5.dds</File>
+    <File md5="D97B56E24E44CB73C3BC785A20D2C8B7" import="1">Jets3/Jets3Art/Ansaldo_SVA-5.fxsxml</File>
+    <File md5="DFD210655C0D37E60B878DFCA17842A1" import="1">Jets3/Jets3Art/Ansaldo_SVA-5.gr2</File>
+    <File md5="9362567CE1F28AF8930E96B4E46343C7" import="1">Jets3/Jets3Art/arrow_diff.dds</File>
+    <File md5="B8E09C64B3EDCA84485E36747B308996" import="1">Jets3/Jets3Art/arrow_sref.dds</File>
+    <File md5="0577CC5B2172F805CA41DBBC9526221A" import="1">Jets3/Jets3Art/AvroArrow.fxsxml</File>
+    <File md5="705B1A78E34DC7123EE80C2D455A31D6" import="1">Jets3/Jets3Art/AvroArrow.gr2</File>
+    <File md5="1FCEDB8B2D47A339B0743265E88FE25B" import="1">Jets3/Jets3Art/B-24_Liberator.blend</File>
+    <File md5="86655F150DE8AA6465B8DF30AFBDA1C1" import="1">Jets3/Jets3Art/B-24_Liberator.dds</File>
+    <File md5="BA05ED9834701E3F9C70ED38544F5462" import="1">Jets3/Jets3Art/B-24_Liberator.fxsxml</File>
+    <File md5="55E996E42CB902748F7D63C1B4A350E1" import="1">Jets3/Jets3Art/B-24_Liberator.gr2</File>
+    <File md5="32215A0AEEE3A26686992AE51C985499" import="1">Jets3/Jets3Art/B-24_Liberator_2.dds</File>
+    <File md5="8FD07D5DDE942E71579E39E59C04E11B" import="1">Jets3/Jets3Art/B-24_Liberator_3.dds</File>
+    <File md5="E0CF5037A87AD63C76EAF559C4CFC897" import="1">Jets3/Jets3Art/B-24_Liberator_4.dds</File>
+    <File md5="2D2BFE0F08904A29BE70E90805E1511D" import="1">Jets3/Jets3Art/B-29_Superfortress.blend</File>
+    <File md5="AD0E0B161BD13E4185C415FB06F871D4" import="1">Jets3/Jets3Art/B-29_Superfortress.dds</File>
+    <File md5="BFE74CEC5ECA67A01CCEB1C699A69347" import="1">Jets3/Jets3Art/B-29_Superfortress.fxsxml</File>
+    <File md5="2ED9485A272835BF3C6237A11A1727E3" import="1">Jets3/Jets3Art/B-29_Superfortress.gr2</File>
+    <File md5="65A1F452C69A50C9C71D499C53C4D74F" import="1">Jets3/Jets3Art/B-29_Superfortress_gloss.dds</File>
+    <File md5="0482A430FE87EC1649C0290A772DC95E" import="1">Jets3/Jets3Art/cammo_2.dds</File>
+    <File md5="82F3BD2D9CE63530D88EB7D959D526F9" import="1">Jets3/Jets3Art/cammo_2_f.dds</File>
+    <File md5="39163B2029F2F187423A4421EC7CD54A" import="1">Jets3/Jets3Art/Campini_Caproni.blend</File>
+    <File md5="81547F570BF7B236B9FFB5AED3BF3B04" import="1">Jets3/Jets3Art/Campini_Caproni.dds</File>
+    <File md5="F8A8CD2C6D657841AA6E361AF3FA2B59" import="1">Jets3/Jets3Art/Campini_Caproni.fxsxml</File>
+    <File md5="0A7209155B469C84485F071C943B0F80" import="1">Jets3/Jets3Art/Campini_Caproni.gr2</File>
+    <File md5="AE3DB8EC5D9B18C1F0A32406B8BE1896" import="1">Jets3/Jets3Art/Campini_Caproni_gloss.dds</File>
+    <File md5="0BAEFE386ECC0D925225FA805A703C58" import="1">Jets3/Jets3Art/Dassault_Ouragan.blend</File>
+    <File md5="FD5FA787F71FEEA48ACFA032F6ADA359" import="1">Jets3/Jets3Art/Dassault_Ouragan.dds</File>
+    <File md5="DE0826189729F14734F45F54E0F7ED97" import="1">Jets3/Jets3Art/Dassault_Ouragan.fxsxml</File>
+    <File md5="79D6CAB03185FC5A55C3562BA50B2BCC" import="1">Jets3/Jets3Art/Dassault_Ouragan.gr2</File>
+    <File md5="98658A95A9765648A46E41A4DD5E968B" import="1">Jets3/Jets3Art/Dassault_Ouragan_gloss.dds</File>
+    <File md5="E2F74D93F0C33CE45686607C44AD8F78" import="1">Jets3/Jets3Art/DH_Vampire.fxsxml</File>
+    <File md5="A20A51EBAFE81C75ABD7A52F7ECBBE8B" import="1">Jets3/Jets3Art/DH_Vampire.gr2</File>
+    <File md5="3BB701623BC62555199DC6A0FD6E7965" import="1">Jets3/Jets3Art/DH_Vampire_diff.dds</File>
+    <File md5="033A1CDCF9FC4D394F08FAB4C811A59D" import="1">Jets3/Jets3Art/DH_Vampire_sref.dds</File>
+    <File md5="BC8074FD91B3D60E90B8F3A1BE4B0151" import="1">Jets3/Jets3Art/draken.fxsxml</File>
+    <File md5="36B9939A6DF4CD8D59E4DF791B610DC5" import="1">Jets3/Jets3Art/Draken.gr2</File>
+    <File md5="0BE5F14E03D67818CD23485C2F06588D" import="1">Jets3/Jets3Art/Draken_diff.dds</File>
+    <File md5="98C9E84DED55F7B3B71983139C9DA6BD" import="1">Jets3/Jets3Art/Draken_sref.dds</File>
+    <File md5="206D2B57E712C46A9B2B06BC024BA5F4" import="1">Jets3/Jets3Art/edited_fx_triggers_EarlyJet.ftsxml</File>
+    <File md5="6903919CC91F1C38BC07B661FDCF73AB" import="1">Jets3/Jets3Art/edited_fx_triggers_fighter_2Propellers.ftsxml</File>
+    <File md5="5B811AF5596286D7B6DAD0FE8E8FA53B" import="1">Jets3/Jets3Art/edited_fx_triggers_jetfighter.ftsxml</File>
+    <File md5="5B51A0D036549A15D7D4C1806575E610" import="1">Jets3/Jets3Art/F-86_Sabre.blend</File>
+    <File md5="5D613AF2A8891A661533DA708B34B919" import="1">Jets3/Jets3Art/F-86_Sabre.dds</File>
+    <File md5="8FA3F2C4C40C3594555E3C1A2D8D6C78" import="1">Jets3/Jets3Art/F-86_Sabre.fxsxml</File>
+    <File md5="446610132C78F09ACFF61B60F5DCF0AB" import="1">Jets3/Jets3Art/F-86_Sabre.gr2</File>
+    <File md5="9F2E9A53E7AB09A89BF068F8EFF5BE8B" import="1">Jets3/Jets3Art/F-86_Sabre_gloss.dds</File>
+    <File md5="88F3B87D896D0CF0D060395AFD2304E5" import="1">Jets3/Jets3Art/F15.dds</File>
+    <File md5="609B31C87C6D58DAAD30F94220D12973" import="1">Jets3/Jets3Art/F15.fxsxml</File>
+    <File md5="E65DDC6D767776D3EA937CFAB46B8F34" import="1">Jets3/Jets3Art/F15.gr2</File>
+    <File md5="728028B617FEC8D2751E31037846EE46" import="1">Jets3/Jets3Art/F15SREF.dds</File>
+    <File md5="CF5BB0B5A0E7807243923C4418436E99" import="1">Jets3/Jets3Art/F4DBritain.dds</File>
+    <File md5="55556860A14D757F37F1DAFF14930DBA" import="1">Jets3/Jets3Art/F4DBritain.fxsxml</File>
+    <File md5="2C7DD0526726C95B78BBA3F155ED2D87" import="1">Jets3/Jets3Art/F4DBritain.gr2</File>
+    <File md5="CC23DDCF2BEFD0E3E4E4D714A3B45220" import="1">Jets3/Jets3Art/F4DKorea.dds</File>
+    <File md5="651AFC3EBE0D9CF1522595F2A5898B2C" import="1">Jets3/Jets3Art/F4DKorea.fxsxml</File>
+    <File md5="102DEA5627C23E098A38AF8A7A39861E" import="1">Jets3/Jets3Art/F4DKorea.gr2</File>
+    <File md5="173B0EF9622C934FEB85DD439B2CBFD4" import="1">Jets3/Jets3Art/F4DUSNavy.dds</File>
+    <File md5="820518F8D38A03DB73E9C8544FCC08D3" import="1">Jets3/Jets3Art/F4DUSNavy.fxsxml</File>
+    <File md5="45F4C0D9EAC5FF3189EFB05BCD733132" import="1">Jets3/Jets3Art/F4DUSNavy.gr2</File>
+    <File md5="84D9EA0DC3121287EE9CDE487654DBC3" import="1">Jets3/Jets3Art/F4Egypt.dds</File>
+    <File md5="4F06CFDEB54602A3B51F79DABEAA0FD5" import="1">Jets3/Jets3Art/F4Egypt.fxsxml</File>
+    <File md5="2860AEAB0C34C908C678A3CCAD7989F0" import="1">Jets3/Jets3Art/F4Egypt.gr2</File>
+    <File md5="7837136ECEF869453B703035EC4EDDC7" import="1">Jets3/Jets3Art/F4German.dds</File>
+    <File md5="A52E3AF5783AFDDB3266167AB09E60F7" import="1">Jets3/Jets3Art/F4German.fxsxml</File>
+    <File md5="F090182C8E9006B830AE917C790FB6A0" import="1">Jets3/Jets3Art/F4German.gr2</File>
+    <File md5="C3D298A6EAA51A21E27363A8413DBD05" import="1">Jets3/Jets3Art/F4Greece.dds</File>
+    <File md5="F7ACAB71A21DB80BF092919F00F02B5B" import="1">Jets3/Jets3Art/F4Greece.fxsxml</File>
+    <File md5="0E571C989C897C4A4D012087BB5A3680" import="1">Jets3/Jets3Art/F4Greece.gr2</File>
+    <File md5="2B01B13EC5FEC12D4C4F41601193CABC" import="1">Jets3/Jets3Art/F4Iran.dds</File>
+    <File md5="21CEB9A3BCB56C61A583F2368BA6D03A" import="1">Jets3/Jets3Art/F4Iran.fxsxml</File>
+    <File md5="4380081DDAB20C858B94F1594A526DEB" import="1">Jets3/Jets3Art/F4Iran.gr2</File>
+    <File md5="F551474D3F13EC60DAC6E66DA9519250" import="1">Jets3/Jets3Art/F4Israel.dds</File>
+    <File md5="37D1DAC45147FF345A30DACC0D3D2F75" import="1">Jets3/Jets3Art/F4Israel.fxsxml</File>
+    <File md5="7DF5FC3E08832E60A5C0204DC7F04347" import="1">Jets3/Jets3Art/F4Israel.gr2</File>
+    <File md5="0E9D398B666A7226558CAF19EB7A71BA" import="1">Jets3/Jets3Art/F4Japan.dds</File>
+    <File md5="4455C8F53668941F4CE037274F3C4F3A" import="1">Jets3/Jets3Art/F4Japan.fxsxml</File>
+    <File md5="423F32FD17BF40088E01AD100F62986B" import="1">Jets3/Jets3Art/F4Japan.gr2</File>
+    <File md5="F9008695BB62FB829A6C881304A6DC32" import="1">Jets3/Jets3Art/F4SREF.dds</File>
+    <File md5="1A7BD27EC54645397FC8D712ED83D445" import="1">Jets3/Jets3Art/F4Turkey.dds</File>
+    <File md5="176A7A91E88CD5808AC884E15E02DFE6" import="1">Jets3/Jets3Art/F4Turkey.fxsxml</File>
+    <File md5="525ACC2A7E4F5E9958F3877ECC242CF2" import="1">Jets3/Jets3Art/F4Turkey.gr2</File>
+    <File md5="8608EB2C555BFDF8CC32C79DC936E0DC" import="1">Jets3/Jets3Art/fx_triggers_arrow.ftsxml</File>
+    <File md5="A254A2862979778AF9FE651DE92D74D6" import="1">Jets3/Jets3Art/fx_triggers_Mi8.ftsxml</File>
+    <File md5="224D8BA04EE0FD65BC4A736194198B11" import="1">Jets3/Jets3Art/fx_triggers_uh-1_huey.ftsxml</File>
+    <File md5="D4746C791D1CBE468CCD09B791482621" import="1">Jets3/Jets3Art/Gloster_Meteor.blend</File>
+    <File md5="0466F468D4FBED6D3AA61B00709AF2CF" import="1">Jets3/Jets3Art/Gloster_Meteor.dds</File>
+    <File md5="E21504922EA9EFFFCBDF5AB31D5A0715" import="1">Jets3/Jets3Art/Gloster_Meteor.fxsxml</File>
+    <File md5="319BB7973FFCFB6ABCB55EE79579792D" import="1">Jets3/Jets3Art/Gloster_Meteor.gr2</File>
+    <File md5="9512969300B1BC57823D71812BB73AAD" import="1">Jets3/Jets3Art/Gloster_Meteor.jpg</File>
+    <File md5="CAA2FE6C2A6922F37AA21FCA02228351" import="1">Jets3/Jets3Art/Gloster_Meteor_2.dds</File>
+    <File md5="55C941FD515C2FAFB40C9C789A78EEFF" import="1">Jets3/Jets3Art/Gloster_Meteor_3.dds</File>
+    <File md5="E80E3153A36BC63E5C92401B521511F4" import="1">Jets3/Jets3Art/huey_team.fxsxml</File>
+    <File md5="C5AE6D264BE8C909B19A6719A767FF97" import="1">Jets3/Jets3Art/huey_usa.fxsxml</File>
+    <File md5="B609CFCFF555450AF79217045D67D22A" import="1">Jets3/Jets3Art/huey_usmc.fxsxml</File>
+    <File md5="A52C727AB088B8A112694D92E0F8FD51" import="1">Jets3/Jets3Art/JetFighter_Generic.dds</File>
+    <File md5="62F9189AC27F20A5F212181152F42512" import="1">Jets3/Jets3Art/JetFighter_Generic.fxsxml</File>
+    <File md5="B05D0D1042DDBB6EBCB6C3CE3BF57572" import="1">Jets3/Jets3Art/JetFighter_Generic.gr2</File>
+    <File md5="5893F094474DBB9D91B43C542CD50C32" import="1">Jets3/Jets3Art/JetFighter_Generic_gloss.dds</File>
+    <File md5="3D01740E1E7595C532F2D088EC4152BD" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_A129_MANGUSTA_128.dds</File>
+    <File md5="836680546134221FA8FB470CA1709D9E" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_A129_MANGUSTA_256.dds</File>
+    <File md5="7346776E5AC3AC4B9CC41773E9076060" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_A129_MANGUSTA_45.dds</File>
+    <File md5="75173FAEDADF9734D0B43DB7DB2A6DD0" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_A129_MANGUSTA_64.dds</File>
+    <File md5="F2C2D8BAC3DDCF2B5E996226981CEFEC" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_A129_MANGUSTA_80.dds</File>
+    <File md5="217009A97E454EA606BEA8826136FEC6" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_A20_HAVOC123_128.dds</File>
+    <File md5="726A7A6E00C23975E43CF85109B8F221" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_A20_HAVOC123_256.dds</File>
+    <File md5="3C8AB8111B763290DE146E63765F3329" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_A20_HAVOC123_45.dds</File>
+    <File md5="A801D44F37CD486FF0ABF585CBBF008D" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_A20_HAVOC123_64.dds</File>
+    <File md5="9ED794AF0A1EB723585E8E89BEF31F58" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_A20_HAVOC123_80.dds</File>
+    <File md5="08770890795894842B925C9553F13E7A" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_ANSALDO_SVA778_128.dds</File>
+    <File md5="5F519C02FE8534397DB925C82637C846" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_ANSALDO_SVA778_256.dds</File>
+    <File md5="C65FF867E01286B8F91DBF68F3E0892E" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_ANSALDO_SVA778_45.dds</File>
+    <File md5="EEA0FF33EBE02623365CA5EF0059D566" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_ANSALDO_SVA778_64.dds</File>
+    <File md5="6863E13FC72C3463C342D2281583767B" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_ANSALDO_SVA778_80.dds</File>
+    <File md5="4223837F56345B9A04601742F666660F" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_B24_LIBERATOR88_128.dds</File>
+    <File md5="880054BAA295B6ACF4A967D1D642FD71" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_B24_LIBERATOR88_256.dds</File>
+    <File md5="67C9D3D32EC59D7A7DF6AD790ED7C65A" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_B24_LIBERATOR88_45.dds</File>
+    <File md5="ECAEE20FE48A1E144F3E4EFC607CC574" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_B24_LIBERATOR88_64.dds</File>
+    <File md5="4FBEE04B477CE480A7A3F76DDA23F30D" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_B24_LIBERATOR88_80.dds</File>
+    <File md5="13E72FEDC61CBC91715DFBEB9A51759D" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_B29_SUPERFORTRESS99_128.dds</File>
+    <File md5="C38CD7B009A231CD9ECEF12C85E5B9B6" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_B29_SUPERFORTRESS99_256.dds</File>
+    <File md5="3F8CF7C4F4469F480DBC66D9C3972CEE" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_B29_SUPERFORTRESS99_45.dds</File>
+    <File md5="48E6452CFCE7C8E84F00F67DE54A7F83" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_B29_SUPERFORTRESS99_64.dds</File>
+    <File md5="6CF51104BA4CC3878EB4CA7C2B2FDF59" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_B29_SUPERFORTRESS99_80.dds</File>
+    <File md5="DF240F56BA4049DE02D75EDB742D7DFC" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_CAPRONI_CAMPINI_N188_128.dds</File>
+    <File md5="D12656F7109C598B8491868FEFFE0FDF" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_CAPRONI_CAMPINI_N188_256.dds</File>
+    <File md5="F988E9690398DF60E52AC86B48766C80" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_CAPRONI_CAMPINI_N188_45.dds</File>
+    <File md5="6CFC3CBDA70CCABB6DA4C9A51CFDF1DB" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_CAPRONI_CAMPINI_N188_64.dds</File>
+    <File md5="A618AC4ABEFF6F02B4B545823EB8719E" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_CAPRONI_CAMPINI_N188_80.dds</File>
+    <File md5="02E02B2E980A2FEAFC817A35F6EF5712" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_CF105_AVRO_ARROW11_128.dds</File>
+    <File md5="9AF3AABE7C45372495858BB81DCFF1A5" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_CF105_AVRO_ARROW11_256.dds</File>
+    <File md5="915595700A98B770174CCCBED84C1B07" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_CF105_AVRO_ARROW11_45.dds</File>
+    <File md5="7192E68092573EA9865A13A6C2E801A6" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_CF105_AVRO_ARROW11_64.dds</File>
+    <File md5="A29B83C33EF1D27B5BD1C4475B5D4AE5" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_CF105_AVRO_ARROW11_80.dds</File>
+    <File md5="246C0DA01D4A9B78EDCB85E0713EC055" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_DASSAULT_OURAGAN87_128.dds</File>
+    <File md5="4E3DEA69389BA781DA4BB4E1DA21F528" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_DASSAULT_OURAGAN87_256.dds</File>
+    <File md5="756F618C02A7CF93250E7FEEB3FB3734" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_DASSAULT_OURAGAN87_45.dds</File>
+    <File md5="D165B25F60E36935456970C817CE6FC7" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_DASSAULT_OURAGAN87_64.dds</File>
+    <File md5="AF2F209207EBC5A636104F750B7398F3" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_DASSAULT_OURAGAN87_80.dds</File>
+    <File md5="CE9FA8AA8A00BF4F980126BC623ECDDD" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_DE_HAVILLAND_VAMPIRE_128.dds</File>
+    <File md5="2B324A4BB5966D0D412A2AC90E64526D" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_DE_HAVILLAND_VAMPIRE_256.dds</File>
+    <File md5="51DDCAAB26C1472AD2A4EC0E67D28AFF" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_DE_HAVILLAND_VAMPIRE_45.dds</File>
+    <File md5="614F10DED7F6932148D4F4ACFD4679AD" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_DE_HAVILLAND_VAMPIRE_64.dds</File>
+    <File md5="350A925C79F8832059F4F49EDA10882E" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_DE_HAVILLAND_VAMPIRE_80.dds</File>
+    <File md5="65B498DDB0F09FE60C27E405132C11AD" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_EUROCOPTER_TIGER_128.dds</File>
+    <File md5="F0264F0CD1C6CF3729D39F7320908283" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_EUROCOPTER_TIGER_256.dds</File>
+    <File md5="9AF69F43C1F55200E43521FEDDEA33A8" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_EUROCOPTER_TIGER_45.dds</File>
+    <File md5="76A26617849DC940272F66F51F258DC7" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_EUROCOPTER_TIGER_64.dds</File>
+    <File md5="B2BA54BC2C76437EC26576A7CC8D085E" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_EUROCOPTER_TIGER_80.dds</File>
+    <File md5="E5BD4DCD3F17E9D3649B365E2DF9F060" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F15_EAGLE_128.dds</File>
+    <File md5="3A03E17C7ED33597B8D5DEB392BD3969" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F15_EAGLE_256.dds</File>
+    <File md5="F6499B24CFDA33DB31D59A76D6709918" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F15_EAGLE_45.dds</File>
+    <File md5="A807284D603839861831B8BC680B60BC" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F15_EAGLE_64.dds</File>
+    <File md5="1E0BE6F89DE616C771EA099413AB53E0" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F15_EAGLE_80.dds</File>
+    <File md5="F0B1A3C94049E8B266B67A560B669BE7" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F16_FALCON16_128.dds</File>
+    <File md5="DD48B2AA5BDCF1BA5A6A3379ABA0E370" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F16_FALCON16_256.dds</File>
+    <File md5="395C9F0C2CDF25A55B702E5A4DD6460E" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F16_FALCON16_45.dds</File>
+    <File md5="F932A064568D4CD28B157A888B1AFDB8" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F16_FALCON16_64.dds</File>
+    <File md5="9A0AE3BBBD8DD84CBDC78C76D9525507" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F16_FALCON16_80.dds</File>
+    <File md5="D5060BDB4F4AAE0ECAE7523100659979" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F22_RAPTOR_128.dds</File>
+    <File md5="251B493E41A7DDE4313F1CD743B55F7F" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F22_RAPTOR_256.dds</File>
+    <File md5="2CC3278EE2AE5786FCD23F201D43AC3B" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F22_RAPTOR_45.dds</File>
+    <File md5="70DC01169C298980260C7364E1979C2D" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F22_RAPTOR_64.dds</File>
+    <File md5="B97E1EF8BC6F63170D2640CC4E5D61E9" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F22_RAPTOR_80.dds</File>
+    <File md5="5EF1E7C8F99671066F5722A4281D105A" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F4_PHANTOM_II_128.dds</File>
+    <File md5="1B0D6B1E2455C06484F70C8CAAA54EC0" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F4_PHANTOM_II_256.dds</File>
+    <File md5="216910F4D70B2FEE0EC689665C4554E3" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F4_PHANTOM_II_45.dds</File>
+    <File md5="16F117D270D2BC30DA0BF30884FCFB26" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F4_PHANTOM_II_64.dds</File>
+    <File md5="5B3EDB51A52DDD77003951CD1D3ACBA9" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F4_PHANTOM_II_80.dds</File>
+    <File md5="65C5A8D97D1DE042171C5F6CB2EAEB2A" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F86_SABRE_128.dds</File>
+    <File md5="41BAE58BE1FC6FAE7C6328097657D856" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F86_SABRE_256.dds</File>
+    <File md5="2C4820A903DD1F858BDEE81ECF7542FB" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F86_SABRE_45.dds</File>
+    <File md5="18BF808C0FFB646C7C9BA5C73FA8F1FC" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F86_SABRE_64.dds</File>
+    <File md5="BF9CF3245B042E9C0B1E1FCD537769E0" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_F86_SABRE_80.dds</File>
+    <File md5="877F365A1A5CC8552FDF754B29B19786" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_GLOSTER_METEOR44_128.dds</File>
+    <File md5="E20B8E46A6D7CEAE535F99EC132744FE" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_GLOSTER_METEOR44_256.dds</File>
+    <File md5="814E0D1B408B3DC7E369BA86DEE6BB24" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_GLOSTER_METEOR44_45.dds</File>
+    <File md5="D7038FC5E34AB84940F64F4F781CA66B" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_GLOSTER_METEOR44_64.dds</File>
+    <File md5="5BCE5486E5593C2AEC46B746F85A9F2D" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_GLOSTER_METEOR44_80.dds</File>
+    <File md5="96848EBB3FC0A73AC78039E7BF130517" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_MIL_MI8_128.dds</File>
+    <File md5="FBA5548B7FF9FC9CF246B1EDC977E997" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_MIL_MI8_256.dds</File>
+    <File md5="474B235D70EDC4CD8499386FE1EAE93D" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_MIL_MI8_45.dds</File>
+    <File md5="EC31CE09D002BBB5B28493D90B39FC46" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_MIL_MI8_64.dds</File>
+    <File md5="C08A6CBE4CDAC76A659DDA1D05D2A778" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_MIL_MI8_80.dds</File>
+    <File md5="E9ADA7895F36A4A4573862FB374E2AB9" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_NAKAJIMA_KIKKA_128.dds</File>
+    <File md5="891B6805E8CACEBD00C51D0E5FE01971" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_NAKAJIMA_KIKKA_256.dds</File>
+    <File md5="F6D465AD113A6664F21109B1A8D5D7F1" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_NAKAJIMA_KIKKA_45.dds</File>
+    <File md5="D9A94EF7EC0F615D4BA1CC4ADE8ACE9F" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_NAKAJIMA_KIKKA_64.dds</File>
+    <File md5="0B697C677DE6B409F0106562E357BCD6" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_NAKAJIMA_KIKKA_80.dds</File>
+    <File md5="24CE16F5B78019E96C3DA80044055A21" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_NIEUPORT_1744_128.dds</File>
+    <File md5="E55A2DACE4F61287522266C56EC08455" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_NIEUPORT_1744_256.dds</File>
+    <File md5="D90B52DD3C47BCAE3FFA8BDF11CE183D" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_NIEUPORT_1744_45.dds</File>
+    <File md5="77C512CB8239F7B8717E9602C65FD93E" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_NIEUPORT_1744_64.dds</File>
+    <File md5="78710DDF985420231A82BD65E4E23706" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_NIEUPORT_1744_80.dds</File>
+    <File md5="0A33CFFB7B264E0C185BF2658AD6C2B4" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_P40_WARHAWK22_128.dds</File>
+    <File md5="7E03CFEF84786EF64E2C57CC9029EA23" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_P40_WARHAWK22_256.dds</File>
+    <File md5="D813A1E9218B142E4C55A86F3D6CA82F" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_P40_WARHAWK22_45.dds</File>
+    <File md5="AAF8D82CC649451F7C8513ADB420CB86" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_P40_WARHAWK22_64.dds</File>
+    <File md5="DBB9855ADEE1AE4542F967A8973F305A" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_P40_WARHAWK22_80.dds</File>
+    <File md5="3762221BF879C4E0151591F030193B02" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_P47_THUNDERBOLT89_128.dds</File>
+    <File md5="EB8716D93E12E67A925673612211564E" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_P47_THUNDERBOLT89_256.dds</File>
+    <File md5="FB32E29CFBBC615911493C6236D8AEC8" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_P47_THUNDERBOLT89_45.dds</File>
+    <File md5="C5CF6FEBA8260E118BFED4142505527A" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_P47_THUNDERBOLT89_64.dds</File>
+    <File md5="F17ECB26385BB0746456637DC092B802" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_P47_THUNDERBOLT89_80.dds</File>
+    <File md5="22B8EF027E2A6FA2E68CF87922FAF7F1" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_P80_SHOOTING_STAR_128.dds</File>
+    <File md5="F6E715B12AF95A66BD3BD6B3CD0BD9E3" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_P80_SHOOTING_STAR_256.dds</File>
+    <File md5="DA28EEDE403965B4EA651FFC510FFECB" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_P80_SHOOTING_STAR_45.dds</File>
+    <File md5="0233DC387DAE9944258F5794B73E735C" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_P80_SHOOTING_STAR_64.dds</File>
+    <File md5="1A9E89507F4F72A15D7BD317F537E7F8" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_P80_SHOOTING_STAR_80.dds</File>
+    <File md5="294239B2FEE13D5A133E8FF50DDCFE33" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_POLIKARPOV_PO2555_128.dds</File>
+    <File md5="FB00F308A65DB9767C252AC188D5AA5B" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_POLIKARPOV_PO2555_256.dds</File>
+    <File md5="A3217D3921573417DD053D1836648F44" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_POLIKARPOV_PO2555_45.dds</File>
+    <File md5="65AF2F091AAA0BA77576657EC7DC6923" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_POLIKARPOV_PO2555_64.dds</File>
+    <File md5="0EB5097863442F9A420D774B67B3B6B2" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_POLIKARPOV_PO2555_80.dds</File>
+    <File md5="3371DE7E452BEF5B8305F8F7A560F6F7" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SAAB_35_DRAKENT_128.dds</File>
+    <File md5="F76E901626E48329DE338BDBE5F7824B" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SAAB_35_DRAKENT_256.dds</File>
+    <File md5="EE78ADD4EA269FD137D14CA4B95BD3A5" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SAAB_35_DRAKENT_45.dds</File>
+    <File md5="34729368C0B4C0DA44D4521D8074D7AC" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SAAB_35_DRAKENT_64.dds</File>
+    <File md5="235901D7132E71036BBE20EFF289CED6" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SAAB_35_DRAKENT_80.dds</File>
+    <File md5="5BB3268D4994CA183DC58E04A09C7F7A" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SBD_DAUNTLESS44_128.dds</File>
+    <File md5="5A7B25F511AA3C4EBB831DBC0F5CDB7A" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SBD_DAUNTLESS44_256.dds</File>
+    <File md5="BA064ADC4D63734A0E4C01CD66D1CD2E" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SBD_DAUNTLESS44_45.dds</File>
+    <File md5="0E2D2805AC0E6CEF872F7BE002BF1027" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SBD_DAUNTLESS44_64.dds</File>
+    <File md5="4D009AAC53822133F5FBC2D4E0187CFE" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SBD_DAUNTLESS44_80.dds</File>
+    <File md5="2974B7DD13E0513EB67A52C8DE740F17" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SUKHOI_PAK_FA_T50_128.dds</File>
+    <File md5="D58AA08093B4036221E2209A0ADC26F5" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SUKHOI_PAK_FA_T50_256.dds</File>
+    <File md5="DC580620E0499B147321057BB9594177" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SUKHOI_PAK_FA_T50_45.dds</File>
+    <File md5="B8828587EB6FA177300D82F7BD738953" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SUKHOI_PAK_FA_T50_64.dds</File>
+    <File md5="762D807F94D64E4049EC84CDA79EA1C7" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SUKHOI_PAK_FA_T50_80.dds</File>
+    <File md5="4220B7CC6367B2EE8AC332AD7F5B31A0" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SUKHOI_SU2799_128.dds</File>
+    <File md5="ED2F08EA1B4679005D5A81985531B134" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SUKHOI_SU2799_256.dds</File>
+    <File md5="5095FF6A124160453C19089886066040" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SUKHOI_SU2799_45.dds</File>
+    <File md5="1B1B8EA253ED000BB02A1E4D19A3CE4E" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SUKHOI_SU2799_64.dds</File>
+    <File md5="7BD119B18A33066241679BDA3DC5F09C" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SUKHOI_SU2799_80.dds</File>
+    <File md5="5AEF944AFF442357EFAA9FFCAC47FBC0" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SUKHOI_SU977_128.dds</File>
+    <File md5="83BC69B569DC895781D0324921189F58" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SUKHOI_SU977_256.dds</File>
+    <File md5="63A899525AD39266723998DF89B65C5B" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SUKHOI_SU977_45.dds</File>
+    <File md5="3B5D4B820E6B82C04C21519D12C908C6" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SUKHOI_SU977_64.dds</File>
+    <File md5="DE020F13303AECE10223A21B254089A0" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_SUKHOI_SU977_80.dds</File>
+    <File md5="30200032BF8A6F0242013A5E36654D6C" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_TBF_AVENGER33_128.dds</File>
+    <File md5="2DC65A3AB2A1243E4C1B30DE7B5E8A88" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_TBF_AVENGER33_256.dds</File>
+    <File md5="108D3EFBEAAFA124255B74DC41908DBD" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_TBF_AVENGER33_45.dds</File>
+    <File md5="6433B431CBBF3C9A4E95D87A0873A823" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_TBF_AVENGER33_64.dds</File>
+    <File md5="C4D100233CFFCCFDCB9E63570422379A" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_TBF_AVENGER33_80.dds</File>
+    <File md5="842670E0A5275EC49F2915BC0F4FC2ED" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_UH1_HUEY_128.dds</File>
+    <File md5="EBF075323AE9FF3AFC1AC216E18A87AD" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_UH1_HUEY_256.dds</File>
+    <File md5="B7357B9483AF61FD2917A7369E445F36" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_UH1_HUEY_45.dds</File>
+    <File md5="58AC6F886A27361BEB7302A7CB6DEB33" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_UH1_HUEY_64.dds</File>
+    <File md5="49C2678527F418C4B66232AB486A325C" import="1">Jets3/Jets3Art/Jets3IconAtlas/ICON_UNIT_UH1_HUEY_80.dds</File>
+    <File md5="4B65299C45026D3D9DEB975AD30832F3" import="1">Jets3/Jets3Art/mangusta.fxsxml</File>
+    <File md5="D8B73FCDEEDB7D7E7469C4D385627BEF" import="1">Jets3/Jets3Art/Mangusta.gr2</File>
+    <File md5="AA8D8341D02DCE42D999A2555481EFDC" import="1">Jets3/Jets3Art/Mangusta_diff.dds</File>
+    <File md5="D66F713F0FFD5A474F52BCEB41313B80" import="1">Jets3/Jets3Art/Mangusta_sref.dds</File>
+    <File md5="E04699A0B92BA39D5A8D35483772DD7E" import="1">Jets3/Jets3Art/Mi8DesertTeamColor.dds</File>
+    <File md5="38DF0FE1029C7D15DCC5A1CABD522304" import="1">Jets3/Jets3Art/Mi8DesertTeamColor.fxsxml</File>
+    <File md5="B9C2EDF54B120646E627947481E21DE8" import="1">Jets3/Jets3Art/Mi8DesertTeamColor.gr2</File>
+    <File md5="FBBE9997FD0FD68F780E9414AC6AA41D" import="1">Jets3/Jets3Art/Mi8Egypt.dds</File>
+    <File md5="DCE321BB3C05BABC78EBF3DE71C987A5" import="1">Jets3/Jets3Art/Mi8Egypt.fxsxml</File>
+    <File md5="C13808B6B6C82AAE1987555DC768DB60" import="1">Jets3/Jets3Art/Mi8Egypt.gr2</File>
+    <File md5="3731E01A78690BCBD0FCAAE1C8ACF04F" import="1">Jets3/Jets3Art/Mi8Ethiopia.dds</File>
+    <File md5="9BD9AB9837BD13EB919ABBB08F740530" import="1">Jets3/Jets3Art/Mi8Ethiopia.fxsxml</File>
+    <File md5="F210D3900CDD8A7367550CFCD1F629B1" import="1">Jets3/Jets3Art/Mi8Ethiopia.gr2</File>
+    <File md5="3D8DF45EDBD63CD25EBAAC2D4384C080" import="1">Jets3/Jets3Art/Mi8India.dds</File>
+    <File md5="9B7F72FAF4E8B4E7E9077D0366F2F29D" import="1">Jets3/Jets3Art/Mi8India.fxsxml</File>
+    <File md5="8CEEBAE9EDC0018BFF266633C164D678" import="1">Jets3/Jets3Art/Mi8India.gr2</File>
+    <File md5="20C8CFED876EA07365A41FBBD3987274" import="1">Jets3/Jets3Art/Mi8Iraq.dds</File>
+    <File md5="DAB6FFC850323F990B3D023718832A6A" import="1">Jets3/Jets3Art/Mi8Iraq.fxsxml</File>
+    <File md5="7AD3699A161745157C7EC6E27F4438E2" import="1">Jets3/Jets3Art/Mi8Iraq.gr2</File>
+    <File md5="4B3C90B87DFA819834E825703C69741D" import="1">Jets3/Jets3Art/Mi8Mexico.dds</File>
+    <File md5="95330590A7B20F4619D34787852C38F0" import="1">Jets3/Jets3Art/Mi8Mexico.fxsxml</File>
+    <File md5="6B71238C6C31406AB9EA3446CD441580" import="1">Jets3/Jets3Art/Mi8Mexico.gr2</File>
+    <File md5="A56D35FBB0C2A81192358493EE2BC5E1" import="1">Jets3/Jets3Art/Mi8PlainTeamColor.dds</File>
+    <File md5="AD5D76F989DB40329ECE4DFE334566B8" import="1">Jets3/Jets3Art/Mi8PlainTeamColor.fxsxml</File>
+    <File md5="631C2A7FB728F4C741C5598B2204937D" import="1">Jets3/Jets3Art/Mi8PlainTeamColor.gr2</File>
+    <File md5="25F5605F3ED49A9EC809CAA7B2430E79" import="1">Jets3/Jets3Art/Mi8Poland.dds</File>
+    <File md5="25DAE3FE538F1A5F7E5723C89B9CA948" import="1">Jets3/Jets3Art/Mi8Poland.fxsxml</File>
+    <File md5="FC57EBF47D2622950F92B848E93B0E47" import="1">Jets3/Jets3Art/Mi8Poland.gr2</File>
+    <File md5="1619C6CE775BAC397609DB29AD0077E0" import="1">Jets3/Jets3Art/Mi8Russia.dds</File>
+    <File md5="94908BB3E0E8E068F043CC033874C715" import="1">Jets3/Jets3Art/Mi8Russia.fxsxml</File>
+    <File md5="744F8B56E20554D78360FF6121FB2C75" import="1">Jets3/Jets3Art/Mi8Russia.gr2</File>
+    <File md5="80E3E3C92C907E4D324CEB7A11A89345" import="1">Jets3/Jets3Art/Mi8SREF.dds</File>
+    <File md5="A834A5D4767BBD690B91FF2A6EA39EDB" import="1">Jets3/Jets3Art/Mi8Ukraine.dds</File>
+    <File md5="60199A0436053DC057D56D9C56B808CB" import="1">Jets3/Jets3Art/Mi8Ukraine.fxsxml</File>
+    <File md5="2233B7F1D278CFDA8034536B8DF9E8AB" import="1">Jets3/Jets3Art/Mi8Ukraine.gr2</File>
+    <File md5="4BC42A7D8B2A97335BC9E47E5D09196D" import="1">Jets3/Jets3Art/Nakajima_J9Y_Kikka.blend</File>
+    <File md5="517FADA8325671FD3E05EC8A82EF9E9D" import="1">Jets3/Jets3Art/Nakajima_J9Y_Kikka.dds</File>
+    <File md5="5B067C116627342AB6D602721AF60744" import="1">Jets3/Jets3Art/Nakajima_J9Y_Kikka.fxsxml</File>
+    <File md5="80B9D2E94020C56AAB83138BBB995288" import="1">Jets3/Jets3Art/Nakajima_J9Y_Kikka.gr2</File>
+    <File md5="A48CBE16399BF37518A4C8A73ED42577" import="1">Jets3/Jets3Art/Nieuport_17.blend</File>
+    <File md5="04BA5C649715674F2D9C1045D337EC5F" import="1">Jets3/Jets3Art/Nieuport_17.dds</File>
+    <File md5="2600D3E75D82832F9BFFD04AFEA827ED" import="1">Jets3/Jets3Art/Nieuport_17.fxsxml</File>
+    <File md5="43A7A16391830DBCB7F5298B9837540D" import="1">Jets3/Jets3Art/Nieuport_17.gr2</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Jets3/Jets3Art/no_gloss.dds</File>
+    <File md5="39D307ED3E8B2BC973ED96A4B84E59B4" import="1">Jets3/Jets3Art/P-47_Thunderbolt.blend</File>
+    <File md5="52089E04AD0E5A38FE0C969666724F43" import="1">Jets3/Jets3Art/P-47_Thunderbolt.dds</File>
+    <File md5="28EC3A262AB90054F0A6CD607D356407" import="1">Jets3/Jets3Art/P-47_Thunderbolt.fxsxml</File>
+    <File md5="1331B36563D56C45F42B86C860B70523" import="1">Jets3/Jets3Art/P-47_Thunderbolt.gr2</File>
+    <File md5="6477C84EDDEFB92F0F300A756A356516" import="1">Jets3/Jets3Art/P-47_Thunderbolt_gloss.dds</File>
+    <File md5="5384A96FB014AD0625D1BF655C749056" import="1">Jets3/Jets3Art/P-80_Shooting_Star.blend</File>
+    <File md5="325B523EA3EF640972E577EEC2B5DB0A" import="1">Jets3/Jets3Art/P-80_Shooting_Star.dds</File>
+    <File md5="32A0A96954321B7CC918CAF33402F017" import="1">Jets3/Jets3Art/P-80_Shooting_Star.fxsxml</File>
+    <File md5="3424C68C41878D711B1F1E411E2F072D" import="1">Jets3/Jets3Art/P-80_Shooting_Star.gr2</File>
+    <File md5="8A8E6696D2760530B8D93D764F8CEE18" import="1">Jets3/Jets3Art/P40Brazil.dds</File>
+    <File md5="B2F542C5F1F6E4BB0CD6F4BA8A33F3EA" import="1">Jets3/Jets3Art/P40Brazil.fxsxml</File>
+    <File md5="5C01B9F374CF499BA52055AA3EF5D7C8" import="1">Jets3/Jets3Art/P40Brazil.gr2</File>
+    <File md5="7C235ACF70720FE44F772D28C9A10C17" import="1">Jets3/Jets3Art/P40Britain.dds</File>
+    <File md5="ABE9AF1D47AF7FC7BCD4E0F3FA11FC76" import="1">Jets3/Jets3Art/P40Britain.fxsxml</File>
+    <File md5="C0D5402411DCF5AF30A359F2DADAA8C5" import="1">Jets3/Jets3Art/P40Britain.gr2</File>
+    <File md5="5D48D72380524F0F75DF8EF43B0CC4A4" import="1">Jets3/Jets3Art/P40China.dds</File>
+    <File md5="AFB93B5E35A8124776CEB248E20B86AE" import="1">Jets3/Jets3Art/P40China.fxsxml</File>
+    <File md5="BC91FA5F6E1FD05890E760737CA0A9A0" import="1">Jets3/Jets3Art/P40China.gr2</File>
+    <File md5="37DC907965DEF5FBE79BA186C92EDC78" import="1">Jets3/Jets3Art/P40Egypt.dds</File>
+    <File md5="3BB116A0E08C27244688A5C019AA485B" import="1">Jets3/Jets3Art/P40Egypt.fxsxml</File>
+    <File md5="535AD3E83485EF23ECF3DD8C790B5AF1" import="1">Jets3/Jets3Art/P40Egypt.gr2</File>
+    <File md5="8EC1E2C3A36EF5FC7639FFA51AD7B11E" import="1">Jets3/Jets3Art/P40France.dds</File>
+    <File md5="F0296E409710543BD4507251F096FDE8" import="1">Jets3/Jets3Art/P40France.fxsxml</File>
+    <File md5="ACB0CFD01155B3CD9B713D57D15C4E7C" import="1">Jets3/Jets3Art/P40France.gr2</File>
+    <File md5="01D00CF9BBEFAF98DA1A7CEF30ADC28C" import="1">Jets3/Jets3Art/P40Netherlands.dds</File>
+    <File md5="B0AE41FBAE667F52D543A57B236BA69B" import="1">Jets3/Jets3Art/P40Netherlands.fxsxml</File>
+    <File md5="0D7ECAE4DACD94739AB514407C7F2CAC" import="1">Jets3/Jets3Art/P40Netherlands.gr2</File>
+    <File md5="975E9A3989B6BCBE19FAC1E9C989008B" import="1">Jets3/Jets3Art/P40NewZealand.dds</File>
+    <File md5="B1945AA6AF853DEBE174477BEBB40544" import="1">Jets3/Jets3Art/P40NewZealand.fxsxml</File>
+    <File md5="3CFD04401532B972B76A366F756197D2" import="1">Jets3/Jets3Art/P40NewZealand.gr2</File>
+    <File md5="2D38BB9E4B192D0C6D0422553521F287" import="1">Jets3/Jets3Art/P40Soviet.dds</File>
+    <File md5="565E853BA6BA991DFB6C3D9AA97E3917" import="1">Jets3/Jets3Art/P40Soviet.fxsxml</File>
+    <File md5="7550C183BDDEE09D8CE7BFDEBE4383FF" import="1">Jets3/Jets3Art/P40Soviet.gr2</File>
+    <File md5="277EF1282F0FE08CB2F5A6CAC0746E1C" import="1">Jets3/Jets3Art/P40SREF.dds</File>
+    <File md5="794C3A1992CE277979962A46CB81F603" import="1">Jets3/Jets3Art/P40Turkey.dds</File>
+    <File md5="F39CC66C12E496F82330DC4D2EE23F42" import="1">Jets3/Jets3Art/P40Turkey.fxsxml</File>
+    <File md5="25A344EBEBB113453E59D230EA7A1410" import="1">Jets3/Jets3Art/P40Turkey.gr2</File>
+    <File md5="7729A803EE1857FC6E6CE489F36B2C9A" import="1">Jets3/Jets3Art/P40USAAlutianTiger.dds</File>
+    <File md5="E576DBE3990038D8BABEE08806793C30" import="1">Jets3/Jets3Art/P40USAAlutianTiger.fxsxml</File>
+    <File md5="FC3E7DC679A29431E9BF1E4158DF4D08" import="1">Jets3/Jets3Art/P40USAAlutianTiger.gr2</File>
+    <File md5="00465207688CEBCFE21D67D17DC386AF" import="1">Jets3/Jets3Art/P40USAEarly.dds</File>
+    <File md5="2239A4D4FE65703E4304B8B25750A30C" import="1">Jets3/Jets3Art/P40USAEarly.fxsxml</File>
+    <File md5="259A6340C32792F29768789B99BA3591" import="1">Jets3/Jets3Art/P40USAEarly.gr2</File>
+    <File md5="BDD0FC5EFE8A40CC49B80CC6EFC2EAC6" import="1">Jets3/Jets3Art/P40USALate.dds</File>
+    <File md5="E1023CC657D2BABC849328A2B39353AC" import="1">Jets3/Jets3Art/P40USALate.fxsxml</File>
+    <File md5="8B866256485E5FAED236435109F5497A" import="1">Jets3/Jets3Art/P40USALate.gr2</File>
+    <File md5="8FA1C2AF9DCFD2A068A7621D734B0DF5" import="1">Jets3/Jets3Art/Polikarpov_Po-2.blend</File>
+    <File md5="8B04CD593721580F188C752AF125BCCA" import="1">Jets3/Jets3Art/Polikarpov_Po-2.dds</File>
+    <File md5="B1BA6C4DE9374890E7AAE20D9C0893DC" import="1">Jets3/Jets3Art/Polikarpov_Po-2.fxsxml</File>
+    <File md5="C793DEAB8B87862C0DF3F554216F5E89" import="1">Jets3/Jets3Art/Polikarpov_Po-2.gr2</File>
+    <File md5="621AD7D0318F41ADC3FCC299EF473E0E" import="1">Jets3/Jets3Art/Polikarpov_Po-2_2.dds</File>
+    <File md5="36313D05FCF1B0225D4922350D603A0B" import="1">Jets3/Jets3Art/Polikarpov_Po-2_3.dds</File>
+    <File md5="19C3C3E18540785BC8989C45158FA8BA" import="1">Jets3/Jets3Art/Polikarpov_Po-2_4.dds</File>
+    <File md5="05BA264404BD555CE2DABF5436002EDE" import="1">Jets3/Jets3Art/SBD_Dauntless.blend</File>
+    <File md5="F9A0F7E1B14932BB921645D384D4C89A" import="1">Jets3/Jets3Art/SBD_Dauntless.dds</File>
+    <File md5="E3B76C96FA16385B5CC7BE3AD88E995A" import="1">Jets3/Jets3Art/SBD_Dauntless.fxsxml</File>
+    <File md5="CD5AC9402DA7210FE7BF6E0953331DE3" import="1">Jets3/Jets3Art/SBD_Dauntless.gr2</File>
+    <File md5="9E818BD1A84B8E87E5CCC885AC62E485" import="1">Jets3/Jets3Art/Sukhoi_Su-9.blend</File>
+    <File md5="2C9A322BF1BF09626936E76E7B2F178C" import="1">Jets3/Jets3Art/Sukhoi_Su-9.dds</File>
+    <File md5="87C4B751CA6CAC813B88B24B1FF4C44D" import="1">Jets3/Jets3Art/Sukhoi_Su-9.fxsxml</File>
+    <File md5="5F3E41838C46391004D98E66A3DDAA1A" import="1">Jets3/Jets3Art/Sukhoi_Su-9.gr2</File>
+    <File md5="B5C8DDE4B7A0FF124C61C8EC3A498449" import="1">Jets3/Jets3Art/Sukhoi_Su-9_gloss.dds</File>
+    <File md5="C52EE1524E3580C78757F22791F34C44" import="1">Jets3/Jets3Art/SuT-50.fxsxml</File>
+    <File md5="29B481AAF16E27009FD14CE1C6751149" import="1">Jets3/Jets3Art/SuT-50.gr2</File>
+    <File md5="EAE956E17BF74FE6C2CC69052AE1841B" import="1">Jets3/Jets3Art/SuT-50cammo2.fxsxml</File>
+    <File md5="BA4B3E8FDEC434202563E8FA9717F9EA" import="1">Jets3/Jets3Art/SuT-50cammo2.gr2</File>
+    <File md5="0067EA7EA7DF17A4AC1C63CD7ACDC555" import="1">Jets3/Jets3Art/SuT-50cammo2f.fxsxml</File>
+    <File md5="E577E496BBBCB15FB291844181139E81" import="1">Jets3/Jets3Art/SuT-50cammo2f.gr2</File>
+    <File md5="9C9FED80D1C6A23014F3FF2CF8880998" import="1">Jets3/Jets3Art/SuT-50_diff.dds</File>
+    <File md5="ED962F070C71FE7E8F20A5FDF4DC1B4F" import="1">Jets3/Jets3Art/SuT-50_sref.dds</File>
+    <File md5="50101918F8459BE736D55D4AC2B217EB" import="1">Jets3/Jets3Art/TBF_Avenger.blend</File>
+    <File md5="19F0B09CC4F7B1A899B3BBE394318297" import="1">Jets3/Jets3Art/TBF_Avenger.dds</File>
+    <File md5="498B55228647ADA8536489064763BB38" import="1">Jets3/Jets3Art/TBF_Avenger.fxsxml</File>
+    <File md5="D58CF44EA193AE48F4538BD216695D03" import="1">Jets3/Jets3Art/TBF_Avenger.gr2</File>
+    <File md5="A85707A169D96E2B9077CDDE3A3E215E" import="1">Jets3/Jets3Art/tiger.fxsxml</File>
+    <File md5="DAB2366D3427BB4D88ADC6758C441043" import="1">Jets3/Jets3Art/Tiger.gr2</File>
+    <File md5="C40D931D6C4FA64B7DBF990CEFE5A6F0" import="1">Jets3/Jets3Art/tiger_australia.fxsxml</File>
+    <File md5="8467A3457AAC9E5FAB9458B667FB9669" import="1">Jets3/Jets3Art/Tiger_Australia.gr2</File>
+    <File md5="A766B62E23CB9AE0588074D44BA1CDE8" import="1">Jets3/Jets3Art/tiger_austria.fxsxml</File>
+    <File md5="A960C2F419D3D5AA7FDC735891F611FC" import="1">Jets3/Jets3Art/Tiger_Austria.gr2</File>
+    <File md5="C3E5602ED56E806734393AA4D1C3FC29" import="1">Jets3/Jets3Art/Tiger_diff(camo1).dds</File>
+    <File md5="8B374404A762EDD30C51DE72D5F8AE1F" import="1">Jets3/Jets3Art/Tiger_diff(camo2).dds</File>
+    <File md5="EC249A5AB1C42BC6FE023E9F38F284E5" import="1">Jets3/Jets3Art/Tiger_diff(camo3).dds</File>
+    <File md5="E4D1428D4948CB68BED19069E88E0D61" import="1">Jets3/Jets3Art/Tiger_diff(camo4).dds</File>
+    <File md5="2C3CF5F21E22FDB4D49B96E41E775169" import="1">Jets3/Jets3Art/Tiger_diff(camo5).dds</File>
+    <File md5="0B533B1F11EF3318372503C97EB38EA4" import="1">Jets3/Jets3Art/Tiger_diff(camo6).dds</File>
+    <File md5="F62C77D4CC2B9D0BAA10F1D064B06F29" import="1">Jets3/Jets3Art/Tiger_diff(camo7).dds</File>
+    <File md5="372D6C0FAC4D4EC86ACA71E5CD14D152" import="1">Jets3/Jets3Art/Tiger_diff(camo8).dds</File>
+    <File md5="FBB15DA7DCC9327029EE5D3F2AC353FC" import="1">Jets3/Jets3Art/Tiger_diff(desert).dds</File>
+    <File md5="CD65405B9D725B41F5BD62646DAB2803" import="1">Jets3/Jets3Art/Tiger_diff(desert2).dds</File>
+    <File md5="C9598665B7A45BDB6F4F9843128B669D" import="1">Jets3/Jets3Art/Tiger_diff(french).dds</File>
+    <File md5="724DD6082E3B52EE66C59874ACFA0FA5" import="1">Jets3/Jets3Art/Tiger_diff(german).dds</File>
+    <File md5="CD7C8D1AF2B7BD7A1DE4F464416B2924" import="1">Jets3/Jets3Art/Tiger_diff(german2).dds</File>
+    <File md5="549D81A71552280D1EA34335A0B20E8A" import="1">Jets3/Jets3Art/Tiger_diff(green).dds</File>
+    <File md5="29ECE2FB0C40E4E5D8B95649C9717462" import="1">Jets3/Jets3Art/Tiger_diff(green2).dds</File>
+    <File md5="0D373F4C3DE9224136AD02439E7521F6" import="1">Jets3/Jets3Art/Tiger_diff(leopard).dds</File>
+    <File md5="B29D73692FDC2036E25E7A21404D938E" import="1">Jets3/Jets3Art/Tiger_diff(nightblue).dds</File>
+    <File md5="60CDA54EFAC2A747B389B2158B380AB5" import="1">Jets3/Jets3Art/Tiger_diff.dds</File>
+    <File md5="5B7902E86B890DEBAEB9D6D7A98B5F04" import="1">Jets3/Jets3Art/tiger_france.fxsxml</File>
+    <File md5="EA1E5C114630130B4CE8C82E456AB116" import="1">Jets3/Jets3Art/Tiger_France.gr2</File>
+    <File md5="D827BDFE22B39970863A9E49B8D66776" import="1">Jets3/Jets3Art/tiger_germany.fxsxml</File>
+    <File md5="612EF5D9B4469E114594996666942E65" import="1">Jets3/Jets3Art/Tiger_Germany.gr2</File>
+    <File md5="6A739B00589A902CE4878E562D49C185" import="1">Jets3/Jets3Art/Tiger_Leopard.gr2</File>
+    <File md5="1E0E32460DF441D10B8A8B6E00C0BBD4" import="1">Jets3/Jets3Art/tiger_netherlands.fxsxml</File>
+    <File md5="8A22EC3554739E1498D459FC2FC3F146" import="1">Jets3/Jets3Art/Tiger_Netherlands.gr2</File>
+    <File md5="EC381506D5A86BFE0549BF8D49D3616D" import="1">Jets3/Jets3Art/tiger_rome.fxsxml</File>
+    <File md5="BD65949A6A71E7010B6241F75D37B447" import="1">Jets3/Jets3Art/Tiger_Rome.gr2</File>
+    <File md5="9F9AB68A341E2D3EE55D6C7630EAAF74" import="1">Jets3/Jets3Art/tiger_spain.fxsxml</File>
+    <File md5="DF9051157ED73EE2F4742FA7A4CB02E5" import="1">Jets3/Jets3Art/Tiger_Spain.gr2</File>
+    <File md5="33881021B7D2B83112222067A095F3EA" import="1">Jets3/Jets3Art/Tiger_sref.dds</File>
+    <File md5="FE334885C9A6792291FB821577FCED48" import="1">Jets3/Jets3Art/tiger_sweden.fxsxml</File>
+    <File md5="F1139D228658884D8CA2F3956C31C78D" import="1">Jets3/Jets3Art/Tiger_Sweden.gr2</File>
+    <File md5="25BBAFEF0455A760AF958C2A77502359" import="1">Jets3/Jets3Art/UH-1_Huey_USA.gr2</File>
+    <File md5="6D59EE50F85506139144BF8EADAB8079" import="1">Jets3/Jets3Art/UH-1_Huey_USMC.gr2</File>
+    <File md5="FBD9DC546ED3DB4E46B7EFFFDDEEDFBC" import="1">Jets3/Jets3Art/UH1_team_diff.dds</File>
+    <File md5="D8E6DA28791101D3DEB76BCE7D4C4A37" import="1">Jets3/Jets3Art/UH1_team_sref.dds</File>
+    <File md5="43ACE09BA829B236258B22AA7E996CBA" import="1">Jets3/Jets3Art/UH1_USA_diff.dds</File>
+    <File md5="94A297DDE84D2A43F18972B3165C3F1C" import="1">Jets3/Jets3Art/UH1_USA_sref.dds</File>
+    <File md5="F7D4C45CA48BF36FE98F4EBC896BEA89" import="1">Jets3/Jets3Art/UH1_USMC_diff.dds</File>
+    <File md5="B6C8142AD3BBC0D8555CD8D737B2ED29" import="1">Jets3/Jets3Art/UH1_USMC_sref.dds</File>
+    <File md5="F1BEABED4AB7F1944882501889468441" import="0">Jets3/UnitA129Mangusta.xml</File>
+    <File md5="D403B6C85B596FD168E9BB47F8603C98" import="0">Jets3/UnitA20Havoc123.xml</File>
+    <File md5="B87846B616D40DF3BD4391C165EAB568" import="0">Jets3/UnitAnsaldoSVA778.xml</File>
+    <File md5="FBE331230B7D5FAA852C549EB641FA94" import="0">Jets3/UnitB24Liberator88.xml</File>
+    <File md5="C42DFDA2D8086CC00412B3A72641E729" import="0">Jets3/UnitB29Superfortress99.xml</File>
+    <File md5="0E1015FDC5D6F1A38E7E644DF0ACDC8D" import="0">Jets3/UnitCaproniCampiniN188.xml</File>
+    <File md5="8C3513D1BDB6EDE56D7A2334D5A08BE7" import="0">Jets3/UnitCF105AvroArrow11.xml</File>
+    <File md5="68F46B96FCD30AA1989EAADBE33074E8" import="0">Jets3/UnitDassaultOuragan87.xml</File>
+    <File md5="B1B8AC82BDADAFA47930750FFA094471" import="0">Jets3/UnitdeHavillandVampire.xml</File>
+    <File md5="016666F652B0CCB0CA3694F64ED45E3D" import="0">Jets3/UnitEurocopterTiger.xml</File>
+    <File md5="7E5F7400ADEA4DE120F26FF0608C58A8" import="0">Jets3/UnitF15Eagle1.xml</File>
+    <File md5="4043971610A54D4C6CC64A52DF3C550E" import="0">Jets3/UnitF16Falcon16.xml</File>
+    <File md5="A11614F621FA186419356F5B84697D77" import="0">Jets3/UnitF22Raptor22.xml</File>
+    <File md5="2D935900DB16B58CF519227E96DDDDA4" import="0">Jets3/UnitF4PhantomII32.xml</File>
+    <File md5="2BAECF0AC8693B08895CC96F732FA380" import="0">Jets3/UnitF86Sabre.xml</File>
+    <File md5="6B0C15F02E8BEC4BAFED3C7F9F29D573" import="0">Jets3/UnitGlosterMeteor44.xml</File>
+    <File md5="3B6636C3D4EDFE412097F6E8279FBEAA" import="0">Jets3/UnitMilMi888.xml</File>
+    <File md5="1860C6C9EE220B3C5B426A43D9E12953" import="0">Jets3/UnitNakajimaKikka.xml</File>
+    <File md5="6C4AACFBCF6A4A51D5D37207F8E2E35A" import="0">Jets3/UnitNieuport1744.xml</File>
+    <File md5="BCBEC07AF6B4DE198647671538FF2390" import="0">Jets3/UnitP40Warhawk22.xml</File>
+    <File md5="B45665A9D03CC27B8F39A3495D3671A9" import="0">Jets3/UnitP47Thunderbolt89.xml</File>
+    <File md5="30BF91295E7B2863B3803615AECB6470" import="0">Jets3/UnitP80ShootingStar.xml</File>
+    <File md5="E68BD0CDAFBD2B787EF0C652EBE257B3" import="0">Jets3/UnitPolikarpovPo2555.xml</File>
+    <File md5="BAC74CA616D9D92B483A2128498DCC57" import="0">Jets3/UnitSaab35DrakenT.xml</File>
+    <File md5="1FD1A2A4D223A7ACAFF344E27363F7D6" import="0">Jets3/UnitSBDDauntless44.xml</File>
+    <File md5="D114A8120E9563C84A025DB16A42C9A1" import="0">Jets3/UnitSukhoiPAKFAT50.xml</File>
+    <File md5="DBA739D3FF8B4B2A4402C224E820FD0F" import="0">Jets3/UnitSukhoiSU2799.xml</File>
+    <File md5="A44673D24C770F425F81BA81C1502081" import="0">Jets3/UnitSukhoiSu977.xml</File>
+    <File md5="0D4A179F448CDFD933D93A88C5680C90" import="0">Jets3/UnitTBFAvenger33.xml</File>
+    <File md5="6D576F9175EE0FB07164C54D0536E1CE" import="0">Jets3/UnitUH1Huey22.xml</File>
+    <File md5="8EE8C5C1E068EF78ADB8431D37C5663E" import="1">Jets4/Art/Aero-A-102.jpg</File>
+    <File md5="391A52F0248AADA6C26CAE48BC1DD7C3" import="1">Jets4/Art/Aero_A-102.blend</File>
+    <File md5="2F940BE01FCCFD2BD972CCE573663F56" import="1">Jets4/Art/Aero_A-102.dds</File>
+    <File md5="E4C8CA4B197319B6440AC1C7EEACDD87" import="1">Jets4/Art/Aero_A-102.fxsxml</File>
+    <File md5="DC704E7A4EADF9F96147C814B778FB59" import="1">Jets4/Art/Aero_A-102.gr2</File>
+    <File md5="A6A8656982F2867CAA98AB789E5B6511" import="1">Jets4/Art/Aero_A-102.jpg</File>
+    <File md5="9112BE5348E4359AB8EBCDBAB329CD93" import="1">Jets4/Art/Aichi_D3A_Val.blend</File>
+    <File md5="91492C2E55709EE777B14972404D28D7" import="1">Jets4/Art/Aichi_D3A_Val.dds</File>
+    <File md5="0532243E7A666D5D6D00DCFBF742542F" import="1">Jets4/Art/Aichi_D3A_Val.fxsxml</File>
+    <File md5="92B6C0F25860DD9673A9D52DC19495CE" import="1">Jets4/Art/Aichi_D3A_Val.gr2</File>
+    <File md5="3FACECA7DD3A97D2520220DF95E5C138" import="1">Jets4/Art/Albatros_D.III.blend</File>
+    <File md5="7D57842413311452E19502D27C701CAB" import="1">Jets4/Art/Albatros_D.III.dds</File>
+    <File md5="C7532F1233739620405FC036960F004E" import="1">Jets4/Art/Albatros_D.III.fxsxml</File>
+    <File md5="70742EB3E282CD30377F4F1115966E21" import="1">Jets4/Art/Albatros_D.III.gr2</File>
+    <File md5="6E92FE4A070C1D3BBAB37BE1E130DBAD" import="1">Jets4/Art/Avro_Lancaster.blend</File>
+    <File md5="F7B67FBF8B8774A21DA39377A3CDB156" import="1">Jets4/Art/Avro_Lancaster.dds</File>
+    <File md5="ED7139DBC55E1AAFC64553CFD0095D20" import="1">Jets4/Art/Avro_Lancaster.fxsxml</File>
+    <File md5="74DD0947F226D167AACB5598659CC677" import="1">Jets4/Art/Avro_Lancaster.gr2</File>
+    <File md5="A788342F773A0B19C84B3AE1A496E2D3" import="1">Jets4/Art/Avro_Lancaster_gloss.dds</File>
+    <File md5="260CB0B3D8C567E265C61134B368DDBE" import="1">Jets4/Art/B-25_Mitchell.blend</File>
+    <File md5="2CA7461D67A3D4E352CB148A34BC4BFE" import="1">Jets4/Art/B-25_Mitchell.dds</File>
+    <File md5="EA35C9D94F01D13A290A9BC60A4E3559" import="1">Jets4/Art/B-25_Mitchell.fxsxml</File>
+    <File md5="E5A75444473908F921E680FA37733295" import="1">Jets4/Art/B-25_Mitchell.gr2</File>
+    <File md5="2391ADE21015AB374049CB450E9DC5EE" import="1">Jets4/Art/B-25_Mitchell_2.dds</File>
+    <File md5="B527FC4D56CF08E7DD7F38AA76A4D718" import="1">Jets4/Art/B-25_Mitchell_3.dds</File>
+    <File md5="10D49ABBB566EC28D4FC44849DFDB32E" import="1">Jets4/Art/B-25_Mitchell_4.dds</File>
+    <File md5="D9491EB8947CE13D5ADDE7E3DFE7C2D5" import="1">Jets4/Art/B-25_Mitchell_china.dds</File>
+    <File md5="2F3930A017682640A18E710F20BCFBDE" import="1">Jets4/Art/Blackhawk.dds</File>
+    <File md5="1DA5EA94BD63077CD10D9862E5DD926F" import="1">Jets4/Art/Blackhawk.fxsxml</File>
+    <File md5="A0AA1B67B8F1ACB037B066E3D5468FC1" import="1">Jets4/Art/Blackhawk.gr2</File>
+    <File md5="17C0E53365C21189F161D6C30F2744BC" import="1">Jets4/Art/Blackhawk_sref.dds</File>
+    <File md5="414597269A8AE2282ECB07CABB861387" import="1">Jets4/Art/Breguet_690.blend</File>
+    <File md5="B31A372A7F25011A9E8058B69D09E6DE" import="1">Jets4/Art/Breguet_690.dds</File>
+    <File md5="FF58C0C3DFF1B5C13B1F03D8DCA50272" import="1">Jets4/Art/Breguet_690.fxsxml</File>
+    <File md5="04545AEFD0564F2941953482A3E3D292" import="1">Jets4/Art/Breguet_690.gr2</File>
+    <File md5="410D29AE5C3AEAC50795BF0B3402C1CC" import="1">Jets4/Art/Breguet_690.jpg</File>
+    <File md5="BD69B6A64DD8A6FDD5677FA7D42D7A02" import="1">Jets4/Art/Bristol_Blenheim.blend</File>
+    <File md5="437393463131557B3BCBA2F664020590" import="1">Jets4/Art/Bristol_Blenheim.dds</File>
+    <File md5="C7433FF4D45B8DDC4B18F0886ED29DD5" import="1">Jets4/Art/Bristol_Blenheim.fxsxml</File>
+    <File md5="7CDFEB8D6DE05843897BD50AAE6D29ED" import="1">Jets4/Art/Bristol_Blenheim.gr2</File>
+    <File md5="3276E13797BCD558D6FDB0A0A257C8AB" import="1">Jets4/Art/Bristol_Blenheim_UK.dds</File>
+    <File md5="E7F5DC1D699336245676AAF986BE0BA2" import="1">Jets4/Art/cobra.fxsxml</File>
+    <File md5="3EB0186F2372718ECDF351477EFDCE58" import="1">Jets4/Art/Cobra.gr2</File>
+    <File md5="1E4E39C0C8CE52C23E5F1989A75C3849" import="1">Jets4/Art/De_Havilland_Mosquito.blend</File>
+    <File md5="85CC9C3ACDC24CD77F9077E501F5600C" import="1">Jets4/Art/De_Havilland_Mosquito.dds</File>
+    <File md5="B6854C73832451CAE591077F47D8C21F" import="1">Jets4/Art/De_Havilland_Mosquito.fxsxml</File>
+    <File md5="4A040C8910470B9BAD21CBAE88FAB634" import="1">Jets4/Art/De_Havilland_Mosquito.gr2</File>
+    <File md5="DBD0DB57A3F909428746A299C0D923DF" import="1">Jets4/Art/De_Havilland_Mosquito_gloss.dds</File>
+    <File md5="1523531CF0305FF3463B8A045BDE71CC" import="1">Jets4/Art/Edited_FX_Triggers_Kamikaze.ftsxml</File>
+    <File md5="27577D55598B148C4F05DF941D16A077" import="1">Jets4/Art/F-8.fxsxml</File>
+    <File md5="0C918A99A37D6992BB133C99CE27B3A3" import="1">Jets4/Art/F-8.gr2</File>
+    <File md5="6BAE26522FB39BD72DAED914DFFB6934" import="1">Jets4/Art/F-8FRENCH.fxsxml</File>
+    <File md5="4BA3E685DE9444E60102E33D9DC06AED" import="1">Jets4/Art/F-8_diff.dds</File>
+    <File md5="BC7DE943C38501E7E6BDAB1B414AD204" import="1">Jets4/Art/F-8_FR-diff.dds</File>
+    <File md5="6DA39617C065DAD5FD1AD392596AB05A" import="1">Jets4/Art/F-8_French.gr2</File>
+    <File md5="82958130D7C4EC362C505D7CC450A4E5" import="1">Jets4/Art/F-8_sref.dds</File>
+    <File md5="00BACF634E5B3BF569A836207E34EED9" import="1">Jets4/Art/F2A_Buffalo.blend</File>
+    <File md5="05B7D4E4272062310CE7C592F8E889AA" import="1">Jets4/Art/F2A_Buffalo.dds</File>
+    <File md5="D940243C6E259B5E0DCCA888B1E1D6B7" import="1">Jets4/Art/F2A_Buffalo.fxsxml</File>
+    <File md5="88E74171BCF92E746E1F0686064FFB13" import="1">Jets4/Art/F2A_Buffalo.gr2</File>
+    <File md5="9EB4D48E2A4631496AE9A62F9F3E272F" import="1">Jets4/Art/fx_triggers_Blackhawk.ftsxml</File>
+    <File md5="E719D20FD2CF95A9F9D291A40466DAA2" import="1">Jets4/Art/fx_triggers_cobra.ftsxml</File>
+    <File md5="4E1E953A49A35E99EE150171EF898686" import="1">Jets4/Art/fx_triggers_ho229.ftsxml</File>
+    <File md5="EE549B2C9E182BF8D46F6BE497630B53" import="1">Jets4/Art/fx_triggers_tu-22m.ftsxml</File>
+    <File md5="BD6BF3584613B6A8BF68C680D454FDFB" import="1">Jets4/Art/fx_triggers_zeppelin.ftsxml</File>
+    <File md5="D53771FE38BE395334F73F92A2438161" import="1">Jets4/Art/gunship_128.dds</File>
+    <File md5="88F43C4564B9AC6BD99D9709D373E525" import="1">Jets4/Art/gunship_128_gloss.dds</File>
+    <File md5="12E6938185C829288EB123AB3D0777B6" import="1">Jets4/Art/Hawker_Hurricane_MK_II.blend</File>
+    <File md5="DDDA8B6C2BBD5BCBD135BC186B86EE67" import="1">Jets4/Art/Hawker_Hurricane_MK_II.dds</File>
+    <File md5="5E8ACF2A7021928F44824E318A4F70A5" import="1">Jets4/Art/Hawker_Hurricane_MK_II.fxsxml</File>
+    <File md5="E4AD5F434D57397AA10733E4B7A744F7" import="1">Jets4/Art/Hawker_Hurricane_MK_II.gr2</File>
+    <File md5="B23209B5720814DD1EE0279DEC50035D" import="1">Jets4/Art/Hawker_Tempest.blend</File>
+    <File md5="7B98E7FA5BED61DC5375B71DD09A7210" import="1">Jets4/Art/Hawker_Tempest.dds</File>
+    <File md5="31E8A05F708FA1DB67F3CC7238AEA38D" import="1">Jets4/Art/Hawker_Tempest.fxsxml</File>
+    <File md5="84D1651310197556A7DD55D91AB136A0" import="1">Jets4/Art/Hawker_Tempest.gr2</File>
+    <File md5="87BD2F5A7D895D62D0BA21C21E870BA9" import="1">Jets4/Art/Hawker_Typhoon.blend</File>
+    <File md5="117FA59ACFD8F4321D79FE676A0BA3CD" import="1">Jets4/Art/Hawker_Typhoon.dds</File>
+    <File md5="931B8BBA354411771CA70D79ADA29916" import="1">Jets4/Art/Hawker_Typhoon.fxsxml</File>
+    <File md5="AE107F7C449D68E3D3DF7304C3FF5564" import="1">Jets4/Art/Hawker_Typhoon.gr2</File>
+    <File md5="ACA3DC62854B709E37FBF6B2BDA73693" import="1">Jets4/Art/Heinkel_He-111.blend</File>
+    <File md5="DE1E014C612544C1586C1E66E2FF74E5" import="1">Jets4/Art/Heinkel_He-111.dds</File>
+    <File md5="59CEA980ADC69C44F455C78D93D36147" import="1">Jets4/Art/Heinkel_He-111.fxsxml</File>
+    <File md5="FD7930C404E4BC48E6C67F32719E6BF7" import="1">Jets4/Art/Heinkel_He-111.gr2</File>
+    <File md5="452A1507F52265342957CA77DA71ACFD" import="1">Jets4/Art/Heinkel_He-177_Greif.blend</File>
+    <File md5="1249FC502334A4655B41392DED256E01" import="1">Jets4/Art/Heinkel_He-177_Greif.dds</File>
+    <File md5="15B73C412C193D87E5BB94AA0776C6FD" import="1">Jets4/Art/Heinkel_He-177_Greif.fxsxml</File>
+    <File md5="9F81878E249D269FB30590DFFA0A327C" import="1">Jets4/Art/Heinkel_He-177_Greif.gr2</File>
+    <File md5="CF8D49611DBCFA3A10D6B5F7C0BDA9E9" import="1">Jets4/Art/Heinkel_He-219_Uhu.blend</File>
+    <File md5="89DA93E80267E510DAAEE59BFA668937" import="1">Jets4/Art/Heinkel_He-219_Uhu.dds</File>
+    <File md5="95E7207D91D3BF14B6C6C77BCE0763BF" import="1">Jets4/Art/Heinkel_He-219_Uhu.fxsxml</File>
+    <File md5="2F046BDD57D63B387F2B00DB47053B31" import="1">Jets4/Art/Heinkel_He-219_Uhu.gr2</File>
+    <File md5="02F49F5CADCE72B8918446E3F48C2CB2" import="1">Jets4/Art/Ho229.fxsxml</File>
+    <File md5="459AEE169DA9BAAC2355B6759D0735E7" import="1">Jets4/Art/Ho229.gr2</File>
+    <File md5="650A89672D425BCA9FCE188B46109AA6" import="1">Jets4/Art/Ho229_diff.dds</File>
+    <File md5="857F131A231AD184E84253A40E59114B" import="1">Jets4/Art/Ho229_sref.dds</File>
+    <File md5="96A356436F87203AA0DF6FD3E3034410" import="1">Jets4/Art/Ilyushin_IL-4.blend</File>
+    <File md5="C2F274052B8FDAA69E1362BF01AF9145" import="1">Jets4/Art/Ilyushin_IL-4.dds</File>
+    <File md5="D98D7A99871E19EC45A88FB85F52D8BD" import="1">Jets4/Art/Ilyushin_IL-4.fxsxml</File>
+    <File md5="BB22B527F3E141666233845C24AEA382" import="1">Jets4/Art/Ilyushin_IL-4.gr2</File>
+    <File md5="85D2DAB5A229C087D54A84EA00880E38" import="1">Jets4/Art/Ilyushin_IL-4_2.dds</File>
+    <File md5="70DB0720F4379B70304B31134E220855" import="1">Jets4/Art/Junkers_Ju-87_Stuka.blend</File>
+    <File md5="9164BB503C8A95ED3D46CB1D74485C8A" import="1">Jets4/Art/Junkers_Ju-87_Stuka.dds</File>
+    <File md5="9845D4FCD9E5B2ABBD946B6E9B0D8562" import="1">Jets4/Art/Junkers_Ju-87_Stuka.fxsxml</File>
+    <File md5="C4E7B40A288B56515197ABB35B80CE7C" import="1">Jets4/Art/Junkers_Ju-87_Stuka.gr2</File>
+    <File md5="79C397EE851997B6F5F97FB4E0D11687" import="1">Jets4/Art/Junkers_Ju-88.blend</File>
+    <File md5="59D1AA73F58D1AFE16A2C71386C12A85" import="1">Jets4/Art/Junkers_Ju-88.dds</File>
+    <File md5="3305DFF023D95C4174599A0408B12FB1" import="1">Jets4/Art/Junkers_Ju-88.fxsxml</File>
+    <File md5="E9E3364B8E4C67C4AAD530BB1E0B2C2C" import="1">Jets4/Art/Junkers_Ju-88.gr2</File>
+    <File md5="D51B1B329F3322B31D4F16A9CEDD53BF" import="1">Jets4/Art/Junkers_Ju-88_2.dds</File>
+    <File md5="C4D6DF8F8F77FFE1F3C40BAB4621F5EE" import="1">Jets4/Art/Junkers_Ju-88_3.dds</File>
+    <File md5="3A60D131BA72A1B2B7E0BD43E37377AE" import="1">Jets4/Art/Junkers_Ju-88_Hungary.dds</File>
+    <File md5="1CD86EE78AC1D13BA1779975A6C2BA3D" import="1">Jets4/Art/Messerschmitt_Bf-110F4.blend</File>
+    <File md5="F58D729A7A0B8763A84910C7F5B9BA54" import="1">Jets4/Art/Messerschmitt_Bf-110F4.dds</File>
+    <File md5="D535DE7C807F7E1887E4929742228BEC" import="1">Jets4/Art/Messerschmitt_Bf-110F4.fxsxml</File>
+    <File md5="265CEB22F12200BBB21A534E1D11F114" import="1">Jets4/Art/Messerschmitt_Bf-110F4.gr2</File>
+    <File md5="21ECBF543742E353FDFE4AE42DD64B9B" import="1">Jets4/Art/Messerschmitt_Bf-110F4_gloss.dds</File>
+    <File md5="ED060B7AD16B90908FDB50BD4491E464" import="1">Jets4/Art/Messerschmitt_Me-262_Schwalbe.blend</File>
+    <File md5="1F6BE7CF63033D5C305D5201B8EA8319" import="1">Jets4/Art/Messerschmitt_Me-262_Schwalbe.dds</File>
+    <File md5="D0C81FF44A6789F07AB7F0D096D62B41" import="1">Jets4/Art/Messerschmitt_Me-262_Schwalbe.fxsxml</File>
+    <File md5="C4DECDA575865E00198DFB397967BBE7" import="1">Jets4/Art/Messerschmitt_Me-262_Schwalbe.gr2</File>
+    <File md5="70A80909094D855D2BFF45E354F63ECD" import="1">Jets4/Art/Messerschmitt_Me-262_Schwalbe_2.dds</File>
+    <File md5="EB6644CB64504B338872596C46D57F40" import="1">Jets4/Art/Messerschmitt_Me-262_Schwalbe_3.dds</File>
+    <File md5="8E05E10CB5BF02C6D45C092C83C91073" import="1">Jets4/Art/Messerschmitt_Me-262_Schwalbe_4.dds</File>
+    <File md5="1FBB9057047076138F6A66171548EE37" import="1">Jets4/Art/Mirage2000.fxsxml</File>
+    <File md5="C062DBFA70549D84B3E36341B713DBAD" import="1">Jets4/Art/Mirage2000.gr2</File>
+    <File md5="48CD29B3D41191A1C28E84E6094C25EA" import="1">Jets4/Art/Mirage2000_diff.dds</File>
+    <File md5="0BC836749ACB5EF07A39989DA0E5B0AA" import="1">Jets4/Art/Mirage2000_sref.dds</File>
+    <File md5="BB9D80F8C5FF58358D167660B861B991" import="1">Jets4/Art/Mitsubishi_A6M5_Zero.blend</File>
+    <File md5="02BC8B9E20CA81204A12C590D4D3AD56" import="1">Jets4/Art/Mitsubishi_A6M5_Zero.dds</File>
+    <File md5="E6CDEBF639F9B8513502D400E8553A1C" import="1">Jets4/Art/Mitsubishi_A6M5_Zero.fxsxml</File>
+    <File md5="8D98A53CD04AA124CFC56895B2F00A49" import="1">Jets4/Art/Mitsubishi_A6M5_Zero.gr2</File>
+    <File md5="3DB1C1486450B2FB64F7CB040A646E0D" import="1">Jets4/Art/Mitsubishi_A6M5_Zero.jpg</File>
+    <File md5="E4686C9DB8858FA9C2367BE8756BDF33" import="1">Jets4/Art/Mitsubishi_Ki-21_Sally.blend</File>
+    <File md5="5DE3759762951A476F5811BF6A1A660E" import="1">Jets4/Art/Mitsubishi_Ki-21_Sally.dds</File>
+    <File md5="C122B6C9751F5F6BEA0AE6811D20C4D7" import="1">Jets4/Art/Mitsubishi_Ki-21_Sally.fxsxml</File>
+    <File md5="96584F4A1F4507545CE67A68E310A361" import="1">Jets4/Art/Mitsubishi_Ki-21_Sally.gr2</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Jets4/Art/no_gloss.dds</File>
+    <File md5="D6CF572CCA3CC3E8FAF7074B3C2006FC" import="1">Jets4/Art/Potez_630.blend</File>
+    <File md5="1900175BCB58337B6D027E26490C64F1" import="1">Jets4/Art/Potez_630.dds</File>
+    <File md5="52C7C003DAA0CCBB4F5A3840DCE8D70A" import="1">Jets4/Art/Potez_630.fxsxml</File>
+    <File md5="02056347BEDA189CA19D5E899C5F1BF6" import="1">Jets4/Art/Potez_630.gr2</File>
+    <File md5="19088984E98751FFEEC9742D96708588" import="1">Jets4/Art/PZL_P.23_Karas.blend</File>
+    <File md5="BB0485CA529E93BA2C40A94453652F85" import="1">Jets4/Art/PZL_P.23_Karas.dds</File>
+    <File md5="D58F7F4B49C42F4533A8247600A3B415" import="1">Jets4/Art/PZL_P.23_Karas.fxsxml</File>
+    <File md5="3365AA88BE89516C6EA8628EA00293D9" import="1">Jets4/Art/PZL_P.23_Karas.gr2</File>
+    <File md5="C51D95D858C7892A61516E396FB59FCE" import="1">Jets4/Art/PZL_P.23_Karas_2.dds</File>
+    <File md5="24CF5004E9FB0E1D93CF6BEE2A5771E6" import="1">Jets4/Art/PZL_P.23_Karas_gloss.dds</File>
+    <File md5="E2F4E2D405DC71F6A3F82F7995A2D8E5" import="1">Jets4/Art/SAAB_J21.blend</File>
+    <File md5="8E25A31B31DDDB301B88EF7C9BC72B9C" import="1">Jets4/Art/SAAB_J21.dds</File>
+    <File md5="E3E01910DD710B7F89F824D94A5B2F75" import="1">Jets4/Art/SAAB_J21.fxsxml</File>
+    <File md5="58F49AACFB622573E0FFF1CFB535AF2F" import="1">Jets4/Art/SAAB_J21.gr2</File>
+    <File md5="04C5CB8F5159B9EA24496D690C8A170E" import="1">Jets4/Art/Savoia-Marchetti_SM.84.blend</File>
+    <File md5="F31B0E03A269E6C05488566A08A898AC" import="1">Jets4/Art/Savoia-Marchetti_SM.84.dds</File>
+    <File md5="EB8BDA1374965AB017B679BAC9381D51" import="1">Jets4/Art/Savoia-Marchetti_SM.84.fxsxml</File>
+    <File md5="FB9D917157083E2DCAF554FF43BB9D57" import="1">Jets4/Art/Savoia-Marchetti_SM.84.gr2</File>
+    <File md5="866AC6C03AE508E4C9519188564D49EF" import="1">Jets4/Art/SB2C_Helldiver.blend</File>
+    <File md5="F241EF5CA79289120D47602C936F1C73" import="1">Jets4/Art/SB2C_Helldiver.dds</File>
+    <File md5="B4BF25A15D92293BD011DEE875FC4A33" import="1">Jets4/Art/SB2C_Helldiver.fxsxml</File>
+    <File md5="2DD50B2C4F5B480687D8D0D267B52851" import="1">Jets4/Art/SB2C_Helldiver.gr2</File>
+    <File md5="0D4DEBCE4DE4BAD4DDBEEE9C8C9AEF3E" import="1">Jets4/Art/Tornado Austria.dds</File>
+    <File md5="AD141CA355644ABE248F43A5C3492D66" import="1">Jets4/Art/Tornado Britain.dds</File>
+    <File md5="A7FB315A776C34E771E6400754545325" import="1">Jets4/Art/Tornado Britain2.dds</File>
+    <File md5="85C398F890E2FD63D23AEE40D962100E" import="1">Jets4/Art/Tornado Germany.dds</File>
+    <File md5="2C6A8D9D5D25F91CF8FD217EC6FFD56F" import="1">Jets4/Art/Tornado Italy.dds</File>
+    <File md5="70ECBFA69A8FD7A3597E83939FB8F250" import="1">Jets4/Art/Tornado Saudi Arabia.dds</File>
+    <File md5="E9BD4EC9E0D41757E5EEA0EB2FC08A68" import="1">Jets4/Art/Tornado Saudi Arabia2.dds</File>
+    <File md5="0B12620083898ABD8EFA1A693E6ACCC3" import="1">Jets4/Art/TornadoGR1.fxsxml</File>
+    <File md5="6C08587FA0CFA6402A8B63A5DB8CB46C" import="1">Jets4/Art/TornadoGR1.gr2</File>
+    <File md5="52E9922BFA9D579CE67C1F484932F4C9" import="1">Jets4/Art/TornadoGR1_Arabia.fxsxml</File>
+    <File md5="9934C5680DD72F5459FEA97775284CDB" import="1">Jets4/Art/TornadoGR1_Arabia.gr2</File>
+    <File md5="092310D114423CEF62C21C31F88BA780" import="1">Jets4/Art/TornadoGR1_Austria.fxsxml</File>
+    <File md5="B91432F8B3919D0EE5C28BABB0567CD4" import="1">Jets4/Art/TornadoGR1_Austria.gr2</File>
+    <File md5="3D85A44B727CF1F245FB0187E83DAEF3" import="1">Jets4/Art/TornadoGR1_Britain.fxsxml</File>
+    <File md5="B2C62F2A2143F17E9D31379E0D522EA3" import="1">Jets4/Art/TornadoGR1_Britain.gr2</File>
+    <File md5="AD141CA355644ABE248F43A5C3492D66" import="1">Jets4/Art/TornadoGR1_diff.dds</File>
+    <File md5="E34EB1E20F971F6A2B84CB7E87A1A5B6" import="1">Jets4/Art/TornadoGR1_Germany.fxsxml</File>
+    <File md5="0AF4B02A1F274827708169A070C6A48A" import="1">Jets4/Art/TornadoGR1_Germany.gr2</File>
+    <File md5="D8C8647AF1967D74BD4AA7F2ED94F62B" import="1">Jets4/Art/TornadoGR1_Italy.fxsxml</File>
+    <File md5="979B284731474C16B88C04540ADC475D" import="1">Jets4/Art/TornadoGR1_Italy.gr2</File>
+    <File md5="E6F787A971DEE88B8142E25B107E57DB" import="1">Jets4/Art/TornadoGR1_sref.dds</File>
+    <File md5="610EC5CBE062E19D8252B11C65A35F8D" import="1">Jets4/Art/tu-22m.fxsxml</File>
+    <File md5="0D2662867D318022439F9730ABDC5261" import="1">Jets4/Art/Tu-22M.gr2</File>
+    <File md5="1FC4B09BEC64EAAF9A876D2758320CA8" import="1">Jets4/Art/Tu-22M_diff.dds</File>
+    <File md5="0B9C50CDDAC2E48E216842ECF3E38D71" import="1">Jets4/Art/Tu-22M_sref.dds</File>
+    <File md5="E68F437344FFFED461EA7610BD748A9C" import="1">Jets4/Art/Tupolev_TB-3.blend</File>
+    <File md5="0D5615F10DFC53D4643D8A54258B49EB" import="1">Jets4/Art/Tupolev_TB-3.dds</File>
+    <File md5="5A27FF7680BEC0532DCB26C270528D9E" import="1">Jets4/Art/Tupolev_TB-3.fxsxml</File>
+    <File md5="A35379EE2F2928437D1B173DCE5FE986" import="1">Jets4/Art/Tupolev_TB-3.gr2</File>
+    <File md5="5AC0EEAA4B969199AFBA6BC7A1CACE3B" import="1">Jets4/Art/Vickers_Wellington.blend</File>
+    <File md5="B584EB803D74AC0B45487607445E8B98" import="1">Jets4/Art/Vickers_Wellington.dds</File>
+    <File md5="DD46B6889B46AED938750BC87B8238A7" import="1">Jets4/Art/Vickers_Wellington.fxsxml</File>
+    <File md5="D210E0BE7209BEAC0602CC64CC0E22A7" import="1">Jets4/Art/Vickers_Wellington.gr2</File>
+    <File md5="2D8FC55458B61DD0F98733FE77514EC1" import="1">Jets4/Art/Westland_Whirlwind.blend</File>
+    <File md5="95C06380634211F74DD03E6AA0341CF4" import="1">Jets4/Art/Westland_Whirlwind.dds</File>
+    <File md5="7428D18E31373304FBB3084FB9BA8E9E" import="1">Jets4/Art/Westland_Whirlwind.fxsxml</File>
+    <File md5="0C3DEAEC9565AACCC9DA6BAE20E93B1D" import="1">Jets4/Art/Westland_Whirlwind.gr2</File>
+    <File md5="AF995AAD35DA03BF3A8F19AA5294F349" import="1">Jets4/Art/Westland_Whirlwind_gloss.dds</File>
+    <File md5="061E48B5DA2E191AD2C7E70D4C579B45" import="1">Jets4/Art/Yakovlev_Yak-9.blend</File>
+    <File md5="CBDA050C40FDFA92FA5DF3C61C37F90E" import="1">Jets4/Art/Yakovlev_Yak-9.dds</File>
+    <File md5="DF1A86A956A22B7ED844949E3E657589" import="1">Jets4/Art/Yakovlev_Yak-9.fxsxml</File>
+    <File md5="43D567631CEF065C1CC1DDDFC9A471C1" import="1">Jets4/Art/Yakovlev_Yak-9.gr2</File>
+    <File md5="66939FC2EDF2258163F5E98884B132E6" import="1">Jets4/Art/Zeppelin.dds</File>
+    <File md5="A13F73ADC55CC027EE79F9008BF789C8" import="1">Jets4/Art/Zeppelin.fxsxml</File>
+    <File md5="FBB02F13CB18CBDE220DD2671C09C7C6" import="1">Jets4/Art/Zeppelin.gr2</File>
+    <File md5="B06BDB7DE8DAB72AF20473AB1B571E70" import="1">Jets4/Art/ZeppelinSREF.dds</File>
+    <File md5="80BA79314FF9ABA425DE13FF23AF3E70" import="1">Jets4/Art/ZeppelinTC.dds</File>
+    <File md5="19BF00817AEAA9D8CBE856394DD9725F" import="1">Jets4/Art/ZeppelinTC.fxsxml</File>
+    <File md5="75ACE390C743DEFDC30E7DB3F088CEAE" import="1">Jets4/Art/ZeppelinTC.gr2</File>
+    <File md5="0016C5850A27DA47C6AC2EB8C9A345E9" import="1">Jets4/Icons/ICON_UNIT_AERO_A102_128.dds</File>
+    <File md5="6C0BF4ECECAB6DC104732ECED4B51A2F" import="1">Jets4/Icons/ICON_UNIT_AERO_A102_256.dds</File>
+    <File md5="DE06CB857EA39004593DDC68F79CFB21" import="1">Jets4/Icons/ICON_UNIT_AERO_A102_45.dds</File>
+    <File md5="71422D5C7CF64AEF8B04D63BAF256405" import="1">Jets4/Icons/ICON_UNIT_AERO_A102_64.dds</File>
+    <File md5="0A288E241042369A2AF15BB0A515D06A" import="1">Jets4/Icons/ICON_UNIT_AERO_A102_80.dds</File>
+    <File md5="C7F2BB1FD4251151C2D3197575C30800" import="1">Jets4/Icons/ICON_UNIT_AH1_COBRA888_128.dds</File>
+    <File md5="EA43ADD4A6BD548D8BB95C57C8C21A3D" import="1">Jets4/Icons/ICON_UNIT_AH1_COBRA888_256.dds</File>
+    <File md5="2CADCD0812C5518EB056F4A4AA6B0302" import="1">Jets4/Icons/ICON_UNIT_AH1_COBRA888_45.dds</File>
+    <File md5="73661C3F92B9E4A8FEAB685CFC8F1761" import="1">Jets4/Icons/ICON_UNIT_AH1_COBRA888_64.dds</File>
+    <File md5="34F2FC76A22121AC54AF149CF47D69B0" import="1">Jets4/Icons/ICON_UNIT_AH1_COBRA888_80.dds</File>
+    <File md5="41F71BECEF8DA6AA48F5E798C9319C11" import="1">Jets4/Icons/ICON_UNIT_AICHI_D3A_VAL_128.dds</File>
+    <File md5="0D584815C5A0E52412E4508BEEEB0116" import="1">Jets4/Icons/ICON_UNIT_AICHI_D3A_VAL_256.dds</File>
+    <File md5="9546E19AEF00BD1793C12D149E951796" import="1">Jets4/Icons/ICON_UNIT_AICHI_D3A_VAL_45.dds</File>
+    <File md5="571D6EBC8507C8C45ABF7F1A1171FFA9" import="1">Jets4/Icons/ICON_UNIT_AICHI_D3A_VAL_64.dds</File>
+    <File md5="7CD62B4E085A1FC7E574EDB5B426A316" import="1">Jets4/Icons/ICON_UNIT_AICHI_D3A_VAL_80.dds</File>
+    <File md5="32EEFD0D0A1BE319965560E99027EEDC" import="1">Jets4/Icons/ICON_UNIT_ALBATROS_DIII_128.dds</File>
+    <File md5="CA5098411686EE29653917CE4D6D47D1" import="1">Jets4/Icons/ICON_UNIT_ALBATROS_DIII_256.dds</File>
+    <File md5="190460F8A4AD8F7EF950DD9CC309A384" import="1">Jets4/Icons/ICON_UNIT_ALBATROS_DIII_45.dds</File>
+    <File md5="4F6C75F4A62620BFB0F8135A9A062497" import="1">Jets4/Icons/ICON_UNIT_ALBATROS_DIII_64.dds</File>
+    <File md5="0A319555EEE2B1DBA7D272324DC635B3" import="1">Jets4/Icons/ICON_UNIT_ALBATROS_DIII_80.dds</File>
+    <File md5="EB912656CCA7EDD27E57C46CC62BFD0B" import="1">Jets4/Icons/ICON_UNIT_AVRO_LANCASTER_128.dds</File>
+    <File md5="F94C7FD8BFAE14403FFE63175FA32E35" import="1">Jets4/Icons/ICON_UNIT_AVRO_LANCASTER_256.dds</File>
+    <File md5="82FA4F1B5E3DF77636356438881A6EC0" import="1">Jets4/Icons/ICON_UNIT_AVRO_LANCASTER_45.dds</File>
+    <File md5="47CCEB05DB52C3A3736D40001BD7CD70" import="1">Jets4/Icons/ICON_UNIT_AVRO_LANCASTER_64.dds</File>
+    <File md5="BA3B64094290608EA774724B3EAC32F8" import="1">Jets4/Icons/ICON_UNIT_AVRO_LANCASTER_80.dds</File>
+    <File md5="5504967F5D98EA57CE87BE996F04A922" import="1">Jets4/Icons/ICON_UNIT_B25_MITCHELL999_128.dds</File>
+    <File md5="DBA8CF1664ACAF1B22C0EE6783E6F1E9" import="1">Jets4/Icons/ICON_UNIT_B25_MITCHELL999_256.dds</File>
+    <File md5="24E1201BAE9805DAFB5D1303252CDEAB" import="1">Jets4/Icons/ICON_UNIT_B25_MITCHELL999_45.dds</File>
+    <File md5="5B75ADE37BC16FDCCDBD6AF4602C9CA2" import="1">Jets4/Icons/ICON_UNIT_B25_MITCHELL999_64.dds</File>
+    <File md5="A0720B627F292BFD6D5AC0E67F65E78B" import="1">Jets4/Icons/ICON_UNIT_B25_MITCHELL999_80.dds</File>
+    <File md5="CE66667C13D757B7FE15BECF108C706C" import="1">Jets4/Icons/ICON_UNIT_B2_SPIRIT_STEALTH_BOMBER_128.dds</File>
+    <File md5="C1EA8E1E02B2590341BF8B37E9BE79C5" import="1">Jets4/Icons/ICON_UNIT_B2_SPIRIT_STEALTH_BOMBER_256.dds</File>
+    <File md5="650A09D7A165709671CEC672750C5FE2" import="1">Jets4/Icons/ICON_UNIT_B2_SPIRIT_STEALTH_BOMBER_45.dds</File>
+    <File md5="F545711FAD0FD3E16BEBA475FA7CC8D4" import="1">Jets4/Icons/ICON_UNIT_B2_SPIRIT_STEALTH_BOMBER_64.dds</File>
+    <File md5="62810A17D60CBCAD66054854476D8137" import="1">Jets4/Icons/ICON_UNIT_B2_SPIRIT_STEALTH_BOMBER_80.dds</File>
+    <File md5="046346701D7DCAFC3B1BEC0124CD2F3D" import="1">Jets4/Icons/ICON_UNIT_BREGUET_693_128.dds</File>
+    <File md5="4BFAA55CD155C868DD7A1EBD676137A4" import="1">Jets4/Icons/ICON_UNIT_BREGUET_693_256.dds</File>
+    <File md5="DBB925CF9BA891F5D9751ADD962E64DE" import="1">Jets4/Icons/ICON_UNIT_BREGUET_693_45.dds</File>
+    <File md5="6789340E16EA13D96D234AD1EC344908" import="1">Jets4/Icons/ICON_UNIT_BREGUET_693_64.dds</File>
+    <File md5="FB4D5FD57F2D054A1539C2180DC98FB8" import="1">Jets4/Icons/ICON_UNIT_BREGUET_693_80.dds</File>
+    <File md5="046FB6B3CBAEDD1CC73893FEDB91684D" import="1">Jets4/Icons/ICON_UNIT_BRISTOL_BLENHEIM_128.dds</File>
+    <File md5="3AF8982B7D467A3B35821DCFB6703F77" import="1">Jets4/Icons/ICON_UNIT_BRISTOL_BLENHEIM_256.dds</File>
+    <File md5="D2766D91A94A73E1CE0C24583D9C520B" import="1">Jets4/Icons/ICON_UNIT_BRISTOL_BLENHEIM_45.dds</File>
+    <File md5="9CAAF38D3FA83A0794E453F046B2F126" import="1">Jets4/Icons/ICON_UNIT_BRISTOL_BLENHEIM_64.dds</File>
+    <File md5="E1A82A2906C0750AEA090D58402902A0" import="1">Jets4/Icons/ICON_UNIT_BRISTOL_BLENHEIM_80.dds</File>
+    <File md5="B03C3C6021F978310527870E54BF70E8" import="1">Jets4/Icons/ICON_UNIT_DASSAULT_MIRAGE_2000888_128.dds</File>
+    <File md5="8748FAD11D56EE6B69E932E32C8EA648" import="1">Jets4/Icons/ICON_UNIT_DASSAULT_MIRAGE_2000888_256.dds</File>
+    <File md5="654CB90F4C9F74BEC83B89D7ACB8C604" import="1">Jets4/Icons/ICON_UNIT_DASSAULT_MIRAGE_2000888_45.dds</File>
+    <File md5="C6014E8EA5CD2AA2401653CF0FAC5B47" import="1">Jets4/Icons/ICON_UNIT_DASSAULT_MIRAGE_2000888_64.dds</File>
+    <File md5="D772C4B0EC34A2AFE5324D667E301AC4" import="1">Jets4/Icons/ICON_UNIT_DASSAULT_MIRAGE_2000888_80.dds</File>
+    <File md5="E666204EADD67A5A028F882235F3D893" import="1">Jets4/Icons/ICON_UNIT_DE_HAVILLAND_MOSQUITO_128.dds</File>
+    <File md5="6C7B3BA0776ACE2861A01DE431565125" import="1">Jets4/Icons/ICON_UNIT_DE_HAVILLAND_MOSQUITO_256.dds</File>
+    <File md5="FA1F1F427F449A5A15347F5BFDE804F0" import="1">Jets4/Icons/ICON_UNIT_DE_HAVILLAND_MOSQUITO_45.dds</File>
+    <File md5="84C9FF48E9509F6E12FBA10A572DF87D" import="1">Jets4/Icons/ICON_UNIT_DE_HAVILLAND_MOSQUITO_64.dds</File>
+    <File md5="8F1D83C43D51E39750D2880B9511A762" import="1">Jets4/Icons/ICON_UNIT_DE_HAVILLAND_MOSQUITO_80.dds</File>
+    <File md5="42E8C449CAD72A52FCF3CC67C305B9AF" import="1">Jets4/Icons/ICON_UNIT_F2A_BUFFALO_128.dds</File>
+    <File md5="1F4E1C6D4E87B50DBA0F76AECCBC3855" import="1">Jets4/Icons/ICON_UNIT_F2A_BUFFALO_256.dds</File>
+    <File md5="CFC7542FFFD6DC0C93E63668960C9581" import="1">Jets4/Icons/ICON_UNIT_F2A_BUFFALO_45.dds</File>
+    <File md5="D66FB36B681C7B90AC8CB33C5904626C" import="1">Jets4/Icons/ICON_UNIT_F2A_BUFFALO_64.dds</File>
+    <File md5="BA2A3DA4F86FDDEB5A76F59CC57B7401" import="1">Jets4/Icons/ICON_UNIT_F2A_BUFFALO_80.dds</File>
+    <File md5="C018A835241A4A2C7E91A4F1B087C70D" import="1">Jets4/Icons/ICON_UNIT_F8_CRUSADER22_128.dds</File>
+    <File md5="28B384DD3C67A187AA405A0FC929BE90" import="1">Jets4/Icons/ICON_UNIT_F8_CRUSADER22_256.dds</File>
+    <File md5="271D112DA5AF92F038ED0D5EBBCEC5A3" import="1">Jets4/Icons/ICON_UNIT_F8_CRUSADER22_45.dds</File>
+    <File md5="42052824E2E203DBFB8D153D03C5287B" import="1">Jets4/Icons/ICON_UNIT_F8_CRUSADER22_64.dds</File>
+    <File md5="245FF79EF0784D8452D842C659CDAAC9" import="1">Jets4/Icons/ICON_UNIT_F8_CRUSADER22_80.dds</File>
+    <File md5="C018A835241A4A2C7E91A4F1B087C70D" import="1">Jets4/Icons/ICON_UNIT_FRENCHF8_CRUSADER22_128.dds</File>
+    <File md5="28B384DD3C67A187AA405A0FC929BE90" import="1">Jets4/Icons/ICON_UNIT_FRENCHF8_CRUSADER22_256.dds</File>
+    <File md5="271D112DA5AF92F038ED0D5EBBCEC5A3" import="1">Jets4/Icons/ICON_UNIT_FRENCHF8_CRUSADER22_45.dds</File>
+    <File md5="42052824E2E203DBFB8D153D03C5287B" import="1">Jets4/Icons/ICON_UNIT_FRENCHF8_CRUSADER22_64.dds</File>
+    <File md5="245FF79EF0784D8452D842C659CDAAC9" import="1">Jets4/Icons/ICON_UNIT_FRENCHF8_CRUSADER22_80.dds</File>
+    <File md5="73B36F7AC9D479F008D52A9E1E899539" import="1">Jets4/Icons/ICON_UNIT_HAWKER_HURRICANE_MKII_128.dds</File>
+    <File md5="DDA0C3EB6B9003DAD8ECE3135076C74C" import="1">Jets4/Icons/ICON_UNIT_HAWKER_HURRICANE_MKII_256.dds</File>
+    <File md5="C48AA63F0CB90E4398B781BABA27D337" import="1">Jets4/Icons/ICON_UNIT_HAWKER_HURRICANE_MKII_45.dds</File>
+    <File md5="224007951E5E34C980073E74E8105ABB" import="1">Jets4/Icons/ICON_UNIT_HAWKER_HURRICANE_MKII_64.dds</File>
+    <File md5="BBF16BD8A62E59C8346EFAE068FB9B3B" import="1">Jets4/Icons/ICON_UNIT_HAWKER_HURRICANE_MKII_80.dds</File>
+    <File md5="1F37ABF77FD7DB2C56E774542CF99CD8" import="1">Jets4/Icons/ICON_UNIT_HAWKER_TEMPEST_128.dds</File>
+    <File md5="756975D449FB3A4631298235A379AA74" import="1">Jets4/Icons/ICON_UNIT_HAWKER_TEMPEST_256.dds</File>
+    <File md5="49DF453ED5B1A0B21E945C07DA22F540" import="1">Jets4/Icons/ICON_UNIT_HAWKER_TEMPEST_45.dds</File>
+    <File md5="7F08C44C16EB07F1FCAB1F503A946382" import="1">Jets4/Icons/ICON_UNIT_HAWKER_TEMPEST_64.dds</File>
+    <File md5="F691229D02494254F02D1D850A5884E0" import="1">Jets4/Icons/ICON_UNIT_HAWKER_TEMPEST_80.dds</File>
+    <File md5="A77A6198FEDA6DE8F9D182DC219ECD75" import="1">Jets4/Icons/ICON_UNIT_HAWKER_TYPHOON33_128.dds</File>
+    <File md5="93E821149285470F3BE25828DE0F1FD4" import="1">Jets4/Icons/ICON_UNIT_HAWKER_TYPHOON33_256.dds</File>
+    <File md5="A8C95B5D8EB04B804E4B1025A7783CEA" import="1">Jets4/Icons/ICON_UNIT_HAWKER_TYPHOON33_45.dds</File>
+    <File md5="BF8CF5EE7B0F0E37653D0F0E10901737" import="1">Jets4/Icons/ICON_UNIT_HAWKER_TYPHOON33_64.dds</File>
+    <File md5="F465E9D4E8522267C6900DB119BA9AFA" import="1">Jets4/Icons/ICON_UNIT_HAWKER_TYPHOON33_80.dds</File>
+    <File md5="CB5AC1042C3C6549B40E0F82B34F231C" import="1">Jets4/Icons/ICON_UNIT_HEINKEL_HE_111888_128.dds</File>
+    <File md5="D37C6EB62E11C47C4C48FDFC08F1C54F" import="1">Jets4/Icons/ICON_UNIT_HEINKEL_HE_111888_256.dds</File>
+    <File md5="C63DB4947BC0D8D0203608175A71C4FD" import="1">Jets4/Icons/ICON_UNIT_HEINKEL_HE_111888_45.dds</File>
+    <File md5="C6D6C3037C96D667049FFDDE443BC6CB" import="1">Jets4/Icons/ICON_UNIT_HEINKEL_HE_111888_64.dds</File>
+    <File md5="3A16E2E3C3953D6E6F01BC227643509B" import="1">Jets4/Icons/ICON_UNIT_HEINKEL_HE_111888_80.dds</File>
+    <File md5="D7E3124A8A1A96D3575EDB725C1C4829" import="1">Jets4/Icons/ICON_UNIT_HEINKEL_HE_177888_128.dds</File>
+    <File md5="714741025B2631E79283D0439FD092C3" import="1">Jets4/Icons/ICON_UNIT_HEINKEL_HE_177888_256.dds</File>
+    <File md5="B2486D9027854BC635FA83A5A9053645" import="1">Jets4/Icons/ICON_UNIT_HEINKEL_HE_177888_45.dds</File>
+    <File md5="002EA5DE33D2B4B5FD4AAA2F42AB7808" import="1">Jets4/Icons/ICON_UNIT_HEINKEL_HE_177888_64.dds</File>
+    <File md5="EF183FEF2AD377DE663BFAA84BA5101B" import="1">Jets4/Icons/ICON_UNIT_HEINKEL_HE_177888_80.dds</File>
+    <File md5="1A1ED291C38DDCD3A414C3E04686930F" import="1">Jets4/Icons/ICON_UNIT_HEINKEL_HE_219_UHU_128.dds</File>
+    <File md5="C41A0407DD8B89DCFA6E07C6EBA30662" import="1">Jets4/Icons/ICON_UNIT_HEINKEL_HE_219_UHU_256.dds</File>
+    <File md5="CA635F07F86180B038CE67DCC162D5A2" import="1">Jets4/Icons/ICON_UNIT_HEINKEL_HE_219_UHU_45.dds</File>
+    <File md5="FD78CECD7750F284223E6CB77905B449" import="1">Jets4/Icons/ICON_UNIT_HEINKEL_HE_219_UHU_64.dds</File>
+    <File md5="42482DDF67876E4101C501029E89F588" import="1">Jets4/Icons/ICON_UNIT_HEINKEL_HE_219_UHU_80.dds</File>
+    <File md5="B32F69FF5EC09403689CF4A1F8159F59" import="1">Jets4/Icons/ICON_UNIT_HORTEN_HO_229888_128.dds</File>
+    <File md5="5D330E45BDDA93578AF51512219745E4" import="1">Jets4/Icons/ICON_UNIT_HORTEN_HO_229888_256.dds</File>
+    <File md5="9CC497DFA8CF3E66B22DD709E0E40DBB" import="1">Jets4/Icons/ICON_UNIT_HORTEN_HO_229888_45.dds</File>
+    <File md5="B29A6C1C9AC963A3ABEA2C1C30D981D1" import="1">Jets4/Icons/ICON_UNIT_HORTEN_HO_229888_64.dds</File>
+    <File md5="9D2092269D2CAF94CEAA269A731B9D2A" import="1">Jets4/Icons/ICON_UNIT_HORTEN_HO_229888_80.dds</File>
+    <File md5="8AC94CBFE1241AA250A2B26984B73B8D" import="1">Jets4/Icons/ICON_UNIT_ILYUSHIN_IL4_128.dds</File>
+    <File md5="2FD149E1C319C80A2345D972DBC5320B" import="1">Jets4/Icons/ICON_UNIT_ILYUSHIN_IL4_256.dds</File>
+    <File md5="EEA14430BED5C50D181C6ED27BC5C6D9" import="1">Jets4/Icons/ICON_UNIT_ILYUSHIN_IL4_45.dds</File>
+    <File md5="A6DBBB7D47AC13F8226A45B77F40B774" import="1">Jets4/Icons/ICON_UNIT_ILYUSHIN_IL4_64.dds</File>
+    <File md5="49C231B590019FD366ED6AF66AD84374" import="1">Jets4/Icons/ICON_UNIT_ILYUSHIN_IL4_80.dds</File>
+    <File md5="4CF89ADA44952045A4ADA9DC023C3D51" import="1">Jets4/Icons/ICON_UNIT_JUNKERS_JU_87_STUKA_128.dds</File>
+    <File md5="98E95FD58E0B85826C5C73140128DB8F" import="1">Jets4/Icons/ICON_UNIT_JUNKERS_JU_87_STUKA_256.dds</File>
+    <File md5="01249CBE0682C0FC2A7F57A003DDDA4F" import="1">Jets4/Icons/ICON_UNIT_JUNKERS_JU_87_STUKA_45.dds</File>
+    <File md5="A0F33BFE8DEF69172101F307DC45B725" import="1">Jets4/Icons/ICON_UNIT_JUNKERS_JU_87_STUKA_64.dds</File>
+    <File md5="7786EA0BC58D6DC11AFE69ADD00D9E83" import="1">Jets4/Icons/ICON_UNIT_JUNKERS_JU_87_STUKA_80.dds</File>
+    <File md5="0753949F5ED7881D965A06210ECE4517" import="1">Jets4/Icons/ICON_UNIT_JUNKERS_JU_88_128.dds</File>
+    <File md5="302425DC48C626CA563472E12C64BE1C" import="1">Jets4/Icons/ICON_UNIT_JUNKERS_JU_88_256.dds</File>
+    <File md5="3D51979C27BE21CF29D90A7C08A77216" import="1">Jets4/Icons/ICON_UNIT_JUNKERS_JU_88_45.dds</File>
+    <File md5="4F143C5C75E429BDC66DF28D0C9BF459" import="1">Jets4/Icons/ICON_UNIT_JUNKERS_JU_88_64.dds</File>
+    <File md5="811175D7BE430FC954EBDC43FA452C26" import="1">Jets4/Icons/ICON_UNIT_JUNKERS_JU_88_80.dds</File>
+    <File md5="A8ED195C9F5169DDBEA98779E6E10F98" import="1">Jets4/Icons/ICON_UNIT_KAMIKAZE_128.dds</File>
+    <File md5="248E40638D7E58D79688AC9DF4AE5CB4" import="1">Jets4/Icons/ICON_UNIT_KAMIKAZE_256.dds</File>
+    <File md5="1CBF02162D93754F5CACC87A31B61D9E" import="1">Jets4/Icons/ICON_UNIT_KAMIKAZE_45.dds</File>
+    <File md5="7D1BC93F834027D1FCA092F93CA6C6C5" import="1">Jets4/Icons/ICON_UNIT_KAMIKAZE_64.dds</File>
+    <File md5="CD67B664F78C90ED94AF6960FE02D265" import="1">Jets4/Icons/ICON_UNIT_KAMIKAZE_80.dds</File>
+    <File md5="5CEDCB3A8CDE1E904A24C6E883163DC4" import="1">Jets4/Icons/ICON_UNIT_MESSERSCHMITT_BF_110888_128.dds</File>
+    <File md5="1122FDD1F7254E15457F663606133EFF" import="1">Jets4/Icons/ICON_UNIT_MESSERSCHMITT_BF_110888_256.dds</File>
+    <File md5="D274201C02D5D845C95791C5DF7AC42F" import="1">Jets4/Icons/ICON_UNIT_MESSERSCHMITT_BF_110888_45.dds</File>
+    <File md5="75B3F94BD5214502C0C3A2A809E97128" import="1">Jets4/Icons/ICON_UNIT_MESSERSCHMITT_BF_110888_64.dds</File>
+    <File md5="65FD293752625D2812FF9424152690D1" import="1">Jets4/Icons/ICON_UNIT_MESSERSCHMITT_BF_110888_80.dds</File>
+    <File md5="8BE6B93B78C1AA9808D991A8DD554DAC" import="1">Jets4/Icons/ICON_UNIT_MESSERSCHMITT_ME_262_SCHWALBE_128.dds</File>
+    <File md5="034CF83EF6188AC73766422D0E68059F" import="1">Jets4/Icons/ICON_UNIT_MESSERSCHMITT_ME_262_SCHWALBE_256.dds</File>
+    <File md5="DC0F0963F02F882B03CA82DFA8245483" import="1">Jets4/Icons/ICON_UNIT_MESSERSCHMITT_ME_262_SCHWALBE_45.dds</File>
+    <File md5="C35EEB797EC1B407D8D22FD4A9251DE0" import="1">Jets4/Icons/ICON_UNIT_MESSERSCHMITT_ME_262_SCHWALBE_64.dds</File>
+    <File md5="5D13C08EB6360983C20671BE3855D594" import="1">Jets4/Icons/ICON_UNIT_MESSERSCHMITT_ME_262_SCHWALBE_80.dds</File>
+    <File md5="D4E2DABD4703B2F00CADAD911A5B27F4" import="1">Jets4/Icons/ICON_UNIT_MITSUBISHI_KI21_128.dds</File>
+    <File md5="675AA5829A127B2AF34237086A038E0D" import="1">Jets4/Icons/ICON_UNIT_MITSUBISHI_KI21_256.dds</File>
+    <File md5="8D297A233AE929768A6CB933F1F3FF79" import="1">Jets4/Icons/ICON_UNIT_MITSUBISHI_KI21_45.dds</File>
+    <File md5="555BC6D015970B7A5AEA257DA40B3FCE" import="1">Jets4/Icons/ICON_UNIT_MITSUBISHI_KI21_64.dds</File>
+    <File md5="9B4952494C8B91EFC5E14CEB53FFA8D9" import="1">Jets4/Icons/ICON_UNIT_MITSUBISHI_KI21_80.dds</File>
+    <File md5="E59E0D87BE6099EC83DAE71E1E4AF145" import="1">Jets4/Icons/ICON_UNIT_PANAVIA_TORNADO777_128.dds</File>
+    <File md5="ED29D5B70DD78FA230715572E795C483" import="1">Jets4/Icons/ICON_UNIT_PANAVIA_TORNADO777_256.dds</File>
+    <File md5="01E104AB493D80FA99851D550CB8D930" import="1">Jets4/Icons/ICON_UNIT_PANAVIA_TORNADO777_45.dds</File>
+    <File md5="77BAA96015790398004DEF65095B56A6" import="1">Jets4/Icons/ICON_UNIT_PANAVIA_TORNADO777_64.dds</File>
+    <File md5="C707A71E819DDA60E19C57256F593239" import="1">Jets4/Icons/ICON_UNIT_PANAVIA_TORNADO777_80.dds</File>
+    <File md5="B04497C0F80A03FA88E0EC9C8344E651" import="1">Jets4/Icons/ICON_UNIT_POTEZ_630_128.dds</File>
+    <File md5="945D66F0F8BFD8F8D332F570F6CF4DD0" import="1">Jets4/Icons/ICON_UNIT_POTEZ_630_256.dds</File>
+    <File md5="56430AEDB02FEE206CDD8659B3F87A81" import="1">Jets4/Icons/ICON_UNIT_POTEZ_630_45.dds</File>
+    <File md5="D3C98640D5CB8E6F70F14E0D50544BB3" import="1">Jets4/Icons/ICON_UNIT_POTEZ_630_64.dds</File>
+    <File md5="F03F29B325C9A63FF418A1DB9A536B7F" import="1">Jets4/Icons/ICON_UNIT_POTEZ_630_80.dds</File>
+    <File md5="99675F5442CAFE523AF1C8BD76F7BA7B" import="1">Jets4/Icons/ICON_UNIT_PZL_P24_KARAS_128.dds</File>
+    <File md5="9C3856F293124BAB58B31B435134BD68" import="1">Jets4/Icons/ICON_UNIT_PZL_P24_KARAS_256.dds</File>
+    <File md5="7D9777D8A131E1BD9BBBEEDECBC3045A" import="1">Jets4/Icons/ICON_UNIT_PZL_P24_KARAS_45.dds</File>
+    <File md5="38C2C51045E20AD86C4D1753E4E4189D" import="1">Jets4/Icons/ICON_UNIT_PZL_P24_KARAS_64.dds</File>
+    <File md5="E3F101EF6737125453FEFA9D67B51C95" import="1">Jets4/Icons/ICON_UNIT_PZL_P24_KARAS_80.dds</File>
+    <File md5="C7F0A153BB1BEE7095051FD479C09419" import="1">Jets4/Icons/ICON_UNIT_SAAB_J21_128.dds</File>
+    <File md5="02427F51ABA6A5CB024A10F76124DF41" import="1">Jets4/Icons/ICON_UNIT_SAAB_J21_256.dds</File>
+    <File md5="FD6DB2F531053EF83E0CFE9641E67C40" import="1">Jets4/Icons/ICON_UNIT_SAAB_J21_45.dds</File>
+    <File md5="403267A1C1D9C7DDEBF0A0BB029BAF85" import="1">Jets4/Icons/ICON_UNIT_SAAB_J21_64.dds</File>
+    <File md5="75D2FB02C394C04192C94F92FA26C154" import="1">Jets4/Icons/ICON_UNIT_SAAB_J21_80.dds</File>
+    <File md5="3FF781230E1CC7744CDAC4CAC26DAA0A" import="1">Jets4/Icons/ICON_UNIT_SAVOIAMARCHETTI_SM84_128.dds</File>
+    <File md5="DDDC62BB2ECC24A648EEC525B48C8371" import="1">Jets4/Icons/ICON_UNIT_SAVOIAMARCHETTI_SM84_256.dds</File>
+    <File md5="4C7CA3A9E13E4EFB7E51A4C6093C2512" import="1">Jets4/Icons/ICON_UNIT_SAVOIAMARCHETTI_SM84_45.dds</File>
+    <File md5="C35BEDDA75335A986130D769CC48D1B6" import="1">Jets4/Icons/ICON_UNIT_SAVOIAMARCHETTI_SM84_64.dds</File>
+    <File md5="F72DAFE416BBE17C05D71D1A64D93349" import="1">Jets4/Icons/ICON_UNIT_SAVOIAMARCHETTI_SM84_80.dds</File>
+    <File md5="D71698C8F7041B976303386C4D4EE365" import="1">Jets4/Icons/ICON_UNIT_SB2C_HJELLDIVER_128.dds</File>
+    <File md5="3C326552896A5F07FACBD3AFC9A3371B" import="1">Jets4/Icons/ICON_UNIT_SB2C_HJELLDIVER_256.dds</File>
+    <File md5="2D6A50A7F21A2777E1432139D6D0E523" import="1">Jets4/Icons/ICON_UNIT_SB2C_HJELLDIVER_45.dds</File>
+    <File md5="559325125CDF5E8ADDE7E2B25EEC0319" import="1">Jets4/Icons/ICON_UNIT_SB2C_HJELLDIVER_64.dds</File>
+    <File md5="76B6630E230F2BC2E4A9111B98815671" import="1">Jets4/Icons/ICON_UNIT_SB2C_HJELLDIVER_80.dds</File>
+    <File md5="EF0A1A33B5877A797F22F1ED2D93571C" import="1">Jets4/Icons/ICON_UNIT_TUPOLEV_TB3_128.dds</File>
+    <File md5="BD7FC3C29D0A484DA575A0524A7C4A34" import="1">Jets4/Icons/ICON_UNIT_TUPOLEV_TB3_256.dds</File>
+    <File md5="15B47D113EAFDE186A84C8C980EE8CC4" import="1">Jets4/Icons/ICON_UNIT_TUPOLEV_TB3_45.dds</File>
+    <File md5="35B4D9D502364B66917FFC30796562A1" import="1">Jets4/Icons/ICON_UNIT_TUPOLEV_TB3_64.dds</File>
+    <File md5="3EC6FD4EAEBA1AEEBA3125DFBD186607" import="1">Jets4/Icons/ICON_UNIT_TUPOLEV_TB3_80.dds</File>
+    <File md5="4424CF41F862D61898281A57093D7AE0" import="1">Jets4/Icons/ICON_UNIT_TUPOLEV_TU22M33_128.dds</File>
+    <File md5="0865387A4658E8676BF1730DAE028344" import="1">Jets4/Icons/ICON_UNIT_TUPOLEV_TU22M33_256.dds</File>
+    <File md5="18C00C6054EC775170706F758AE3A59A" import="1">Jets4/Icons/ICON_UNIT_TUPOLEV_TU22M33_45.dds</File>
+    <File md5="9258EF2261C06E6512BC05427D6361E9" import="1">Jets4/Icons/ICON_UNIT_TUPOLEV_TU22M33_64.dds</File>
+    <File md5="BE00E65DCEED182BC8ED18BA6F5B7E18" import="1">Jets4/Icons/ICON_UNIT_TUPOLEV_TU22M33_80.dds</File>
+    <File md5="CBC6848B2CCF16F5F6FB8A3B5003752B" import="1">Jets4/Icons/ICON_UNIT_UH60M_BLACKHAWK888_128.dds</File>
+    <File md5="DDBD23DA52D86D6BD7D8CBA77E867A3E" import="1">Jets4/Icons/ICON_UNIT_UH60M_BLACKHAWK888_256.dds</File>
+    <File md5="038D4632E79162564640CD745BF5C7D3" import="1">Jets4/Icons/ICON_UNIT_UH60M_BLACKHAWK888_45.dds</File>
+    <File md5="67E30CC2C4D2A52389855555E9DE7987" import="1">Jets4/Icons/ICON_UNIT_UH60M_BLACKHAWK888_64.dds</File>
+    <File md5="B62EE879C5ACFC96533415F04A114EB6" import="1">Jets4/Icons/ICON_UNIT_UH60M_BLACKHAWK888_80.dds</File>
+    <File md5="E06269F57C0E83BBF67F95E5091F6D25" import="1">Jets4/Icons/ICON_UNIT_VICKERS_WELLINGTON_128.dds</File>
+    <File md5="FD94EAA51F916CA90C1244D88ACDAD7B" import="1">Jets4/Icons/ICON_UNIT_VICKERS_WELLINGTON_256.dds</File>
+    <File md5="1BF0ACE6EB22F79D7BBC12E39553D751" import="1">Jets4/Icons/ICON_UNIT_VICKERS_WELLINGTON_45.dds</File>
+    <File md5="054916C3C329218633292E3DDB68FC4B" import="1">Jets4/Icons/ICON_UNIT_VICKERS_WELLINGTON_64.dds</File>
+    <File md5="B2C31C8FD81172E3D857C64529EE69AA" import="1">Jets4/Icons/ICON_UNIT_VICKERS_WELLINGTON_80.dds</File>
+    <File md5="6E89BA297BE885B3A0B4EA9A9FCFF85D" import="1">Jets4/Icons/ICON_UNIT_WESTLAND_WHIRLWIND_128.dds</File>
+    <File md5="31078B8783A4BE6FAA7637FC49DAA659" import="1">Jets4/Icons/ICON_UNIT_WESTLAND_WHIRLWIND_256.dds</File>
+    <File md5="EC327EBD0C8955F541A715F4B8665E2C" import="1">Jets4/Icons/ICON_UNIT_WESTLAND_WHIRLWIND_45.dds</File>
+    <File md5="97EECE204B2DAE459D378CA6AB28D39D" import="1">Jets4/Icons/ICON_UNIT_WESTLAND_WHIRLWIND_64.dds</File>
+    <File md5="A9F6E8167E3B8BBD88FF60811BB4F1F3" import="1">Jets4/Icons/ICON_UNIT_WESTLAND_WHIRLWIND_80.dds</File>
+    <File md5="86D44077C8D47968D396A93B2B21A65D" import="1">Jets4/Icons/ICON_UNIT_YAKOLEV_YAK9_128.dds</File>
+    <File md5="BC61CC5F21022287045C34152F0F41C2" import="1">Jets4/Icons/ICON_UNIT_YAKOLEV_YAK9_256.dds</File>
+    <File md5="D9134EA6585C2CE61B44E073624858F9" import="1">Jets4/Icons/ICON_UNIT_YAKOLEV_YAK9_45.dds</File>
+    <File md5="A27A36527E56E3E1BBBA54F0DB8B4D49" import="1">Jets4/Icons/ICON_UNIT_YAKOLEV_YAK9_64.dds</File>
+    <File md5="6E834E38F844050738521733DD1A394B" import="1">Jets4/Icons/ICON_UNIT_YAKOLEV_YAK9_80.dds</File>
+    <File md5="E1D406676BB675E54CC30C91246C5FA7" import="1">Jets4/Icons/ICON_UNIT_ZEPPELIN_128.dds</File>
+    <File md5="7CDCEA754A318E90A840C55FEB2486A6" import="1">Jets4/Icons/ICON_UNIT_ZEPPELIN_256.dds</File>
+    <File md5="088D3C63BF699F4D1997A354EAE493FF" import="1">Jets4/Icons/ICON_UNIT_ZEPPELIN_45.dds</File>
+    <File md5="9DE04E08DE32D18CF51C53D88D9F9156" import="1">Jets4/Icons/ICON_UNIT_ZEPPELIN_64.dds</File>
+    <File md5="41C382EED4357908393F973666493A5E" import="1">Jets4/Icons/ICON_UNIT_ZEPPELIN_80.dds</File>
+    <File md5="0876AE3D0EC6FEEE66063A6AAA042159" import="0">Jets4/Xml/UnitAH1Cobra888.xml</File>
+    <File md5="104E540BFCDA4D30BF83C564FF8A7446" import="0">Jets4/Xml/UnitB2SpiritStealthBomber.xml</File>
+    <File md5="BE954ED76AE03C5C31F3610484EADE97" import="0">Jets4/Xml/UnitDassaultMirage2000888.xml</File>
+    <File md5="296CD52104F311DE75947823F95A995D" import="0">Jets4/Xml/UnitHortenHo229888.xml</File>
+    <File md5="50BD2E0BF6A7EC277C2FE4F2B2588CA1" import="0">Jets4/Xml/UnitKamikaze.xml</File>
+    <File md5="1CB4502344B0FC33C9AD349042FD8EA1" import="0">Jets4/Xml/UnitPanaviaTornado777.xml</File>
+    <File md5="82E82FE7D62DFDED0F1EF3991BCF3379" import="0">Jets4/Xml/UnitUH60MBlackhawk888.xml</File>
+    <File md5="28095215A238681D9C50B9F8EA7CC614" import="0">Jets4/Xml/UnitAeroA102.xml</File>
+    <File md5="47CD669B92948026D506DD96530997CC" import="0">Jets4/Xml/UnitAichiD3AVal.xml</File>
+    <File md5="14DDC76D126798338D5FF587CFBDA9D7" import="0">Jets4/Xml/UnitAlbatrosDIII.xml</File>
+    <File md5="48AE373257349A277AF86F532F5EA6DA" import="0">Jets4/Xml/UnitAvroLancaster.xml</File>
+    <File md5="2840CE2095B20E2402661B2F4B18708B" import="0">Jets4/Xml/UnitB25Mitchell999.xml</File>
+    <File md5="F3C132AF5D2A978421D8B20E985124FE" import="0">Jets4/Xml/UnitBreguet693.xml</File>
+    <File md5="BF29424E8612A57E024AD5D6E73117CD" import="0">Jets4/Xml/UnitBristolBlenheim.xml</File>
+    <File md5="A230809F15F2F36C672D881C874D5D12" import="0">Jets4/Xml/UnitdeHavillandMosquito.xml</File>
+    <File md5="00A31E3023D7972DBCA966B996B155D3" import="0">Jets4/Xml/UnitF2ABuffalo.xml</File>
+    <File md5="E7E1B094E9A6638ED102658D6B592D26" import="0">Jets4/Xml/UnitF8Crusader22.xml</File>
+    <File md5="5E703C4F8F3909435F2B05F630B4B4A4" import="0">Jets4/Xml/UnitFrenchF8Crusader22.xml</File>
+    <File md5="D871FA9F2EA886C656FA6F48600B1B4F" import="0">Jets4/Xml/UnitHawkerHurricaneMKII.xml</File>
+    <File md5="98D9025EE89D0C05E40BD34745BA2882" import="0">Jets4/Xml/UnitHawkerTempest.xml</File>
+    <File md5="9C523BAF1CC55583E32C50C7574E0997" import="0">Jets4/Xml/UnitHawkerTyphoon33.xml</File>
+    <File md5="4BA93EC8565D9BF3A6FD7AD3B8816C44" import="0">Jets4/Xml/UnitHeinkelHe111888.xml</File>
+    <File md5="0BC8D19CA49005C78DEB15AA718AC953" import="0">Jets4/Xml/UnitHeinkelHe177888.xml</File>
+    <File md5="D0D390A39BCCEED69C803C8A44C4DCE0" import="0">Jets4/Xml/UnitHeinkelHe219Uhu.xml</File>
+    <File md5="82686377B33130FC2EFC8C0F4C225FB7" import="0">Jets4/Xml/UnitIlyushinIl4.xml</File>
+    <File md5="25C3BC332EAEAA93D3A8BC79EA5A02D0" import="0">Jets4/Xml/UnitJunkersJu87Stuka.xml</File>
+    <File md5="225AEE2B66E1DDE77F6F8B6F790AB59A" import="0">Jets4/Xml/UnitJunkersJu88.xml</File>
+    <File md5="AC1450A5B4A598DDEB672D775831E92B" import="0">Jets4/Xml/UnitMesserschmittBf110888.xml</File>
+    <File md5="B7C195C5E0B55466DA78821B9445563A" import="0">Jets4/Xml/UnitMesserschmittMe262Schwalbe.xml</File>
+    <File md5="413F047DD5E56FCCD028D8335F2878AC" import="0">Jets4/Xml/UnitMitsubishiKi21.xml</File>
+    <File md5="32BEDD49A514FB0F3B864D556B9FDD07" import="0">Jets4/Xml/UnitPotez630.xml</File>
+    <File md5="6D9594D8CF9435E476C252B143F39582" import="0">Jets4/Xml/UnitPZLP24Karas.xml</File>
+    <File md5="EC509FADCF4069B66D67CC60A5A42F65" import="0">Jets4/Xml/UnitSaabJ21.xml</File>
+    <File md5="B2BBCC91D9731C4F6FA5DF497C386E75" import="0">Jets4/Xml/UnitSavoiaMarchettiSM84.xml</File>
+    <File md5="CFF265475CD7DBDC0699B19992F25479" import="0">Jets4/Xml/UnitSB2CHJelldiver.xml</File>
+    <File md5="2F0CA72F4B2A12CA2A730AF58F12C2CC" import="0">Jets4/Xml/UnitTupolevTB3.xml</File>
+    <File md5="CCEB21D21F8E490F1B2716281698D02D" import="0">Jets4/Xml/UnitTupolevTu22M33.xml</File>
+    <File md5="B4E5AE70CB1F46AC3AA12A32D55DB324" import="0">Jets4/Xml/UnitVickersWellington.xml</File>
+    <File md5="99DA619BD7A01ED29B76E57B73D1762F" import="0">Jets4/Xml/UnitWestlandWhirlwind.xml</File>
+    <File md5="1CF45ECD55F7EEC044A783DC1C01F1B5" import="0">Jets4/Xml/UnitYakolevYak9.xml</File>
+    <File md5="8B1480DBCA9703395A5248E59DF60024" import="0">Jets4/Xml/UnitZeppelin.xml</File>
+    <File md5="653369554996EB46BFD8ACBD4D9C2831" import="1">Jets5/B-1 Lancer/B-1_Lancer.fxsxml</File>
+    <File md5="577226FD37210747E64A1068ABC1F74C" import="1">Jets5/B-1 Lancer/B-1_Lancer.gr2</File>
+    <File md5="8FBF360E1F299B1EC93B7BC51D05DA5A" import="1">Jets5/B-1 Lancer/B-1_Lancer_diff.dds</File>
+    <File md5="A96C6DBC807423A51939B082AFCFBF2A" import="1">Jets5/B-1 Lancer/fx_triggers_B-1_Lancer.ftsxml</File>
+    <File md5="3502B3F2C09A61481D51CC50D2DF1CC9" import="1">Jets5/B-1 Lancer/ICON_UNIT_B1_LANCER888_128.dds</File>
+    <File md5="F9D9A14CDEA777F9B07C1E7A6FCF602B" import="1">Jets5/B-1 Lancer/ICON_UNIT_B1_LANCER888_256.dds</File>
+    <File md5="F013CA3B4BE55C7A8D2C3DC7D242816C" import="1">Jets5/B-1 Lancer/ICON_UNIT_B1_LANCER888_45.dds</File>
+    <File md5="DCAB4AF1AE4A587FA274FA0B647B1CA4" import="1">Jets5/B-1 Lancer/ICON_UNIT_B1_LANCER888_64.dds</File>
+    <File md5="226F10C5128CE63A53DDB9AEEF090C9B" import="1">Jets5/B-1 Lancer/ICON_UNIT_B1_LANCER888_80.dds</File>
+    <File md5="0C759F1CED95795CCFBE40C6BD9A963C" import="1">Jets5/B-1 Lancer/no_gloss.dds</File>
+    <File md5="59942DE8C0E27E0C8845B6152A515A2F" import="0">Jets5/B-1 Lancer/UnitB1Lancer888.xml</File>
+    <File md5="19B8500B4D39CAA2A38890E560DDEF52" import="1">Jets5/SU-34 Fullback/ICON_UNIT_SU34_FULLBACK888_128.dds</File>
+    <File md5="DCEF4F22A8094AADF5834D2F83FC71AC" import="1">Jets5/SU-34 Fullback/ICON_UNIT_SU34_FULLBACK888_256.dds</File>
+    <File md5="7D2867F5D4D3905267D4F4A82E2D1A17" import="1">Jets5/SU-34 Fullback/ICON_UNIT_SU34_FULLBACK888_45.dds</File>
+    <File md5="45F27C4B795C6394C4B3408B1739CBD4" import="1">Jets5/SU-34 Fullback/ICON_UNIT_SU34_FULLBACK888_64.dds</File>
+    <File md5="E764BC731A81AD4047CF2580A3F53BE0" import="1">Jets5/SU-34 Fullback/ICON_UNIT_SU34_FULLBACK888_80.dds</File>
+    <File md5="D5D2382AF412301164AF724E59B51745" import="1">Jets5/SU-34 Fullback/Su-34.fxsxml</File>
+    <File md5="0695F0ED312661CBFD9EF856E6F53CE5" import="1">Jets5/SU-34 Fullback/Su-34.gr2</File>
+    <File md5="69F797D7A2B53F79B3BBEA4341515CCD" import="1">Jets5/SU-34 Fullback/Su-34_Cam1.fxsxml</File>
+    <File md5="766F538B11C25ADEEC25EEAB59CC71B1" import="1">Jets5/SU-34 Fullback/Su-34_Cam1.gr2</File>
+    <File md5="08CFA3625EC1A2B2C0063F9269CE64BA" import="1">Jets5/SU-34 Fullback/Su-34_Cam1_diff.dds</File>
+    <File md5="498CFAFE1DDBF78F01CD5C9BF229C3C1" import="1">Jets5/SU-34 Fullback/Su-34_Cam2.fxsxml</File>
+    <File md5="4E2F27389EB79F719BB2A5B0BC46340B" import="1">Jets5/SU-34 Fullback/Su-34_Cam2.gr2</File>
+    <File md5="AF9F74533E7EEB61FD151E230DEC08BA" import="1">Jets5/SU-34 Fullback/Su-34_Cam2_diff.dds</File>
+    <File md5="4FE533F8473F0787DE0790569A47179E" import="1">Jets5/SU-34 Fullback/Su-34_Cam3.fxsxml</File>
+    <File md5="A5769A88AB662FEE7BDDBF29ECE388CC" import="1">Jets5/SU-34 Fullback/Su-34_Cam3.gr2</File>
+    <File md5="C553EA10449D8038937328A9605AB904" import="1">Jets5/SU-34 Fullback/Su-34_Cam3_diff.dds</File>
+    <File md5="4299EEEF3B89C882CBD139BDDF2D7F33" import="1">Jets5/SU-34 Fullback/Su-34_diff.dds</File>
+    <File md5="03372A58791972391CB6950095D7949A" import="1">Jets5/SU-34 Fullback/Su-34_sref.dds</File>
+    <File md5="2B17C138E4786F1BCE628DC014E0D042" import="0">Jets5/SU-34 Fullback/UnitSU34Fullback888.xml</File>
+    <File md5="03965BEE40E433B51B6C6DA2A73522E9" import="0">Lua/AirRecon.lua</File>
+    <File md5="ABF37B77ACE7FD8488B6263A2E61CDDE" import="1">New Technology/AAUTECH_Atlas128.dds</File>
+    <File md5="A6B4F00FED1E4BA56FB04720E7EED39D" import="1">New Technology/AAUTECH_Atlas214.dds</File>
+    <File md5="EF96C4718799F5B52D10FD56C5B3F93C" import="1">New Technology/AAUTECH_Atlas256.dds</File>
+    <File md5="FF5EF46EFA8FCCA3B6566AB22748BFC1" import="1">New Technology/AAUTECH_Atlas32.dds</File>
+    <File md5="8631F8CA57513FC7716813BD8F212A22" import="1">New Technology/AAUTECH_Atlas45.dds</File>
+    <File md5="09F096CA5A5B657381C097CF0BB55FA7" import="1">New Technology/AAUTECH_Atlas64.dds</File>
+    <File md5="58EC7ED38F48AB159AF5C824ECB257BB" import="1">New Technology/AAUTECH_Atlas80.dds</File>
+    <File md5="4083938262C4EE67C92F8729DC13212B" import="0">New Technology/New Techs.xml</File>
+    <File md5="B429B6508521FC6023B0AA98CD3A11D5" import="1">Wonder/Art/ICON_UNIT_TOP_GUN_128.dds</File>
+    <File md5="4724A6FE1336362C979F40FDF986D7BC" import="1">Wonder/Art/ICON_UNIT_TOP_GUN_256.dds</File>
+    <File md5="CCAA9C965ED67556BDD8AFC71D8BF92A" import="1">Wonder/Art/ICON_UNIT_TOP_GUN_45.dds</File>
+    <File md5="0525AF0523533E792699849044D4964C" import="1">Wonder/Art/ICON_UNIT_TOP_GUN_64.dds</File>
+    <File md5="5DEBFC1D1432D3EE1D59598B1575B946" import="1">Wonder/Art/ICON_UNIT_TOP_GUN_80.dds</File>
+    <File md5="545ADB0878FAF882BFB7A61B85BA0E37" import="1">Wonder/Art/TOP_GUN_splash.dds</File>
+    <File md5="94C431B777D1CAACB452610C947B96BA" import="1">Wonder/NEED_FOR_SPEED.mp3</File>
+    <File md5="8D0C90B7188DEDDBEA3C8E3848473689" import="0">Wonder/XML/Top_Gun.xml</File>
+    <File md5="9B4DAFDBC723B97B264CABA392E8C12F" import="1">WWII Air Art/Ar234.fxsxml</File>
+    <File md5="5184079A5CE3079FFCA12CA48B79A77A" import="1">WWII Air Art/Ar234.gr2</File>
+    <File md5="4B13FADDB9B063D0EE4667BEA85367B2" import="1">WWII Air Art/Ar234_diff.dds</File>
+    <File md5="A5AACB3968275BD06A30E8CEAA928DED" import="1">WWII Air Art/Ar234_sref.dds</File>
+    <File md5="3700FE90AF9D3A70B8B04B7AF0969827" import="1">WWII Air Art/F4U_Corsair.blend</File>
+    <File md5="F0E828A8153832A301CC6BD4A2B69C0A" import="1">WWII Air Art/F4U_Corsair.dds</File>
+    <File md5="2E5F2FC3E2FA3984CE39826C433EF37E" import="1">WWII Air Art/F4U_Corsair.fxsxml</File>
+    <File md5="6EAFCDBA441B0B5F2F4A826E8D89A4D3" import="1">WWII Air Art/F4U_Corsair.gr2</File>
+    <File md5="ED9B780C2564E4787E2468192AD38991" import="1">WWII Air Art/F4U_Corsair_3.dds</File>
+    <File md5="64C14C6EDF93439088D2A557CBF0BC24" import="1">WWII Air Art/F4U_Corsair_gloss.dds</File>
+    <File md5="BB26AE9BF3F9084146D3EC7CF74B5157" import="1">WWII Air Art/F6F_Hellcat.blend</File>
+    <File md5="BBC3E52136332D26E57BB23E08CABD3B" import="1">WWII Air Art/F6F_Hellcat.dds</File>
+    <File md5="D4F91387D031F8B7F3F59572F3FACD98" import="1">WWII Air Art/F6F_Hellcat.fxsxml</File>
+    <File md5="38BFE1BDF3C62B4B765954AFC910C7D8" import="1">WWII Air Art/F6F_Hellcat.gr2</File>
+    <File md5="A91EC307AB4B544CF874203E379691B7" import="1">WWII Air Art/F6F_Hellcat_gloss.dds</File>
+    <File md5="3CE416ED3836222957317B00CF480C10" import="1">WWII Air Art/Focke-Wulf_Fw-190.blend</File>
+    <File md5="B1420E4DF7A74EC703F41F752A301661" import="1">WWII Air Art/Focke-Wulf_Fw-190.dds</File>
+    <File md5="30E934D0D649067F0748A3C59EF061D0" import="1">WWII Air Art/Focke-Wulf_Fw-190.fxsxml</File>
+    <File md5="CE860047AC6E5F9B3C6A3EDD891C2C4F" import="1">WWII Air Art/Focke-Wulf_Fw-190.gr2</File>
+    <File md5="276735722051502A06AB5B3363C5E155" import="1">WWII Air Art/Focke-Wulf_Fw-190_gloss.dds</File>
+    <File md5="685CB696B003636F5A707B37AC686572" import="1">WWII Air Art/fx_triggers_ar234.ftsxml</File>
+    <File md5="67BDFC8951390BFF61C9B24F79A56E0C" import="1">WWII Air Art/fx_triggers_gazelle.ftsxml</File>
+    <File md5="28DABB35B1C20CE6B2E2DB44FA5F037E" import="1">WWII Air Art/fx_triggers_gazelle_at.ftsxml</File>
+    <File md5="06FB18EFEDE4F2D9677B2EA62D3AFC38" import="1">WWII Air Art/gazelle.fxsxml</File>
+    <File md5="DF91980ED920E0400DB5DDADD3B039EB" import="1">WWII Air Art/Gazelle.gr2</File>
+    <File md5="F80AADA384F5B91F3F6B4679DC49992E" import="1">WWII Air Art/gazelle_at.fxsxml</File>
+    <File md5="BA8DECA97A703A4E821C25E8BBF68AB0" import="1">WWII Air Art/Gazelle_AT.gr2</File>
+    <File md5="E2BD376F153B4D87551FDC868BAA278A" import="1">WWII Air Art/Gazelle_diff.dds</File>
+    <File md5="733B85395D76A96B60C40FA20978C5C8" import="1">WWII Air Art/Gazelle_sref.dds</File>
+    <File md5="B65E1FA2C415B1FD6988DA6A7A23BCF2" import="1">WWII Air Art/Kawasaki_Ki-10_Perry.blend</File>
+    <File md5="299BAB9B8AB675F2FAF7161280DDB20D" import="1">WWII Air Art/Kawasaki_Ki-10_Perry.dds</File>
+    <File md5="0B18EEDCD5E3FE84376628A5C43948A7" import="1">WWII Air Art/Kawasaki_Ki-10_Perry.fxsxml</File>
+    <File md5="09E682822E2D95E79098380F2284FF15" import="1">WWII Air Art/Kawasaki_Ki-10_Perry.gr2</File>
+    <File md5="B53B8592E8278E4A7C6BD50CC94CE495" import="1">WWII Air Art/Messerschmitt_Bf-109E.blend</File>
+    <File md5="F7132609E216508C98B489C66BB5D913" import="1">WWII Air Art/Messerschmitt_Bf-109E.dds</File>
+    <File md5="C528D7E888942E2AFF58C0EC5B4786AB" import="1">WWII Air Art/Messerschmitt_Bf-109E.fxsxml</File>
+    <File md5="00B8382AB9C38EB1B021D831A4BBFFAC" import="1">WWII Air Art/Messerschmitt_Bf-109E.gr2</File>
+    <File md5="E552F84BF82BF8304127FF313FF628A8" import="1">WWII Air Art/Messerschmitt_Bf-109E_gloss.dds</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">WWII Air Art/no_gloss.dds</File>
+    <File md5="579E9B1D73DAC20A4482EA2DEA6079FF" import="1">WWII Air Art/P-38_Lightning.blend</File>
+    <File md5="D8F2BEE23D694B461545A8EF12F29DDC" import="1">WWII Air Art/P-38_Lightning.dds</File>
+    <File md5="5FF5C3A7E5F773C9B0983082368ED9C1" import="1">WWII Air Art/P-38_Lightning.fxsxml</File>
+    <File md5="B4DCEA58C4E439D83FD64A1B02EFA36D" import="1">WWII Air Art/P-38_Lightning.gr2</File>
+    <File md5="F17D18D24E7D8978183D465571D81A5F" import="1">WWII Air Art/P-38_Lightning_gloss.dds</File>
+    <File md5="8EDB32A589EF3860968525B508CE69EF" import="1">WWII Air Art/P-51_Mustang.blend</File>
+    <File md5="AA8450939780B7052BC04EACBE046AC2" import="1">WWII Air Art/P-51_Mustang.dds</File>
+    <File md5="CACEEDE48E7C6800465A057FA4653330" import="1">WWII Air Art/P-51_Mustang.fxsxml</File>
+    <File md5="EFF0901B7C60214F492F3B0F54B969F6" import="1">WWII Air Art/P-51_Mustang.gr2</File>
+    <File md5="5CAABA51AC43D17F1F96466F5B2DA767" import="1">WWII Air Art/P-51_Mustang.psd</File>
+    <File md5="6EFED90ABF584EC8D2B514CC2D7B7863" import="1">WWII Air Art/P-51_Mustang_2.dds</File>
+    <File md5="A90A2671200A6ED8373EE5481927F2A5" import="1">WWII Air Art/P-51_Mustang_3.dds</File>
+    <File md5="1CBB6DAAECC7DEFD86717B45D68843CA" import="1">WWII Air Art/Supermarine_Spitfire_MK_II.blend</File>
+    <File md5="0175D8FACFB67293D0A8E9CC48C8D8E3" import="1">WWII Air Art/Supermarine_Spitfire_MK_II.dds</File>
+    <File md5="CB0FEAA16C6B7C771B21457FACD7D7BC" import="1">WWII Air Art/Supermarine_Spitfire_MK_II.fxsxml</File>
+    <File md5="7121CE8AB83470F58CB3248C8CF55B2E" import="1">WWII Air Art/Supermarine_Spitfire_MK_II.gr2</File>
+    <File md5="9E0DC95B6EFB7CAA644E2F64E37F8A37" import="1">WWII Air Art/Supermarine_Spitfire_MK_II_gloss.dds</File>
+    <File md5="FB3F1131A28219BCA29CC2F7587BA9C0" import="1">WWII Air Art/Supermarine_Spitfire_MK_IX.blend</File>
+    <File md5="4012178D1751D512CD8E4DB3CA6B2A2F" import="1">WWII Air Art/Supermarine_Spitfire_MK_IX.dds</File>
+    <File md5="8133BA6842935B3CAF6877E608E4B4B4" import="1">WWII Air Art/Supermarine_Spitfire_MK_IX.fxsxml</File>
+    <File md5="2779BE438885B711B30001A8EF9CAC65" import="1">WWII Air Art/Supermarine_Spitfire_MK_IX.gr2</File>
+    <File md5="9E0DC95B6EFB7CAA644E2F64E37F8A37" import="1">WWII Air Art/Supermarine_Spitfire_MK_IX_gloss.dds</File>
+    <File md5="15D6335129A08DA58A8328522EDBF5CA" import="1">WWII Air Art/swordfish.fxsxml</File>
+    <File md5="96FF0698AF13EFC656E36889B4C4A45B" import="1">WWII Air Art/Swordfish.gr2</File>
+    <File md5="CBF7D895284F16B03692354D59027000" import="1">WWII Air Art/Swordfish_diff.dds</File>
+    <File md5="D20EC373DC42A65CBB6ACC68DFE9E044" import="1">WWII Air Art/Swordfish_sref.dds</File>
+    <File md5="DDF754DE37EE229EADBD4774BC2F1FBC" import="1">WWII Air Art/Tu-95.fxsxml</File>
+    <File md5="BC73597BBE73D122520939F0CDAC1D6C" import="1">WWII Air Art/Tu-95.gr2</File>
+    <File md5="F35676F4DFD9DCCB627948738C169098" import="1">WWII Air Art/Tu-95_diff.dds</File>
+    <File md5="E938E2E61BDCFC60F1C8E890DB620D70" import="1">WWII Air Art/Tu-95_sref.dds</File>
+    <File md5="1D7FC229B887290533497313AFBD3F1B" import="1">WWII Air Art/WWII Atlas Art/F4U_Corsair_2.dds</File>
+    <File md5="54E4FBA3974BEFD4FAE5111EAA1E4824" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_AR_234_128.dds</File>
+    <File md5="BF45AE9203A83D80365CE22CAF1E9CDB" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_AR_234_256.dds</File>
+    <File md5="87182E90438483F604078931D33B3C7A" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_AR_234_45.dds</File>
+    <File md5="AB73A850713258522D96DDCA40EC112C" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_AR_234_64.dds</File>
+    <File md5="E469098B96B3BEC7EDE8F0A6D9758198" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_AR_234_80.dds</File>
+    <File md5="33626CB48CBD82F144DF03CEFE7C686A" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_B5252_128.dds</File>
+    <File md5="B0E321667E49B5B9BDCD7066D50565EF" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_B5252_256.dds</File>
+    <File md5="CAD24367527AD84582CC3A410C0AE69E" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_B5252_45.dds</File>
+    <File md5="AF0A3B94742E4DC308CDE802DE82AE5D" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_B5252_64.dds</File>
+    <File md5="E7E65F6506F0A46A0B4F8EDF2085AA3C" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_B5252_80.dds</File>
+    <File md5="68B64612A382C37D2F8DA6459D18D7A4" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_BF_019_128.dds</File>
+    <File md5="31E527794DF7C7581ECD7FDA585C27B3" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_BF_019_256.dds</File>
+    <File md5="91569507D0C4E4C5DA0385A8AE7F0685" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_BF_019_45.dds</File>
+    <File md5="759D75077BA68645EDFCFD07CB523298" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_BF_019_64.dds</File>
+    <File md5="19503E65C805F5BAFC43B37C592AD268" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_BF_019_80.dds</File>
+    <File md5="15B71F02F45B8FC90E2B24BD5C9BE68D" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_F4U_CORSAIR_128.dds</File>
+    <File md5="8264E35ABC6BFE076D4FD12DF4B2DB8E" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_F4U_CORSAIR_256.dds</File>
+    <File md5="8AB9A285919C2CA79299EB79D3AABAC9" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_F4U_CORSAIR_45.dds</File>
+    <File md5="DEEB2A921066315975D1081BEC47D89F" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_F4U_CORSAIR_64.dds</File>
+    <File md5="17D278A7FB5366B4DE60D69E38E624CA" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_F4U_CORSAIR_80.dds</File>
+    <File md5="9EE0FC6F5C4C36DE91DEB04B98BAFFEA" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_F6F_HELLCAT_128.dds</File>
+    <File md5="8EA436243E8440CC0B62563D9F4F73E2" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_F6F_HELLCAT_256.dds</File>
+    <File md5="44A6EFFE0D3E527592055576FDF99DFB" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_F6F_HELLCAT_45.dds</File>
+    <File md5="972F2B8BCB60CDC54EE52323E6447E49" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_F6F_HELLCAT_64.dds</File>
+    <File md5="F32C44230F2B688EE89DE555FD93E84E" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_F6F_HELLCAT_80.dds</File>
+    <File md5="1C38A6CE488DA9AE0640210EA547269D" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_FAIREY_SWORDFISH_128.dds</File>
+    <File md5="477B90A3C80D087485B67D3D5047998D" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_FAIREY_SWORDFISH_256.dds</File>
+    <File md5="846D1FADAB06B87A20190BF37DF993A7" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_FAIREY_SWORDFISH_45.dds</File>
+    <File md5="112352C480C5994447592F868898E388" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_FAIREY_SWORDFISH_64.dds</File>
+    <File md5="137416E0A62B67B084EA94CE435FFCBD" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_FAIREY_SWORDFISH_80.dds</File>
+    <File md5="6C813471CAF2CC4F6D4A680D748E37DC" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_FW_190_128.dds</File>
+    <File md5="22026C08F3DBA1391F13EAFE4CA36B78" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_FW_190_256.dds</File>
+    <File md5="5946A21A98CCF215B72402C3F1585D47" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_FW_190_45.dds</File>
+    <File md5="CF189157E7C495011D8CAA8FE68479B8" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_FW_190_64.dds</File>
+    <File md5="A2F655B58A30658C4DBCBF528FBE4A7E" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_FW_190_80.dds</File>
+    <File md5="E97D1DB714E51B2F1FBCD96EE1D92A20" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_GAZELLE_128.dds</File>
+    <File md5="174A5251F95AB84309361AA05325B6D4" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_GAZELLE_256.dds</File>
+    <File md5="175816463339255D74F6C86CCEC7695B" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_GAZELLE_45.dds</File>
+    <File md5="7F73A8B1B1E5732A1620B26BBF40E0C6" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_GAZELLE_64.dds</File>
+    <File md5="7ABA74DE77636C034AB5C5CB838D47E3" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_GAZELLE_80.dds</File>
+    <File md5="C6E15430FF11103C32E39C93D52861C0" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_KI10_PERRY_128.dds</File>
+    <File md5="38F1CADBAC66CA8137FB009936744BB6" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_KI10_PERRY_256.dds</File>
+    <File md5="A66BAC3D2A07F0B2628F631406C4F1B6" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_KI10_PERRY_45.dds</File>
+    <File md5="7BD8F1B3D2E2DD84F6EBBC5F2DEC9480" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_KI10_PERRY_64.dds</File>
+    <File md5="EA736F5057AEFBA90ABFC2AC262D87DC" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_KI10_PERRY_80.dds</File>
+    <File md5="184AF2AB98C7E566623EE9B481F8DC7B" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_P38_LIGHTNING_128.dds</File>
+    <File md5="2E300C1146B0D3F08CA342762AD633B1" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_P38_LIGHTNING_256.dds</File>
+    <File md5="DEAE49C779C6055222C84E6883E00F4A" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_P38_LIGHTNING_45.dds</File>
+    <File md5="EED952D4B75ABECF1606843ADFA8A89F" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_P38_LIGHTNING_64.dds</File>
+    <File md5="D59E0093EF05C67DB82699FF86CACBE2" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_P38_LIGHTNING_80.dds</File>
+    <File md5="12DD3FA360029B2E77CD05F1EC6C8D15" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_P51_MUSTANG_128.dds</File>
+    <File md5="18EB7298E8973D347362FC608F2F8DEE" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_P51_MUSTANG_256.dds</File>
+    <File md5="BE8838D830D0C6413D17C79E7FCAC35F" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_P51_MUSTANG_45.dds</File>
+    <File md5="A36C4B819D283D6E8970BE21ABC302C9" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_P51_MUSTANG_64.dds</File>
+    <File md5="0851D94E84B9C8DD3E48B9D21E700FD9" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_P51_MUSTANG_80.dds</File>
+    <File md5="4B1BDD016C49FCCACDB4DE1FFCDD4D72" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_SEAFIRE_128.dds</File>
+    <File md5="7AA4A573B00AF7ACD2F81A0BB88C1346" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_SEAFIRE_256.dds</File>
+    <File md5="A68C8F99F2BB6C5F78ED8312E5B670F8" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_SEAFIRE_45.dds</File>
+    <File md5="DB85E4996CB11134A755B841B563EC58" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_SEAFIRE_64.dds</File>
+    <File md5="83A5A47D360BFCE3BC7C7F2CECC217E6" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_SEAFIRE_80.dds</File>
+    <File md5="555280D52693F7E3B71A83C724FA50CC" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_SPITFIRE_128.dds</File>
+    <File md5="4D8FE5C02ECDC5EE14578245C06FB048" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_SPITFIRE_256.dds</File>
+    <File md5="413C9D49B5D6D0D75A55C7AC63F3F7AB" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_SPITFIRE_45.dds</File>
+    <File md5="25992D0251EAD6C8B293B87C2E8CBFA3" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_SPITFIRE_64.dds</File>
+    <File md5="E3827D164C637B80C8E3A5374F9AD4B1" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_SPITFIRE_80.dds</File>
+    <File md5="148F0967F51B5A14ABC6221B2DF58420" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_TU95_128.dds</File>
+    <File md5="1B97DDBEE14465E3F1739487A7A94BA5" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_TU95_256.dds</File>
+    <File md5="42288037F09261A38B20424251606FB0" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_TU95_45.dds</File>
+    <File md5="7949A65CC2684CBEE9E708AFB0DC3611" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_TU95_64.dds</File>
+    <File md5="26C9A68A2A66FFF17DE2334721139887" import="1">WWII Air Art/WWII Atlas Art/ICON_UNIT_TU95_80.dds</File>
+    <File md5="B14AAD5E5AF46DA58AB694DA39A530D3" import="0">XML/ArtDefines22.xml</File>
+    <File md5="7DF0AB4D95D6CC71A00CBF6507006C1E" import="0">XML/Civ5UnitClasses22.xml</File>
+    <File md5="FE290B82B6D483B665B68384A4CC053A" import="0">XML/GREEKA7CORSAIRII.xml</File>
+    <File md5="467FB136ED3CC315034961F557A35841" import="0">XML/IconTextureAtlases33.xml</File>
+    <File md5="A321C39DC115916E00F10D70C29600CE" import="0">XML/GameTextEnglish22.xml</File>
+    <File md5="959D65457C63D8F82FAD115A6BD31CDE" import="0">XML/Jets2.xml</File>
+    <File md5="353B345E68FF830B0FEDF6FEDEF3DF98" import="0">XML/Kuznetsov_Art.xml</File>
+    <File md5="DE9B890DB31BCF74453D40036DB22512" import="0">XML/Miscrecon.xml</File>
+    <File md5="4B2B8820CB5E42C193FF6F4616D05428" import="0">XML/Nimitz_Art.xml</File>
+    <File md5="0C2CC44C891CE3B7FF42D78CDD81FAB5" import="0">XML/PORTUGALA7CORSAIRII.xml</File>
+    <File md5="1566546EA1B3BEB0BD4D6EF9163F829C" import="0">XML/PromotionsHeliAirRecon.xml</File>
+    <File md5="56A2E4CA63ACFFD32C47DEE50003E4DF" import="0">XML/ShipUnits.xml</File>
+    <File md5="B40F53544EA462A32B5BAF85023F8342" import="0">XML/SIAMA7CORSAIRII.xml</File>
+    <File md5="AA6428A275D210F352D0495B678BDEEF" import="0">XML/UnitA10ThunderboltII.xml</File>
+    <File md5="278BD60483F6DD9A8B58903D16E487DD" import="0">XML/UnitA7CorsairII.xml</File>
+    <File md5="E6EECD7DB8E767DBB189A881436D521F" import="0">XML/UnitAr234.xml</File>
+    <File md5="3D8205F8A54AFB6B000A3C0C7F0ABC11" import="0">XML/UnitB5252.xml</File>
+    <File md5="83F0F73046B2769F83CD1D0EED554F39" import="0">XML/UnitBf019.xml</File>
+    <File md5="7CBE5D82822FDB752189FEE695C5F015" import="0">XML/UnitCharlesdeGaulleClassAircraftCarrier888.xml</File>
+    <File md5="24E6E6E7FDA16EEB5F63E0B43F4ADFE2" import="0">XML/UnitF35LightningII33.xml</File>
+    <File md5="8FAC18178DB24963A2A5192BFEB6631B" import="0">XML/UnitF4UCorsair.xml</File>
+    <File md5="6DA08CEA97B845D1D463B387EA7D116F" import="0">XML/UnitF6FHellcat.xml</File>
+    <File md5="95DEA24B765D1CC30A89266D3A4F889C" import="0">XML/UnitFaireySwordfish.xml</File>
+    <File md5="2CE37902699425C4842EC96AB6A15591" import="0">XML/UnitFokkerDrI.xml</File>
+    <File md5="9EDAF9512E562842A210E3118D1336CC" import="0">XML/UnitFw190.xml</File>
+    <File md5="54406774995DFB1280972DA175BA3013" import="0">XML/UnitGazelle.xml</File>
+    <File md5="2C463F919710FD30AE9D8A5655113CCD" import="0">XML/UnitKi10Perry.xml</File>
+    <File md5="3294755189D3B6881B03B5444D179FF7" import="0">XML/UnitP38Lightning.xml</File>
+    <File md5="8CF3F806A15E0A40021FB34F619EBDF8" import="0">XML/UnitP51Mustang.xml</File>
+    <File md5="9CC288C6F180DA434A1FE065425CF9B4" import="0">XML/UnitQueenElizabethClassAircraftCarrier888.xml</File>
+    <File md5="B2A57E9EE82205CDA8903782A4426D57" import="0">XML/UnitSeafire.xml</File>
+    <File md5="5B1FA70C30C44BF52AA6166812A50334" import="0">XML/UnitSopwithCamel.xml</File>
+    <File md5="37424FB2F6E99EF33A45240899AB8F7D" import="0">XML/UnitSPADSXIII.xml</File>
+    <File md5="D55919ED0DF27DAEF7E536A86DA26A49" import="0">XML/UnitSpitfire.xml</File>
+    <File md5="44959EB9B74912E5AC4248FE191A0171" import="0">XML/UnitSR71Blackbird.xml</File>
+    <File md5="18BFF0EF223A86FFEDF4BE8359065586" import="0">XML/UnitTU95.xml</File>
+    <File md5="DC0E9F62E2D3CCF9246C3CBB84EB6293" import="0">XML/Meier_Art.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Jets2.xml</UpdateDatabase>
+      <UpdateDatabase>XML/ArtDefines22.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameTextEnglish22.xml</UpdateDatabase>
+      <UpdateDatabase>XML/IconTextureAtlases33.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civ5UnitClasses22.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Kuznetsov_Art.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Nimitz_Art.xml</UpdateDatabase>
+      <UpdateDatabase>XML/ShipUnits.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Meier_Art.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitSopwithCamel.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitFokkerDrI.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitBf019.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitF6FHellcat.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitFw190.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitP38Lightning.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitP51Mustang.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitSeafire.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitSpitfire.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitKi10Perry.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitF4UCorsair.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Miscrecon.xml</UpdateDatabase>
+      <UpdateDatabase>New Technology/New Techs.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitSR71Blackbird.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitA10ThunderboltII.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitA7CorsairII.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GREEKA7CORSAIRII.xml</UpdateDatabase>
+      <UpdateDatabase>XML/PORTUGALA7CORSAIRII.xml</UpdateDatabase>
+      <UpdateDatabase>XML/SIAMA7CORSAIRII.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitTU95.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitAr234.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitFaireySwordfish.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitGazelle.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitB5252.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitSPADSXIII.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitF35LightningII33.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitF15Eagle1.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitF16Falcon16.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitdeHavillandVampire.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitF22Raptor22.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitUH1Huey22.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitF4PhantomII32.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitF86Sabre.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitNakajimaKikka.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitA129Mangusta.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitCF105AvroArrow11.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitEurocopterTiger.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitMilMi888.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitP40Warhawk22.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitSaab35DrakenT.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitSukhoiSU2799.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitA20Havoc123.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitAnsaldoSVA778.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitB24Liberator88.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitB29Superfortress99.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitCaproniCampiniN188.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitDassaultOuragan87.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitGlosterMeteor44.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitNieuport1744.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitP47Thunderbolt89.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitP80ShootingStar.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitPolikarpovPo2555.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitSBDDauntless44.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitSukhoiSu977.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitTBFAvenger33.xml</UpdateDatabase>
+      <UpdateDatabase>Jets3/UnitSukhoiPAKFAT50.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/Hangar_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitAeroA102.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitAichiD3AVal.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitAlbatrosDIII.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitAvroLancaster.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitB25Mitchell999.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitBreguet693.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitBristolBlenheim.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitdeHavillandMosquito.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitF2ABuffalo.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitF8Crusader22.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitFrenchF8Crusader22.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitHawkerHurricaneMKII.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitHawkerTempest.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitHawkerTyphoon33.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitHeinkelHe111888.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitHeinkelHe177888.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitHeinkelHe219Uhu.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitIlyushinIl4.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitJunkersJu87Stuka.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitJunkersJu88.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitMesserschmittBf110888.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitMesserschmittMe262Schwalbe.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitMitsubishiKi21.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitPotez630.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitPZLP24Karas.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitSaabJ21.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitSavoiaMarchettiSM84.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitSB2CHJelldiver.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitTupolevTB3.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitVickersWellington.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitWestlandWhirlwind.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitPanaviaTornado777.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitDassaultMirage2000888.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitYakolevYak9.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitTupolevTu22M33.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitZeppelin.xml</UpdateDatabase>
+      <UpdateDatabase>XML/PromotionsHeliAirRecon.xml</UpdateDatabase>
+      <UpdateDatabase>Wonder/XML/Top_Gun.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitKamikaze.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitQueenElizabethClassAircraftCarrier888.xml</UpdateDatabase>
+      <UpdateDatabase>XML/UnitCharlesdeGaulleClassAircraftCarrier888.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitAH1Cobra888.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitUH60MBlackhawk888.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitHortenHo229888.xml</UpdateDatabase>
+      <UpdateDatabase>Jets4/Xml/UnitB2SpiritStealthBomber.xml</UpdateDatabase>
+      <UpdateDatabase>Jets5/B-1 Lancer/UnitB1Lancer888.xml</UpdateDatabase>
+      <UpdateDatabase>Jets5/SU-34 Fullback/UnitSU34Fullback888.xml</UpdateDatabase>
+      <UpdateDatabase>Fixinator.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/AirRecon.lua">
+      <Name>Air Recon</Name>
+      <Description>Air Sweep Reveals Tiles</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

@@ -1,8 +1,6 @@
 -- http://forums.civfanatics.com/showthread.php?t=461429
 
--- ************************************************
--- ***************** HeliSquad ********************
--- ************************************************
+
 -- Description: Same as infantry but with more mobility
 
 -- *** ART ***
@@ -40,7 +38,7 @@ SELECT ( 'ART_DEF_UNIT_MEMBER_HELISQUAD' ), --Type
        Scale,
        ZOffset,
        Domain,
-       'gazelle.fxsxml', --Model
+       'UH1_team.fxsxml', --Model
        MaterialTypeTag,
        MaterialTypeSoundOverrideTag
   FROM ArtDefine_UnitMemberInfos
@@ -305,17 +303,17 @@ INSERT INTO Units (
 ) 
 SELECT 
     ( 'UNIT_HELISQUAD' ), --Type, --TEXT NOT NULL UNIQUE,
-    ( 'TXT_KEY_UNIT_HELISQUAD_Description' ), --Description, --TEXT,
-    'TXT_KEY_UNIT_HELISQUAD_Civilopedia'                  ,--TEXT,
-    'TXT_KEY_UNIT_HELISQUAD_Strategy'                     ,--TEXT,
-    'TXT_KEY_UNIT_HELISQUAD_Help'                         ,--TEXT,
+    ( 'TXT_KEY_UNIT_HELISQUAD_DESCRIPTION' ), --Description, --TEXT,
+    'TXT_KEY_UNIT_HELISQUAD_CIVILOPEDIA'                  ,--TEXT,
+    'TXT_KEY_UNIT_HELISQUAD_STRATEGY'                     ,--TEXT,
+    'TXT_KEY_UNIT_HELISQUAD_HELP'                         ,--TEXT,
     Requirements                 ,--TEXT,
-    75 , --Combat, --INTEGER DEFAULT 0,
+    65 , --Combat, --INTEGER DEFAULT 0,
     RangedCombat                 ,--INTEGER DEFAULT 0,
     800, --Cost, --INTEGER DEFAULT 0,
     FaithCost                    ,--INTEGER DEFAULT 0,
     RequiresFaithPurchaseEnabled ,--BOOLEAN DEFAULT 0,
-    6, --Moves, --INTEGER DEFAULT 0,
+    4, --Moves, --INTEGER DEFAULT 0,
     Immobile                     ,--BOOLEAN DEFAULT 0,
     Range                        ,--INTEGER DEFAULT 0,
     4, --BaseSightRange, --INTEGER DEFAULT 2,
@@ -387,7 +385,7 @@ SELECT
     LeaderExperience             ,--INTEGER DEFAULT 0,
     DontShowYields               ,--BOOLEAN DEFAULT 0,
     ShowInPedia                  ,--BOOLEAN DEFAULT 1,
-    MoveRate                     ,--TEXT    DEFAULT 'BIPED',
+    'WHEELED'	,--MoveRate   --TEXT    DEFAULT 'BIPED',
     UnitFlagIconOffset           ,--INTEGER DEFAULT 0,
     PortraitIndex                ,--INTEGER DEFAULT '-1',
     IconAtlas                    ,--TEXT    DEFAULT NULL,
@@ -440,7 +438,7 @@ INSERT INTO Unit_FreePromotions (
 SELECT ( 'UNIT_HELISQUAD' ),
        PromotionType
   FROM Unit_FreePromotions
- WHERE ( UnitType = 'UNIT_MARINE' );
+ WHERE ( UnitType = 'UNIT_MARINE' )
 UNION
 SELECT
  'UNIT_HELISQUAD'
@@ -475,50 +473,28 @@ SELECT
  
  -- *** TEXTS INFO ***
 
-INSERT INTO [Language_en_US](
-            [Tag] --TEXT
-           ,[Text] --TEXT
+INSERT INTO Language_en_US(
+            Tag --TEXT
+           ,Text --TEXT
 		   )
 SELECT
 
-           'TXT_KEY_UNIT_HELISQUAD_Description' 
-           ,'AntiSubmarine Heli'
+           'TXT_KEY_UNIT_HELISQUAD_DESCRIPTION' 
+           ,'Squad Heli'
 UNION
 SELECT
 
-           'TXT_KEY_UNIT_HELISQUAD_Civilopedia' 
-           ,'AntiSubmarine Heli'
+           'TXT_KEY_UNIT_HELISQUAD_CIVILOPEDIA' 
+           ,'Squad Heli'
 UNION
 SELECT
 
-           'TXT_KEY_UNIT_HELISQUAD_Strategy' 
-           ,'AntiSubmarine Heli'
+           'TXT_KEY_UNIT_HELISQUAD_STRATEGY' 
+           ,'Squad Heli'
 UNION
 SELECT
 
-           'TXT_KEY_UNIT_HELISQUAD_Help' 
-           ,'AntiSubmarine Heli'   
+           'TXT_KEY_UNIT_HELISQUAD_HELP' 
+           ,'Squad Heli'   
 ; 
 
-/*
-<Formations>
-	<Formation>
-		<Name>MechanizedInfantry</Name>
-		<SpacingX>17</SpacingX>
-		<SpacingY>27</SpacingY>
-		<SpacingMultiplier>1</SpacingMultiplier>
-		<PerRowInc>0</PerRowInc>
-		<YOffsetInc>6</YOffsetInc>
-		<YOffsetCurved>1</YOffsetCurved>
-		<Stagger>1</Stagger>
-		<UnitRandomness>0.2</UnitRandomness>
-		<BlockRandomness>0.2</BlockRandomness>
-		<TotalWidth>3</TotalWidth>
-		<XBlockSize>0</XBlockSize>
-		<XBlockSpacingCount>0</XBlockSpacingCount>
-		<YBlockSize>0</YBlockSize>
-		<YBlockSpacingCount>0</YBlockSpacingCount>
-		<CenterWidth>0</CenterWidth>
-	</Formation>
-</Formations>
-*/

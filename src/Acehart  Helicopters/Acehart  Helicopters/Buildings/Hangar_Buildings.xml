@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_HELIPORT</Type>
+			<DefaultBuilding>BUILDING_HELIPORT</DefaultBuilding>
+			<Description>Small airport suitable for use by helicopters and some other vertical lift platforms</Description>
+			<MaxPlayerInstances>10</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	
+	<Buildings>
+		<Row>
+			<Type>BUILDING_HELIPORT</Type>
+			<BuildingClass>BUILDINGCLASS_HELIPORT</BuildingClass>
+			<Cost>800</Cost>
+			<GoldMaintenance>5</GoldMaintenance>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+			<Description>TXT_KEY_BUILDING_HELIPORT</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HELIPORT_CIVILOPEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HELIPORT_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_HELIPORT_HELP</Help>
+			<Quote></Quote>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			
+			<ConquestProb>66</ConquestProb>
+			<AirModifier>5</AirModifier>
+			<Airlift>1</Airlift>
+			<Defense>500</Defense>
+			<ExtraCityHitPoints>25</ExtraCityHitPoints>
+			
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_HELIPORT</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	
+	<Building_UnitCombatFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_HELIPORT</BuildingType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+			<Experience>50</Experience>
+		</Row>
+	</Building_UnitCombatFreeExperiences>
+	
+	<Building_DomainProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_HELIPORT</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Modifier>50</Modifier>
+		</Row>
+	</Building_DomainProductionModifiers>
+	
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_HELIPORT</BuildingType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HELIPORT</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HELIPORT</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_HELIPORT</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>BW_ATLAS_HELIPORT</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ART/Heliport/ICON_UNIT_HELIPORT_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_HELIPORT</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ART/Heliport/ICON_UNIT_HELIPORT_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_HELIPORT</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ART/Heliport/ICON_UNIT_HELIPORT_64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_HELIPORT</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>ART/Heliport/ICON_UNIT_HELIPORT_80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_HELIPORT</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ART/Heliport/ICON_UNIT_HELIPORT_45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	
+	
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_BUILDING_HELIPORT">
+			<Text>Helicopter Hangar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HELIPORT_CIVILOPEDIA">
+			<Text>A heliport is an area of land, water, or structure used or intended to be used for the landing and takeoff of helicopters, and includes its buildings and facilities (if any).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HELIPORT_STRATEGY">
+			<Text>The heliport provides +50 experience for newly created fighters [NEWLINE] It also increased the number of air units per city by +5, and increased air unit production speed by +50, Can only  build 10 Heliports per Civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HELIPORT_HELP">
+			<Text>The heliport provides +50 experience for newly created fighters [NEWLINE] It also increased the number of air units per city by +5, and increased air unit production speed by +50[NEWLINE]Can only  build 10 Heliports per Civilization.</Text>
+		</Row>
+
+
+	</Language_en_US>
+	
+	
+</GameData>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/10/2013 1:04:06 AM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_SHIPYARD_HELP">
+			<Text>The Shipyard provides +15% production of naval units in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHIPYARD_PEDIA">
+			<Text>Shipyards are places where ships are repaired and built. These can be yachts, military vessels, cruise liners or other cargo or passenger ships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHIPYARD_STRATEGY">
+			<Text>The Shipyard provides +15% production of naval units and requires a seaport.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NAVAL_OFFICER_ACADEMY_HELP">
+			<Text>The Officer Academy provides 15xp to all Naval Units. It also provides a free Great Admiral in this City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_NAVAL_OFFICER_ACADEMY_TEXT">
+			<Text>The Officer Academy provides the best training a Naval Officer could hope for. Some of history's greatest Admirals were products of these Academies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NAVAL_OFFICER_ACADEMY_STRATEGY">
+			<Text>Gives 15xp to all Naval units and gives a free Great Admiral. Great for giving your fleets the edge you need.</Text>
+		</Row>
+	</Language_en_US>
+  </GameData>

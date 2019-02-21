@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/9/2015 3:57:30 PM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_WWIITANK888</Type>
+			<Description>WWII Era Tank</Description>
+			<DefaultUnit>NONE</DefaultUnit>
+		</Row>
+
+		<Row>
+			<Type>UNITCLASS_WWIITANK8882</Type>
+			<Description>WWII Era Tank</Description>
+			<DefaultUnit>NONE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+  
+</GameData>

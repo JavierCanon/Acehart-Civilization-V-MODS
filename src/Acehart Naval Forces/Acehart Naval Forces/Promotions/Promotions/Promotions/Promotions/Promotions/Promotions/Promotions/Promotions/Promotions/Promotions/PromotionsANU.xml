@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/4/2015 8:46:18 AM -->
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_CARGO_XXI</Type>
+			<Description>TXT_KEY_PROMOTION_CARGO_XXI</Description>
+			<Help>TXT_KEY_PROMOTION_CARGO_XXI</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CargoChange>10</CargoChange>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_CARGO_XXI</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_CARGO_XXII</Type>
+			<Description>TXT_KEY_PROMOTION_CARGO_XXII</Description>
+			<Help>TXT_KEY_PROMOTION_CARGO_XXII</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CargoChange>15</CargoChange>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_CARGO_XXII</PediaEntry>
+		</Row>
+			</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_CARGO_XXI">
+			<Text>Can Carry 10 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_CARGO_XXI">
+			<Text>Can Carry 10 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CARGO_XXII">
+			<Text>Can Carry 15 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_CARGO_XXII">
+			<Text>Can Carry 15 Cargo</Text>
+		</Row>
+	
+	</Language_en_US>
+	
+</GameData>

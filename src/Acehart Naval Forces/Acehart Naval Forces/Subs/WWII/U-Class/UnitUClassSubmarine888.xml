@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_UCLASS888</Type>
+			<Description>U-Class Submarine</Description>
+			<DefaultUnit>NONE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+  <Units>
+    <Row>
+      <Type>UNIT_UCLASS_SUBMARINE888</Type>
+      <Description>TXT_KEY_UNIT_UCLASS_SUBMARINE888</Description>
+      <CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
+		<Domain>DOMAIN_SEA</Domain>
+      <Class>UNITCLASS_UCLASS888</Class>
+      <Cost>330</Cost>
+      <AdvancedStartCost>62</AdvancedStartCost>
+      <Combat>63</Combat>
+      <RangedCombat>79</RangedCombat>
+      <Range>2</Range>
+      <RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
+      <RangeAttackIgnoreLOS>true</RangeAttackIgnoreLOS>
+      <Moves>5</Moves>
+      <Strategy>TXT_KEY_UNIT_UCLASS_SUBMARINE888_STRATEGY</Strategy>
+      <Help>TXT_KEY_UNIT_UCLASS_SUBMARINE888_HELP</Help>
+      <Civilopedia>TXT_KEY_UNIT_UCLASS_SUBMARINE888_PEDIA</Civilopedia>
+      <PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+      <ObsoleteTech>TECH_TELECOM</ObsoleteTech>
+      <MoveRate>SUB</MoveRate>
+      <Mechanized>true</Mechanized>
+      <UnitArtInfo>ART_DEF_UNIT_UCLASS_SUBMARINE888</UnitArtInfo>
+      <IconAtlas>ATLAS_ICON_UNIT_UCLASS_SUBMARINE888</IconAtlas>
+      <PortraitIndex>0</PortraitIndex>
+      <UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
+      <UnitFlagIconOffset>69</UnitFlagIconOffset>
+      <RangedCombatLimit>100</RangedCombatLimit>
+      <MilitaryProduction>true</MilitaryProduction>
+      <MilitarySupport>true</MilitarySupport>
+      <DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+		<XPValueAttack>5</XPValueAttack>
+		<XPValueDefense>5</XPValueDefense>
+    </Row>
+  </Units>
+  <Unit_AITypes>
+    <Row>
+      <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+      <UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+      <UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+    </Row>
+	  <Row>
+		  <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+		  <UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+	  </Row>
+  </Unit_AITypes>
+  <Unit_Flavors>
+    <Row>
+      <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+      <FlavorType>FLAVOR_NAVAL</FlavorType>
+      <Flavor>20</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+      <FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+      <Flavor>5</Flavor>
+    </Row>
+  </Unit_Flavors>
+  <Civilization_UnitClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+      <UnitClassType>UNITCLASS_UCLASS888</UnitClassType>
+      <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+    </Row>
+  </Civilization_UnitClassOverrides>
+  <Unit_ClassUpgrades>
+    <Row>
+      <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+      <UnitClassType>UNITCLASS_NUCLEAR_SUBMARINE</UnitClassType>
+    </Row>
+  </Unit_ClassUpgrades>
+  <Unit_FreePromotions>
+    <Row>
+      <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_ANTI_SUBMARINE_I</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_SILENT_HUNTER</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_RIVAL_TERRITORY</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_STRONGER_VS_DAMAGED</PromotionType>
+    </Row>
+	  <Row>
+		  <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+		  <PromotionType>PROMOTION_CAN_MOVE_IMPASSABLE</PromotionType>
+	  </Row>
+    <Row>
+      <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_NAVAL_TRADITION</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_ICEBREAKER</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_INVISIBLE_SUBMARINE</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+    </Row>
+  </Unit_FreePromotions>
+  <Unit_ResourceQuantityRequirements>
+    <Row>
+      <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+      <ResourceType>RESOURCE_IRON</ResourceType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+      <ResourceType>RESOURCE_OIL</ResourceType>
+    </Row>
+  </Unit_ResourceQuantityRequirements>
+  <ArtDefine_UnitInfos>
+    <Row>
+      <Type>ART_DEF_UNIT_UCLASS_SUBMARINE888</Type>
+      <DamageStates>1</DamageStates>
+      
+    </Row>
+  </ArtDefine_UnitInfos>
+  <ArtDefine_UnitInfoMemberInfos>
+    <Row>
+      <UnitInfoType>ART_DEF_UNIT_UCLASS_SUBMARINE888</UnitInfoType>
+      <UnitMemberInfoType>ART_DEF_UNIT_MEMBER_UCLASS_SUBMARINE888</UnitMemberInfoType>
+      <NumMembers>1</NumMembers>
+    </Row>
+  </ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_UCLASS_SUBMARINE888</Type>
+			<Scale>.11</Scale>
+			<Domain>Sea</Domain>
+			<Model>SUBS/WWII/U-CLASS/U_Class.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_UCLASS_SUBMARINE888</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLongRangedAttack>1</HasLongRangedAttack>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_UCLASS_SUBMARINE888</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION1TON</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+			<SelectionSound>AS2D_SELECT_NUCLEAR_SUBMARINE</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_NUCLEAR_SUBMARINE</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+  <IconTextureAtlases>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_UCLASS_SUBMARINE888</Atlas>
+      <IconSize>256</IconSize>
+      <Filename>ICON_UNIT_UCLASS_SUBMARINE888_256.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_UCLASS_SUBMARINE888</Atlas>
+      <IconSize>128</IconSize>
+      <Filename>ICON_UNIT_UCLASS_SUBMARINE888_128.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_UCLASS_SUBMARINE888</Atlas>
+      <IconSize>80</IconSize>
+      <Filename>ICON_UNIT_UCLASS_SUBMARINE888_80.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_UCLASS_SUBMARINE888</Atlas>
+      <IconSize>64</IconSize>
+      <Filename>ICON_UNIT_UCLASS_SUBMARINE888_64.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_UCLASS_SUBMARINE888</Atlas>
+      <IconSize>45</IconSize>
+      <Filename>ICON_UNIT_UCLASS_SUBMARINE888_45.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+  </IconTextureAtlases>
+  <ArtDefine_StrategicView>
+    <Row>
+      <StrategicViewType>ART_DEF_UNIT_UCLASS_SUBMARINE888</StrategicViewType>
+      <TileType>Unit</TileType>
+		<Asset>sv_submarine.dds</Asset>
+    </Row>
+  </ArtDefine_StrategicView>
+  <Language_en_US>
+    <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888">
+      <Text>U-Class Submarine</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888_STRATEGY">
+      <Text>The Submarine is a specialized ship-killing vessel. It is invisible to most units - except for destroyers and other Submarines - until it attacks, or is adjacent to another unit. The Submarine can enter ice hexes. Use the Submarine to patrol enemy waters and sink enemy ships, and to guard your own ships against attacks from enemy subs.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888_HELP">
+      <Text>Invisible to all Units except Destroyers and other Submarines, or until it attacks or is adjacent to another unit. Can cause major damage to other ships if they get into range without being seen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888_PEDIA">
+      <Text>These small submarines, of around 630 tons, were originally intended as unarmed training vessels to replace the ageing H class, to be used as practice targets in anti-submarine training exercises.[NEWLINE]The first three boats, HMS Undine, HMS Unity, and HMS Ursula were ordered in 1936, and during construction were modified to accommodate four internal and two external bow torpedo tubes. Apart from Undine and Unity, all boats were also equipped with a three-inch (76 mm) gun, although they lacked a hatch for the gun crew, who had instead to use the main conning tower hatch.[NEWLINE]As war loomed, twelve more vessels were ordered, although only four had the external tubes (HMS Unique, HMS Upholder, HMS Upright and HMS Utmost). The external tubes were dropped from later vessels because they generated a large bow wave and made depth keeping more difficult at periscope depth.[NEWLINE]They proved to be useful warships in the confined waters of the North Sea and particularly in the Mediterranean. A further 34 vessels, forming the third group, were ordered in 1940 and 1941. They were similar to the second group, but were lengthened by 5 feet (1.5 m) to provide a more streamlined shape. All but two of the 49 boats built were constructed by Vickers-Armstrong; the exceptions were HMS Umpire and HMS Una, both built at Chatham Dockyard. The submarines were powered by Paxman diesels generating 615 bhp (460 kW) and electric motors that could put out 825 shp (615 kW) giving a surface speed of 11.25 knots (21 km/h) and a submerged speed of 10 knots (19 km/h) .  --  Wikipedia</Text>
+    </Row>
+	  <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888_UNDINE">
+		  <Text>HMS Undine</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888_UNITY">
+		  <Text>HMS Unity</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888_URSULA">
+		  <Text>HMS Ursula</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888_UMPIRE">
+		  <Text>HMS Umpire</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888_UNA">
+		  <Text>HMS Una</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888_UNBEATEN">
+		  <Text>HMS Unbeaten</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888_UNDAUNTED">
+		  <Text>HMS Undaunted</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888_UNION">
+		  <Text>HMS Union</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888_UNIQUE">
+		  <Text>HMS Unique</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888_UPHOLDER">
+		  <Text>HMS Upholder</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888_UPRIGHT">
+		  <Text>HMS Upright</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888_URCHIN">
+		  <Text>HMS Urchin</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888_URGE">
+		  <Text>HMS Urge</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888_USK">
+		  <Text>HMS Usk</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888_UTMOST">
+		  <Text>HMS Utmost</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_UCLASS_SUBMARINE888_UPROAR">
+		  <Text>HMS Uproar</Text>
+	  </Row>
+  </Language_en_US>
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UCLASS_SUBMARINE888_UNDINE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UCLASS_SUBMARINE888_UNITY</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UCLASS_SUBMARINE888_URSULA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UCLASS_SUBMARINE888_UMPIRE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UCLASS_SUBMARINE888_UNA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UCLASS_SUBMARINE888_UNBEATEN</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UCLASS_SUBMARINE888_UNDAUNTED</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UCLASS_SUBMARINE888_UNION</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UCLASS_SUBMARINE888_UNIQUE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UCLASS_SUBMARINE888_UPHOLDER</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UCLASS_SUBMARINE888_UPRIGHT</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UCLASS_SUBMARINE888_URCHIN</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UCLASS_SUBMARINE888_URGE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UCLASS_SUBMARINE888_USK</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UCLASS_SUBMARINE888_UTMOST</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UCLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_UCLASS_SUBMARINE888_UPROAR</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+</GameData>
+

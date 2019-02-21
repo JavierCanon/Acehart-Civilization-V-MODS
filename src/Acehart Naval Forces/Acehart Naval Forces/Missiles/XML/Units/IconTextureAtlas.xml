@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/11/2013 1:55:55 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>UNIT_TOMAHAWKCM_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>TomahawkCM256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_TOMAHAWKCM_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>TomahawkCM128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_TOMAHAWKCM_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>TomahawkCM80.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_TOMAHAWKCM_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>TomahawkCM64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_TOMAHAWKCM_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>TomahawkCM45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

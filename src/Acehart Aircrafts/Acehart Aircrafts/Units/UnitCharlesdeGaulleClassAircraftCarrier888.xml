@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_CDG888</Type>
+			<Description>Charles de Gaulle Class Assault Carrier</Description>
+			<DefaultUnit>NONE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+  <Units>
+    <Row>
+      <Type>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</Type>
+      <Description>TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</Description>
+      <CombatClass>UNITCOMBAT_CARRIER</CombatClass>
+		<Domain>DOMAIN_SEA</Domain>
+      <Class>UNITCLASS_CDG888</Class>
+      <Cost>550</Cost>
+      <HurryCostModifier>150</HurryCostModifier>
+      <AdvancedStartCost>65</AdvancedStartCost>
+      <Combat>115</Combat>
+      <Moves>20</Moves>
+      <AirInterceptRange>2</AirInterceptRange>
+      <SpecialCargo>SPECIALUNIT_FIGHTER</SpecialCargo>
+      <Strategy>TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_STRATEGY</Strategy>
+      <Help>TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_HELP</Help>
+      <Civilopedia>TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_PEDIA</Civilopedia>
+      <PrereqTech>TECH_ROBOTICS</PrereqTech>
+      <MoveRate>BOAT</MoveRate>
+      <Mechanized>true</Mechanized>
+      <UnitArtInfo>ART_DEF_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitArtInfo>
+      <IconAtlas>ATLAS_ICON_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</IconAtlas>
+      <PortraitIndex>0</PortraitIndex>
+      <UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
+      <UnitFlagIconOffset>70</UnitFlagIconOffset>
+      <CombatLimit>100</CombatLimit>
+      <DomainCargo>DOMAIN_AIR</DomainCargo>
+      <MilitaryProduction>true</MilitaryProduction>
+      <MilitarySupport>true</MilitarySupport>
+      <DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
+    </Row>
+  </Units>
+  <Unit_AITypes>
+    <Row>
+      <UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+      <UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+      <UnitAIType>UNITAI_DEFENSE</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+      <UnitAIType>UNITAI_COUNTER</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+      <UnitAIType>UNITAI_EXPLORE</UnitAIType>
+    </Row>
+  </Unit_AITypes>
+  <Unit_Flavors>
+    <Row>
+      <UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+      <FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+      <Flavor>40</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+      <FlavorType>FLAVOR_DEFENSE</FlavorType>
+      <Flavor>9</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+      <FlavorType>FLAVOR_DEFENSE</FlavorType>
+      <Flavor>9</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+      <FlavorType>FLAVOR_RECON</FlavorType>
+      <Flavor>4</Flavor>
+    </Row>
+  </Unit_Flavors>
+  <Civilization_UnitClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
+      <UnitClassType>UNITCLASS_CDG888</UnitClassType>
+      <UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+    </Row>
+  </Civilization_UnitClassOverrides>
+  <Unit_FreePromotions>
+    <Row>
+      <UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+      <PromotionType>PROMOTION_AIR_RECON</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+      <PromotionType>PROMOTION_CARGO_XX</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+      <PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+      <PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+      <PromotionType>PROMOTION_SENTRY</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+      <PromotionType>PROMOTION_SUPPLY</PromotionType>
+    </Row>
+  </Unit_FreePromotions>
+  <Unit_ResourceQuantityRequirements>
+    <Row>
+      <UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+      <ResourceType>RESOURCE_ALUMINUM</ResourceType>
+    </Row>
+	  <Row>
+		  <UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+		  <ResourceType>RESOURCE_IRON</ResourceType>
+	  </Row>
+    <Row>
+      <UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+      <ResourceType>RESOURCE_URANIUM</ResourceType>
+    </Row>
+  </Unit_ResourceQuantityRequirements>
+  <ArtDefine_UnitInfos>
+    <Row>
+      <Type>ART_DEF_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</Type>
+      <DamageStates>3</DamageStates>
+      <Formation />
+    </Row>
+  </ArtDefine_UnitInfos>
+  <ArtDefine_UnitInfoMemberInfos>
+    <Row>
+      <UnitInfoType>ART_DEF_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitInfoType>
+      <UnitMemberInfoType>ART_DEF_UNIT_MEMBER_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitMemberInfoType>
+      <NumMembers>1</NumMembers>
+    </Row>
+  </ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</Type>
+			<Scale>0.16</Scale>
+			<Domain>Sea</Domain>
+			<Model>Art/Porte-Avions_2.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<DisableActions></DisableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLeftRightAttack>1</HasLeftRightAttack>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasIndependentWeaponFacing>1</HasIndependentWeaponFacing>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25</VisKillStrengthMin>
+			<VisKillStrengthMax>50</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION1TON</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25</VisKillStrengthMin>
+			<VisKillStrengthMax>50</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+  <UnitGameplay2DScripts>
+    <Row>
+      <UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+      <SelectionSound />
+      <FirstSelectionSound />
+    </Row>
+  </UnitGameplay2DScripts>
+  <IconTextureAtlases>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</Atlas>
+      <IconSize>256</IconSize>
+      <Filename>ICON_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_256.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</Atlas>
+      <IconSize>128</IconSize>
+      <Filename>ICON_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_128.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</Atlas>
+      <IconSize>80</IconSize>
+      <Filename>ICON_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_80.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</Atlas>
+      <IconSize>64</IconSize>
+      <Filename>ICON_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_64.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</Atlas>
+      <IconSize>45</IconSize>
+      <Filename>ICON_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_45.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+  </IconTextureAtlases>
+    <Language_en_US>
+    <Row Tag="TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888">
+      <Text>Charles de Gaulle Class Aircraft Carrier</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_STRATEGY">
+      <Text>Modern aircraft carrier, able to hold aircraft and project air power anywhere the sea will take it.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_HELP">
+      <Text>The R91 Charles de Gaulle Aircraft Carrier has the ability to hold 5 aircraft, and project power ashore from anywhere there is a water tile.  It has a range of 20 and a defensive attack power of 120.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_PEDIA">
+      <Text>Charles de Gaulle (R91) is the flagship of the French Navy (Marine Nationale) and the largest Western European warship currently in commission (although the two Queen Elizabeth-class aircraft carriers currently being built for the Royal Navy are significantly larger). She is the tenth French aircraft carrier, the first French nuclear-powered surface vessel, and the first and so far only nuclear-powered carrier completed outside of the United States Navy. She is named after French statesman and general Charles de Gaulle.[NEWLINE]The ship carries a complement of Dassault-Breguet Super Étendard, Dassault Rafale M and E‑2C Hawkeye aircraft, EC725 Caracal and AS532 Cougar helicopter for combat search and rescue, as well as modern electronics and Aster missiles. It is a CATOBAR-type carrier that uses two 75 m C13‑3 steam catapults of a shorter version of the catapult system installed on the U.S. Nimitz-class aircraft carriers, one catapult at the bow and one across the front of the landing area. - Wikipedia</Text>
+    </Row>
+	  <Row Tag="TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_CHARLES_DE_GAULLE">
+		  <Text>R91 Charles de Gaulle</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_LOUIS_XVI">
+		  <Text>R92 Louis XVI</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_CHARLEMAGNE">
+		  <Text>R93 Charlemagne</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_MEROVINGIAN">
+		  <Text>R94 Merovingian</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_NAPOLEON">
+		  <Text>R95 Napoleon Bonaparte</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_JOAN_OF_ARC">
+		  <Text>R96 Joan of Arc</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_DESCARTES">
+		  <Text>R97 Rene Descartes</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_MAID">
+		  <Text>R98 The Maid of Lorraine</Text>
+	  </Row>
+  </Language_en_US>
+
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_CHARLES_DE_GAULLE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_LOUIS_XVI</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_CHARLEMAGNE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_MEROVINGIAN</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_NAPOLEON</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_JOAN_OF_ARC</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_DESCARTES</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_CHARLES_DE_GAULLE_CLASS_AIRCRAFT_CARRIER888_MAID</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+</GameData>
+

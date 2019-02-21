@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_CONSTITUTION888</Type>
+			<Description>USS Constitution</Description>
+			<DefaultUnit>NONE</DefaultUnit>
+			<MaxPlayerInstances>6</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+  <Units>
+    <Row>
+      <Type>UNIT_USS_CONSTITUTION888</Type>
+      <Description>TXT_KEY_UNIT_USS_CONSTITUTION888</Description>
+      <CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+      <Domain>DOMAIN_SEA</Domain>
+      <Class>UNITCLASS_CONSTITUTION888</Class>
+      <Cost>200</Cost>
+      <AdvancedStartCost>50</AdvancedStartCost>
+      <Combat>70</Combat>
+      <RangedCombat>65</RangedCombat>
+      <Range>3</Range>
+      <RangeAttackIgnoreLOS>true</RangeAttackIgnoreLOS>
+      <IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+      <Moves>5</Moves>
+      <Strategy>TXT_KEY_UNIT_USS_CONSTITUTION888_STRATEGY</Strategy>
+      <Help>TXT_KEY_UNIT_USS_CONSTITUTION888_HELP</Help>
+      <Civilopedia>TXT_KEY_UNIT_USS_CONSTITUTION888_PEDIA</Civilopedia>
+      <PrereqTech>TECH_NAVIGATION</PrereqTech>
+      <ObsoleteTech>TECH_ELECTRONICS</ObsoleteTech>
+      <Pillage>true</Pillage>
+      <PillagePrereqTech>TECH_CHEMISTRY</PillagePrereqTech>
+      <MoveRate>WOODEN_BOAT</MoveRate>
+      <Mechanized>true</Mechanized>
+      <UnitArtInfo>ART_DEF_UNIT_USS_CONSTITUTION888</UnitArtInfo>
+      <IconAtlas>ATLAS_ICON_UNIT_USS_CONSTITUTION888</IconAtlas>
+      <PortraitIndex>0</PortraitIndex>
+      <UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
+      <UnitFlagIconOffset>51</UnitFlagIconOffset>
+      <RangedCombatLimit>100</RangedCombatLimit>
+      <MinAreaSize>10</MinAreaSize>
+      <MilitaryProduction>true</MilitaryProduction>
+      <MilitarySupport>true</MilitarySupport>
+      <DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+    </Row>
+  </Units>
+  <Unit_AITypes>
+    <Row>
+      <UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+      <UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+      <UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+      <UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+    </Row>
+    
+  </Unit_AITypes>
+  <Unit_Flavors>
+    <Row>
+      <UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+      <FlavorType>FLAVOR_NAVAL</FlavorType>
+      <Flavor>20</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+      <FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+      <Flavor>9</Flavor>
+    </Row>
+  
+  </Unit_Flavors>
+  <Civilization_UnitClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+      <UnitClassType>UNITCLASS_CONSTITUTION888</UnitClassType>
+      <UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+    </Row>
+  </Civilization_UnitClassOverrides>
+  <Unit_FreePromotions>
+    <Row>
+      <UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+      <PromotionType>PROMOTION_AIR_RECON</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+      <PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+      <PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+      <PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+      <PromotionType>PROMOTION_SENTRY</PromotionType>
+    </Row>
+  </Unit_FreePromotions>
+  <Unit_ResourceQuantityRequirements>
+    <Row>
+      <UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+      <ResourceType>RESOURCE_IRON</ResourceType>
+    </Row>
+  </Unit_ResourceQuantityRequirements>
+  <Unit_YieldFromKills>
+    <Row>
+      <UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+      <YieldType>YIELD_CULTURE</YieldType>
+      <Yield>10</Yield>
+    </Row>
+  </Unit_YieldFromKills>
+  <ArtDefine_UnitInfos>
+    <Row>
+      <Type>ART_DEF_UNIT_USS_CONSTITUTION888</Type>
+      <DamageStates>1</DamageStates>
+		<Formation>TwoBigGuns</Formation>
+    </Row>
+  </ArtDefine_UnitInfos>
+  <ArtDefine_UnitInfoMemberInfos>
+    <Row>
+      <UnitInfoType>ART_DEF_UNIT_USS_CONSTITUTION888</UnitInfoType>
+      <UnitMemberInfoType>ART_DEF_UNIT_MEMBER_USS_CONSTITUTION888</UnitMemberInfoType>
+      <NumMembers>1</NumMembers>
+    </Row>
+  </ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_USS_CONSTITUTION888</Type>
+			<Scale>0.18</Scale>
+			<Domain>Sea</Domain>
+			<Model>SURFACE/RENISSAINCE_ERA/SURFACE_SHIPS/CONSTITUTION/WarGalleon.fxsxml</Model>
+			<MaterialTypeTag>WOOD</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>WOODLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_USS_CONSTITUTION888</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<DisableActions></DisableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLeftRightAttack>1</HasLeftRightAttack>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasIndependentWeaponFacing>1</HasIndependentWeaponFacing>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_USS_CONSTITUTION888</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>10</VisKillStrengthMin>
+			<VisKillStrengthMax>20</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_CANNON_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION6POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+  <UnitGameplay2DScripts>
+    <Row>
+      <UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+		<SelectionSound>AS2D_SELECT_FRIGATE</SelectionSound>
+		<FirstSelectionSound>SND_BIRTH_FRIGATE</FirstSelectionSound>
+    </Row>
+  </UnitGameplay2DScripts>
+  <IconTextureAtlases>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_USS_CONSTITUTION888</Atlas>
+      <IconSize>256</IconSize>
+      <Filename>ICON_UNIT_USS_CONSTITUTION888_256.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_USS_CONSTITUTION888</Atlas>
+      <IconSize>128</IconSize>
+      <Filename>ICON_UNIT_USS_CONSTITUTION888_128.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_USS_CONSTITUTION888</Atlas>
+      <IconSize>80</IconSize>
+      <Filename>ICON_UNIT_USS_CONSTITUTION888_80.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_USS_CONSTITUTION888</Atlas>
+      <IconSize>64</IconSize>
+      <Filename>ICON_UNIT_USS_CONSTITUTION888_64.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_USS_CONSTITUTION888</Atlas>
+      <IconSize>45</IconSize>
+      <Filename>ICON_UNIT_USS_CONSTITUTION888_45.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+  </IconTextureAtlases>
+  <ArtDefine_StrategicView>
+    <Row>
+      <StrategicViewType>ART_DEF_UNIT_USS_CONSTITUTION888</StrategicViewType>
+      <TileType>Unit</TileType>
+      <Asset>sv_frigate.dds</Asset>
+    </Row>
+  </ArtDefine_StrategicView>
+  <Language_en_US>
+    <Row Tag="TXT_KEY_UNIT_USS_CONSTITUTION888">
+      <Text>Constitution Class Frigate</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_USS_CONSTITUTION888_STRATEGY">
+      <Text>The Frigate is the first naval unit since the Caravel. It is slightly slower than the Caravel, but its Combat and Ranged Combat strengths are more than twice as large as the older naval unit. The Frigate can clear the seas of any Caravels, Triremes, and Barbarian units still afloat.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_USS_CONSTITUTION888_HELP">
+      <Text>Powerful Renaissance Era Naval Unit used to wrest control of the seas. Only the Americans may build them (max of 6).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_USS_CONSTITUTION888_PEDIA">
+      <Text>USS Constitution is a wooden-hulled, three-masted heavy frigate of the United States Navy, named by President George Washington after the Constitution of the United States of America. The boat is the world's oldest commissioned naval vessel afloat. Launched in 1797, Constitution was one of six original frigates authorized for construction by the Naval Act of 1794 and the third constructed. Joshua Humphreys designed the frigates to be the young Navy's capital ships, and so Constitution and her sisters were larger and more heavily armed and built than standard frigates of the period, built in Boston, Massachusetts, at Edmund Hartt's shipyard. Her first duties with the newly formed U.S. Navy were to provide protection for American merchant shipping during the Quasi-War with France and to defeat the Barbary pirates in the First Barbary War.[NEWLINE]Constitution is most famous for her actions during the War of 1812 against the United Kingdom, when she captured numerous merchant ships and defeated five British warships: HMS Guerriere, Java, Pictou, Cyane, and Levant. The battle with Guerriere earned her the nickname of "Old Ironsides" and public adoration that has repeatedly saved her from scrapping. She continued to serve as flagship in the Mediterranean and African squadrons, and circled the world in the 1840s. During the American Civil War, she served as a training ship for the United States Naval Academy. She carried US artwork and industrial displays to the Paris Exposition of 1878.[NEWLINE]Retired from active service in 1881, Constitution served as a receiving ship until designated a museum ship in 1907. In 1934 she completed a three-year, 90-port tour of the nation. Constitution sailed under her own power for her 200th birthday in 1997, and again in August 2012, to commemorate the 200th anniversary of her victory over Guerriere.[NEWLINE]Constitution‍ '​s stated mission today is to promote understanding of the Navy's role in war and peace through educational outreach, historic demonstration, and active participation in public events. As a fully commissioned US Navy ship, her crew of 60 officers and sailors participate in ceremonies, educational programs, and special events while keeping the ship open to visitors year round and providing free tours. The officers and crew are all active-duty US Navy personnel and the assignment is considered special duty in the Navy. Traditionally, command of the vessel is assigned to a Navy commander. Constitution is berthed at Pier 1 of the former Charlestown Navy Yard, at one end of Boston's Freedom Trail. - WikiPedia</Text>
+    </Row>
+	  <Row Tag="TXT_KEY_UNIT_USS_CONSTITUTION888_CONSTITUTION">
+		  <Text>USS Constitution</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_USS_CONSTITUTION888_CHESAPEAKE">
+		  <Text>USS Chesapeake</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_USS_CONSTITUTION888_PRESIDENT">
+		  <Text>USS President</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_USS_CONSTITUTION888_CONGRESS">
+		  <Text>USS Congress</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_USS_CONSTITUTION888_UNITED_STATES">
+		  <Text>USS United States</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_USS_CONSTITUTION888_CONSTELLATION">
+		  <Text>USS Constellation</Text>
+	  </Row>
+  </Language_en_US>
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_USS_CONSTITUTION888_CONSTITUTION</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_USS_CONSTITUTION888_CHESAPEAKE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_USS_CONSTITUTION888_PRESIDENT</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_USS_CONSTITUTION888_UNITED_STATES</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_USS_CONSTITUTION888_CONGRESS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_USS_CONSTITUTION888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_USS_CONSTITUTION888_CONSTELLATION</UniqueName>
+		</Row>
+		</Unit_UniqueNames>
+</GameData>
+

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Type>UNIT_BMP2888GREEN</Type>
+			<Description>TXT_KEY_UNIT_BMP2888</Description>
+			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+
+			<Class>UNITCLASS_APC888</Class>
+			<Cost>400</Cost>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<Combat>105</Combat>
+			<RangedCombat>80</RangedCombat>
+			<Range>1</Range>
+			<RangeAttackIgnoreLOS>true</RangeAttackIgnoreLOS>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Moves>8</Moves>
+			<SpecialCargo>SPECIALUNIT_APC_CARGO</SpecialCargo>
+			<Strategy>TXT_KEY_UNIT_BMP2888_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_BMP2888_HELP</Help>
+			<Civilopedia>TXT_KEY_UNIT_BMP2888_PEDIA</Civilopedia>
+			<PrereqTech>TECH_LASERS</PrereqTech>
+			<Pillage>true</Pillage>
+			<MoveRate>WHEELED</MoveRate>
+			<Mechanized>true</Mechanized>
+			<UnitArtInfo>ART_DEF_UNIT_BMP2888GREEN</UnitArtInfo>
+			<IconAtlas>ATLAS_ICON_UNIT_BMP2888</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>73</UnitFlagIconOffset>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<MilitaryProduction>true</MilitaryProduction>
+			<MilitarySupport>true</MilitarySupport>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<UnitAIType>UNITAI_COUNTER</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>24</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>13</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>13</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+	</Unit_Flavors>
+	
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<PromotionType>PROMOTION_CAN_CROSS_MOUNTAINS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<PromotionType>PROMOTION_CAN_CROSS_ICE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<PromotionType>PROMOTION_SKI_INFANTRY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<PromotionType>PROMOTION_CARGO_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<PromotionType>PROMOTION_RIVAL_TERRITORY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<PromotionType>PROMOTION_MOHAWK</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<PromotionType>PROMOTION_OPEN_TERRAIN</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<PromotionType>PROMOTION_STRONGER_VS_DAMAGED</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<PromotionType>PROMOTION_EVASION</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_IMPASSABLE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<PromotionType>PROMOTION_MEDIC</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<PromotionType>PROMOTION_APC</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<ArtDefine_UnitInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_BMP2888GREEN</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>Vehihcle</Formation>
+		</Row>
+	</ArtDefine_UnitInfos>
+	<ArtDefine_UnitInfoMemberInfos>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_BMP2888GREEN</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_BMP2888GREEN</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_BMP2888GREEN</Type>
+			<Scale>0.14</Scale>
+			<Model>LIGHT_ARMOR/BMP2/GREEN/BMP2GreenTeam.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALSM</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_BMP2888GREEN</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady</EnableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasStationaryMelee>1</HasStationaryMelee>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<ReformBeforeCombat>1</ReformBeforeCombat>
+			<HasIndependentWeaponFacing>1</HasIndependentWeaponFacing>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_BMP2888GREEN</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25.0</VisKillStrengthMin>
+			<VisKillStrengthMax>50.0</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_TANK_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION20POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_BMP2888GREEN</UnitType>
+			<SelectionSound>AS2D_SELECT_MECH_INFANTRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MECH_INFANTRY</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_BMP2888GREEN</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_MechanizedInfantry.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_BMP2888">
+			<Text>BMP-2 IFV</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BMP2888_STRATEGY">
+			<Text>Light Armor Infantry Fighting Vehicles (IFV) are stronger and faster than regular Infantry. Although fast, Mech Infantry can move after combat like Tanks; their primary responsibility is, hit and run tactics, and anti-tank warfare.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BMP2888_HELP">
+			<Text>Fast ranged late game unit, it is designed to carry anti-tank missiles, and use hit and run tactics to be effective in battle.  -- They have a range of 1 and can't take cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BMP2888_PEDIA">
+			<Text>The BMP-2 is a second-generation, amphibious infantry fighting vehicle introduced in the 1980s in the Soviet Union, following on from the BMP-1 of the 1960s.  --  Wikipedia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BMP2888FRANCE">
+			<Text>VBCI IFV</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BMP2888FRANCE_STRATEGY">
+			<Text>Light Armor Infantry Fighting Vehicles (IFV) are stronger and faster than regular Infantry. Although fast, Mech Infantry can move after combat like Tanks; their primary responsibility is, hit and run tactics, and anti-tank warfare.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BMP2888FRANCE_HELP">
+			<Text>Fast ranged late game unit, it is designed to carry anti-tank missiles, and use hit and run tactics to be effective in battle.  -- They have a range of 1 and can't take cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BMP2888FRANCE_PEDIA">
+			<Text>The Véhicule Blindé de Combat d'Infanterie (VBCI, "Armoured vehicle for infantry combat") is a French Infantry fighting vehicle designed to replace the AMX-10P.[3] They entered active service with the French Army in 2008, with 630 vehicles ordered up to 2010. Other countries like Spain [4] and the UK [5] have shown interest in the vehicle.[NEWLINE]The Véhicule Blindé de Combat d'Infanterie is built on an aluminium hull which carries a modular THD steel and titanium armour, which can be replaced in the field. The 8x8 wheel combination is designed to make the VBCI more comfortable and less costly than a tracked vehicle, while giving it sufficient mobility to back the Leclerc tank. The VBCI is also designed to be transportable by the Airbus A400M, with an empty mass less than 18 tonnes (full load mass up to 28 tonnes).  --  Wikipedia</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_BMP2888</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ICON_UNIT_BMP2888_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_BMP2888</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ICON_UNIT_BMP2888_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_BMP2888</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>ICON_UNIT_BMP2888_80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_BMP2888</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ICON_UNIT_BMP2888_64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_ICON_UNIT_BMP2888</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ICON_UNIT_BMP2888_45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+	<!-- 
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_MOBILE_INFANTRY888</Type>
+			<Description>TXT_KEY_UNIT_MOBILE_INFANTRY888</Description>
+			<DefaultUnit>UNIT_MOBILE_INFANTRY888</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	-->
+
+</GameData>
+

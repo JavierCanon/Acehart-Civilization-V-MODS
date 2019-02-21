@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_AKULA888</Type>
+			<Description>Akula Class Submarine</Description>
+			<DefaultUnit>NONE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+  <Units>
+    <Row>
+      <Type>UNIT_AKULA_CLASS_SUBMARINE888</Type>
+      <Description>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888</Description>
+      <CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
+		<Domain>DOMAIN_SEA</Domain>
+      <Class>UNITCLASS_AKULA888</Class>
+      <Cost>425</Cost>
+      <HurryCostModifier>50</HurryCostModifier>
+      <AdvancedStartCost>65</AdvancedStartCost>
+      <Combat>80</Combat>
+      <RangedCombat>110</RangedCombat>
+      <Range>3</Range>
+      <RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
+      <RangeAttackIgnoreLOS>true</RangeAttackIgnoreLOS>
+      <IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+      <Moves>7</Moves>
+      <SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
+      <Strategy>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_STRATEGY</Strategy>
+      <Help>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_HELP</Help>
+      <Civilopedia>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_PEDIA</Civilopedia>
+      <PrereqTech>TECH_TELECOM</PrereqTech>
+      <Pillage>true</Pillage>
+      <MoveRate>SUB</MoveRate>
+      <Mechanized>true</Mechanized>
+      <UnitArtInfo>ART_DEF_UNIT_AKULA_CLASS_SUBMARINE888</UnitArtInfo>
+      <IconAtlas>ATLAS_ICON_UNIT_AKULA_CLASS_SUBMARINE888</IconAtlas>
+      <PortraitIndex>0</PortraitIndex>
+      <UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
+      <UnitFlagIconOffset>81</UnitFlagIconOffset>
+      <RangedCombatLimit>100</RangedCombatLimit>
+      <DomainCargo>DOMAIN_AIR</DomainCargo>
+      <MilitaryProduction>true</MilitaryProduction>
+      <MilitarySupport>true</MilitarySupport>
+      <DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+		<MinAreaSize>10</MinAreaSize>
+		<XPValueAttack>4</XPValueAttack>
+		<XPValueDefense>4</XPValueDefense>
+    </Row>
+  </Units>
+  <Unit_AITypes>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
+    </Row>
+  </Unit_AITypes>
+  <Unit_Flavors>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <FlavorType>FLAVOR_NAVAL</FlavorType>
+      <Flavor>35</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <FlavorType>FLAVOR_NUKE</FlavorType>
+      <Flavor>3</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+      <Flavor>5</Flavor>
+    </Row>
+  </Unit_Flavors>
+  <Civilization_UnitClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
+      <UnitClassType>UNITCLASS_AKULA888</UnitClassType>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+    </Row>
+	  <Row>
+		  <CivilizationType>CIVILIZATION_INDIA</CivilizationType>
+		  <UnitClassType>UNITCLASS_AKULA888</UnitClassType>
+		  <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+	  </Row>
+  </Civilization_UnitClassOverrides>
+  <Unit_FreePromotions>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_SILENT_HUNTER</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_CARGO_III</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_RIVAL_TERRITORY</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_STRONGER_VS_DAMAGED</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_EXTRA_SIGHT_II</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_INVISIBLE_SUBMARINE</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <PromotionType>PROMOTION_CAN_MOVE_IMPASSABLE</PromotionType>
+    </Row>
+	  <Row>
+		  <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+		  <PromotionType>PROMOTION_SUPPLY</PromotionType>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+		  <PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+		  <PromotionType>PROMOTION_WOLFPACK_1</PromotionType>
+	  </Row>
+  </Unit_FreePromotions>
+  <Unit_ResourceQuantityRequirements>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <ResourceType>RESOURCE_ALUMINUM</ResourceType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <ResourceType>RESOURCE_IRON</ResourceType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <ResourceType>RESOURCE_OIL</ResourceType>
+    </Row>
+  </Unit_ResourceQuantityRequirements>
+  <ArtDefine_UnitInfos>
+    <Row>
+      <Type>ART_DEF_UNIT_AKULA_CLASS_SUBMARINE888</Type>
+      <DamageStates>3</DamageStates>
+      <Formation />
+    </Row>
+  </ArtDefine_UnitInfos>
+  <ArtDefine_UnitInfoMemberInfos>
+    <Row>
+      <UnitInfoType>ART_DEF_UNIT_AKULA_CLASS_SUBMARINE888</UnitInfoType>
+      <UnitMemberInfoType>ART_DEF_UNIT_MEMBER_AKULA_CLASS_SUBMARINE888</UnitMemberInfoType>
+      <NumMembers>1</NumMembers>
+    </Row>
+  </ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_AKULA_CLASS_SUBMARINE888</Type>
+			<Scale>.11</Scale>
+			<Domain>Sea</Domain>
+			<Model>SUBS/MODERN/ART/akula.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_AKULA_CLASS_SUBMARINE888</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLongRangedAttack>1</HasLongRangedAttack>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_AKULA_CLASS_SUBMARINE888</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION1TON</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+  <UnitGameplay2DScripts>
+    <Row>
+      <UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+      <SelectionSound>AS2D_SELECT_NUCLEAR_SUBMARINE</SelectionSound>
+      <FirstSelectionSound>AS2D_BIRTH_NUCLEAR_SUBMARINE</FirstSelectionSound>
+    </Row>
+  </UnitGameplay2DScripts>
+  <IconTextureAtlases>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_AKULA_CLASS_SUBMARINE888</Atlas>
+      <IconSize>256</IconSize>
+      <Filename>ICON_UNIT_AKULA_CLASS_SUBMARINE888_256.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_AKULA_CLASS_SUBMARINE888</Atlas>
+      <IconSize>128</IconSize>
+      <Filename>ICON_UNIT_AKULA_CLASS_SUBMARINE888_128.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_AKULA_CLASS_SUBMARINE888</Atlas>
+      <IconSize>80</IconSize>
+      <Filename>ICON_UNIT_AKULA_CLASS_SUBMARINE888_80.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_AKULA_CLASS_SUBMARINE888</Atlas>
+      <IconSize>64</IconSize>
+      <Filename>ICON_UNIT_AKULA_CLASS_SUBMARINE888_64.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+    <Row>
+      <Atlas>ATLAS_ICON_UNIT_AKULA_CLASS_SUBMARINE888</Atlas>
+      <IconSize>45</IconSize>
+      <Filename>ICON_UNIT_AKULA_CLASS_SUBMARINE888_45.dds</Filename>
+      <IconsPerRow>1</IconsPerRow>
+      <IconsPerColumn>1</IconsPerColumn>
+    </Row>
+  </IconTextureAtlases>
+  <ArtDefine_StrategicView>
+    <Row>
+      <StrategicViewType>ART_DEF_UNIT_AKULA_CLASS_SUBMARINE888</StrategicViewType>
+      <TileType>Unit</TileType>
+      <Asset>sv_nuclearsubmarine.dds</Asset>
+    </Row>
+  </ArtDefine_StrategicView>
+  <Language_en_US>
+    <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888">
+      <Text>Akula Class Submarine</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_STRATEGY">
+      <Text>The Akula class nuclear submarine is tougher and stronger than the Industrial-era model. It too is invisible to most units and can see other submarines. Most importantly,the Akula can carry guided missiles and nuclear missiles. Like submarines, Akula Class Submarines are vulnerable to enemy destroyers and subs, so send units of your own out ahead to make sure the coast is clear.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_HELP">
+      <Text>Invisible to all Units except Destroyers and other Submarines, or until it attacks or is adjacent to another unit. Can carry 3 Missiles, and is specialized in hunting other Submarines.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_PEDIA">
+      <Text>Project 971 (Shchuka-B, 'Shchuka' meaning "pike", NATO reporting name "Akula"), is a nuclear-powered attack submarine (SSN) first deployed by the Soviet Navy in 1986. The class is also known under the name Bars (meaning "snow leopard").[6] There are four sub-classes or flights of Shchuka, consisting of the original seven "Akula I" submarines which were commissioned between 1984 and 1990, six "Improved Akula" submarines commissioned between 1991 and 2009, one "Akula II" submarine commissioned in 1995 and one "Akula III" commissioned in 2001.[citation needed] The Russians call all of the submarines Schuka-B, regardless of modifications.[NEWLINE]Some potential for confusion may exist, as the name Akula (Акула meaning "shark" in Russian) was used by the Soviets for a different submarine, the Projekt 941 which is known in the West as the Typhoon-class. By contrast, the Projekt 971 (the subject of this article) was named Shchuka-B by the Soviets but designated as the "Akula-class" by the West after the name of the lead ship, K-284. - WikiPedia</Text>
+    </Row>
+	  <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_AKULA">
+		  <Text>K-284 Akula</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_DELFIN">
+		  <Text>K-263 Delfin</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_KASHALOT">
+		  <Text>K-322 Kashalot</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_AK_BARS">
+		  <Text>K-480 Ak Bars</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_BRATSK">
+		  <Text>K-391 Bratsk</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_PANTERA">
+		  <Text>K-317 Pantera</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_MAGADAN">
+		  <Text>K-331 Magadan</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_VOLK">
+		  <Text>K-461 Volk</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_LEOPARD">
+		  <Text>K-328 Leopard</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_KUZBASS">
+		  <Text>K-419 Kuzbass</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_TIGR">
+		  <Text>K-154 Tigr</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_SAMARA">
+		  <Text>K-295 Samara</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_VEPR">
+		  <Text>K-157 Vepr</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_GEPARD">
+		  <Text>K-335 Gepard</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_KUGUAR">
+		  <Text>K-337 Kuguar</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_RYS">
+		  <Text>K-333 Rys</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_NERPAL">
+		  <Text>K-152 Nerpal</Text>
+	  </Row>
+	  <Row Tag="TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_IRIBIS">
+		  <Text>K-xxx Iribis</Text>
+	  </Row>
+  </Language_en_US>
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_AKULA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_DELFIN</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_KASHALOT</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_AK_BARS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_BRATSK</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_PANTERA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_MAGADAN</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_VOLK</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_LEOPARD</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_KUZBASS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_TIGR</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_SAMARA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_VEPR</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_GEPARD</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_KUGUAR</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_RYS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_NERPAL</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AKULA_CLASS_SUBMARINE888</UnitType>
+			<UniqueName>TXT_KEY_UNIT_AKULA_CLASS_SUBMARINE888_IRIBIS</UniqueName>
+		</Row>
+		
+	</Unit_UniqueNames>
+</GameData>
+

@@ -1,0 +1,1391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3b0d5b17-9e6a-4841-a2c5-0ef08c277713" version="9">
+  <Properties>
+    <Name>Advanced Naval Units</Name>
+    <Teaser>Contains 131 new Naval Units for Civ V[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Requires BNW[ENDCOLOR]</Teaser>
+    <Description>Advanced Naval Units Version 9[NEWLINE][NEWLINE]
+This mod contains 106 new ships, 6 new aircraft, 15 new land units, and 4 missiles from all across the Civ V timeline.[NEWLINE]For a grand total of -= 131 =- New Units[NEWLINE] (See discussion thread for Ship List)[NEWLINE][NEWLINE]This mod no longer requires Advanced Air Units, it is STANDALONE,[NEWLINE]However, using DLL - Various Mod Components Enchances this game[NEWLINE][NEWLINE]This mod [COLOR_POSITIVE_TEXT]INCORPORATES - EXPANDED NAVAL IMMERSION &amp; COMPANION MOD - Credit Faustaud[ENDCOLOR] for his incredible work![NEWLINE][NEWLINEFor a ship list, see my steam workshop page for this mod[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]This mod REQUIRES - Brave New World (BNW)[ENDCOLOR][NEWLINE][NEWLINE]Blocks Mods:[NEWLINE]Tomahawk Cruise Missiles, Expanded Naval Immersion &amp; Companion Mod[NEWLINE][NEWLINE]DLL - Various Mod Components Enchances:[NEWLINE]Magellan Bonus (first one to traverse the globe), Allies can unseat a blockade, Submarines ignore borders, and Subs Immune under ice[NEWLINE]Special Thanks to swatmp5, Faustaud, Wolfdog, Whoward69, Snafusmith, and Nomadorwhat for their contributions to make this mod work! ---Testing if this will prevent Save Game Corruption ---
+[NEWLINE][NEWLINE]
+******  THIS MOD WORKS BETTER WITH DLL - VARIOUS MOD COMPONENTS BY WHOWARD69 ******[NEWLINE]PICK IT UP AT WWW.PICKNMIXMODS.COM</Description>
+    <Authors>Josh laBrie</Authors>
+    <SpecialThanks>Whoward69, Wolfdog, Snafusmith, swatmp5, nomadorwhat</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="66" maxversion="999" title="DLL - Various Mod Components" />
+    <Mod id="2b20b249-e6c8-47a9-8ebc-62a755e0b549" minversion="11" maxversion="999" title="Advanced Air Units" />
+  </References>
+  <Blocks>
+    <Mod id="08fcdfef-b5ec-49c5-b434-320140081049" minversion="0" maxversion="999" title="Tomahawk Cruise Missiles" />
+    <Mod id="7328d693-a7fc-4077-9e27-042464f98cd0" minversion="0" maxversion="999" title="Expanded Naval Immersion" />
+    <Mod id="00795240-68a6-4784-8605-8708152976b9" minversion="0" maxversion="999" title="E.N.I. Companion Mod" />
+  </Blocks>
+  <Files>
+    <File md5="9309774C33232FFC6E47E09F56BDD3C5" import="1">edited animations/edited_aim_attack_city_to_run.dge</File>
+    <File md5="FA9CE373BB700CFCD8F0FA3A955B1E69" import="1">edited animations/edited_aim_attack_to_run_graph.dge</File>
+    <File md5="BA4F6AEB27527AB47CC284B27C8288A8" import="1">edited animations/edited_aim_bombard_defend_loop_graph.dge</File>
+    <File md5="933E4A224EFE615D537517EFE06B34BC" import="1">edited animations/edited_aim_civilian_activate_captured.dge</File>
+    <File md5="87476FD4384999BCCBF43AEEF9B3A652" import="1">edited animations/edited_aim_civilian_death_final.dge</File>
+    <File md5="9AB143ED19D8B61A7794C90D5D65EE97" import="1">edited animations/edited_aim_civilian_enter_bombard_defend.dge</File>
+    <File md5="7BCAF33AE57FA6E4F56F767E1799955E" import="1">edited animations/edited_aim_civilian_state_01.fsmxml</File>
+    <File md5="CD02EC91E73F396297C2B3434A8BA034" import="1">edited animations/edited_aim_combat_ready_graph.dge</File>
+    <File md5="6B4338103039DFBD431A44C89DA198D6" import="1">edited animations/edited_aim_death_final_graph.dge</File>
+    <File md5="F9F109E1E43FD75DFC765D9B3A43CE48" import="1">edited animations/edited_aim_death_graph.dge</File>
+    <File md5="014FBFBCB17012BEC0B32D9FFDBF721E" import="1">edited animations/edited_aim_enter_bombard_defend_graph.dge</File>
+    <File md5="7A5A0ADFBBB05D6E4FB126383988B264" import="1">edited animations/edited_aim_enter_combat_ready_graph.dge</File>
+    <File md5="34488A641F9D948D865BBECF8B3878DF" import="1">edited animations/edited_aim_enter_fortify.dge</File>
+    <File md5="ADAECB630FF73EEFBBE3EE3661F1819C" import="1">edited animations/edited_aim_enter_sleep_civilian.dge</File>
+    <File md5="F245B80AAC985C0011FEE5CBF3FB25DF" import="1">edited animations/edited_aim_fidgets_graph.dge</File>
+    <File md5="65FED4E2E20D7512D6B5E92C1CD37EF7" import="1">edited animations/edited_aim_fortify_fidget_graph.dge</File>
+    <File md5="F758D65157483D32C6763F817B216937" import="1">edited animations/edited_aim_fortify_graph.dge</File>
+    <File md5="C2C8D0ADFA388980A03E814BF2B335F5" import="1">edited animations/edited_aim_fortify_leave_graph.dge</File>
+    <File md5="AD4E2A013238410D8FCE2666AEB1DC08" import="1">edited animations/edited_aim_fortify_to_idle_a.dge</File>
+    <File md5="EF6168FF0903555EDCBB9FD626CFB00F" import="1">edited animations/edited_aim_idle_graph.dge</File>
+    <File md5="268797759660DA55A0F792A966EB586B" import="1">edited animations/edited_aim_idle_offset_continue_true_graph.dge</File>
+    <File md5="C4D8B3EB164B5525B92514645521D0C3" import="1">edited animations/edited_aim_leave_bombard_defend_trans_idle_a_graph.dge</File>
+    <File md5="189E34C23C7A19F2C190E1ACB4212C91" import="1">edited animations/edited_aim_leave_combat_ready.dge</File>
+    <File md5="225D164523FE1270306005CCD71B075A" import="1">edited animations/edited_aim_melee_attacks.dge</File>
+    <File md5="71E511A38054110B5D9A23B311AC0104" import="1">edited animations/edited_aim_modern_ship_attacks.dge</File>
+    <File md5="BA0D234DE017F5CEB6DEF37CE7DFE384" import="1">edited animations/edited_aim_ms_attack_city_to_run.dge</File>
+    <File md5="75D8FBC3A2C4D56B1089F20A2E9D9DA1" import="1">edited animations/edited_aim_ms_attack_to_run_graph.dge</File>
+    <File md5="82C3CE94F7827159DEA80CCF8AAF5D9E" import="1">edited animations/edited_aim_ms_bombard_defend_loop_graph.dge</File>
+    <File md5="FF8A929D15C8ECE5089A806AFBC80C8E" import="1">edited animations/edited_aim_ms_civilian_activate_captured.dge</File>
+    <File md5="1AE83D5303F9671277D4FEC7F327A2BB" import="1">edited animations/edited_aim_ms_civilian_death_final.dge</File>
+    <File md5="0021307C276C3516A57BBADDAC07ACE7" import="1">edited animations/edited_aim_ms_civilian_enter_bombard_defend.dge</File>
+    <File md5="C3686411D2E96A715267F9A5C72A5EB1" import="1">edited animations/edited_aim_ms_combat_ready_graph.dge</File>
+    <File md5="FE5B902745DEE0860ECEE5BA421D141F" import="1">edited animations/edited_aim_ms_death_final_graph.dge</File>
+    <File md5="21659FCED7A08D6FB464A693D0E82597" import="1">edited animations/edited_aim_ms_death_graph.dge</File>
+    <File md5="B66FF4B10706BE666A916B917D14AC83" import="1">edited animations/edited_aim_ms_enter_bombard_defend_graph.dge</File>
+    <File md5="9B18015ACB470CD66C3294FDA203C27E" import="1">edited animations/edited_aim_ms_enter_combat_ready_graph.dge</File>
+    <File md5="FD1B5EABA624344B944CD37BD71DE110" import="1">edited animations/edited_aim_ms_enter_fortify.dge</File>
+    <File md5="2470ABA98F462C27DD3C1AC013BD3AC6" import="1">edited animations/edited_aim_ms_enter_sleep_civilian.dge</File>
+    <File md5="04680D47D3519A5FFB950F1147D7B1D4" import="1">edited animations/edited_aim_ms_fidgets_graph.dge</File>
+    <File md5="327CB90C3BCF5BAC71F77DA677997631" import="1">edited animations/edited_aim_ms_fortify_fidget_graph.dge</File>
+    <File md5="998F9D5F9FCAFE31E97022C5C50C67E8" import="1">edited animations/edited_aim_ms_fortify_graph.dge</File>
+    <File md5="39370F05801D7D017D605CE224EE11E7" import="1">edited animations/edited_aim_ms_fortify_leave_graph.dge</File>
+    <File md5="7BC464D9DF686D87145362DEE0F68A04" import="1">edited animations/edited_aim_ms_fortify_to_idle_a.dge</File>
+    <File md5="EF3E7C919600B18CDC0D6F1BCDD45F64" import="1">edited animations/edited_aim_ms_idle_graph.dge</File>
+    <File md5="2F7C2570D10BD4E5879F105F9BB3BC53" import="1">edited animations/edited_aim_ms_idle_offset_continue_true_graph.dge</File>
+    <File md5="7AAA31587E2E15A0B887A31C861D4B45" import="1">edited animations/edited_aim_ms_leave_bombard_defend_trans_idle_a_graph.dge</File>
+    <File md5="4BB9881AAB8B9F3571AA787BB89B4FF1" import="1">edited animations/edited_aim_ms_leave_combat_ready.dge</File>
+    <File md5="2937CE1A002CB18C85FA2E3E63221139" import="1">edited animations/edited_aim_ms_melee_attacks.dge</File>
+    <File md5="E538938BAD81B88082C8DF076514653E" import="1">edited animations/edited_aim_ms_modern_ship_attacks.dge</File>
+    <File md5="DBFC96AE4406957395EC439CEFF8584A" import="1">edited animations/edited_aim_ms_running_loop.dge</File>
+    <File md5="BD96EBE9953A41BD78D450DC26561AFC" import="1">edited animations/edited_aim_ms_run_no_charge_loop.dge</File>
+    <File md5="91A772D3D07C64329ED801632EB689C7" import="1">edited animations/edited_aim_ms_run_start_civilian.dge</File>
+    <File md5="C017AA3F2D83AAB3B6B939B6418071A3" import="1">edited animations/edited_aim_ms_start_running.dge</File>
+    <File md5="34D584D857E6CBA51D87EE2FD6950EC6" import="1">edited animations/edited_aim_ms_stop_running.dge</File>
+    <File md5="8D3450B63AF23F48CF9DEDC3B586B022" import="1">edited animations/edited_aim_ms_stop_running_civilian.dge</File>
+    <File md5="500F6DEDBDB767CAE8C964DBEE647459" import="1">edited animations/edited_aim_ms_transitions_for_idles.dge</File>
+    <File md5="A64E86033B61613B4F39979D5603E65F" import="1">edited animations/edited_aim_running_loop.dge</File>
+    <File md5="E38EAF3E95C835B93C7E7849A7F4F23B" import="1">edited animations/edited_aim_run_no_charge_loop.dge</File>
+    <File md5="9432853873B222F5AEF1CE53C1CD98DA" import="1">edited animations/edited_aim_run_start_civilian.dge</File>
+    <File md5="BCF1F945C0CBE7A1C9F62E5B46F84F99" import="1">edited animations/edited_aim_start_running.dge</File>
+    <File md5="7B0232A8BE345EB899FF221FBD7BDCFB" import="1">edited animations/edited_aim_stop_running.dge</File>
+    <File md5="38B813F99CCD01B77FB798D2AFE91571" import="1">edited animations/edited_aim_stop_running_civilian.dge</File>
+    <File md5="2506D6C118D6A9FB915723F731C95FD4" import="1">edited animations/edited_aim_transitions_for_idles.dge</File>
+    <File md5="E38F763EEDD8E5CA2320278CC1641F42" import="1">edited animations/edited_fx_triggers_antiair_vehicle_1gun.ftsxml</File>
+    <File md5="1091C411BFCA66D5EE74CEFFD6EE64DC" import="1">edited animations/edited_fx_triggers_antiair_vehicle_2gun.ftsxml</File>
+    <File md5="948F20768997973457FAD6CF0F58645E" import="1">edited animations/edited_fx_triggers_antiair_vehicle_3gun.ftsxml</File>
+    <File md5="76CCDC691B5CBE0C4F3A85BF0E796AA5" import="1">edited animations/edited_fx_triggers_antiair_vehicle_4gun.ftsxml</File>
+    <File md5="EDA5989385F1C83D85AD44E2B8028A1E" import="1">edited animations/edited_fx_triggers_artillery.ftsxml</File>
+    <File md5="AB180DC6BFF8E18757D23D554F80784A" import="1">edited animations/edited_fx_triggers_battleship.ftsxml</File>
+    <File md5="15D16F16B2DA12C59E1DB7565EBAC0ED" import="1">edited animations/edited_fx_triggers_battleship_4turret.ftsxml</File>
+    <File md5="57B853C5D7F32E9A1000E2F1341916A0" import="1">edited animations/edited_fx_triggers_Cruiser.ftsxml</File>
+    <File md5="6E0AFDF33543EE37A4770E8903EF3DCB" import="1">edited animations/edited_fx_triggers_destroyer.ftsxml</File>
+    <File md5="206D2B57E712C46A9B2B06BC024BA5F4" import="1">edited animations/edited_fx_triggers_EarlyJet.ftsxml</File>
+    <File md5="DE8146AC44DE6C704F0728782C1AE500" import="1">edited animations/edited_fx_triggers_EarlyTank_1gun.ftsxml</File>
+    <File md5="609CE0B64FB4B5781695009F0D913A51" import="1">edited animations/edited_fx_triggers_EarlyTank_2gun.ftsxml</File>
+    <File md5="6903919CC91F1C38BC07B661FDCF73AB" import="1">edited animations/edited_fx_triggers_fighter_2Propellers.ftsxml</File>
+    <File md5="57E688AF2606E958CA088BD229D43F5B" import="1">edited animations/edited_fx_triggers_infantry.ftsxml</File>
+    <File md5="5B811AF5596286D7B6DAD0FE8E8FA53B" import="1">edited animations/edited_fx_triggers_jetfighter.ftsxml</File>
+    <File md5="DD04F56BC976D1CC6D925C1677DCF2A2" import="1">edited animations/edited_fx_triggers_Katyusha.ftsxml</File>
+    <File md5="A08730646EFA18C9E3385EE7D59EA9DC" import="1">edited animations/edited_fx_triggers_modernarmor.ftsxml</File>
+    <File md5="6E33E758B853E1114BB487111B8FA075" import="1">edited animations/edited_fx_triggers_paratrooper.ftsxml</File>
+    <File md5="212745C0D1059F32FAC334A46B790713" import="1">edited animations/edited_fx_triggers_paratrooper_mg.ftsxml</File>
+    <File md5="108FD3B4BAAB4A605BF70CCD44F20E8B" import="1">edited animations/edited_fx_triggers_tank.ftsxml</File>
+    <File md5="2B8DD37B99816431055263F820529E18" import="1">edited animations/edited_fx_triggers_tank_lightfire.ftsxml</File>
+    <File md5="2C9B80EF7FD70EFAA250F616A4316DC2" import="1">edited animations/edited_fx_triggers_tank_mg_1gun.ftsxml</File>
+    <File md5="CCEE19B5A0E7AE186838E1A5A0EE0D33" import="1">edited animations/edited_fx_triggers_tank_mg_2gun.ftsxml</File>
+    <File md5="B233D27FC1FA1DB1127E263DC20D30DB" import="1">edited animations/edited_mechanized_aim_state_01.fsmxml</File>
+    <File md5="75C5BA4CEC139C9EAFA47AE912EAB3EC" import="1">edited animations/edited_modern_ship_aim_state_01.fsmxml</File>
+    <File md5="F5FACCFD61EB57B17D0270E5FB645171" import="0">ENI Companion Mod/XML/NavalEnhancements.xml</File>
+    <File md5="6D4372DF152AC9C668936760A91A481F" import="0">ENI Companion Mod/XML/NavalEnhancementText.xml</File>
+    <File md5="F44599C7A7CE330EC77D7001E2459BE8" import="1">Expanded Naval Immersion Mod/Art/Admiralen_Class.dds</File>
+    <File md5="036336D9DF4B4F278D514219FEABA501" import="1">Expanded Naval Immersion Mod/Art/Admiralen_Class.fxsxml</File>
+    <File md5="4EA239E0876576B29060FF867ADC48AD" import="1">Expanded Naval Immersion Mod/Art/Admiralen_Class.gr2</File>
+    <File md5="5B8E69748EDEEE373F152EA47CF9CF74" import="1">Expanded Naval Immersion Mod/Art/Admiralen_Class_gloss.dds</File>
+    <File md5="3310BB0D2C2CF9FBEE777863A9C06CF8" import="1">Expanded Naval Immersion Mod/Art/Aquila_Class.dds</File>
+    <File md5="AA61AD2AB0CDE85C452818DDF4DB297D" import="1">Expanded Naval Immersion Mod/Art/Aquila_Class.fxsxml</File>
+    <File md5="950EF510CC28B2C4E02D033BE438C3B7" import="1">Expanded Naval Immersion Mod/Art/Aquila_Class.gr2</File>
+    <File md5="5F43F6213D5C47648BD4CA76151685C4" import="1">Expanded Naval Immersion Mod/Art/Aquila_Class_gloss.dds</File>
+    <File md5="36F893A7DF4ECE031341C29E6E059BF4" import="1">Expanded Naval Immersion Mod/Art/B1_Type.dds</File>
+    <File md5="A6152587EF143E8A45B2B0A08521F60B" import="1">Expanded Naval Immersion Mod/Art/B1_Type.fxsxml</File>
+    <File md5="36D7B499C44D9D2D4B0BB1A762F99C9F" import="1">Expanded Naval Immersion Mod/Art/B1_Type.gr2</File>
+    <File md5="899ECC7F05E5BD294B322500AAB313BE" import="1">Expanded Naval Immersion Mod/Art/B1_Type_gloss.dds</File>
+    <File md5="A73000561ABD1F09ED260FF583BC3FFC" import="1">Expanded Naval Immersion Mod/Art/Baltimore_Class.dds</File>
+    <File md5="3A870076465AAA8AC5DE5DFDDF332123" import="1">Expanded Naval Immersion Mod/Art/Baltimore_Class.fxsxml</File>
+    <File md5="31833CD8793E5EE4904DFF99CF604945" import="1">Expanded Naval Immersion Mod/Art/Baltimore_Class.gr2</File>
+    <File md5="244FC1C3A60659FC1D1540919747B5D6" import="1">Expanded Naval Immersion Mod/Art/Baltimore_Class_gloss.dds</File>
+    <File md5="6C2C209A33C9CDD1F4550B8E55602354" import="1">Expanded Naval Immersion Mod/Art/Battleship_Generic.dds</File>
+    <File md5="FF4E6BD5D03312488F1FDF7DBB2A7DF5" import="1">Expanded Naval Immersion Mod/Art/Battleship_Generic.fxsxml</File>
+    <File md5="1D7345225BFCC64706302D999007AA6D" import="1">Expanded Naval Immersion Mod/Art/Battleship_Generic.gr2</File>
+    <File md5="DFF6B07DE62D3D89C1A7D8D2791322A2" import="1">Expanded Naval Immersion Mod/Art/Battleship_Generic_gloss.dds</File>
+    <File md5="93F84828058BD0F153A4D1E77B69819E" import="1">Expanded Naval Immersion Mod/Art/Bismark_Class.dds</File>
+    <File md5="3F19212675CA61088059DE2EC91ED934" import="1">Expanded Naval Immersion Mod/Art/Bismark_Class.fxsxml</File>
+    <File md5="99953431FB4BBE3C3509F4074E695247" import="1">Expanded Naval Immersion Mod/Art/Bismark_Class.gr2</File>
+    <File md5="BE710F56549D66DD0F836300AEA249CE" import="1">Expanded Naval Immersion Mod/Art/Bismark_Class_gloss.dds</File>
+    <File md5="D02254EE6FBCC2C11D2320D5FCF82184" import="1">Expanded Naval Immersion Mod/Art/Carrier_Generic.dds</File>
+    <File md5="8F0A5B21A6001DB24E9D7272083C9EA4" import="1">Expanded Naval Immersion Mod/Art/Carrier_Generic.fxsxml</File>
+    <File md5="E2E9B0B66700BB0CC951F777E6D2B53A" import="1">Expanded Naval Immersion Mod/Art/Carrier_Generic.gr2</File>
+    <File md5="125D6421A28123C284A11ACE34442698" import="1">Expanded Naval Immersion Mod/Art/Carrier_Generic_gloss.dds</File>
+    <File md5="2598B6A7BD314CDA59103B3B12F5305D" import="1">Expanded Naval Immersion Mod/Art/Conte_Di_Cavour_Class.dds</File>
+    <File md5="316D0074570987B90D9C67AEA9FFEA2A" import="1">Expanded Naval Immersion Mod/Art/Conte_Di_Cavour_Class.fxsxml</File>
+    <File md5="B65BC1702B09735D2C40217E31EA1805" import="1">Expanded Naval Immersion Mod/Art/Conte_Di_Cavour_Class.gr2</File>
+    <File md5="01786F0185A071D60810FD1DEAF21249" import="1">Expanded Naval Immersion Mod/Art/Conte_Di_Cavour_Class_gloss.dds</File>
+    <File md5="63741FB880D4C9E5E727EDCAC0E9AD28" import="1">Expanded Naval Immersion Mod/Art/Cruiser_Generic.dds</File>
+    <File md5="DEA35FA50921E67876F2F33E535538B8" import="1">Expanded Naval Immersion Mod/Art/Cruiser_Generic.fxsxml</File>
+    <File md5="F974BC5F877C4E2E0FF6C4990215E359" import="1">Expanded Naval Immersion Mod/Art/Cruiser_Generic.gr2</File>
+    <File md5="94FC2DB21A33906007996951B888184F" import="1">Expanded Naval Immersion Mod/Art/Cruiser_Generic_gloss.dds</File>
+    <File md5="E50B566428DF898C30B5B0A620939421" import="1">Expanded Naval Immersion Mod/Art/Danae_Class.dds</File>
+    <File md5="18D738A9D89C4FC655BAD9B08C5C8BE6" import="1">Expanded Naval Immersion Mod/Art/Danae_Class.fxsxml</File>
+    <File md5="4D2C3DFF0B9E1760F8664871A60A15F8" import="1">Expanded Naval Immersion Mod/Art/Danae_Class.gr2</File>
+    <File md5="1EF9DABBBB8A602FFBA18C0AE06A4C42" import="1">Expanded Naval Immersion Mod/Art/Danae_Class_gloss.dds</File>
+    <File md5="0FA0B4FC341DFC569ECA991B28B524E0" import="1">Expanded Naval Immersion Mod/Art/Destroyer_Generic.dds</File>
+    <File md5="CA6D37C71527EDFF0C46780F579B7C19" import="1">Expanded Naval Immersion Mod/Art/Destroyer_Generic.fxsxml</File>
+    <File md5="AE2B61260F8746916C801EF765298FFD" import="1">Expanded Naval Immersion Mod/Art/Destroyer_Generic.gr2</File>
+    <File md5="89AB6A8FFE27EC8DF1F98FCB62B5BFF2" import="1">Expanded Naval Immersion Mod/Art/Destroyer_Generic_gloss.dds</File>
+    <File md5="78C7B1616AA6A1F0A16325687FCF1421" import="1">Expanded Naval Immersion Mod/Art/Dido_Class.dds</File>
+    <File md5="271993D3EC2C79962F653A1D81B4AABF" import="1">Expanded Naval Immersion Mod/Art/Dido_Class.fxsxml</File>
+    <File md5="8692143AEE873204720A47CDF33D010E" import="1">Expanded Naval Immersion Mod/Art/Dido_Class.gr2</File>
+    <File md5="BCC353C9F1C21600D86EAD767DE86544" import="1">Expanded Naval Immersion Mod/Art/Dido_Class_gloss.dds</File>
+    <File md5="0E7C2E21C6A66A4BEAF5758944A30DCB" import="1">Expanded Naval Immersion Mod/Art/Dreadnought_Generic.dds</File>
+    <File md5="1C1BD5EE0B9DFC7D8AB10742548BD485" import="1">Expanded Naval Immersion Mod/Art/Dreadnought_Generic.fxsxml</File>
+    <File md5="AFD28EDB54092EA76AB9F36B0AAE157A" import="1">Expanded Naval Immersion Mod/Art/Dreadnought_Generic.gr2</File>
+    <File md5="DF6434186A3FF5E14E9FE0C43E2923BB" import="1">Expanded Naval Immersion Mod/Art/Dreadnought_Generic_gloss.dds</File>
+    <File md5="93C29FA2048F62742784EE005B86D8F8" import="1">Expanded Naval Immersion Mod/Art/Dunkerque_Class.dds</File>
+    <File md5="031AD7C04B329815B670579FD9A3917D" import="1">Expanded Naval Immersion Mod/Art/Dunkerque_Class.fxsxml</File>
+    <File md5="758F3B01C1FCC1C62CEAFE3BB9D2B582" import="1">Expanded Naval Immersion Mod/Art/Dunkerque_Class.gr2</File>
+    <File md5="8A7548ED05CE36FC8054F4463976E7D0" import="1">Expanded Naval Immersion Mod/Art/Dunkerque_Class_gloss.dds</File>
+    <File md5="3ADC195AFD7000D1CA485EBA4260407F" import="1">Expanded Naval Immersion Mod/Art/Fantasque_Class.dds</File>
+    <File md5="E6704A933A17C6BDE6E9277420FBCCB8" import="1">Expanded Naval Immersion Mod/Art/Fantasque_Class.fxsxml</File>
+    <File md5="CA2475FF818D9263570A6C6DADAF4059" import="1">Expanded Naval Immersion Mod/Art/Fantasque_Class.gr2</File>
+    <File md5="D38E2393F4780189305FCDDDC1659248" import="1">Expanded Naval Immersion Mod/Art/Fantasque_Class_gloss.dds</File>
+    <File md5="3F9606189C69DE01B165F1174AE77C60" import="1">Expanded Naval Immersion Mod/Art/Fletcher_Class.dds</File>
+    <File md5="DBD55B9B61F2FFCE84AABD01E675FC1B" import="1">Expanded Naval Immersion Mod/Art/Fletcher_Class.fxsxml</File>
+    <File md5="E85ABF26C268DBA9A04D3EFDD31BDCCD" import="1">Expanded Naval Immersion Mod/Art/Fletcher_Class.gr2</File>
+    <File md5="774BFA08E2E06B52E0B2862CA6EF5B3A" import="1">Expanded Naval Immersion Mod/Art/Fletcher_Class_gloss.dds</File>
+    <File md5="2841202C3A652909D9521601C6BD73D2" import="1">Expanded Naval Immersion Mod/Art/Gangut_Class.dds</File>
+    <File md5="9CD3160D122A6680A4C75C2A287ECEA4" import="1">Expanded Naval Immersion Mod/Art/Gangut_Class.fxsxml</File>
+    <File md5="BD16853FA47E6615129EDAD604F2269A" import="1">Expanded Naval Immersion Mod/Art/Gangut_Class.gr2</File>
+    <File md5="D6D4200AC6A5B3587A9689EB4993877A" import="1">Expanded Naval Immersion Mod/Art/Gangut_Class_gloss.dds</File>
+    <File md5="E4343E1DA48112F42A1B99B2346480A7" import="1">Expanded Naval Immersion Mod/Art/Gato_Class.dds</File>
+    <File md5="70553F2DEC38FBDD4A9CB53EDC33D84B" import="1">Expanded Naval Immersion Mod/Art/Gato_Class.fxsxml</File>
+    <File md5="AEA3DB113A618ED2151FD2E04466E7D6" import="1">Expanded Naval Immersion Mod/Art/Gato_Class.gr2</File>
+    <File md5="FB15ADAAE1D7AC5D879D54E044252A47" import="1">Expanded Naval Immersion Mod/Art/Gato_Class_gloss.dds</File>
+    <File md5="A288E8F1A478B8A82741DE8B1D45187B" import="1">Expanded Naval Immersion Mod/Art/Gnevny_Class.dds</File>
+    <File md5="0B4F03C9842CD8F3ECB10661568E9851" import="1">Expanded Naval Immersion Mod/Art/Gnevny_Class.fxsxml</File>
+    <File md5="054C2B852579CFD27A0EF77B08162F07" import="1">Expanded Naval Immersion Mod/Art/Gnevny_Class.gr2</File>
+    <File md5="0262F3C8327F297A7B43F5A2FC8F496E" import="1">Expanded Naval Immersion Mod/Art/Gnevny_Class_gloss.dds</File>
+    <File md5="F1ABD3E6D3B3B673A069E44AE3106BA9" import="1">Expanded Naval Immersion Mod/Art/Goteborg_Class.dds</File>
+    <File md5="DAC4EB8A3532935153940E97F3210FFB" import="1">Expanded Naval Immersion Mod/Art/Goteborg_Class.fxsxml</File>
+    <File md5="DBF148B225CE6D79AE9724D355759348" import="1">Expanded Naval Immersion Mod/Art/Goteborg_Class.gr2</File>
+    <File md5="4F4A0368DC9C2860AF7438C8BB755630" import="1">Expanded Naval Immersion Mod/Art/Goteborg_Class_gloss.dds</File>
+    <File md5="3ED6145A4B0B0202531A88733B09241A" import="1">Expanded Naval Immersion Mod/Art/Graf_Zeppelin_Class.dds</File>
+    <File md5="CE72B3906EC8BE53211C061EC2856D1D" import="1">Expanded Naval Immersion Mod/Art/Graf_Zeppelin_Class.fxsxml</File>
+    <File md5="D9BC79D1E46E7DC2952BB095547858AF" import="1">Expanded Naval Immersion Mod/Art/Graf_Zeppelin_Class.gr2</File>
+    <File md5="352F35CAE088F22A3AD7499E8BEC51E1" import="1">Expanded Naval Immersion Mod/Art/Graf_Zeppelin_Class_gloss.dds</File>
+    <File md5="1299C8AF414C2A2F33D625FCE775AF32" import="1">Expanded Naval Immersion Mod/Art/Grom_Class.dds</File>
+    <File md5="93240976B57DDEBEA46B8FECA0FB03D3" import="1">Expanded Naval Immersion Mod/Art/Grom_Class.fxsxml</File>
+    <File md5="B479BBF13E7B599519F99FE2ACA910CE" import="1">Expanded Naval Immersion Mod/Art/Grom_Class.gr2</File>
+    <File md5="1F1501F8F0E0601793CE0A8FB1EB027E" import="1">Expanded Naval Immersion Mod/Art/Grom_Class_gloss.dds</File>
+    <File md5="C096D96221C0243CD4C6CB3094A48583" import="1">Expanded Naval Immersion Mod/Art/Illustrious_Class.dds</File>
+    <File md5="227F12DE01E2527E5A2D1827185B0944" import="1">Expanded Naval Immersion Mod/Art/Illustrious_Class.fxsxml</File>
+    <File md5="F7942070B735C47A0482311B2F863F80" import="1">Expanded Naval Immersion Mod/Art/Illustrious_Class.gr2</File>
+    <File md5="6E799AC98B062DFE2595A441A88D5172" import="1">Expanded Naval Immersion Mod/Art/Illustrious_Class_gloss.dds</File>
+    <File md5="CCA1633862944D8033FEB8F229354623" import="1">Expanded Naval Immersion Mod/Art/Joffre_Class.dds</File>
+    <File md5="C983B7977689704E636ED3A5681AD6A2" import="1">Expanded Naval Immersion Mod/Art/Joffre_Class.fxsxml</File>
+    <File md5="E05E79F48C5D8C1265A2523D8EAF06FF" import="1">Expanded Naval Immersion Mod/Art/Joffre_Class.gr2</File>
+    <File md5="F4B122A3B64373D9E94FF368833C105E" import="1">Expanded Naval Immersion Mod/Art/Joffre_Class_gloss.dds</File>
+    <File md5="A2287E13C990EFAD6B778349BE8A3413" import="1">Expanded Naval Immersion Mod/Art/Kaga_Class.DDS</File>
+    <File md5="DF8693C1B8EE27035D9B12BEC147BFD2" import="1">Expanded Naval Immersion Mod/Art/Kaga_Class.fxsxml</File>
+    <File md5="73BF6D9A2ABD3A2CE227813B614C7E26" import="1">Expanded Naval Immersion Mod/Art/Kaga_Class.gr2</File>
+    <File md5="73F6AECE7CF6125EFA5AF55F6C043F15" import="1">Expanded Naval Immersion Mod/Art/Kaga_Class_gloss.dds</File>
+    <File md5="DD0374BE438902DEAF12923300396340" import="1">Expanded Naval Immersion Mod/Art/Kagero_Class.dds</File>
+    <File md5="3F3F2A180A8BED24C0BBB7E9045A810B" import="1">Expanded Naval Immersion Mod/Art/Kagero_Class.fxsxml</File>
+    <File md5="FDBAC2724AF562A9E503C8C8331DA243" import="1">Expanded Naval Immersion Mod/Art/Kagero_Class.gr2</File>
+    <File md5="73A059F3E11F4AA6D657FAD136300C00" import="1">Expanded Naval Immersion Mod/Art/Kagero_Class_gloss.dds</File>
+    <File md5="56CAC873C30606EAE4BA82E0555BA749" import="1">Expanded Naval Immersion Mod/Art/Katsonis_Class.dds</File>
+    <File md5="4B43A0226E917F0DB93C29664CE30F2A" import="1">Expanded Naval Immersion Mod/Art/Katsonis_Class.fxsxml</File>
+    <File md5="A8A9241F4012FF1120BDDA6859BA53E8" import="1">Expanded Naval Immersion Mod/Art/Katsonis_Class.gr2</File>
+    <File md5="2DF3879DD6822681AA65D409D2728B62" import="1">Expanded Naval Immersion Mod/Art/Katsonis_Class_gloss.dds</File>
+    <File md5="24FD3A489E0331768C87CB698C1D1F9D" import="1">Expanded Naval Immersion Mod/Art/King_George_V_Class.dds</File>
+    <File md5="055FF316E5D4F76ABCAA5ECE567F5E52" import="1">Expanded Naval Immersion Mod/Art/King_George_V_Class.fxsxml</File>
+    <File md5="D2E15983FB3BD8A05A41D8B18C1A57A0" import="1">Expanded Naval Immersion Mod/Art/King_George_V_Class.gr2</File>
+    <File md5="425DE434C3D1E71BF8AD4D0D581A67AA" import="1">Expanded Naval Immersion Mod/Art/King_George_V_Class_gloss.dds</File>
+    <File md5="2EE1D4F75B6A1CDD33517A10E4A92E43" import="1">Expanded Naval Immersion Mod/Art/Kirov_Class.dds</File>
+    <File md5="642B9822CD231EB6FA51B39B93E19A9E" import="1">Expanded Naval Immersion Mod/Art/Kirov_Class.fxsxml</File>
+    <File md5="EA49BC3F6536B704618378BADF3B1C72" import="1">Expanded Naval Immersion Mod/Art/Kirov_Class.gr2</File>
+    <File md5="7F082951EB32F5C1381E9CBE4774394C" import="1">Expanded Naval Immersion Mod/Art/Kirov_Class_gloss.dds</File>
+    <File md5="9CBA28F48A21FFA0F7054B21A7506D62" import="1">Expanded Naval Immersion Mod/Art/Kongo_Class.dds</File>
+    <File md5="EBF4E93C426C573C095A35BFAEAA9924" import="1">Expanded Naval Immersion Mod/Art/Kongo_Class.fxsxml</File>
+    <File md5="C96AB311AC914F9A688CA6B9BA9EF8BE" import="1">Expanded Naval Immersion Mod/Art/Kongo_Class.gr2</File>
+    <File md5="52EC1666B93AAF9F3840D07C49241BC8" import="1">Expanded Naval Immersion Mod/Art/Kongo_Class_gloss.dds</File>
+    <File md5="0DDBA66E732EDCD3B95C2643BA93A6EF" import="1">Expanded Naval Immersion Mod/Art/La_Galissonniere_Class.dds</File>
+    <File md5="3B01B8E601643920BE0AFE5A52AC5A15" import="1">Expanded Naval Immersion Mod/Art/La_Galissonniere_Class.fxsxml</File>
+    <File md5="06244D75A3765D4A28D29F03F7F8A1D8" import="1">Expanded Naval Immersion Mod/Art/La_Galissonniere_Class.gr2</File>
+    <File md5="F27196B9CFA33532CADF922F2F768DA3" import="1">Expanded Naval Immersion Mod/Art/La_Galissonniere_Class_gloss.dds</File>
+    <File md5="FF305FDC133B7E2D046A7D989F80CB73" import="1">Expanded Naval Immersion Mod/Art/Leipzig_Class.dds</File>
+    <File md5="ED78B72D4F5FE9C92376702BC05F1B90" import="1">Expanded Naval Immersion Mod/Art/Leipzig_Class.fxsxml</File>
+    <File md5="8ED213DA72ACBE1EEB132775DE6A3977" import="1">Expanded Naval Immersion Mod/Art/Leipzig_Class.gr2</File>
+    <File md5="FC5BDB0A602ED194DDA41896FD6DBDCE" import="1">Expanded Naval Immersion Mod/Art/Leipzig_Class_gloss.dds</File>
+    <File md5="C73EE5F6BE2FAC95D41F88683BD88878" import="1">Expanded Naval Immersion Mod/Art/Littorio_Class.dds</File>
+    <File md5="2035AC63B19E994DEF352A362E6F3D75" import="1">Expanded Naval Immersion Mod/Art/Littorio_Class.fxsxml</File>
+    <File md5="B01B12B9AF74947A5B9AD4FE061C2402" import="1">Expanded Naval Immersion Mod/Art/Littorio_Class.gr2</File>
+    <File md5="0CF626BAB7A0FCFBE662A1F44B29B6B6" import="1">Expanded Naval Immersion Mod/Art/Littorio_Class_gloss.dds</File>
+    <File md5="87C2201161692D538153277A682C06C2" import="1">Expanded Naval Immersion Mod/Art/Marcello_Class.dds</File>
+    <File md5="F4178B0DDE18C45263CDE45B54286661" import="1">Expanded Naval Immersion Mod/Art/Marcello_Class.fxsxml</File>
+    <File md5="D3FF1250669EAF93038D21208BF470D0" import="1">Expanded Naval Immersion Mod/Art/Marcello_Class.gr2</File>
+    <File md5="DAAF0DBCA46FF1414A43F491C8780BC7" import="1">Expanded Naval Immersion Mod/Art/Marcello_Class_gloss.dds</File>
+    <File md5="8A6D6377ECEB3E43BD9479907B79EB14" import="1">Expanded Naval Immersion Mod/Art/mod_galleon.fxsxml</File>
+    <File md5="2CE071B138339613EEB708147C706FF0" import="1">Expanded Naval Immersion Mod/Art/mod_galleon.gr2</File>
+    <File md5="F8A9A0912BFDCEE1E71CCB895F646E50" import="1">Expanded Naval Immersion Mod/Art/mod_galleon_diff.dds</File>
+    <File md5="0C4FFF6062C19D7BAD1DA2536512A00B" import="1">Expanded Naval Immersion Mod/Art/mod_galleon_sref.dds</File>
+    <File md5="4D6D361E4E6E23D8A517076404D51A63" import="1">Expanded Naval Immersion Mod/Art/mod_polynesiacanoe_diff.dds</File>
+    <File md5="7FD8BC671169963E0E7B67584AFFF7DC" import="1">Expanded Naval Immersion Mod/Art/mod_polynesiacanoe_sref.dds</File>
+    <File md5="05E0E87597322D9DA52DB2F89D0AD3C9" import="1">Expanded Naval Immersion Mod/Art/mod_polynesian_war_canoe.fxsxml</File>
+    <File md5="D83931A260EE95C1BD76388106669458" import="1">Expanded Naval Immersion Mod/Art/mod_polynesian_war_canoe.gr2</File>
+    <File md5="DE968A1D4137601E6422D6BB3943C3F0" import="1">Expanded Naval Immersion Mod/Art/mod_spanish_galleon.fxsxml</File>
+    <File md5="9AC8D7B4306429CA8069F1C9E7F4FA46" import="1">Expanded Naval Immersion Mod/Art/mod_spanish_galleon.gr2</File>
+    <File md5="AD264FD2DC9AB16168597C97FD61E178" import="1">Expanded Naval Immersion Mod/Art/mod_spanish_galleon_diff.dds</File>
+    <File md5="AE4A3E13B815756437E70EF0EE44642F" import="1">Expanded Naval Immersion Mod/Art/mod_spanish_galleon_sref.dds</File>
+    <File md5="840DFDFE83AF015EB3D986FC96A59223" import="1">Expanded Naval Immersion Mod/Art/mod_viking_longboat.fxsxml</File>
+    <File md5="EE3AC94E7CF408C077B3D887BB89FDD1" import="1">Expanded Naval Immersion Mod/Art/mod_viking_longboat.gr2</File>
+    <File md5="C4CA2CAB09151FDA8187BD11ABD7FE89" import="1">Expanded Naval Immersion Mod/Art/mod_viking_longboat_diff.dds</File>
+    <File md5="0710311B9514CBD36F33F4C7334938F0" import="1">Expanded Naval Immersion Mod/Art/mod_viking_longboat_sref.dds</File>
+    <File md5="0A31B5D6917C36C0983369CD56D4B7EA" import="1">Expanded Naval Immersion Mod/Art/O-19_Class.dds</File>
+    <File md5="62CAD642BE6373A5DD11EC2143E5CDAF" import="1">Expanded Naval Immersion Mod/Art/O-19_Class.fxsxml</File>
+    <File md5="4F754D405904AE55DBD02D3DCED40CD0" import="1">Expanded Naval Immersion Mod/Art/O-19_Class.gr2</File>
+    <File md5="DBB8CDC9AF67768DCEDDD004EBC99AE6" import="1">Expanded Naval Immersion Mod/Art/O-19_Class_gloss.dds</File>
+    <File md5="8C1216EDCC3F73A1BD8CA3E45D6D73B7" import="1">Expanded Naval Immersion Mod/Art/Orzel_Class.dds</File>
+    <File md5="8B16100A1EB67B556D4D0EEFF2C4289C" import="1">Expanded Naval Immersion Mod/Art/Orzel_Class.fxsxml</File>
+    <File md5="4C96C0E5BE0AE42ED313EBB4A9D050B7" import="1">Expanded Naval Immersion Mod/Art/Orzel_Class.gr2</File>
+    <File md5="F4CA4AEBE511D4B050AD058953FBF1BF" import="1">Expanded Naval Immersion Mod/Art/Orzel_Class_gloss.dds</File>
+    <File md5="8F7C02FE2B8FD97C8FEA894BED095902" import="1">Expanded Naval Immersion Mod/Art/Pennsylvania_Class.dds</File>
+    <File md5="F14F55CBF5A51F4FC7EE3208E0654678" import="1">Expanded Naval Immersion Mod/Art/Pennsylvania_Class.fxsxml</File>
+    <File md5="175FD4EE656475C0E369CAD93565AC64" import="1">Expanded Naval Immersion Mod/Art/Pennsylvania_Class.gr2</File>
+    <File md5="B5F4B882D23643DB362A797BD0B6626D" import="1">Expanded Naval Immersion Mod/Art/Pennsylvania_Class_gloss.dds</File>
+    <File md5="A3D97022A7FD12A1756FA493E197227D" import="1">Expanded Naval Immersion Mod/Art/Pisa_Class.dds</File>
+    <File md5="FAC5CCABD99A3260787634B1B2B58A0F" import="1">Expanded Naval Immersion Mod/Art/Pisa_Class.fxsxml</File>
+    <File md5="D646B956CD82B875EB6D8B7706CF6272" import="1">Expanded Naval Immersion Mod/Art/Pisa_Class.gr2</File>
+    <File md5="81458DFFB626B5FCB193EEDB982FBA6D" import="1">Expanded Naval Immersion Mod/Art/Pisa_Class_gloss.dds</File>
+    <File md5="DF58E7EEEA7596CC8FEDD9B2A01E82E9" import="1">Expanded Naval Immersion Mod/Art/Project_71.dds</File>
+    <File md5="882DEAE6DFEC643F2BE2EFD672F88A5C" import="1">Expanded Naval Immersion Mod/Art/Project_71.fxsxml</File>
+    <File md5="F4FF56A2639E9C7F096622F3A0085B52" import="1">Expanded Naval Immersion Mod/Art/Project_71.gr2</File>
+    <File md5="E7747FCC5879A37D2C747AD670E144A3" import="1">Expanded Naval Immersion Mod/Art/Project_71_gloss.dds</File>
+    <File md5="F1A0921A3E6D309D8FF7E69D9EDC069C" import="1">Expanded Naval Immersion Mod/Art/Queen_Elizabeth_Class.dds</File>
+    <File md5="A14EF6041E6D9581D6F026DA59613D4E" import="1">Expanded Naval Immersion Mod/Art/Queen_Elizabeth_Class.fxsxml</File>
+    <File md5="A36A85870EA74655B82100B9992F211F" import="1">Expanded Naval Immersion Mod/Art/Queen_Elizabeth_Class.gr2</File>
+    <File md5="646F72C0307A96C41884AE3946A9F4C2" import="1">Expanded Naval Immersion Mod/Art/Queen_Elizabeth_Class_gloss.dds</File>
+    <File md5="68F38F1DAB6DD78AEB23D59B20926692" import="1">Expanded Naval Immersion Mod/Art/Redoutable_Class.dds</File>
+    <File md5="A8AAA6A811FE929B1AB899BFCFF1F8ED" import="1">Expanded Naval Immersion Mod/Art/Redoutable_Class.fxsxml</File>
+    <File md5="463911C124E38BC1B3EB80C66A8D60E9" import="1">Expanded Naval Immersion Mod/Art/Redoutable_Class.gr2</File>
+    <File md5="AA9A1624739AD1F8CADC36FB44901CD2" import="1">Expanded Naval Immersion Mod/Art/Redoutable_Class_gloss.dds</File>
+    <File md5="2642C67BB007F8613C0E06652734CD7A" import="1">Expanded Naval Immersion Mod/Art/Richelieu_Class.dds</File>
+    <File md5="7AB4854F590766B74FBF0E1C8D5069BD" import="1">Expanded Naval Immersion Mod/Art/Richelieu_Class.fxsxml</File>
+    <File md5="1EE412007BAF45980FF0D85A0C4BA291" import="1">Expanded Naval Immersion Mod/Art/Richelieu_Class.gr2</File>
+    <File md5="C2B2CE04D50D49E2B0E5E07C72D5D30B" import="1">Expanded Naval Immersion Mod/Art/Richelieu_Class_gloss.dds</File>
+    <File md5="8177566F74D196E65C4A52A47039D3DF" import="1">Expanded Naval Immersion Mod/Art/Scharnhorst_Class.dds</File>
+    <File md5="EDE5AEE58A4A91F59440410DE07EF637" import="1">Expanded Naval Immersion Mod/Art/Scharnhorst_Class.fxsxml</File>
+    <File md5="6838D80D1AE11AEDF7AC6342D04D9319" import="1">Expanded Naval Immersion Mod/Art/Scharnhorst_Class.gr2</File>
+    <File md5="551B616D4A3443836F6F2B59138CAEE6" import="1">Expanded Naval Immersion Mod/Art/Scharnhorst_Class_gloss.dds</File>
+    <File md5="A51B632750474723934D0195FC56A006" import="1">Expanded Naval Immersion Mod/Art/Shchuka_Class.dds</File>
+    <File md5="AE16F3CE78E2BBA9294E95102506BEA1" import="1">Expanded Naval Immersion Mod/Art/Shchuka_Class.fxsxml</File>
+    <File md5="7678B5588229C0B775CB296431315F45" import="1">Expanded Naval Immersion Mod/Art/Shchuka_Class.gr2</File>
+    <File md5="5BD1B72CE7293FFFC70B2B983173C68D" import="1">Expanded Naval Immersion Mod/Art/Shchuka_Class_gloss.dds</File>
+    <File md5="C11CA365EF41C9E338F22B15D1DF83E1" import="1">Expanded Naval Immersion Mod/Art/Sjolejonet_Class.dds</File>
+    <File md5="67C9CA138E84DFC29857F8F401B54A56" import="1">Expanded Naval Immersion Mod/Art/Sjolejonet_Class.fxsxml</File>
+    <File md5="9455E2509FFD937DDBAC2CB04B94B55E" import="1">Expanded Naval Immersion Mod/Art/Sjolejonet_Class.gr2</File>
+    <File md5="9F4810390A1A6C6AAB4ACBD797EF66A5" import="1">Expanded Naval Immersion Mod/Art/Sjolejonet_Class_gloss.dds</File>
+    <File md5="93025F7BBE188535FC95A08C05E5B912" import="1">Expanded Naval Immersion Mod/Art/Soldati_Class.dds</File>
+    <File md5="6F19C209EB6466139926D80CBFB36B4B" import="1">Expanded Naval Immersion Mod/Art/Soldati_Class.fxsxml</File>
+    <File md5="E22FB8C3D83BCE3771F529205A42761A" import="1">Expanded Naval Immersion Mod/Art/Soldati_Class.gr2</File>
+    <File md5="ED06FA509DF8D4496B9FCABAD8F821B1" import="1">Expanded Naval Immersion Mod/Art/Soldati_Class_gloss.dds</File>
+    <File md5="0FADF296CE15F8E8648C1DF54B300D49" import="1">Expanded Naval Immersion Mod/Art/South_Dakota_Class.dds</File>
+    <File md5="DDFD76004C5DA6754D7D7D08F6E40B8E" import="1">Expanded Naval Immersion Mod/Art/South_Dakota_Class.fxsxml</File>
+    <File md5="E0330494A444ADAFE4FB68510525DB71" import="1">Expanded Naval Immersion Mod/Art/South_Dakota_Class.gr2</File>
+    <File md5="9DD97E8B9EB456110D85FB0BC1F401F6" import="1">Expanded Naval Immersion Mod/Art/South_Dakota_Class_gloss.dds</File>
+    <File md5="FD93224B3A86219D5591A2E7D8F484D0" import="1">Expanded Naval Immersion Mod/Art/Sovetsky_Soyuz_Class.dds</File>
+    <File md5="7291DB7870D0EB7359C1A2AA92C60E19" import="1">Expanded Naval Immersion Mod/Art/Sovetsky_Soyuz_Class.fxsxml</File>
+    <File md5="2D8DF7ECA17C28FFFFF5B41617ADF47B" import="1">Expanded Naval Immersion Mod/Art/Sovetsky_Soyuz_Class.gr2</File>
+    <File md5="D179140494BC2F31207D186DBC020B53" import="1">Expanded Naval Immersion Mod/Art/Sovetsky_Soyuz_Class_gloss.dds</File>
+    <File md5="C554CEAE8470FFA89225FE77C0B8B9EF" import="1">Expanded Naval Immersion Mod/Art/Submarine_Generic.dds</File>
+    <File md5="F64922B9665D2B4873FCEEAAF1823708" import="1">Expanded Naval Immersion Mod/Art/Submarine_Generic.fxsxml</File>
+    <File md5="BCE6F34E2A6B2C70752A8BFBD03D0DB0" import="1">Expanded Naval Immersion Mod/Art/Submarine_Generic.gr2</File>
+    <File md5="5626F56FBFFEF7890D490515EC82B22C" import="1">Expanded Naval Immersion Mod/Art/Submarine_Generic_gloss.dds</File>
+    <File md5="3B14B1052DC9D3D1BB2059AFBC6B3C5F" import="1">Expanded Naval Immersion Mod/Art/SV_ModGalleon.dds</File>
+    <File md5="3B14B1052DC9D3D1BB2059AFBC6B3C5F" import="1">Expanded Naval Immersion Mod/Art/SV_Mod_Spanish_Galleon.dds</File>
+    <File md5="010E50AD6008E8CC34BAFB727B6FFA68" import="1">Expanded Naval Immersion Mod/Art/Takao_Class.dds</File>
+    <File md5="33B74E32BC41BF2CE1E9F198DAE92A02" import="1">Expanded Naval Immersion Mod/Art/Takao_Class.fxsxml</File>
+    <File md5="5DDD130F8E02B6C3A56276DC97AAD034" import="1">Expanded Naval Immersion Mod/Art/Takao_Class.gr2</File>
+    <File md5="D2A00685952F44645ACA4D44CEEACBD9" import="1">Expanded Naval Immersion Mod/Art/Takao_Class_gloss.dds</File>
+    <File md5="E0D61F0D4CF8115A744FEF99B70F5504" import="1">Expanded Naval Immersion Mod/Art/Thumbs.db</File>
+    <File md5="1677E30E8E6112069948CCCE6305776E" import="1">Expanded Naval Immersion Mod/Art/Tre_Kronor_Class.dds</File>
+    <File md5="3E3D372EDBBDD831B80FDBE92DF93F17" import="1">Expanded Naval Immersion Mod/Art/Tre_Kronor_Class.fxsxml</File>
+    <File md5="F064E322E0F8E252A5531C8A4E304172" import="1">Expanded Naval Immersion Mod/Art/Tre_Kronor_Class.gr2</File>
+    <File md5="09A59D6BBA1CA630957197611BB6DA65" import="1">Expanded Naval Immersion Mod/Art/Tre_Kronor_Class_gloss.dds</File>
+    <File md5="C5CAFF0F7139B56DFC937C2C86D93D12" import="1">Expanded Naval Immersion Mod/Art/Triba_Class.dds</File>
+    <File md5="B551BFCA1B0E26DB83E34DEA3E0A341D" import="1">Expanded Naval Immersion Mod/Art/Triba_Class.fxsxml</File>
+    <File md5="92C35BC979A8C20EDAE5AD03D871AF3A" import="1">Expanded Naval Immersion Mod/Art/Triba_Class.gr2</File>
+    <File md5="5464FC739E2D37E1C557A66A2E7CFED6" import="1">Expanded Naval Immersion Mod/Art/Triba_Class_gloss.dds</File>
+    <File md5="76E7D539C53E411E830A351B1B78579D" import="1">Expanded Naval Immersion Mod/Art/Tromp_Class.dds</File>
+    <File md5="49A59DCAAA9A7C780341EC7BC41453EF" import="1">Expanded Naval Immersion Mod/Art/Tromp_Class.fxsxml</File>
+    <File md5="6D5DD6C1FD554FCBB8E78916CDA7182A" import="1">Expanded Naval Immersion Mod/Art/Tromp_Class.gr2</File>
+    <File md5="D12BFC6F4266A2BEDF33421A77F1A2BE" import="1">Expanded Naval Immersion Mod/Art/Tromp_Class_gloss.dds</File>
+    <File md5="11276E0BA6549FC534D44B739397C32E" import="1">Expanded Naval Immersion Mod/Art/T_Class.dds</File>
+    <File md5="5E003AA853BC0E79740561803D4121D9" import="1">Expanded Naval Immersion Mod/Art/T_Class.fxsxml</File>
+    <File md5="FE53AD69C8A09C317ECE72C2805FDAE6" import="1">Expanded Naval Immersion Mod/Art/T_Class.gr2</File>
+    <File md5="8C2EE479E998CB81B567E9CD5FDBD8D2" import="1">Expanded Naval Immersion Mod/Art/T_Class_gloss.dds</File>
+    <File md5="E08958BF3F5E24EFC74AFB24CCB9662E" import="1">Expanded Naval Immersion Mod/Art/U-Boat_Type_VII.dds</File>
+    <File md5="E921DC470B0F36B3E48614246B9418F0" import="1">Expanded Naval Immersion Mod/Art/U-Boat_Type_VII.fxsxml</File>
+    <File md5="7C5BE4B7EFE2DB505D9B733B1868A8C2" import="1">Expanded Naval Immersion Mod/Art/U-Boat_Type_VII.gr2</File>
+    <File md5="6A4AA57666D9CEE792D469018705322E" import="1">Expanded Naval Immersion Mod/Art/U-Boat_Type_VII_gloss.dds</File>
+    <File md5="A90F02CD71A0F90BA0F3BC8B8D672F7B" import="1">Expanded Naval Immersion Mod/Art/Vasilefs_Georgios_Class.dds</File>
+    <File md5="A821B0955100D8EBD586C723CB561563" import="1">Expanded Naval Immersion Mod/Art/Vasilefs_Georgios_Class.fxsxml</File>
+    <File md5="6461B0D7F76572283DA4F04E6ED70C27" import="1">Expanded Naval Immersion Mod/Art/Vasilefs_Georgios_Class.gr2</File>
+    <File md5="7D98BB4A539A2ADD824E713E899BAFE3" import="1">Expanded Naval Immersion Mod/Art/Vasilefs_Georgios_Class_gloss.dds</File>
+    <File md5="4C5C099F0A4FD21C8E3CE9B0775AEBD4" import="1">Expanded Naval Immersion Mod/Art/Yamato_Class.dds</File>
+    <File md5="9632FFCE9F684AC6B5928DF9B27A9226" import="1">Expanded Naval Immersion Mod/Art/Yamato_Class.fxsxml</File>
+    <File md5="800A6760332BFB63E5F61651040918F2" import="1">Expanded Naval Immersion Mod/Art/Yamato_Class.gr2</File>
+    <File md5="A08BD3AA9B8EE4494A2A218F6656B3D8" import="1">Expanded Naval Immersion Mod/Art/Yamato_Class_gloss.dds</File>
+    <File md5="ABD702F223EF35EE54F57789C76785EB" import="1">Expanded Naval Immersion Mod/Art/Yorktown_Class.DDS</File>
+    <File md5="64E890552DD0BDEAE8FB0A574D4787B7" import="1">Expanded Naval Immersion Mod/Art/Yorktown_Class.fxsxml</File>
+    <File md5="D8CFBCE8397CD8FF8B50CC8E3A3CCDEA" import="1">Expanded Naval Immersion Mod/Art/Yorktown_Class.gr2</File>
+    <File md5="B0860D07091D3596F201B94C084F7EDD" import="1">Expanded Naval Immersion Mod/Art/Yorktown_Class_gloss.dds</File>
+    <File md5="6C6630EC935CADF717B543F3EAD4D15B" import="1">Expanded Naval Immersion Mod/Art/Zara_Class.dds</File>
+    <File md5="67427FCE664E7F4D631DB10E0E1036AF" import="1">Expanded Naval Immersion Mod/Art/Zara_Class.fxsxml</File>
+    <File md5="0E85FBB8187328DE05068191956C2046" import="1">Expanded Naval Immersion Mod/Art/Zara_Class.gr2</File>
+    <File md5="D0451554F8B9CA3239066BEC47978C3F" import="1">Expanded Naval Immersion Mod/Art/Zara_Class_gloss.dds</File>
+    <File md5="D4439C24C6E226367873674369887599" import="1">Expanded Naval Immersion Mod/Art/Z_Class.dds</File>
+    <File md5="EC66C0C84D415EE8217859563828C35A" import="1">Expanded Naval Immersion Mod/Art/Z_Class.fxsxml</File>
+    <File md5="2EB322D16709B9C051542B24AB6414F7" import="1">Expanded Naval Immersion Mod/Art/Z_Class.gr2</File>
+    <File md5="4845F45754161592F1C70C0F3FED1F58" import="1">Expanded Naval Immersion Mod/Art/Z_Class_gloss.dds</File>
+    <File md5="899F844C24081DB555EE6400E11F5E25" import="0">Expanded Naval Immersion Mod/SQL/ships2update.sql</File>
+    <File md5="3F5CB8849839EBEA686160A9FA8DCAE6" import="0">Expanded Naval Immersion Mod/XML/GameTextEnglish.xml</File>
+    <File md5="29628F8B58B44B80DFF69B850EB48B58" import="0">Expanded Naval Immersion Mod/XML/Ships2.xml</File>
+    <File md5="C63783BBF2E07A71E60C8D20F00E83DE" import="0">Expanded Naval Immersion Mod/XML/UnitAmericaBaltimoreClassArt.xml</File>
+    <File md5="7478220D3AE9EFBE8E29C61853B73265" import="0">Expanded Naval Immersion Mod/XML/UnitAmericaFletcherClassArt.xml</File>
+    <File md5="BC0D604977586480C709C054FEAD15B3" import="0">Expanded Naval Immersion Mod/XML/UnitAmericaGatoClassArt.xml</File>
+    <File md5="E7171AB44C6765D508AB661C0950C724" import="0">Expanded Naval Immersion Mod/XML/UnitAmericaPennsylvaniaClassArt.xml</File>
+    <File md5="3132667631F8D29CB620A1EDC165D6F3" import="0">Expanded Naval Immersion Mod/XML/UnitAmericaSouthDakotaClassArt.xml</File>
+    <File md5="9F60EAFCA4F08E914ED97E270D45F398" import="0">Expanded Naval Immersion Mod/XML/UnitAmericaYorktownClassArt.xml</File>
+    <File md5="B24361FBF56ED4AE0C33D3E70850479F" import="0">Expanded Naval Immersion Mod/XML/UnitEnglandDidoClassArt.xml</File>
+    <File md5="AAE858D7524253739D18D600F53F617A" import="0">Expanded Naval Immersion Mod/XML/UnitEnglandIllustriousClassArt.xml</File>
+    <File md5="193D003D2276984F0C126CF271187941" import="0">Expanded Naval Immersion Mod/XML/UnitEnglandKingGeorgeClassArt.xml</File>
+    <File md5="B962749427EA8D204B842FD5DA7A6944" import="0">Expanded Naval Immersion Mod/XML/UnitEnglandQueenElizabethClassArt.xml</File>
+    <File md5="0BFC5DBCD88A928C079031F3F5E2648E" import="0">Expanded Naval Immersion Mod/XML/UnitEnglandTClassArt.xml</File>
+    <File md5="E8AC18530D35C6B6923074873F1ED0BF" import="0">Expanded Naval Immersion Mod/XML/UnitEnglandTribalClassArt.xml</File>
+    <File md5="7722B556E7CAD33ABE2DA97A520AD467" import="0">Expanded Naval Immersion Mod/XML/UnitFranceDunkerqueClassArt.xml</File>
+    <File md5="FA0DBE455F6AD91D5B79D92A8C88162E" import="0">Expanded Naval Immersion Mod/XML/UnitFranceFantasqueClassArt.xml</File>
+    <File md5="E7C69EA0E8AB80A2B4E252CB2C5E9F29" import="0">Expanded Naval Immersion Mod/XML/UnitFranceJoffreClassArt.xml</File>
+    <File md5="D20BBFB1D7048BFCE66EA9FF51C9E74D" import="0">Expanded Naval Immersion Mod/XML/UnitFranceLaGalissonniereClassArt.xml</File>
+    <File md5="69C7FB329DCC2230B00EEDCA36E31A0D" import="0">Expanded Naval Immersion Mod/XML/UnitFranceRedoutableClassArt.xml</File>
+    <File md5="6476BA942D94D1C9692E3473A15C4B42" import="0">Expanded Naval Immersion Mod/XML/UnitFranceRichelieuClassArt.xml</File>
+    <File md5="9C4B680CF31AE82B56AA12F7C9998AEA" import="0">Expanded Naval Immersion Mod/XML/UnitGermanyBismarckClassArt.xml</File>
+    <File md5="F0728CBF7A25BBBCB79D6D53BEB11B4A" import="0">Expanded Naval Immersion Mod/XML/UnitGermanyGrafZeppelinClassArt.xml</File>
+    <File md5="7A30101E46790625967DB2C494BC8AD7" import="0">Expanded Naval Immersion Mod/XML/UnitGermanyLeipzigClassArt.xml</File>
+    <File md5="D4A3053F5886FDD2F19575247A4BEA23" import="0">Expanded Naval Immersion Mod/XML/UnitGermanyScharnhorstClassArt.xml</File>
+    <File md5="17A7FF089B25ABD9C92E34D1C5B62F6D" import="0">Expanded Naval Immersion Mod/XML/UnitGermanyU7ClassArt.xml</File>
+    <File md5="6D7030EDE8F842A81D8133133BA6344B" import="0">Expanded Naval Immersion Mod/XML/UnitGermanyZClassArt.xml</File>
+    <File md5="E16695B68F3C175675B9CDA82E5F195D" import="0">Expanded Naval Immersion Mod/XML/UnitGreeceKatsonisClassArt.xml</File>
+    <File md5="C7AF5901DA23257507C10E4F224D28C3" import="0">Expanded Naval Immersion Mod/XML/UnitGreecePisaClassArt.xml</File>
+    <File md5="E0A065FC8F7372922E3A5F6130B13504" import="0">Expanded Naval Immersion Mod/XML/UnitGreeceVasilefsGeorgiosClassArt.xml</File>
+    <File md5="5E80B501220272F77B8D71EC62244AB8" import="0">Expanded Naval Immersion Mod/XML/UnitItalyAquilaClassArt.xml</File>
+    <File md5="2AB4E56D17B561F72E06205432A347BE" import="0">Expanded Naval Immersion Mod/XML/UnitItalyConteDiCavourClassArt.xml</File>
+    <File md5="BA0AB1A4EAAA8AE912F6928E3E7D26EB" import="0">Expanded Naval Immersion Mod/XML/UnitItalyLittorioClassArt.xml</File>
+    <File md5="6598B725F39E0787A42A71D1D1CD7C3A" import="0">Expanded Naval Immersion Mod/XML/UnitItalyMarcelloClassArt.xml</File>
+    <File md5="553D2C99439BF4B56360D0DC21739A20" import="0">Expanded Naval Immersion Mod/XML/UnitItalySoldatiClassArt.xml</File>
+    <File md5="97AEF918C507F463252940406ECF737F" import="0">Expanded Naval Immersion Mod/XML/UnitItalyZaraClassArt.xml</File>
+    <File md5="F3E4DF396908967667A76F986DF6156A" import="0">Expanded Naval Immersion Mod/XML/UnitJapanB1ClassArt.xml</File>
+    <File md5="9227E78C1AFD41EE2043B50762A2A8DF" import="0">Expanded Naval Immersion Mod/XML/UnitJapanKagaClassArt.xml</File>
+    <File md5="39DF0CF368213F415EF3F6096011687A" import="0">Expanded Naval Immersion Mod/XML/UnitJapanKageroClassArt.xml</File>
+    <File md5="372E5FF48759AE545A56E5AC6CA0136B" import="0">Expanded Naval Immersion Mod/XML/UnitJapanKongoClassArt.xml</File>
+    <File md5="BC17A639E044C221221FAFCEF933A51A" import="0">Expanded Naval Immersion Mod/XML/UnitJapanTakaoClassArt.xml</File>
+    <File md5="5E0D7A1AAC4A4CE668C700421A3F38C0" import="0">Expanded Naval Immersion Mod/XML/UnitJapanYamatoClassArt.xml</File>
+    <File md5="B8B1A8256D3CA95D8025BC4B38F2B05A" import="0">Expanded Naval Immersion Mod/XML/UnitNetherlandsAdmiralenClassArt.xml</File>
+    <File md5="4225A9F63828E5A572CE46E433A5E424" import="0">Expanded Naval Immersion Mod/XML/UnitNetherlandsTrompClassArt.xml</File>
+    <File md5="232222E7B75C2627F3557D16886312F5" import="0">Expanded Naval Immersion Mod/XML/UnitO19ClassSubmarine888.xml</File>
+    <File md5="537C67D67DD4B07D85F40127741B55B4" import="0">Expanded Naval Immersion Mod/XML/UnitPolandDanaeClassArt.xml</File>
+    <File md5="C49DA0976ACB8603E9EBF0ECEA701525" import="0">Expanded Naval Immersion Mod/XML/UnitPolandGromClassArt.xml</File>
+    <File md5="B1D5792132FC7E175284B3376038485D" import="0">Expanded Naval Immersion Mod/XML/UnitPolandOrzelClassArt.xml</File>
+    <File md5="74E68B2029C14E08FD73375A76C711F8" import="0">Expanded Naval Immersion Mod/XML/UnitRussiaGangutClassArt.xml</File>
+    <File md5="03CA14F3F963EADB10C242D869D98EFF" import="0">Expanded Naval Immersion Mod/XML/UnitRussiaGnevnyClassArt.xml</File>
+    <File md5="F81FE096A778F72E074E2E4077780210" import="0">Expanded Naval Immersion Mod/XML/UnitRussiaKirovClassArt.xml</File>
+    <File md5="596D929F5AD81121D958C9390EB360AE" import="0">Expanded Naval Immersion Mod/XML/UnitRussiaProject71ClassArt.xml</File>
+    <File md5="B08F0D4B8975E352CAC9C452D3927749" import="0">Expanded Naval Immersion Mod/XML/UnitRussiaShchukaClassArt.xml</File>
+    <File md5="AFA4DBA7379C8B3CE8610AD99EE0AAD6" import="0">Expanded Naval Immersion Mod/XML/UnitRussiaSovetskySoyuzClassArt.xml</File>
+    <File md5="7FB571F36B942F246943B32AB931D470" import="0">Expanded Naval Immersion Mod/XML/UnitsGalleonArt.xml</File>
+    <File md5="6107F3C5F209C9FDFCF8830DD6FAA596" import="0">Expanded Naval Immersion Mod/XML/UnitsPolynesianWarCanoeArt.xml</File>
+    <File md5="F9E32F84B28B12C98A356B3CDF42661D" import="0">Expanded Naval Immersion Mod/XML/UnitsSpanishGalleonArt.xml</File>
+    <File md5="77F0EF1A7401D153AEE35AC17F9DF612" import="0">Expanded Naval Immersion Mod/XML/UnitsVikingLongboatArt.xml</File>
+    <File md5="49F88AD9C635DB84CF9AB3C0117AF749" import="0">Expanded Naval Immersion Mod/XML/UnitSwedenGoteborgClassArt.xml</File>
+    <File md5="4AFDFE0742647F20AD37A2DBD505A531" import="0">Expanded Naval Immersion Mod/XML/UnitSwedenSjolejonetClassArt.xml</File>
+    <File md5="26841BB26580EEB00CB73AFA61BC1A90" import="0">Expanded Naval Immersion Mod/XML/UnitSwedenTreKronorClassArt.xml</File>
+    <File md5="6C63C9F8762EE97FB79930D37639B288" import="0">Expanded Naval Immersion Mod/XML/UnitUniversalBattleshipClassArt.xml</File>
+    <File md5="CB175011824A7BEA8AF3FAD6B8D82AF8" import="0">Expanded Naval Immersion Mod/XML/UnitUniversalCarrierClassArt.xml</File>
+    <File md5="B78E0712A6A0F0CE01F1FE1924B27F6C" import="0">Expanded Naval Immersion Mod/XML/UnitUniversalCruiserClassArt.xml</File>
+    <File md5="FC2D744AA8A58767E77213AAF213D244" import="0">Expanded Naval Immersion Mod/XML/UnitUniversalDestroyerClassArt.xml</File>
+    <File md5="BC9B0C2B0A95DEB4075C747F2C0B5785" import="0">Expanded Naval Immersion Mod/XML/UnitUniversalDreadnoughtClassArt.xml</File>
+    <File md5="2C0E82F6F22F98B72655DAA13C5E7849" import="0">Expanded Naval Immersion Mod/XML/UnitUniversalSubmarineClassArt.xml</File>
+    <File md5="95FEC49A08B85281E54705E4D8EE4E21" import="0">Fixinator.sql</File>
+    <File md5="09CEAFEC93D1D8CF11CE5169C5F28476" import="1">Missiles/ART/ICON_UNIT_SEARAM__ROLLING_AIRFRAME_MISSILE888_128.dds</File>
+    <File md5="C0A06640DD649A352555D71CE8ACD428" import="1">Missiles/ART/ICON_UNIT_SEARAM__ROLLING_AIRFRAME_MISSILE888_256.dds</File>
+    <File md5="220E5F2B7C66FAB585712EBCAB22DDD1" import="1">Missiles/ART/ICON_UNIT_SEARAM__ROLLING_AIRFRAME_MISSILE888_45.dds</File>
+    <File md5="5ACA6D39B8AD10CA10FD13C2ADB80909" import="1">Missiles/ART/ICON_UNIT_SEARAM__ROLLING_AIRFRAME_MISSILE888_64.dds</File>
+    <File md5="EAAFB539E095E1CAB3A1C7F52C9E584C" import="1">Missiles/ART/ICON_UNIT_SEARAM__ROLLING_AIRFRAME_MISSILE888_80.dds</File>
+    <File md5="23605180AB996DDC31E1BB8A8AB6CA62" import="1">Missiles/ART/ICON_UNIT_SEATOMAHAWK_CRUISE_MISSILE888_128.dds</File>
+    <File md5="AE05FE00AA618B437F8E0A2188BD66F6" import="1">Missiles/ART/ICON_UNIT_SEATOMAHAWK_CRUISE_MISSILE888_256.dds</File>
+    <File md5="437641009A500A8E1E029A6EC5505D93" import="1">Missiles/ART/ICON_UNIT_SEATOMAHAWK_CRUISE_MISSILE888_45.dds</File>
+    <File md5="3B8E6214B5C2CC12DD962AFC4065F9A9" import="1">Missiles/ART/ICON_UNIT_SEATOMAHAWK_CRUISE_MISSILE888_64.dds</File>
+    <File md5="58DCB3559C75F15F3ECF0CD2D1F2C203" import="1">Missiles/ART/ICON_UNIT_SEATOMAHAWK_CRUISE_MISSILE888_80.dds</File>
+    <File md5="2CFC4B9077C82D3F9619F9A6707B5F60" import="1">Missiles/ART/ICON_UNIT_SEA_SPARROW_MISSILE888_128.dds</File>
+    <File md5="8E0845FAAB96DC4135CF74D818D4D484" import="1">Missiles/ART/ICON_UNIT_SEA_SPARROW_MISSILE888_256.dds</File>
+    <File md5="5B5A41F0E0285DCAB8BF768F2603BA37" import="1">Missiles/ART/ICON_UNIT_SEA_SPARROW_MISSILE888_45.dds</File>
+    <File md5="B1FC56666A36F1DADC05BDFCFEAFAF36" import="1">Missiles/ART/ICON_UNIT_SEA_SPARROW_MISSILE888_64.dds</File>
+    <File md5="6FC211FC85C1DD21DA443B37A01619D8" import="1">Missiles/ART/ICON_UNIT_SEA_SPARROW_MISSILE888_80.dds</File>
+    <File md5="ED778522069674A37AB3AF8E5F2D7BE0" import="1">Missiles/ART/TomahawkCM128.dds</File>
+    <File md5="E7E2A7F35AFFE2347A51BB2393BB49BE" import="1">Missiles/ART/TomahawkCM256.dds</File>
+    <File md5="1E328E39DC3202956B9D6349666960BF" import="1">Missiles/ART/TomahawkCM45.dds</File>
+    <File md5="36E97CB72DB981F07CBA15F54283FA23" import="1">Missiles/ART/TomahawkCM64.dds</File>
+    <File md5="C4973E5867CE18C4626ACEEC4EB17820" import="1">Missiles/ART/TomahawkCM80.dds</File>
+    <File md5="1CF24702BDD09E8D76D57A399B8D3D83" import="0">Missiles/XML/Units/IconTextureAtlas.xml</File>
+    <File md5="1FD269427AAEB778956F278F117B67A1" import="0">Missiles/XML/Units/TomahawkCruiseMissile.xml</File>
+    <File md5="D468BB21CFBFD1E5C47F2767C1FB327D" import="0">Missiles/XML/Units/UnitSeaRAMRollingAirframeMissile888.xml</File>
+    <File md5="AA9AE5FBAFD32943B97CBB88D51CF7AF" import="0">Missiles/XML/Units/UnitSeaSparrowMissile888.xml</File>
+    <File md5="C6EE50E9B173DFCFE60C3446851583F5" import="0">Missiles/XML/Units/UnitSeaTomahawkCruiseMissile888.xml</File>
+    <File md5="65689C713867922222828FB446EA3136" import="0">Promotions/PromotionsANU.xml</File>
+    <File md5="29ADA3796EBE96FA9A7667FA70277D88" import="1">Renissaince Era/Surface Ships/Constitution/GalleonCannons_diff.dds</File>
+    <File md5="966BC6C2D777764FC6A64706939F8EFB" import="1">Renissaince Era/Surface Ships/Constitution/GalleonCannons_sref.dds</File>
+    <File md5="AD54E0C29C6D7E5C8C38F502825072E9" import="1">Renissaince Era/Surface Ships/Constitution/GalleonHull_diff.dds</File>
+    <File md5="A6D0C063E1031BA4CA8D5DE3E2347810" import="1">Renissaince Era/Surface Ships/Constitution/GalleonHull_sref.dds</File>
+    <File md5="22A655E04F8DE74078CFDE1610FAF345" import="1">Renissaince Era/Surface Ships/Constitution/ICON_UNIT_USS_CONSTITUTION888_128.dds</File>
+    <File md5="9252F9EDE289F54417585CE2D0BDEF4E" import="1">Renissaince Era/Surface Ships/Constitution/ICON_UNIT_USS_CONSTITUTION888_256.dds</File>
+    <File md5="A0CA754A1577F5C31FBADF2D3198BBD8" import="1">Renissaince Era/Surface Ships/Constitution/ICON_UNIT_USS_CONSTITUTION888_45.dds</File>
+    <File md5="8D9818B9183DD775624982D21BA40838" import="1">Renissaince Era/Surface Ships/Constitution/ICON_UNIT_USS_CONSTITUTION888_64.dds</File>
+    <File md5="0D538F43FA690D816015B80A96FF8DC5" import="1">Renissaince Era/Surface Ships/Constitution/ICON_UNIT_USS_CONSTITUTION888_80.dds</File>
+    <File md5="7885D8A30733313AECA774FBB717C9CF" import="0">Renissaince Era/Surface Ships/Constitution/UnitUSSConstitution888.xml</File>
+    <File md5="00F3BC5EA352CF7A182648E27DA6CA44" import="1">Renissaince Era/Surface Ships/Constitution/WarGalleon.fxsxml</File>
+    <File md5="52665D135BF1AEB418491D1E86A74CDA" import="1">Renissaince Era/Surface Ships/Constitution/WarGalleon.gr2</File>
+    <File md5="A00426E9B80661C49CCBC5D4E10991C5" import="1">Spec Ops/African/AfricanSF_diff.dds</File>
+    <File md5="3219C7F0764A15773AB89FBF10433929" import="1">Spec Ops/African/AfricanSF_sref.dds</File>
+    <File md5="3F5B1931056EFB8FD48197ED5CBF3EE6" import="1">Spec Ops/African/Civ5_AfricanSF_v2.fxsxml</File>
+    <File md5="A2458B61E895BA29881AB655175ABA4A" import="1">Spec Ops/African/Civ5_AfricanSF_v2.gr2</File>
+    <File md5="6E18DE9F5C6FF1814CB7755A2B803A1E" import="1">Spec Ops/African/ICON_UNIT_AFRICAN_SPECIAL_FORCES888_128.dds</File>
+    <File md5="38F84CCC3010F13207C19C9F813113C5" import="1">Spec Ops/African/ICON_UNIT_AFRICAN_SPECIAL_FORCES888_256.dds</File>
+    <File md5="7D156111C9ABD807652F1A90B44BC736" import="1">Spec Ops/African/ICON_UNIT_AFRICAN_SPECIAL_FORCES888_45.dds</File>
+    <File md5="26E3C8234FDC9CA519B8C3B431EB14BA" import="1">Spec Ops/African/ICON_UNIT_AFRICAN_SPECIAL_FORCES888_64.dds</File>
+    <File md5="6158E0444393DBEC8D75E20CF03E47B2" import="1">Spec Ops/African/ICON_UNIT_AFRICAN_SPECIAL_FORCES888_80.dds</File>
+    <File md5="8D169EE0641467BC594929FA3667C49D" import="1">Spec Ops/African/marine_modern_diff.dds</File>
+    <File md5="B1A588F639A766680D09A0B9E7283482" import="1">Spec Ops/African/marine_modern_sref.dds</File>
+    <File md5="E67557D55170F492EE022D5F1EDADFB4" import="0">Spec Ops/African/UnitAfricanSpecialForces888.xml</File>
+    <File md5="5B8FBDD532486EB60ECB727286CA7706" import="1">Spec Ops/Animations/fx_triggers_modernmarine.ftsxml</File>
+    <File md5="10FBE81A38F4D40FBB262AA7848681E8" import="1">Spec Ops/Animations/ModernMarine_Attack.gr2</File>
+    <File md5="82C1973B3CED9ACEFFFE2C2003A603D4" import="1">Spec Ops/Animations/ModernMarine_Bombard_Defense.gr2</File>
+    <File md5="4E5C1205401B54CBE76140F440D3200D" import="1">Spec Ops/Animations/ModernMarine_DeathA.gr2</File>
+    <File md5="5D434BEDA164FA4674D624BBD5D5D2A1" import="1">Spec Ops/Animations/ModernMarine_DeathA_Idle.gr2</File>
+    <File md5="90EEA8E512E8E0B848BD323FE8A99780" import="1">Spec Ops/Animations/ModernMarine_DeathB.gr2</File>
+    <File md5="0208C41187615F90A266AB8AF44EFF0A" import="1">Spec Ops/Animations/ModernMarine_DeathB_Idle.gr2</File>
+    <File md5="17FA15D5AF19204D2FBDDBDF0BCD6313" import="1">Spec Ops/Animations/ModernMarine_Fidget.gr2</File>
+    <File md5="B63A001D59F2A07B413BB02898D2E656" import="1">Spec Ops/Animations/ModernMarine_Fortify.gr2</File>
+    <File md5="4DB8C1D2B17255833878519BA8CF4568" import="1">Spec Ops/Animations/ModernMarine_Fortify_Idle.gr2</File>
+    <File md5="A6DDF301AB9DFC99838E77EC71416A0C" import="1">Spec Ops/Animations/ModernMarine_Idle.gr2</File>
+    <File md5="DCB52786F02DF0FE8C8C64A68733041A" import="1">Spec Ops/Animations/ModernMarine_Run.gr2</File>
+    <File md5="68F7841EB5FADBA860AD5F53E25EADBE" import="1">Spec Ops/Asian/AsianSF.fxsxml</File>
+    <File md5="107DC69459DC72CAE6FD611E58C57A33" import="1">Spec Ops/Asian/AsianSF.gr2</File>
+    <File md5="269C27E76CF1D4C17FB69D92AEEE3EC6" import="1">Spec Ops/Asian/AsianSF_diff.dds</File>
+    <File md5="B41E12BE45C9EA77041AE78C793F81BD" import="1">Spec Ops/Asian/AsianSF_sref.dds</File>
+    <File md5="E62D54528C56D5141EC85CC90A6F216D" import="1">Spec Ops/Asian/ICON_UNIT_ASIAN_SPECIAL_FORCES888_128.dds</File>
+    <File md5="69166172A86DF24C5134F0D170665F51" import="1">Spec Ops/Asian/ICON_UNIT_ASIAN_SPECIAL_FORCES888_256.dds</File>
+    <File md5="B1E3FB3107EDA29A0A7B486B306611F0" import="1">Spec Ops/Asian/ICON_UNIT_ASIAN_SPECIAL_FORCES888_45.dds</File>
+    <File md5="8F9702E1BAC689460B1602B22E13724D" import="1">Spec Ops/Asian/ICON_UNIT_ASIAN_SPECIAL_FORCES888_64.dds</File>
+    <File md5="58724D529D5B0C5E185FC46C9A0D5E3C" import="1">Spec Ops/Asian/ICON_UNIT_ASIAN_SPECIAL_FORCES888_80.dds</File>
+    <File md5="AF2D17A1C51E01961846853418ECC348" import="1">Spec Ops/Asian/L85A3_diff.dds</File>
+    <File md5="AABAA5EB9F93D2EA7E8BEEFE1A4442C9" import="1">Spec Ops/Asian/L85A3_sref.dds</File>
+    <File md5="BD330E8BC002F3B8E427FEE4A5194D89" import="0">Spec Ops/Asian/UnitAsianSpecialForces888.xml</File>
+    <File md5="77CAE4A6E27312CFBD3966AE5CB636F8" import="1">Spec Ops/European/EuropeanSF.fxsxml</File>
+    <File md5="9AC9363FB093E103904708D0E8B7E8A3" import="1">Spec Ops/European/EuropeanSF.gr2</File>
+    <File md5="FDC22CA237F80D3B75E7062A38DB6AAA" import="1">Spec Ops/European/EuropeanSF_diff.dds</File>
+    <File md5="D070D9F37350EBA9B05A89948D1D2522" import="1">Spec Ops/European/EuropeanSF_sref.dds</File>
+    <File md5="6362ECD6AAB65B8645972EAB3465C1C9" import="1">Spec Ops/European/G36_diff.dds</File>
+    <File md5="C03073EA60FFA14DF9314BBE01F15739" import="1">Spec Ops/European/G36_sref.dds</File>
+    <File md5="9CAF4C2971214C9FBE88CAD498CB708A" import="1">Spec Ops/European/ICON_UNIT_EUROPEAN_SPECIAL_FORCES888_128.dds</File>
+    <File md5="81C30701FE73DA2153D8B36E42A72E8B" import="1">Spec Ops/European/ICON_UNIT_EUROPEAN_SPECIAL_FORCES888_256.dds</File>
+    <File md5="25BF2EB7071AFDC6575937508F8C2FEF" import="1">Spec Ops/European/ICON_UNIT_EUROPEAN_SPECIAL_FORCES888_45.dds</File>
+    <File md5="4D26316F688F7CFA6CA5466AF60E07B2" import="1">Spec Ops/European/ICON_UNIT_EUROPEAN_SPECIAL_FORCES888_64.dds</File>
+    <File md5="E89A773D9214BA261BC2ECDD6596C9F8" import="1">Spec Ops/European/ICON_UNIT_EUROPEAN_SPECIAL_FORCES888_80.dds</File>
+    <File md5="6341025AE41004509F8083AC32AE41EE" import="0">Spec Ops/European/UnitEuropeanSpecialForces888.xml</File>
+    <File md5="605D96F5C2A6B55C0641F3F6018E7DAE" import="1">Spec Ops/Middle Eastern/ICON_UNIT_MIDDLE_EASTERN_SPECIAL_FORCES888_128.dds</File>
+    <File md5="D728DCE7773D603FF90EB69C3D819967" import="1">Spec Ops/Middle Eastern/ICON_UNIT_MIDDLE_EASTERN_SPECIAL_FORCES888_256.dds</File>
+    <File md5="E3AA32941693E8E1C48435B8EA44E27F" import="1">Spec Ops/Middle Eastern/ICON_UNIT_MIDDLE_EASTERN_SPECIAL_FORCES888_45.dds</File>
+    <File md5="C043A781B0ECEA439B43340EA9F6DD29" import="1">Spec Ops/Middle Eastern/ICON_UNIT_MIDDLE_EASTERN_SPECIAL_FORCES888_64.dds</File>
+    <File md5="EE4691455752BAB8F67A5529B2989345" import="1">Spec Ops/Middle Eastern/ICON_UNIT_MIDDLE_EASTERN_SPECIAL_FORCES888_80.dds</File>
+    <File md5="8D169EE0641467BC594929FA3667C49D" import="1">Spec Ops/Middle Eastern/marine_modern_diff.dds</File>
+    <File md5="B1A588F639A766680D09A0B9E7283482" import="1">Spec Ops/Middle Eastern/marine_modern_sref.dds</File>
+    <File md5="5A5912320B302991AE2E5D00AE07A1A9" import="1">Spec Ops/Middle Eastern/Terrorist.fxsxml</File>
+    <File md5="E98F9BC6BDE868CBEB1EE935B284BB30" import="1">Spec Ops/Middle Eastern/Terrorist.gr2</File>
+    <File md5="4C83FAB554F3A0AE513BDEED01C915F3" import="1">Spec Ops/Middle Eastern/Terrorist_diff.dds</File>
+    <File md5="F25824E8DECCEADB687DC8B91098CF69" import="1">Spec Ops/Middle Eastern/Terrorist_sref.dds</File>
+    <File md5="4DFB16E864CDC7A28E0CB71B3E94E4BC" import="0">Spec Ops/Middle Eastern/UnitMiddleEasternSpecialForces888.xml</File>
+    <File md5="AF0C8E8F8A6780D0E3E98F7E62906597" import="1">Spec Ops/Russia/Alt Russian Brown/AN-94_diff.dds</File>
+    <File md5="0B21E2FE884261F66A2265B7D9A2654D" import="1">Spec Ops/Russia/Alt Russian Brown/AN-94_sref.dds</File>
+    <File md5="33D41B5CD81094144F73E7CF4172E055" import="1">Spec Ops/Russia/Alt Russian Brown/RussianSF.fxsxml</File>
+    <File md5="3C87FBB8DBA9E964C5A2D31B149A304D" import="1">Spec Ops/Russia/Alt Russian Brown/RussianSF.gr2</File>
+    <File md5="E637EFDAB776734D089AE9126ADC96F8" import="1">Spec Ops/Russia/Alt Russian Brown/RussianSF_diff.dds</File>
+    <File md5="CB36AB12AD6FE9D9B9AFD31103A7FCDA" import="1">Spec Ops/Russia/Alt Russian Brown/RussianSF_sref.dds</File>
+    <File md5="064C9E3FA294140E2F350AC787B61B29" import="1">Spec Ops/Russia/ICON_UNIT_SPETSNAZ888_128.dds</File>
+    <File md5="8670BC94DBA52DED25586CE45DB8B2D6" import="1">Spec Ops/Russia/ICON_UNIT_SPETSNAZ888_256.dds</File>
+    <File md5="68AC9F0163F0E0A9F920911B7EA714E0" import="1">Spec Ops/Russia/ICON_UNIT_SPETSNAZ888_45.dds</File>
+    <File md5="D1FB9284FA1A42F4DB19596F57B09BC0" import="1">Spec Ops/Russia/ICON_UNIT_SPETSNAZ888_64.dds</File>
+    <File md5="0DB7702D3302EA89C28964384E1335D7" import="1">Spec Ops/Russia/ICON_UNIT_SPETSNAZ888_80.dds</File>
+    <File md5="09B371D8751236949B0B7A4F3E3E26CB" import="1">Spec Ops/Russia/PPSh-41_diff.dds</File>
+    <File md5="D9B1DA766EFC635AD857B39EC8B23A66" import="1">Spec Ops/Russia/PPSh-41_sref.dds</File>
+    <File md5="E9ED8910882C75FCDB8AC3DA79D74359" import="1">Spec Ops/Russia/Soviet White/SovietSF_white.fxsxml</File>
+    <File md5="EBD6716B1B4AEFCA764906B44AC1AFB9" import="1">Spec Ops/Russia/Soviet White/SovietSF_white.gr2</File>
+    <File md5="76BE96DF10538CF6AC07F795EB396C78" import="1">Spec Ops/Russia/Soviet White/SovietSF_white_diff.dds</File>
+    <File md5="DB63174DE64D2B53B2BC712AC9F41DBC" import="1">Spec Ops/Russia/SovietSF.fxsxml</File>
+    <File md5="AACE452FA7419B1A834386C8B311466A" import="1">Spec Ops/Russia/SovietSF.gr2</File>
+    <File md5="27A4C0504259EBE790C644277321E938" import="1">Spec Ops/Russia/SovietSF_diff.dds</File>
+    <File md5="126EF8445F234A1BD809BED9B9D22184" import="1">Spec Ops/Russia/SovietSF_sref.dds</File>
+    <File md5="A9854E897A1551A470A872A62AF9234E" import="0">Spec Ops/Russia/UnitSpetsnaz888.xml</File>
+    <File md5="6362ECD6AAB65B8645972EAB3465C1C9" import="1">Spec Ops/South American/G36_diff.dds</File>
+    <File md5="C03073EA60FFA14DF9314BBE01F15739" import="1">Spec Ops/South American/G36_sref.dds</File>
+    <File md5="19CCA26BDB9B1339299E5993790CC1CB" import="1">Spec Ops/South American/ICON_UNIT_SOUTH_AMERICAN_SPECIAL_FORCES888_128.dds</File>
+    <File md5="2BAD22B9C60DC2AF1053A6FD8B22150D" import="1">Spec Ops/South American/ICON_UNIT_SOUTH_AMERICAN_SPECIAL_FORCES888_256.dds</File>
+    <File md5="1E95DF9A11779D4BED4EFB6B4E367347" import="1">Spec Ops/South American/ICON_UNIT_SOUTH_AMERICAN_SPECIAL_FORCES888_45.dds</File>
+    <File md5="EBFEBCD29B91AB4E2DF62444183CBFF0" import="1">Spec Ops/South American/ICON_UNIT_SOUTH_AMERICAN_SPECIAL_FORCES888_64.dds</File>
+    <File md5="A78408A55C0A2CA712A8CC5CE7B829F5" import="1">Spec Ops/South American/ICON_UNIT_SOUTH_AMERICAN_SPECIAL_FORCES888_80.dds</File>
+    <File md5="2D799B985289F70FF64026E919F8C475" import="1">Spec Ops/South American/SthAmericanSF.fxsxml</File>
+    <File md5="917500667C620C3B9FC4DC4697528332" import="1">Spec Ops/South American/SthAmericanSF.gr2</File>
+    <File md5="0820552A7FECB6140142E611B2A41664" import="1">Spec Ops/South American/SthAmericanSF_diff.dds</File>
+    <File md5="12A719AEE8B3928EF817BCB25559EA62" import="1">Spec Ops/South American/SthAmericanSF_sref.dds</File>
+    <File md5="5DD64CD9AC093CDD0A95A79AC2CB9DB3" import="0">Spec Ops/South American/UnitSouthAmericanSpecialForces888.xml</File>
+    <File md5="315516BBF596B474270DD96254F64CF3" import="1">Subs/Modern/ART/212A.fxsxml</File>
+    <File md5="8650F2303B760D426F5E1D1FCDC70807" import="1">Subs/Modern/ART/212A.gr2</File>
+    <File md5="15A200E49D56EC58515243F40DA2126B" import="1">Subs/Modern/ART/212A_diff.dds</File>
+    <File md5="509842DBCA2D2DF5ACABBA4A905B2E12" import="1">Subs/Modern/ART/212A_DMG_diff.dds</File>
+    <File md5="C371C563F42F7004B862A1BCC34DDAA3" import="1">Subs/Modern/ART/212A_DMG_sref.dds</File>
+    <File md5="E6F55A67ECBDDC0C52AAD2A12B2DD699" import="1">Subs/Modern/ART/212A_sref.dds</File>
+    <File md5="8EB43F17F75EF2B5478A4690E44E4329" import="1">Subs/Modern/ART/akula.fxsxml</File>
+    <File md5="512010BAC4BD8A20D41B4AEDC73EB2CA" import="1">Subs/Modern/ART/Akula.gr2</File>
+    <File md5="D77DD0FF4242D5F1B59DF8E2A52946AA" import="1">Subs/Modern/ART/Akula_diff.dds</File>
+    <File md5="BA512FB51E590BF722764950E1299D82" import="1">Subs/Modern/ART/Akula_DMG_diff.dds</File>
+    <File md5="479A14042708E5922DC23B846FD2D26D" import="1">Subs/Modern/ART/Akula_DMG_sref.dds</File>
+    <File md5="707DEDB367A32EC7A6F5BFECB4A49D10" import="1">Subs/Modern/ART/Akula_sref.dds</File>
+    <File md5="0CD513A6E02D8DF83E2564A9145B3262" import="1">Subs/Modern/ART/astute.fxsxml</File>
+    <File md5="4BE275A97A191BC6A07B2256BBA3B253" import="1">Subs/Modern/ART/Astute.gr2</File>
+    <File md5="283054424FC29E47B66A73CB70B64F8B" import="1">Subs/Modern/ART/Astute_diff.dds</File>
+    <File md5="7D93FD42B972569AA17E511AE1A59D04" import="1">Subs/Modern/ART/Astute_sref.dds</File>
+    <File md5="8180461740C2E11EB166A6E1AF6B9BBA" import="1">Subs/Modern/ART/kilo.fxsxml</File>
+    <File md5="1C622CE408B899588161E89331F3E2AB" import="1">Subs/Modern/ART/Kilo.gr2</File>
+    <File md5="D3EDA71B4617AD1FAC13FE945309E5FB" import="1">Subs/Modern/ART/kilo_diff.dds</File>
+    <File md5="7F78615DE118F02F8B35D1B920CFC9F1" import="1">Subs/Modern/ART/kilo_DMG_diff.dds</File>
+    <File md5="422C667A5537F39FED37C9A475405A15" import="1">Subs/Modern/ART/kilo_DMG_sref.dds</File>
+    <File md5="C56AC67A8C173E71611353F24F1DFD13" import="1">Subs/Modern/ART/kilo_sref.dds</File>
+    <File md5="D79DB4F4B4A7C9BFE8D8520278ACC89E" import="1">Subs/Modern/ART/losangeles.fxsxml</File>
+    <File md5="3B46CBA374C420EEEE4BBF6FEBEA6D23" import="1">Subs/Modern/ART/LosAngeles.gr2</File>
+    <File md5="037D164E7B796A20C7CD076AE2F51280" import="1">Subs/Modern/ART/LosAngeles_diff.dds</File>
+    <File md5="73FB18CAC147085EF5232E3CC0C87D4C" import="1">Subs/Modern/ART/LosAngeles_sref.dds</File>
+    <File md5="3CDD7DDEE4930DD222742299B17B3839" import="1">Subs/Modern/ART/scorpene.fxsxml</File>
+    <File md5="965710105978E2081424C5E53DBEC520" import="1">Subs/Modern/ART/Scorpene.gr2</File>
+    <File md5="865166B7DD6311B83EB721A68D5668E6" import="1">Subs/Modern/ART/Scorpene_diff.dds</File>
+    <File md5="21FDE2812E7121B3DA11697DE28B2070" import="1">Subs/Modern/ART/Scorpene_DMG_diff.dds</File>
+    <File md5="6DFF173C3C087E448089965A77AAFE1F" import="1">Subs/Modern/ART/Scorpene_DMG_sref.dds</File>
+    <File md5="1949C0165F7A0FF6391DE110290313D4" import="1">Subs/Modern/ART/Scorpene_sref.dds</File>
+    <File md5="418799E5619B9D96BD8BC9E0950DD99F" import="1">Subs/Modern/ART/typhoon.fxsxml</File>
+    <File md5="3E11B86CA7F0AFE76058F27348D460BF" import="1">Subs/Modern/ART/Typhoon.gr2</File>
+    <File md5="B3CA3D75AB029575EADCA9931AA93FFE" import="1">Subs/Modern/ART/typhoon_diff.dds</File>
+    <File md5="626C3786775EF14B1A4B9FE9F98959D4" import="1">Subs/Modern/ART/typhoon_dmg_diff.dds</File>
+    <File md5="28F625FE9594EE239D3A6D29E6AEB51F" import="1">Subs/Modern/ART/typhoon_dmg_sref.dds</File>
+    <File md5="0FFFCC60FF94A61C2B9C2EECBAF5C73E" import="1">Subs/Modern/ART/typhoon_sref.dds</File>
+    <File md5="B5BAD4A8AD6DF513E2A8070CE9BE06E2" import="1">Subs/Modern/ICONS/ICON_UNIT_AKULA_CLASS_SUBMARINE888_128.dds</File>
+    <File md5="07B9A048E8A6213D22049F8ADBC80E84" import="1">Subs/Modern/ICONS/ICON_UNIT_AKULA_CLASS_SUBMARINE888_256.dds</File>
+    <File md5="CE5C49F6A866F1021463C3868BA98143" import="1">Subs/Modern/ICONS/ICON_UNIT_AKULA_CLASS_SUBMARINE888_45.dds</File>
+    <File md5="CEC9A34FC48DEC41EAA10FD575651FF9" import="1">Subs/Modern/ICONS/ICON_UNIT_AKULA_CLASS_SUBMARINE888_64.dds</File>
+    <File md5="93FDCB2256F490E9F65F55F681F13FB4" import="1">Subs/Modern/ICONS/ICON_UNIT_AKULA_CLASS_SUBMARINE888_80.dds</File>
+    <File md5="39EF91A75B4A4DE33AB9FCE2CA668743" import="1">Subs/Modern/ICONS/ICON_UNIT_ASTUTE_CLASS_SUBMARINE888_128.dds</File>
+    <File md5="426EC96D15969211753522DBE5AE0D68" import="1">Subs/Modern/ICONS/ICON_UNIT_ASTUTE_CLASS_SUBMARINE888_256.dds</File>
+    <File md5="B4C6D1F765350C8A150129F3E9C40ABF" import="1">Subs/Modern/ICONS/ICON_UNIT_ASTUTE_CLASS_SUBMARINE888_45.dds</File>
+    <File md5="E04F97D6AAE9D3ED492939930BE95537" import="1">Subs/Modern/ICONS/ICON_UNIT_ASTUTE_CLASS_SUBMARINE888_64.dds</File>
+    <File md5="F441EA66C7BD6C5460A180956D20E65F" import="1">Subs/Modern/ICONS/ICON_UNIT_ASTUTE_CLASS_SUBMARINE888_80.dds</File>
+    <File md5="86D5ED562A110F59E40116F50438E1B3" import="1">Subs/Modern/ICONS/ICON_UNIT_KILO_CLASS_SUBMARINE888_128.dds</File>
+    <File md5="A37AB2BDD2A716EE888A999FBACF50EE" import="1">Subs/Modern/ICONS/ICON_UNIT_KILO_CLASS_SUBMARINE888_256.dds</File>
+    <File md5="91F61398A9DDCADAF3D926ADD3CD1831" import="1">Subs/Modern/ICONS/ICON_UNIT_KILO_CLASS_SUBMARINE888_45.dds</File>
+    <File md5="041090379137F041E1BBB0637D670F4E" import="1">Subs/Modern/ICONS/ICON_UNIT_KILO_CLASS_SUBMARINE888_64.dds</File>
+    <File md5="BD2BCE8289BBED56EA7A0CE13CDF097E" import="1">Subs/Modern/ICONS/ICON_UNIT_KILO_CLASS_SUBMARINE888_80.dds</File>
+    <File md5="38D5833E9CEA03028597EFA8B62B1606" import="1">Subs/Modern/ICONS/ICON_UNIT_LOS_ANGELES_CLASS_SUBMARINE888_128.dds</File>
+    <File md5="3A790B9FE91C67262FB7AE319E29FD03" import="1">Subs/Modern/ICONS/ICON_UNIT_LOS_ANGELES_CLASS_SUBMARINE888_256.dds</File>
+    <File md5="324ACCF9E67EB18893149FBBEE0B07CE" import="1">Subs/Modern/ICONS/ICON_UNIT_LOS_ANGELES_CLASS_SUBMARINE888_45.dds</File>
+    <File md5="5EDCEDA274A0C5F0430EBFED42C61F84" import="1">Subs/Modern/ICONS/ICON_UNIT_LOS_ANGELES_CLASS_SUBMARINE888_64.dds</File>
+    <File md5="D23716AE6CB1D27ECEA9BDB69AF571BE" import="1">Subs/Modern/ICONS/ICON_UNIT_LOS_ANGELES_CLASS_SUBMARINE888_80.dds</File>
+    <File md5="A79DB0DA4FD2EF5E3CF73A0F361DF812" import="1">Subs/Modern/ICONS/ICON_UNIT_OHIO_CLASS_SUBMARINE888_128.dds</File>
+    <File md5="A95176BE7AD687497A304652CEADBC04" import="1">Subs/Modern/ICONS/ICON_UNIT_OHIO_CLASS_SUBMARINE888_256.dds</File>
+    <File md5="CC03F9579FFFA99FCA647B1BE5AF30D0" import="1">Subs/Modern/ICONS/ICON_UNIT_OHIO_CLASS_SUBMARINE888_45.dds</File>
+    <File md5="723E26E8AC8C537A0E230401EB8C8FD6" import="1">Subs/Modern/ICONS/ICON_UNIT_OHIO_CLASS_SUBMARINE888_64.dds</File>
+    <File md5="E39C0933BECAC2D3E4EECB42B73D536A" import="1">Subs/Modern/ICONS/ICON_UNIT_OHIO_CLASS_SUBMARINE888_80.dds</File>
+    <File md5="66F07206630A65E32A0FBC5B1C029EDA" import="1">Subs/Modern/ICONS/ICON_UNIT_SCORPENE_CLASS_SUBMARINE888_128.dds</File>
+    <File md5="75E3AB05C5911C770F327A12F87B3C0C" import="1">Subs/Modern/ICONS/ICON_UNIT_SCORPENE_CLASS_SUBMARINE888_256.dds</File>
+    <File md5="C33A84987911137AE7498BB786361139" import="1">Subs/Modern/ICONS/ICON_UNIT_SCORPENE_CLASS_SUBMARINE888_45.dds</File>
+    <File md5="0EA18EA99145BEA67A5CD88A2728104A" import="1">Subs/Modern/ICONS/ICON_UNIT_SCORPENE_CLASS_SUBMARINE888_64.dds</File>
+    <File md5="14C8C11C79ABCD86EB030559EAA8FF40" import="1">Subs/Modern/ICONS/ICON_UNIT_SCORPENE_CLASS_SUBMARINE888_80.dds</File>
+    <File md5="9614C85F743A0E905C9C0EDB609755FA" import="1">Subs/Modern/ICONS/ICON_UNIT_SEAWOLF_CLASS_SUBMARINE888_128.dds</File>
+    <File md5="32960F47BF3E4F8C863D8C20800E5094" import="1">Subs/Modern/ICONS/ICON_UNIT_SEAWOLF_CLASS_SUBMARINE888_256.dds</File>
+    <File md5="AAE9CEA307BA566AF666336817988779" import="1">Subs/Modern/ICONS/ICON_UNIT_SEAWOLF_CLASS_SUBMARINE888_45.dds</File>
+    <File md5="2F2E6941B1727F90BA6B0A12BC466FE4" import="1">Subs/Modern/ICONS/ICON_UNIT_SEAWOLF_CLASS_SUBMARINE888_64.dds</File>
+    <File md5="101F0D9FB0CB93A1074750CA6388EBD3" import="1">Subs/Modern/ICONS/ICON_UNIT_SEAWOLF_CLASS_SUBMARINE888_80.dds</File>
+    <File md5="6D7C5142830B7F0A9CB25DCB5BDC2536" import="1">Subs/Modern/ICONS/ICON_UNIT_TYPE_212_SUBMARINE888_128.dds</File>
+    <File md5="A0624E785F0DAA5986DEB3BA0A014A0F" import="1">Subs/Modern/ICONS/ICON_UNIT_TYPE_212_SUBMARINE888_256.dds</File>
+    <File md5="E996FE1CB4E062745EAB40405E08D5C2" import="1">Subs/Modern/ICONS/ICON_UNIT_TYPE_212_SUBMARINE888_45.dds</File>
+    <File md5="FDCD8F564EB8AE4A539DD127AA108416" import="1">Subs/Modern/ICONS/ICON_UNIT_TYPE_212_SUBMARINE888_64.dds</File>
+    <File md5="C900E5E3F56811FADE21BE166F3B2365" import="1">Subs/Modern/ICONS/ICON_UNIT_TYPE_212_SUBMARINE888_80.dds</File>
+    <File md5="E3502EF68AAB06B46705986E4DB612B0" import="1">Subs/Modern/ICONS/ICON_UNIT_TYPHOON_CLASS_SUBMARINE888_128.dds</File>
+    <File md5="F3B22FB9FB2B56527CC024A2156B75A6" import="1">Subs/Modern/ICONS/ICON_UNIT_TYPHOON_CLASS_SUBMARINE888_256.dds</File>
+    <File md5="26B9FD1AF4DB8C0BE4159B2EA6DF5EF8" import="1">Subs/Modern/ICONS/ICON_UNIT_TYPHOON_CLASS_SUBMARINE888_45.dds</File>
+    <File md5="35F0E74492C3CDC5DFBE374EF5364D41" import="1">Subs/Modern/ICONS/ICON_UNIT_TYPHOON_CLASS_SUBMARINE888_64.dds</File>
+    <File md5="479282916A59FE79106623FA476E8336" import="1">Subs/Modern/ICONS/ICON_UNIT_TYPHOON_CLASS_SUBMARINE888_80.dds</File>
+    <File md5="7E7486E62B2A535E82252C527B790AB2" import="1">Subs/Modern/ICONS/ICON_UNIT_VIRGINIA_CLASS_SUBMARINE888_128.dds</File>
+    <File md5="ECEA4B994866711A94B7905AA662878D" import="1">Subs/Modern/ICONS/ICON_UNIT_VIRGINIA_CLASS_SUBMARINE888_256.dds</File>
+    <File md5="ADAB09EF6CFC7F26DD982EB6FA2E2B62" import="1">Subs/Modern/ICONS/ICON_UNIT_VIRGINIA_CLASS_SUBMARINE888_45.dds</File>
+    <File md5="6849D22D41B3A88FB08D516CF8A37CB4" import="1">Subs/Modern/ICONS/ICON_UNIT_VIRGINIA_CLASS_SUBMARINE888_64.dds</File>
+    <File md5="1772CF1055BF0DF7D3050213E87232A1" import="1">Subs/Modern/ICONS/ICON_UNIT_VIRGINIA_CLASS_SUBMARINE888_80.dds</File>
+    <File md5="158C142A5624314477C34F7482096F24" import="0">Subs/Modern/XML/UnitAkulaClassSubmarine888.xml</File>
+    <File md5="2BC994E2D36483CBC13DA55C28BCAF29" import="0">Subs/Modern/XML/UnitAstuteClassSubmarine888.xml</File>
+    <File md5="FF54A17C301F730189352AB692CBC342" import="0">Subs/Modern/XML/UnitKiloClassSubmarine888.xml</File>
+    <File md5="12342235A4E0B529E906345F46C9EBF8" import="0">Subs/Modern/XML/UnitLosAngelesClassSubmarine888.xml</File>
+    <File md5="E74CAA5A4EABFECB134728F802B86394" import="0">Subs/Modern/XML/UnitOhioClassSubmarine888.xml</File>
+    <File md5="111092A5C249DB7EFCEBA041C801CD35" import="0">Subs/Modern/XML/UnitScorpeneClassSubmarine888.xml</File>
+    <File md5="C5794CEB9C0117FD7076EE040F1CF2FA" import="0">Subs/Modern/XML/UnitSeawolfClassSubmarine888.xml</File>
+    <File md5="F884DF7F99B3A368AB593B6FEA89E2BA" import="0">Subs/Modern/XML/UnitType212Submarine888.xml</File>
+    <File md5="735E1FE420AF585AD06709988DAE064A" import="0">Subs/Modern/XML/UnitTyphoonClassSubmarine888.xml</File>
+    <File md5="183BF99AFB34B0F33A6A5B56138A73AE" import="0">Subs/Modern/XML/UnitVirginiaClassSubmarine888.xml</File>
+    <File md5="9112BE5348E4359AB8EBCDBAB329CD93" import="1">Subs/WWII/I-400 Class/Aichi M6A/Aichi_D3A_Val.blend</File>
+    <File md5="91492C2E55709EE777B14972404D28D7" import="1">Subs/WWII/I-400 Class/Aichi M6A/Aichi_D3A_Val.dds</File>
+    <File md5="0532243E7A666D5D6D00DCFBF742542F" import="1">Subs/WWII/I-400 Class/Aichi M6A/Aichi_D3A_Val.fxsxml</File>
+    <File md5="92B6C0F25860DD9673A9D52DC19495CE" import="1">Subs/WWII/I-400 Class/Aichi M6A/Aichi_D3A_Val.gr2</File>
+    <File md5="B60485DF9E9A04D010E5DF31BDF7B9BC" import="1">Subs/WWII/I-400 Class/Aichi M6A/Aichi_D3A_Val.psd</File>
+    <File md5="38DA1CAFE0491D57C84FE8D3FD60D5E9" import="1">Subs/WWII/I-400 Class/Aichi M6A/ICON_UNIT_AICHI_M6A888_128.dds</File>
+    <File md5="65B854A87B0F8AFE5CFECB1E65CB63E0" import="1">Subs/WWII/I-400 Class/Aichi M6A/ICON_UNIT_AICHI_M6A888_256.dds</File>
+    <File md5="2420336A741CF787D1F30F1F1EF295C3" import="1">Subs/WWII/I-400 Class/Aichi M6A/ICON_UNIT_AICHI_M6A888_45.dds</File>
+    <File md5="BE078FE8B0271F3E4DC8963640CF1345" import="1">Subs/WWII/I-400 Class/Aichi M6A/ICON_UNIT_AICHI_M6A888_64.dds</File>
+    <File md5="FF315E7537E68CC60CD4398DB43A55D3" import="1">Subs/WWII/I-400 Class/Aichi M6A/ICON_UNIT_AICHI_M6A888_80.dds</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Subs/WWII/I-400 Class/Aichi M6A/no_gloss.dds</File>
+    <File md5="48EF2FC55215585E907F5E8903191920" import="0">Subs/WWII/I-400 Class/Aichi M6A/UnitAichiM6A888.xml</File>
+    <File md5="C17341AB6FC9A17EEA253B5833BD49EA" import="1">Subs/WWII/I-400 Class/I-400_Class.blend</File>
+    <File md5="DD21A567A92AD895168E2CDC241485AE" import="1">Subs/WWII/I-400 Class/I-400_Class.dds</File>
+    <File md5="451453FD34EAFE2ECA48ED2371C90F40" import="1">Subs/WWII/I-400 Class/I-400_Class.fxsxml</File>
+    <File md5="D9AD9AE71164EE8B58E47B2927AEC8E5" import="1">Subs/WWII/I-400 Class/I-400_Class.gr2</File>
+    <File md5="F4472A2BDAC8B2B842FC5C6017AD0DD7" import="1">Subs/WWII/I-400 Class/I-400_Class.psd</File>
+    <File md5="46C51B8F478A98278F55F5D9C0719018" import="1">Subs/WWII/I-400 Class/I-400_Class_gloss.dds</File>
+    <File md5="60CF5CD1EE67D741D121923843395DFE" import="1">Subs/WWII/I-400 Class/ICON_UNIT_I400_CLASS_SUBMARINE_CARRIER888_128.dds</File>
+    <File md5="8B33218CFCA59B58F3381B53FFB55532" import="1">Subs/WWII/I-400 Class/ICON_UNIT_I400_CLASS_SUBMARINE_CARRIER888_256.dds</File>
+    <File md5="5C43B400F2445A8180DFE84A402A5F2F" import="1">Subs/WWII/I-400 Class/ICON_UNIT_I400_CLASS_SUBMARINE_CARRIER888_45.dds</File>
+    <File md5="62376F974307B69CEF5ED13B9FF22AED" import="1">Subs/WWII/I-400 Class/ICON_UNIT_I400_CLASS_SUBMARINE_CARRIER888_64.dds</File>
+    <File md5="E7566E533F10803936EA0A734F883D2F" import="1">Subs/WWII/I-400 Class/ICON_UNIT_I400_CLASS_SUBMARINE_CARRIER888_80.dds</File>
+    <File md5="A5D4AB236F3DDF65C5B7ECD89EB47043" import="0">Subs/WWII/I-400 Class/UnitI400ClassSubmarineCarrier888.xml</File>
+    <File md5="61205696E820FBD83B5968BECC729CC4" import="1">Subs/WWII/U-20 Class/ICON_UNIT_U20_CLASS_SUBMARINE888_128.dds</File>
+    <File md5="77D823E75D291DA7780B21F95D64D817" import="1">Subs/WWII/U-20 Class/ICON_UNIT_U20_CLASS_SUBMARINE888_256.dds</File>
+    <File md5="197184CF4EEA4FC8E0847DA17A4CF87F" import="1">Subs/WWII/U-20 Class/ICON_UNIT_U20_CLASS_SUBMARINE888_45.dds</File>
+    <File md5="1CF91CC3FE60E3B6910C3A5AEC7DE887" import="1">Subs/WWII/U-20 Class/ICON_UNIT_U20_CLASS_SUBMARINE888_64.dds</File>
+    <File md5="F18467744AA05FCC8B48F7B97FC84192" import="1">Subs/WWII/U-20 Class/ICON_UNIT_U20_CLASS_SUBMARINE888_80.dds</File>
+    <File md5="346A5CBF8F63BB53C955931417C51492" import="1">Subs/WWII/U-20 Class/U-20_Class.blend</File>
+    <File md5="13F3A96DB41163A7155871AEFE57EEBA" import="1">Subs/WWII/U-20 Class/U-20_Class.dds</File>
+    <File md5="5453426512FA7F333A5907F446C92AFD" import="1">Subs/WWII/U-20 Class/U-20_Class.fxsxml</File>
+    <File md5="F4FD23864E8463441DD1B23A27575166" import="1">Subs/WWII/U-20 Class/U-20_Class.gr2</File>
+    <File md5="F975CC2D7396181B572EE6DE9DCAA27B" import="1">Subs/WWII/U-20 Class/U-20_Class_gloss.dds</File>
+    <File md5="2B1D8F2CC93AF1E420C56211E5623331" import="0">Subs/WWII/U-20 Class/UnitU20ClassSubmarine888.xml</File>
+    <File md5="4D10920827761455A0AEFF4E8348FBF4" import="1">Subs/WWII/U-Class/ICON_UNIT_UCLASS_SUBMARINE888_128.dds</File>
+    <File md5="5053C437349A9F8A89B6A63A779BFFF9" import="1">Subs/WWII/U-Class/ICON_UNIT_UCLASS_SUBMARINE888_256.dds</File>
+    <File md5="0C51882DD4E49289F4A379279CB867E2" import="1">Subs/WWII/U-Class/ICON_UNIT_UCLASS_SUBMARINE888_45.dds</File>
+    <File md5="68FF13904B40576CC6C62D5C8C6E9457" import="1">Subs/WWII/U-Class/ICON_UNIT_UCLASS_SUBMARINE888_64.dds</File>
+    <File md5="6FB18FF44406B1B83665C573D0BB1C6E" import="1">Subs/WWII/U-Class/ICON_UNIT_UCLASS_SUBMARINE888_80.dds</File>
+    <File md5="144DEBDD3DC7370D3DF8BA32AD7A4FD4" import="0">Subs/WWII/U-Class/UnitUClassSubmarine888.xml</File>
+    <File md5="920FF333E309FEA574C43D532952FF2B" import="1">Subs/WWII/U-Class/U_Class.blend</File>
+    <File md5="A28530F49AAEE0F2E13375CEE83D59AF" import="1">Subs/WWII/U-Class/U_Class.dds</File>
+    <File md5="18CE74AE519D2AC6F7938BDD0EC0CE18" import="1">Subs/WWII/U-Class/U_Class.fxsxml</File>
+    <File md5="DA729C9F4A952886B7C4A90130FCE5FD" import="1">Subs/WWII/U-Class/U_Class.gr2</File>
+    <File md5="BFBB02A4923836B710CCC6A71B6F3921" import="1">Subs/WWII/U-Class/U_Class_gloss.dds</File>
+    <File md5="91EC540CDADEA53CCFF8748351BAA0F9" import="1">Subs/WWII/UBoat23/ICON_UNIT_U_BOAT_TYPE_XXIII_SUBMARINE888_128.dds</File>
+    <File md5="E79469E50967BAC5D47129010DBB6600" import="1">Subs/WWII/UBoat23/ICON_UNIT_U_BOAT_TYPE_XXIII_SUBMARINE888_256.dds</File>
+    <File md5="BE80113205089648BF3F958BDB4067F3" import="1">Subs/WWII/UBoat23/ICON_UNIT_U_BOAT_TYPE_XXIII_SUBMARINE888_45.dds</File>
+    <File md5="CCDB4C12EA23547640C2EB7942B1E7E8" import="1">Subs/WWII/UBoat23/ICON_UNIT_U_BOAT_TYPE_XXIII_SUBMARINE888_64.dds</File>
+    <File md5="3DA9AF6A1BC57A657679CEB0B43C81EF" import="1">Subs/WWII/UBoat23/ICON_UNIT_U_BOAT_TYPE_XXIII_SUBMARINE888_80.dds</File>
+    <File md5="A71D8FE392578C48B61A8B78165EAEFC" import="1">Subs/WWII/UBoat23/U-Boat_Type_XXIII.blend</File>
+    <File md5="CB739CC7EE85EB5F573A65B8D2B335BB" import="1">Subs/WWII/UBoat23/U-Boat_Type_XXIII.dds</File>
+    <File md5="A59FD00A4B69FC55BC1AEBDA17DFD8F0" import="1">Subs/WWII/UBoat23/U-Boat_Type_XXIII.fxsxml</File>
+    <File md5="EBE2B4DB790F8C088868E85B4D80105F" import="1">Subs/WWII/UBoat23/U-Boat_Type_XXIII.gr2</File>
+    <File md5="B1D47556211158DEB7F46D90ADCE34C6" import="1">Subs/WWII/UBoat23/U-Boat_Type_XXIII.jpg</File>
+    <File md5="C6C5AECCFF8659F13B5C9D6523FAC2C1" import="1">Subs/WWII/UBoat23/U-Boat_Type_XXIII_gloss.dds</File>
+    <File md5="C895CC290CED97D4DC083AC041198879" import="0">Subs/WWII/UBoat23/UnitUBoatTypeXXIIISubmarine888.xml</File>
+    <File md5="A020538D3A8E4634A80C0E47A79E76F5" import="1">Surface/Amphibious/ART/AAS.blend</File>
+    <File md5="35B03E3ADEABD13037F6E581EDBC38B8" import="1">Surface/Amphibious/ART/AAS.fxsxml</File>
+    <File md5="849EDC7508DE6090C811047EFCBA0C5C" import="1">Surface/Amphibious/ART/AAS.gr2</File>
+    <File md5="07E035A7A324AAF75BE5F248077FAB96" import="1">Surface/Amphibious/ART/AAS_diff.dds</File>
+    <File md5="6942C7E16D7F3E3649CF2489F68CF612" import="1">Surface/Amphibious/ART/AAS_dmg_diff.dds</File>
+    <File md5="DB568C2BDAF287594562241AF1BDAB6B" import="1">Surface/Amphibious/ART/AAS_dmg_sref.dds</File>
+    <File md5="FD1B7E7F5DB7D9F065AE81F8B174655B" import="1">Surface/Amphibious/ART/AAS_sref.dds</File>
+    <File md5="ABF8EADEC384D9B491C8CA245C080F62" import="1">Surface/Amphibious/ART/AK_marine.gr2</File>
+    <File md5="36D316F8B66ADBBE900427A079F60F70" import="1">Surface/Amphibious/ART/cobraSC.fxsxml</File>
+    <File md5="3EB0186F2372718ECDF351477EFDCE58" import="1">Surface/Amphibious/ART/CobraSC.gr2</File>
+    <File md5="C010D42E3B4003209E64BF35972D1738" import="1">Surface/Amphibious/ART/diea.gr2</File>
+    <File md5="099B4856A4FB485206FC10D50C73DD7F" import="1">Surface/Amphibious/ART/diefadea.gr2</File>
+    <File md5="33C24A6581BF994A4ED9B03BE40AD5FC" import="1">Surface/Amphibious/ART/F-35.fxsxml</File>
+    <File md5="5A58EC9A7FD2E30ADF9B93D95E55286A" import="1">Surface/Amphibious/ART/F-35.gr2</File>
+    <File md5="A15AD85EDC6F3AB93E1A32AD70578941" import="1">Surface/Amphibious/ART/F-35_diff.dds</File>
+    <File md5="E485AC0F9B72F1037866AA4AB7203F21" import="1">Surface/Amphibious/ART/F-35_sref.dds</File>
+    <File md5="04C4FB8C221A8F67736D024421F67376" import="1">Surface/Amphibious/ART/fortf.gr2</File>
+    <File md5="DB38614B7C65411803A2EEE23ABC6A8A" import="1">Surface/Amphibious/ART/fortidlea.gr2</File>
+    <File md5="E719D20FD2CF95A9F9D291A40466DAA2" import="1">Surface/Amphibious/ART/fx_triggers_cobra.ftsxml</File>
+    <File md5="224D8BA04EE0FD65BC4A736194198B11" import="1">Surface/Amphibious/ART/fx_triggers_uh-1_huey.ftsxml</File>
+    <File md5="D8B63EF4FD59C4D8229F6881E4EA5F13" import="1">Surface/Amphibious/ART/gunshipSC_128.dds</File>
+    <File md5="88F43C4564B9AC6BD99D9709D373E525" import="1">Surface/Amphibious/ART/gunshipSC_128_gloss.dds</File>
+    <File md5="D53771FE38BE395334F73F92A2438161" import="1">Surface/Amphibious/ART/gunship_128.dds</File>
+    <File md5="88F43C4564B9AC6BD99D9709D373E525" import="1">Surface/Amphibious/ART/gunship_128_gloss.dds</File>
+    <File md5="0AC4AE245A5CE1FA9E663B2C260F2BC2" import="1">Surface/Amphibious/ART/harrier.fxsxml</File>
+    <File md5="7ED3973CCEAEB197D7D3839C49022CDF" import="1">Surface/Amphibious/ART/Harrier.gr2</File>
+    <File md5="AB24EEBE0F92F8E0E49B4CC6ADB2F989" import="1">Surface/Amphibious/ART/Harrier_diff.dds</File>
+    <File md5="1E4E47B90E7EE2A55A8933922BC35DA0" import="1">Surface/Amphibious/ART/Harrier_sref.dds</File>
+    <File md5="B609CFCFF555450AF79217045D67D22A" import="1">Surface/Amphibious/ART/huey_usmc.fxsxml</File>
+    <File md5="EB67305441EE88654B49B85D1440C0AA" import="1">Surface/Amphibious/ART/hurta.gr2</File>
+    <File md5="AB5F065B5978AC219D220C9D1D418A1B" import="1">Surface/Amphibious/ART/marineIdle.gr2</File>
+    <File md5="8D169EE0641467BC594929FA3667C49D" import="1">Surface/Amphibious/ART/marine_128.dds</File>
+    <File md5="493E632AFECC75BA5A17E03BDB7A093B" import="1">Surface/Amphibious/ART/modernsoldier.fxsxml</File>
+    <File md5="009863D72249DF0C97EF7D7C1ADB9E42" import="1">Surface/Amphibious/ART/runr.gr2</File>
+    <File md5="45610501DFD8EF406A7AF01FCF18CF47" import="1">Surface/Amphibious/ART/shoota.gr2</File>
+    <File md5="6D59EE50F85506139144BF8EADAB8079" import="1">Surface/Amphibious/ART/UH-1_Huey_USMC.gr2</File>
+    <File md5="FBD9DC546ED3DB4E46B7EFFFDDEEDFBC" import="1">Surface/Amphibious/ART/UH1_team_diff.dds</File>
+    <File md5="D8E6DA28791101D3DEB76BCE7D4C4A37" import="1">Surface/Amphibious/ART/UH1_team_sref.dds</File>
+    <File md5="43ACE09BA829B236258B22AA7E996CBA" import="1">Surface/Amphibious/ART/UH1_USA_diff.dds</File>
+    <File md5="94A297DDE84D2A43F18972B3165C3F1C" import="1">Surface/Amphibious/ART/UH1_USA_sref.dds</File>
+    <File md5="F7D4C45CA48BF36FE98F4EBC896BEA89" import="1">Surface/Amphibious/ART/UH1_USMC_diff.dds</File>
+    <File md5="B6C8142AD3BBC0D8555CD8D737B2ED29" import="1">Surface/Amphibious/ART/UH1_USMC_sref.dds</File>
+    <File md5="8B7BEE68A6B77E957E6985CF01F5FF2F" import="1">Surface/Amphibious/ICONS/ICON_UNIT_AH1_SEACOBRA888_128.dds</File>
+    <File md5="FFB349B98C2F09FAADF8B6267EBC294D" import="1">Surface/Amphibious/ICONS/ICON_UNIT_AH1_SEACOBRA888_256.dds</File>
+    <File md5="42E05584BFB84E8CF6322932C467D569" import="1">Surface/Amphibious/ICONS/ICON_UNIT_AH1_SEACOBRA888_45.dds</File>
+    <File md5="D3411BCCA43A5D80FF7282F49C731A8B" import="1">Surface/Amphibious/ICONS/ICON_UNIT_AH1_SEACOBRA888_64.dds</File>
+    <File md5="5AF13C9A0C9045E491C286DD4A1DB593" import="1">Surface/Amphibious/ICONS/ICON_UNIT_AH1_SEACOBRA888_80.dds</File>
+    <File md5="F2BE973CB911B41C7A04A5329087AA3F" import="1">Surface/Amphibious/ICONS/ICON_UNIT_AV8B_SEA_HARRIER_II_128.dds</File>
+    <File md5="AB9D302568A69B92732270E8E79ECC21" import="1">Surface/Amphibious/ICONS/ICON_UNIT_AV8B_SEA_HARRIER_II_256.dds</File>
+    <File md5="969D8EA88F9A0CFB53433154B313DA7B" import="1">Surface/Amphibious/ICONS/ICON_UNIT_AV8B_SEA_HARRIER_II_45.dds</File>
+    <File md5="08031A0F3FB9F405AF6EDD644B91060F" import="1">Surface/Amphibious/ICONS/ICON_UNIT_AV8B_SEA_HARRIER_II_64.dds</File>
+    <File md5="6A31E7F47E43EC597FD329F84FCDF1CC" import="1">Surface/Amphibious/ICONS/ICON_UNIT_AV8B_SEA_HARRIER_II_80.dds</File>
+    <File md5="782F78293B5E0DE9B6F87068824261EF" import="1">Surface/Amphibious/ICONS/ICON_UNIT_F35B333_128.dds</File>
+    <File md5="4A4D47B1F51F572E86ADC348B08A79D1" import="1">Surface/Amphibious/ICONS/ICON_UNIT_F35B333_256.dds</File>
+    <File md5="DBC992953FFDF6646CDE4C7511248E09" import="1">Surface/Amphibious/ICONS/ICON_UNIT_F35B333_45.dds</File>
+    <File md5="788340E20389C68C771B54DD3AA4457D" import="1">Surface/Amphibious/ICONS/ICON_UNIT_F35B333_64.dds</File>
+    <File md5="1F2E72C8F74C91A6795AF79F5252D446" import="1">Surface/Amphibious/ICONS/ICON_UNIT_F35B333_80.dds</File>
+    <File md5="00F9638158851E824EE9F266639A601F" import="1">Surface/Amphibious/ICONS/ICON_UNIT_FORCE_RECON_MARINE888_128.dds</File>
+    <File md5="5EB55ED7AD59115D5D698AC71C38C3BC" import="1">Surface/Amphibious/ICONS/ICON_UNIT_FORCE_RECON_MARINE888_256.dds</File>
+    <File md5="E210C0A8C633FD892D8AA0573E120E21" import="1">Surface/Amphibious/ICONS/ICON_UNIT_FORCE_RECON_MARINE888_45.dds</File>
+    <File md5="A06C1F6E64394B0000B11EC8F2921F34" import="1">Surface/Amphibious/ICONS/ICON_UNIT_FORCE_RECON_MARINE888_64.dds</File>
+    <File md5="BF3A362F11F425CE7AD2E9C27082348F" import="1">Surface/Amphibious/ICONS/ICON_UNIT_FORCE_RECON_MARINE888_80.dds</File>
+    <File md5="BCA4AA41484DCEA27D2CFF17B1FB54F1" import="1">Surface/Amphibious/ICONS/ICON_UNIT_LHA888_128.dds</File>
+    <File md5="91E6363ED4BF901B0DE07297FE267527" import="1">Surface/Amphibious/ICONS/ICON_UNIT_LHA888_256.dds</File>
+    <File md5="78B451A7143E2E9FDD7E6B6EDA93A50C" import="1">Surface/Amphibious/ICONS/ICON_UNIT_LHA888_45.dds</File>
+    <File md5="7A8D645840EDFF70145DE0DBD09825DC" import="1">Surface/Amphibious/ICONS/ICON_UNIT_LHA888_64.dds</File>
+    <File md5="69C7B7070EA6FFBCA4A319B590FD7E7C" import="1">Surface/Amphibious/ICONS/ICON_UNIT_LHA888_80.dds</File>
+    <File md5="926E978DE6F1F258E1878F96BB86A275" import="1">Surface/Amphibious/ICONS/ICON_UNIT_LHD888_128.dds</File>
+    <File md5="DD973BD5BBF42C8537A2048BB31827DC" import="1">Surface/Amphibious/ICONS/ICON_UNIT_LHD888_256.dds</File>
+    <File md5="9AEDCFBDFA33C49C2FEFDA99AD4EB1B1" import="1">Surface/Amphibious/ICONS/ICON_UNIT_LHD888_45.dds</File>
+    <File md5="1C324740C1D3FF7E0DAA31D53BA8E465" import="1">Surface/Amphibious/ICONS/ICON_UNIT_LHD888_64.dds</File>
+    <File md5="7A752B63B3A1A9BC404D5ED453BD2CB3" import="1">Surface/Amphibious/ICONS/ICON_UNIT_LHD888_80.dds</File>
+    <File md5="842670E0A5275EC49F2915BC0F4FC2ED" import="1">Surface/Amphibious/ICONS/ICON_UNIT_UH1_SEAHUEY_128.dds</File>
+    <File md5="EBF075323AE9FF3AFC1AC216E18A87AD" import="1">Surface/Amphibious/ICONS/ICON_UNIT_UH1_SEAHUEY_256.dds</File>
+    <File md5="B7357B9483AF61FD2917A7369E445F36" import="1">Surface/Amphibious/ICONS/ICON_UNIT_UH1_SEAHUEY_45.dds</File>
+    <File md5="58AC6F886A27361BEB7302A7CB6DEB33" import="1">Surface/Amphibious/ICONS/ICON_UNIT_UH1_SEAHUEY_64.dds</File>
+    <File md5="49C2678527F418C4B66232AB486A325C" import="1">Surface/Amphibious/ICONS/ICON_UNIT_UH1_SEAHUEY_80.dds</File>
+    <File md5="0D524CF9930242C4810412A661DE52E9" import="1">Surface/Amphibious/MARINES/Civil War Marines/civ5_usarm2.fxsxml</File>
+    <File md5="4F57AC26BD2316D91AAAAD9234E16B03" import="1">Surface/Amphibious/MARINES/Civil War Marines/civ5_usarm2.gr2</File>
+    <File md5="657D6377F884C9324823BFC9A28C4D88" import="1">Surface/Amphibious/MARINES/Civil War Marines/ICON_UNIT_CIVIL_WAR_MARINE888_128.dds</File>
+    <File md5="565ABFE8ABD5EC655D8A16C73BFF81BC" import="1">Surface/Amphibious/MARINES/Civil War Marines/ICON_UNIT_CIVIL_WAR_MARINE888_256.dds</File>
+    <File md5="F4AF443743128C4BA3459B3B64875491" import="1">Surface/Amphibious/MARINES/Civil War Marines/ICON_UNIT_CIVIL_WAR_MARINE888_45.dds</File>
+    <File md5="2EA1CC881C14EEF5985BCA77A12402AC" import="1">Surface/Amphibious/MARINES/Civil War Marines/ICON_UNIT_CIVIL_WAR_MARINE888_64.dds</File>
+    <File md5="CEC4B944F29EF504989DCBE905DC1C5D" import="1">Surface/Amphibious/MARINES/Civil War Marines/ICON_UNIT_CIVIL_WAR_MARINE888_80.dds</File>
+    <File md5="B43B5C3F105D4FDBB18D6627A722C004" import="0">Surface/Amphibious/MARINES/Civil War Marines/UnitCivilWarMarine888.xml</File>
+    <File md5="CA28336DB2F61BEE79E1D3F967F06EC1" import="1">Surface/Amphibious/MARINES/Civil War Marines/usarm2.dds</File>
+    <File md5="288DFFBAFA064371357F79149F637ED7" import="1">Surface/Amphibious/MARINES/Civil War Marines/usarm_2.dds</File>
+    <File md5="61917A3F15882CDBF4C1AEEAEDAC1549" import="1">Surface/Amphibious/MARINES/Civil War Marines/usarm_diff.dds</File>
+    <File md5="61B728554AD0C7D6C265784BD0AB9277" import="1">Surface/Amphibious/MARINES/Civil War Marines/usarm_sref.dds</File>
+    <File md5="4506F97D50A5622FF132236776C5187C" import="1">Surface/Amphibious/MARINES/Civil War Marines/usarm_sref2.dds</File>
+    <File md5="82920CF3007B93F55B7A5118E3E884AC" import="1">Surface/Amphibious/MARINES/Continential Marines/continental_inf.fxsxml</File>
+    <File md5="0B2744C1C63A16EEFCD5BB5C108F164F" import="1">Surface/Amphibious/MARINES/Continential Marines/continental_infantry.dds</File>
+    <File md5="97EFEA6184A7088B5DC07E29045D9CEA" import="1">Surface/Amphibious/MARINES/Continential Marines/continental_infantry.gr2</File>
+    <File md5="FF39268264101A8922D0AB831C02DAE7" import="1">Surface/Amphibious/MARINES/Continential Marines/ICON_UNIT_CONTINENTAL_MARINE888_128.dds</File>
+    <File md5="FB9B029423F034633F131E149795831D" import="1">Surface/Amphibious/MARINES/Continential Marines/ICON_UNIT_CONTINENTAL_MARINE888_256.dds</File>
+    <File md5="8F5F3C8CA3A8A8120CCCF155509D2644" import="1">Surface/Amphibious/MARINES/Continential Marines/ICON_UNIT_CONTINENTAL_MARINE888_45.dds</File>
+    <File md5="CB9E48906A7EC24996C8A645C908F479" import="1">Surface/Amphibious/MARINES/Continential Marines/ICON_UNIT_CONTINENTAL_MARINE888_64.dds</File>
+    <File md5="ED8F1D27D569ECD92100AFC6A1715E1D" import="1">Surface/Amphibious/MARINES/Continential Marines/ICON_UNIT_CONTINENTAL_MARINE888_80.dds</File>
+    <File md5="2C8C2D72F337A187D82B5B2D774823E2" import="0">Surface/Amphibious/MARINES/Continential Marines/UnitContinentalMarine888.xml</File>
+    <File md5="1588073C2079F9E79EDF28ECBF1B1FA7" import="1">Surface/Amphibious/MARINES/Modern Marines/ICON_UNIT_MODERN_MARINE888_128.dds</File>
+    <File md5="1C37BEE4E8A44CE2CEA0DC31FC66ECA9" import="1">Surface/Amphibious/MARINES/Modern Marines/ICON_UNIT_MODERN_MARINE888_256.dds</File>
+    <File md5="E3945F2780DED0F12FA56F36826C7706" import="1">Surface/Amphibious/MARINES/Modern Marines/ICON_UNIT_MODERN_MARINE888_45.dds</File>
+    <File md5="14B4891CDE7DF0AD592212315D2AE208" import="1">Surface/Amphibious/MARINES/Modern Marines/ICON_UNIT_MODERN_MARINE888_64.dds</File>
+    <File md5="1F67AC415F19532E53DC5F6A49B07542" import="1">Surface/Amphibious/MARINES/Modern Marines/ICON_UNIT_MODERN_MARINE888_80.dds</File>
+    <File md5="B00BA38E0B1923683AC371FF3FA4DD63" import="1">Surface/Amphibious/MARINES/Modern Marines/infantry_128.dds</File>
+    <File md5="9E8677149B2861E234B8073D3F507E74" import="1">Surface/Amphibious/MARINES/Modern Marines/Infantry_American.blend</File>
+    <File md5="0CB6724CE017AE387B4FACCC8D11FB89" import="1">Surface/Amphibious/MARINES/Modern Marines/Infantry_American_v3.fxsxml</File>
+    <File md5="61CC83E8B82547DB0A5FBE5EC20F8BD6" import="1">Surface/Amphibious/MARINES/Modern Marines/Infantry_American_v3.gr2</File>
+    <File md5="623EFC6A3E32ACA465A69EA85C568D96" import="1">Surface/Amphibious/MARINES/Modern Marines/Infantry_American_v3.isxml</File>
+    <File md5="30A5BD809C700C323EA81B08E51161BC" import="0">Surface/Amphibious/MARINES/Modern Marines/UnitModernMarine888.xml</File>
+    <File md5="D6F39C86E6E81DA2A3D6735BC7F992EC" import="1">Surface/Amphibious/MARINES/Navy SEALs/ICON_UNIT_US_NAVY_SEAL888_128.dds</File>
+    <File md5="0C4226B789F5CC8321574C7F9AD9D2A7" import="1">Surface/Amphibious/MARINES/Navy SEALs/ICON_UNIT_US_NAVY_SEAL888_256.dds</File>
+    <File md5="263E16C6C1C5B4B7354E418B3997C8AF" import="1">Surface/Amphibious/MARINES/Navy SEALs/ICON_UNIT_US_NAVY_SEAL888_45.dds</File>
+    <File md5="93CCAF116DB8CBA78C1595BA2EAE3976" import="1">Surface/Amphibious/MARINES/Navy SEALs/ICON_UNIT_US_NAVY_SEAL888_64.dds</File>
+    <File md5="AB79E1EF246B29D2C3EF09C28F92003F" import="1">Surface/Amphibious/MARINES/Navy SEALs/ICON_UNIT_US_NAVY_SEAL888_80.dds</File>
+    <File md5="30442C136B37217AECCC99B410FBF0C6" import="0">Surface/Amphibious/MARINES/Navy SEALs/UnitUSNavySEAL888.xml</File>
+    <File md5="F384923C2E078E6C12985507B34F93AF" import="1">Surface/Amphibious/MARINES/Navy SEALs/US_Airborne.fxsxml</File>
+    <File md5="0831BF98A7F05466BC05E04C5A3F8CB7" import="1">Surface/Amphibious/MARINES/Navy SEALs/US_Airborne.gr2</File>
+    <File md5="8FA4837FF5832348108026DD9DBAD26E" import="1">Surface/Amphibious/MARINES/Navy SEALs/US_Airborne_diff.dds</File>
+    <File md5="D73F243F8D8597D95C247D7A19B3B00B" import="1">Surface/Amphibious/MARINES/Navy SEALs/US_Airborne_sref.dds</File>
+    <File md5="7D3A8818D0506CAABD997E26FEC670FC" import="1">Surface/Amphibious/MARINES/Redcoats/ICON_UNIT_BRITISH_REDCOAT888_128.dds</File>
+    <File md5="B854A96671A092570A67A983BA09EDF0" import="1">Surface/Amphibious/MARINES/Redcoats/ICON_UNIT_BRITISH_REDCOAT888_256.dds</File>
+    <File md5="B72769ED7CB33BD70F9EA6C72386C0C6" import="1">Surface/Amphibious/MARINES/Redcoats/ICON_UNIT_BRITISH_REDCOAT888_45.dds</File>
+    <File md5="894EBC3FA24FF817847BF7EF872E6E27" import="1">Surface/Amphibious/MARINES/Redcoats/ICON_UNIT_BRITISH_REDCOAT888_64.dds</File>
+    <File md5="00A80E8B90F00FFE04DF0934622DA474" import="1">Surface/Amphibious/MARINES/Redcoats/ICON_UNIT_BRITISH_REDCOAT888_80.dds</File>
+    <File md5="C26356343E4C23A6A195991ADE398F61" import="1">Surface/Amphibious/MARINES/Redcoats/redcoat.dds</File>
+    <File md5="566F1E5BC946324DD54E2B12CA2F1940" import="1">Surface/Amphibious/MARINES/Redcoats/redcoat.fxsxml</File>
+    <File md5="012DA73CD6E0B56CD252C8AAC16DE6C5" import="1">Surface/Amphibious/MARINES/Redcoats/redcoat.gr2</File>
+    <File md5="CF217E101010D4D34A06E80F11C3AF3F" import="1">Surface/Amphibious/MARINES/Redcoats/redcoat_sref.dds</File>
+    <File md5="B73A889D128DBFE0B13AD5B8D54954B3" import="0">Surface/Amphibious/MARINES/Redcoats/UnitBritishRedcoat888.xml</File>
+    <File md5="5B8FBDD532486EB60ECB727286CA7706" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/fx_triggers_modernmarine.ftsxml</File>
+    <File md5="AFCC0975553521AEE51D2A4532F51CA8" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/ICON_UNIT_ROYAL_MARINE_COMMANDO_128.dds</File>
+    <File md5="44B6ECDE41E037E0B7A4D0866D4EBDDD" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/ICON_UNIT_ROYAL_MARINE_COMMANDO_256.dds</File>
+    <File md5="377D75114099F43127C565E1906708D8" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/ICON_UNIT_ROYAL_MARINE_COMMANDO_45.dds</File>
+    <File md5="45D891510BFE786E181C09B07912F1FC" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/ICON_UNIT_ROYAL_MARINE_COMMANDO_64.dds</File>
+    <File md5="86763FCC056529B77974856EE8792803" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/ICON_UNIT_ROYAL_MARINE_COMMANDO_80.dds</File>
+    <File md5="10FBE81A38F4D40FBB262AA7848681E8" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/ModernMarine_Attack.gr2</File>
+    <File md5="82C1973B3CED9ACEFFFE2C2003A603D4" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/ModernMarine_Bombard_Defense.gr2</File>
+    <File md5="4E5C1205401B54CBE76140F440D3200D" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/ModernMarine_DeathA.gr2</File>
+    <File md5="5D434BEDA164FA4674D624BBD5D5D2A1" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/ModernMarine_DeathA_Idle.gr2</File>
+    <File md5="90EEA8E512E8E0B848BD323FE8A99780" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/ModernMarine_DeathB.gr2</File>
+    <File md5="0208C41187615F90A266AB8AF44EFF0A" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/ModernMarine_DeathB_Idle.gr2</File>
+    <File md5="17FA15D5AF19204D2FBDDBDF0BCD6313" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/ModernMarine_Fidget.gr2</File>
+    <File md5="B63A001D59F2A07B413BB02898D2E656" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/ModernMarine_Fortify.gr2</File>
+    <File md5="4DB8C1D2B17255833878519BA8CF4568" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/ModernMarine_Fortify_Idle.gr2</File>
+    <File md5="A6DDF301AB9DFC99838E77EC71416A0C" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/ModernMarine_Idle.gr2</File>
+    <File md5="DCB52786F02DF0FE8C8C64A68733041A" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/ModernMarine_Run.gr2</File>
+    <File md5="51A0EDC52E9FA98D46DBD6F083527AFC" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/RM_Cdo_diff.dds</File>
+    <File md5="F0FED20AE11A4AD6A674FDF4D7DB1C0D" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/RM_Cdo_sref.dds</File>
+    <File md5="DA0764D8380400021A633B87C6512075" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/RM_Commando.fxsxml</File>
+    <File md5="246C7DC6211DF16B7BB154C6BE0EACC9" import="1">Surface/Amphibious/MARINES/Royal Marine Commando/RM_Commando.gr2</File>
+    <File md5="8AE192BD2644334895C0C67435345168" import="0">Surface/Amphibious/MARINES/Royal Marine Commando/UnitRoyalMarineCommando.xml</File>
+    <File md5="9218C38FA214EDF05AA442881261342E" import="1">Surface/Amphibious/MARINES/WWI Marines/ICON_UNIT_GREAT_WAR_MAINE888_128.dds</File>
+    <File md5="08A791419109F634028FB6A2BD44344C" import="1">Surface/Amphibious/MARINES/WWI Marines/ICON_UNIT_GREAT_WAR_MAINE888_256.dds</File>
+    <File md5="00532C0DF73F0DE5D405B5EC5CEEAF53" import="1">Surface/Amphibious/MARINES/WWI Marines/ICON_UNIT_GREAT_WAR_MAINE888_45.dds</File>
+    <File md5="FE7DE7F659F99BC3260A24DCDA697835" import="1">Surface/Amphibious/MARINES/WWI Marines/ICON_UNIT_GREAT_WAR_MAINE888_64.dds</File>
+    <File md5="C5079077274F966068B6C85C45BF1908" import="1">Surface/Amphibious/MARINES/WWI Marines/ICON_UNIT_GREAT_WAR_MAINE888_80.dds</File>
+    <File md5="0C759F1CED95795CCFBE40C6BD9A963C" import="1">Surface/Amphibious/MARINES/WWI Marines/no_gloss.dds</File>
+    <File md5="B45215F3878258E6C2A3C31CEFDA133F" import="0">Surface/Amphibious/MARINES/WWI Marines/UnitGreatWarMaine888.xml</File>
+    <File md5="A28C7587A87A94AD4BBB62311F829CDA" import="1">Surface/Amphibious/MARINES/WWI Marines/usagw1.blend</File>
+    <File md5="050EA0A07C6EB7C2EC296FEDC561E141" import="1">Surface/Amphibious/MARINES/WWI Marines/usagw1.dds</File>
+    <File md5="017163D1F74666ADEF8BA22C94D530B3" import="1">Surface/Amphibious/MARINES/WWI Marines/usagw1.fxsxml</File>
+    <File md5="C8C2DEC417C89C97FA9AF85FD1B544EF" import="1">Surface/Amphibious/MARINES/WWI Marines/usagw1.gr2</File>
+    <File md5="DBB5FFC2BD869AD64665F2FFC6D13166" import="0">Surface/Amphibious/XML/UnitAH1SeaCobra888.xml</File>
+    <File md5="BBD09FE2F2A5564C07A3BF79160BF0B8" import="0">Surface/Amphibious/XML/UnitForceReconMarine888.xml</File>
+    <File md5="89691F78C61650DC44E01F8C16A00482" import="0">Surface/Amphibious/XML/UnitUH1SEAHuey222.xml</File>
+    <File md5="37A8BDBB15F51D133889BD7ECA97F047" import="0">Surface/Amphibious/XML/UnitAV8BSeaHarrierII.xml</File>
+    <File md5="075311600AC8BC6F5CC8175493B9E11D" import="0">Surface/Amphibious/XML/UnitF35LightningII333.xml</File>
+    <File md5="865563A621F00628618B3F467466B8F5" import="0">Surface/Amphibious/XML/UnitLHD888.xml</File>
+    <File md5="5CB01AC0DFAE344958517A468C379E64" import="1">Surface/Battle Cruiser/Admiral Class/Admiral_Class.blend</File>
+    <File md5="91ECF3513E1140AD9EA5D76CF4ADB3C2" import="1">Surface/Battle Cruiser/Admiral Class/Admiral_Class.dds</File>
+    <File md5="37A9E5E367022FE2A1E21563CDF599D7" import="1">Surface/Battle Cruiser/Admiral Class/Admiral_Class.fxsxml</File>
+    <File md5="7E6BBD5EE858D1A1B99704EE9155F3C8" import="1">Surface/Battle Cruiser/Admiral Class/Admiral_Class.gr2</File>
+    <File md5="28584579256BA0815D1F2BEC12B691AC" import="1">Surface/Battle Cruiser/Admiral Class/Admiral_Class.jpg</File>
+    <File md5="227ADC6C32D623D2C5E50B6223001A20" import="1">Surface/Battle Cruiser/Admiral Class/Admiral_Class.psd</File>
+    <File md5="A278F4C4A58A0DDA061C1AB4758FFAC9" import="1">Surface/Battle Cruiser/Admiral Class/Admiral_Class_gloss.dds</File>
+    <File md5="B37F9F5B0C632755B2240A6BB04434C3" import="1">Surface/Battle Cruiser/Admiral Class/ICON_UNIT_ADMIRAL_CLASS_BATTLECRUISER888_128.dds</File>
+    <File md5="CEEBD6F2F10241BF4CCFBEE5CB6A4E60" import="1">Surface/Battle Cruiser/Admiral Class/ICON_UNIT_ADMIRAL_CLASS_BATTLECRUISER888_256.dds</File>
+    <File md5="3014ADBDA2CB621240DCC88087B53DF7" import="1">Surface/Battle Cruiser/Admiral Class/ICON_UNIT_ADMIRAL_CLASS_BATTLECRUISER888_45.dds</File>
+    <File md5="9C7A1CD8666671D65FE2BF027B75A1B5" import="1">Surface/Battle Cruiser/Admiral Class/ICON_UNIT_ADMIRAL_CLASS_BATTLECRUISER888_64.dds</File>
+    <File md5="3862A14E1F73043BCD414AA91E5FC90A" import="1">Surface/Battle Cruiser/Admiral Class/ICON_UNIT_ADMIRAL_CLASS_BATTLECRUISER888_80.dds</File>
+    <File md5="732DD1F3B6471E5FC945AFDFE413F4BA" import="0">Surface/Battle Cruiser/Admiral Class/UnitAdmiralClassBattlecruiser888.xml</File>
+    <File md5="393D8B41825C68EC6A6BEFD07495C393" import="1">Surface/Battleship/ART/Iowa_Class.blend</File>
+    <File md5="C0BE143B44B4A464336662959CE3AD84" import="1">Surface/Battleship/ART/Iowa_Class.dds</File>
+    <File md5="2C18EB0AE9DD3738E0D19029CC2BF85E" import="1">Surface/Battleship/ART/Iowa_Class.fxsxml</File>
+    <File md5="4192E263939B185324872CCF9A8C0CCF" import="1">Surface/Battleship/ART/Iowa_Class.gr2</File>
+    <File md5="5D003D0EC2B9136AAD61EEF2E7EEE5A8" import="1">Surface/Battleship/ART/Iowa_Class_gloss.dds</File>
+    <File md5="692387F04DBAB65AB28DE0891B691260" import="1">Surface/Battleship/ART/SMS_Tegetthoff.fxsxml</File>
+    <File md5="F45E0C4064295471259466D073F8D7BA" import="1">Surface/Battleship/ART/SMS_Tegetthoff.gr2</File>
+    <File md5="9493E253060010A5C78F2ADB8BE69AEA" import="1">Surface/Battleship/ART/tegetthoff_diff.dds</File>
+    <File md5="BC319C979FF0C8445FB3A50F26CB56DB" import="1">Surface/Battleship/ART/tegetthoff_sref.dds</File>
+    <File md5="01262DAA9D1F108BFF5710B3029BE016" import="1">Surface/Battleship/ICONS/ICON_UNIT_IOWA_CLASS_BATTLESHIP888_128.dds</File>
+    <File md5="C7B61CA49635937FB9E487360866981F" import="1">Surface/Battleship/ICONS/ICON_UNIT_IOWA_CLASS_BATTLESHIP888_256.dds</File>
+    <File md5="F63A739961C364C9E025B726E3FBAE8C" import="1">Surface/Battleship/ICONS/ICON_UNIT_IOWA_CLASS_BATTLESHIP888_45.dds</File>
+    <File md5="BE4D67B57C9A7A986DE4DC9DF16D4548" import="1">Surface/Battleship/ICONS/ICON_UNIT_IOWA_CLASS_BATTLESHIP888_64.dds</File>
+    <File md5="8D121B240208685F15D6C55187C26393" import="1">Surface/Battleship/ICONS/ICON_UNIT_IOWA_CLASS_BATTLESHIP888_80.dds</File>
+    <File md5="F1F41A31DFBDC5FC9C203BABCB6299F6" import="1">Surface/Battleship/ICONS/ICON_UNIT_TEGETTHOFF_CLASS_BATTLESHIP888_128.dds</File>
+    <File md5="B1DA8419BF233757E438D13F819AC3C0" import="1">Surface/Battleship/ICONS/ICON_UNIT_TEGETTHOFF_CLASS_BATTLESHIP888_256.dds</File>
+    <File md5="BC2130E64459BB1ABBDEB7244C3890B9" import="1">Surface/Battleship/ICONS/ICON_UNIT_TEGETTHOFF_CLASS_BATTLESHIP888_45.dds</File>
+    <File md5="C78A0E7B8F642C9E9F2C6C38382DF317" import="1">Surface/Battleship/ICONS/ICON_UNIT_TEGETTHOFF_CLASS_BATTLESHIP888_64.dds</File>
+    <File md5="77C5900395619BE3AEC4A8336C16E1BB" import="1">Surface/Battleship/ICONS/ICON_UNIT_TEGETTHOFF_CLASS_BATTLESHIP888_80.dds</File>
+    <File md5="886FA20643EEEB6FD345BB91CCB21B9A" import="0">Surface/Battleship/XML/UnitIowaClassBattleship888.xml</File>
+    <File md5="E97C4BEDEE7896EB5F1F13D9B1E09CA5" import="0">Surface/Battleship/XML/UnitTegetthoffClassBattleship888.xml</File>
+    <File md5="DF68B5E0CED8190F1ED1CCE5F903C727" import="1">Surface/Carriers/ART/Ark_Royal_Class.blend</File>
+    <File md5="32694C4D2456DC6D9201CC2A718FB30B" import="1">Surface/Carriers/ART/Ark_Royal_Class.DDS</File>
+    <File md5="FD7059A1E75FBA62451591D801FB5306" import="1">Surface/Carriers/ART/Ark_Royal_Class.fxsxml</File>
+    <File md5="1789E97B9341D28580C6EFD8B6AA0139" import="1">Surface/Carriers/ART/Ark_Royal_Class.gr2</File>
+    <File md5="6A9D9568F9BE0C856AD63B91384CC7B3" import="1">Surface/Carriers/ART/Ark_Royal_Class_gloss.DDS</File>
+    <File md5="FB26B68CBD8B9C44B58E4F7947A63307" import="1">Surface/Carriers/ART/Essex_Class.blend</File>
+    <File md5="1B35E19D7C6B20DC1A68C6B2359B39B4" import="1">Surface/Carriers/ART/Essex_Class.dds</File>
+    <File md5="2406873937560B09F639B497F018878B" import="1">Surface/Carriers/ART/Essex_Class.fxsxml</File>
+    <File md5="6E362453B8933512DCC9BA752DAAD14E" import="1">Surface/Carriers/ART/Essex_Class.gr2</File>
+    <File md5="7D899934B3C176766EA4FDF757D711DE" import="1">Surface/Carriers/ART/Essex_Class_gloss.dds</File>
+    <File md5="F690BF69442600FC9C4B39A1925EE237" import="1">Surface/Carriers/ART/Implacable_Class.blend</File>
+    <File md5="D7B88E360DA38607C64734FEA6FCF44F" import="1">Surface/Carriers/ART/Implacable_Class.dds</File>
+    <File md5="12EFD12D10373144A478D4B0FC4808FE" import="1">Surface/Carriers/ART/Implacable_Class.fxsxml</File>
+    <File md5="7A41ADEDDC8D4112BCA0A92670D80910" import="1">Surface/Carriers/ART/Implacable_Class.gr2</File>
+    <File md5="2C9702664C03F1D785B4BB8FD7FFFEEF" import="1">Surface/Carriers/ART/Implacable_Class_gloss.dds</File>
+    <File md5="EA9A68F3A356057961A97C897DBA1830" import="1">Surface/Carriers/ART/Shokaku_Class.blend</File>
+    <File md5="E360E0D5DBAFC9878914D5E4F97E7CB0" import="1">Surface/Carriers/ART/Shokaku_Class.dds</File>
+    <File md5="B8033A98B386630358AE9D22070A0253" import="1">Surface/Carriers/ART/Shokaku_Class.fxsxml</File>
+    <File md5="2BC19FA89DD0DBB7632A9D67BA5295D7" import="1">Surface/Carriers/ART/Shokaku_Class.gr2</File>
+    <File md5="EAF3DA154061A761158BC381951C15AA" import="1">Surface/Carriers/ART/Shokaku_Class_gloss.dds</File>
+    <File md5="5E55D6879DDCC07BD0EAAE20EC62653C" import="1">Surface/Carriers/ICONS/ICON_UNIT_ARK_ROYAL_AIRCRAFT_CARRIER888_128.dds</File>
+    <File md5="FD7BB37DD4A7FB27D6D2E985B4F40B86" import="1">Surface/Carriers/ICONS/ICON_UNIT_ARK_ROYAL_AIRCRAFT_CARRIER888_256.dds</File>
+    <File md5="72A3DC6C7CF00088B4C481887B0BFEC3" import="1">Surface/Carriers/ICONS/ICON_UNIT_ARK_ROYAL_AIRCRAFT_CARRIER888_45.dds</File>
+    <File md5="73EE5E981E183FF07B1EB2B86BE000BE" import="1">Surface/Carriers/ICONS/ICON_UNIT_ARK_ROYAL_AIRCRAFT_CARRIER888_64.dds</File>
+    <File md5="08DAE69958298A9BFD7AC3C2C6579D4F" import="1">Surface/Carriers/ICONS/ICON_UNIT_ARK_ROYAL_AIRCRAFT_CARRIER888_80.dds</File>
+    <File md5="B48B365F6FA9D729B63A7CA5EB19C854" import="1">Surface/Carriers/ICONS/ICON_UNIT_ESSEX_CLASS_CARRIER888_128.dds</File>
+    <File md5="ECE1C2BE1D6F78573934D21E18DAAB9D" import="1">Surface/Carriers/ICONS/ICON_UNIT_ESSEX_CLASS_CARRIER888_256.dds</File>
+    <File md5="A1FC3A13CCA3C5806730353D7B764535" import="1">Surface/Carriers/ICONS/ICON_UNIT_ESSEX_CLASS_CARRIER888_45.dds</File>
+    <File md5="D830B2E34241B7E4DCB96B373EDEC55B" import="1">Surface/Carriers/ICONS/ICON_UNIT_ESSEX_CLASS_CARRIER888_64.dds</File>
+    <File md5="0018C46A817487F3EBEF150B45C2C45B" import="1">Surface/Carriers/ICONS/ICON_UNIT_ESSEX_CLASS_CARRIER888_80.dds</File>
+    <File md5="171CC156E660EAF9A4916DA9B696814B" import="1">Surface/Carriers/ICONS/ICON_UNIT_IMPLACABLE_CLASS_CARRIER_128.dds</File>
+    <File md5="CDB6BA401B68DECFF3984935C8D791F8" import="1">Surface/Carriers/ICONS/ICON_UNIT_IMPLACABLE_CLASS_CARRIER_256.dds</File>
+    <File md5="8EABE8BE694634470674A7C62BF0C456" import="1">Surface/Carriers/ICONS/ICON_UNIT_IMPLACABLE_CLASS_CARRIER_45.dds</File>
+    <File md5="D1151F0F56E7C4171677A4984900D119" import="1">Surface/Carriers/ICONS/ICON_UNIT_IMPLACABLE_CLASS_CARRIER_64.dds</File>
+    <File md5="F6BEDA36FBEE5837BCC7719DB40FDE39" import="1">Surface/Carriers/ICONS/ICON_UNIT_IMPLACABLE_CLASS_CARRIER_80.dds</File>
+    <File md5="941104BA13D1678465E4C712B2B1EC00" import="1">Surface/Carriers/ICONS/ICON_UNIT_SHOKAKU_CLASS_AIRCRAFT_CARRIER888_128.dds</File>
+    <File md5="4B35A8544227B867C2C0FB0D246C9309" import="1">Surface/Carriers/ICONS/ICON_UNIT_SHOKAKU_CLASS_AIRCRAFT_CARRIER888_256.dds</File>
+    <File md5="A7606CA2AB06D32FC3BED8939A47BF79" import="1">Surface/Carriers/ICONS/ICON_UNIT_SHOKAKU_CLASS_AIRCRAFT_CARRIER888_45.dds</File>
+    <File md5="81F54528EAA756318D522B216EC028DC" import="1">Surface/Carriers/ICONS/ICON_UNIT_SHOKAKU_CLASS_AIRCRAFT_CARRIER888_64.dds</File>
+    <File md5="933E5ACD9B3865002418B14D15579D99" import="1">Surface/Carriers/ICONS/ICON_UNIT_SHOKAKU_CLASS_AIRCRAFT_CARRIER888_80.dds</File>
+    <File md5="58F419ABDBC6683FCBCABFD8072B4AF1" import="0">Surface/Carriers/XML/UnitArkRoyalAircraftCarrier888.xml</File>
+    <File md5="A29DF4012817F4CB301B1931F261C58B" import="0">Surface/Carriers/XML/UnitEssexClassCarrier888.xml</File>
+    <File md5="9A4AA29DCB00B0538BB32F85267F4C06" import="0">Surface/Carriers/XML/UnitImplacableClassCarrier.xml</File>
+    <File md5="E15EE07AD53E27AA6F7F0BCDAEEC9343" import="0">Surface/Carriers/XML/UnitShokakuClassAircraftCarrier888.xml</File>
+    <File md5="C79BE4B037F3414E58D1DF447C2692D0" import="1">Surface/Corvette/corvette.fxsxml</File>
+    <File md5="999A60167A7FEB28FA1A80824DC645A8" import="1">Surface/Corvette/Corvette.gr2</File>
+    <File md5="B508B56CC8981AE57F6222B8680A7E48" import="1">Surface/Corvette/corvette_diff.dds</File>
+    <File md5="5F93E0D039A506C788E3A053981B6C30" import="1">Surface/Corvette/corvette_sref.dds</File>
+    <File md5="7E5BDA64873658BBFF764147611E8FB3" import="1">Surface/Corvette/ICON_UNIT_FLOWER_CLASS_CORVETTE888_128.dds</File>
+    <File md5="04D154FDBDD275D3A2D89501F4804C2B" import="1">Surface/Corvette/ICON_UNIT_FLOWER_CLASS_CORVETTE888_256.dds</File>
+    <File md5="5B59FBC5EA60EBC6336313377CA555CC" import="1">Surface/Corvette/ICON_UNIT_FLOWER_CLASS_CORVETTE888_45.dds</File>
+    <File md5="C5B867EE090D969B884B9BBB44D7C0E0" import="1">Surface/Corvette/ICON_UNIT_FLOWER_CLASS_CORVETTE888_64.dds</File>
+    <File md5="83075A76CA017BDF178FA2DBEB73A451" import="1">Surface/Corvette/ICON_UNIT_FLOWER_CLASS_CORVETTE888_80.dds</File>
+    <File md5="56E045F9DC236AE2C1A4019FD60C5AD6" import="0">Surface/Corvette/UnitFlowerClassCorvette888.xml</File>
+    <File md5="0BA2CDD17CB2D86CC83A3A86D3415AEB" import="1">Surface/Cruisers/Art/cruiserpalla.fxsxml</File>
+    <File md5="B4A8CD84C118F5DE906677643FAA9589" import="1">Surface/Cruisers/Art/cruiserpalla.gr2</File>
+    <File md5="7D7DE5645854D0B24F25187C895FD74E" import="1">Surface/Cruisers/Art/cruiser_DIFF.dds</File>
+    <File md5="DAA63ECCA22801C2D10ABE8C4803714B" import="1">Surface/Cruisers/Art/cruiser_SREF.dds</File>
+    <File md5="C1BA7E3D50990A2B3A1A0F670BE1626C" import="1">Surface/Cruisers/Art/Deutschland_Class.blend</File>
+    <File md5="6D5735CEA290FA9ADBC45D46B84FF4C4" import="1">Surface/Cruisers/Art/Deutschland_Class.dds</File>
+    <File md5="AB66E880CE569AD8B9E3F1DA345C7A4D" import="1">Surface/Cruisers/Art/Deutschland_Class.fxsxml</File>
+    <File md5="C9F5E541D1EBA1414972BCA342C539FF" import="1">Surface/Cruisers/Art/Deutschland_Class.gr2</File>
+    <File md5="3F2420DC6A63F8459C0B615EA37C6BC1" import="1">Surface/Cruisers/Art/Deutschland_Class_gloss.dds</File>
+    <File md5="0D763CB1E8E2206B90FDBBA290B61CDC" import="1">Surface/Cruisers/Art/fx_triggers_cruiser.ftsxml</File>
+    <File md5="99A340B728F85534AD7B907819C7BBDF" import="1">Surface/Cruisers/Art/kirov.fxsxml</File>
+    <File md5="BD3AF15E621D1A7272DD5BD83B144229" import="1">Surface/Cruisers/Art/Kirov.gr2</File>
+    <File md5="B887CF58592E1CF8925CA63400E3CCF3" import="1">Surface/Cruisers/Art/kirov_diff.dds</File>
+    <File md5="ADF05B09040E695D2ABFD657A0382505" import="1">Surface/Cruisers/Art/kirov_sref.dds</File>
+    <File md5="DE62A8D383D60C1A12D5C3339B098C4E" import="1">Surface/Cruisers/Icons/cruiserflag.dds</File>
+    <File md5="4F24CABC9DB5096789E101E3C819AEFD" import="1">Surface/Cruisers/Icons/ICON_UNIT_DEUTSCHLAND_CLASS_CRUISER888_128.dds</File>
+    <File md5="21CC4E3777468F04AC77211ACB55EE90" import="1">Surface/Cruisers/Icons/ICON_UNIT_DEUTSCHLAND_CLASS_CRUISER888_256.dds</File>
+    <File md5="4A5E8D4A70E619B7281501A521259DFE" import="1">Surface/Cruisers/Icons/ICON_UNIT_DEUTSCHLAND_CLASS_CRUISER888_45.dds</File>
+    <File md5="E49949173BD3AB2F43AD05CB22B5866A" import="1">Surface/Cruisers/Icons/ICON_UNIT_DEUTSCHLAND_CLASS_CRUISER888_64.dds</File>
+    <File md5="470D01234A482DB92923AFE0531C449C" import="1">Surface/Cruisers/Icons/ICON_UNIT_DEUTSCHLAND_CLASS_CRUISER888_80.dds</File>
+    <File md5="5A3A1E320584E4E06D7754217C6C590A" import="1">Surface/Cruisers/Icons/ICON_UNIT_KIROV_CLASS_BATTLECRUISER888_128.dds</File>
+    <File md5="A075979F0ABCC603F11A55CD6E338660" import="1">Surface/Cruisers/Icons/ICON_UNIT_KIROV_CLASS_BATTLECRUISER888_256.dds</File>
+    <File md5="6D64E300B95A2F13C5A0A1F5052D3672" import="1">Surface/Cruisers/Icons/ICON_UNIT_KIROV_CLASS_BATTLECRUISER888_45.dds</File>
+    <File md5="EE0474318C60A1E5D6F6B27150B1EA7B" import="1">Surface/Cruisers/Icons/ICON_UNIT_KIROV_CLASS_BATTLECRUISER888_64.dds</File>
+    <File md5="D6DB489091CF5B5C3EA044DCFA0153BA" import="1">Surface/Cruisers/Icons/ICON_UNIT_KIROV_CLASS_BATTLECRUISER888_80.dds</File>
+    <File md5="3B5D5C34F2F73AD624DA6F1DDA715204" import="1">Surface/Cruisers/Icons/ICON_UNIT_PALLADA_CLASS_CRUISER888_128.dds</File>
+    <File md5="FCFD564E9525BEBEF6DA088C70ED521F" import="1">Surface/Cruisers/Icons/ICON_UNIT_PALLADA_CLASS_CRUISER888_256.dds</File>
+    <File md5="103043D4B78892EB77B069839416692E" import="1">Surface/Cruisers/Icons/ICON_UNIT_PALLADA_CLASS_CRUISER888_45.dds</File>
+    <File md5="D696B957D88900BAF8967D591769CDD5" import="1">Surface/Cruisers/Icons/ICON_UNIT_PALLADA_CLASS_CRUISER888_64.dds</File>
+    <File md5="F9FABC9C140257D6454FB55B7EEEB746" import="1">Surface/Cruisers/Icons/ICON_UNIT_PALLADA_CLASS_CRUISER888_80.dds</File>
+    <File md5="168E89897532867C06E00B8B9C3993E9" import="1">Surface/Cruisers/Icons/ICON_UNIT_TICONDEROGA_CLASS_CRUISER888_128.dds</File>
+    <File md5="5CE499B8CFE239AF61A06D69AA420475" import="1">Surface/Cruisers/Icons/ICON_UNIT_TICONDEROGA_CLASS_CRUISER888_256.dds</File>
+    <File md5="E747E0E88DE40FB47DD18BC1822C35C3" import="1">Surface/Cruisers/Icons/ICON_UNIT_TICONDEROGA_CLASS_CRUISER888_45.dds</File>
+    <File md5="47CAD028D9E701421B9866A3942B0602" import="1">Surface/Cruisers/Icons/ICON_UNIT_TICONDEROGA_CLASS_CRUISER888_64.dds</File>
+    <File md5="0AA4B2C11F7B3914455827341D12E659" import="1">Surface/Cruisers/Icons/ICON_UNIT_TICONDEROGA_CLASS_CRUISER888_80.dds</File>
+    <File md5="2E7072D92C2C1A6B67BC3E3AF815F1C1" import="1">Surface/Cruisers/Icons/svcruiser.dds</File>
+    <File md5="F43AF07B7E6410D0C7C3970FA6989DD6" import="0">Surface/Cruisers/XML/UnitDeutschlandClassCruiser888.xml</File>
+    <File md5="CB28B491AB6678B7CF0C5ABC34D2C50D" import="0">Surface/Cruisers/XML/UnitKirovClassBattlecruiser888.xml</File>
+    <File md5="74D2AD42571DDED4D1DF7C3B9CD86E24" import="0">Surface/Cruisers/XML/UnitPalladaClassCruiser888.xml</File>
+    <File md5="F7B850C0C783CBBEA326E0238F194DE4" import="0">Surface/Cruisers/XML/UnitTiconderogaClassCruiser888.xml</File>
+    <File md5="82992D1188428AB6A65AC686B3F60896" import="1">Surface/Destroyers/ART/ArleighBurke.fxsxml</File>
+    <File md5="9F39A764688AE77CC32FA9FAC403E9C6" import="1">Surface/Destroyers/ART/ArleighBurke.gr2</File>
+    <File md5="989F874C089D79E034D976AF5AB1848F" import="1">Surface/Destroyers/ART/ArleighBurke_diff.dds</File>
+    <File md5="3EE94DE8468EEE9447E650443FD16A74" import="1">Surface/Destroyers/ART/ArleighBurke_sref.dds</File>
+    <File md5="2F3930A017682640A18E710F20BCFBDE" import="1">Surface/Destroyers/ART/Blackhawk.dds</File>
+    <File md5="1DA5EA94BD63077CD10D9862E5DD926F" import="1">Surface/Destroyers/ART/Blackhawk.fxsxml</File>
+    <File md5="A0AA1B67B8F1ACB037B066E3D5468FC1" import="1">Surface/Destroyers/ART/Blackhawk.gr2</File>
+    <File md5="17C0E53365C21189F161D6C30F2744BC" import="1">Surface/Destroyers/ART/Blackhawk_sref.dds</File>
+    <File md5="5726830B442A6BDF14A4F098F10364C9" import="1">Surface/Destroyers/ART/BPK1155.fxsxml</File>
+    <File md5="244749BD51378E9A7A571735A6653F7D" import="1">Surface/Destroyers/ART/BPK1155.gr2</File>
+    <File md5="59691E8066A89121B146BC375B4B1ACD" import="1">Surface/Destroyers/ART/BPK1155_diff.dds</File>
+    <File md5="3872E535CC6D36CD1B6B721A9B040510" import="1">Surface/Destroyers/ART/BPK1155_sref.dds</File>
+    <File md5="DF3EBA2058188A932184942C0574DABB" import="1">Surface/Destroyers/ART/edited_fx_triggers_wickes.ftsxml</File>
+    <File md5="9EB4D48E2A4631496AE9A62F9F3E272F" import="1">Surface/Destroyers/ART/fx_triggers_Blackhawk.ftsxml</File>
+    <File md5="74FA0065283E26FCD1962BDC36B8AFA2" import="1">Surface/Destroyers/ART/Wickes.dds</File>
+    <File md5="7E573F2605303CA5B18BEE32104458DA" import="1">Surface/Destroyers/ART/Wickes.fxsxml</File>
+    <File md5="208AB42CA14AC91384B031D5D4848126" import="1">Surface/Destroyers/ART/Wickes.gr2</File>
+    <File md5="0869EC0D1C35B96D4C83F46E890008D8" import="1">Surface/Destroyers/ART/WickesSREF.dds</File>
+    <File md5="0E0A44D3285D9A104871EE1D673C8F46" import="1">Surface/Destroyers/ART/Z23_Class.blend</File>
+    <File md5="D74B5D57BEEED54D8B5B4EF1B55B54C1" import="1">Surface/Destroyers/ART/Z23_Class.dds</File>
+    <File md5="E0E51C204768D298B4D7D3138096F82F" import="1">Surface/Destroyers/ART/Z23_Class.fxsxml</File>
+    <File md5="32285870E17B90E54C9282D3E133715F" import="1">Surface/Destroyers/ART/Z23_Class.gr2</File>
+    <File md5="6069904790F89DF3103C023A8878FC7F" import="1">Surface/Destroyers/ART/Z23_Class_gloss.dds</File>
+    <File md5="E20F7693667D7A2E33852E72C234988F" import="1">Surface/Destroyers/ICONS/ICON_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_128.dds</File>
+    <File md5="22AE676FB6B857637819D217327A2149" import="1">Surface/Destroyers/ICONS/ICON_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_256.dds</File>
+    <File md5="F6DD70062B08709C40E8F7A00F348EA0" import="1">Surface/Destroyers/ICONS/ICON_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_45.dds</File>
+    <File md5="7B72E74B51A7D28A55CB7717EBAA73F9" import="1">Surface/Destroyers/ICONS/ICON_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_64.dds</File>
+    <File md5="7F34B4420375244E6E85748FB9EB6082" import="1">Surface/Destroyers/ICONS/ICON_UNIT_ARLEIGH_BURKE_CLASS_DESTROYER888_80.dds</File>
+    <File md5="C56E4A2578CCD289CD84A0E30F01654F" import="1">Surface/Destroyers/ICONS/ICON_UNIT_NARVIK_CLASS_DESTROYER888_128.dds</File>
+    <File md5="55E3BD0AD33DC7016C4E6C8EF067E8BE" import="1">Surface/Destroyers/ICONS/ICON_UNIT_NARVIK_CLASS_DESTROYER888_256.dds</File>
+    <File md5="610C4299517AF20FD2FF484286EE79AC" import="1">Surface/Destroyers/ICONS/ICON_UNIT_NARVIK_CLASS_DESTROYER888_45.dds</File>
+    <File md5="CDC484845AD3B06C2811B893C3B67F25" import="1">Surface/Destroyers/ICONS/ICON_UNIT_NARVIK_CLASS_DESTROYER888_64.dds</File>
+    <File md5="5CC83337C04B92498FAD1F26F1B2369A" import="1">Surface/Destroyers/ICONS/ICON_UNIT_NARVIK_CLASS_DESTROYER888_80.dds</File>
+    <File md5="E2F264E92D36F24417A4555718CA58DC" import="1">Surface/Destroyers/ICONS/ICON_UNIT_SH60B_SEAHAWK888_128.dds</File>
+    <File md5="F3C33DB5E561FCF94D98D3FCF360A57E" import="1">Surface/Destroyers/ICONS/ICON_UNIT_SH60B_SEAHAWK888_256.dds</File>
+    <File md5="5F8440101C81D83F7BA2106522569FD8" import="1">Surface/Destroyers/ICONS/ICON_UNIT_SH60B_SEAHAWK888_45.dds</File>
+    <File md5="13A82E8B4C599AA464EDA3F94C977DDA" import="1">Surface/Destroyers/ICONS/ICON_UNIT_SH60B_SEAHAWK888_64.dds</File>
+    <File md5="46D4337764AC07E772EB9864C5B92894" import="1">Surface/Destroyers/ICONS/ICON_UNIT_SH60B_SEAHAWK888_80.dds</File>
+    <File md5="7573880A7898BDF5BCA69E92F9314D61" import="1">Surface/Destroyers/ICONS/ICON_UNIT_UDALOY_CLASS_DESTROYER888_128.dds</File>
+    <File md5="34F524D7D299EED314299069B3D97339" import="1">Surface/Destroyers/ICONS/ICON_UNIT_UDALOY_CLASS_DESTROYER888_256.dds</File>
+    <File md5="464EE52C774F50699078D6BDDF0F279E" import="1">Surface/Destroyers/ICONS/ICON_UNIT_UDALOY_CLASS_DESTROYER888_45.dds</File>
+    <File md5="1FAD904EFF4A33D4C112A7E8E183D556" import="1">Surface/Destroyers/ICONS/ICON_UNIT_UDALOY_CLASS_DESTROYER888_64.dds</File>
+    <File md5="1D12B4ABB8796D89781CBE1E7275E5C0" import="1">Surface/Destroyers/ICONS/ICON_UNIT_UDALOY_CLASS_DESTROYER888_80.dds</File>
+    <File md5="247DE4303BC2D890FA43AF262541D8EC" import="1">Surface/Destroyers/ICONS/ICON_UNIT_WICKES_CLASS_DESTROYER888_128.dds</File>
+    <File md5="E7E3C00E531F87000BF0714C540D3872" import="1">Surface/Destroyers/ICONS/ICON_UNIT_WICKES_CLASS_DESTROYER888_256.dds</File>
+    <File md5="CE785F827C9BA80BF6E8B446792435ED" import="1">Surface/Destroyers/ICONS/ICON_UNIT_WICKES_CLASS_DESTROYER888_45.dds</File>
+    <File md5="2035E384144E521FB2C9692E77CC6C11" import="1">Surface/Destroyers/ICONS/ICON_UNIT_WICKES_CLASS_DESTROYER888_64.dds</File>
+    <File md5="B794DFD4CBE31A9FBCEBB3F1010EC202" import="1">Surface/Destroyers/ICONS/ICON_UNIT_WICKES_CLASS_DESTROYER888_80.dds</File>
+    <File md5="8FBE1B3D811BFD7B999A7C56ABCA57BC" import="0">Surface/Destroyers/XML/UnitArleighBurkeClassDestroyer888.xml</File>
+    <File md5="FA4202E199537536942BE6C79A63118F" import="0">Surface/Destroyers/XML/UnitNarvikClassDestroyer888.xml</File>
+    <File md5="54434346D12360081856693E1A9697B6" import="0">Surface/Destroyers/XML/UnitSH60BSeaHawk888.xml</File>
+    <File md5="FEFC1C28F98244BB82DD0C5113191898" import="0">Surface/Destroyers/XML/UnitUdaloyClassDestroyer888.xml</File>
+    <File md5="DA820E18D9298479241D920F6A8C44D3" import="0">Surface/Destroyers/XML/UnitWickesClassDestroyer888.xml</File>
+    <File md5="654CC5973EA3022471457F833EB77E48" import="1">Surface/Galleons/Danish/danish_galleon.fxsxml</File>
+    <File md5="C62879BE4ED1EEFFB8538F895C2F713A" import="1">Surface/Galleons/Danish/danish_galleon.gr2</File>
+    <File md5="1260F82669D525403692140CE88873B0" import="1">Surface/Galleons/Danish/danish_galleon_diff.dds</File>
+    <File md5="DE2C27F019B4573A76B8F071339397F2" import="1">Surface/Galleons/Danish/ICON_UNIT_DANISH_GALLEON888_128.dds</File>
+    <File md5="5F5CE916255E97B38C5BE7C07C10C68E" import="1">Surface/Galleons/Danish/ICON_UNIT_DANISH_GALLEON888_256.dds</File>
+    <File md5="EF35595A3E2596565D6F85E1B34FCA41" import="1">Surface/Galleons/Danish/ICON_UNIT_DANISH_GALLEON888_45.dds</File>
+    <File md5="74EDA96BBC5D90C788FF92B8402ED70D" import="1">Surface/Galleons/Danish/ICON_UNIT_DANISH_GALLEON888_64.dds</File>
+    <File md5="A13EAD5DFDFE45BBC02B6B2262063533" import="1">Surface/Galleons/Danish/ICON_UNIT_DANISH_GALLEON888_80.dds</File>
+    <File md5="552EF8F7C21CA9196E79B5B7572A9610" import="0">Surface/Galleons/Danish/UnitDanishGalleon888.xml</File>
+    <File md5="EDC2948D5DC6614D02015D3E8D6A0781" import="1">Surface/Galleons/French/french_galleon.fxsxml</File>
+    <File md5="467D4C56128CC98FD87947199237F21C" import="1">Surface/Galleons/French/french_galleon.gr2</File>
+    <File md5="E14E2C82508BA5AC5D0077112BF6DF56" import="1">Surface/Galleons/French/french_galleon_diff.dds</File>
+    <File md5="D3534A8081B6D84CA6FEF44CBBE53351" import="1">Surface/Galleons/French/galleon_sref.dds</File>
+    <File md5="1028F148156D95261B4E1E513E09562B" import="0">Surface/Galleons/French/UnitFrenchGalleon888.xml</File>
+    <File md5="1F1D80969DFCB34AC518DC07D8763AE6" import="1">Surface/Galleons/Greek/greek_galleon.fxsxml</File>
+    <File md5="67296D855A933DAF22DBF54235C74B49" import="1">Surface/Galleons/Greek/greek_galleon.gr2</File>
+    <File md5="436D7581D9BEB329E0184FE79F207322" import="1">Surface/Galleons/Greek/greek_galleon_diff.dds</File>
+    <File md5="D60E951D5EA553BB64879EAF17DD3DEB" import="0">Surface/Galleons/Greek/UnitGreekGalleon888.xml</File>
+    <File md5="74E9785645AAD84BD7096E48A3B188D7" import="1">Surface/Galleons/Italian/italian_galleon.fxsxml</File>
+    <File md5="C3FBB705500402A037EDA75F57A429BD" import="1">Surface/Galleons/Italian/italian_galleon.gr2</File>
+    <File md5="942E43D60C0039CAEDB7BFC05FFA064C" import="1">Surface/Galleons/Italian/italian_galleon_diff.dds</File>
+    <File md5="23427E35E66C397ABE833FBA568085D0" import="0">Surface/Galleons/Italian/UnitItalianGalleon888.xml</File>
+    <File md5="BF2DC2C9261D3DFE431BE09F79479E94" import="1">Surface/Galleons/Portugal/portuguese_galleon.fxsxml</File>
+    <File md5="4ADF2418176959AD2D62E6DC75347AF2" import="1">Surface/Galleons/Portugal/portuguese_galleon.gr2</File>
+    <File md5="A94920582E4F57FED46DBA0D83D42BED" import="1">Surface/Galleons/Portugal/portuguese_galleon_diff.dds</File>
+    <File md5="682A0C2CB3E13559E46DD7F5EB25EE50" import="0">Surface/Galleons/Portugal/UnitPortugalGalleon888.xml</File>
+    <File md5="42B7AF63648AB36E0AC6F42EB284080C" import="1">Surface/Galleons/Russian/RussianGalleon.fxsxml</File>
+    <File md5="E05580D08CDE3F4E66A2547142A34241" import="1">Surface/Galleons/Russian/RussianGalleon.gr2</File>
+    <File md5="43C455F183BCD16CF585D9D0127DB465" import="1">Surface/Galleons/Russian/RussianGalleon_diff.dds</File>
+    <File md5="42EA65ADFA4129C3CFDAA1F6F259655D" import="1">Surface/Galleons/Russian/RussianGalleon_sref.dds</File>
+    <File md5="43E72EF25A9939417AD7F5C198221283" import="1">Surface/Galleons/Russian/Russian_Galleon.br2</File>
+    <File md5="908DC5A911314863574751330093EB7B" import="0">Surface/Galleons/Russian/UnitRussianGalleon888.xml</File>
+    <File md5="A2BAC7B83BE2A0D3FDEDBE17513A20CF" import="1">Surface/Galleons/Sweedish/swedish_galleon.fxsxml</File>
+    <File md5="8898AE199C2AD68D123D7E1B83147D71" import="1">Surface/Galleons/Sweedish/swedish_galleon.gr2</File>
+    <File md5="A0B9BAE8A2C087AAB74E2E5E1E365031" import="1">Surface/Galleons/Sweedish/swedish_galleon_diff.dds</File>
+    <File md5="949F8E581A40FAD4BE58E80FE38385BF" import="0">Surface/Galleons/Sweedish/UnitSwedishGalleon888.xml</File>
+    <File md5="EFB2E7EADB5E1B28098B403338B763C8" import="1">Surface/Light  Cruiser/Cannons_diff.dds</File>
+    <File md5="697F38CFB435CE8393E54675734ABB05" import="1">Surface/Light  Cruiser/Cannons_sref.dds</File>
+    <File md5="03A50B513BEAC0DD1E2923CF5D18AD33" import="1">Surface/Light  Cruiser/emden.fxsxml</File>
+    <File md5="6C6EE8418B892C88F2AA05FAA164AFF1" import="1">Surface/Light  Cruiser/Emden.gr2</File>
+    <File md5="D3CBFBDED593CD17CEBAEB2DE085DCE1" import="1">Surface/Light  Cruiser/emden_diff.dds</File>
+    <File md5="9538228D910CF7AC3D742C95C821FA77" import="1">Surface/Light  Cruiser/emden_sref.dds</File>
+    <File md5="24360028DAFF7EABF60A9591199782FC" import="1">Surface/Light  Cruiser/fx_trigger_ironcladca.ftsxml</File>
+    <File md5="EB87CD57FF401C0B1C5D69DBAF797D74" import="1">Surface/Light  Cruiser/ICON_UNIT_DESDEN_CLASS_LIGHT_CRUISER888_128.dds</File>
+    <File md5="085903B637C9B17D2D9EBB7E83904DAA" import="1">Surface/Light  Cruiser/ICON_UNIT_DESDEN_CLASS_LIGHT_CRUISER888_256.dds</File>
+    <File md5="C53BFEECBFFE8946A2FF89BF1AF326AB" import="1">Surface/Light  Cruiser/ICON_UNIT_DESDEN_CLASS_LIGHT_CRUISER888_45.dds</File>
+    <File md5="34B7C7D0FBD9B7213A874D2D53B12C0F" import="1">Surface/Light  Cruiser/ICON_UNIT_DESDEN_CLASS_LIGHT_CRUISER888_64.dds</File>
+    <File md5="9959565FDE8C37FE41ACDC5D2EF9415E" import="1">Surface/Light  Cruiser/ICON_UNIT_DESDEN_CLASS_LIGHT_CRUISER888_80.dds</File>
+    <File md5="D15799F9B44E1695C9B59900A8ED5B93" import="1">Surface/Light  Cruiser/ICON_UNIT_WARRIOR_CLASS_FRIGATE888_128.dds</File>
+    <File md5="0AF9D4F9968E5B36E11FB41CE787E166" import="1">Surface/Light  Cruiser/ICON_UNIT_WARRIOR_CLASS_FRIGATE888_256.dds</File>
+    <File md5="69241BC431A9C5B6134E8DFFAA4BF79F" import="1">Surface/Light  Cruiser/ICON_UNIT_WARRIOR_CLASS_FRIGATE888_45.dds</File>
+    <File md5="A7900518388EFBBFE2CB7D3A758D8DFE" import="1">Surface/Light  Cruiser/ICON_UNIT_WARRIOR_CLASS_FRIGATE888_64.dds</File>
+    <File md5="7DF9FAE176D85D3E90D4EAB12FEE0212" import="1">Surface/Light  Cruiser/ICON_UNIT_WARRIOR_CLASS_FRIGATE888_80.dds</File>
+    <File md5="E139AFCF874FBFAD0740023C50A88D30" import="1">Surface/Light  Cruiser/IroncladCA.fxsxml</File>
+    <File md5="EE371B1C12159625D51D83205927B610" import="1">Surface/Light  Cruiser/IroncladCA.gr2</File>
+    <File md5="DE50514BDA3E5A3C415211E0B58745B3" import="1">Surface/Light  Cruiser/Ironclad_CA_diff.dds</File>
+    <File md5="AE4C1A6E4D12FBA2D17447DE4CD25A6B" import="1">Surface/Light  Cruiser/Ironclad_CA_sref.dds</File>
+    <File md5="C5776DA9032625C00BFF91FA331A3501" import="0">Surface/Light  Cruiser/UnitDesdenClassLightCruiser888.xml</File>
+    <File md5="E25CB855135D9AB4A1C64EC59F8161B1" import="0">Surface/Light  Cruiser/UnitWarriorClassFrigate888.xml</File>
+    <File md5="42BFF7ED83DDA7CFC004E69CAE8FE7BB" import="1">Surface/Steam Battleships/Braunschweig/Braunschweig_BB.fxsxml</File>
+    <File md5="15DCFEEEB25300581D6E8A3666AD1A00" import="1">Surface/Steam Battleships/Braunschweig/Braunschweig_BB.gr2</File>
+    <File md5="AF149BEBA8E8554C0C8BAC7684404954" import="1">Surface/Steam Battleships/Braunschweig/Braunschweig_BB_diff.dds</File>
+    <File md5="B01DC0CC85EC2DD3E4B4C71B3AF2B773" import="1">Surface/Steam Battleships/Braunschweig/Braunschweig_BB_sref.dds</File>
+    <File md5="B1F0A9F7557529C002B15FEB5A3CE3D9" import="1">Surface/Steam Battleships/Braunschweig/ICON_UNIT_BRAUNSCHWEIG_CLASS_BATTLESHIP888_128.dds</File>
+    <File md5="AACF9FA3A37857693F0A3B9D0EA6E970" import="1">Surface/Steam Battleships/Braunschweig/ICON_UNIT_BRAUNSCHWEIG_CLASS_BATTLESHIP888_256.dds</File>
+    <File md5="1CD6CC3394D7EEB6A087CADF16FBB5FC" import="1">Surface/Steam Battleships/Braunschweig/ICON_UNIT_BRAUNSCHWEIG_CLASS_BATTLESHIP888_45.dds</File>
+    <File md5="1C96716D255454CC30E9FFE5F4B475A8" import="1">Surface/Steam Battleships/Braunschweig/ICON_UNIT_BRAUNSCHWEIG_CLASS_BATTLESHIP888_64.dds</File>
+    <File md5="676CA8BAFBEE74B2AA278A73EB9939E3" import="1">Surface/Steam Battleships/Braunschweig/ICON_UNIT_BRAUNSCHWEIG_CLASS_BATTLESHIP888_80.dds</File>
+    <File md5="57F45992B7E516E7EE76939CDEFF498F" import="0">Surface/Steam Battleships/Braunschweig/UnitBraunschweigClassBattleship888.xml</File>
+    <File md5="7075F2C7AFAE47CF65E985C3DF1E65E0" import="1">Surface/Steam Battleships/Connecticut/Connecticut_BB.fxsxml</File>
+    <File md5="9A90EEACD2FEFBB91E8A0FEBDA0CAAB3" import="1">Surface/Steam Battleships/Connecticut/Connecticut_BB.gr2</File>
+    <File md5="C67608C6867B1C9287DAA2305064F9E6" import="1">Surface/Steam Battleships/Connecticut/Connecticut_BB_diff.dds</File>
+    <File md5="DAB50BC45482A54B0BE9E3F168AAC42E" import="1">Surface/Steam Battleships/Connecticut/Connecticut_BB_sref.dds</File>
+    <File md5="D8A7A2B659ED4BA6924C76F80CA6209B" import="1">Surface/Steam Battleships/Connecticut/ICON_UNIT_CONNECTICUT_CLASSBB_128.dds</File>
+    <File md5="A04D039C3516FFF0F85E97593369E2CC" import="1">Surface/Steam Battleships/Connecticut/ICON_UNIT_CONNECTICUT_CLASSBB_256.dds</File>
+    <File md5="099484CD2FE9E6BF9E0EAFA398CA6D6C" import="1">Surface/Steam Battleships/Connecticut/ICON_UNIT_CONNECTICUT_CLASSBB_45.dds</File>
+    <File md5="D3A6B8ABBDF3F97E65A5F13F248F5258" import="1">Surface/Steam Battleships/Connecticut/ICON_UNIT_CONNECTICUT_CLASSBB_64.dds</File>
+    <File md5="4791FBC25953FC73DF13EA414015D507" import="1">Surface/Steam Battleships/Connecticut/ICON_UNIT_CONNECTICUT_CLASSBB_80.dds</File>
+    <File md5="81A27C11C9405EDDFEE8F8FCC41EDD2A" import="0">Surface/Steam Battleships/Connecticut/UnitConnClassBB888.xml</File>
+    <File md5="090C5DCBB7652FD6E3F962AC8FAABB1F" import="1">Surface/Steam Battleships/Erzherzog Karl/erzherzog_karl_bb.fxsxml</File>
+    <File md5="2E921A697AD75C27CC1AE5A9EB3C65C4" import="1">Surface/Steam Battleships/Erzherzog Karl/erzherzog_karl_bb.gr2</File>
+    <File md5="BC06F829133D9941A17CE652CCDD798C" import="1">Surface/Steam Battleships/Erzherzog Karl/erzherzog_karl_bb_diff.dds</File>
+    <File md5="8BE009AA5E8383312B2B8DE5CA65B98B" import="1">Surface/Steam Battleships/Erzherzog Karl/erzherzog_karl_bb_sref.dds</File>
+    <File md5="D16B4F52A70DF834B7B6DBE0B712215D" import="1">Surface/Steam Battleships/Erzherzog Karl/ICON_UNIT_ERZHERZOG_KARL_BB_128.dds</File>
+    <File md5="3FE7A3682E06125C48394E10EC4A94EA" import="1">Surface/Steam Battleships/Erzherzog Karl/ICON_UNIT_ERZHERZOG_KARL_BB_256.dds</File>
+    <File md5="169CA4369C7EF895C9C14C307C4C0872" import="1">Surface/Steam Battleships/Erzherzog Karl/ICON_UNIT_ERZHERZOG_KARL_BB_45.dds</File>
+    <File md5="5B95B9B165AF905EB94627F31EDB1BEB" import="1">Surface/Steam Battleships/Erzherzog Karl/ICON_UNIT_ERZHERZOG_KARL_BB_64.dds</File>
+    <File md5="12E63D2F57677B24AF70FDC979F69D92" import="1">Surface/Steam Battleships/Erzherzog Karl/ICON_UNIT_ERZHERZOG_KARL_BB_80.dds</File>
+    <File md5="614AE8A49CF1E83A0705B9A42107279D" import="0">Surface/Steam Battleships/Erzherzog Karl/UnitErzherzogKarlClassBB888.xml</File>
+    <File md5="9F4643638CF6051E7667E249A2E2B529" import="1">Surface/Steam Battleships/Majestic/ICON_UNIT_MAJESTIC888_128.dds</File>
+    <File md5="68BFBE771AB547A7A9DFFD98F3149B39" import="1">Surface/Steam Battleships/Majestic/ICON_UNIT_MAJESTIC888_256.dds</File>
+    <File md5="C416B58C3A1CA51524928A43112F0E75" import="1">Surface/Steam Battleships/Majestic/ICON_UNIT_MAJESTIC888_45.dds</File>
+    <File md5="1E19276BD596038813A9DD52E11C04C4" import="1">Surface/Steam Battleships/Majestic/ICON_UNIT_MAJESTIC888_64.dds</File>
+    <File md5="5C81BC2C2C8A4FA4E9E0E5CB5744A8DB" import="1">Surface/Steam Battleships/Majestic/ICON_UNIT_MAJESTIC888_80.dds</File>
+    <File md5="AB482B73A1443CB8F905A6F6EF0574DC" import="1">Surface/Steam Battleships/Majestic/Majestic_BB.fxsxml</File>
+    <File md5="103DF7347D259773BE462675DED1D6BE" import="1">Surface/Steam Battleships/Majestic/Majestic_BB.gr2</File>
+    <File md5="FB46C5E38457A8BA94BB91EADA39E63E" import="1">Surface/Steam Battleships/Majestic/majestic_bb_diff.dds</File>
+    <File md5="218F7165C03EB35A1F68EE8804D5ACFA" import="1">Surface/Steam Battleships/Majestic/majestic_bb_sref.dds</File>
+    <File md5="C1886C5AEF495E67326767F28243C6E1" import="0">Surface/Steam Battleships/Majestic/UnitMajesticClassBB888.xml</File>
+    <File md5="E6023A2CA2FE809A3BC476DCB9FCF55A" import="1">Surface/Steam Battleships/Mikasa/ICON_UNIT_MIKASA888_128.dds</File>
+    <File md5="4A5333F9F196F9C3BD094397EDA62E16" import="1">Surface/Steam Battleships/Mikasa/ICON_UNIT_MIKASA888_256.dds</File>
+    <File md5="71CB9880D37CB1D27ADE38DD2D9B9E49" import="1">Surface/Steam Battleships/Mikasa/ICON_UNIT_MIKASA888_45.dds</File>
+    <File md5="949E16A163915DD436ED742E9CD9737F" import="1">Surface/Steam Battleships/Mikasa/ICON_UNIT_MIKASA888_64.dds</File>
+    <File md5="DF0EB527DAADAAE7886C1CB45B65B206" import="1">Surface/Steam Battleships/Mikasa/ICON_UNIT_MIKASA888_80.dds</File>
+    <File md5="5D5BC3DAD5F79F9FFF93DE062B1E09FA" import="1">Surface/Steam Battleships/Mikasa/Mikasa_BB.fxsxml</File>
+    <File md5="EAF0595F38D590A7D086A3920F925359" import="1">Surface/Steam Battleships/Mikasa/Mikasa_BB.gr2</File>
+    <File md5="0AEFF7BD1946DA9F8DCC87AC793A0818" import="1">Surface/Steam Battleships/Mikasa/mikasa_bb_diff.dds</File>
+    <File md5="2EA6C3A131D3C9CC8C020B487A2FA00A" import="1">Surface/Steam Battleships/Mikasa/mikasa_bb_sref.dds</File>
+    <File md5="7CC4D3F74B5C7E65696B8C5DE215860C" import="0">Surface/Steam Battleships/Mikasa/UnitMikasaClassBB888.xml</File>
+    <File md5="DD0B2AD73DF4CBB4F74545BC4CFBDA65" import="1">Surface/Steam Battleships/Pelayo/ICON_UNIT_GENERICBB888_128.dds</File>
+    <File md5="A99900C724FBE6193D6C1B6C92415F63" import="1">Surface/Steam Battleships/Pelayo/ICON_UNIT_GENERICBB888_256.dds</File>
+    <File md5="EB4F97361020F48018AB53CF506A8558" import="1">Surface/Steam Battleships/Pelayo/ICON_UNIT_GENERICBB888_45.dds</File>
+    <File md5="3BB3E8F6D82BF541DC88F9196B5B8279" import="1">Surface/Steam Battleships/Pelayo/ICON_UNIT_GENERICBB888_64.dds</File>
+    <File md5="537A8544F6446B3669D5F836731373B7" import="1">Surface/Steam Battleships/Pelayo/ICON_UNIT_GENERICBB888_80.dds</File>
+    <File md5="41DBAC4232F9786A3BC969A308D15121" import="1">Surface/Steam Battleships/Pelayo/Pelayo_bb.fxsxml</File>
+    <File md5="9F520C4675CBD6CBDE2ABB95D303E689" import="1">Surface/Steam Battleships/Pelayo/Pelayo_bb.gr2</File>
+    <File md5="49AC5C6DB839AA5CC3083015E787FD54" import="1">Surface/Steam Battleships/Pelayo/pelayo_bb_diff.dds</File>
+    <File md5="80CF90EF7BE1F99DE37B6C900F10C738" import="1">Surface/Steam Battleships/Pelayo/pelayo_bb_sref.dds</File>
+    <File md5="00CCBD8202B499117939DC8B0B1C4450" import="0">Surface/Steam Battleships/Pelayo/UnitGenericClassBB.xml</File>
+    <File md5="D6341E349C3EA07CC648473CE495FEF8" import="1">Surface/Steam Battleships/Potemkin/ICON_UNIT_POTEMKIN888_128.dds</File>
+    <File md5="B8E4D52AFC208DBEBD9A387B30F3B167" import="1">Surface/Steam Battleships/Potemkin/ICON_UNIT_POTEMKIN888_256.dds</File>
+    <File md5="2CB162B5CEA6DC5BB16054E700636445" import="1">Surface/Steam Battleships/Potemkin/ICON_UNIT_POTEMKIN888_45.dds</File>
+    <File md5="C510E31B841B0E895EC3056175B2C867" import="1">Surface/Steam Battleships/Potemkin/ICON_UNIT_POTEMKIN888_64.dds</File>
+    <File md5="C01544A5F089AE3872033C5ACF00D978" import="1">Surface/Steam Battleships/Potemkin/ICON_UNIT_POTEMKIN888_80.dds</File>
+    <File md5="66A4782FF545CDDEF667009B95A31C33" import="1">Surface/Steam Battleships/Potemkin/Potemkin_BB.fxsxml</File>
+    <File md5="6BA92226BEF6C78326339183929D4E34" import="1">Surface/Steam Battleships/Potemkin/Potemkin_BB.gr2</File>
+    <File md5="AF8DB9333E639ED70312A85F92891915" import="1">Surface/Steam Battleships/Potemkin/potemkin_bb_diff.dds</File>
+    <File md5="66AE0238BB9C079926607BA047CFC031" import="1">Surface/Steam Battleships/Potemkin/potemkin_bb_sref.dds</File>
+    <File md5="491791330AFA58D321AE791FAF415B01" import="0">Surface/Steam Battleships/Potemkin/UnitPotemkinBB888.xml</File>
+    <File md5="6A4EDF29FB028AD5DE3EF4106F363C8C" import="1">Surface/Steam Battleships/Re Umberto/ICON_UNIT_REUMBERTO888_128.dds</File>
+    <File md5="ED4517D577225A6CA5B93E5AB4E4CE1F" import="1">Surface/Steam Battleships/Re Umberto/ICON_UNIT_REUMBERTO888_256.dds</File>
+    <File md5="61B6F17512DB6F738506EE393300ECB5" import="1">Surface/Steam Battleships/Re Umberto/ICON_UNIT_REUMBERTO888_45.dds</File>
+    <File md5="0AA3415AE4E1DFD5AF0CFBE243BF0119" import="1">Surface/Steam Battleships/Re Umberto/ICON_UNIT_REUMBERTO888_64.dds</File>
+    <File md5="B91F920C2519006B32FB09B74DF81214" import="1">Surface/Steam Battleships/Re Umberto/ICON_UNIT_REUMBERTO888_80.dds</File>
+    <File md5="422F0F37E33C1A09898AED62EF51D34B" import="1">Surface/Steam Battleships/Re Umberto/re_umberto_bb.fxsxml</File>
+    <File md5="055786BFD9055294959C5D180EBB3094" import="1">Surface/Steam Battleships/Re Umberto/re_umberto_bb.gr2</File>
+    <File md5="3EB7CDAA6B8E6C91A48D24D869E46C3E" import="1">Surface/Steam Battleships/Re Umberto/re_umberto_bb_diff.dds</File>
+    <File md5="CC143FE36C2E08E2FF0759277AD0403C" import="1">Surface/Steam Battleships/Re Umberto/re_umberto_bb_sref.dds</File>
+    <File md5="77E7B1E9E40628966D9E2E885C61E28A" import="0">Surface/Steam Battleships/Re Umberto/UnitReUmbertoBB888.xml</File>
+    <File md5="AFF3C0F3948799168DDEFD6066C4C5C1" import="1">Surface/Steam Battleships/Republique/ICON_UNIT_REPUBLIQUE888_128.dds</File>
+    <File md5="41085064954BF45990051768DA012610" import="1">Surface/Steam Battleships/Republique/ICON_UNIT_REPUBLIQUE888_256.dds</File>
+    <File md5="E88F18A3494A0F2AA4B52A8064C24407" import="1">Surface/Steam Battleships/Republique/ICON_UNIT_REPUBLIQUE888_45.dds</File>
+    <File md5="565990592F6E6249CB782A8C68E5E852" import="1">Surface/Steam Battleships/Republique/ICON_UNIT_REPUBLIQUE888_64.dds</File>
+    <File md5="C80117A045470636BC873F37CD629BD2" import="1">Surface/Steam Battleships/Republique/ICON_UNIT_REPUBLIQUE888_80.dds</File>
+    <File md5="1332DAEEF4832481268C413AD01F5E2F" import="1">Surface/Steam Battleships/Republique/Republique_BB.fxsxml</File>
+    <File md5="A9A99D6D5D7CF95F0E8A579CB131A199" import="1">Surface/Steam Battleships/Republique/Republique_BB.gr2</File>
+    <File md5="D123BA43B5ABE540D82B131446E37277" import="1">Surface/Steam Battleships/Republique/Republique_BB_diff.dds</File>
+    <File md5="E5537F5BB228691A7FF9BC05B8D8E340" import="1">Surface/Steam Battleships/Republique/Republique_BB_sref.dds</File>
+    <File md5="F424A53AD37B45D1905E87B4776FE9A8" import="0">Surface/Steam Battleships/Republique/UnitRepubliqueBB888.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Promotions/PromotionsANU.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/Ships2.xml</UpdateDatabase>
+      <UpdateDatabase>Subs/Modern/XML/UnitAkulaClassSubmarine888.xml</UpdateDatabase>
+      <UpdateDatabase>Subs/Modern/XML/UnitAstuteClassSubmarine888.xml</UpdateDatabase>
+      <UpdateDatabase>Subs/Modern/XML/UnitKiloClassSubmarine888.xml</UpdateDatabase>
+      <UpdateDatabase>Subs/Modern/XML/UnitLosAngelesClassSubmarine888.xml</UpdateDatabase>
+      <UpdateDatabase>Subs/Modern/XML/UnitScorpeneClassSubmarine888.xml</UpdateDatabase>
+      <UpdateDatabase>Subs/Modern/XML/UnitType212Submarine888.xml</UpdateDatabase>
+      <UpdateDatabase>Subs/Modern/XML/UnitTyphoonClassSubmarine888.xml</UpdateDatabase>
+      <UpdateDatabase>Subs/Modern/XML/UnitOhioClassSubmarine888.xml</UpdateDatabase>
+      <UpdateDatabase>Subs/Modern/XML/UnitSeawolfClassSubmarine888.xml</UpdateDatabase>
+      <UpdateDatabase>Subs/Modern/XML/UnitVirginiaClassSubmarine888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Destroyers/XML/UnitArleighBurkeClassDestroyer888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Destroyers/XML/UnitUdaloyClassDestroyer888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Amphibious/XML/UnitLHD888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Amphibious/XML/UnitAV8BSeaHarrierII.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Amphibious/XML/UnitF35LightningII333.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Amphibious/XML/UnitUH1SEAHuey222.xml</UpdateDatabase>
+      <UpdateDatabase>Missiles/XML/Units/UnitSeaRAMRollingAirframeMissile888.xml</UpdateDatabase>
+      <UpdateDatabase>Missiles/XML/Units/UnitSeaSparrowMissile888.xml</UpdateDatabase>
+      <UpdateDatabase>Missiles/XML/Units/UnitSeaTomahawkCruiseMissile888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Cruisers/XML/UnitTiconderogaClassCruiser888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Amphibious/XML/UnitAH1SeaCobra888.xml</UpdateDatabase>
+      <UpdateDatabase>Missiles/XML/Units/TomahawkCruiseMissile.xml</UpdateDatabase>
+      <UpdateDatabase>Missiles/XML/Units/IconTextureAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Amphibious/XML/UnitForceReconMarine888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Destroyers/XML/UnitSH60BSeaHawk888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Corvette/UnitFlowerClassCorvette888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Light  Cruiser/UnitDesdenClassLightCruiser888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Battleship/XML/UnitTegetthoffClassBattleship888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Destroyers/XML/UnitWickesClassDestroyer888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Cruisers/XML/UnitPalladaClassCruiser888.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/GameTextEnglish.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitAmericaBaltimoreClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitAmericaFletcherClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitAmericaGatoClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitAmericaPennsylvaniaClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitAmericaSouthDakotaClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitAmericaYorktownClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitEnglandDidoClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitEnglandIllustriousClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitEnglandKingGeorgeClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitEnglandQueenElizabethClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitEnglandTClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitEnglandTribalClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitFranceDunkerqueClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitFranceFantasqueClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitFranceJoffreClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitFranceLaGalissonniereClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitFranceRedoutableClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitFranceRichelieuClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitGermanyBismarckClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitGermanyGrafZeppelinClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitGermanyLeipzigClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitGermanyScharnhorstClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitGermanyU7ClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitGermanyZClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitGreeceKatsonisClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitGreecePisaClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitGreeceVasilefsGeorgiosClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitItalyAquilaClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitItalyConteDiCavourClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitItalyLittorioClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitItalyMarcelloClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitItalySoldatiClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitItalyZaraClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitJapanB1ClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitJapanKagaClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitJapanKageroClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitJapanKongoClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitJapanTakaoClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitJapanYamatoClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitNetherlandsAdmiralenClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitNetherlandsTrompClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitPolandDanaeClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitPolandGromClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitPolandOrzelClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitRussiaGangutClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitRussiaGnevnyClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitRussiaKirovClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitRussiaProject71ClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitRussiaShchukaClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitRussiaSovetskySoyuzClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitsGalleonArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitsPolynesianWarCanoeArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitsSpanishGalleonArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitsVikingLongboatArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitSwedenGoteborgClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitSwedenSjolejonetClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitSwedenTreKronorClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitUniversalBattleshipClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitUniversalCarrierClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitUniversalCruiserClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitUniversalDestroyerClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitUniversalDreadnoughtClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitUniversalSubmarineClassArt.xml</UpdateDatabase>
+      <UpdateDatabase>ENI Companion Mod/XML/NavalEnhancements.xml</UpdateDatabase>
+      <UpdateDatabase>ENI Companion Mod/XML/NavalEnhancementText.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/SQL/ships2update.sql</UpdateDatabase>
+      <UpdateDatabase>Surface/Carriers/XML/UnitEssexClassCarrier888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Battleship/XML/UnitIowaClassBattleship888.xml</UpdateDatabase>
+      <UpdateDatabase>Renissaince Era/Surface Ships/Constitution/UnitUSSConstitution888.xml</UpdateDatabase>
+      <UpdateDatabase>Expanded Naval Immersion Mod/XML/UnitO19ClassSubmarine888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Amphibious/MARINES/Continential Marines/UnitContinentalMarine888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Amphibious/MARINES/Redcoats/UnitBritishRedcoat888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Amphibious/MARINES/Civil War Marines/UnitCivilWarMarine888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Amphibious/MARINES/WWI Marines/UnitGreatWarMaine888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Cruisers/XML/UnitKirovClassBattlecruiser888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Light  Cruiser/UnitWarriorClassFrigate888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Amphibious/MARINES/Royal Marine Commando/UnitRoyalMarineCommando.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Amphibious/MARINES/Navy SEALs/UnitUSNavySEAL888.xml</UpdateDatabase>
+      <UpdateDatabase>Spec Ops/African/UnitAfricanSpecialForces888.xml</UpdateDatabase>
+      <UpdateDatabase>Spec Ops/Asian/UnitAsianSpecialForces888.xml</UpdateDatabase>
+      <UpdateDatabase>Spec Ops/European/UnitEuropeanSpecialForces888.xml</UpdateDatabase>
+      <UpdateDatabase>Spec Ops/Middle Eastern/UnitMiddleEasternSpecialForces888.xml</UpdateDatabase>
+      <UpdateDatabase>Spec Ops/South American/UnitSouthAmericanSpecialForces888.xml</UpdateDatabase>
+      <UpdateDatabase>Spec Ops/Russia/UnitSpetsnaz888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Battle Cruiser/Admiral Class/UnitAdmiralClassBattlecruiser888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Carriers/XML/UnitArkRoyalAircraftCarrier888.xml</UpdateDatabase>
+      <UpdateDatabase>Subs/WWII/U-Class/UnitUClassSubmarine888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Cruisers/XML/UnitDeutschlandClassCruiser888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Destroyers/XML/UnitNarvikClassDestroyer888.xml</UpdateDatabase>
+      <UpdateDatabase>Subs/WWII/UBoat23/UnitUBoatTypeXXIIISubmarine888.xml</UpdateDatabase>
+      <UpdateDatabase>Subs/WWII/U-20 Class/UnitU20ClassSubmarine888.xml</UpdateDatabase>
+      <UpdateDatabase>Subs/WWII/I-400 Class/UnitI400ClassSubmarineCarrier888.xml</UpdateDatabase>
+      <UpdateDatabase>Subs/WWII/I-400 Class/Aichi M6A/UnitAichiM6A888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Carriers/XML/UnitShokakuClassAircraftCarrier888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Carriers/XML/UnitImplacableClassCarrier.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Steam Battleships/Pelayo/UnitGenericClassBB.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Steam Battleships/Braunschweig/UnitBraunschweigClassBattleship888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Steam Battleships/Connecticut/UnitConnClassBB888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Steam Battleships/Erzherzog Karl/UnitErzherzogKarlClassBB888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Steam Battleships/Majestic/UnitMajesticClassBB888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Steam Battleships/Mikasa/UnitMikasaClassBB888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Steam Battleships/Republique/UnitRepubliqueBB888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Steam Battleships/Re Umberto/UnitReUmbertoBB888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Steam Battleships/Potemkin/UnitPotemkinBB888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Amphibious/MARINES/Modern Marines/UnitModernMarine888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Galleons/Danish/UnitDanishGalleon888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Galleons/French/UnitFrenchGalleon888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Galleons/Greek/UnitGreekGalleon888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Galleons/Italian/UnitItalianGalleon888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Galleons/Russian/UnitRussianGalleon888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Galleons/Sweedish/UnitSwedishGalleon888.xml</UpdateDatabase>
+      <UpdateDatabase>Surface/Galleons/Portugal/UnitPortugalGalleon888.xml</UpdateDatabase>
+      <UpdateDatabase>Fixinator.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
