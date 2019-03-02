@@ -88,13 +88,7 @@
       <Flavor>4</Flavor>
     </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
-      <UnitClassType>UNITCLASS_FRENCHF8CRUSADER</UnitClassType>
-      <UnitType>UNIT_FRENCHF8_CRUSADER22</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_FRENCHF8_CRUSADER22</UnitType>

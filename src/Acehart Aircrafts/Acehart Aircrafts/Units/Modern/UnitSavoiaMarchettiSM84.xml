@@ -73,13 +73,7 @@
       <Flavor>6</Flavor>
     </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_ROME</CivilizationType>
-      <UnitClassType>UNITCLASS_SAVOIAMARCHETTISM84</UnitClassType>
-      <UnitType>UNIT_SAVOIAMARCHETTI_SM84</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_SAVOIAMARCHETTI_SM84</UnitType>

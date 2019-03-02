@@ -84,28 +84,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
-      <UnitClassType>UNITCLASS_HAWKERTEMPEST</UnitClassType>
-      <UnitType>UNIT_HAWKER_TEMPEST</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_CANADA</CivilizationType>
-		  <UnitClassType>UNITCLASS_HAWKERTEMPEST</UnitClassType>
-		  <UnitType>UNIT_HAWKER_TEMPEST</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_INDIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_HAWKERTEMPEST</UnitClassType>
-		  <UnitType>UNIT_HAWKER_TEMPEST</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_NEW_ZEALAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_HAWKERTEMPEST</UnitClassType>
-		  <UnitType>UNIT_HAWKER_TEMPEST</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_HAWKER_TEMPEST</UnitType>

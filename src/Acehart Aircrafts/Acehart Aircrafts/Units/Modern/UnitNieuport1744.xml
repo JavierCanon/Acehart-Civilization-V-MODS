@@ -82,48 +82,7 @@
     </Row>
    
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
-      <UnitClassType>UNITCLASS_NIEUPORT17</UnitClassType>
-      <UnitType>UNIT_NIEUPORT_1744</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ROME</CivilizationType>
-		  <UnitClassType>UNITCLASS_NIEUPORT17</UnitClassType>
-		  <UnitType>UNIT_NIEUPORT_1744</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_NETHERLANDS</CivilizationType>
-		  <UnitClassType>UNITCLASS_NIEUPORT17</UnitClassType>
-		  <UnitType>UNIT_NIEUPORT_1744</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_POLAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_NIEUPORT17</UnitClassType>
-		  <UnitType>UNIT_NIEUPORT_1744</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_SIAM</CivilizationType>
-		  <UnitClassType>UNITCLASS_NIEUPORT17</UnitClassType>
-		  <UnitType>UNIT_NIEUPORT_1744</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_NIEUPORT17</UnitClassType>
-		  <UnitType>UNIT_NIEUPORT_1744</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_NIEUPORT17</UnitClassType>
-		  <UnitType>UNIT_NIEUPORT_1744</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
-		  <UnitClassType>UNITCLASS_NIEUPORT17</UnitClassType>
-		  <UnitType>UNIT_NIEUPORT_1744</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_NIEUPORT_1744</UnitType>

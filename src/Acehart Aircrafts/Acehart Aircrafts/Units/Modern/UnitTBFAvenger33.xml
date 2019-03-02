@@ -74,43 +74,7 @@
       <Flavor>12</Flavor>
     </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
-      <UnitClassType>UNITCLASS_AVENGER33</UnitClassType>
-      <UnitType>UNIT_TBF_AVENGER33</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_BRAZIL</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVENGER33</UnitClassType>
-		  <UnitType>UNIT_TBF_AVENGER33</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_CANADA</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVENGER33</UnitClassType>
-		  <UnitType>UNIT_TBF_AVENGER33</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVENGER33</UnitClassType>
-		  <UnitType>UNIT_TBF_AVENGER33</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVENGER33</UnitClassType>
-		  <UnitType>UNIT_TBF_AVENGER33</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_NETHERLANDS</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVENGER33</UnitClassType>
-		  <UnitType>UNIT_TBF_AVENGER33</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVENGER33</UnitClassType>
-		  <UnitType>UNIT_TBF_AVENGER33</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_TBF_AVENGER33</UnitType>

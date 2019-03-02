@@ -32,6 +32,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "docs(1)", "docs\", "{84B6C4
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "49930"
 		SlnRelativePath = "docs\"
+		StartServerOnDebug = "false"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "src", "src\", "{283DD39E-59AB-4811-921B-8F068CEFD9AA}"

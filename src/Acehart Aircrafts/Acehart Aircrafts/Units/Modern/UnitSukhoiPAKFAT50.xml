@@ -83,23 +83,7 @@
       <Flavor>12</Flavor>
     </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
-      <UnitClassType>UNITCLASS_PAKT50</UnitClassType>
-      <UnitType>UNIT_SUKHOI_PAK_FA_T50</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_MAYA</CivilizationType>
-		  <UnitClassType>UNITCLASS_PAKT50</UnitClassType>
-		  <UnitType>UNIT_SUKHOI_PAK_FA_T50</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_INCA</CivilizationType>
-		  <UnitClassType>UNITCLASS_PAKT50</UnitClassType>
-		  <UnitType>UNIT_SUKHOI_PAK_FA_T50</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_FreePromotions>
     <Row>
       <UnitType>UNIT_SUKHOI_PAK_FA_T50</UnitType>
@@ -393,38 +377,7 @@
 		</Row>
 		
 	</Unit_Flavors>
-	<Civilization_UnitClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_KOREA</CivilizationType>
-			<UnitClassType>UNITCLASS_PAKT50</UnitClassType>
-			<UnitType>UNIT_SUKHOI_PAK_FA_T50KOREA</UnitType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_CANADA</CivilizationType>
-			<UnitClassType>UNITCLASS_PAKT50</UnitClassType>
-			<UnitType>UNIT_SUKHOI_PAK_FA_T50KOREA</UnitType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_ISRAEL</CivilizationType>
-			<UnitClassType>UNITCLASS_PAKT50</UnitClassType>
-			<UnitType>UNIT_SUKHOI_PAK_FA_T50KOREA</UnitType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
-			<UnitClassType>UNITCLASS_PAKT50</UnitClassType>
-			<UnitType>UNIT_SUKHOI_PAK_FA_T50KOREA</UnitType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_POLYNESIA</CivilizationType>
-			<UnitClassType>UNITCLASS_PAKT50</UnitClassType>
-			<UnitType>UNIT_SUKHOI_PAK_FA_T50KOREA</UnitType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_SIAM</CivilizationType>
-			<UnitClassType>UNITCLASS_PAKT50</UnitClassType>
-			<UnitType>UNIT_SUKHOI_PAK_FA_T50KOREA</UnitType>
-		</Row>
-	</Civilization_UnitClassOverrides>
+	
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_SUKHOI_PAK_FA_T50KOREA</UnitType>

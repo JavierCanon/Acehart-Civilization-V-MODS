@@ -69,43 +69,7 @@
       <Flavor>6</Flavor>
     </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
-      <UnitClassType>UNITCLASS_MITSUBISHIKI21</UnitClassType>
-      <UnitType>UNIT_MITSUBISHI_KI21</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_SIAM</CivilizationType>
-		  <UnitClassType>UNITCLASS_MITSUBISHIKI21</UnitClassType>
-		  <UnitType>UNIT_MITSUBISHI_KI21</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_INDONESIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_MITSUBISHIKI21</UnitClassType>
-		  <UnitType>UNIT_MITSUBISHI_KI21</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_POLYNESIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_MITSUBISHIKI21</UnitClassType>
-		  <UnitType>UNIT_MITSUBISHI_KI21</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_IROQUOIS</CivilizationType>
-		  <UnitClassType>UNITCLASS_MITSUBISHIKI21</UnitClassType>
-		  <UnitType>UNIT_MITSUBISHI_KI21</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_BABYLON</CivilizationType>
-		  <UnitClassType>UNITCLASS_MITSUBISHIKI21</UnitClassType>
-		  <UnitType>UNIT_MITSUBISHI_KI21</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_EITHIOPIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_MITSUBISHIKI21</UnitClassType>
-		  <UnitType>UNIT_MITSUBISHI_KI21</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_MITSUBISHI_KI21</UnitType>

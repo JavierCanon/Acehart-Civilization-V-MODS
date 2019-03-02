@@ -81,13 +81,7 @@
 			<Flavor>12</Flavor>
 		</Row>
 	</Unit_Flavors>
-	<Civilization_UnitClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
-			<UnitClassType>UNITCLASS_ZEPPELIN</UnitClassType>
-			<UnitType>UNIT_ZEPPELIN</UnitType>
-		</Row>
-	</Civilization_UnitClassOverrides>
+	
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_ZEPPELIN</UnitType>
@@ -367,13 +361,7 @@
 			<Flavor>12</Flavor>
 		</Row>
 	</Unit_Flavors>
-	<Civilization_UnitClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
-			<UnitClassType>UNITCLASS_ZEPPELINUSA1</UnitClassType>
-			<UnitType>UNIT_ZEPPELINUSA</UnitType>
-		</Row>
-	</Civilization_UnitClassOverrides>
+	
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_ZEPPELINUSA</UnitType>

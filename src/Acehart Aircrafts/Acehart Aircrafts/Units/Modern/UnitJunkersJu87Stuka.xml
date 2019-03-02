@@ -74,28 +74,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
-      <UnitClassType>UNITCLASS_JUNKERSJU87</UnitClassType>
-      <UnitType>UNIT_JUNKERS_JU_87_STUKA</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ROME</CivilizationType>
-		  <UnitClassType>UNITCLASS_JUNKERSJU87</UnitClassType>
-		  <UnitType>UNIT_JUNKERS_JU_87_STUKA</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_SPAIN</CivilizationType>
-		  <UnitClassType>UNITCLASS_JUNKERSJU87</UnitClassType>
-		  <UnitType>UNIT_JUNKERS_JU_87_STUKA</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
-		  <UnitClassType>UNITCLASS_JUNKERSJU87</UnitClassType>
-		  <UnitType>UNIT_JUNKERS_JU_87_STUKA</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_JUNKERS_JU_87_STUKA</UnitType>

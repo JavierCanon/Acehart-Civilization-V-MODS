@@ -84,13 +84,7 @@
     </Row>
    
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
-      <UnitClassType>UNITCLASS_HORTON888</UnitClassType>
-      <UnitType>UNIT_HORTEN_HO_229888</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_HORTEN_HO_229888</UnitType>

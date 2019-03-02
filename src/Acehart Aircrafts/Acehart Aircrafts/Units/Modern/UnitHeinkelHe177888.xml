@@ -71,13 +71,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
-      <UnitClassType>UNITCLASS_HEINKELLHE177</UnitClassType>
-      <UnitType>UNIT_HEINKEL_HE_177888</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_HEINKEL_HE_177888</UnitType>

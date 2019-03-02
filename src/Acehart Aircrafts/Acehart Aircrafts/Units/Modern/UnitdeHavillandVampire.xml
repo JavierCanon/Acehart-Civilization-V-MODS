@@ -70,13 +70,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
-      <UnitClassType>UNITCLASS_VAMPIRE2</UnitClassType>
-      <UnitType>UNIT_DE_HAVILLAND_VAMPIRE</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+
    <Unit_FreePromotions>
     <Row>
       <UnitType>UNIT_DE_HAVILLAND_VAMPIRE</UnitType>

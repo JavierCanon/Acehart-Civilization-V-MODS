@@ -84,38 +84,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
-      <UnitClassType>UNITCLASS_TUPOLEVTU22M33</UnitClassType>
-      <UnitType>UNIT_TUPOLEV_TU22M33</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_INDIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_TUPOLEVTU22M33</UnitClassType>
-		  <UnitType>UNIT_TUPOLEV_TU22M33</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_POLYNESIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_TUPOLEVTU22M33</UnitClassType>
-		  <UnitType>UNIT_TUPOLEV_TU22M33</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_BABYLON</CivilizationType>
-		  <UnitClassType>UNITCLASS_TUPOLEVTU22M33</UnitClassType>
-		  <UnitType>UNIT_TUPOLEV_TU22M33</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_IROQUOIS</CivilizationType>
-		  <UnitClassType>UNITCLASS_TUPOLEVTU22M33</UnitClassType>
-		  <UnitType>UNIT_TUPOLEV_TU22M33</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_BYZANTINE</CivilizationType>
-		  <UnitClassType>UNITCLASS_TUPOLEVTU22M33</UnitClassType>
-		  <UnitType>UNIT_TUPOLEV_TU22M33</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_TUPOLEV_TU22M33</UnitType>

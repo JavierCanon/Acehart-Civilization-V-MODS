@@ -71,48 +71,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
-      <UnitClassType>UNITCLASS_VICKERSWELLINGTON</UnitClassType>
-      <UnitType>UNIT_VICKERS_WELLINGTON</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_VICKERSWELLINGTON</UnitClassType>
-		  <UnitType>UNIT_VICKERS_WELLINGTON</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_CANADA</CivilizationType>
-		  <UnitClassType>UNITCLASS_VICKERSWELLINGTON</UnitClassType>
-		  <UnitType>UNIT_VICKERS_WELLINGTON</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_GREECE</CivilizationType>
-		  <UnitClassType>UNITCLASS_VICKERSWELLINGTON</UnitClassType>
-		  <UnitType>UNIT_VICKERS_WELLINGTON</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_NEW_ZEALAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_VICKERSWELLINGTON</UnitClassType>
-		  <UnitType>UNIT_VICKERS_WELLINGTON</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_POLAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_VICKERSWELLINGTON</UnitClassType>
-		  <UnitType>UNIT_VICKERS_WELLINGTON</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_PORTUGAL</CivilizationType>
-		  <UnitClassType>UNITCLASS_VICKERSWELLINGTON</UnitClassType>
-		  <UnitType>UNIT_VICKERS_WELLINGTON</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ZULU</CivilizationType>
-		  <UnitClassType>UNITCLASS_VICKERSWELLINGTON</UnitClassType>
-		  <UnitType>UNIT_VICKERS_WELLINGTON</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_VICKERS_WELLINGTON</UnitType>

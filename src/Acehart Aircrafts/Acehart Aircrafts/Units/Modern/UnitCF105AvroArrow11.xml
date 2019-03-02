@@ -76,53 +76,7 @@
       <Flavor>10</Flavor>
     </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_IROQUOIS</CivilizationType>
-      <UnitClassType>UNITCLASS_AVROARROW1</UnitClassType>
-      <UnitType>UNIT_CF105_AVRO_ARROW11</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_MAYA</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVROARROW1</UnitClassType>
-		  <UnitType>UNIT_CF105_AVRO_ARROW11</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_AZTEC</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVROARROW1</UnitClassType>
-		  <UnitType>UNIT_CF105_AVRO_ARROW11</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_SHOSHONE</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVROARROW1</UnitClassType>
-		  <UnitType>UNIT_CF105_AVRO_ARROW11</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_BRAZIL</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVROARROW1</UnitClassType>
-		  <UnitType>UNIT_CF105_AVRO_ARROW11</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_HUNS</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVROARROW1</UnitClassType>
-		  <UnitType>UNIT_CF105_AVRO_ARROW11</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_SONGHAI</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVROARROW1</UnitClassType>
-		  <UnitType>UNIT_CF105_AVRO_ARROW11</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_MONGOLIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVROARROW1</UnitClassType>
-		  <UnitType>UNIT_CF105_AVRO_ARROW11</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_VENICE</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVROARROW1</UnitClassType>
-		  <UnitType>UNIT_CF105_AVRO_ARROW11</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_FreePromotions>
     <Row>
       <UnitType>UNIT_CF105_AVRO_ARROW11</UnitType>

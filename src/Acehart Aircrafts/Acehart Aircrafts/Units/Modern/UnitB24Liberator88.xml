@@ -73,68 +73,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
-      <UnitClassType>UNITCLASS_LIBERATOR88</UnitClassType>
-      <UnitType>UNIT_B24_LIBERATOR88</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_LIBERATOR88</UnitClassType>
-		  <UnitType>UNIT_B24_LIBERATOR88</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_BRAZIL</CivilizationType>
-		  <UnitClassType>UNITCLASS_LIBERATOR88</UnitClassType>
-		  <UnitType>UNIT_B24_LIBERATOR88</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_CANADA</CivilizationType>
-		  <UnitClassType>UNITCLASS_LIBERATOR88</UnitClassType>
-		  <UnitType>UNIT_B24_LIBERATOR88</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_CHINA</CivilizationType>
-		  <UnitClassType>UNITCLASS_LIBERATOR88</UnitClassType>
-		  <UnitType>UNIT_B24_LIBERATOR88</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_INDIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_LIBERATOR88</UnitClassType>
-		  <UnitType>UNIT_B24_LIBERATOR88</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_NETHERLANDS</CivilizationType>
-		  <UnitClassType>UNITCLASS_LIBERATOR88</UnitClassType>
-		  <UnitType>UNIT_B24_LIBERATOR88</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_POLAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_LIBERATOR88</UnitClassType>
-		  <UnitType>UNIT_B24_LIBERATOR88</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_PORTUGAL</CivilizationType>
-		  <UnitClassType>UNITCLASS_LIBERATOR88</UnitClassType>
-		  <UnitType>UNIT_B24_LIBERATOR88</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_LIBERATOR88</UnitClassType>
-		  <UnitType>UNIT_B24_LIBERATOR88</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_LIBERATOR88</UnitClassType>
-		  <UnitType>UNIT_B24_LIBERATOR88</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ETHIOPIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_LIBERATOR88</UnitClassType>
-		  <UnitType>UNIT_B24_LIBERATOR88</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_B24_LIBERATOR88</UnitType>

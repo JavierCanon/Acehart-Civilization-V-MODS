@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <ProjectGuid>{729e28c4-bc68-4952-8666-6bd8096d37f4}</ProjectGuid>
-    <Name>Acehart Tanks</Name>
+    <Name>Acehart Armoured Fighting Vehicles</Name>
     <Guid>04aa2ebe-58ea-4dff-bfde-fd4e33c49166</Guid>
     <ModVersion>1</ModVersion>
     <Stability>Alpha</Stability>
@@ -14,7 +14,7 @@ The tanks now are ranged units , more realistic.
 1. Small tank, infantry su</Teaser>
     <Description>Generic tanks and vehicles for all eras mod, not cultural, you can build any. 
 
-The tanks now are ranged units , more realistic.
+The tanks now are ranged units (1 hex range), more realistic.
 
 (+30) NEW UNITS
 
@@ -434,6 +434,7 @@ All modders.</Description>
     <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
     <ReloadLandmarkSystem>true</ReloadLandmarkSystem>
     <ReloadUnitSystem>true</ReloadUnitSystem>
+    <Homepage>https://github.com/JavierCanon/Acehart-Civilization-V-MODS</Homepage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>

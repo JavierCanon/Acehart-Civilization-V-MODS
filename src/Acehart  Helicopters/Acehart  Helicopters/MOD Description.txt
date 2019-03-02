@@ -9,7 +9,9 @@ General New Behavior:
 - Attak Helis now can enter in lakes and coast (not in ocean). Good vs tanks and armor, weak vs airplanes and AA guns/missiles.
 - All terrain type cost is 1.
 - Heli's now need aluminium and oil resource.  Why? because they are powerful, strategic and versatile units, and this is a war for resources... or make infantry...
-- Lost health each turn, if finish outside of friendly territory.
+- Lost health each turn, if finish outside of friendly territory, simulated mantenience and fuel, 
+you can need nearby healing unit to help.
+- Can plot up to 2 units per tile (simulate flight).
 
 *** UNITS *** 
 _____________________________________________________

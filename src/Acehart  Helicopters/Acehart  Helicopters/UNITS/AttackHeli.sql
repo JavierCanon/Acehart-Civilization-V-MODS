@@ -40,7 +40,7 @@ SELECT ( 'ART_DEF_UNIT_MEMBER_ATTACKHELI' ), --Type
        Scale,
        ZOffset,
        Domain,
-       'AH64PlainTeamColor.fxsxml', --Model
+       'cobraSC.fxsxml', --Model
        MaterialTypeTag,
        MaterialTypeSoundOverrideTag
   FROM ArtDefine_UnitMemberInfos
@@ -483,20 +483,20 @@ INSERT INTO Language_en_US(
 SELECT
 
            'TXT_KEY_UNIT_ATTACKHELI_DESCRIPTION' 
-           ,'Attack Heli'
+           ,'Attack Heli Modern Era'
 UNION
 SELECT
 
            'TXT_KEY_UNIT_ATTACKHELI_CIVILOPEDIA' 
-           ,'Attack Heli'
+           ,'Attack Heli Modern Era'
 UNION
 SELECT
 
            'TXT_KEY_UNIT_ATTACKHELI_STRATEGY' 
-           ,'Attack Heli'
+           ,'Attack Heli Modern Era'
 UNION
 SELECT
 
            'TXT_KEY_UNIT_ATTACKHELI_HELP' 
-           ,'Attack Heli'   
+           ,'Attack Heli Modern Era'   
 ;

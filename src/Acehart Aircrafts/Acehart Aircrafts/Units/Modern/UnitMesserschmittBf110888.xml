@@ -80,23 +80,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
-      <UnitClassType>UNITCLASS_MSBF110888</UnitClassType>
-      <UnitType>UNIT_MESSERSCHMITT_BF_110888</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ROME</CivilizationType>
-		  <UnitClassType>UNITCLASS_MSBF110888</UnitClassType>
-		  <UnitType>UNIT_MESSERSCHMITT_BF_110888</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_AUSTRIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_MSBF110888</UnitClassType>
-		  <UnitType>UNIT_MESSERSCHMITT_BF_110888</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_MESSERSCHMITT_BF_110888</UnitType>

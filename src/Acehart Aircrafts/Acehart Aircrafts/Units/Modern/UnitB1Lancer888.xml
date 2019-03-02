@@ -66,13 +66,7 @@
       <Flavor>20</Flavor>
     </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
-      <UnitClassType>UNITCLASS_LANCER888</UnitClassType>
-      <UnitType>UNIT_B1_LANCER888</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_FreePromotions>
     <Row>
       <UnitType>UNIT_B1_LANCER888</UnitType>

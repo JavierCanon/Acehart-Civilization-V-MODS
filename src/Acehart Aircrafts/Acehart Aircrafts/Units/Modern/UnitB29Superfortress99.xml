@@ -70,18 +70,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
-      <UnitClassType>UNITCLASS_SUPERFORTRESS99</UnitClassType>
-      <UnitType>UNIT_B29_SUPERFORTRESS99</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_SUPERFORTRESS99</UnitClassType>
-		  <UnitType>UNIT_B29_SUPERFORTRESS99</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_B29_SUPERFORTRESS99</UnitType>

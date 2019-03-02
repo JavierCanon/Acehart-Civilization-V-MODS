@@ -77,23 +77,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_SWEDEN</CivilizationType>
-      <UnitClassType>UNITCLASS_DRAKEN1</UnitClassType>
-      <UnitType>UNIT_SAAB_35_DRAKENT</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_DENMARK</CivilizationType>
-		  <UnitClassType>UNITCLASS_DRAKEN1</UnitClassType>
-		  <UnitType>UNIT_SAAB_35_DRAKENT</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_AUSTRIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_DRAKEN1</UnitClassType>
-		  <UnitType>UNIT_SAAB_35_DRAKENT</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_SAAB_35_DRAKENT</UnitType>

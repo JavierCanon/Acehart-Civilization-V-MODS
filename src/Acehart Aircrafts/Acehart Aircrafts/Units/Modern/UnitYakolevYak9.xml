@@ -78,38 +78,7 @@
     </Row>
    
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
-      <UnitClassType>UNITCLASS_YAK9</UnitClassType>
-      <UnitType>UNIT_YAKOLEV_YAK9</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_CHINA</CivilizationType>
-		  <UnitClassType>UNITCLASS_YAK9</UnitClassType>
-		  <UnitType>UNIT_YAKOLEV_YAK9</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
-		  <UnitClassType>UNITCLASS_YAK9</UnitClassType>
-		  <UnitType>UNIT_YAKOLEV_YAK9</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_MONGOLIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_YAK9</UnitClassType>
-		  <UnitType>UNIT_YAKOLEV_YAK9</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_KOREA</CivilizationType>
-		  <UnitClassType>UNITCLASS_YAK9</UnitClassType>
-		  <UnitType>UNIT_YAKOLEV_YAK9</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_POLAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_YAK9</UnitClassType>
-		  <UnitType>UNIT_YAKOLEV_YAK9</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_YAKOLEV_YAK9</UnitType>

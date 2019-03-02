@@ -70,18 +70,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
-      <UnitClassType>UNITCLASS_TUPOLEVTB3</UnitClassType>
-      <UnitType>UNIT_TUPOLEV_TB3</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_CHINA</CivilizationType>
-		  <UnitClassType>UNITCLASS_TUPOLEVTB3</UnitClassType>
-		  <UnitType>UNIT_TUPOLEV_TB3</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_TUPOLEV_TB3</UnitType>

@@ -70,23 +70,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
-      <UnitClassType>UNITCLASS_OURAGAN87</UnitClassType>
-      <UnitType>UNIT_DASSAULT_OURAGAN87</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_INDIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_OURAGAN87</UnitClassType>
-		  <UnitType>UNIT_DASSAULT_OURAGAN87</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ISRAEL</CivilizationType>
-		  <UnitClassType>UNITCLASS_OURAGAN87</UnitClassType>
-		  <UnitType>UNIT_DASSAULT_OURAGAN87</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_DASSAULT_OURAGAN87</UnitType>

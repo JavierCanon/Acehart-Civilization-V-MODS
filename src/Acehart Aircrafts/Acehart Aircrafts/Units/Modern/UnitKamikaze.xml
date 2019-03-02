@@ -72,13 +72,7 @@
       <Flavor>12</Flavor>
     </Row>
 	 </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
-      <UnitClassType>UNITCLASS_KAMIKAZE888</UnitClassType>
-      <UnitType>UNIT_KAMIKAZE</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_FreePromotions>
     <Row>
       <UnitType>UNIT_KAMIKAZE</UnitType>

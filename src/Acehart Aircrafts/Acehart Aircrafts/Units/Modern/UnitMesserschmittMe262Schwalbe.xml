@@ -74,13 +74,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
-      <UnitClassType>UNITCLASS_MSME262</UnitClassType>
-      <UnitType>UNIT_MESSERSCHMITT_ME_262_SCHWALBE</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_MESSERSCHMITT_ME_262_SCHWALBE</UnitType>

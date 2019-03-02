@@ -77,23 +77,7 @@
       <Flavor>5</Flavor>
     </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_POLAND</CivilizationType>
-      <UnitClassType>UNITCLASS_PZLP24</UnitClassType>
-      <UnitType>UNIT_PZL_P24_KARAS</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_GREECE</CivilizationType>
-		  <UnitClassType>UNITCLASS_PZLP24</UnitClassType>
-		  <UnitType>UNIT_PZL_P24_KARAS</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_OTTOMAN</CivilizationType>
-		  <UnitClassType>UNITCLASS_PZLP24</UnitClassType>
-		  <UnitType>UNIT_PZL_P24_KARAS</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_PZL_P24_KARAS</UnitType>

@@ -80,73 +80,7 @@
     </Row>
    
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
-      <UnitClassType>UNITCLASS_BRISTOLBLENHEIM</UnitClassType>
-      <UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_BRISTOLBLENHEIM</UnitClassType>
-		  <UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_CANADA</CivilizationType>
-		  <UnitClassType>UNITCLASS_BRISTOLBLENHEIM</UnitClassType>
-		  <UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_DENMARK</CivilizationType>
-		  <UnitClassType>UNITCLASS_BRISTOLBLENHEIM</UnitClassType>
-		  <UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
-		  <UnitClassType>UNITCLASS_BRISTOLBLENHEIM</UnitClassType>
-		  <UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_GREECE</CivilizationType>
-		  <UnitClassType>UNITCLASS_BRISTOLBLENHEIM</UnitClassType>
-		  <UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_INDIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_BRISTOLBLENHEIM</UnitClassType>
-		  <UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_NEW_ZEALAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_BRISTOLBLENHEIM</UnitClassType>
-		  <UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_POLAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_BRISTOLBLENHEIM</UnitClassType>
-		  <UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_PORTUGAL</CivilizationType>
-		  <UnitClassType>UNITCLASS_BRISTOLBLENHEIM</UnitClassType>
-		  <UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ZULU</CivilizationType>
-		  <UnitClassType>UNITCLASS_BRISTOLBLENHEIM</UnitClassType>
-		  <UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_OTTOMAN</CivilizationType>
-		  <UnitClassType>UNITCLASS_BRISTOLBLENHEIM</UnitClassType>
-		  <UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_CHINA</CivilizationType>
-		  <UnitClassType>UNITCLASS_BRISTOLBLENHEIM</UnitClassType>
-		  <UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>

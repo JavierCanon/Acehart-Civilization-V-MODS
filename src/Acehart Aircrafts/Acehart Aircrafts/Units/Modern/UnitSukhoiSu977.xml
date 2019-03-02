@@ -79,13 +79,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
-      <UnitClassType>UNITCLASS_SU977</UnitClassType>
-      <UnitType>UNIT_SUKHOI_SU977</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_SUKHOI_SU977</UnitType>

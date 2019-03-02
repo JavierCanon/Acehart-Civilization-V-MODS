@@ -76,28 +76,7 @@
 		  <Flavor>8</Flavor>
 	  </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
-      <UnitClassType>UNITCLASS_POTEZ630</UnitClassType>
-      <UnitType>UNIT_POTEZ_630</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_GREECE</CivilizationType>
-		  <UnitClassType>UNITCLASS_POTEZ630</UnitClassType>
-		  <UnitType>UNIT_POTEZ_630</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_POLAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_POTEZ630</UnitClassType>
-		  <UnitType>UNIT_POTEZ_630</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_SWITZERLAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_POTEZ630</UnitClassType>
-		  <UnitType>UNIT_POTEZ_630</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_POTEZ_630</UnitType>

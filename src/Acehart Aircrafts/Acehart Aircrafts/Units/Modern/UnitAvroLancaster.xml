@@ -70,68 +70,7 @@
     </Row>
 
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
-      <UnitClassType>UNITCLASS_AVROLANCASTER</UnitClassType>
-      <UnitType>UNIT_AVRO_LANCASTER</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVROLANCASTER</UnitClassType>
-		  <UnitType>UNIT_AVRO_LANCASTER</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_CANADA</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVROLANCASTER</UnitClassType>
-		  <UnitType>UNIT_AVRO_LANCASTER</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_EGYPT</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVROLANCASTER</UnitClassType>
-		  <UnitType>UNIT_AVRO_LANCASTER</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVROLANCASTER</UnitClassType>
-		  <UnitType>UNIT_AVRO_LANCASTER</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_POLAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVROLANCASTER</UnitClassType>
-		  <UnitType>UNIT_AVRO_LANCASTER</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVROLANCASTER</UnitClassType>
-		  <UnitType>UNIT_AVRO_LANCASTER</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_SWEDEN</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVROLANCASTER</UnitClassType>
-		  <UnitType>UNIT_AVRO_LANCASTER</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_BABYLON</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVROLANCASTER</UnitClassType>
-		  <UnitType>UNIT_AVRO_LANCASTER</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_MOROCCO</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVROLANCASTER</UnitClassType>
-		  <UnitType>UNIT_AVRO_LANCASTER</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_EITHIOPIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVROLANCASTER</UnitClassType>
-		  <UnitType>UNIT_AVRO_LANCASTER</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_INDONESIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_AVROLANCASTER</UnitClassType>
-		  <UnitType>UNIT_AVRO_LANCASTER</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_AVRO_LANCASTER</UnitType>

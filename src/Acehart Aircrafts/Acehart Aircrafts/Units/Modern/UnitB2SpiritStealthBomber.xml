@@ -70,13 +70,7 @@
     </Row>
    
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
-      <UnitClassType>UNITCLASS_B2SPIRITSTEALTHBOMBER</UnitClassType>
-      <UnitType>UNIT_B2_SPIRIT_STEALTH_BOMBER</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_B2_SPIRIT_STEALTH_BOMBER</UnitType>

@@ -625,58 +625,7 @@
 		  <Flavor>10</Flavor>
 	  </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
-      <UnitClassType>UNITCLASS_NAVAL_FIGHTER3</UnitClassType>
-      <UnitType>UNIT_F4_PHANTOM_IIUSA</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_NAVAL_FIGHTER3</UnitClassType>
-		  <UnitType>UNIT_F4_PHANTOM_IIENGLAND</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_KOREA</CivilizationType>
-		  <UnitClassType>UNITCLASS_NAVAL_FIGHTER3</UnitClassType>
-		  <UnitType>UNIT_F4_PHANTOM_IIKOREA</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_EGYPT</CivilizationType>
-		  <UnitClassType>UNITCLASS_NAVAL_FIGHTER3</UnitClassType>
-		  <UnitType>UNIT_F4_PHANTOM_IIEGYPT</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
-		  <UnitClassType>UNITCLASS_NAVAL_FIGHTER3</UnitClassType>
-		  <UnitType>UNIT_F4_PHANTOM_IIGERMANY</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_GREECE</CivilizationType>
-		  <UnitClassType>UNITCLASS_NAVAL_FIGHTER3</UnitClassType>
-		  <UnitType>UNIT_F4_PHANTOM_IIGREECE</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_PERSIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_NAVAL_FIGHTER3</UnitClassType>
-		  <UnitType>UNIT_F4_PHANTOM_IIPERSIA</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_BABYLON</CivilizationType>
-		  <UnitClassType>UNITCLASS_NAVAL_FIGHTER3</UnitClassType>
-		  <UnitType>UNIT_F4_PHANTOM_IIBABYLON</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
-		  <UnitClassType>UNITCLASS_NAVAL_FIGHTER3</UnitClassType>
-		  <UnitType>UNIT_F4_PHANTOM_IIJAPAN</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_OTTOMAN</CivilizationType>
-		  <UnitClassType>UNITCLASS_NAVAL_FIGHTER3</UnitClassType>
-		  <UnitType>UNIT_F4_PHANTOM_IIOTTOMAN</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_F4_PHANTOM_IIUSA</UnitType>

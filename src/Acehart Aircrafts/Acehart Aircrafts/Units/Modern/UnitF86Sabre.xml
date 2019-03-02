@@ -77,59 +77,7 @@
     </Row>
    
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
-      <UnitClassType>UNITCLASS_SABRE1</UnitClassType>
-      <UnitType>UNIT_F86_SABRE</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ETHIOPIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_SABRE1</UnitClassType>
-		  <UnitType>UNIT_F86_SABRE</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ARABIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_SABRE1</UnitClassType>
-		  <UnitType>UNIT_F86_SABRE</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
-		  <UnitClassType>UNITCLASS_SABRE1</UnitClassType>
-		  <UnitType>UNIT_F86_SABRE</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_OTTOMAN</CivilizationType>
-		  <UnitClassType>UNITCLASS_SABRE1</UnitClassType>
-		  <UnitType>UNIT_F86_SABRE</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_PORTUGAL</CivilizationType>
-		  <UnitClassType>UNITCLASS_SABRE1</UnitClassType>
-		  <UnitType>UNIT_F86_SABRE</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ZULU</CivilizationType>
-		  <UnitClassType>UNITCLASS_SABRE1</UnitClassType>
-		  <UnitType>UNIT_F86_SABRE</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_KOREA</CivilizationType>
-		  <UnitClassType>UNITCLASS_SABRE1</UnitClassType>
-		  <UnitType>UNIT_F86_SABRE</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_SPAIN</CivilizationType>
-		  <UnitClassType>UNITCLASS_SABRE1</UnitClassType>
-		  <UnitType>UNIT_F86_SABRE</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_AZTEC</CivilizationType>
-		  <UnitClassType>UNITCLASS_SABRE1</UnitClassType>
-		  <UnitType>UNIT_F86_SABRE</UnitType>
-	  </Row>
-	  
-  </Civilization_UnitClassOverrides>
+
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_F86_SABRE</UnitType>

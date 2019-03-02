@@ -80,73 +80,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
-      <UnitClassType>UNITCLASS_THUNDERBOLT89</UnitClassType>
-      <UnitType>UNIT_P47_THUNDERBOLT89</UnitType>
-    </Row>
-	   <Row>
-		  <CivilizationType>CIVILIZATION_BRAZIL</CivilizationType>
-		  <UnitClassType>UNITCLASS_THUNDERBOLT89</UnitClassType>
-		  <UnitType>UNIT_P47_THUNDERBOLT89</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_CHINA</CivilizationType>
-		  <UnitClassType>UNITCLASS_THUNDERBOLT89</UnitClassType>
-		  <UnitType>UNIT_P47_THUNDERBOLT89</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_CUBA</CivilizationType>
-		  <UnitClassType>UNITCLASS_THUNDERBOLT89</UnitClassType>
-		  <UnitType>UNIT_P47_THUNDERBOLT89</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
-		  <UnitClassType>UNITCLASS_THUNDERBOLT89</UnitClassType>
-		  <UnitType>UNIT_P47_THUNDERBOLT89</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_PERSIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_THUNDERBOLT89</UnitClassType>
-		  <UnitType>UNIT_P47_THUNDERBOLT89</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ROME</CivilizationType>
-		  <UnitClassType>UNITCLASS_THUNDERBOLT89</UnitClassType>
-		  <UnitType>UNIT_P47_THUNDERBOLT89</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_AZTEC</CivilizationType>
-		  <UnitClassType>UNITCLASS_THUNDERBOLT89</UnitClassType>
-		  <UnitType>UNIT_P47_THUNDERBOLT89</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_INCA</CivilizationType>
-		  <UnitClassType>UNITCLASS_THUNDERBOLT89</UnitClassType>
-		  <UnitType>UNIT_P47_THUNDERBOLT89</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_PORTUGAL</CivilizationType>
-		  <UnitClassType>UNITCLASS_THUNDERBOLT89</UnitClassType>
-		  <UnitType>UNIT_P47_THUNDERBOLT89</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_THUNDERBOLT89</UnitClassType>
-		  <UnitType>UNIT_P47_THUNDERBOLT89</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_THUNDERBOLT89</UnitClassType>
-		  <UnitType>UNIT_P47_THUNDERBOLT89</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_OTTOMAN</CivilizationType>
-		  <UnitClassType>UNITCLASS_THUNDERBOLT89</UnitClassType>
-		  <UnitType>UNIT_P47_THUNDERBOLT89</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_P47_THUNDERBOLT89</UnitType>

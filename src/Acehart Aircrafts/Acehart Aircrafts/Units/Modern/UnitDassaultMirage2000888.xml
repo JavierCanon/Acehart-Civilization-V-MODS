@@ -80,78 +80,7 @@
     </Row>
    
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
-      <UnitClassType>UNITCLASS_MIRAGE2000888</UnitClassType>
-      <UnitType>UNIT_DASSAULT_MIRAGE_2000888</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_BRAZIL</CivilizationType>
-		  <UnitClassType>UNITCLASS_MIRAGE2000888</UnitClassType>
-		  <UnitType>UNIT_DASSAULT_MIRAGE_2000888</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_EGYPT</CivilizationType>
-		  <UnitClassType>UNITCLASS_MIRAGE2000888</UnitClassType>
-		  <UnitType>UNIT_DASSAULT_MIRAGE_2000888</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_GREECE</CivilizationType>
-		  <UnitClassType>UNITCLASS_MIRAGE2000888</UnitClassType>
-		  <UnitType>UNIT_DASSAULT_MIRAGE_2000888</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_INDIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_MIRAGE2000888</UnitClassType>
-		  <UnitType>UNIT_DASSAULT_MIRAGE_2000888</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ARABIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_MIRAGE2000888</UnitClassType>
-		  <UnitType>UNIT_DASSAULT_MIRAGE_2000888</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_BYZANTINE</CivilizationType>
-		  <UnitClassType>UNITCLASS_MIRAGE2000888</UnitClassType>
-		  <UnitType>UNIT_DASSAULT_MIRAGE_2000888</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_VENICE</CivilizationType>
-		  <UnitClassType>UNITCLASS_MIRAGE2000888</UnitClassType>
-		  <UnitType>UNIT_DASSAULT_MIRAGE_2000888</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_BABYLON</CivilizationType>
-		  <UnitClassType>UNITCLASS_MIRAGE2000888</UnitClassType>
-		  <UnitType>UNIT_DASSAULT_MIRAGE_2000888</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_CARTHAGE</CivilizationType>
-		  <UnitClassType>UNITCLASS_MIRAGE2000888</UnitClassType>
-		  <UnitType>UNIT_DASSAULT_MIRAGE_2000888</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_DENMARK</CivilizationType>
-		  <UnitClassType>UNITCLASS_MIRAGE2000888</UnitClassType>
-		  <UnitType>UNIT_DASSAULT_MIRAGE_2000888</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_PERU</CivilizationType>
-		  <UnitClassType>UNITCLASS_MIRAGE2000888</UnitClassType>
-		  <UnitType>UNIT_DASSAULT_MIRAGE_2000888</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_TAIWAN</CivilizationType>
-		  <UnitClassType>UNITCLASS_MIRAGE2000888</UnitClassType>
-		  <UnitType>UNIT_DASSAULT_MIRAGE_2000888</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_UAE</CivilizationType>
-		  <UnitClassType>UNITCLASS_MIRAGE2000888</UnitClassType>
-		  <UnitType>UNIT_DASSAULT_MIRAGE_2000888</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_DASSAULT_MIRAGE_2000888</UnitType>

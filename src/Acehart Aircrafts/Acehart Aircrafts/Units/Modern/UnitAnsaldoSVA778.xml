@@ -79,33 +79,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_ROME</CivilizationType>
-      <UnitClassType>UNITCLASS_ANSALDOSVA</UnitClassType>
-      <UnitType>UNIT_ANSALDO_SVA778</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_POLAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_ANSALDOSVA</UnitClassType>
-		  <UnitType>UNIT_ANSALDO_SVA778</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_BRAZIL</CivilizationType>
-		  <UnitClassType>UNITCLASS_ANSALDOSVA</UnitClassType>
-		  <UnitType>UNIT_ANSALDO_SVA778</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_ANSALDOSVA</UnitClassType>
-		  <UnitType>UNIT_ANSALDO_SVA778</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
-		  <UnitClassType>UNITCLASS_ANSALDOSVA</UnitClassType>
-		  <UnitType>UNIT_ANSALDO_SVA778</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_ANSALDO_SVA778</UnitType>

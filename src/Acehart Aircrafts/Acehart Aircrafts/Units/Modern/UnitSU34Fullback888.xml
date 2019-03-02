@@ -82,13 +82,7 @@
       <Flavor>8</Flavor>
     </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
-      <UnitClassType>UNITCLASS_FULLBACK888</UnitClassType>
-      <UnitType>UNIT_SU34_FULLBACK888</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_FreePromotions>
     <Row>
       <UnitType>UNIT_SU34_FULLBACK888</UnitType>

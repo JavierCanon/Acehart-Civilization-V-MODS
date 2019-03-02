@@ -80,13 +80,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_ROME</CivilizationType>
-      <UnitClassType>UNITCLASS_CAMPINI</UnitClassType>
-      <UnitType>UNIT_CAPRONI_CAMPINI_N188</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_CAPRONI_CAMPINI_N188</UnitType>

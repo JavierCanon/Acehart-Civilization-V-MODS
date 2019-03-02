@@ -77,33 +77,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
-      <UnitClassType>UNITCLASS_FLANKER1</UnitClassType>
-      <UnitType>UNIT_SUKHOI_SU2799</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_CHINA</CivilizationType>
-		  <UnitClassType>UNITCLASS_FLANKER1</UnitClassType>
-		  <UnitType>UNIT_SUKHOI_SU2799</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ETHIOPIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_FLANKER1</UnitClassType>
-		  <UnitType>UNIT_SUKHOI_SU2799</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_INDONESIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_FLANKER1</UnitClassType>
-		  <UnitType>UNIT_SUKHOI_SU2799</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_IROQUOIS</CivilizationType>
-		  <UnitClassType>UNITCLASS_FLANKER1</UnitClassType>
-		  <UnitType>UNIT_SUKHOI_SU2799</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_FreePromotions>
     <Row>
       <UnitType>UNIT_SUKHOI_SU2799</UnitType>

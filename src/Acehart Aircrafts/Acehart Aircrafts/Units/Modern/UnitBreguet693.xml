@@ -69,23 +69,7 @@
       <Flavor>12</Flavor>
     </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
-      <UnitClassType>UNITCLASS_BREGUET693</UnitClassType>
-      <UnitType>UNIT_BREGUET_693</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ROME</CivilizationType>
-		  <UnitClassType>UNITCLASS_BREGUET693</UnitClassType>
-		  <UnitType>UNIT_BREGUET_693</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_BELGIUM</CivilizationType>
-		  <UnitClassType>UNITCLASS_BREGUET693</UnitClassType>
-		  <UnitType>UNIT_BREGUET_693</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_BREGUET_693</UnitType>

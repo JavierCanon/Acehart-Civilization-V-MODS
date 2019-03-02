@@ -80,13 +80,7 @@
     </Row>
    
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_SWEDEN</CivilizationType>
-      <UnitClassType>UNITCLASS_SAABJ21</UnitClassType>
-      <UnitType>UNIT_SAAB_J21</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_SAAB_J21</UnitType>

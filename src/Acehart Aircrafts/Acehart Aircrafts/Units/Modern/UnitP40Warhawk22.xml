@@ -76,13 +76,7 @@
       <Flavor>8</Flavor>
     </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
-      <UnitClassType>UNITCLASS_P40WARHAWK22</UnitClassType>
-      <UnitType>UNIT_P40_WARHAWK22</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_P40_WARHAWK22</UnitType>
@@ -328,13 +322,7 @@
 			<Flavor>4</Flavor>
 		</Row>
 	</Unit_Flavors>
-	<Civilization_UnitClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_BRAZIL</CivilizationType>
-			<UnitClassType>UNITCLASS_P40WARHAWK22</UnitClassType>
-			<UnitType>UNIT_P40_WARHAWK22BRAZIL</UnitType>
-		</Row>
-	</Civilization_UnitClassOverrides>
+	
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22BRAZIL</UnitType>
@@ -580,13 +568,7 @@
 			<Flavor>4</Flavor>
 		</Row>
 	</Unit_Flavors>
-	<Civilization_UnitClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
-			<UnitClassType>UNITCLASS_P40WARHAWK22</UnitClassType>
-			<UnitType>UNIT_P40_WARHAWK22ENGLAND</UnitType>
-		</Row>
-	</Civilization_UnitClassOverrides>
+	
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22ENGLAND</UnitType>
@@ -832,13 +814,7 @@
 			<Flavor>4</Flavor>
 		</Row>
 	</Unit_Flavors>
-	<Civilization_UnitClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
-			<UnitClassType>UNITCLASS_P40WARHAWK22</UnitClassType>
-			<UnitType>UNIT_P40_WARHAWK22CHINA</UnitType>
-		</Row>
-	</Civilization_UnitClassOverrides>
+	
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22CHINA</UnitType>
@@ -1084,13 +1060,7 @@
 			<Flavor>4</Flavor>
 		</Row>
 	</Unit_Flavors>
-	<Civilization_UnitClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_EGYPT</CivilizationType>
-			<UnitClassType>UNITCLASS_P40WARHAWK22</UnitClassType>
-			<UnitType>UNIT_P40_WARHAWK22EGYPT</UnitType>
-		</Row>
-	</Civilization_UnitClassOverrides>
+	
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22EGYPT</UnitType>
@@ -1336,13 +1306,7 @@
 			<Flavor>4</Flavor>
 		</Row>
 	</Unit_Flavors>
-	<Civilization_UnitClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
-			<UnitClassType>UNITCLASS_P40WARHAWK22</UnitClassType>
-			<UnitType>UNIT_P40_WARHAWK22FRANCE</UnitType>
-		</Row>
-	</Civilization_UnitClassOverrides>
+	
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22FRANCE</UnitType>
@@ -1588,13 +1552,7 @@
 			<Flavor>4</Flavor>
 		</Row>
 	</Unit_Flavors>
-	<Civilization_UnitClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_NETHERLANDS</CivilizationType>
-			<UnitClassType>UNITCLASS_P40WARHAWK22</UnitClassType>
-			<UnitType>UNIT_P40_WARHAWK22NETHERLANDS</UnitType>
-		</Row>
-	</Civilization_UnitClassOverrides>
+	
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22NETHERLANDS</UnitType>
@@ -1840,13 +1798,7 @@
 			<Flavor>4</Flavor>
 		</Row>
 	</Unit_Flavors>
-	<Civilization_UnitClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
-			<UnitClassType>UNITCLASS_P40WARHAWK22</UnitClassType>
-			<UnitType>UNIT_P40_WARHAWK22RUSSIA</UnitType>
-		</Row>
-	</Civilization_UnitClassOverrides>
+	
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22RUSSIA</UnitType>
@@ -2092,13 +2044,7 @@
 			<Flavor>4</Flavor>
 		</Row>
 	</Unit_Flavors>
-	<Civilization_UnitClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_OTTOMAN</CivilizationType>
-			<UnitClassType>UNITCLASS_P40WARHAWK22</UnitClassType>
-			<UnitType>UNIT_P40_WARHAWK22OTTOMAN</UnitType>
-		</Row>
-	</Civilization_UnitClassOverrides>
+	
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22OTTOMAN</UnitType>
@@ -2344,13 +2290,7 @@
 			<Flavor>4</Flavor>
 		</Row>
 	</Unit_Flavors>
-	<Civilization_UnitClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_INDONESIA</CivilizationType>
-			<UnitClassType>UNITCLASS_P40WARHAWK22</UnitClassType>
-			<UnitType>UNIT_P40_WARHAWK22INDONESIA</UnitType>
-		</Row>
-	</Civilization_UnitClassOverrides>
+	
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22INDONESIA</UnitType>
@@ -2596,13 +2536,7 @@
 			<Flavor>4</Flavor>
 		</Row>
 	</Unit_Flavors>
-	<Civilization_UnitClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_INCA</CivilizationType>
-			<UnitClassType>UNITCLASS_P40WARHAWK22</UnitClassType>
-			<UnitType>UNIT_P40_WARHAWK22INCA</UnitType>
-		</Row>
-	</Civilization_UnitClassOverrides>
+	
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22INCA</UnitType>
@@ -2848,13 +2782,7 @@
 			<Flavor>4</Flavor>
 		</Row>
 	</Unit_Flavors>
-	<Civilization_UnitClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_DENMARK</CivilizationType>
-			<UnitClassType>UNITCLASS_P40WARHAWK22</UnitClassType>
-			<UnitType>UNIT_P40_WARHAWK22DENMARK</UnitType>
-		</Row>
-	</Civilization_UnitClassOverrides>
+	
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22DENMARK</UnitType>

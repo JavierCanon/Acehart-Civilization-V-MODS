@@ -84,13 +84,7 @@
     </Row>
    
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
-      <UnitClassType>UNITCLASS_USACRUSADER22</UnitClassType>
-      <UnitType>UNIT_F8_CRUSADER22</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_F8_CRUSADER22</UnitType>

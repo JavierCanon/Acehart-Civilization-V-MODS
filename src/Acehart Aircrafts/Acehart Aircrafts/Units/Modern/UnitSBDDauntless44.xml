@@ -78,33 +78,7 @@
       <Flavor>8</Flavor>
     </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
-      <UnitClassType>UNITCLASS_DAUNTLESS44</UnitClassType>
-      <UnitType>UNIT_SBD_DAUNTLESS44</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
-		  <UnitClassType>UNITCLASS_DAUNTLESS44</UnitClassType>
-		  <UnitType>UNIT_SBD_DAUNTLESS44</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_AZTEC</CivilizationType>
-		  <UnitClassType>UNITCLASS_DAUNTLESS44</UnitClassType>
-		  <UnitType>UNIT_SBD_DAUNTLESS44</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_MOROCCO</CivilizationType>
-		  <UnitClassType>UNITCLASS_DAUNTLESS44</UnitClassType>
-		  <UnitType>UNIT_SBD_DAUNTLESS44</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_NEW_ZEALAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_DAUNTLESS44</UnitClassType>
-		  <UnitType>UNIT_SBD_DAUNTLESS44</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_SBD_DAUNTLESS44</UnitType>

@@ -82,33 +82,7 @@
       <Flavor>12</Flavor>
     </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
-      <UnitClassType>UNITCLASS_TYPHOON33</UnitClassType>
-      <UnitType>UNIT_HAWKER_TYPHOON33</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_CANADA</CivilizationType>
-		  <UnitClassType>UNITCLASS_TYPHOON33</UnitClassType>
-		  <UnitType>UNIT_HAWKER_TYPHOON33</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_TYPHOON33</UnitClassType>
-		  <UnitType>UNIT_HAWKER_TYPHOON33</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_BELGIUM</CivilizationType>
-		  <UnitClassType>UNITCLASS_TYPHOON33</UnitClassType>
-		  <UnitType>UNIT_HAWKER_TYPHOON33</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_NEW_ZEALAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_TYPHOON33</UnitClassType>
-		  <UnitType>UNIT_HAWKER_TYPHOON33</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_HAWKER_TYPHOON33</UnitType>

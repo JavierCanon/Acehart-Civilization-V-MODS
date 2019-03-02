@@ -78,58 +78,7 @@
     </Row>
    
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
-      <UnitClassType>UNITCLASS_METEOR44</UnitClassType>
-      <UnitType>UNIT_GLOSTER_METEOR44</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_METEOR44</UnitClassType>
-		  <UnitType>UNIT_GLOSTER_METEOR44</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_BRAZIL</CivilizationType>
-		  <UnitClassType>UNITCLASS_METEOR44</UnitClassType>
-		  <UnitType>UNIT_GLOSTER_METEOR44</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_CANADA</CivilizationType>
-		  <UnitClassType>UNITCLASS_METEOR44</UnitClassType>
-		  <UnitType>UNIT_GLOSTER_METEOR44</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_DENMARK</CivilizationType>
-		  <UnitClassType>UNITCLASS_METEOR44</UnitClassType>
-		  <UnitType>UNIT_GLOSTER_METEOR44</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_EGYPT</CivilizationType>
-		  <UnitClassType>UNITCLASS_METEOR44</UnitClassType>
-		  <UnitType>UNIT_GLOSTER_METEOR44</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ISRAEL</CivilizationType>
-		  <UnitClassType>UNITCLASS_METEOR44</UnitClassType>
-		  <UnitType>UNIT_GLOSTER_METEOR44</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_NETHERLANDS</CivilizationType>
-		  <UnitClassType>UNITCLASS_METEOR44</UnitClassType>
-		  <UnitType>UNIT_GLOSTER_METEOR44</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_POLYNESIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_METEOR44</UnitClassType>
-		  <UnitType>UNIT_GLOSTER_METEOR44</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
-		  <UnitClassType>UNITCLASS_METEOR44</UnitClassType>
-		  <UnitType>UNIT_GLOSTER_METEOR44</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_GLOSTER_METEOR44</UnitType>

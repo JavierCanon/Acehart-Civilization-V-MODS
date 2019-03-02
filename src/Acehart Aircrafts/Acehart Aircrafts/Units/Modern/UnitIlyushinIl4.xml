@@ -71,23 +71,7 @@
     </Row>
  
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
-      <UnitClassType>UNITCLASS_ILYUSHINIL4</UnitClassType>
-      <UnitType>UNIT_ILYUSHIN_IL4</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_CHINA</CivilizationType>
-		  <UnitClassType>UNITCLASS_ILYUSHINIL4</UnitClassType>
-		  <UnitType>UNIT_ILYUSHIN_IL4</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_DENMARK</CivilizationType>
-		  <UnitClassType>UNITCLASS_ILYUSHINIL4</UnitClassType>
-		  <UnitType>UNIT_ILYUSHIN_IL4</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_ILYUSHIN_IL4</UnitType>

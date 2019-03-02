@@ -80,13 +80,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
-      <UnitClassType>UNITCLASS_TORNADO777</UnitClassType>
-      <UnitType>UNIT_PANAVIA_TORNADO777</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_PANAVIA_TORNADO777</UnitType>
@@ -322,13 +316,7 @@
 			<Flavor>4</Flavor>
 		</Row>
 	</Unit_Flavors>
-	<Civilization_UnitClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
-			<UnitClassType>UNITCLASS_TORNADO777</UnitClassType>
-			<UnitType>UNIT_PANAVIA_TORNADO777GERMANY</UnitType>
-		</Row>
-	</Civilization_UnitClassOverrides>
+	
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_PANAVIA_TORNADO777GERMANY</UnitType>
@@ -564,13 +552,7 @@
 			<Flavor>4</Flavor>
 		</Row>
 	</Unit_Flavors>
-	<Civilization_UnitClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_AUSTRIA</CivilizationType>
-			<UnitClassType>UNITCLASS_TORNADO777</UnitClassType>
-			<UnitType>UNIT_PANAVIA_TORNADO777AUSTRIA</UnitType>
-		</Row>
-	</Civilization_UnitClassOverrides>
+	
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_PANAVIA_TORNADO777AUSTRIA</UnitType>
@@ -806,13 +788,7 @@
 			<Flavor>4</Flavor>
 		</Row>
 	</Unit_Flavors>
-	<Civilization_UnitClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_ROME</CivilizationType>
-			<UnitClassType>UNITCLASS_TORNADO777</UnitClassType>
-			<UnitType>UNIT_PANAVIA_TORNADO777ROME</UnitType>
-		</Row>
-	</Civilization_UnitClassOverrides>
+	
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_PANAVIA_TORNADO777ROME</UnitType>
@@ -1048,13 +1024,7 @@
 			<Flavor>4</Flavor>
 		</Row>
 	</Unit_Flavors>
-	<Civilization_UnitClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_ARABIA</CivilizationType>
-			<UnitClassType>UNITCLASS_TORNADO777</UnitClassType>
-			<UnitType>UNIT_PANAVIA_TORNADO777ARABIA</UnitType>
-		</Row>
-	</Civilization_UnitClassOverrides>
+	
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_PANAVIA_TORNADO777ARABIA</UnitType>
@@ -1290,38 +1260,7 @@
 			<Flavor>4</Flavor>
 		</Row>
 	</Unit_Flavors>
-	<Civilization_UnitClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_ZULU</CivilizationType>
-			<UnitClassType>UNITCLASS_TORNADO777</UnitClassType>
-			<UnitType>UNIT_PANAVIA_TORNADO777GENERIC12</UnitType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_POLYNESIA</CivilizationType>
-			<UnitClassType>UNITCLASS_TORNADO777</UnitClassType>
-			<UnitType>UNIT_PANAVIA_TORNADO777GENERIC12</UnitType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_AZTEC</CivilizationType>
-			<UnitClassType>UNITCLASS_TORNADO777</UnitClassType>
-			<UnitType>UNIT_PANAVIA_TORNADO777GENERIC12</UnitType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_IROQUOIS</CivilizationType>
-			<UnitClassType>UNITCLASS_TORNADO777</UnitClassType>
-			<UnitType>UNIT_PANAVIA_TORNADO777GENERIC12</UnitType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_SHOSHONE</CivilizationType>
-			<UnitClassType>UNITCLASS_TORNADO777</UnitClassType>
-			<UnitType>UNIT_PANAVIA_TORNADO777GENERIC12</UnitType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_SIAM</CivilizationType>
-			<UnitClassType>UNITCLASS_TORNADO777</UnitClassType>
-			<UnitType>UNIT_PANAVIA_TORNADO777GENERIC12</UnitType>
-		</Row>
-	</Civilization_UnitClassOverrides>
+	
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_PANAVIA_TORNADO777GENERIC12</UnitType>

@@ -74,13 +74,7 @@
     </Row>
   
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
-      <UnitClassType>UNITCLASS_WESTLANDWHIRLWIND</UnitClassType>
-      <UnitType>UNIT_WESTLAND_WHIRLWIND</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_WESTLAND_WHIRLWIND</UnitType>

@@ -481,20 +481,20 @@ INSERT INTO Language_en_US(
 SELECT
 
            'TXT_KEY_UNIT_ATTACKHELI_II_DESCRIPTION' 
-           ,'Attack Heli II'
+           ,'Attack Heli II Informatic Era'
 UNION
 SELECT
 
            'TXT_KEY_UNIT_ATTACKHELI_II_CIVILOPEDIA' 
-           ,'Attack Heli II'
+           ,'Attack Heli II Informatic Era'
 UNION
 SELECT
 
            'TXT_KEY_UNIT_ATTACKHELI_II_STRATEGY' 
-           ,'Attack Heli II'
+           ,'Attack Heli II Informatic Era'
 UNION
 SELECT
 
            'TXT_KEY_UNIT_ATTACKHELI_II_HELP' 
-           ,'Attack Heli II'   
+           ,'Attack Heli II Informatic Era'   
 ;

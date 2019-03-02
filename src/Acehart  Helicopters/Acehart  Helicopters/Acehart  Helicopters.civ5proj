@@ -5,7 +5,7 @@
     <ProjectGuid>{5db364d3-a093-47ce-a028-fb738e307404}</ProjectGuid>
     <Name>Acehart  Helicopters</Name>
     <Guid>b9f93474-311b-43dc-824d-1c1d2d76dcb0</Guid>
-    <ModVersion>3</ModVersion>
+    <ModVersion>4</ModVersion>
     <Stability>Beta</Stability>
     <Teaser>Acehart  Helicopters</Teaser>
     <Description>Generic Helicopters MOD.
@@ -13,6 +13,7 @@
 General New Behavior:
 - Attak Helis now can enter in lakes and coast (not in ocean). Good vs tanks and armor, weak vs airplanes and AA guns/missiles.
 - All terrain type cost is 1.
+- Can plot up to 2 units per tile (simulate flight).
 - Heli's now need aluminium and oil resource.  Why? because they are powerful, strategic and versatile units, and this is a war for resources... or make infantry...
 - Lost health each turn, if finish outside of friendly territory.</Description>
     <Authors>Acehart</Authors>
@@ -122,14 +123,21 @@ General New Behavior:
   <ItemGroup>
     <Folder Include="ART\" />
     <Folder Include="ART\ASWHeli\" />
+    <Folder Include="ART\ASWHeli\Icons" />
     <Folder Include="ART\AttackHeli\" />
+    <Folder Include="ART\AttackHeli\Icons" />
     <Folder Include="ART\AttackHeli_II\" />
     <Folder Include="ART\HeliMedic\" />
+    <Folder Include="ART\HeliMedic\Icons" />
     <Folder Include="ART\HeliMedic_II\" />
+    <Folder Include="ART\HeliMedic_II\Icons" />
     <Folder Include="ART\Heliport\" />
     <Folder Include="ART\HeliSquad\" />
+    <Folder Include="ART\HeliSquad\Icons" />
     <Folder Include="ART\HeliSquad_II\" />
+    <Folder Include="ART\HeliSquad_II\Icons" />
     <Folder Include="ART\HeliTransport\" />
+    <Folder Include="ART\HeliTransport\Icons" />
     <Folder Include="Buildings\" />
     <Folder Include="ICONS\" />
     <Folder Include="UNITS\" />
@@ -144,6 +152,34 @@ General New Behavior:
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="ART\ASWHeli\eurotiger_nightblueTC.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\AttackHeli\cobraSC.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\AttackHeli\CobraSC.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\AttackHeli\fx_triggers_cobra.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\AttackHeli\gunshipSC_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\AttackHeli\gunshipSC_128_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\AttackHeli\gunship_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="ART\AttackHeli\gunship_128_gloss.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>

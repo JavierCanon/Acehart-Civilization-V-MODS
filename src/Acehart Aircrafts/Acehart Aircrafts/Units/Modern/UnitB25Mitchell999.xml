@@ -69,73 +69,7 @@
       <Flavor>12</Flavor>
     </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
-      <UnitClassType>UNITCLASS_B25MITCHELL999</UnitClassType>
-      <UnitType>UNIT_B25_MITCHELL999</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_B25MITCHELL999</UnitClassType>
-		  <UnitType>UNIT_B25_MITCHELL999</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_BRAZIL</CivilizationType>
-		  <UnitClassType>UNITCLASS_B25MITCHELL999</UnitClassType>
-		  <UnitType>UNIT_B25_MITCHELL999</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_CANADA</CivilizationType>
-		  <UnitClassType>UNITCLASS_B25MITCHELL999</UnitClassType>
-		  <UnitType>UNIT_B25_MITCHELL999</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_CHINA</CivilizationType>
-		  <UnitClassType>UNITCLASS_B25MITCHELL999</UnitClassType>
-		  <UnitType>UNIT_B25_MITCHELL999</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
-		  <UnitClassType>UNITCLASS_B25MITCHELL999</UnitClassType>
-		  <UnitType>UNIT_B25_MITCHELL999</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_INDONESIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_B25MITCHELL999</UnitClassType>
-		  <UnitType>UNIT_B25_MITCHELL999</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_AZTEC</CivilizationType>
-		  <UnitClassType>UNITCLASS_B25MITCHELL999</UnitClassType>
-		  <UnitType>UNIT_B25_MITCHELL999</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_NETHERLANDS</CivilizationType>
-		  <UnitClassType>UNITCLASS_B25MITCHELL999</UnitClassType>
-		  <UnitType>UNIT_B25_MITCHELL999</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_POLAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_B25MITCHELL999</UnitClassType>
-		  <UnitType>UNIT_B25_MITCHELL999</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_B25MITCHELL999</UnitClassType>
-		  <UnitType>UNIT_B25_MITCHELL999</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
-		  <UnitClassType>UNITCLASS_B25MITCHELL999</UnitClassType>
-		  <UnitType>UNIT_B25_MITCHELL999</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_SHOSHONE</CivilizationType>
-		  <UnitClassType>UNITCLASS_B25MITCHELL999</UnitClassType>
-		  <UnitType>UNIT_B25_MITCHELL999</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_B25_MITCHELL999</UnitType>

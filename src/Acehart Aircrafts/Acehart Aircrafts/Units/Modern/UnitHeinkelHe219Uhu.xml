@@ -78,13 +78,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
-      <UnitClassType>UNITCLASS_HEINKELHE219UHU</UnitClassType>
-      <UnitType>UNIT_HEINKEL_HE_219_UHU</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_HEINKEL_HE_219_UHU</UnitType>

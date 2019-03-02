@@ -72,13 +72,7 @@
       <Flavor>7</Flavor>
     </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
-      <UnitClassType>UNITCLASS_KIKKA1</UnitClassType>
-      <UnitType>UNIT_NAKAJIMA_KIKKA</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_NAKAJIMA_KIKKA</UnitType>

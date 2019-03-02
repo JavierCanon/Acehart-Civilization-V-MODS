@@ -69,13 +69,7 @@
       <Flavor>14</Flavor>
     </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
-      <UnitClassType>UNITCLASS_JET_FIGHTER</UnitClassType>
-      <UnitType>UNIT_F22_RAPTOR22</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_FreePromotions>
     <Row>
       <UnitType>UNIT_F22_RAPTOR22</UnitType>

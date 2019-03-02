@@ -80,28 +80,7 @@
     </Row>
     
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
-      <UnitClassType>UNITCLASS_SHOOTINGSTAR</UnitClassType>
-      <UnitType>UNIT_P80_SHOOTING_STAR</UnitType>
-    </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_BRAZIL</CivilizationType>
-		  <UnitClassType>UNITCLASS_SHOOTINGSTAR</UnitClassType>
-		  <UnitType>UNIT_P80_SHOOTING_STAR</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_INCA</CivilizationType>
-		  <UnitClassType>UNITCLASS_SHOOTINGSTAR</UnitClassType>
-		  <UnitType>UNIT_P80_SHOOTING_STAR</UnitType>
-	  </Row>
-	  <Row>
-		  <CivilizationType>CIVILIZATION_POLYNESIA</CivilizationType>
-		  <UnitClassType>UNITCLASS_SHOOTINGSTAR</UnitClassType>
-		  <UnitType>UNIT_P80_SHOOTING_STAR</UnitType>
-	  </Row>
-  </Civilization_UnitClassOverrides>
+  
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_P80_SHOOTING_STAR</UnitType>

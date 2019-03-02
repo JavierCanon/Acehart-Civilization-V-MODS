@@ -3,3 +3,39 @@
 -- DateCreated: 2/8/2019 10:22:09 PM
 --------------------------------------------------------------
 
+Generic tanks and vehicles for all eras mod, not cultural, you can build any. 
+
+The tanks now are ranged units , more realistic.
+
+(+30) NEW UNITS
+
+TANKS
+1. +10 Light tank: infantry support.
+2. +6 Light Armor: infantry support. 
+3. +16 Heavy tank: infantry support and anti-tank (small to heavy).
+4. +6 Tank Destroyer: Anti-Tank, tank hunter.
+
+MILITARY TRUCKS AND UTILITY VEHICLES
+In a Future (not yet):
+1. Recon Humvee (Modern era) upgrade to JLTV
+2. Medic Humvee  (Modern era) upgrade to JLTV
+3. Recon JLTV  (Joint Light Tactical Vehicle)  (Information era)
+4. Medic  JLTV  (Joint Light Tactical Vehicle)  (Information era)
+
+MISSILES
+1. Anti-Tank Missile
+
+GUNS
+1. 
+
+ARTILLERY
+1. Mobile Artillery
+2. Mobile SAM
+3. +4 Heavy Artillery
+
+ANTIAIR
+1. +9 Anti-Air units
+
+CREDITS
+All modders.
+
