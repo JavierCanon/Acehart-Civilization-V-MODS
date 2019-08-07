@@ -5,8 +5,8 @@
     <ProjectGuid>{729e28c4-bc68-4952-8666-6bd8096d37f4}</ProjectGuid>
     <Name>Acehart Armoured Fighting Vehicles</Name>
     <Guid>04aa2ebe-58ea-4dff-bfde-fd4e33c49166</Guid>
-    <ModVersion>1</ModVersion>
-    <Stability>Alpha</Stability>
+    <ModVersion>2</ModVersion>
+    <Stability>Beta</Stability>
     <Teaser>Generic tanks mod. Early to futuristic tanks.
 
 The tanks now are ranged units , more realistic.
@@ -429,6 +429,11 @@ All modders.</Description>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
         <FileName>Units/Modern/Merkava/UnitMerkavaBattleTank888.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Units_Updates.sql</FileName>
       </Action>
     </ModActions>
     <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
@@ -1900,10 +1905,6 @@ All modders.</Description>
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Units\Heavy_Tank\CharB1\ICON_UNIT_L640_LIGHT_TANK888_128.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
     <Content Include="Units\Heavy_Tank\CharB1\no_gloss.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -2836,6 +2837,10 @@ All modders.</Description>
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
+    <Content Include="Units\Light_Tank\L6-40\ICON_UNIT_L640_LIGHT_TANK888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Units\Light_Tank\L6-40\ICON_UNIT_L640_LIGHT_TANK888_256.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -2885,10 +2890,6 @@ All modders.</Description>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Units\Light_Tank\LTClasses.xml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="Units\Light_Tank\M3Stuart\ICON_UNIT_JAGDPANZER_IV_TD888_128.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -3744,6 +3745,10 @@ All modders.</Description>
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Units\Tank Destroyer\JPanzerIV\ICON_UNIT_JAGDPANZER_IV_TD888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
     <Content Include="Units\Tank Destroyer\JPanzerIV\ICON_UNIT_JAGDPANZER_IV_TD888_256.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -3985,6 +3990,10 @@ All modders.</Description>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Units\Tank Destroyer\TDClasses.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Units_Updates.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

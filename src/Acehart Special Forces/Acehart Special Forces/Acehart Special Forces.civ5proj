@@ -33,6 +33,281 @@
     <DeployMod>true</DeployMod>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Animations\fx_triggers_modernmarine.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\ModernMarine_Attack.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\ModernMarine_Bombard_Defense.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\ModernMarine_DeathA.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\ModernMarine_DeathA_Idle.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\ModernMarine_DeathB.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\ModernMarine_DeathB_Idle.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\ModernMarine_Fidget.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\ModernMarine_Fortify.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\ModernMarine_Fortify_Idle.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\ModernMarine_Idle.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Animations\ModernMarine_Run.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="DESCRIPTION.txt">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Air Force Special Tactics\Art\EuropeanSF.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Air Force Special Tactics\Art\EuropeanSF.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Air Force Special Tactics\Art\EuropeanSF_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Air Force Special Tactics\Art\EuropeanSF_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Air Force Special Tactics\Art\G36_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Air Force Special Tactics\Art\G36_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Air Force Special Tactics\Icons\ICON_UNIT_EUROPEAN_SPECIAL_FORCES888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Air Force Special Tactics\Icons\ICON_UNIT_EUROPEAN_SPECIAL_FORCES888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Air Force Special Tactics\Icons\ICON_UNIT_EUROPEAN_SPECIAL_FORCES888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Air Force Special Tactics\Icons\ICON_UNIT_EUROPEAN_SPECIAL_FORCES888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Air Force Special Tactics\Icons\ICON_UNIT_EUROPEAN_SPECIAL_FORCES888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Air Force Special Tactics\Air Force Special Tactics.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Green Berets\Art\G36_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Green Berets\Art\G36_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Green Berets\Art\SthAmericanSF.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Green Berets\Art\SthAmericanSF.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Green Berets\Art\SthAmericanSF_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Green Berets\Art\SthAmericanSF_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Green Berets\Icons\ICON_UNIT_SOUTH_AMERICAN_SPECIAL_FORCES888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Green Berets\Icons\ICON_UNIT_SOUTH_AMERICAN_SPECIAL_FORCES888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Green Berets\Icons\ICON_UNIT_SOUTH_AMERICAN_SPECIAL_FORCES888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Green Berets\Icons\ICON_UNIT_SOUTH_AMERICAN_SPECIAL_FORCES888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Green Berets\Icons\ICON_UNIT_SOUTH_AMERICAN_SPECIAL_FORCES888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Green Berets\Army Green Berets.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Rangers\Art\AfricanSF_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Rangers\Art\AfricanSF_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Rangers\Art\Civ5_AfricanSF_v2.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Rangers\Art\Civ5_AfricanSF_v2.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Rangers\Art\marine_modern_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Rangers\Art\marine_modern_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Rangers\Icons\ICON_UNIT_AFRICAN_SPECIAL_FORCES888_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Rangers\Icons\ICON_UNIT_AFRICAN_SPECIAL_FORCES888_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Rangers\Icons\ICON_UNIT_AFRICAN_SPECIAL_FORCES888_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Rangers\Icons\ICON_UNIT_AFRICAN_SPECIAL_FORCES888_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Rangers\Icons\ICON_UNIT_AFRICAN_SPECIAL_FORCES888_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Army Rangers\Army Rangers.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Navy SEALs\Art\US_Airborne.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Navy SEALs\Art\US_Airborne.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Navy SEALs\Art\US_Airborne_diff.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Navy SEALs\Art\US_Airborne_sref.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Navy SEALs\Icons\SEALflag.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Navy SEALs\Icons\sealflag2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Navy SEALs\Icons\sealicon128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Navy SEALs\Icons\sealicon256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Navy SEALs\Icons\sealicon45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Navy SEALs\Icons\sealicon64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Navy SEALs\Icons\sealicon80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Navy SEALs\Icons\sv_specialforce.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Navy SEALs\SEAL Team.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Navy SEALs\SQL\SFAmphibBonus.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Navy SEALs\SQL\UpdateMarineUUs.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Animations\" />
+    <Folder Include="Promotions" />
+    <Folder Include="Units" />
+    <Folder Include="Units\Air Force Special Tactics\Art" />
+    <Folder Include="Units\Air Force Special Tactics\Icons" />
+    <Folder Include="Units\Army Green Berets" />
+    <Folder Include="Units\Army Green Berets\Art" />
+    <Folder Include="Units\Army Green Berets\Icons" />
+    <Folder Include="Units\Army Rangers" />
+    <Folder Include="Units\Army Rangers\Art" />
+    <Folder Include="Units\Army Rangers\Icons" />
+    <Folder Include="Units\Navy SEALs" />
+    <Folder Include="Units\Air Force Special Tactics" />
+    <Folder Include="Units\Navy SEALs\Art\" />
+    <Folder Include="Units\Navy SEALs\Icons\" />
+    <Folder Include="Units\Navy SEALs\SQL\" />
+    <Folder Include="Units\Ancient Units" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
 </Project>

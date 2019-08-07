@@ -77,14 +77,8 @@
 		</Row>
 	</Unit_ClassUpgrades>
 	<Unit_FreePromotions>
-		<Row>
-			<UnitType>UNIT_CHALLENGER_2_BATTLETANK</UnitType>
-			<PromotionType>PROMOTION_CAN_CROSS_MOUNTAINS</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_CHALLENGER_2_BATTLETANK</UnitType>
-			<PromotionType>PROMOTION_CAN_CROSS_ICE</PromotionType>
-		</Row>
+
+
 		<Row>
 			<UnitType>UNIT_CHALLENGER_2_BATTLETANK</UnitType>
 			<PromotionType>PROMOTION_FIRE_SUPPORT</PromotionType>
@@ -113,18 +107,7 @@
 			<UnitType>UNIT_CHALLENGER_2_BATTLETANK</UnitType>
 			<PromotionType>PROMOTION_GOLDEN_AGE_POINTS</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_CHALLENGER_2_BATTLETANK</UnitType>
-			<PromotionType>PROMOTION_IGNORE_PLOT_DAMAGE</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_CHALLENGER_2_BATTLETANK</UnitType>
-			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_CHALLENGER_2_BATTLETANK</UnitType>
-			<PromotionType>PROMOTION_CAN_MOVE_IMPASSABLE</PromotionType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_CHALLENGER_2_BATTLETANK</UnitType>
 			<PromotionType>PROMOTION_MEDIC_II</PromotionType>

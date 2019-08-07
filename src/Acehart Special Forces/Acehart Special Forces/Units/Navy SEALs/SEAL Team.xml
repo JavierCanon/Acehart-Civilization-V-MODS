@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/2/2014 8:32:20 PM -->
+<GameData>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SEALTEAM</Type>
+			<Description>TXT_KEY_UNIT_SEALTEAM</Description>
+			<DefaultUnit>UNIT_SEAL_TEAM</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SEALTEAM</Class>
+			<Type>UNIT_SEAL_TEAM</Type>
+			<PrereqTech>TECH_TELECOM</PrereqTech>
+			<Combat>85</Combat>
+			<Cost>400</Cost>
+			<FaithCost>800</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_OFFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SEALTEAM</Description>
+			<Civilopedia>TXT_KEY_CIV5_SEALTEAM_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SEALTEAM_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SEALTEAM</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SEAL_TEAM</UnitArtInfo>
+			<UnitFlagAtlas>CIV_FLAG_ATLAS_SEALTEAM</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_SEALTEAM</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+		<Update>
+			<Set Cost="375"/>
+			<Where Type="UNIT_MARINE"/>
+		</Update>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<PromotionType>PROMOTION_SFEMBARK</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<PromotionType>PROMOTION_RIVAL_TERRITORY</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_MARINE</UnitType>
+			<UnitClassType>UNITCLASS_SEALTEAM</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_SFEMBARK</Type>
+			<Description>TXT_KEY_PROMOTION_SFEMBARK</Description>
+			<Help>TXT_KEY_PEDIA_PROMOTION_SFEMBARK</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<AllowsEmbarkation>true</AllowsEmbarkation>
+			<EmbarkDefenseModifier>100</EmbarkDefenseModifier>
+			<EmbarkExtraVisibility>2</EmbarkExtraVisibility>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_SFEMBARK</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SFAMPHIB</Type>
+			<Description>TXT_KEY_PROMOTION_SFAMPHIB</Description>
+			<Help>TXT_KEY_PEDIA_PROMOTION_SFAMPHIB</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<RoughAttack>20</RoughAttack>
+			<OpenAttack>20</OpenAttack>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_SFAMPHIB</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	
+	<UnitPromotions_Terrains>
+		<Row>
+			<PromotionType>PROMOTION_SFEMBARK</PromotionType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<DoubleMove>true</DoubleMove>
+		</Row>
+	</UnitPromotions_Terrains>
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_SEALS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_SEAL6</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_ALFA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_SAS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_SASR</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_BADCOMPANY</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_GRUMEC</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_COMANF</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_JTF2</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_GIGN</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_DELTA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_KSK</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_PARAC</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_MAGLAN</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_669</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_707</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_KCT</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_GROM</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_GIS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_MARINERAIDERS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_RECCES</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_BORDO</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_SBS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_RANGERS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_MACV</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_SELOUS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_KOEVOET</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_STF</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SEAL_TEAM</UnitType>
+			<UniqueName>TXT_KEY_SF_PARARESCUE</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+
+	<ArtDefine_UnitInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_SEAL_TEAM</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>EarlyGreatArtist</Formation>
+		</Row>
+	</ArtDefine_UnitInfos>
+	<ArtDefine_UnitInfoMemberInfos>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_SEAL_TEAM</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SEAL_TEAM</UnitMemberInfoType>
+			<NumMembers>6</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_SEAL_TEAM</Type>
+			<Scale>0.14</Scale>
+			<Model>Art/Model/US_Airborne.fxsxml</Model>
+			<MaterialTypeTag>CLOTH</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>FLESH</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SEAL_TEAM</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady Walk AttackCharge</EnableActions>
+			<ShortMoveRadius>12.0</ShortMoveRadius>
+			<ShortMoveRate>0.35</ShortMoveRate>
+			<TargetHeight>8.0</TargetHeight>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasRefaceAfterCombat>1</HasRefaceAfterCombat>
+			<ReformBeforeCombat>1</ReformBeforeCombat>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SEAL_TEAM</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<WeaponTypeTag>BULLET</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLET</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_SEAL_TEAM</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>sv_specialforce.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_SEALTEAM</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>sealicon256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_SEALTEAM</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>sealicon128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_SEALTEAM</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>sealicon80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_SEALTEAM</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>sealicon64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_SEALTEAM</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>sealicon45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_FLAG_ATLAS_SEALTEAM</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>SEALflag.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_SFEMBARK">
+			<Text>Embarkation with Landing Craft</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_SFEMBARK">
+			<Text>Embarkation with extra Defense, Visibility, and double Movement in Coast. 20% Attack Bonus from Coast tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SFAMPHIB">
+			<Text>20% Combat Bonus from Coast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_SFAMPHIB">
+			<Text>20% Combat Bonus from Coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_SEALS">
+			<Text>Navy SEALs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_SEAL6">
+			<Text>SEAL Team 6</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_ALFA">
+			<Text>Spetsnaz Alfa Group</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_SAS">
+			<Text>Special Air Service</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_SASR">
+			<Text>SASR</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_BADCOMPANY">
+			<Text>Bad Company</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_GRUMEC">
+			<Text>GRUMEC</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_COMANF">
+			<Text>COMANF</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_JTF2">
+			<Text>Joint Task Force 2</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_GIGN">
+			<Text>GIGN</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_DELTA">
+			<Text>Delta Force</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_KSK">
+			<Text>KSK</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_PARAC">
+			<Text>Para Commandos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_MAGLAN">
+			<Text>Maglan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_669">
+			<Text>Unit 669</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_707">
+			<Text>707th Special Mission Battalion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_KCT">
+			<Text>KCT</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_FSK">
+			<Text>FSK</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_GROM">
+			<Text>GROM</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_GIS">
+			<Text>GIS</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_MARINERAIDERS">
+			<Text>Marine Raiders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_RECCES">
+			<Text>Recces</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_BORDO">
+			<Text>Bordo Bereliler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_SBS">
+			<Text>Special Boat Service</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_RANGERS">
+			<Text>Army Rangers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_MACV">
+			<Text>MACV-SOG</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_SELOUS">
+			<Text>Selous Scouts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_KOEVOET">
+			<Text>Koevoet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_STF">
+			<Text>Special Task Force</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SF_PARARESCUE">
+			<Text>Pararescue</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_SEALTEAM">
+			<Text>Special Forces</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SEALTEAM">
+			<Text>Late-game Infantry unit designed for rapid, powerful amphibious attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SEALTEAM_STRATEGY">
+			<Text>Special Forces are an Information-Era upgrade for the Marine. Slightly weaker than Mechanized Infantry, it gains a large boost to movement when moving through Coast tiles, is stronger while embarked, and receives a 20% Combat Bonus when attacking from Coast. However, it gains no defensive bonuses from terrain, so stay on the move!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SEALTEAM_TEXT">
+			<Text>Special Forces, or Special Operations Forces, are military units trained to preform unconventional missions. The elite of the elite, these units specialize in many fields, including amphibious assaults, airborne operations, counter-terrorism, espionage, sabotage, assassination, rescue, and all-around unconventional warfare. Special Forces, as they would now be recognized, emerged in the 20th century, with the outbreak of the Second World War. In 1940, the British Commandos were formed after prime minister Winston Churchill called for "specially trained troops of the hunter class, who can develop a reign of terror down the enemy coast." Today, almost a necessity for any civilization seeking military power, these units have changed wildly over the years. They've adapted and continue to adapt to the ever-changing face of warfare, proving their worth more than ever. </Text>
+		</Row>
+	</Language_en_US>
+
+
+
+</GameData>

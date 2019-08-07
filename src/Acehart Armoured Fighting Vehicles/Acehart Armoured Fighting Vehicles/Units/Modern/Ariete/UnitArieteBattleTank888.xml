@@ -77,14 +77,8 @@
 		</Row>
 	</Unit_ClassUpgrades>
 	<Unit_FreePromotions>
-		<Row>
-			<UnitType>UNIT_ARIETE_BATTLETANK888</UnitType>
-			<PromotionType>PROMOTION_CAN_CROSS_MOUNTAINS</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARIETE_BATTLETANK888</UnitType>
-			<PromotionType>PROMOTION_CAN_CROSS_ICE</PromotionType>
-		</Row>
+
+
 		<Row>
 			<UnitType>UNIT_ARIETE_BATTLETANK888</UnitType>
 			<PromotionType>PROMOTION_BLITZ</PromotionType>
@@ -101,18 +95,8 @@
 			<UnitType>UNIT_ARIETE_BATTLETANK888</UnitType>
 			<PromotionType>PROMOTION_EVASION</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_ARIETE_BATTLETANK888</UnitType>
-			<PromotionType>PROMOTION_IGNORE_PLOT_DAMAGE</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARIETE_BATTLETANK888</UnitType>
-			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARIETE_BATTLETANK888</UnitType>
-			<PromotionType>PROMOTION_CAN_MOVE_IMPASSABLE</PromotionType>
-		</Row>
+
+
 	</Unit_FreePromotions>
 	<Unit_ResourceQuantityRequirements>
 		<Row>

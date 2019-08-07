@@ -87,14 +87,8 @@
 
 
 	<Unit_FreePromotions>
-		<Row>
-			<UnitType>UNIT_DARDO_IFV888</UnitType>
-			<PromotionType>PROMOTION_CAN_CROSS_MOUNTAINS</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_DARDO_IFV888</UnitType>
-			<PromotionType>PROMOTION_CAN_CROSS_ICE</PromotionType>
-		</Row>
+
+
 		<Row>
 			<UnitType>UNIT_DARDO_IFV888</UnitType>
 			<PromotionType>PROMOTION_SKI_INFANTRY</PromotionType>
@@ -131,10 +125,7 @@
 			<UnitType>UNIT_DARDO_IFV888</UnitType>
 			<PromotionType>PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_DARDO_IFV888</UnitType>
-			<PromotionType>PROMOTION_IGNORE_PLOT_DAMAGE</PromotionType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_DARDO_IFV888</UnitType>
 			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>

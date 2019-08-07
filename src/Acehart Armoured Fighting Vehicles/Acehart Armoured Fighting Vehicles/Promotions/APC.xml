@@ -2,113 +2,140 @@
 <!-- Created by ModBuddy on 5/1/2015 2:58:06 PM -->
 <GameData>
 
+	<SpecialUnits>
+		<Row>
+			<Type>SPECIALUNIT_APC_CARGO</Type>
+			<Description></Description>
+			<Valid>1</Valid>
+			<CityLoad>0</CityLoad>
+		</Row>
+	</SpecialUnits>
+
 	<UnitPromotions_UnitCombatMods>
 		<Row>
 			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
 			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 			<Modifier>50</Modifier>
-			<PediaType>This unit is Strong vs. Gun Units 50</PediaType>
+
 		</Row>
 
 		<Row>
 			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
 			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
 			<Modifier>33</Modifier>
-			<PediaType>Strong vs. Armor Units 33</PediaType>
+
 		</Row>
 
 		<Row>
 			<PromotionType>PROMOTION_STRONGVSARMOR8882</PromotionType>
 			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
 			<Modifier>33</Modifier>
-			<PediaType>Strong vs. Armor Units 66</PediaType>
+
 		</Row>
 
 		<Row>
 			<PromotionType>PROMOTION_STRONGVSARMOR8880</PromotionType>
 			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
 			<Modifier>10</Modifier>
-			<PediaType>Strong vs. Armor Units 10</PediaType>
+
 		</Row>
-		
+
 	</UnitPromotions_UnitCombatMods>
-	
+
 	<UnitPromotions>
 
 		<Row>
 			<Type>PROMOTION_APC</Type>
+			<!--
 			<Description>Defense promotion only given to Armored Personnel Carriers.</Description>
 			<Help>Provides 75% ranged defense</Help>
+			<PediaEntry>Defense promotion only given to Armored Personnel Carriers.</PediaEntry>-->
+			
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
 			<RangedDefenseMod>75</RangedDefenseMod>
 			<PortraitIndex>15</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_RANGED</PediaType>
-			<PediaEntry>Defense promotion only given to Armored Personnel Carriers.</PediaEntry>
+
 		</Row>
 
 		<Row>
 			<Type>PROMOTION_AMBUSH_APC</Type>
+			<!--
 			<Description>Anti-Tank Missile Special Promotion</Description>
 			<Help>30% more damage against an armor unit (tank)</Help>
+			<PediaEntry>Special Anti-Tank Promotion</PediaEntry>-->
+			
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
 			<PortraitIndex>4</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_MELEE</PediaType>
-			<PediaEntry>Special Anti-Tank Promotion</PediaEntry>
+
 		</Row>
 
 		<Row>
 			<Type>PROMOTION_WEAKVSTANK8881</Type>
+			<!--
 			<Description>Strong against Gun Units 50</Description>
 			<Help>Armor Defense against Infantry</Help>
+			<PediaEntry>Tank Defense against Small Arms Fire</PediaEntry>-->
+			
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
 			<PortraitIndex>9</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_MELEE</PediaType>
-			<PediaEntry>Tank Defense against Small Arms Fire</PediaEntry>
+
 		</Row>
 
 		<Row>
 			<Type>PROMOTION_STRONGVSARMOR888</Type>
+			<!--
 			<Description>Strong against Armor Units 33</Description>
 			<Help>Unit is stronger against armor units</Help>
+			<PediaEntry>Bombers are strong against Armor Units</PediaEntry>-->
+			
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_MELEE</PediaType>
-			<PediaEntry>Bombers are strong against Armor Units</PediaEntry>
+
 		</Row>
 
 		<Row>
 			<Type>PROMOTION_STRONGVSARMOR8882</Type>
+			<!--
 			<Description>Stronger against Armor Units 66</Description>
 			<Help>Unit is stronger against armor units</Help>
+			<PediaEntry>Bombers are stronger against Armor Units</PediaEntry>-->
+
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_MELEE</PediaType>
-			<PediaEntry>Bombers are stronger against Armor Units</PediaEntry>
+
 		</Row>
 
 		<Row>
 			<Type>PROMOTION_STRONGVSARMOR8880</Type>
+			<!--
 			<Description>Strong against Armor Units 10</Description>
 			<Help>Unit is strong against armor units</Help>
+			<PediaEntry>Tank Destroyers are stronger against Armor Units</PediaEntry>-->
+			
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_MELEE</PediaType>
-			<PediaEntry>Tank Destroyers are stronger against Armor Units</PediaEntry>
+
 		</Row>
 
-		
+
 	</UnitPromotions>
 
 	<UnitPromotions_UnitCombats>
@@ -137,9 +164,9 @@
 			<PromotionType>PROMOTION_STRONGVSARMOR8880</PromotionType>
 			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
 		</Row>
-		
-	
-		
+
+
+
 	</UnitPromotions_UnitCombats>
 
 	<UnitPromotions_UnitCombatMods>
@@ -168,531 +195,11 @@
 			<PromotionType>PROMOTION_STRONGVSARMOR8880</PromotionType>
 			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
 		</Row>
-		
+
 	</UnitPromotions_UnitCombatMods>
 
-	<Unit_FreePromotions>
-		<Row>
-			<UnitType>UNIT_M1542_LIGHT_TANK888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_M4A3E8_SHERMAN_TANK888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_A12_MATILDA_II888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PANZER_VI_TIGER_I888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PANZER_IV_AUSF_H888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_T34888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_A7V888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FIAT_3000888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_M1917_LIGHT_TANK888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MK_A_WHIPPET888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_RENAULT_FT17888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_TANK</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_WWI_TANK</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MODERN_ARMOR</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_T90_BATTLETANK888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MERKAVA_BATTLETANK888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_T72_BATTLE_TANK_GENERIC888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_T72_BATTLE_TANK_RUSSIA888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_T72_BATTLE_TANK_PERSIA888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_T72_BATTLE_TANK_INDIA888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_T72_BATTLE_TANK_ARABIA888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_T72_BATTLE_TANK_ALGERIA888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_M1_ABRAMS888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_LEOPARD_2_BATTLETANK888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_CHALLENGER_2_BATTLETANK</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_CENTURION_TANK888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARIETE_BATTLETANK888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AMX_LECLERC_BATTLETANK888</UnitType>
-			<PromotionType>PROMOTION_WEAKVSTANK8881</PromotionType>
-		</Row>
 
 
-
-
-
-
-		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR8882</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SUKHOI_PAK_FA_T50</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SUKHOI_PAK_FA_T50</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR8882</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_YF23</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_USAHARRIER</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHHARRIER</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHHARRIER</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FRENCHRAFALE</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDIANRAFALE</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANRAFALE</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MQ1</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_RUSSIANSU25</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANSU25</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AUSTRIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GERMANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SARABIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AH64</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHAH64</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GREEKAH64</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_JAPAH64</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GREEKA7_CORSAIR_II</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PORTUGALA7_CORSAIR_II</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SIAMA7_CORSAIR_II</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_A7_CORSAIR_II</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_A10_THUNDERBOLT_II</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_A10_THUNDERBOLT_II</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR8882</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AR_234</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_B5252</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_B5252</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR8882</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_F35_LIGHTNING_II55</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_F35_LIGHTNING_II55</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR8882</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GAZELLE</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GAZELLEAT</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_TU95</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_A20_HAVOC123</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_A129_MANGUSTA</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_B24_LIBERATOR88</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_B29_SUPERFORTRESS99</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_DASSAULT_OURAGAN87</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EUROCOPTER_TIGER22</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_F16_FALCON16</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_F16_FALCON16</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR8882</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_F22_RAPTOR22</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_F22_RAPTOR22</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR8882</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MIL_MI888</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MIL_MI888ETHIOPIA</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MIL_MI888INDIA</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MIL_MI888ARABIA</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MIL_MI888AZTEC</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MIL_MI888POLAND</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MIL_MI888DESERT</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MIL_MI888PLAINCOLOR</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MIL_MI888CHINA</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_NAKAJIMA_KIKKA</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SBD_DAUNTLESS44</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_TBF_AVENGER33</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AH1_COBRA888</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AICHI_D3A_VAL</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AVRO_LANCASTER</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_B2_SPIRIT_STEALTH_BOMBER</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_B25_MITCHELL999</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_DASSAULT_MIRAGE_2000888</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_DE_HAVILLAND_MOSQUITO</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_F8_CRUSADER22</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FRENCHF8_CRUSADER22</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_HAWKER_TEMPEST</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ILYUSHIN_IL4</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_HAWKER_TYPHOON33</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_HEINKEL_HE_111888</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_HEINKEL_HE_177888</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_HORTEN_HO_229888</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_JUNKERS_JU_87_STUKA</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_JUNKERS_JU_88</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KAMIKAZE</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MESSERSCHMITT_BF_110888</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MITSUBISHI_KI21</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PANAVIA_TORNADO777</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SAAB_J21</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SAVOIAMARCHETTI_SM84</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SB2C_HJELLDIVER</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_TUPOLEV_TB3</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_TUPOLEV_TU22M33</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_VICKERS_WELLINGTON</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_B1_LANCER888</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SU34_FULLBACK888</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SU34_FULLBACK888</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR8882</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AH1_SEACOBRA888</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AB8B_SEA_HARRIER_II</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_F35_LIGHTNING_II5555</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AICHI_M6A888</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_BOMBER</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AMERICAN_B17</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_WWI_BOMBER</UnitType>
-			<PromotionType>PROMOTION_STRONGVSARMOR888</PromotionType>
-		</Row>
-		
-		
-		
-		
-	
-	</Unit_FreePromotions>
-	
 </GameData>
 
 <!--These entries can be gained from Policies, Wonders, etc.

@@ -87,14 +87,8 @@
 		</Row>
 	</Unit_ClassUpgrades>
 	<Unit_FreePromotions>
-		<Row>
-			<UnitType>UNIT_M3_STUART_LIGHT_TANK888</UnitType>
-			<PromotionType>PROMOTION_CAN_CROSS_MOUNTAINS</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_M3_STUART_LIGHT_TANK888</UnitType>
-			<PromotionType>PROMOTION_CAN_CROSS_ICE</PromotionType>
-		</Row>
+
+
 		<Row>
 			<UnitType>UNIT_M3_STUART_LIGHT_TANK888</UnitType>
 			<PromotionType>PROMOTION_BLITZ</PromotionType>

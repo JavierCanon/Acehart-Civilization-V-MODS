@@ -76,13 +76,7 @@
       <Flavor>7</Flavor>
     </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_SWEDEN</CivilizationType>
-      <UnitClassType>UNITCLASS_WWIIHT888</UnitClassType>
-      <UnitType>UNIT_STRV_81_HEAVY_TANK888</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_STRV_81_HEAVY_TANK888</UnitType>

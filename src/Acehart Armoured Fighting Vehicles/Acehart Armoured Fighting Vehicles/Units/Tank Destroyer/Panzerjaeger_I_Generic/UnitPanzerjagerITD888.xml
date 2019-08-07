@@ -78,14 +78,8 @@
 		</Row>
 	</Unit_ClassUpgrades>
 	<Unit_FreePromotions>
-		<Row>
-			<UnitType>UNIT_PANZERJAGER_I_TD888</UnitType>
-			<PromotionType>PROMOTION_CAN_CROSS_MOUNTAINS</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PANZERJAGER_I_TD888</UnitType>
-			<PromotionType>PROMOTION_CAN_CROSS_ICE</PromotionType>
-		</Row>
+
+
 		<Row>
 			<UnitType>UNIT_PANZERJAGER_I_TD888</UnitType>
 			<PromotionType>PROMOTION_ANTI_TANK</PromotionType>

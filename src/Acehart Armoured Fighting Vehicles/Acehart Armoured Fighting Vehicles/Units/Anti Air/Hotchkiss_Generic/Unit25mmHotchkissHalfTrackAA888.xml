@@ -93,14 +93,8 @@
 			<UnitType>UNIT_25MM_HOTCHKISS_HALFTRACK_AA888</UnitType>
 			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_25MM_HOTCHKISS_HALFTRACK_AA888</UnitType>
-			<PromotionType>PROMOTION_CAN_CROSS_MOUNTAINS</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_25MM_HOTCHKISS_HALFTRACK_AA888</UnitType>
-			<PromotionType>PROMOTION_CAN_CROSS_ICE</PromotionType>
-		</Row>
+
+
 		<Row>
 			<UnitType>UNIT_25MM_HOTCHKISS_HALFTRACK_AA888</UnitType>
 			<PromotionType>PROMOTION_ANTI_AIR</PromotionType>

@@ -1,0 +1,49 @@
+-- DESCRIPTION
+-- Author: JAVIER
+-- DateCreated: 3/13/2019 9:28:25 PM
+--------------------------------------------------------------
+
+Generic Special Forces MOD for all eras.
+
+Real Special Forces for recon or pillage, not super soldiers for use like ordinary infantry like others mods...
+https://www.military.com/special-operations
+
+Special Operations Forces are:
+-    Army Green Berets
+-    Army Night Stalkers
+-    Army Rangers
+-    Navy SEALs
+-    Marine MARSOC
+-    Marine RECON
+-    Marine RECON Missions
+-    Air Force Special Tactics
+
+New Units simulated in game from Atomic Era:
++ Army Green Berets: for pillage.
++ Army Rangers: for scout.
++ Navy SEALs: for pillage and Recon in maritime Special Operations.
++ Air Force Special Tactics: recon, can paradrop virtually in any place.
+
+Ancient units (not yet):
+https://militaryhistorynow.com/2015/02/09/classical-commandos-11-elite-forces-of-the-ancient-world/
+
++ The 300, Spartans.
++ Medjay, scouts from Nubia.
++ Sacred Band of Thebes.
++ The Immortals, Persians. (Already in DLC).
++ Companion Cavalry or Hetairoi, Macedonian.
++ Praetorian Guard, Rome.
++ The Berzerkers, Vikings. (Already in DLC).
++ the Varangians, Nordic Warriors.
++ The Tagma, Byzantine.
++ Guarding Genghis, Mongol. (Already in DLC).
++ Jaguars, Aztec Empire (Already in DLC).
++ Ninja, Japan.
+
+Requeriments:
+* Building Army Special Forces Training Center
+* Building Navy Special Forces Training Center
+* Building Air Force Special Forces Training Center
+
+  
+

@@ -86,18 +86,12 @@
 	</Unit_Flavors>
 
 	<Unit_FreePromotions>
-		<Row>
-			<UnitType>UNIT_WARRIOR_IFV888</UnitType>
-			<PromotionType>PROMOTION_CAN_CROSS_MOUNTAINS</PromotionType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_WARRIOR_IFV888</UnitType>
 			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_WARRIOR_IFV888</UnitType>
-			<PromotionType>PROMOTION_CAN_CROSS_ICE</PromotionType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_WARRIOR_IFV888</UnitType>
 			<PromotionType>PROMOTION_SKI_INFANTRY</PromotionType>
@@ -134,18 +128,8 @@
 			<UnitType>UNIT_WARRIOR_IFV888</UnitType>
 			<PromotionType>PROMOTION_SPAWN_GENERALS_I</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_WARRIOR_IFV888</UnitType>
-			<PromotionType>PROMOTION_IGNORE_PLOT_DAMAGE</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_WARRIOR_IFV888</UnitType>
-			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_WARRIOR_IFV888</UnitType>
-			<PromotionType>PROMOTION_CAN_MOVE_IMPASSABLE</PromotionType>
-		</Row>
+
+
 		<Row>
 			<UnitType>UNIT_WARRIOR_IFV888</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>

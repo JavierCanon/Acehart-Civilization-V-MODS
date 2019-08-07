@@ -76,13 +76,7 @@
       <Flavor>7</Flavor>
     </Row>
   </Unit_Flavors>
-  <Civilization_UnitClassOverrides>
-    <Row>
-      <CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
-      <UnitClassType>UNITCLASS_WWIIHT888</UnitClassType>
-      <UnitType>UNIT_TYPE_5_CHIRI_HEAVY_TANK888</UnitType>
-    </Row>
-  </Civilization_UnitClassOverrides>
+
   <Unit_ClassUpgrades>
     <Row>
       <UnitType>UNIT_TYPE_5_CHIRI_HEAVY_TANK888</UnitType>

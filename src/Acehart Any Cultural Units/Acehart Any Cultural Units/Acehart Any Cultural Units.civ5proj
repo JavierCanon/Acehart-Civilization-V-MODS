@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Deploy" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <ProjectGuid>{52a0468d-bd10-445d-a54a-6f6d56a07121}</ProjectGuid>
+    <Name>Acehart Any Cultural Units</Name>
+    <Guid>047225f3-c401-4112-97f0-84bc76321cf6</Guid>
+    <ModVersion>1</ModVersion>
+    <Stability>Beta</Stability>
+    <Teaser>With this MOD you can create any units of any culture.
+
+This can affect others mods, its better run at last mod, but i think</Teaser>
+    <Description>With this MOD you can create any units of any culture.
+IMPORTANT NOTE:
+This can affect others mods, its better run at last mod, but i think that currently you canot select the order on the mods are started, SO, you can try select-deselect-reselect as your last MOD in the select form. 
+</Description>
+    <Authors>Acehart</Authors>
+    <SpecialThanks>Acehart</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <SupportsMac>true</SupportsMac>
+    <AssemblyName>Acehart Any Cultural Units</AssemblyName>
+    <RootNamespace>Acehart Any Cultural Units</RootNamespace>
+    <ModReferences />
+    <Homepage>http://https://github.com/JavierCanon/Acehart-Civilization-V-MODS</Homepage>
+    <ModActions>
+      <Action xmlns="">
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Units/Units.sql</FileName>
+      </Action>
+    </ModActions>
+    <ModDependencies>
+    </ModDependencies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Package Only' ">
+    <PackageMod>true</PackageMod>
+    <DeployMod>false</DeployMod>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Deploy Only' ">
+    <PackageMod>false</PackageMod>
+    <DeployMod>true</DeployMod>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Units" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DESCRIPTION.txt">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Units\Units.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
+</Project>

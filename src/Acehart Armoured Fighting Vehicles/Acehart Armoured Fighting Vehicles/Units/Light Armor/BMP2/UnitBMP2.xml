@@ -88,18 +88,12 @@
 	
 
 	<Unit_FreePromotions>
-		<Row>
-			<UnitType>UNIT_BMP2888GREEN</UnitType>
-			<PromotionType>PROMOTION_CAN_CROSS_MOUNTAINS</PromotionType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_BMP2888GREEN</UnitType>
 			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_BMP2888GREEN</UnitType>
-			<PromotionType>PROMOTION_CAN_CROSS_ICE</PromotionType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_BMP2888GREEN</UnitType>
 			<PromotionType>PROMOTION_SKI_INFANTRY</PromotionType>

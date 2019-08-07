@@ -21,7 +21,7 @@
 			<Civilopedia>TXT_KEY_UNIT_IS7_SUPER_HEAVY_TANK888_PEDIA</Civilopedia>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_ABRAMS888</GoodyHutUpgradeUnitClass>
 			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
-			<ObsoleteTech>TECH_NANOMATERIALS</ObsoleteTech>
+			<ObsoleteTech>TECH_NANOTECHNOLOGY</ObsoleteTech>
 			<Pillage>true</Pillage>
 			<MoveRate>WHEELED</MoveRate>
 			<Mechanized>true</Mechanized>
@@ -84,14 +84,8 @@
 		</Row>
 	</Unit_ClassUpgrades>
 	<Unit_FreePromotions>
-		<Row>
-			<UnitType>UNIT_IS7_SUPER_HEAVY_TANK888</UnitType>
-			<PromotionType>PROMOTION_CAN_CROSS_MOUNTAINS</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_IS7_SUPER_HEAVY_TANK888</UnitType>
-			<PromotionType>PROMOTION_CAN_CROSS_ICE</PromotionType>
-		</Row>
+
+
 		<Row>
 			<UnitType>UNIT_IS7_SUPER_HEAVY_TANK888</UnitType>
 			<PromotionType>PROMOTION_HEAVY_PAYLOAD</PromotionType>
