@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_OURAGAN87</Type>
-			<Description>Land Based Bomber</Description>
+			<Description>TXT_KEY_UNIT_DASSAULT_OURAGAN87</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

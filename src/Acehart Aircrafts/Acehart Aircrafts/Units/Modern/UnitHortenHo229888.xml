@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_HORTON888</Type>
-			<Description>Sea Based Multirole Fighter/Bomber</Description>
+			<Description>TXT_KEY_UNIT_HORTEN_HO_229888</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

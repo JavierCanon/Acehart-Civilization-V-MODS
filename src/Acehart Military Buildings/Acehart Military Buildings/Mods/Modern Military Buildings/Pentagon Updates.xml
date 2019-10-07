@@ -1,7 +1,7 @@
 <GameData>
 	<Buildings>
 		<Update>
-			<Set Help="The Pentagon Wonder places a free Military Headquarters in the city where it is built, provides +3 [ICON_CULTURE] Culture and +1 [ICON_GREATPEOPLE] Great Merchant points. Finally, it reduces the cost of upgrading units by 33%. Since a Military Headquarters provides a huge XP bonus to units, this is a seriously useful Wonder for any civilization expecting a lot of late-game combat."/>
+			<Set Help="TXT_KEY_BUILDING_PENTAGON_HELP2"/>
 			<Where Type="BUILDING_PENTAGON"/>
 		</Update>
 		<Update>
@@ -13,4 +13,14 @@
 			<Where Type="BUILDING_PENTAGON"/>
 		</Update>
 	</Buildings>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_PENTAGON_HELP2">
+			<Text>The Pentagon Wonder places a free Military Headquarters in the city where it is built, provides +3 [ICON_CULTURE] Culture and +1 [ICON_GREATPEOPLE] Great Merchant points. Finally, it reduces the cost of upgrading units by 33%. Since a Military Headquarters provides a huge XP bonus to units, this is a seriously useful Wonder for any civilization expecting a lot of late-game combat.</Text>
+		</Row>
+
+	</Language_en_US>
+
+
 </GameData>

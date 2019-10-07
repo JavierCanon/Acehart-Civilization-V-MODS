@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_AVENGER33</Type>
-			<Description>Naval Based Ship or Sub Bomber</Description>
+			<Description>TXT_KEY_UNIT_TBF_AVENGER33</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

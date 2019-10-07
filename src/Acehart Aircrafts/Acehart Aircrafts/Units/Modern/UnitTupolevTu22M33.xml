@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_TUPOLEVTU22M33</Type>
-			<Description>Naval Based Bomber</Description>
+			<Description>TXT_KEY_UNIT_TUPOLEV_TU22M33</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

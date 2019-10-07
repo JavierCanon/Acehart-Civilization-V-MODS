@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_USACRUSADER22</Type>
-			<Description>Naval Based Ship or Sub Fighter/Bomber</Description>
+			<Description>TXT_KEY_UNIT_F8_CRUSADER22</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

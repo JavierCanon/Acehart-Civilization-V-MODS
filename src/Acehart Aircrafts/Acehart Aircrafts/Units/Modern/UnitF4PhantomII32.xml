@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_NAVAL_FIGHTER3</Type>
-			<Description>Naval Based Fighter</Description>
+			<Description>TXT_KEY_UNIT_F4_PHANTOM_II</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 		</UnitClasses>
@@ -505,7 +505,7 @@
 		  <Flavor>10</Flavor>
 	  </Row>
 	  <Row>
-		  <UnitType>UNIT_F4_PHANTOM_IIGERMAN</UnitType>
+		  <UnitType>UNIT_F4_PHANTOM_IIGERMANY</UnitType>
 		  <FlavorType>FLAVOR_AIR</FlavorType>
 		  <Flavor>20.0</Flavor>
 	  </Row>

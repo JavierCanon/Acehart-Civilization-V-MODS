@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_VICKERSWELLINGTON</Type>
-			<Description>Land Based Bomber</Description>
+			<Description>TXT_KEY_UNIT_VICKERS_WELLINGTON</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

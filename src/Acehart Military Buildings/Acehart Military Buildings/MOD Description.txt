@@ -3,13 +3,133 @@
 -- DateCreated: 4/30/2014 11:44:50 AM
 --------------------------------------------------------------
 
-MOD STATUS: Alpha.
+MOD STATUS: Beta.
 
-Military buildings for make a wargame from industrial era to informatic era.
+Military buildings for make a wargame from ancient era to informatic era.
 
 Current integrate these mods (i fixed errors that i found in them :b, and all mods need optimization):
 
->>> Modern Military Buildings 1 MOD: <<<
+>>> Ancient Building Pack v3 MOD: <<<
+
+Ancient Training Ground:
+- unlocks at archery
+- +15 EXP to land Units
+- Adds Woodsman promotion to all units
+- 1 GPT
+Farmers Market:
+- unlocks at the wheel
+- +1 Food
+- +1 Gold
+- +1 Food Per 4 People
+- 2 GPT
+Altar:
+-unlocks at Calender
+- +1 Faith
+-Archers Loft:
+-Unlocks at Bronze Working
+- Requires Walls in city
+- +2 Defense
+Game Hunters:
+Unlocks at Archery
+- +1 Food
+- +1 Production
+- +1 Food + Production to Deer
+Fishers:
+Unlocks at Agriculture
+Must be on a river or coast
+- +2 Food
+Scribes:
+Unlocks at Writing
+- 1 GPT
+- +1 Culture
+- +1 Faith
+- +1 science
+
+
+>>> Early Era Archery Buildings v1 <<<
+
+Practice Range:
+-- Archery Tech
+-- Gives the promotion Accuracy I
+-- Increases prduction of ranged units by 10%
+-- Gives no (zero) free experience.
+-- No limit to how many can be built. City-States can build.
+-- costs 1 gold per turn in maintenance but is quick to build.
+-- everything about the Practice Range is intended to make it inexpensive while providing a modest boost to the effectiveness of Archers in the early game. Building far too many of them in the early game will be a losing proposition, though.
+
+Archery Range:
+-- Mathematics Tech
+-- Increases prduction of ranged units by 20%
+-- Gives 10 XP to Ranged units
+-- Requires a Practice Range
+-- No limit to how many can be built. City-States can build.
+-- Costs 3 gold per turn in maintenance and is expensive to purchase.
+
+Artillery Range
+-- Metal Casting Tech
+-- Increases prduction of siege units by 20%
+-- Gives 15 XP to Siege units
+-- Requires an Archery Range
+-- Each Civ can build only 3. City-States are not allowed to build.
+-- Costs 3 gold per turn in maintenance and is really expensive to purchase.
+
+None of these buildings can ever be captured when a city is conquered, so there's no way a player can get an 'extra' artillery range, for example.
+
+
+>>> Defense Pack's  MOD: <<<
+
+Pailsade
+- Unlocks at Construction
++ 3  Defense
+
+Gun Shop
+- Unlocks at Gunpowder
+- requires Armory
+- 1 GPT
+- +2 defense
+
+Modern Gun Shop
+- Unlocks at Replaceable Parts
+- requires Gun Shop
+- 1 GPT
+- +2 defense
+- +2 Gold
+
+Cannon Line
+- 1 GPT
+- +2 Defense
+- 1 Free Cannon
+
+Castle Barracks
+- 1 GPT
+- +2 Defense
+- +15 EXP
+- Requires Castle
+- Requires Barracks
+
+Trenches
+- + 4 Defense
+- -1 Happiness
+
+Sentry
+- +2 Defense
+- +1 Happiness
+- + 10 Exp
+- Requires Military Base
+
+Advanced Sentry
+- +2 Defense
+- + 10 EXP
+- Requires Sentry
+
+M.A.S.H
+-+1 Defense
+- +3 Happiness
+- 2 GPT
+- Requires Military Base
+
+
+>>> Modern Military Buildings v1 MOD: <<<
 
 This mod adds 3 new buildings: 
 
@@ -148,4 +268,5 @@ Joshua Adams
 Kelaris
 midway
 swatmp5
+themightydirtmonkey
 All Modders.

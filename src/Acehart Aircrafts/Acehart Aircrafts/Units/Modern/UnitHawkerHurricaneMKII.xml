@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_HAWKERHURRICANEMKII</Type>
-			<Description>Naval Based Ship or Sub Fighter</Description>
+			<Description>TXT_KEY_UNIT_HAWKER_HURRICANE_MKII</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_MITSUBISHIKI21</Type>
-			<Description>Land Based Bomber</Description>
+			<Description>TXT_KEY_UNIT_MITSUBISHI_KI21</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

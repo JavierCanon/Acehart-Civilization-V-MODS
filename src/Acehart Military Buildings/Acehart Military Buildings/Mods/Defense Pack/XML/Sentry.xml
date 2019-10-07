@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/20/2016 8:57:03 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_SENTRY</Type>
+			<BuildingClass>BUILDINGCLASS_SENTRY</BuildingClass>
+			<Cost>150</Cost>
+			<Help>TXT_KEY_BUILDING_SENTRY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_SENTRY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_SENTRY_TEXT</Civilopedia>
+			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+			<GoldMaintenance>1</GoldMaintenance>
+			<Happiness>1</Happiness>
+			<Defense>200</Defense>
+			<ArtDefineTag>ART_DEF_BUILDING_WALLS</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>350</HurryCostModifier>
+			<DisplayPosition>32</DisplayPosition>
+			<ConquestProb>90</ConquestProb>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_SENTRY</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>10</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SENTRY</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>10</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SENTRY</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>10</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_SENTRY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_SENTRY</Type>
+			<DefaultBuilding>BUILDING_SENTRY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SENTRY</Description>
+		</Row>
+	</BuildingClasses>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_SENTRY_HELP">
+			<Text>The Sentry incrases defense.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SENTRY">
+			<Text>Sentry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SENTRY_TEXT">
+			<Text>Sentry's help defend your city from attack. </Text>
+		</Row>
+
+	</Language_en_US>
+</GameData>

@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_KIKKA1</Type>
-			<Description>Naval Based Bomber</Description>
+			<Description>TXT_KEY_UNIT_NAKAJIMA_KIKKA</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

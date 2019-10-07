@@ -1,17 +1,17 @@
-Acehart Sniper Mod
-
 If anyone finds any type of bug, feels anything is unbalanced, or thinks something needs changing... please post or 
 contact me, and Ill consider it and fix asap.
 
 Based in other mods, so credits to them.
 
 
+----------------------------------------------------------------------------
+2019.10.03 ver. 0.2.0
+ - Rebuilding project
 
 ----------------------------------------------------------------------------
 2014.05.22 ver. 0.1.0
+ - Initial Release
 ----------------------------------------------------------------------------
-Initial Release
-
 
 
 

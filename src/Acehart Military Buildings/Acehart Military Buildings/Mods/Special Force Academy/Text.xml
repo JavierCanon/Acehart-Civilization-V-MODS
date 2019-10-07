@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 4/13/2013 11:25:18 PM -->
+
 <GameData>
-  <!-- TODO: Insert table creation example here. -->
- 
-  <!-- TODO: Insert table data example here.-->
-  
-  <!-- Enter your Game Data here. -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_FOREST_ACADEMY">
 			<Text>Jungler Academy</Text>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/28/2017 9:57:44 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_FARMERS_MARKET</Type>
+			<BuildingClass>BUILDINGCLASS_FARMERS_MARKET</BuildingClass>
+			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
+			<Cost>15</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<Description>TXT_KEY_BUILDING_FARMERS_MARKET</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_FARMERS_MARKET_TEXT</Civilopedia>
+			<Help>TXT_KEY_BUILDING_FARMERS_MARKET_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_FARMERS_MARKET</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>5</HurryCostModifier>
+			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>50</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_FARMERS_MARKET</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FARMERS_MARKET</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_YieldChangesPerPop>
+		<Row>
+			<BuildingType>BUILDING_FARMERS_MARKET</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>25</Yield>
+		</Row>
+	</Building_YieldChangesPerPop>
+	
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_FARMERS_MARKET</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FARMERS_MARKET</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FARMERS_MARKET</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<BuildingClasses>
+	<Row>
+		<Type>BUILDINGCLASS_FARMERS_MARKET</Type>
+		<DefaultBuilding>BUILDING_FARMERS_MARKET</DefaultBuilding>
+		<Description>TXT_KEY_BUILDING_FARMERS_MARKET</Description>
+	</Row>
+	</BuildingClasses>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_FARMERS_MARKET_HELP">
+			<Text>The Farmers Market is a useful building for boosting early game food and gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FARMERS_MARKET">
+			<Text>Farmers Market</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FARMERS_MARKET_TEXT">
+			<Text>Farmers Markets are used to trade food for coin. </Text>
+		</Row>
+
+	</Language_en_US>
+</GameData>

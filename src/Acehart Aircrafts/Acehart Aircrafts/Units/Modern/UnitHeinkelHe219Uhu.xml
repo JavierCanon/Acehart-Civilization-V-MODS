@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_HEINKELHE219UHU</Type>
-			<Description>Naval Based Ship or Sub Fighter</Description>
+			<Description>TXT_KEY_UNIT_HEINKEL_HE_219_UHU</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>
@@ -47,7 +47,7 @@
   <Unit_AITypes>
     <Row>
       <UnitType>UNIT_HEINKEL_HE_219_UHU</UnitType>
-      <UnitAIType>UNITAI_DEFFENSE_AIR</UnitAIType>
+      <UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
     </Row>
     <Row>
       <UnitType>UNIT_HEINKEL_HE_219_UHU</UnitType>

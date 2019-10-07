@@ -36,14 +36,10 @@
 		  <AirUnitCap>1</AirUnitCap>
 		  <MilitaryProduction>true</MilitaryProduction>
 		  <MilitarySupport>true</MilitarySupport>
-		  <DefaultUnitAI>UNITAI_RECON</DefaultUnitAI>
+		  <DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
 	  </Row>
   </Units>
   <Unit_AITypes>
-    <Row>
-      <UnitType>UNIT_SR71_BLACKBIRD</UnitType>
-      <UnitAIType>UNITAI_RECON</UnitAIType>
-    </Row>
     <Row>
       <UnitType>UNIT_SR71_BLACKBIRD</UnitType>
       <UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>

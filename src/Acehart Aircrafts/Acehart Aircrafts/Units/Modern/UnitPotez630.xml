@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_POTEZ630</Type>
-			<Description>Naval Based Ship or Sub Fighter</Description>
+			<Description>TXT_KEY_UNIT_POTEZ_630</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>
@@ -70,11 +70,7 @@
       <FlavorType>FLAVOR_OFFENSE</FlavorType>
       <Flavor>8</Flavor>
     </Row>
-	  <Row>
-		  <UnitType>UNIT_POTEZ_630</UnitType>
-		  <FlavorType>FLAVOR_DEFFENSE</FlavorType>
-		  <Flavor>8</Flavor>
-	  </Row>
+	  
   </Unit_Flavors>
   
   <Unit_ClassUpgrades>

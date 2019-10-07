@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/19/2016 3:05:34 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_PALISADE</Type>
+			<BuildingClass>BUILDINGCLASS_PALISADE</BuildingClass>
+			<Cost>50</Cost>
+			<Help>TXT_KEY_BUILDING_PALISADE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_PALISADE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PALISADE_TEXT</Civilopedia>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<Defense>300</Defense>
+			<ArtDefineTag>ART_DEF_BUILDING_WALLS</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>80</HurryCostModifier>
+			<DisplayPosition>32</DisplayPosition>
+			<ConquestProb>90</ConquestProb>
+			<IconAtlas>NEB_BW_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_PALISADE</Type>
+			<DefaultBuilding>BUILDING_PALISADE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_PALISADE</Description>
+		</Row>
+	</BuildingClasses>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_PALISADE_HELP">
+			<Text>The Palisade is a good way to gain some early defense.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALISADE">
+			<Text>Palisade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PALISADE_TEXT">
+			<Text>As Technology grew, so did our defensive structures. </Text>
+		</Row>
+
+	</Language_en_US>
+</GameData>

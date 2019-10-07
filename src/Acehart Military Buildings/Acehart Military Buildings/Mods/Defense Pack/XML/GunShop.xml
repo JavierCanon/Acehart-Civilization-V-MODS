@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/19/2016 3:04:58 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_GUN_SHOP</Type>
+			<BuildingClass>BUILDINGCLASS_GUN_SHOP</BuildingClass>
+			<Cost>125</Cost>
+			<Help>TXT_KEY_BUILDING_GUN_SHOP_HELP</Help>
+			<Description>TXT_KEY_BUILDING_GUN_SHOP</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_GUN_SHOP_TEXT</Civilopedia>
+			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
+			<GoldMaintenance>1</GoldMaintenance>
+			<Defense>200</Defense>
+			<ArtDefineTag>ART_DEF_BUILDING_MILITARY_ACADEMY</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>250</HurryCostModifier>
+			<DisplayPosition>32</DisplayPosition>
+			<ConquestProb>90</ConquestProb>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_GUN_SHOP</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_GUN_SHOP</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_GUN_SHOP</Type>
+			<DefaultBuilding>BUILDING_GUN_SHOP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_GUN_SHOP</Description>
+		</Row>
+	</BuildingClasses>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_GUN_SHOP_HELP">
+			<Text>The Gun Shop incrases defense by 2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GUN_SHOP">
+			<Text>Gun Shop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GUN_SHOP_TEXT">
+			<Text>As the world became more violent, people started buying guns to defend themselves. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

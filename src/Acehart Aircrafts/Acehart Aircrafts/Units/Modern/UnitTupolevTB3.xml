@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_TUPOLEVTB3</Type>
-			<Description>Land Based Bomber</Description>
+			<Description>TXT_KEY_UNIT_TUPOLEV_TB3</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

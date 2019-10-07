@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_AICHID3AVAL</Type>
-			<Description>Naval Based Ship or Sub Bomber</Description>
+			<Description>TXT_KEY_UNIT_AICHI_D3A_VAL</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

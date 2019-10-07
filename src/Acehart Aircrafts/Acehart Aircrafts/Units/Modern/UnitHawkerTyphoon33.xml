@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_TYPHOON33</Type>
-			<Description>Naval Based Ship or Sub Bomber</Description>
+			<Description>TXT_KEY_UNIT_HAWKER_TYPHOON33</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

@@ -5,8 +5,8 @@
     <ProjectGuid>{fae33b05-a7a1-47e5-a6ca-f30a9768309a}</ProjectGuid>
     <Name>Acehart Aircrafts</Name>
     <Guid>9db2560c-79bf-4913-8a59-9fce2c4c9a8b</Guid>
-    <ModVersion>1</ModVersion>
-    <Stability>Alpha</Stability>
+    <ModVersion>2</ModVersion>
+    <Stability>Beta</Stability>
     <Teaser>Generic Aircrafts mod for all eras.
 
 1. Figther
@@ -15,8 +15,10 @@
 5. Interceptor
 6. Heavy Bomber
 7. Spy</Teaser>
-    <Description>MOD STATUS: Alpha. Run in Directx 11 mode.
+    <Description>MOD STATUS: Beta. Run in Directx 11 mode.
 Generic Aircrafts mod for all eras. No cultural, you can build any.
+
+You need oil, aluminium and or iron for you can build any.
 
 If want helicopters, check my Helicopters Mod.
 

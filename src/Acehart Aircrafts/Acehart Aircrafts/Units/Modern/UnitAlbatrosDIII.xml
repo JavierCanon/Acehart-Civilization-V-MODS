@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_ALBATROSDIII</Type>
-			<Description>Naval Based Ship or Sub Fighter</Description>
+			<Description>TXT_KEY_UNIT_ALBATROS_DIII</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

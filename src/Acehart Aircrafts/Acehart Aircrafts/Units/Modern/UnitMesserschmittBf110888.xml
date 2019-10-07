@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_MSBF110888</Type>
-			<Description>Land Based Fighter/Bomber</Description>
+			<Description>TXT_KEY_UNIT_MESSERSCHMITT_BF_110888</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

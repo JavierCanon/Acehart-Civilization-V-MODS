@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# ModBuddy Solution File, Format Version 11.00
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Acehart Military Buildings", "Acehart Military Buildings\Acehart Military Buildings.civ5proj", "{F7744D58-138E-45E7-8FFC-6B768C208D4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|x86 = Default|x86
+		Deploy Only|x86 = Deploy Only|x86
+		Package Only|x86 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7744D58-138E-45E7-8FFC-6B768C208D4F}.Default|x86.ActiveCfg = Default|x86
+		{F7744D58-138E-45E7-8FFC-6B768C208D4F}.Default|x86.Build.0 = Default|x86
+		{F7744D58-138E-45E7-8FFC-6B768C208D4F}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{F7744D58-138E-45E7-8FFC-6B768C208D4F}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{F7744D58-138E-45E7-8FFC-6B768C208D4F}.Package Only|x86.ActiveCfg = Package Only|x86
+		{F7744D58-138E-45E7-8FFC-6B768C208D4F}.Package Only|x86.Build.0 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

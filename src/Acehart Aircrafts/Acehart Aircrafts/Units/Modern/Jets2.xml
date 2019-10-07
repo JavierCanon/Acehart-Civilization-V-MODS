@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 2/22/2015 2:54:22 PM -->
+
 <GameData>
+
 	<Units>
 		<Row>
 			<Class>UNITCLASS_NAVAL_BOMBER</Class>
@@ -16,7 +17,7 @@
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>F/A-18C Hornet</Description>
+			<Description>TXT_KEY_UNIT_FA-18</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_FA-18_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_FA-18_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_FA-18</Help>
@@ -50,7 +51,7 @@
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>YF-23 Black Widow II</Description>
+			<Description>TXT_KEY_UNIT_YF23</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_YF23_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_YF23_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_YF23</Help>
@@ -84,7 +85,7 @@
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>MiG-29 Fulcrum</Description>
+			<Description>TXT_KEY_UNIT_MIG29</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MIG29_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MIG29_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_MIG29</Help>
@@ -118,7 +119,7 @@
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>MiG-29 Fulcrum</Description>
+			<Description>TXT_KEY_UNIT_MIG29</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MIG29_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MIG29_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_MIG29</Help>
@@ -152,7 +153,7 @@
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>MiG-29 Fulcrum</Description>
+			<Description>TXT_KEY_UNIT_MIG29</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MIG29_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MIG29_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_MIG29</Help>
@@ -186,7 +187,7 @@
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>MiG-29 Fulcrum</Description>
+			<Description>TXT_KEY_UNIT_MIG29</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MIG29_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MIG29_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_MIG29</Help>
@@ -220,7 +221,7 @@
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>MiG-29 Fulcrum</Description>
+			<Description>TXT_KEY_UNIT_MIG29</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MIG29_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MIG29_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_MIG29</Help>
@@ -254,7 +255,7 @@
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>MiG-29 Fulcrum</Description>
+			<Description>TXT_KEY_UNIT_MIG29</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MIG29_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MIG29_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_MIG29</Help>
@@ -287,7 +288,7 @@
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>AV-8B Harrier II</Description>
+			<Description>TXT_KEY_UNIT_HARRIER</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_HARRIER_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_HARRIER_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_HARRIER</Help>
@@ -320,7 +321,7 @@
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>AV-8B Harrier II</Description>
+			<Description>TXT_KEY_UNIT_HARRIER</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_HARRIER_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_HARRIER_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_HARRIER</Help>
@@ -353,7 +354,7 @@
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>AV-8B Harrier II</Description>
+			<Description>TXT_KEY_UNIT_HARRIER</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_HARRIER_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_HARRIER_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_HARRIER</Help>
@@ -386,7 +387,7 @@
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>AV-8B Harrier II</Description>
+			<Description>TXT_KEY_UNIT_HARRIER</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_HARRIER_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_HARRIER_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_HARRIER</Help>
@@ -420,7 +421,7 @@
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
-			<Description>Dassault Rafale</Description>
+			<Description>TXT_KEY_UNIT_RAFALE</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_RAFALE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_RAFALE_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_RAFALE</Help>
@@ -454,7 +455,7 @@
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
-			<Description>Dassault Rafale</Description>
+			<Description>TXT_KEY_UNIT_RAFALE</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_RAFALE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_RAFALE_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_RAFALE</Help>
@@ -488,7 +489,7 @@
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
-			<Description>Dassault Rafale</Description>
+			<Description>TXT_KEY_UNIT_RAFALE</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_RAFALE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_RAFALE_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_RAFALE</Help>
@@ -521,7 +522,7 @@
 			<Immobile>true</Immobile>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>MQ1 Predator UAV</Description>
+			<Description>TXT_KEY_UNIT_MQ1</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MQ1_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MQ1_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_MQ1</Help>
@@ -543,7 +544,7 @@
 		</Row>
 		<Row>
 			<Type>UNIT_RUSSIANSU25</Type>
-			<Description>SU-25 Frogfoot</Description>
+			<Description>TXT_KEY_UNIT_SU25</Description>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<Special>SPECIALUNIT_STEALTH</Special>
@@ -579,7 +580,7 @@
 		</Row>
 		<Row>
 			<Type>UNIT_KOREANSU25</Type>
-			<Description>SU-25 Frogfoot</Description>
+			<Description>TXT_KEY_UNIT_SU25</Description>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<Special>SPECIALUNIT_STEALTH</Special>
@@ -607,7 +608,7 @@
 			<AirUnitCap>1</AirUnitCap>
 			<MilitaryProduction>true</MilitaryProduction>
 			<MilitarySupport>true</MilitarySupport>
-			<DefaultUnitAI>UNITAI_ASSULT_AIR</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
 			<XPValueAttack>4</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
@@ -615,7 +616,7 @@
 		</Row>
 		<Row>
 			<Type>UNIT_AUSTRIANEUROFIGHTER</Type>
-			<Description>Eurofighter Typhoon</Description>
+			<Description>TXT_KEY_UNIT_EUROFIGHTER33</Description>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<Special>SPECIALUNIT_STEALTH</Special>
@@ -650,7 +651,7 @@
 		</Row>
 		<Row>
 			<Type>UNIT_GERMANEUROFIGHTER</Type>
-			<Description>Eurofighter Typhoon</Description>
+			<Description>TXT_KEY_UNIT_EUROFIGHTER33</Description>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<Special>SPECIALUNIT_STEALTH</Special>
@@ -685,7 +686,7 @@
 		</Row>
 		<Row>
 			<Type>UNIT_ITALIANEUROFIGHTER</Type>
-			<Description>Eurofighter Typhoon</Description>
+			<Description>TXT_KEY_UNIT_EUROFIGHTER33</Description>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<Special>SPECIALUNIT_STEALTH</Special>
@@ -720,7 +721,7 @@
 		</Row>
 		<Row>
 			<Type>UNIT_SARABIANEUROFIGHTER</Type>
-			<Description>Eurofighter Typhoon</Description>
+			<Description>TXT_KEY_UNIT_EUROFIGHTER33</Description>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<Special>SPECIALUNIT_STEALTH</Special>
@@ -755,7 +756,7 @@
 		</Row>
 		<Row>
 			<Type>UNIT_SPANISHEUROFIGHTER</Type>
-			<Description>Eurofighter Typhoon</Description>
+			<Description>TXT_KEY_UNIT_EUROFIGHTER33</Description>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<Special>SPECIALUNIT_STEALTH</Special>
@@ -790,7 +791,7 @@
 		</Row>
 		<Row>
 			<Type>UNIT_ENGLISHEUROFIGHTER</Type>
-			<Description>Eurofighter Typhoon</Description>
+			<Description>TXT_KEY_UNIT_EUROFIGHTER33</Description>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<Special>SPECIALUNIT_STEALTH</Special>
@@ -837,7 +838,7 @@
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
-			<Description>F-14 Tomcat</Description>
+			<Description>TXT_KEY_UNIT_F-14</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_F-14_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_F-14_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_F-14</Help>
@@ -872,7 +873,7 @@
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
-			<Description>MiG-15 Fagot</Description>
+			<Description>TXT_KEY_UNIT_MIG15</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MIG15_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MIG15_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_MIG15</Help>
@@ -906,7 +907,7 @@
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>F-117 Nighthawk</Description>
+			<Description>TXT_KEY_UNIT_F117</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_F117_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_F117_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_F117</Help>
@@ -1789,14 +1790,8 @@
 			<UnitType>UNIT_USAHARRIER</UnitType>
 			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_USAHARRIER</UnitType>
-			<PromotionType>PROMOTION_AIR_BOMBARDMENT_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_USAHARRIER</UnitType>
-			<PromotionType>PROMOTION_AIR_BOMBARDMENT_2</PromotionType>
-		</Row>
+
+
 		<Row>
 			<UnitType>UNIT_USAHARRIER</UnitType>
 			<PromotionType>PROMOTION_AIR_AMBUSH_1</PromotionType>
@@ -1817,14 +1812,8 @@
 			<UnitType>UNIT_ITALIANHARRIER</UnitType>
 			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANHARRIER</UnitType>
-			<PromotionType>PROMOTION_AIR_BOMBARDMENT_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANHARRIER</UnitType>
-			<PromotionType>PROMOTION_AIR_BOMBARDMENT_2</PromotionType>
-		</Row>
+
+
 		<Row>
 			<UnitType>UNIT_ITALIANHARRIER</UnitType>
 			<PromotionType>PROMOTION_AIR_AMBUSH_1</PromotionType>
@@ -1845,14 +1834,7 @@
 			<UnitType>UNIT_SPANISHHARRIER</UnitType>
 			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHHARRIER</UnitType>
-			<PromotionType>PROMOTION_AIR_BOMBARDMENT_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHHARRIER</UnitType>
-			<PromotionType>PROMOTION_AIR_BOMBARDMENT_2</PromotionType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_SPANISHHARRIER</UnitType>
 			<PromotionType>PROMOTION_AIR_AMBUSH_1</PromotionType>
@@ -1873,14 +1855,7 @@
 			<UnitType>UNIT_ENGLISHHARRIER</UnitType>
 			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHHARRIER</UnitType>
-			<PromotionType>PROMOTION_AIR_BOMBARDMENT_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHHARRIER</UnitType>
-			<PromotionType>PROMOTION_AIR_BOMBARDMENT_2</PromotionType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_ENGLISHHARRIER</UnitType>
 			<PromotionType>PROMOTION_AIR_AMBUSH_1</PromotionType>
@@ -1980,118 +1955,6 @@
 		<Row>
 			<UnitType>UNIT_EGYPTIANRAFALE</UnitType>
 			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AH64</UnitType>
-			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AH64</UnitType>
-			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AH64</UnitType>
-			<PromotionType>PROMOTION_AIR_AMBUSH_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AH64</UnitType>
-			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AH64</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AH64</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_2</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AH64</UnitType>
-			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHAH64</UnitType>
-			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHAH64</UnitType>
-			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHAH64</UnitType>
-			<PromotionType>PROMOTION_AIR_AMBUSH_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHAH64</UnitType>
-			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHAH64</UnitType>
-			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHAH64</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHAH64</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_2</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GREEKAH64</UnitType>
-			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GREEKAH64</UnitType>
-			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GREEKAH64</UnitType>
-			<PromotionType>PROMOTION_AIR_AMBUSH_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GREEKAH64</UnitType>
-			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GREEKAH64</UnitType>
-			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GREEKAH64</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GREEKAH64</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_2</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GREEKAH64</UnitType>
-			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_JAPAH64</UnitType>
-			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_JAPAH64</UnitType>
-			<PromotionType>PROMOTION_AIR_AMBUSH_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_JAPAH64</UnitType>
-			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_JAPAH64</UnitType>
-			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_JAPAH64</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_JAPAH64</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_2</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MQ1</UnitType>
@@ -2161,10 +2024,7 @@
 			<UnitType>UNIT_RUSSIANSU25</UnitType>
 			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_RUSSIANSU25</UnitType>
-			<PromotionType>PROMOTION_AIR_BOMBARDMENT_1</PromotionType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_RUSSIANMIG29</UnitType>
 			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
@@ -2597,10 +2457,7 @@
 			<UnitType>UNIT_KOREANSU25</UnitType>
 			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANSU25</UnitType>
-			<PromotionType>PROMOTION_AIR_BOMBARDMENT_1</PromotionType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_F-14</UnitType>
 			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
@@ -2674,6 +2531,7 @@
 			<PromotionType>PROMOTION_AIR_AMBUSH_1</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
+
 	<Unit_ResourceQuantityRequirements>
 		<Row>
 			<UnitType>UNIT_FA-18</UnitType>
@@ -2895,22 +2753,8 @@
 			<UnitType>UNIT_KOREANSU25</UnitType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_AH64</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHAH64</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GREEKAH64</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_JAPAH64</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
+
+
 	</Unit_ResourceQuantityRequirements>
 
 	<IconTextureAtlases>
@@ -3243,26 +3087,8 @@
 			<DamageStates>1</DamageStates>
 			<Formation>BomberWing</Formation>
 		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_AH64</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>FighterWing</Formation>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_ENGLISHAH64</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>FighterWing</Formation>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_GREEKAH64</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>FighterWing</Formation>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_JAPAH64</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>FighterWing</Formation>
-		</Row>
+
+
 		<Row>
 			<Type>ART_DEF_UNIT_MQ1</Type>
 			<DamageStates>1</DamageStates>
@@ -3400,26 +3226,8 @@
 			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_EGYPTIANRAFALE</UnitMemberInfoType>
 			<NumMembers>2</NumMembers>
 		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_AH64</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_AH64</UnitMemberInfoType>
-			<NumMembers>1</NumMembers>
-		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_ENGLISHAH64</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_ENGLISHAH64</UnitMemberInfoType>
-			<NumMembers>1</NumMembers>
-		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_GREEKAH64</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_GREEKAH64</UnitMemberInfoType>
-			<NumMembers>1</NumMembers>
-		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_JAPAH64</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_JAPAH64</UnitMemberInfoType>
-			<NumMembers>1</NumMembers>
-		</Row>
+
+
 		<Row>
 			<UnitInfoType>ART_DEF_UNIT_MQ1</UnitInfoType>
 			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_MQ1</UnitMemberInfoType>

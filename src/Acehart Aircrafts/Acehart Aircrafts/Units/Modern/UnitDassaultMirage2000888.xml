@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_MIRAGE2000888</Type>
-			<Description>Land Based Multi-Role Fighter/Bomber</Description>
+			<Description>TXT_KEY_UNIT_DASSAULT_MIRAGE_2000888</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

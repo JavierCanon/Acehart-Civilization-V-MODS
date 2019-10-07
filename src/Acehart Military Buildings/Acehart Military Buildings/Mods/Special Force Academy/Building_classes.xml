@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 4/13/2013 11:24:55 PM -->
+
 <GameData>
-	<!-- TODO: Insert table creation example here. -->
-
-	<!-- TODO: Insert table data example here.-->
-
-	<!-- Enter your Game Data here. -->
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_MARINE_ACADEMY</Type>
@@ -19,11 +14,11 @@
 			<Description>TXT_KEY_BUILDING_FOREST_ACADEMY</Description>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
-		<!-- <Row>
+		<Row>
 			<Type>BUILDINGCLASS_MOUNT_BLADE</Type>
 			<DefaultBuilding>BUILDING_MOUNT_BLADE</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_MOUNT_BLADE</Description>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
-		</Row> -->
+		</Row> 
 	</BuildingClasses>
 </GameData>

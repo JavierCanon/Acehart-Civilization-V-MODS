@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_HAVOC123</Type>
-			<Description>Land Based Bomber</Description>
+			<Description>TXT_KEY_UNIT_A20_HAVOC123</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>
@@ -24,7 +24,7 @@
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
-			<SpecialCargo>SPECIALUNIT_STEALTH</SpecialCargo>
+
 			<Strategy>TXT_KEY_UNIT_A20_HAVOC123_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_A20_HAVOC123_HELP</Help>
 			<Civilopedia>TXT_KEY_UNIT_A20_HAVOC123_PEDIA</Civilopedia>

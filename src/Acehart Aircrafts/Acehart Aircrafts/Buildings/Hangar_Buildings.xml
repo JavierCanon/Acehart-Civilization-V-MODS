@@ -4,7 +4,7 @@
 		<Row>
 			<Type>BUILDINGCLASS_HANGAR</Type>
 			<DefaultBuilding>BUILDING_HANGAR</DefaultBuilding>
-			<Description>Military Aircraft Hangar</Description>
+			<Description>TXT_KEY_BUILDING_HANGAR</Description>
 			<MaxPlayerInstances>5</MaxPlayerInstances>
 		</Row>
 	</BuildingClasses>
@@ -15,11 +15,11 @@
 			<Cost>800</Cost>
 			<GoldMaintenance>15</GoldMaintenance>
 			<PrereqTech>TECH_FLIGHT</PrereqTech>
-			<Description>Military Aircraft Hangar</Description>
-			<Civilopedia>A hangar is a closed building structure to hold aircraft or spacecraft in protective storage. Most hangars are built of metal, but other materials such as wood and concrete are also used. The word hangar comes from Middle French hanghart ("enclosure near a house"), of Germanic origin, from Frankish *haimgard ("home-enclosure", "fence around a group of houses"), from *haim ("home, village, hamlet") + gard ("yard").[NEWLINE]Hangars are used for: protection from the weather, protection from direct sunlight, maintenance, repair, manufacture, assembly and storage of aircraft on airfields, aircraft carriers and ships.</Civilopedia>
-			<Strategy>The military hangar provides +100 experience for newly created fighters and bombers[NEWLINE]It also increased the number of air units per city by +2, and increased air unit production speed by +50, Can only  build 5 Hangars per Civilization</Strategy>
-			<Help>The military hangar provides +100 experience for newly created fighters and bombers[NEWLINE]It also increased the number of air units per city by +2, and increased air unit production speed by +50[NEWLINE]Can only  build 5 Hangars per Civilization</Help>
-			<Quote>If you can walk away from a landing, it's a good landing. If you use the airplane the next day, it's an outstanding landing."[NEWLINE] - Chuck Yeager[NEWLINE]</Quote>
+			<Description>TXT_KEY_BUILDING_HANGAR</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HANGAR_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HANGAR_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_HANGAR_HELP</Help>
+			<Quote>TXT_KEY_BUILDING_HANGAR_QUOTE</Quote>
 			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<FreePromotion>PROMOTION_DOGFIGHTING_1</FreePromotion>
@@ -120,4 +120,23 @@
 			<IconsPerColumn>1</IconsPerColumn>
 		</Row>
 	</IconTextureAtlases>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_HANGAR">
+			<Text>Military Aircraft Hangar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HANGAR_STRATEGY">
+			<Text>The military hangar provides +100 experience for newly created fighters and bombers[NEWLINE]It also increased the number of air units per city by +2, and increased air unit production speed by +50, Can only  build 5 Hangars per Civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HANGAR_HELP">
+			<Text>The military hangar provides +100 experience for newly created fighters and bombers[NEWLINE]It also increased the number of air units per city by +2, and increased air unit production speed by +50[NEWLINE]Can only  build 5 Hangars per Civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HANGAR_QUOTE">
+			<Text>If you can walk away from a landing, it's a good landing. If you use the airplane the next day, it's an outstanding landing."[NEWLINE] - Chuck Yeager[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HANGAR_PEDIA">
+			<Text>A hangar is a closed building structure to hold aircraft or spacecraft in protective storage. Most hangars are built of metal, but other materials such as wood and concrete are also used. The word hangar comes from Middle French hanghart ("enclosure near a house"), of Germanic origin, from Frankish *haimgard ("home-enclosure", "fence around a group of houses"), from *haim ("home, village, hamlet") + gard ("yard").[NEWLINE]Hangars are used for: protection from the weather, protection from direct sunlight, maintenance, repair, manufacture, assembly and storage of aircraft on airfields, aircraft carriers and ships.</Text>
+		</Row>	
+	</Language_en_US>
+
 </GameData>

@@ -292,6 +292,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Animations\" />
+    <Folder Include="Buildings" />
     <Folder Include="Promotions" />
     <Folder Include="Units" />
     <Folder Include="Units\Air Force Special Tactics\Art" />

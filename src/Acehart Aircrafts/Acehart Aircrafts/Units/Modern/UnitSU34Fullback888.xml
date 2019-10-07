@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_FULLBACK888</Type>
-			<Description>Multirole Land Based Fighter-Bomber</Description>
+			<Description>TXT_KEY_UNIT_SU34_FULLBACK888</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>
@@ -172,10 +172,7 @@
 		  <UnitType>UNIT_SU34_FULLBACK888</UnitType>
 		  <PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
 	  </Row>
-	  <Row>
-		  <UnitType>UNIT_SU34_FULLBACK888</UnitType>
-		  <PromotionType>PROMOTION_AIR_BOMBARDMENT_1</PromotionType>
-	  </Row>
+
 	  <Row>
 		  <UnitType>UNIT_SU34_FULLBACK888</UnitType>
 		  <PromotionType>PROMOTION_AIR_AMBUSH_1</PromotionType>

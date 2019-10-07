@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_ADVANCED_SENTRY</Type>
+			<BuildingClass>BUILDINGCLASS_ADVANCED_SENTRY</BuildingClass>
+			<Cost>200</Cost>
+			<Help>TXT_KEY_BUILDING_ADVANCED_SENTRY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_ADVANCED_SENTRY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ADVANCED_SENTRY_TEXT</Civilopedia>
+			<PrereqTech>TECH_ROCKETRY</PrereqTech>
+			<GoldMaintenance>1</GoldMaintenance>
+			<Defense>200</Defense>
+			<ArtDefineTag>ART_DEF_BUILDING_CASTLE</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>450</HurryCostModifier>
+			<DisplayPosition>32</DisplayPosition>
+			<ConquestProb>90</ConquestProb>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_ADVANCED_SENTRY</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>10</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ADVANCED_SENTRY</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>10</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ADVANCED_SENTRY</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>10</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_ADVANCED_SENTRY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SENTRY</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_ADVANCED_SENTRY</Type>
+			<DefaultBuilding>BUILDING_ADVANCED_SENTRY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ADVANCED_SENTRY</Description>
+		</Row>
+	</BuildingClasses>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_ADVANCED_SENTRY_HELP">
+			<Text>The Advanced Sentry is an upgrade for the castle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ADVANCED_SENTRY">
+			<Text>Advanced Sentry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_ADVANCED_SENTRY_TEXT">
+			<Text>As technology improved so did the roles of sentrys to the defense of Castles. </Text>
+		</Row>
+
+	</Language_en_US>
+</GameData>

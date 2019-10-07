@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_SB2CHELLDIVER</Type>
-			<Description>Naval Based Ship or Sub Fighter</Description>
+			<Description>TXT_KEY_UNIT_SB2C_HJELLDIVER</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

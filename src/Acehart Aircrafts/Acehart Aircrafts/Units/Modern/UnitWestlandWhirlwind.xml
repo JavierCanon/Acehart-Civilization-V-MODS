@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_WESTLANDWHIRLWIND</Type>
-			<Description>Land based Fighter</Description>
+			<Description>TXT_KEY_UNIT_WESTLAND_WHIRLWIND</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

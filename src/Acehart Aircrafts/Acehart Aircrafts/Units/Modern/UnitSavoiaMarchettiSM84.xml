@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_SAVOIAMARCHETTISM84</Type>
-			<Description>Naval Based Ship or Sub Bomber</Description>
+			<Description>TXT_KEY_UNIT_SAVOIAMARCHETTI_SM84</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

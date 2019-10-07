@@ -24,6 +24,11 @@ New Units simulated in game from Atomic Era:
 + Navy SEALs: for pillage and Recon in maritime Special Operations.
 + Air Force Special Tactics: recon, can paradrop virtually in any place.
 
+Requeriments, new buildings:
+* Building Army Special Forces Training Center
+* Building Navy Special Forces Training Center
+* Building Air Force Special Forces Training Center
+
 Ancient units (not yet):
 https://militaryhistorynow.com/2015/02/09/classical-commandos-11-elite-forces-of-the-ancient-world/
 
@@ -39,11 +44,3 @@ https://militaryhistorynow.com/2015/02/09/classical-commandos-11-elite-forces-of
 + Guarding Genghis, Mongol. (Already in DLC).
 + Jaguars, Aztec Empire (Already in DLC).
 + Ninja, Japan.
-
-Requeriments:
-* Building Army Special Forces Training Center
-* Building Navy Special Forces Training Center
-* Building Air Force Special Forces Training Center
-
-  
-

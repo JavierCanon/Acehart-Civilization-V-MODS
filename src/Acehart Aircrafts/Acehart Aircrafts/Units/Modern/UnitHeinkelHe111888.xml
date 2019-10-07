@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_HEINKELHE1115</Type>
-			<Description>Land Based Medium Bomber</Description>
+			<Description>TXT_KEY_UNIT_HEINKEL_HE_111888</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

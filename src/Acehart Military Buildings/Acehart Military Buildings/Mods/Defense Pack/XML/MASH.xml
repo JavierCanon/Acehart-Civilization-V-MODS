@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/20/2016 8:57:51 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_MASH</Type>
+			<BuildingClass>BUILDINGCLASS_MASH</BuildingClass>
+			<Cost>160</Cost>
+			<Help>TXT_KEY_BUILDING_MASH_HELP</Help>
+			<Description>TXT_KEY_BUILDING_MASH</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MASH_TEXT</Civilopedia>
+			<Quote>TXT_KEY_CIV5_BUILDINGS_MASH_QUOTE</Quote>
+			<PrereqTech>TECH_RADIO</PrereqTech>
+			<Happiness>3</Happiness>
+			<Defense>100</Defense>
+			<GoldMaintenance>2</GoldMaintenance>
+			<ArtDefineTag>ART_DEF_BUILDING_CASTLE</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>300</HurryCostModifier>
+			<DisplayPosition>32</DisplayPosition>
+			<ConquestProb>90</ConquestProb>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_MASH</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_MASH</Type>
+			<DefaultBuilding>BUILDING_MASH</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MASH</Description>
+		</Row>
+	</BuildingClasses>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_MASH_HELP">
+			<Text>The MASH greatly increases happiness and slightly increases defense.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MASH">
+			<Text>M.A.S.H.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MASH_TEXT">
+			<Text>A MASH unit is a greatly effective building to increase happiness. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MASH_QUOTE">
+			<Text>"War isn't Hell. War is war, and Hell is Hell. And of the two, war is a lot worse." - Captian Benjamin Franklin “Hawkeye” Pierce MASH 4077</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

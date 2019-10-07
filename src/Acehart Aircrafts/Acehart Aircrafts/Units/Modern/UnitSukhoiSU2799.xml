@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_FLANKER1</Type>
-			<Description>Land Based Fighter</Description>
+			<Description>TXT_KEY_UNIT_SUKHOI_SU2799</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

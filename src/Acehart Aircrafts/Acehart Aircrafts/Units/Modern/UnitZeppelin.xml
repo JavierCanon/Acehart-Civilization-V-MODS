@@ -3,12 +3,12 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_ZEPPELIN</Type>
-			<Description>Rigid Air Ship</Description>
+			<Description>TXT_KEY_UNIT_ZEPPELIN</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 		<Row>
 			<Type>UNITCLASS_ZEPPELINUSA1</Type>
-			<Description>Rigid Air Ship</Description>
+			<Description>TXT_KEY_UNIT_ZEPPELIN</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

@@ -1,11 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 2012-09-07 오후 6:01:22 -->
 <GameData>
-  <!-- TODO: Insert table creation example here. -->
- 
-  <!-- TODO: Insert table data example here.-->
-  
-  <!-- Enter your Game Data here. -->
+
 	<IconTextureAtlases>
 		<Row>
 			<Atlas>ICON_ATLAS_JUNGLE</Atlas>

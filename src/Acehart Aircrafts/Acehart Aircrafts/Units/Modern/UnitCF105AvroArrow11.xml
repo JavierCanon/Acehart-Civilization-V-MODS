@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_AVROARROW1</Type>
-			<Description>Land Based Fighter</Description>
+			<Description>TXT_KEY_UNIT_CF105_AVRO_ARROW11</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

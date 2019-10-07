@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_PAKT50</Type>
-			<Description>Land Based Fighter</Description>
+			<Description>TXT_KEY_UNIT_SUKHOI_PAK_FA_T50</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

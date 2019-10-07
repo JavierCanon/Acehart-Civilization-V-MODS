@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_ANCIENT_TRAINING_GROUND</Type>
+			<BuildingClass>BUILDINGCLASS_ANCIENT_TRAINING_GROUND</BuildingClass>
+			<Cost>30</Cost>
+			<Help>TXT_KEY_BUILDING_ANCIENT_TRAINING_GROUND_HELP</Help>
+			<Description>TXT_KEY_BUILDING_ANCIENT_TRAINING_GROUND</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ANCIENT_TRAINING_GROUND_TEXT</Civilopedia>
+			<PrereqTech>TECH_ARCHERY</PrereqTech>
+			<GoldMaintenance>1</GoldMaintenance>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<TrainedFreePromotion>PROMOTION_WOODSMAN</TrainedFreePromotion>
+			<NukeImmune>true</NukeImmune>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<DisplayPosition>32</DisplayPosition>
+			<ConquestProb>90</ConquestProb>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_ANCIENT_TRAINING_GROUND</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_ANCIENT_TRAINING_GROUND</Type>
+			<DefaultBuilding>BUILDING_ANCIENT_TRAINING_GROUND</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ANCIENT_TRAINING_GROUND</Description>
+		</Row>
+	</BuildingClasses>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_ANCIENT_TRAINING_GROUND_HELP">
+			<Text>The Ancient Training Ground is a useful building for a tech that doesnt have any.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ANCIENT_TRAINING_GROUND">
+			<Text>Ancient Training Ground</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_ANCIENT_TRAINING_GROUND_TEXT">
+			<Text>With the ways to wage war improving, so did the training to help improve the strength, speed and agility of the warriors. </Text>
+		</Row>
+
+	</Language_en_US>
+</GameData>

@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_B2SPIRITSTEALTHBOMBER</Type>
-			<Description>Land Based Bomber</Description>
+			<Description>TXT_KEY_UNIT_B2_SPIRIT_STEALTH_BOMBER</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

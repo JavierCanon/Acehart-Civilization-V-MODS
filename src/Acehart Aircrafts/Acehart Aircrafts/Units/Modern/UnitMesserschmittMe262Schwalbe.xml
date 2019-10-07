@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_MSME262</Type>
-			<Description>Land Based Multirole Fighter/Bomber</Description>
+			<Description>TXT_KEY_UNIT_MESSERSCHMITT_ME_262_SCHWALBE</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

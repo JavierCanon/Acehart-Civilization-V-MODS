@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<Buildings>
+	<Row>
+		<Type>BUILDING_ALTAR</Type>
+		<BuildingClass>BUILDINGCLASS_ALTAR</BuildingClass>
+		<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
+		<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+		<Cost>40</Cost>
+		<GoldMaintenance>1</GoldMaintenance>
+		<PrereqTech>TECH_CALENDAR</PrereqTech>
+		<Description>TXT_KEY_BUILDING_ALTAR</Description>
+		<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ALTAR_TEXT</Civilopedia>
+		<ArtDefineTag>TEMPLE</ArtDefineTag>
+		<MinAreaSize>-1</MinAreaSize>
+		<HurryCostModifier>25</HurryCostModifier>
+		<IconAtlas>EXPANSION_BW_ATLAS_1</IconAtlas>
+		<NeverCapture>true</NeverCapture>
+		<PortraitIndex>9</PortraitIndex>
+	</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_ALTAR</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		
+	</Building_YieldChanges>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_ALTAR</Type>
+			<DefaultBuilding>BUILDING_ALTAR</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ALTAR</Description>
+		</Row>
+	</BuildingClasses>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_ALTAR_HELP">
+			<Text>The Altar is a useful building for boosting early game faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ALTAR">
+			<Text>Altar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_ALTAR_TEXT">
+			<Text>Moses built an altar and named it The LORD is My Banner. - Exodus 17:15 </Text>
+		</Row>
+
+	</Language_en_US>
+</GameData>

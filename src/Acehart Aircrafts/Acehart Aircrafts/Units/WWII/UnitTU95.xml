@@ -33,7 +33,7 @@
 		<UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
 		<UnitFlagIconOffset>64</UnitFlagIconOffset>
       <MilitarySupport>true</MilitarySupport>
-      <DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+      <DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
     </Row>
   </Units>
   <Unit_AITypes>
@@ -43,7 +43,7 @@
     </Row>
     <Row>
       <UnitType>UNIT_TU95</UnitType>
-      <UnitAIType>UNITAI_RECON</UnitAIType>
+      <UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
     </Row>
    
   </Unit_AITypes>

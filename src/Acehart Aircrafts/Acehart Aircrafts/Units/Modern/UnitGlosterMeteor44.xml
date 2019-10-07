@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_METEOR44</Type>
-			<Description>Land Based Fighter</Description>
+			<Description>TXT_KEY_UNIT_GLOSTER_METEOR44</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

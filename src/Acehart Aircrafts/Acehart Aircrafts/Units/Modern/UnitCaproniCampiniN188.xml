@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_CAMPINI</Type>
-			<Description>Land Based Fighter</Description>
+			<Description>TXT_KEY_UNIT_CAPRONI_CAMPINI_N188</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

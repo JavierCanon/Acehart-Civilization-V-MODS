@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_ARTILLERY</Type>
+			<DefaultBuilding>BUILDING_ARTILLERY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ARTILLERY</Description>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_ARTILLERY</Type>
+			<BuildingClass>BUILDINGCLASS_ARTILLERY</BuildingClass>
+			<Cost>150</Cost>
+			<GoldMaintenance>3</GoldMaintenance>
+			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_ARTILLERY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_ARTILLERY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ARTILLERY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ARTILLERY_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>200</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>42</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_ARTILLERY</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_ARTILLERY</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_ARTILLERY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_ARCHER_BARRACKS</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+
+	<Building_UnitCombatFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_ARTILLERY</BuildingType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<Experience>15</Experience>
+		</Row>
+	</Building_UnitCombatFreeExperiences>
+
+	<Building_UnitCombatProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_ARTILLERY</BuildingType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<Modifier>20</Modifier>
+		</Row>
+	</Building_UnitCombatProductionModifiers>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_ARTILLERY</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARTILLERY</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARTILLERY</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARTILLERY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_ARTILLERY_HELP">
+			<Text>+15 [ICON_WAR] XP's and +20% [ICON_PRODUCTION] Production for all Siege Units trained in the city.[NEWLINE]An Archery Range must already have been built in the city.[NEWLINE]An empire can only build three (3) Artillery Ranges.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARTILLERY">
+			<Text>Artillery Range</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_ARTILLERY_TEXT">
+			<Text>Artillery Ranges provide advanced training for siege units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARTILLERY_STRATEGY">
+			<Text>Artillery Ranges provide experience for siege units constructed in the city. This experience can be used to give the units Promotions, making them more effective in battle.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

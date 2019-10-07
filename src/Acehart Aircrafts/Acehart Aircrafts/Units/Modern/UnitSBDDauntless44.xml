@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_DAUNTLESS44</Type>
-			<Description>Naval Based Bomber</Description>
+			<Description>TXT_KEY_UNIT_SBD_DAUNTLESS44</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_SOTTINGSTAR</Type>
-			<Description>Land Based Fighter</Description>
+			<Description>TXT_KEY_UNIT_P80_SHOOTING_STAR</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>
@@ -14,7 +14,7 @@
       <CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
       <Domain>DOMAIN_AIR</Domain>
       <Special>SPECIALUNIT_STEALTH</Special>
-      <Class>UNITCLASS_SHOOTINGSTAR</Class>
+      <Class>UNITCLASS_SOTTINGSTAR</Class>
       <Cost>385</Cost>
       <HurryCostModifier>32</HurryCostModifier>
       <AdvancedStartCost>52</AdvancedStartCost>

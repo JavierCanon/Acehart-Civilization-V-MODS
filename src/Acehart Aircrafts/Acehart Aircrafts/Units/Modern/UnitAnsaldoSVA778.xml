@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_ANSALDOSVA</Type>
-			<Description>Naval Based Fighter</Description>
+			<Description>TXT_KEY_UNIT_ANSALDO_SVA778</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

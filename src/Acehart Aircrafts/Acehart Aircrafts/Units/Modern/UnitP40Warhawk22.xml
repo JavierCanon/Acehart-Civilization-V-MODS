@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_P40WARHAWK22</Type>
-			<Description>Land Based Fighter</Description>
+			<Description>TXT_KEY_UNIT_P40_WARHAWK22</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>
@@ -283,13 +283,13 @@
 			<AirUnitCap>1</AirUnitCap>
 			<MilitaryProduction>true</MilitaryProduction>
 			<MilitarySupport>true</MilitarySupport>
-			<DefaultUnitAI>UNITAI_ASSULT_SEA</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
 		</Row>
 	</Units>
 	<Unit_AITypes>
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22BRAZIL</UnitType>
-			<UnitAIType>UNITAI_ASSULT_SEA</UnitAIType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22BRAZIL</UnitType>
@@ -529,14 +529,12 @@
 			<AirUnitCap>1</AirUnitCap>
 			<MilitaryProduction>true</MilitaryProduction>
 			<MilitarySupport>true</MilitarySupport>
-			<DefaultUnitAI>UNITAI_ASSULT_SEA</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 		</Row>
 	</Units>
+	
 	<Unit_AITypes>
-		<Row>
-			<UnitType>UNIT_P40_WARHAWK22ENGLAND</UnitType>
-			<UnitAIType>UNITAI_ASSULT_SEA</UnitAIType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22ENGLAND</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -546,6 +544,7 @@
 			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
 		</Row>
 	</Unit_AITypes>
+	
 	<Unit_Flavors>
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22ENGLAND</UnitType>
@@ -775,14 +774,11 @@
 			<AirUnitCap>1</AirUnitCap>
 			<MilitaryProduction>true</MilitaryProduction>
 			<MilitarySupport>true</MilitarySupport>
-			<DefaultUnitAI>UNITAI_ASSULT_SEA</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 		</Row>
 	</Units>
 	<Unit_AITypes>
-		<Row>
-			<UnitType>UNIT_P40_WARHAWK22CHINA</UnitType>
-			<UnitAIType>UNITAI_ASSULT_SEA</UnitAIType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22CHINA</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -1021,14 +1017,11 @@
 			<AirUnitCap>1</AirUnitCap>
 			<MilitaryProduction>true</MilitaryProduction>
 			<MilitarySupport>true</MilitarySupport>
-			<DefaultUnitAI>UNITAI_ASSULT_SEA</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 		</Row>
 	</Units>
 	<Unit_AITypes>
-		<Row>
-			<UnitType>UNIT_P40_WARHAWK22EGYPT</UnitType>
-			<UnitAIType>UNITAI_ASSULT_SEA</UnitAIType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22EGYPT</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -1267,14 +1260,10 @@
 			<AirUnitCap>1</AirUnitCap>
 			<MilitaryProduction>true</MilitaryProduction>
 			<MilitarySupport>true</MilitarySupport>
-			<DefaultUnitAI>UNITAI_ASSULT_SEA</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 		</Row>
 	</Units>
 	<Unit_AITypes>
-		<Row>
-			<UnitType>UNIT_P40_WARHAWK22FRANCE</UnitType>
-			<UnitAIType>UNITAI_ASSULT_SEA</UnitAIType>
-		</Row>
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22FRANCE</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -1513,14 +1502,10 @@
 			<AirUnitCap>1</AirUnitCap>
 			<MilitaryProduction>true</MilitaryProduction>
 			<MilitarySupport>true</MilitarySupport>
-			<DefaultUnitAI>UNITAI_ASSULT_SEA</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 		</Row>
 	</Units>
 	<Unit_AITypes>
-		<Row>
-			<UnitType>UNIT_P40_WARHAWK22NETHERLANDS</UnitType>
-			<UnitAIType>UNITAI_ASSULT_SEA</UnitAIType>
-		</Row>
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22NETHERLANDS</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -1759,14 +1744,11 @@
 			<AirUnitCap>1</AirUnitCap>
 			<MilitaryProduction>true</MilitaryProduction>
 			<MilitarySupport>true</MilitarySupport>
-			<DefaultUnitAI>UNITAI_ASSULT_SEA</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 		</Row>
 	</Units>
 	<Unit_AITypes>
-		<Row>
-			<UnitType>UNIT_P40_WARHAWK22RUSSIA</UnitType>
-			<UnitAIType>UNITAI_ASSULT_SEA</UnitAIType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22RUSSIA</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -2005,14 +1987,11 @@
 			<AirUnitCap>1</AirUnitCap>
 			<MilitaryProduction>true</MilitaryProduction>
 			<MilitarySupport>true</MilitarySupport>
-			<DefaultUnitAI>UNITAI_ASSULT_SEA</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 		</Row>
 	</Units>
 	<Unit_AITypes>
-		<Row>
-			<UnitType>UNIT_P40_WARHAWK22OTTOMAN</UnitType>
-			<UnitAIType>UNITAI_ASSULT_SEA</UnitAIType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22OTTOMAN</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -2251,14 +2230,11 @@
 			<AirUnitCap>1</AirUnitCap>
 			<MilitaryProduction>true</MilitaryProduction>
 			<MilitarySupport>true</MilitarySupport>
-			<DefaultUnitAI>UNITAI_ASSULT_SEA</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 		</Row>
 	</Units>
 	<Unit_AITypes>
-		<Row>
-			<UnitType>UNIT_P40_WARHAWK22INDONESIA</UnitType>
-			<UnitAIType>UNITAI_ASSULT_SEA</UnitAIType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22INDONESIA</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -2497,14 +2473,11 @@
 			<AirUnitCap>1</AirUnitCap>
 			<MilitaryProduction>true</MilitaryProduction>
 			<MilitarySupport>true</MilitarySupport>
-			<DefaultUnitAI>UNITAI_ASSULT_SEA</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 		</Row>
 	</Units>
 	<Unit_AITypes>
-		<Row>
-			<UnitType>UNIT_P40_WARHAWK22INCA</UnitType>
-			<UnitAIType>UNITAI_ASSULT_SEA</UnitAIType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22INCA</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -2743,14 +2716,11 @@
 			<AirUnitCap>1</AirUnitCap>
 			<MilitaryProduction>true</MilitaryProduction>
 			<MilitarySupport>true</MilitarySupport>
-			<DefaultUnitAI>UNITAI_ASSULT_SEA</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 		</Row>
 	</Units>
 	<Unit_AITypes>
-		<Row>
-			<UnitType>UNIT_P40_WARHAWK22DENMARK</UnitType>
-			<UnitAIType>UNITAI_ASSULT_SEA</UnitAIType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_P40_WARHAWK22DENMARK</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>

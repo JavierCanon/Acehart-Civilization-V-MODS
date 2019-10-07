@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/20/2016 8:56:54 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_CASTLE_BARRACKS</Type>
+			<BuildingClass>BUILDINGCLASS_CASTLE_BARRACKS</BuildingClass>
+			<Cost>150</Cost>
+			<Help>TXT_KEY_BUILDING_CASTLE_BARRACKS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_CASTLE_BARRACKS</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CASTLE_BARRACKS_TEXT</Civilopedia>
+			<PrereqTech>TECH_RIFLING</PrereqTech>
+			<GoldMaintenance>2</GoldMaintenance>
+			<Happiness>1</Happiness>
+			<Defense>200</Defense>
+			<ArtDefineTag>ART_DEF_BUILDING_WALLS</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>350</HurryCostModifier>
+			<DisplayPosition>32</DisplayPosition>
+			<ConquestProb>90</ConquestProb>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_CASTLE_BARRACKS</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CASTLE_BARRACKS</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CASTLE_BARRACKS</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>15</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+	<Building_ClassesNeededInCity>
+	<Row>
+		<BuildingType>BUILDING_CASTLE_BARRACKS</BuildingType>
+		<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+	</Row>
+	<Row>
+		<BuildingType>BUILDING_CASTLE_BARRACKS</BuildingType>
+		<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+	</Row>
+	</Building_ClassesNeededInCity>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_CASTLE_BARRACKS</Type>
+			<DefaultBuilding>BUILDING_CASTLE_BARRACKS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CASTLE_BARRACKS</Description>
+		</Row>
+	</BuildingClasses>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_CASTLE_BARRACKS_HELP">
+			<Text>Build the Castle Barracks to incraese Defense and Unit EXP.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CASTLE_BARRACKS">
+			<Text>Castle Barracks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CASTLE_BARRACKS_TEXT">
+			<Text>The Castle Guard must be ready to deploy at a moments notice. </Text>
+		</Row>
+
+	</Language_en_US>
+</GameData>

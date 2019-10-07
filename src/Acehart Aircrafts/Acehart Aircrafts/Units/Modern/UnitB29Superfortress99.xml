@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_SUPERFORTRESS99</Type>
-			<Description>Land Based Bomber</Description>
+			<Description>TXT_KEY_UNIT_B29_SUPERFORTRESS99</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

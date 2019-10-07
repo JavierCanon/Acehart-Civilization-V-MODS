@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_KAMIKAZE888</Type>
-			<Description>Naval Based Kamikaze Fighter</Description>
+			<Description>TXT_KEY_UNIT_KAMIKAZE</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

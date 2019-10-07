@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 4/13/2013 11:25:09 PM -->
 <GameData>
-	<!-- TODO: Insert table creation example here. -->
 
-	<!-- TODO: Insert table data example here.-->
-
-	<!-- Enter your Game Data here. -->
 	<Buildings>
 		<Row>
 			<Type>BUILDING_MARINE_ACADEMY</Type>
@@ -43,10 +38,10 @@
 			<NeverCapture>true</NeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HEROIC_EPIC</ArtDefineTag>
 			<IconAtlas>ICON_ATLAS_JUNGLE</IconAtlas>
-			<PortraitIndex>0</PortraitIndex>
+			<PortraitIndex>0</PortraitIndex>		
 		</Row>
-	</Buildings>
-	<!--Row>
+
+		<Row>
 			<Type>BUILDING_MOUNT_BLADE</Type>
 			<BuildingClass>BUILDINGCLASS_MOUNT_BLADE</BuildingClass>
 			<Cost>500</Cost>
@@ -65,10 +60,6 @@
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
 
-	<Building_ClassesNeededInCity>
-		<Row>
-			<BuildingType>BUILDING_MOUNT_BLADE</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_HEROIC_EPIC</BuildingClassType>
-		</Row>
-	</Building_ClassesNeededInCity>-->
+	</Buildings>
+	
 </GameData>

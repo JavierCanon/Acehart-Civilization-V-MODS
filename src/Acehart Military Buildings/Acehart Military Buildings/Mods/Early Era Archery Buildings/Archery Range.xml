@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_ARCHER_BARRACKS</Type>
+			<DefaultBuilding>BUILDING_ARCHER_BARRACKS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ARCHER_BARRACKS</Description>
+		</Row>
+	</BuildingClasses>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_ARCHER_BARRACKS</Type>
+			<BuildingClass>BUILDINGCLASS_ARCHER_BARRACKS</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>3</GoldMaintenance>
+			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+			<Help>TXT_KEY_BUILDING_ARCHER_BARRACKS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_ARCHER_BARRACKS</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ARCHER_BARRACKS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ARCHER_BARRACKS_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>100</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>31</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_ARCHER_BARRACKS</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_ARCHER_BARRACKS</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_ARCHER</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+
+	<Building_UnitCombatFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_ARCHER_BARRACKS</BuildingType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<Experience>10</Experience>
+		</Row>
+	</Building_UnitCombatFreeExperiences>
+
+	<Building_UnitCombatProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_ARCHER_BARRACKS</BuildingType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<Modifier>20</Modifier>
+		</Row>
+	</Building_UnitCombatProductionModifiers>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_ARCHER_BARRACKS</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARCHER_BARRACKS</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARCHER_BARRACKS</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARCHER_BARRACKS</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_ARCHER_BARRACKS_HELP">
+			<Text>+10 [ICON_WAR] XP's and +20% [ICON_PRODUCTION] Production for all Archery Units.[NEWLINE]City must already have a Practice Range.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARCHER_BARRACKS">
+			<Text>Archery Range</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_ARCHER_BARRACKS_TEXT">
+			<Text>Archery Ranges provide advanced archery training for ranged units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARCHER_BARRACKS_STRATEGY">
+			<Text>Archery Ranges provide experience for archery units constructed in the city. This experience can be used to give the units Promotions, making them more effective in battle.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

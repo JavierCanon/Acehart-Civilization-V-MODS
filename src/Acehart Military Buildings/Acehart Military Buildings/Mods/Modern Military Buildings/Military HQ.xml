@@ -3,7 +3,7 @@
 		<Row>
 			<Type>BUILDINGCLASS_MILITARY_HQ</Type>
 			<DefaultBuilding>BUILDING_MILITARY_HQ</DefaultBuilding>
-			<Description>Military Headquarters</Description>
+			<Description></Description>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 	</BuildingClasses>
@@ -14,9 +14,9 @@
 			<Cost>300</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
-			<Help>+30 XP for all units. A Great General appears near the city.</Help>
-			<Description>Military Headquarters</Description>
-			<Civilopedia>Military headquarters take many forms depending on the size and nature of the unit or formation they command. Typically, they are split into the forward, main and rear components, both within NATO nations, and those following the organization and doctrine of the former Soviet Union (see Isby, 1988).[NEWLINE]The forward or tactical HQs (known as 'Tac' for short) is a small group of staff and communicators. Usually very mobile, they exist to allow the commander to go forward in an operation, and command the key parts of it from a position where they can see the ground and influence their immediate subordinates.[NEWLINE]The main HQs (known as 'Main') is less mobile and is involved in both the planning and execution of operations. There are a number of staff assembled here from various staff branches to advise the commander, and to control the various aspects of planning and the conduct of discrete operations. A main HQ for a large formation will have a chief of staff (CoS) who coordinates the staff effort; in a smaller HQ this may be done by the second-in-command.[NEWLINE]The rear or logistic HQs ('Rear') is some distance from the battle or front line in conventional operations. Its function is to ensure the logistical support to front line troops, which it does by organizing the delivery of combat supplies, material and equipment to where they are needed, and by organizing services such as combat medicine, equipment recovery and repair.</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HELP_MILITARY_HQ</Help>
+			<Description>TXT_KEY_BUILDING_MILITARY_HQ</Description>
+			<Civilopedia>TXT_KEY_BUILDING_STRATEGY_MILITARY_HQ</Civilopedia>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>MILITARY_BUILDINGS</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
@@ -60,4 +60,18 @@
 			<Flavor>20</Flavor>
 		</Row>
 	</Building_Flavors>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_MILITARY_HQ">
+			<Text>Military Headquarters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HELP_MILITARY_HQ">
+			<Text>+30 XP for all units. A Great General appears near the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STRATEGY_MILITARY_HQ">
+			<Text>Military headquarters take many forms depending on the size and nature of the unit or formation they command. Typically, they are split into the forward, main and rear components, both within NATO nations, and those following the organization and doctrine of the former Soviet Union (see Isby, 1988).[NEWLINE]The forward or tactical HQs (known as 'Tac' for short) is a small group of staff and communicators. Usually very mobile, they exist to allow the commander to go forward in an operation, and command the key parts of it from a position where they can see the ground and influence their immediate subordinates.[NEWLINE]The main HQs (known as 'Main') is less mobile and is involved in both the planning and execution of operations. There are a number of staff assembled here from various staff branches to advise the commander, and to control the various aspects of planning and the conduct of discrete operations. A main HQ for a large formation will have a chief of staff (CoS) who coordinates the staff effort; in a smaller HQ this may be done by the second-in-command.[NEWLINE]The rear or logistic HQs ('Rear') is some distance from the battle or front line in conventional operations. Its function is to ensure the logistical support to front line troops, which it does by organizing the delivery of combat supplies, material and equipment to where they are needed, and by organizing services such as combat medicine, equipment recovery and repair.</Text>
+		</Row>
+
+	</Language_en_US>	
+	
 </GameData>

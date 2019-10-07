@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_BREGUET693</Type>
-			<Description>Land Based Bomber Aircraft</Description>
+			<Description>TXT_KEY_UNIT_BREGUET_693</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

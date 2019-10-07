@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_ARCHER</Type>
+			<DefaultBuilding>BUILDING_ARCHER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ARCHER</Description>
+		</Row>
+	</BuildingClasses>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_ARCHER</Type>
+			<BuildingClass>BUILDINGCLASS_ARCHER</BuildingClass>
+			<Cost>40</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_ARCHERY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_ARCHER_HELP</Help>
+			<Description>TXT_KEY_BUILDING_ARCHER</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ARCHER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ARCHER_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<TrainedFreePromotion>PROMOTION_ACCURACY_1</TrainedFreePromotion>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_UnitCombatProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_ARCHER</BuildingType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<Modifier>10</Modifier>
+		</Row>
+	</Building_UnitCombatProductionModifiers>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_ARCHER</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_ARCHER</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARCHER</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARCHER</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARCHER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_ARCHER_HELP">
+			<Text>+10% [ICON_PRODUCTION] Production for all Archery Units. Grants the [COLOR_POSITIVE_TEXT]Accuracy I[ENDCOLOR] promotion to Archery units trained in the City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARCHER">
+			<Text>Practice Range</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_ARCHER_TEXT">
+			<Text>Practice Ranges provide basic archery training for early-game ranged units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARCHER_STRATEGY">
+			<Text>Practice Ranges increase production speed for archery units constructed in the city. The Practice Range also gives the [COLOR_POSITIVE_TEXT]Accuracy I[ENDCOLOR] promotion to Archery units trained in the city, making them more effective in battle.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

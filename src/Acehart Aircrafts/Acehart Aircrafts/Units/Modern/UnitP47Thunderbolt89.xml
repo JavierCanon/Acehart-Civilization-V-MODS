@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_THUNDERBOLT89</Type>
-			<Description>Land Based Fighter</Description>
+			<Description>TXT_KEY_UNIT_P47_THUNDERBOLT89</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>
@@ -25,7 +25,7 @@
       <Moves>2</Moves>
       <Immobile>true</Immobile>
       <AirInterceptRange>4</AirInterceptRange>
-      <SpecialCargo>SPECIALUNIT_STEALTH</SpecialCargo>
+
       <Strategy>TXT_KEY_UNIT_P47_THUNDERBOLT89_STRATEGY</Strategy>
       <Help>TXT_KEY_UNIT_P47_THUNDERBOLT89_HELP</Help>
       <Civilopedia>TXT_KEY_UNIT_P47_THUNDERBOLT89_PEDIA</Civilopedia>

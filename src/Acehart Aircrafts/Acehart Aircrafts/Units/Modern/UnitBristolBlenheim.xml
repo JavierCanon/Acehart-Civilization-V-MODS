@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_BRISTOLBLENHEIM</Type>
-			<Description>Land Based Bomber Aircraft</Description>
+			<Description>TXT_KEY_UNIT_BRISTOL_BLENHEIM</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

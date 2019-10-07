@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_ILYUSHINIL4</Type>
-			<Description>Land Based Bomber</Description>
+			<Description>TXT_KEY_UNIT_ILYUSHIN_IL4</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

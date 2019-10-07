@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_JUNKERSJU88</Type>
-			<Description>Naval Based Ship or Sub Dive Bomber</Description>
+			<Description>TXT_KEY_UNIT_JUNKERS_JU_88</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

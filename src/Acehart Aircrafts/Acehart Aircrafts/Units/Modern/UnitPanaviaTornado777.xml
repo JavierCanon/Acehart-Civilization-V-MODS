@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_TORNADO777</Type>
-			<Description>Land Based Multi-Role Fighter/Bomber</Description>
+			<Description>TXT_KEY_UNIT_PANAVIA_TORNADO777</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>
@@ -272,10 +272,7 @@
 		</Row>
 	</Units>
 	<Unit_AITypes>
-		<Row>
-			<UnitType>UNIT_PANAVIA_TORNADO777GERMANY</UnitType>
-			<UnitAIType>UNITAI_ASSULT_SEA</UnitAIType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_PANAVIA_TORNADO777GERMANY</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -508,10 +505,7 @@
 		</Row>
 	</Units>
 	<Unit_AITypes>
-		<Row>
-			<UnitType>UNIT_PANAVIA_TORNADO777AUSTRIA</UnitType>
-			<UnitAIType>UNITAI_ASSULT_SEA</UnitAIType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_PANAVIA_TORNADO777AUSTRIA</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -744,10 +738,7 @@
 		</Row>
 	</Units>
 	<Unit_AITypes>
-		<Row>
-			<UnitType>UNIT_PANAVIA_TORNADO777ROME</UnitType>
-			<UnitAIType>UNITAI_ASSULT_SEA</UnitAIType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_PANAVIA_TORNADO777ROME</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -980,10 +971,7 @@
 		</Row>
 	</Units>
 	<Unit_AITypes>
-		<Row>
-			<UnitType>UNIT_PANAVIA_TORNADO777ARABIA</UnitType>
-			<UnitAIType>UNITAI_ASSULT_SEA</UnitAIType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_PANAVIA_TORNADO777ARABIA</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -1216,10 +1204,7 @@
 		</Row>
 	</Units>
 	<Unit_AITypes>
-		<Row>
-			<UnitType>UNIT_PANAVIA_TORNADO777GENERIC12</UnitType>
-			<UnitAIType>UNITAI_ASSULT_SEA</UnitAIType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_PANAVIA_TORNADO777GENERIC12</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>

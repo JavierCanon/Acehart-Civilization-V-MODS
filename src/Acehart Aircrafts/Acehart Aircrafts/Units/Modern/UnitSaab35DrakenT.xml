@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_DRAKEN1</Type>
-			<Description>Land Based Fighter</Description>
+			<Description>TXT_KEY_UNIT_SAAB_35_DRAKENT</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>

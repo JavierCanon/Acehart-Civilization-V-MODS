@@ -14,7 +14,7 @@
 			<PediaEntry>TXT_KEY_PROMOTION_HEADSHOT</PediaEntry>
 
 			<Recon>1</Recon>
-			<CanMoveAfterAttack>1</CanMoveAfterAttack>
+
 			<CanMoveImpassable>1</CanMoveImpassable>
 			<NoDefensiveBonus>1</NoDefensiveBonus>
 			<AllowsEmbarkation>1</AllowsEmbarkation>

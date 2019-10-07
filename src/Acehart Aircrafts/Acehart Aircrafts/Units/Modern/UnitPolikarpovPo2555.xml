@@ -3,7 +3,7 @@
 	<UnitClasses>
 		<Row>
 			<Type>UNITCLASS_PO2555</Type>
-			<Description>Naval Based Fighter</Description>
+			<Description>TXT_KEY_UNIT_POLIKARPOV_PO2555</Description>
 			<DefaultUnit>NONE</DefaultUnit>
 		</Row>
 	</UnitClasses>
@@ -25,7 +25,7 @@
       <Moves>2</Moves>
       <Immobile>true</Immobile>
       <AirInterceptRange>3</AirInterceptRange>
-      <SpecialCargo>SPECIALUNIT_STEALTH</SpecialCargo>
+
       <Strategy>TXT_KEY_UNIT_POLIKARPOV_PO2555_STRATEGY</Strategy>
       <Help>TXT_KEY_UNIT_POLIKARPOV_PO2555_HELP</Help>
       <Civilopedia>TXT_KEY_UNIT_POLIKARPOV_PO2555_PEDIA</Civilopedia>
