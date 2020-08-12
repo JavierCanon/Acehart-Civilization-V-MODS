@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_AVROARROW1</Type>
 			<Description>TXT_KEY_UNIT_CF105_AVRO_ARROW11</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_CF105_AVRO_ARROW11</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

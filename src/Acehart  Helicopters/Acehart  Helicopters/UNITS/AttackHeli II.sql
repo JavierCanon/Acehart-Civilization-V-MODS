@@ -202,7 +202,7 @@ SELECT ( 'UNITCLASS_ATTACKHELI_II' ), --Type
        MaxTeamInstances,
        MaxPlayerInstances,
        InstanceCostModifier,
-       DefaultUnit
+       'UNIT_ATTACKHELI_II' --DefaultUnit
   FROM UnitClasses
  WHERE ( Type = 'UNITCLASS_HELICOPTER_GUNSHIP' )
  ;
@@ -307,8 +307,8 @@ SELECT
     80, --Combat, --INTEGER DEFAULT 0,
     90, --RangedCombat, --INTEGER DEFAULT 0,
     1000, --Cost, --INTEGER DEFAULT 0,
-    FaithCost                    ,--INTEGER DEFAULT 0,
-    RequiresFaithPurchaseEnabled ,--BOOLEAN DEFAULT 0,
+    0, --FaithCost                    ,--INTEGER DEFAULT 0,
+    0, --RequiresFaithPurchaseEnabled ,--BOOLEAN DEFAULT 0,
     6, --Moves, --INTEGER DEFAULT 0,
     Immobile                     ,--BOOLEAN DEFAULT 0,
     3, --Range, --INTEGER DEFAULT 0,
@@ -391,15 +391,14 @@ SELECT
 
 -- *** UPGRADES ***
 
-
 INSERT INTO Unit_ClassUpgrades ( 
     UnitType      ,--TEXT,
     UnitClassType  --TEXT,
 ) 
-SELECT ( 'UNIT_ATTACKHELI_II' ),
-       UnitClassType
-  FROM Unit_ClassUpgrades
- WHERE ( UnitType = 'UNIT_HELICOPTER_GUNSHIP' );
+SELECT ( 'UNIT_ATTACKHELI' ),
+       'UNITCLASS_ATTACKHELI_II'
+;
+
 
 
 -- *** AI ***
@@ -409,9 +408,19 @@ INSERT INTO Unit_AITypes (
     UnitAIType 
 ) 
 SELECT ( 'UNIT_ATTACKHELI_II' ),
+       'UNITAI_RANGED'
+ UNION
+SELECT ( 'UNIT_ATTACKHELI_II' ),
+       'UNITAI_CITY_BOMBARD'
+ ;
+
+/*
+SELECT ( 'UNIT_ATTACKHELI_II' ),
        UnitAIType
   FROM Unit_AITypes
- WHERE ( UnitType = 'UNIT_HELICOPTER_GUNSHIP' );
+ WHERE ( UnitType = 'UNIT_HELICOPTER_GUNSHIP' )
+   UNION
+*/
 
 
 INSERT INTO Unit_Flavors ( 
@@ -423,7 +432,12 @@ SELECT ( 'UNIT_ATTACKHELI_II' ),
        FlavorType,
        Flavor
   FROM Unit_Flavors
- WHERE ( UnitType = 'UNIT_HELICOPTER_GUNSHIP' );
+ WHERE ( UnitType = 'UNIT_HELICOPTER_GUNSHIP' )
+ UNION
+SELECT ( 'UNIT_ATTACKHELI' ),
+       'FLAVOR_RANGED',
+       17 
+;
 
 -- *** PROMOTIONS ***
 
@@ -460,11 +474,11 @@ INSERT INTO Unit_ResourceQuantityRequirements(
     ResourceType ,--TEXT,
     Cost          --INTEGER DEFAULT 1,
 )
-SELECT
+ SELECT
  'UNIT_ATTACKHELI_II'
 ,'RESOURCE_OIL'
 ,1
-UNION
+ UNION
 SELECT
  'UNIT_ATTACKHELI_II'
 ,'RESOURCE_ALUMINUM'

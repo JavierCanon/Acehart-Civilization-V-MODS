@@ -34,8 +34,8 @@ INSERT INTO UnitPromotions(
 SELECT
 	 'PROMOTION_LOST_HEAL_NOTERRI' --Type
 	 ,1 --CannotBeChosen 
-	 ,-10 --EnemyHealChange
-     ,-10 --NeutralHealChange
+	 ,-50 --EnemyHealChange
+     ,-25 --NeutralHealChange
 ;
 
 INSERT INTO UnitPromotions_UnitCombatMods(
@@ -149,11 +149,13 @@ SELECT
 
 
 -- TRY TO STACK UNITS
+/*
 UPDATE Defines SET
 Value= 2
 WHERE 
 Name = 'PLOT_UNIT_LIMIT'
 ;
+*/
 
 /*
 UPDATE Units SET
@@ -263,6 +265,7 @@ SELECT
 
 -- REMAKE STANDARD UNIT_HELICOPTER_GUNSHIP
 UPDATE Units SET
+    Cost = 600,
     Combat = 50, --INTEGER DEFAULT 0,
     RangedCombat = 60, --INTEGER DEFAULT 0,
     Moves = 6, --INTEGER DEFAULT 0,

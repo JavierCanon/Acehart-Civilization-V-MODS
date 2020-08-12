@@ -2,10 +2,71 @@
 
 <GameData>
 
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_NAVAL_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_FA_18</Description>
+			<DefaultUnit>UNIT_FA_18</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_YF23</Type>
+			<Description>TXT_KEY_UNIT_YF23</Description>
+			<DefaultUnit>UNIT_YF23</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MIG29</Type>
+			<Description>TXT_KEY_UNIT_MIG29</Description>
+			<DefaultUnit>UNIT_MIG29</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_NAVAL_BOMBER2</Type>
+			<Description>TXT_KEY_UNIT_HARRIER</Description>
+			<DefaultUnit>UNIT_HARRIER</DefaultUnit>
+		</Row>
+
+		<Row>
+			<Type>UNITCLASS_RAFALE</Type>
+			<Description>TXT_KEY_UNIT_RAFALE</Description>
+			<DefaultUnit>UNIT_RAFALE</DefaultUnit>
+		</Row>
+		
+		<Row>
+			<Type>UNITCLASS_MQ1</Type>
+			<Description>TXT_KEY_UNIT_MQ1</Description>
+			<DefaultUnit>UNIT_MQ1</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SU25</Type>
+			<Description>TXT_KEY_UNIT_SU25</Description>
+			<DefaultUnit>UNIT_SU25</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_EUROFIGHTER</Type>
+			<Description>TXT_KEY_UNIT_EUROFIGHTER33</Description>
+			<DefaultUnit>UNIT_EUROFIGHTER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_F14_TOMCAT</Type>
+			<Description>TXT_KEY_UNIT_F14</Description>
+			<DefaultUnit>UNIT_F14</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MIG15</Type>
+			<Description>TXT_KEY_UNIT_MIG15</Description>
+			<DefaultUnit>UNIT_MIG15</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_F117</Type>
+			<Description>TXT_KEY_UNIT_F117</Description>
+			<DefaultUnit>UNIT_F117</DefaultUnit>
+		</Row>
+		
+	</UnitClasses>
+
 	<Units>
 		<Row>
 			<Class>UNITCLASS_NAVAL_BOMBER</Class>
-			<Type>UNIT_FA-18</Type>
+			<Type>UNIT_FA_18</Type>
 			<PrereqTech>TECH_FLYBYWIRE</PrereqTech>
 			<RangedCombat>80</RangedCombat>
 			<Cost>490</Cost>
@@ -17,10 +78,10 @@
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_FA-18</Description>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_FA-18_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_FA-18_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_FA-18</Help>
+			<Description>TXT_KEY_UNIT_FA_18</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_FA_18_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FA_18_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_FA_18</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
@@ -31,14 +92,14 @@
 			<CombatLimit>0</CombatLimit>
 			<XPValueAttack>5</XPValueAttack>
 			<XPValueDefense>4</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_FA-18</UnitArtInfo>
+			<UnitArtInfo>ART_DEF_UNIT_FA_18</UnitArtInfo>
 			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
+			<IconAtlas>FA_18_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
 		</Row>
 		<Row>
-			<Class>UNITCLASS_ADVANCEDFIGHTER</Class>
+			<Class>UNITCLASS_YF23</Class>
 			<Type>UNIT_YF23</Type>
 			<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
 			<RangedCombat>175</RangedCombat>
@@ -67,13 +128,13 @@
 			<XPValueDefense>5</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_YF23</UnitArtInfo>
 			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
+			<IconAtlas>FA_18_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>14</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
 		</Row>
 		<Row>
-			<Class>UNITCLASS_NONSTEALTHFIGHTER</Class>
-			<Type>UNIT_RUSSIANMIG29</Type>
+			<Class>UNITCLASS_MIG29</Class>
+			<Type>UNIT_MIG29</Type>
 			<PrereqTech>TECH_COMPOSITES</PrereqTech>
 			<RangedCombat>72</RangedCombat>
 			<Cost>445</Cost>
@@ -99,185 +160,15 @@
 			<CombatLimit>0</CombatLimit>
 			<XPValueAttack>4</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_RUSSIANMIG29</UnitArtInfo>
+			<UnitArtInfo>ART_DEF_UNIT_MIG29</UnitArtInfo>
 			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>15</PortraitIndex>
-			<MoveRate>AIR_REBASE</MoveRate>
-		</Row>
-		<Row>
-			<Class>UNITCLASS_NONSTEALTHFIGHTER</Class>
-			<Type>UNIT_PERSIANMIG29</Type>
-			<PrereqTech>TECH_COMPOSITES</PrereqTech>
-			<RangedCombat>72</RangedCombat>
-			<Cost>445</Cost>
-			<Moves>2</Moves>
-			<Immobile>true</Immobile>
-			<Range>10</Range>
-			<AirInterceptRange>4</AirInterceptRange>
-			<Special>SPECIALUNIT_STEALTH</Special>
-			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
-			<Domain>DOMAIN_AIR</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_MIG29</Description>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MIG29_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_MIG29_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_MIG29</Help>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<Mechanized>true</Mechanized>
-			<AdvancedStartCost>65</AdvancedStartCost>
-			<AirUnitCap>1</AirUnitCap>
-			<RangedCombatLimit>100</RangedCombatLimit>
-			<CombatLimit>0</CombatLimit>
-			<XPValueAttack>4</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_PERSIANMIG29</UnitArtInfo>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>15</PortraitIndex>
-			<MoveRate>AIR_REBASE</MoveRate>
-		</Row>
-		<Row>
-			<Class>UNITCLASS_NONSTEALTHFIGHTER</Class>
-			<Type>UNIT_ARABIANMIG29</Type>
-			<PrereqTech>TECH_COMPOSITES</PrereqTech>
-			<RangedCombat>72</RangedCombat>
-			<Cost>445</Cost>
-			<Moves>2</Moves>
-			<Immobile>true</Immobile>
-			<Range>10</Range>
-			<AirInterceptRange>4</AirInterceptRange>
-			<Special>SPECIALUNIT_STEALTH</Special>
-			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
-			<Domain>DOMAIN_AIR</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_MIG29</Description>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MIG29_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_MIG29_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_MIG29</Help>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<Mechanized>true</Mechanized>
-			<AdvancedStartCost>65</AdvancedStartCost>
-			<AirUnitCap>1</AirUnitCap>
-			<RangedCombatLimit>100</RangedCombatLimit>
-			<CombatLimit>0</CombatLimit>
-			<XPValueAttack>4</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_ARABIANMIG29</UnitArtInfo>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>15</PortraitIndex>
-			<MoveRate>AIR_REBASE</MoveRate>
-		</Row>
-		<Row>
-			<Class>UNITCLASS_NONSTEALTHFIGHTER</Class>
-			<Type>UNIT_POLISHMIG29</Type>
-			<PrereqTech>TECH_COMPOSITES</PrereqTech>
-			<RangedCombat>72</RangedCombat>
-			<Cost>445</Cost>
-			<Moves>2</Moves>
-			<Immobile>true</Immobile>
-			<Range>10</Range>
-			<AirInterceptRange>4</AirInterceptRange>
-			<Special>SPECIALUNIT_STEALTH</Special>
-			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
-			<Domain>DOMAIN_AIR</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_MIG29</Description>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MIG29_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_MIG29_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_MIG29</Help>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<Mechanized>true</Mechanized>
-			<AdvancedStartCost>65</AdvancedStartCost>
-			<AirUnitCap>1</AirUnitCap>
-			<RangedCombatLimit>100</RangedCombatLimit>
-			<CombatLimit>0</CombatLimit>
-			<XPValueAttack>4</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_POLISHMIG29</UnitArtInfo>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>15</PortraitIndex>
-			<MoveRate>AIR_REBASE</MoveRate>
-		</Row>
-		<Row>
-			<Class>UNITCLASS_NONSTEALTHFIGHTER</Class>
-			<Type>UNIT_KOREANMIG29</Type>
-			<PrereqTech>TECH_COMPOSITES</PrereqTech>
-			<RangedCombat>72</RangedCombat>
-			<Cost>445</Cost>
-			<Moves>2</Moves>
-			<Immobile>true</Immobile>
-			<Range>10</Range>
-			<AirInterceptRange>4</AirInterceptRange>
-			<Special>SPECIALUNIT_STEALTH</Special>
-			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
-			<Domain>DOMAIN_AIR</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_MIG29</Description>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MIG29_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_MIG29_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_MIG29</Help>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<Mechanized>true</Mechanized>
-			<AdvancedStartCost>65</AdvancedStartCost>
-			<AirUnitCap>1</AirUnitCap>
-			<RangedCombatLimit>100</RangedCombatLimit>
-			<CombatLimit>0</CombatLimit>
-			<XPValueAttack>4</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_KOREANMIG29</UnitArtInfo>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>15</PortraitIndex>
-			<MoveRate>AIR_REBASE</MoveRate>
-		</Row>
-		<Row>
-			<Class>UNITCLASS_NONSTEALTHFIGHTER</Class>
-			<Type>UNIT_EGYPTIANMIG29</Type>
-			<PrereqTech>TECH_COMPOSITES</PrereqTech>
-			<RangedCombat>72</RangedCombat>
-			<Cost>445</Cost>
-			<Moves>2</Moves>
-			<Immobile>true</Immobile>
-			<Range>10</Range>
-			<AirInterceptRange>4</AirInterceptRange>
-			<Special>SPECIALUNIT_STEALTH</Special>
-			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
-			<Domain>DOMAIN_AIR</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_MIG29</Description>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MIG29_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_MIG29_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_MIG29</Help>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<Mechanized>true</Mechanized>
-			<AdvancedStartCost>65</AdvancedStartCost>
-			<AirUnitCap>1</AirUnitCap>
-			<RangedCombatLimit>100</RangedCombatLimit>
-			<CombatLimit>0</CombatLimit>
-			<XPValueAttack>4</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_EGYPTIANMIG29</UnitArtInfo>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
+			<IconAtlas>FA_18_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>15</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_NAVAL_BOMBER2</Class>
-			<Type>UNIT_USAHARRIER</Type>
+			<Type>UNIT_HARRIER</Type>
 			<PrereqTech>TECH_COMPOSITES</PrereqTech>
 			<RangedCombat>70</RangedCombat>
 			<Cost>400</Cost>
@@ -302,114 +193,15 @@
 			<CombatLimit>0</CombatLimit>
 			<XPValueAttack>5</XPValueAttack>
 			<XPValueDefense>4</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_USAHARRIER</UnitArtInfo>
+			<UnitArtInfo>ART_DEF_UNIT_HARRIER</UnitArtInfo>
 			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
+			<IconAtlas>FA_18_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>8</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
 		</Row>
 		<Row>
-			<Class>UNITCLASS_NAVAL_BOMBER2</Class>
-			<Type>UNIT_ITALIANHARRIER</Type>
-			<PrereqTech>TECH_COMPOSITES</PrereqTech>
-			<RangedCombat>70</RangedCombat>
-			<Cost>400</Cost>
-			<Moves>2</Moves>
-			<Immobile>true</Immobile>
-			<Range>11</Range>
-			<Special>SPECIALUNIT_FIGHTER</Special>
-			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
-			<Domain>DOMAIN_AIR</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_HARRIER</Description>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_HARRIER_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_HARRIER_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_HARRIER</Help>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<Mechanized>true</Mechanized>
-			<AdvancedStartCost>60</AdvancedStartCost>
-			<AirUnitCap>1</AirUnitCap>
-			<RangedCombatLimit>100</RangedCombatLimit>
-			<CombatLimit>0</CombatLimit>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>2</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_ITALIANHARRIER</UnitArtInfo>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>8</PortraitIndex>
-			<MoveRate>AIR_REBASE</MoveRate>
-		</Row>
-		<Row>
-			<Class>UNITCLASS_NAVAL_BOMBER2</Class>
-			<Type>UNIT_SPANISHHARRIER</Type>
-			<PrereqTech>TECH_COMPOSITES</PrereqTech>
-			<RangedCombat>70</RangedCombat>
-			<Cost>400</Cost>
-			<Moves>2</Moves>
-			<Immobile>true</Immobile>
-			<Range>11</Range>
-			<Special>SPECIALUNIT_FIGHTER</Special>
-			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
-			<Domain>DOMAIN_AIR</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_HARRIER</Description>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_HARRIER_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_HARRIER_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_HARRIER</Help>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<Mechanized>true</Mechanized>
-			<AdvancedStartCost>60</AdvancedStartCost>
-			<AirUnitCap>1</AirUnitCap>
-			<RangedCombatLimit>100</RangedCombatLimit>
-			<CombatLimit>0</CombatLimit>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>2</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_SPANISHHARRIER</UnitArtInfo>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>8</PortraitIndex>
-			<MoveRate>AIR_REBASE</MoveRate>
-		</Row>
-		<Row>
-			<Class>UNITCLASS_NAVAL_BOMBER2</Class>
-			<Type>UNIT_ENGLISHHARRIER</Type>
-			<PrereqTech>TECH_COMPOSITES</PrereqTech>
-			<RangedCombat>70</RangedCombat>
-			<Cost>400</Cost>
-			<Moves>2</Moves>
-			<Immobile>true</Immobile>
-			<Range>11</Range>
-			<Special>SPECIALUNIT_FIGHTER</Special>
-			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
-			<Domain>DOMAIN_AIR</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_HARRIER</Description>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_HARRIER_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_HARRIER_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_HARRIER</Help>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<Mechanized>true</Mechanized>
-			<AdvancedStartCost>60</AdvancedStartCost>
-			<AirUnitCap>1</AirUnitCap>
-			<RangedCombatLimit>100</RangedCombatLimit>
-			<CombatLimit>0</CombatLimit>
-			<XPValueAttack>4</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_ENGLISHHARRIER</UnitArtInfo>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>8</PortraitIndex>
-			<MoveRate>AIR_REBASE</MoveRate>
-		</Row>
-		<Row>
-			<Class>UNITCLASS_NAVAL_BOMBER</Class>
-			<Type>UNIT_FRENCHRAFALE</Type>
+			<Class>UNITCLASS_RAFALE</Class>
+			<Type>UNIT_RAFALE</Type>
 			<PrereqTech>TECH_FLYBYWIRE</PrereqTech>
 			<RangedCombat>79</RangedCombat>
 			<Cost>450</Cost>
@@ -437,75 +229,7 @@
 			<XPValueDefense>2</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_FRENCHRAFALE</UnitArtInfo>
 			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>3</PortraitIndex>
-			<MoveRate>AIR_REBASE</MoveRate>
-		</Row>
-		<Row>
-			<Class>UNITCLASS_NAVAL_BOMBER</Class>
-			<Type>UNIT_INDIANRAFALE</Type>
-			<PrereqTech>TECH_FLYBYWIRE</PrereqTech>
-			<RangedCombat>79</RangedCombat>
-			<Cost>450</Cost>
-			<Moves>2</Moves>
-			<Immobile>true</Immobile>
-			<Range>12</Range>
-			<AirInterceptRange>5</AirInterceptRange>
-			<Special>SPECIALUNIT_FIGHTER</Special>
-			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
-			<Domain>DOMAIN_AIR</Domain>
-			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_RAFALE</Description>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_RAFALE_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_RAFALE_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_RAFALE</Help>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<Mechanized>true</Mechanized>
-			<AdvancedStartCost>70</AdvancedStartCost>
-			<AirUnitCap>1</AirUnitCap>
-			<RangedCombatLimit>100</RangedCombatLimit>
-			<CombatLimit>0</CombatLimit>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>2</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_INDIANRAFALE</UnitArtInfo>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>3</PortraitIndex>
-			<MoveRate>AIR_REBASE</MoveRate>
-		</Row>
-		<Row>
-			<Class>UNITCLASS_NAVAL_BOMBER</Class>
-			<Type>UNIT_EGYPTIANRAFALE</Type>
-			<PrereqTech>TECH_FLYBYWIRE</PrereqTech>
-			<RangedCombat>79</RangedCombat>
-			<Cost>450</Cost>
-			<Moves>2</Moves>
-			<Immobile>true</Immobile>
-			<Range>12</Range>
-			<AirInterceptRange>5</AirInterceptRange>
-			<Special>SPECIALUNIT_FIGHTER</Special>
-			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
-			<Domain>DOMAIN_AIR</Domain>
-			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_RAFALE</Description>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_RAFALE_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_RAFALE_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_RAFALE</Help>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<Mechanized>true</Mechanized>
-			<AdvancedStartCost>70</AdvancedStartCost>
-			<AirUnitCap>1</AirUnitCap>
-			<RangedCombatLimit>100</RangedCombatLimit>
-			<CombatLimit>0</CombatLimit>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>2</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_EGYPTIANRAFALE</UnitArtInfo>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
+			<IconAtlas>FA_18_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>3</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
 		</Row>
@@ -543,12 +267,12 @@
 			<MoveRate>AIR_REBASE</MoveRate>
 		</Row>
 		<Row>
-			<Type>UNIT_RUSSIANSU25</Type>
+			<Type>UNIT_SU25</Type>
 			<Description>TXT_KEY_UNIT_SU25</Description>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<Special>SPECIALUNIT_STEALTH</Special>
-			<Class>UNITCLASS_FROGFOOT</Class>
+			<Class>UNITCLASS_SU25</Class>
 			<Cost>380</Cost>
 			<HurryCostModifier>15</HurryCostModifier>
 			<AdvancedStartCost>50</AdvancedStartCost>
@@ -566,7 +290,7 @@
 			<MoveRate>AIR_REBASE</MoveRate>
 			<Mechanized>true</Mechanized>
 			<UnitArtInfo>ART_DEF_UNIT_RUSSIANSU25</UnitArtInfo>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
+			<IconAtlas>FA_18_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>4</PortraitIndex>
 			<RangedCombatLimit>100</RangedCombatLimit>
 			<AirUnitCap>1</AirUnitCap>
@@ -579,223 +303,12 @@
 			<UnitFlagIconOffset>78</UnitFlagIconOffset>
 		</Row>
 		<Row>
-			<Type>UNIT_KOREANSU25</Type>
-			<Description>TXT_KEY_UNIT_SU25</Description>
-			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
-			<Domain>DOMAIN_AIR</Domain>
-			<Special>SPECIALUNIT_STEALTH</Special>
-			<Class>UNITCLASS_FROGFOOT</Class>
-			<Cost>380</Cost>
-			<HurryCostModifier>15</HurryCostModifier>
-			<AdvancedStartCost>50</AdvancedStartCost>
-			<RangedCombat>70</RangedCombat>
-			<Range>11</Range>
-			<AirInterceptRange>4</AirInterceptRange>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<Moves>2</Moves>
-			<Immobile>true</Immobile>
-			<Strategy>TXT_KEY_UNIT_SU25_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_SU25</Help>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_SU25_TEXT</Civilopedia>
-			<PrereqTech>TECH_GASTURBINEENGINE</PrereqTech>
-			<ObsoleteTech>TECH_ADVANCED_RADAR</ObsoleteTech>
-			<MoveRate>AIR_REBASE</MoveRate>
-			<Mechanized>true</Mechanized>
-			<UnitArtInfo>ART_DEF_UNIT_KOREANSU25</UnitArtInfo>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>4</PortraitIndex>
-			<RangedCombatLimit>100</RangedCombatLimit>
-			<AirUnitCap>1</AirUnitCap>
-			<MilitaryProduction>true</MilitaryProduction>
-			<MilitarySupport>true</MilitarySupport>
-			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<XPValueAttack>4</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-		</Row>
-		<Row>
-			<Type>UNIT_AUSTRIANEUROFIGHTER</Type>
+			<Type>UNIT_EUROFIGHTER</Type>
 			<Description>TXT_KEY_UNIT_EUROFIGHTER33</Description>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<Special>SPECIALUNIT_STEALTH</Special>
-			<Class>UNITCLASS_NONSTEALTHBOMBER</Class>
-			<Cost>450</Cost>
-			<HurryCostModifier>15</HurryCostModifier>
-			<AdvancedStartCost>50</AdvancedStartCost>
-			<RangedCombat>70</RangedCombat>
-			<Range>15</Range>
-			<AirInterceptRange>6</AirInterceptRange>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<Moves>2</Moves>
-			<Immobile>true</Immobile>
-			<Strategy>TXT_KEY_UNIT_EUROFIGHTER33_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_EUROFIGHTER33</Help>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_EUROFIGHTER33_TEXT</Civilopedia>
-			<PrereqTech>TECH_FLYBYWIRE</PrereqTech>
-			<MoveRate>AIR_REBASE</MoveRate>
-			<Mechanized>true</Mechanized>
-			<UnitArtInfo>ART_DEF_UNIT_AUSTRIANEUROFIGHTER</UnitArtInfo>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>10</PortraitIndex>
-			<RangedCombatLimit>100</RangedCombatLimit>
-			<AirUnitCap>1</AirUnitCap>
-			<MilitaryProduction>true</MilitaryProduction>
-			<MilitarySupport>true</MilitarySupport>
-			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<XPValueAttack>4</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-		</Row>
-		<Row>
-			<Type>UNIT_GERMANEUROFIGHTER</Type>
-			<Description>TXT_KEY_UNIT_EUROFIGHTER33</Description>
-			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
-			<Domain>DOMAIN_AIR</Domain>
-			<Special>SPECIALUNIT_STEALTH</Special>
-			<Class>UNITCLASS_NONSTEALTHBOMBER</Class>
-			<Cost>450</Cost>
-			<HurryCostModifier>15</HurryCostModifier>
-			<AdvancedStartCost>50</AdvancedStartCost>
-			<RangedCombat>70</RangedCombat>
-			<Range>15</Range>
-			<AirInterceptRange>6</AirInterceptRange>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<Moves>2</Moves>
-			<Immobile>true</Immobile>
-			<Strategy>TXT_KEY_UNIT_EUROFIGHTER33_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_EUROFIGHTER33</Help>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_EUROFIGHTER33_TEXT</Civilopedia>
-			<PrereqTech>TECH_FLYBYWIRE</PrereqTech>
-			<MoveRate>AIR_REBASE</MoveRate>
-			<Mechanized>true</Mechanized>
-			<UnitArtInfo>ART_DEF_UNIT_GERMANEUROFIGHTER</UnitArtInfo>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>10</PortraitIndex>
-			<RangedCombatLimit>100</RangedCombatLimit>
-			<AirUnitCap>1</AirUnitCap>
-			<MilitaryProduction>true</MilitaryProduction>
-			<MilitarySupport>true</MilitarySupport>
-			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<XPValueAttack>4</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-		</Row>
-		<Row>
-			<Type>UNIT_ITALIANEUROFIGHTER</Type>
-			<Description>TXT_KEY_UNIT_EUROFIGHTER33</Description>
-			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
-			<Domain>DOMAIN_AIR</Domain>
-			<Special>SPECIALUNIT_STEALTH</Special>
-			<Class>UNITCLASS_NONSTEALTHBOMBER</Class>
-			<Cost>450</Cost>
-			<HurryCostModifier>15</HurryCostModifier>
-			<AdvancedStartCost>50</AdvancedStartCost>
-			<RangedCombat>70</RangedCombat>
-			<Range>15</Range>
-			<AirInterceptRange>6</AirInterceptRange>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<Moves>2</Moves>
-			<Immobile>true</Immobile>
-			<Strategy>TXT_KEY_UNIT_EUROFIGHTER33_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_EUROFIGHTER33</Help>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_EUROFIGHTER33_TEXT</Civilopedia>
-			<PrereqTech>TECH_FLYBYWIRE</PrereqTech>
-			<MoveRate>AIR_REBASE</MoveRate>
-			<Mechanized>true</Mechanized>
-			<UnitArtInfo>ART_DEF_UNIT_ITALIANEUROFIGHTER</UnitArtInfo>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>10</PortraitIndex>
-			<RangedCombatLimit>100</RangedCombatLimit>
-			<AirUnitCap>1</AirUnitCap>
-			<MilitaryProduction>true</MilitaryProduction>
-			<MilitarySupport>true</MilitarySupport>
-			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<XPValueAttack>4</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-		</Row>
-		<Row>
-			<Type>UNIT_SARABIANEUROFIGHTER</Type>
-			<Description>TXT_KEY_UNIT_EUROFIGHTER33</Description>
-			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
-			<Domain>DOMAIN_AIR</Domain>
-			<Special>SPECIALUNIT_STEALTH</Special>
-			<Class>UNITCLASS_NONSTEALTHBOMBER</Class>
-			<Cost>450</Cost>
-			<HurryCostModifier>15</HurryCostModifier>
-			<AdvancedStartCost>50</AdvancedStartCost>
-			<RangedCombat>70</RangedCombat>
-			<Range>15</Range>
-			<AirInterceptRange>6</AirInterceptRange>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<Moves>2</Moves>
-			<Immobile>true</Immobile>
-			<Strategy>TXT_KEY_UNIT_EUROFIGHTER33_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_EUROFIGHTER33</Help>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_EUROFIGHTER33_TEXT</Civilopedia>
-			<PrereqTech>TECH_FLYBYWIRE</PrereqTech>
-			<MoveRate>AIR_REBASE</MoveRate>
-			<Mechanized>true</Mechanized>
-			<UnitArtInfo>ART_DEF_UNIT_SARABIANEUROFIGHTER</UnitArtInfo>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>10</PortraitIndex>
-			<RangedCombatLimit>100</RangedCombatLimit>
-			<AirUnitCap>1</AirUnitCap>
-			<MilitaryProduction>true</MilitaryProduction>
-			<MilitarySupport>true</MilitarySupport>
-			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<XPValueAttack>4</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-		</Row>
-		<Row>
-			<Type>UNIT_SPANISHEUROFIGHTER</Type>
-			<Description>TXT_KEY_UNIT_EUROFIGHTER33</Description>
-			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
-			<Domain>DOMAIN_AIR</Domain>
-			<Special>SPECIALUNIT_STEALTH</Special>
-			<Class>UNITCLASS_NONSTEALTHBOMBER</Class>
-			<Cost>450</Cost>
-			<HurryCostModifier>15</HurryCostModifier>
-			<AdvancedStartCost>50</AdvancedStartCost>
-			<RangedCombat>70</RangedCombat>
-			<Range>15</Range>
-			<AirInterceptRange>6</AirInterceptRange>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<Moves>2</Moves>
-			<Immobile>true</Immobile>
-			<Strategy>TXT_KEY_UNIT_EUROFIGHTER33_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_EUROFIGHTER33</Help>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_EUROFIGHTER33_TEXT</Civilopedia>
-			<PrereqTech>TECH_FLYBYWIRE</PrereqTech>
-			<MoveRate>AIR_REBASE</MoveRate>
-			<Mechanized>true</Mechanized>
-			<UnitArtInfo>ART_DEF_UNIT_SPANISHEUROFIGHTER</UnitArtInfo>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>10</PortraitIndex>
-			<RangedCombatLimit>100</RangedCombatLimit>
-			<AirUnitCap>1</AirUnitCap>
-			<MilitaryProduction>true</MilitaryProduction>
-			<MilitarySupport>true</MilitarySupport>
-			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-			<XPValueAttack>4</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-		</Row>
-		<Row>
-			<Type>UNIT_ENGLISHEUROFIGHTER</Type>
-			<Description>TXT_KEY_UNIT_EUROFIGHTER33</Description>
-			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
-			<Domain>DOMAIN_AIR</Domain>
-			<Special>SPECIALUNIT_STEALTH</Special>
-			<Class>UNITCLASS_NONSTEALTHBOMBER</Class>
+			<Class>UNITCLASS_EUROFIGHTER</Class>
 			<Cost>450</Cost>
 			<HurryCostModifier>15</HurryCostModifier>
 			<AdvancedStartCost>50</AdvancedStartCost>
@@ -812,7 +325,7 @@
 			<MoveRate>AIR_REBASE</MoveRate>
 			<Mechanized>true</Mechanized>
 			<UnitArtInfo>ART_DEF_UNIT_ENGLISHEUROFIGHTER</UnitArtInfo>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
+			<IconAtlas>FA_18_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>10</PortraitIndex>
 			<RangedCombatLimit>100</RangedCombatLimit>
 			<AirUnitCap>1</AirUnitCap>
@@ -825,8 +338,8 @@
 			<UnitFlagIconOffset>78</UnitFlagIconOffset>
 		</Row>
 		<Row>
-			<Class>UNITCLASS_TOMCAT1</Class>
-			<Type>UNIT_F-14</Type>
+			<Class>UNITCLASS_F14_TOMCAT</Class>
+			<Type>UNIT_F14</Type>
 			<PrereqTech>TECH_GASTURBINEENGINE</PrereqTech>
 			<RangedCombat>75</RangedCombat>
 			<Cost>400</Cost>
@@ -838,10 +351,10 @@
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_F-14</Description>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_F-14_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_F-14_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_F-14</Help>
+			<Description>TXT_KEY_UNIT_F14</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_F_14_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_F14_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_F_14</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
@@ -852,8 +365,8 @@
 			<CombatLimit>0</CombatLimit>
 			<XPValueAttack>5</XPValueAttack>
 			<XPValueDefense>4</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_F-14</UnitArtInfo>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
+			<UnitArtInfo>ART_DEF_UNIT_F14</UnitArtInfo>
+			<IconAtlas>FA_18_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>1</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
 			<UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
@@ -889,12 +402,12 @@
 			<XPValueDefense>4</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_MIG15</UnitArtInfo>
 			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
+			<IconAtlas>FA_18_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>12</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
 		</Row>
 		<Row>
-			<Class>UNITCLASS_STEALTHFIGHTER</Class>
+			<Class>UNITCLASS_F117</Class>
 			<Type>UNIT_F117</Type>
 			<PrereqTech>TECH_STEALTH</PrereqTech>
 			<RangedCombat>88</RangedCombat>
@@ -923,47 +436,32 @@
 			<XPValueDefense>4</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_F117</UnitArtInfo>
 			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<IconAtlas>FA-18_ICON_ATLAS</IconAtlas>
+			<IconAtlas>FA_18_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>9</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
 		</Row>
 
 	</Units>
+	
 	<Unit_AITypes>
 		<Row>
-			<UnitType>UNIT_FRENCHRAFALE</UnitType>
+			<UnitType>UNIT_RAFALE</UnitType>
 			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FRENCHRAFALE</UnitType>
+			<UnitType>UNIT_RAFALE</UnitType>
 			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_INDIANRAFALE</UnitType>
-			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDIANRAFALE</UnitType>
-			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANRAFALE</UnitType>
-			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANRAFALE</UnitType>
-			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
 		</Row>
 		<Row>
@@ -979,99 +477,27 @@
 			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANMIG29</UnitType>
+			<UnitType>UNIT_MIG29</UnitType>
 			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANMIG29</UnitType>
+			<UnitType>UNIT_MIG29</UnitType>
 			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANMIG29</UnitType>
+			<UnitType>UNIT_MIG29</UnitType>
 			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_EGYPTIANMIG29</UnitType>
+			<UnitType>UNIT_HARRIER</UnitType>
 			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_EGYPTIANMIG29</UnitType>
+			<UnitType>UNIT_F14</UnitType>
 			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_EGYPTIANMIG29</UnitType>
-			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PERSIANMIG29</UnitType>
-			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PERSIANMIG29</UnitType>
-			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PERSIANMIG29</UnitType>
-			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARABIANMIG29</UnitType>
-			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARABIANMIG29</UnitType>
-			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARABIANMIG29</UnitType>
-			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_POLISHMIG29</UnitType>
-			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_POLISHMIG29</UnitType>
-			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_POLISHMIG29</UnitType>
-			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANMIG29</UnitType>
-			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANMIG29</UnitType>
-			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANMIG29</UnitType>
-			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_USAHARRIER</UnitType>
-			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANHARRIER</UnitType>
-			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHHARRIER</UnitType>
-			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHHARRIER</UnitType>
-			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_F-14</UnitType>
-			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_F-14</UnitType>
+			<UnitType>UNIT_F14</UnitType>
 			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
 		</Row>
 		<Row>
@@ -1087,79 +513,19 @@
 			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANSU25</UnitType>
+			<UnitType>UNIT_SU25</UnitType>
 			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_AUSTRIANEUROFIGHTER</UnitType>
+			<UnitType>UNIT_EUROFIGHTER</UnitType>
 			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_AUSTRIANEUROFIGHTER</UnitType>
+			<UnitType>UNIT_EUROFIGHTER</UnitType>
 			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_AUSTRIANEUROFIGHTER</UnitType>
-			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GERMANEUROFIGHTER</UnitType>
-			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GERMANEUROFIGHTER</UnitType>
-			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GERMANEUROFIGHTER</UnitType>
-			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANEUROFIGHTER</UnitType>
-			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANEUROFIGHTER</UnitType>
-			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANEUROFIGHTER</UnitType>
-			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SARABIANEUROFIGHTER</UnitType>
-			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SARABIANEUROFIGHTER</UnitType>
-			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SARABIANEUROFIGHTER</UnitType>
-			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHEUROFIGHTER</UnitType>
-			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHEUROFIGHTER</UnitType>
-			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHEUROFIGHTER</UnitType>
-			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHEUROFIGHTER</UnitType>
-			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHEUROFIGHTER</UnitType>
-			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHEUROFIGHTER</UnitType>
+			<UnitType>UNIT_EUROFIGHTER</UnitType>
 			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
 		</Row>
 		<Row>
@@ -1168,38 +534,32 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_F117</UnitType>
-			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANSU25</UnitType>
-			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANSU25</UnitType>
 			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
 		</Row>
 	</Unit_AITypes>
+	
 	<Unit_Flavors>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>13</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>8</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<FlavorType>FLAVOR_AIR</FlavorType>
 			<Flavor>23</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
 			<Flavor>15</Flavor>
 		</Row>
+		
 		<Row>
 			<UnitType>UNIT_YF23</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -1220,266 +580,87 @@
 			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
+		
 		<Row>
-			<UnitType>UNIT_USAHARRIER</UnitType>
+			<UnitType>UNIT_HARRIER</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>15</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_USAHARRIER</UnitType>
+			<UnitType>UNIT_HARRIER</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>12</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_USAHARRIER</UnitType>
+			<UnitType>UNIT_HARRIER</UnitType>
 			<FlavorType>FLAVOR_AIR</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
+		
 		<Row>
-			<UnitType>UNIT_ITALIANHARRIER</UnitType>
+			<UnitType>UNIT_RAFALE</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>15</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_ITALIANHARRIER</UnitType>
+			<UnitType>UNIT_RAFALE</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>12</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_ITALIANHARRIER</UnitType>
+			<UnitType>UNIT_RAFALE</UnitType>
 			<FlavorType>FLAVOR_AIR</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_SPANISHHARRIER</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>15</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHHARRIER</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>12</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHHARRIER</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHHARRIER</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>15</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHHARRIER</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>12</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHHARRIER</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FRENCHRAFALE</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>12</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FRENCHRAFALE</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>12</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FRENCHRAFALE</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FRENCHRAFALE</UnitType>
+		
+			<UnitType>UNIT_RAFALE</UnitType>
 			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
 			<Flavor>17</Flavor>
 		</Row>
+		
 		<Row>
-			<UnitType>UNIT_INDIANRAFALE</UnitType>
+			<UnitType>UNIT_F14</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>12</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDIANRAFALE</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>12</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDIANRAFALE</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
 			<Flavor>22</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_INDIANRAFALE</UnitType>
+			<UnitType>UNIT_F14</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_F14</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>		
+		<Row>
+			<UnitType>UNIT_F14</UnitType>
 			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
-			<Flavor>17</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
+		
 		<Row>
-			<UnitType>UNIT_EGYPTIANRAFALE</UnitType>
+			<UnitType>UNIT_MIG29</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>12</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANRAFALE</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>12</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANRAFALE</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>22</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANRAFALE</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>17</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_F-14</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>12</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_F-14</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>12</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_F-14</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_F-14</UnitType>
-			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
-			<Flavor>17</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_RUSSIANMIG29</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>11</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_RUSSIANMIG29</UnitType>
+			<UnitType>UNIT_MIG29</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>11</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANMIG29</UnitType>
+			<UnitType>UNIT_MIG29</UnitType>
 			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>18</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANMIG29</UnitType>
+			<UnitType>UNIT_MIG29</UnitType>
 			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
 			<Flavor>16</Flavor>
 		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANMIG29</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>11</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANMIG29</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>11</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANMIG29</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANMIG29</UnitType>
-			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
-			<Flavor>17</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PERSIANMIG29</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>11</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PERSIANMIG29</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>11</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PERSIANMIG29</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PERSIANMIG29</UnitType>
-			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
-			<Flavor>17</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARABIANMIG29</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>11</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARABIANMIG29</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>11</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARABIANMIG29</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARABIANMIG29</UnitType>
-			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
-			<Flavor>17</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_POLISHMIG29</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>11</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_POLISHMIG29</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>11</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_POLISHMIG29</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_POLISHMIG29</UnitType>
-			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
-			<Flavor>17</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANMIG29</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>11</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANMIG29</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>11</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANMIG29</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANMIG29</UnitType>
-			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
-			<Flavor>17</Flavor>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_MIG15</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -1488,7 +669,7 @@
 		<Row>
 			<UnitType>UNIT_MIG15</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>9</Flavor>
+			<Flavor>8</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MIG15</UnitType>
@@ -1498,8 +679,9 @@
 		<Row>
 			<UnitType>UNIT_MIG15</UnitType>
 			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
-			<Flavor>13</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
+		
 		<Row>
 			<UnitType>UNIT_MQ1</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -1515,145 +697,43 @@
 			<FlavorType>FLAVOR_AIR</FlavorType>
 			<Flavor>30</Flavor>
 		</Row>
+		
 		<Row>
-			<UnitType>UNIT_RUSSIANSU25</UnitType>
+			<UnitType>UNIT_SU25</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>15</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANSU25</UnitType>
+			<UnitType>UNIT_SU25</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>9</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANSU25</UnitType>
+			<UnitType>UNIT_SU25</UnitType>
 			<FlavorType>FLAVOR_AIR</FlavorType>
 			<Flavor>25</Flavor>
 		</Row>
+		
 		<Row>
-			<UnitType>UNIT_AUSTRIANEUROFIGHTER</UnitType>
+			<UnitType>UNIT_EUROFIGHTER</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>13</Flavor>
+			<Flavor>18</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_AUSTRIANEUROFIGHTER</UnitType>
+			<UnitType>UNIT_EUROFIGHTER</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>13</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_AUSTRIANEUROFIGHTER</UnitType>
+			<UnitType>UNIT_EUROFIGHTER</UnitType>
 			<FlavorType>FLAVOR_AIR</FlavorType>
 			<Flavor>23</Flavor>
 		</Row>
-		<Row>
-			<UnitType>UNIT_AUSTRIANEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GERMANEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>13</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GERMANEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>13</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GERMANEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>23</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GERMANEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>13</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>13</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>23</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SARABIANEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>13</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SARABIANEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>13</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SARABIANEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>23</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SARABIANEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>13</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>13</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>23</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>13</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>13</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>23</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHEUROFIGHTER</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_F117</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>15</Flavor>
+			<Flavor>25</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_F117</UnitType>
@@ -1670,80 +750,64 @@
 			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANSU25</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>15</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANSU25</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>9</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANSU25</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>25</Flavor>
-		</Row>
-
 
 	</Unit_Flavors>
 
 	<Unit_FreePromotions>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<PromotionType>PROMOTION_EVASION</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<PromotionType>PROMOTION_EVASION_I</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<PromotionType>PROMOTION_EVASION_II</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<PromotionType>PROMOTION_AIR_SIEGE_2</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<PromotionType>PROMOTION_DOGFIGHTING_2</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<PromotionType>PROMOTION_BOMBARDMENT_2</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<PromotionType>PROMOTION_AIR_TARGETING_1</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<PromotionType>PROMOTION_AIR_AMBUSH_1</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
 		</Row>
 		<Row>
@@ -1775,187 +839,59 @@
 			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_USAHARRIER</UnitType>
+			<UnitType>UNIT_HARRIER</UnitType>
 			<PromotionType>PROMOTION_EVASION</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_USAHARRIER</UnitType>
+			<UnitType>UNIT_HARRIER</UnitType>
 			<PromotionType>PROMOTION_EVASION_II</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_USAHARRIER</UnitType>
+			<UnitType>UNIT_HARRIER</UnitType>
 			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_USAHARRIER</UnitType>
+			<UnitType>UNIT_HARRIER</UnitType>
 			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
 		</Row>
-
-
 		<Row>
-			<UnitType>UNIT_USAHARRIER</UnitType>
+			<UnitType>UNIT_HARRIER</UnitType>
 			<PromotionType>PROMOTION_AIR_AMBUSH_1</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANHARRIER</UnitType>
-			<PromotionType>PROMOTION_EVASION</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANHARRIER</UnitType>
-			<PromotionType>PROMOTION_EVASION_II</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANHARRIER</UnitType>
-			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANHARRIER</UnitType>
-			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
-		</Row>
-
 
 		<Row>
-			<UnitType>UNIT_ITALIANHARRIER</UnitType>
-			<PromotionType>PROMOTION_AIR_AMBUSH_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHHARRIER</UnitType>
-			<PromotionType>PROMOTION_EVASION</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHHARRIER</UnitType>
-			<PromotionType>PROMOTION_EVASION_II</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHHARRIER</UnitType>
-			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHHARRIER</UnitType>
-			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
-		</Row>
-
-		<Row>
-			<UnitType>UNIT_SPANISHHARRIER</UnitType>
-			<PromotionType>PROMOTION_AIR_AMBUSH_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHHARRIER</UnitType>
-			<PromotionType>PROMOTION_EVASION</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHHARRIER</UnitType>
-			<PromotionType>PROMOTION_EVASION_II</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHHARRIER</UnitType>
-			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHHARRIER</UnitType>
-			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
-		</Row>
-
-		<Row>
-			<UnitType>UNIT_ENGLISHHARRIER</UnitType>
-			<PromotionType>PROMOTION_AIR_AMBUSH_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FRENCHRAFALE</UnitType>
+			<UnitType>UNIT_RAFALE</UnitType>
 			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FRENCHRAFALE</UnitType>
+			<UnitType>UNIT_RAFALE</UnitType>
 			<PromotionType>PROMOTION_EVASION</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FRENCHRAFALE</UnitType>
+			<UnitType>UNIT_RAFALE</UnitType>
 			<PromotionType>PROMOTION_EVASION_II</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FRENCHRAFALE</UnitType>
+			<UnitType>UNIT_RAFALE</UnitType>
 			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FRENCHRAFALE</UnitType>
+			<UnitType>UNIT_RAFALE</UnitType>
 			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FRENCHRAFALE</UnitType>
+			<UnitType>UNIT_RAFALE</UnitType>
 			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FRENCHRAFALE</UnitType>
+			<UnitType>UNIT_RAFALE</UnitType>
 			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FRENCHRAFALE</UnitType>
+			<UnitType>UNIT_RAFALE</UnitType>
 			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_INDIANRAFALE</UnitType>
-			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDIANRAFALE</UnitType>
-			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDIANRAFALE</UnitType>
-			<PromotionType>PROMOTION_EVASION</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDIANRAFALE</UnitType>
-			<PromotionType>PROMOTION_EVASION_II</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDIANRAFALE</UnitType>
-			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDIANRAFALE</UnitType>
-			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDIANRAFALE</UnitType>
-			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDIANRAFALE</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANRAFALE</UnitType>
-			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANRAFALE</UnitType>
-			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANRAFALE</UnitType>
-			<PromotionType>PROMOTION_EVASION</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANRAFALE</UnitType>
-			<PromotionType>PROMOTION_EVASION_II</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANRAFALE</UnitType>
-			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANRAFALE</UnitType>
-			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANRAFALE</UnitType>
-			<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANRAFALE</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_MQ1</UnitType>
 			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
@@ -1992,375 +928,98 @@
 			<UnitType>UNIT_MQ1</UnitType>
 			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
 		</Row>
+		
 		<Row>
-			<UnitType>UNIT_RUSSIANSU25</UnitType>
+			<UnitType>UNIT_SU25</UnitType>
 			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANSU25</UnitType>
+			<UnitType>UNIT_SU25</UnitType>
 			<PromotionType>PROMOTION_EVASION</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANSU25</UnitType>
+			<UnitType>UNIT_SU25</UnitType>
 			<PromotionType>PROMOTION_EVASION_II</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANSU25</UnitType>
+			<UnitType>UNIT_SU25</UnitType>
 			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANSU25</UnitType>
+			<UnitType>UNIT_SU25</UnitType>
 			<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANSU25</UnitType>
+			<UnitType>UNIT_SU25</UnitType>
 			<PromotionType>PROMOTION_AIR_AMBUSH_1</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANSU25</UnitType>
+			<UnitType>UNIT_SU25</UnitType>
 			<PromotionType>PROMOTION_AIR_AMBUSH_2</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANSU25</UnitType>
+			<UnitType>UNIT_SU25</UnitType>
 			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
 		</Row>
 
 		<Row>
-			<UnitType>UNIT_RUSSIANMIG29</UnitType>
+			<UnitType>UNIT_MIG29</UnitType>
 			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANMIG29</UnitType>
+			<UnitType>UNIT_MIG29</UnitType>
 			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANMIG29</UnitType>
+			<UnitType>UNIT_MIG29</UnitType>
 			<PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANMIG29</UnitType>
+			<UnitType>UNIT_MIG29</UnitType>
 			<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANMIG29</UnitType>
+			<UnitType>UNIT_MIG29</UnitType>
 			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANMIG29</UnitType>
+			<UnitType>UNIT_MIG29</UnitType>
 			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
 		</Row>
+
 		<Row>
-			<UnitType>UNIT_EGYPTIANMIG29</UnitType>
-			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANMIG29</UnitType>
-			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANMIG29</UnitType>
-			<PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANMIG29</UnitType>
-			<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANMIG29</UnitType>
-			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANMIG29</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PERSIANMIG29</UnitType>
-			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PERSIANMIG29</UnitType>
-			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PERSIANMIG29</UnitType>
-			<PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PERSIANMIG29</UnitType>
-			<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PERSIANMIG29</UnitType>
-			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PERSIANMIG29</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARABIANMIG29</UnitType>
-			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARABIANMIG29</UnitType>
-			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARABIANMIG29</UnitType>
-			<PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARABIANMIG29</UnitType>
-			<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARABIANMIG29</UnitType>
-			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARABIANMIG29</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_POLISHMIG29</UnitType>
-			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_POLISHMIG29</UnitType>
-			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_POLISHMIG29</UnitType>
-			<PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_POLISHMIG29</UnitType>
-			<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_POLISHMIG29</UnitType>
-			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_POLISHMIG29</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANMIG29</UnitType>
-			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANMIG29</UnitType>
-			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANMIG29</UnitType>
-			<PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANMIG29</UnitType>
-			<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANMIG29</UnitType>
-			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANMIG29</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AUSTRIANEUROFIGHTER</UnitType>
+			<UnitType>UNIT_EUROFIGHTER</UnitType>
 			<PromotionType>PROMOTION_EVASION</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_AUSTRIANEUROFIGHTER</UnitType>
+			<UnitType>UNIT_EUROFIGHTER</UnitType>
 			<PromotionType>PROMOTION_EVASION_II</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_AUSTRIANEUROFIGHTER</UnitType>
+			<UnitType>UNIT_EUROFIGHTER</UnitType>
 			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_AUSTRIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AUSTRIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AUSTRIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AUSTRIANEUROFIGHTER</UnitType>
+			<UnitType>UNIT_EUROFIGHTER</UnitType>
 			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_AUSTRIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GERMANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_EVASION</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GERMANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_EVASION_II</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GERMANEUROFIGHTER</UnitType>
+			<UnitType>UNIT_EUROFIGHTER</UnitType>
 			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_GERMANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GERMANEUROFIGHTER</UnitType>
+			<UnitType>UNIT_EUROFIGHTER</UnitType>
 			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_GERMANEUROFIGHTER</UnitType>
+			<UnitType>UNIT_EUROFIGHTER</UnitType>
 			<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_GERMANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GERMANEUROFIGHTER</UnitType>
+			<UnitType>UNIT_EUROFIGHTER</UnitType>
 			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_EVASION</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_EVASION_II</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SARABIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_EVASION</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SARABIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_EVASION_II</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SARABIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SARABIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SARABIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SARABIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SARABIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SARABIANEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_EVASION</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_EVASION_II</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_EVASION</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_EVASION_II</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHEUROFIGHTER</UnitType>
-			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_F117</UnitType>
 			<PromotionType>PROMOTION_EVASION</PromotionType>
@@ -2421,87 +1080,52 @@
 			<UnitType>UNIT_F117</UnitType>
 			<PromotionType>PROMOTION_INTERCEPTION_I</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANSU25</UnitType>
-			<PromotionType>PROMOTION_EVASION</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANSU25</UnitType>
-			<PromotionType>PROMOTION_EVASION_II</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANSU25</UnitType>
-			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANSU25</UnitType>
-			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANSU25</UnitType>
-			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANSU25</UnitType>
-			<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANSU25</UnitType>
-			<PromotionType>PROMOTION_AIR_AMBUSH_1</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANSU25</UnitType>
-			<PromotionType>PROMOTION_AIR_AMBUSH_2</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANSU25</UnitType>
-			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
-		</Row>
 
 		<Row>
-			<UnitType>UNIT_F-14</UnitType>
+			<UnitType>UNIT_F14</UnitType>
 			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_F-14</UnitType>
+			<UnitType>UNIT_F14</UnitType>
 			<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_F-14</UnitType>
+			<UnitType>UNIT_F14</UnitType>
 			<PromotionType>PROMOTION_INTERCEPTION_II</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_F-14</UnitType>
+			<UnitType>UNIT_F14</UnitType>
 			<PromotionType>PROMOTION_INTERCEPTION_I</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_F-14</UnitType>
+			<UnitType>UNIT_F14</UnitType>
 			<PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_F-14</UnitType>
+			<UnitType>UNIT_F14</UnitType>
 			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_F-14</UnitType>
+			<UnitType>UNIT_F14</UnitType>
 			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_F-14</UnitType>
+			<UnitType>UNIT_F14</UnitType>
 			<PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_F-14</UnitType>
+			<UnitType>UNIT_F14</UnitType>
 			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_F-14</UnitType>
+			<UnitType>UNIT_F14</UnitType>
 			<PromotionType>PROMOTION_DOGFIGHTING_2</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_F-14</UnitType>
+			<UnitType>UNIT_F14</UnitType>
 			<PromotionType>PROMOTION_DOGFIGHTING_3</PromotionType>
 		</Row>
+
 		<Row>
 			<UnitType>UNIT_MIG15</UnitType>
 			<PromotionType>PROMOTION_INTERCEPTION_II</PromotionType>
@@ -2534,11 +1158,11 @@
 
 	<Unit_ResourceQuantityRequirements>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FA-18</UnitType>
+			<UnitType>UNIT_FA_18</UnitType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
 		<Row>
@@ -2551,110 +1175,34 @@
 			<ResourceType>RESOURCE_OIL</ResourceType>
 			<Cost>2</Cost>
 		</Row>
+
 		<Row>
-			<UnitType>UNIT_EGYPTIANMIG29</UnitType>
+			<UnitType>UNIT_MIG29</UnitType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_EGYPTIANMIG29</UnitType>
+			<UnitType>UNIT_MIG29</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_HARRIER</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_PERSIANMIG29</UnitType>
+			<UnitType>UNIT_HARRIER</UnitType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
+
 		<Row>
-			<UnitType>UNIT_PERSIANMIG29</UnitType>
+			<UnitType>UNIT_RAFALE</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_ARABIANMIG29</UnitType>
+			<UnitType>UNIT_RAFALE</UnitType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_ARABIANMIG29</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_POLISHMIG29</UnitType>
-			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_POLISHMIG29</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_RUSSIANMIG29</UnitType>
-			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_RUSSIANMIG29</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANMIG29</UnitType>
-			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANMIG29</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_USAHARRIER</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_USAHARRIER</UnitType>
-			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANHARRIER</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANHARRIER</UnitType>
-			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHHARRIER</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHHARRIER</UnitType>
-			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHHARRIER</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHHARRIER</UnitType>
-			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FRENCHRAFALE</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FRENCHRAFALE</UnitType>
-			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDIANRAFALE</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDIANRAFALE</UnitType>
-			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANRAFALE</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EGYPTIANRAFALE</UnitType>
-			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_MIG15</UnitType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
@@ -2664,11 +1212,11 @@
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_F-14</UnitType>
+			<UnitType>UNIT_F14</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_F-14</UnitType>
+			<UnitType>UNIT_F14</UnitType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
 		<Row>
@@ -2681,59 +1229,19 @@
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANSU25</UnitType>
+			<UnitType>UNIT_SU25</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_RUSSIANSU25</UnitType>
+			<UnitType>UNIT_SU25</UnitType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_AUSTRIANEUROFIGHTER</UnitType>
+			<UnitType>UNIT_EUROFIGHTER</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_AUSTRIANEUROFIGHTER</UnitType>
-			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GERMANEUROFIGHTER</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GERMANEUROFIGHTER</UnitType>
-			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANEUROFIGHTER</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ITALIANEUROFIGHTER</UnitType>
-			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SARABIANEUROFIGHTER</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SARABIANEUROFIGHTER</UnitType>
-			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHEUROFIGHTER</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SPANISHEUROFIGHTER</UnitType>
-			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHEUROFIGHTER</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISHEUROFIGHTER</UnitType>
+			<UnitType>UNIT_EUROFIGHTER</UnitType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
 		<Row>
@@ -2745,63 +1253,54 @@
 			<UnitType>UNIT_F117</UnitType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANSU25</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KOREANSU25</UnitType>
-			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>
-
 
 	</Unit_ResourceQuantityRequirements>
 
 	<IconTextureAtlases>
 		<Row>
-			<Atlas>FA-18_ICON_ATLAS</Atlas>
+			<Atlas>FA_18_ICON_ATLAS</Atlas>
 			<IconSize>256</IconSize>
 			<Filename>ART/AtlastArt/HornetAtlas256.dds</Filename>
 			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>2</IconsPerColumn>
 		</Row>
 		<Row>
-			<Atlas>FA-18_ICON_ATLAS</Atlas>
+			<Atlas>FA_18_ICON_ATLAS</Atlas>
 			<IconSize>128</IconSize>
 			<Filename>ART/AtlastArt/HornetAtlas128.dds</Filename>
 			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>2</IconsPerColumn>
 		</Row>
 		<Row>
-			<Atlas>FA-18_ICON_ATLAS</Atlas>
+			<Atlas>FA_18_ICON_ATLAS</Atlas>
 			<IconSize>64</IconSize>
 			<Filename>ART/AtlastArt/HornetAtlas64.dds</Filename>
 			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>2</IconsPerColumn>
 		</Row>
 		<Row>
-			<Atlas>FA-18_ICON_ATLAS</Atlas>
+			<Atlas>FA_18_ICON_ATLAS</Atlas>
 			<IconSize>214</IconSize>
 			<Filename>ART/AtlastArt/HornetAtlas214.dds</Filename>
 			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>2</IconsPerColumn>
 		</Row>
 		<Row>
-			<Atlas>FA-18_ICON_ATLAS</Atlas>
+			<Atlas>FA_18_ICON_ATLAS</Atlas>
 			<IconSize>80</IconSize>
 			<Filename>ART/AtlastArt/HornetAtlas80.dds</Filename>
 			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>2</IconsPerColumn>
 		</Row>
 		<Row>
-			<Atlas>FA-18_ICON_ATLAS</Atlas>
+			<Atlas>FA_18_ICON_ATLAS</Atlas>
 			<IconSize>32</IconSize>
 			<Filename>ART/AtlastArt/HornetAtlas32.dds</Filename>
 			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>2</IconsPerColumn>
 		</Row>
 		<Row>
-			<Atlas>FA-18_ICON_ATLAS</Atlas>
+			<Atlas>FA_18_ICON_ATLAS</Atlas>
 			<IconSize>45</IconSize>
 			<Filename>ART/AtlastArt/HornetAtlas45.dds</Filename>
 			<IconsPerRow>8</IconsPerRow>
@@ -2857,163 +1356,10 @@
 			<IconsPerColumn>1</IconsPerColumn>
 		</Row>
 	</IconTextureAtlases>
-
-	<UnitClasses>
-		<Row>
-			<Type>UNITCLASS_APACHE888</Type>
-			<Description>Land based Apache Helicopter</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_NAVAL_BOMBER</Type>
-			<Description>Naval Based Bomber</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_TOMCAT1</Type>
-			<Description>Naval Based Fighter</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_MIG15</Type>
-			<Description>Naval Based Fighter</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_B5252</Type>
-			<Description>Land Based Bomber</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_FAIREY_SWORDFISH</Type>
-			<Description>Land or Sea Based Fighter</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_RUSSIANBEAR</Type>
-			<Description>Land Based Bomber</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_NAVAL_BOMBER2</Type>
-			<Description>Naval Based Bomber</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_MQ1</Type>
-			<Description>TXT_KEY_UNIT_MQ1</Description>
-			<DefaultUnit>UNIT_MQ1</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_NONSTEALTHBOMBER</Type>
-			<Description>Land based Bomber Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_FROGFOOT</Type>
-			<Description>Land based Bomber Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_STEALTHFIGHTER</Type>
-			<Description>Land and Sea based Fighter Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_STEALTHFIGHTER2</Type>
-			<Description>Land based Fighter Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_ADVANCEDFIGHTER</Type>
-			<Description>Land and Sea based Multirole Attack Aircraft</Description>
-			<DefaultUnit>UNIT_YF23</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_ADVANCEDFIGHTER2</Type>
-			<Description>Land and Sea based Multirole Attack Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_ADVANCEDFIGHTER3</Type>
-			<Description>Land and based Multirole Fighter Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_VAMPIRE2</Type>
-			<Description>Land based Multirole Fighter Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_NONSTEALTHFIGHTER</Type>
-			<Description>Land based Fighter Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_P51MUSTANG1</Type>
-			<Description>Land based Fighter Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_NAVALFIGHTER</Type>
-			<Description>Sea based Fighter Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_NAVALFIGHTER2</Type>
-			<Description>Sea based Fighter Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_FW1901</Type>
-			<Description>Land based Fighter Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_SPITFIRE2</Type>
-			<Description>Land based Fighter Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_SEAFIRE</Type>
-			<Description>Sea based Fighter Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_P382</Type>
-			<Description>Sea based Fighter Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_F15FIGHTER1</Type>
-			<Description>Land based Fighter Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_SR71BLACKBIRD</Type>
-			<Description>Land based Recon Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_A10THUNDERBOLT</Type>
-			<Description>Land based Fighter Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_A7CORSAIRII</Type>
-			<Description>Land and Sea based Fighter Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_F16FALCON16</Type>
-			<Description>Land based Fighter Aircraft</Description>
-			<DefaultUnit>NONE</DefaultUnit>
-		</Row>
-	</UnitClasses>
-
+	
 	<ArtDefine_UnitInfos>
 		<Row>
-			<Type>ART_DEF_UNIT_FA-18</Type>
+			<Type>ART_DEF_UNIT_FA_18</Type>
 			<DamageStates>1</DamageStates>
 			<Formation>BomberWing</Formation>
 		</Row>
@@ -3023,71 +1369,20 @@
 			<Formation>BomberWing</Formation>
 		</Row>
 		<Row>
-			<Type>ART_DEF_UNIT_RUSSIANMIG29</Type>
+			<Type>ART_DEF_UNIT_MIG29</Type>
 			<DamageStates>1</DamageStates>
 			<Formation>FighterWing</Formation>
 		</Row>
 		<Row>
-			<Type>ART_DEF_UNIT_EGYPTIANMIG29</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>FighterWing</Formation>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_PERSIANMIG29</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>FighterWing</Formation>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_ARABIANMIG29</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>FighterWing</Formation>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_POLISHMIG29</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>FighterWing</Formation>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_KOREANMIG29</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>FighterWing</Formation>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_USAHARRIER</Type>
+			<Type>ART_DEF_UNIT_HARRIER</Type>
 			<DamageStates>1</DamageStates>
 			<Formation>BomberWing</Formation>
 		</Row>
 		<Row>
-			<Type>ART_DEF_UNIT_ITALIANHARRIER</Type>
+			<Type>ART_DEF_UNIT_RAFALE</Type>
 			<DamageStates>1</DamageStates>
 			<Formation>BomberWing</Formation>
 		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_SPANISHHARRIER</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>BomberWing</Formation>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_ENGLISHHARRIER</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>BomberWing</Formation>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_FRENCHRAFALE</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>BomberWing</Formation>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_INDIANRAFALE</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>BomberWing</Formation>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_EGYPTIANRAFALE</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>BomberWing</Formation>
-		</Row>
-
 
 		<Row>
 			<Type>ART_DEF_UNIT_MQ1</Type>
@@ -3095,7 +1390,7 @@
 			<Formation>BomberWing</Formation>
 		</Row>
 		<Row>
-			<Type>ART_DEF_UNIT_RUSSIANSU25</Type>
+			<Type>ART_DEF_UNIT_SU25</Type>
 			<DamageStates>1</DamageStates>
 			<Formation>BomberWing</Formation>
 		</Row>
@@ -3105,32 +1400,7 @@
 			<Formation>FighterWing</Formation>
 		</Row>
 		<Row>
-			<Type>ART_DEF_UNIT_AUSTRIANEUROFIGHTER</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>BomberWing</Formation>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_GERMANEUROFIGHTER</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>BomberWing</Formation>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_ITALIANEUROFIGHTER</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>BomberWing</Formation>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_SARABIANEUROFIGHTER</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>BomberWing</Formation>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_SPANISHEUROFIGHTER</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>BomberWing</Formation>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_ENGLISHEUROFIGHTER</Type>
+			<Type>ART_DEF_UNIT_EUROFIGHTER</Type>
 			<DamageStates>1</DamageStates>
 			<Formation>BomberWing</Formation>
 		</Row>
@@ -3140,20 +1410,16 @@
 			<Formation>BomberWing</Formation>
 		</Row>
 		<Row>
-			<Type>ART_DEF_UNIT_KOREANSU25</Type>
-			<DamageStates>1</DamageStates>
-			<Formation>BomberWing</Formation>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_F-14</Type>
+			<Type>ART_DEF_UNIT_F14</Type>
 			<DamageStates>1</DamageStates>
 			<Formation>FighterWing</Formation>
 		</Row>
 	</ArtDefine_UnitInfos>
+	
 	<ArtDefine_UnitInfoMemberInfos>
 		<Row>
-			<UnitInfoType>ART_DEF_UNIT_FA-18</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_FA-18</UnitMemberInfoType>
+			<UnitInfoType>ART_DEF_UNIT_FA_18</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_FA_18</UnitMemberInfoType>
 			<NumMembers>2</NumMembers>
 		</Row>
 		<Row>
@@ -3162,80 +1428,30 @@
 			<NumMembers>1</NumMembers>
 		</Row>
 		<Row>
-			<UnitInfoType>ART_DEF_UNIT_RUSSIANMIG29</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_RUSSIANMIG29</UnitMemberInfoType>
+			<UnitInfoType>ART_DEF_UNIT_MIG29</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_MIG29</UnitMemberInfoType>
 			<NumMembers>2</NumMembers>
 		</Row>
 		<Row>
-			<UnitInfoType>ART_DEF_UNIT_EGYPTIANMIG29</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_EGYPTIANMIG29</UnitMemberInfoType>
-			<NumMembers>2</NumMembers>
-		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_PERSIANMIG29</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_PERSIANMIG29</UnitMemberInfoType>
-			<NumMembers>2</NumMembers>
-		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_ARABIANMIG29</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_ARABIANMIG29</UnitMemberInfoType>
-			<NumMembers>2</NumMembers>
-		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_POLISHMIG29</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_POLISHMIG29</UnitMemberInfoType>
-			<NumMembers>2</NumMembers>
-		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_KOREANMIG29</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_KOREANMIG29</UnitMemberInfoType>
-			<NumMembers>2</NumMembers>
-		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_USAHARRIER</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_USAHARRIER</UnitMemberInfoType>
+			<UnitInfoType>ART_DEF_UNIT_HARRIER</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_HARRIER</UnitMemberInfoType>
 			<NumMembers>1</NumMembers>
 		</Row>
 		<Row>
-			<UnitInfoType>ART_DEF_UNIT_ITALIANHARRIER</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_ITALIANHARRIER</UnitMemberInfoType>
-			<NumMembers>1</NumMembers>
-		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_SPANISHHARRIER</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SPANISHHARRIER</UnitMemberInfoType>
-			<NumMembers>1</NumMembers>
-		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_ENGLISHHARRIER</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_ENGLISHHARRIER</UnitMemberInfoType>
-			<NumMembers>1</NumMembers>
-		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_FRENCHRAFALE</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_FRENCHRAFALE</UnitMemberInfoType>
+			<UnitInfoType>ART_DEF_UNIT_RAFALE</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_RAFALE</UnitMemberInfoType>
 			<NumMembers>2</NumMembers>
 		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_INDIANRAFALE</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_INDIANRAFALE</UnitMemberInfoType>
-			<NumMembers>2</NumMembers>
-		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_EGYPTIANRAFALE</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_EGYPTIANRAFALE</UnitMemberInfoType>
-			<NumMembers>2</NumMembers>
-		</Row>
-
 
 		<Row>
 			<UnitInfoType>ART_DEF_UNIT_MQ1</UnitInfoType>
 			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_MQ1</UnitMemberInfoType>
 			<NumMembers>3</NumMembers>
 		</Row>
+		
 		<Row>
-			<UnitInfoType>ART_DEF_UNIT_RUSSIANSU25</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_RUSSIANSU25</UnitMemberInfoType>
+			<UnitInfoType>ART_DEF_UNIT_SU25</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SU25</UnitMemberInfoType>
 			<NumMembers>1</NumMembers>
 		</Row>
 		<Row>
@@ -3243,55 +1459,29 @@
 			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_MIG15</UnitMemberInfoType>
 			<NumMembers>2</NumMembers>
 		</Row>
+		
 		<Row>
-			<UnitInfoType>ART_DEF_UNIT_AUSTRIANEUROFIGHTER</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_AUSTRIANEUROFIGHTER</UnitMemberInfoType>
+			<UnitInfoType>ART_DEF_UNIT_EUROFIGHTER</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_EUROFIGHTER</UnitMemberInfoType>
 			<NumMembers>1</NumMembers>
 		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_GERMANEUROFIGHTER</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_GERMANEUROFIGHTER</UnitMemberInfoType>
-			<NumMembers>1</NumMembers>
-		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_ITALIANEUROFIGHTER</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_ITALIANEUROFIGHTER</UnitMemberInfoType>
-			<NumMembers>1</NumMembers>
-		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_SARABIANEUROFIGHTER</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SARABIANEUROFIGHTER</UnitMemberInfoType>
-			<NumMembers>1</NumMembers>
-		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_SPANISHEUROFIGHTER</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SPANISHEUROFIGHTER</UnitMemberInfoType>
-			<NumMembers>1</NumMembers>
-		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_ENGLISHEUROFIGHTER</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_ENGLISHEUROFIGHTER</UnitMemberInfoType>
-			<NumMembers>1</NumMembers>
-		</Row>
+		
 		<Row>
 			<UnitInfoType>ART_DEF_UNIT_F117</UnitInfoType>
 			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_F117</UnitMemberInfoType>
 			<NumMembers>1</NumMembers>
 		</Row>
+
 		<Row>
-			<UnitInfoType>ART_DEF_UNIT_KOREANSU25</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_KOREANSU25</UnitMemberInfoType>
-			<NumMembers>1</NumMembers>
-		</Row>
-		<Row>
-			<UnitInfoType>ART_DEF_UNIT_F-14</UnitInfoType>
-			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_F-14</UnitMemberInfoType>
+			<UnitInfoType>ART_DEF_UNIT_F14</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_F_14</UnitMemberInfoType>
 			<NumMembers>2</NumMembers>
 		</Row>
 	</ArtDefine_UnitInfoMemberInfos>
+
 	<ArtDefine_UnitMemberInfos>
 		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_FA-18</Type>
+			<Type>ART_DEF_UNIT_MEMBER_FA_18</Type>
 			<Scale>.09</Scale>
 			<Domain>Air</Domain>
 			<Model>ART/FA-18.fxsxml</Model>
@@ -3307,141 +1497,32 @@
 			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
 		</Row>
 		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_RUSSIANMIG29</Type>
+			<Type>ART_DEF_UNIT_MEMBER_MIG29</Type>
 			<Scale>.1</Scale>
 			<Domain>Air</Domain>
 			<Model>ART/MiG29Russia.fxsxml</Model>
 			<MaterialTypeTag>METAL</MaterialTypeTag>
 			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
 		</Row>
+
 		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_EGYPTIANMIG29</Type>
-			<Scale>.1</Scale>
-			<Domain>Air</Domain>
-			<Model>ART/MiG29Soviet.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_PERSIANMIG29</Type>
-			<Scale>.1</Scale>
-			<Domain>Air</Domain>
-			<Model>ART/MiG29Iran.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_ARABIANMIG29</Type>
-			<Scale>.1</Scale>
-			<Domain>Air</Domain>
-			<Model>ART/MiG29Iraq.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_POLISHMIG29</Type>
-			<Scale>.1</Scale>
-			<Domain>Air</Domain>
-			<Model>ART/MiG29Peru.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_KOREANMIG29</Type>
-			<Scale>.1</Scale>
-			<Domain>Air</Domain>
-			<Model>ART/MiG29Ukraine.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_USAHARRIER</Type>
+			<Type>ART_DEF_UNIT_MEMBER_HARRIER</Type>
 			<Scale>.1</Scale>
 			<Domain>Air</Domain>
 			<Model>ART/HARRIER.fxsxml</Model>
 			<MaterialTypeTag>METAL</MaterialTypeTag>
 			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
 		</Row>
+
 		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_ITALIANHARRIER</Type>
-			<Scale>.1</Scale>
-			<Domain>Air</Domain>
-			<Model>ART/HARRIER.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_SPANISHHARRIER</Type>
-			<Scale>.1</Scale>
-			<Domain>Air</Domain>
-			<Model>ART/HARRIER.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_ENGLISHHARRIER</Type>
-			<Scale>.1</Scale>
-			<Domain>Air</Domain>
-			<Model>ART/HARRIER.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_FRENCHRAFALE</Type>
+			<Type>ART_DEF_UNIT_MEMBER_RAFALE</Type>
 			<Scale>.09</Scale>
 			<Domain>Air</Domain>
 			<Model>ART/Rafale.fxsxml</Model>
 			<MaterialTypeTag>METAL</MaterialTypeTag>
 			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
 		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_INDIANRAFALE</Type>
-			<Scale>.09</Scale>
-			<Domain>Air</Domain>
-			<Model>ART/Rafale.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_EGYPTIANRAFALE</Type>
-			<Scale>.09</Scale>
-			<Domain>Air</Domain>
-			<Model>ART/Rafale.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_AH64</Type>
-			<Scale>.1</Scale>
-			<Domain>Hover</Domain>
-			<Model>ART/AH64USA.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_ENGLISHAH64</Type>
-			<Scale>.1</Scale>
-			<Domain>Hover</Domain>
-			<Model>ART/AH64Britain.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_GREEKAH64</Type>
-			<Scale>.1</Scale>
-			<Domain>Hover</Domain>
-			<Model>ART/AH64Greece.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_JAPAH64</Type>
-			<Scale>.1</Scale>
-			<Domain>Hover</Domain>
-			<Model>ART/AH64Japan.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
+
 		<Row>
 			<Type>ART_DEF_UNIT_MEMBER_MQ1</Type>
 			<Scale>.09</Scale>
@@ -3450,14 +1531,16 @@
 			<MaterialTypeTag>METAL</MaterialTypeTag>
 			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
 		</Row>
+
 		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_RUSSIANSU25</Type>
+			<Type>ART_DEF_UNIT_MEMBER_SU25</Type>
 			<Scale>.1</Scale>
 			<Domain>Air</Domain>
 			<Model>ART/Su-25.fxsxml</Model>
 			<MaterialTypeTag>METAL</MaterialTypeTag>
 			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
 		</Row>
+		
 		<Row>
 			<Type>ART_DEF_UNIT_MEMBER_MIG15</Type>
 			<Scale>.09</Scale>
@@ -3466,51 +1549,12 @@
 			<MaterialTypeTag>METAL</MaterialTypeTag>
 			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
 		</Row>
+		
 		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_AUSTRIANEUROFIGHTER</Type>
+			<Type>ART_DEF_UNIT_MEMBER_EUROFIGHTER</Type>
 			<Scale>.1</Scale>
 			<Domain>Air</Domain>
 			<Model>ART/EurofighterAustria.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_GERMANEUROFIGHTER</Type>
-			<Scale>.1</Scale>
-			<Domain>Air</Domain>
-			<Model>ART/EurofighterGermany33.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_ITALIANEUROFIGHTER</Type>
-			<Scale>.1</Scale>
-			<Domain>Air</Domain>
-			<Model>ART/EurofighterItaly.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_SARABIANEUROFIGHTER</Type>
-			<Scale>.1</Scale>
-			<Domain>Air</Domain>
-			<Model>ART/EurofighterSArabia.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_SPANISHEUROFIGHTER</Type>
-			<Scale>.1</Scale>
-			<Domain>Air</Domain>
-			<Model>ART/EurofighterSpain.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_ENGLISHEUROFIGHTER</Type>
-			<Scale>.1</Scale>
-			<Domain>Air</Domain>
-			<Model>ART/EurofighterUK.fxsxml</Model>
 			<MaterialTypeTag>METAL</MaterialTypeTag>
 			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
 		</Row>
@@ -3523,15 +1567,7 @@
 			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
 		</Row>
 		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_KOREANSU25</Type>
-			<Scale>.1</Scale>
-			<Domain>Air</Domain>
-			<Model>ART/Su-25.fxsxml</Model>
-			<MaterialTypeTag>METAL</MaterialTypeTag>
-			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<Type>ART_DEF_UNIT_MEMBER_F-14</Type>
+			<Type>ART_DEF_UNIT_MEMBER_F_14</Type>
 			<Scale>.11</Scale>
 			<Domain>Air</Domain>
 			<Model>ART/F-14_5.fxsxml</Model>
@@ -3539,9 +1575,10 @@
 			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
 		</Row>
 	</ArtDefine_UnitMemberInfos>
+
 	<ArtDefine_UnitMemberCombats>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_FA-18</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_FA_18</UnitMemberType>
 			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
 			<AttackRadius>135.0</AttackRadius>
 			<MoveRate>2</MoveRate>
@@ -3559,7 +1596,7 @@
 			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_USAHARRIER</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_HARRIER</UnitMemberType>
 			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
 			<AttackRadius>135.0</AttackRadius>
 			<MoveRate>2</MoveRate>
@@ -3568,88 +1605,7 @@
 			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ITALIANHARRIER</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>2</MoveRate>
-			<TurnRateMin>0.25</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_SPANISHHARRIER</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>2</MoveRate>
-			<TurnRateMin>0.25</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ENGLISHHARRIER</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>2</MoveRate>
-			<TurnRateMin>0.25</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_FRENCHRAFALE</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>2</MoveRate>
-			<TurnRateMin>0.25</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_INDIANRAFALE</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>2</MoveRate>
-			<TurnRateMin>0.25</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_EGYPTIANRAFALE</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>2</MoveRate>
-			<TurnRateMin>0.25</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_AH64</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>2</MoveRate>
-			<TurnRateMin>0.25</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ENGLISHAH64</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>2</MoveRate>
-			<TurnRateMin>0.25</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_GREEKAH64</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>2</MoveRate>
-			<TurnRateMin>0.25</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_JAPAH64</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_RAFALE</UnitMemberType>
 			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
 			<AttackRadius>135.0</AttackRadius>
 			<MoveRate>2</MoveRate>
@@ -3667,7 +1623,7 @@
 			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_RUSSIANSU25</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SU25</UnitMemberType>
 			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
 			<AttackRadius>135.0</AttackRadius>
 			<MoveRate>2.2</MoveRate>
@@ -3676,52 +1632,7 @@
 			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_AUSTRIANEUROFIGHTER</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>2.2</MoveRate>
-			<TurnRateMin>0.25</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_GERMANEUROFIGHTER</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>2.2</MoveRate>
-			<TurnRateMin>0.25</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ITALIANEUROFIGHTER</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>2.2</MoveRate>
-			<TurnRateMin>0.25</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_SARABIANEUROFIGHTER</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>2.2</MoveRate>
-			<TurnRateMin>0.25</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_SPANISHEUROFIGHTER</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>2.2</MoveRate>
-			<TurnRateMin>0.25</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ENGLISHEUROFIGHTER</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_EUROFIGHTER</UnitMemberType>
 			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
 			<AttackRadius>135.0</AttackRadius>
 			<MoveRate>2.2</MoveRate>
@@ -3739,16 +1650,7 @@
 			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_KOREANSU25</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>2.2</MoveRate>
-			<TurnRateMin>0.25</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_F-14</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_F_14</UnitMemberType>
 			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
 			<AttackRadius>135.0</AttackRadius>
 			<MoveRate>3</MoveRate>
@@ -3766,52 +1668,7 @@
 			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_RUSSIANMIG29</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>3</MoveRate>
-			<TurnRateMin>0.3</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_EGYPTIANMIG29</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>3</MoveRate>
-			<TurnRateMin>0.3</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_PERSIANMIG29</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>3</MoveRate>
-			<TurnRateMin>0.3</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ARABIANMIG29</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>3</MoveRate>
-			<TurnRateMin>0.3</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_POLISHMIG29</UnitMemberType>
-			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
-			<AttackRadius>135.0</AttackRadius>
-			<MoveRate>3</MoveRate>
-			<TurnRateMin>0.3</TurnRateMin>
-			<TurnRateMax>0.5</TurnRateMax>
-			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_KOREANMIG29</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MIG29</UnitMemberType>
 			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
 			<AttackRadius>135.0</AttackRadius>
 			<MoveRate>3</MoveRate>
@@ -3820,9 +1677,10 @@
 			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
 		</Row>
 	</ArtDefine_UnitMemberCombats>
+
 	<ArtDefine_UnitMemberCombatWeapons>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_FA-18</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_FA_18</UnitMemberType>
 			<Index>0</Index>
 			<SubIndex>0</SubIndex>
 			<ProjectileSpeed>3.0</ProjectileSpeed>
@@ -3834,7 +1692,7 @@
 			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_FA-18</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_FA_18</UnitMemberType>
 			<Index>1</Index>
 			<SubIndex>0</SubIndex>
 			<VisKillStrengthMin>25.0</VisKillStrengthMin>
@@ -3868,7 +1726,7 @@
 			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_FRENCHRAFALE</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_RAFALE</UnitMemberType>
 			<Index>0</Index>
 			<SubIndex>0</SubIndex>
 			<ProjectileSpeed>3.0</ProjectileSpeed>
@@ -3880,7 +1738,7 @@
 			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_FRENCHRAFALE</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_RAFALE</UnitMemberType>
 			<Index>1</Index>
 			<SubIndex>0</SubIndex>
 			<VisKillStrengthMin>25.0</VisKillStrengthMin>
@@ -3890,154 +1748,9 @@
 			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
 			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
 		</Row>
+
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_INDIANRAFALE</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<VisKillStrengthMin>25.0</VisKillStrengthMin>
-			<VisKillStrengthMax>50.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_INDIANRAFALE</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<VisKillStrengthMin>25.0</VisKillStrengthMin>
-			<VisKillStrengthMax>50.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_EGYPTIANRAFALE</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<VisKillStrengthMin>25.0</VisKillStrengthMin>
-			<VisKillStrengthMax>50.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_EGYPTIANRAFALE</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<VisKillStrengthMin>25.0</VisKillStrengthMin>
-			<VisKillStrengthMax>50.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_AH64</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<VisKillStrengthMin>1.0</VisKillStrengthMin>
-			<VisKillStrengthMax>1.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_AH64</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<ID>PROJECTILE</ID>
-			<VisKillStrengthMin>10.0</VisKillStrengthMin>
-			<VisKillStrengthMax>15.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<ProjectileSpeed>4.0</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION20POUND</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ENGLISHAH64</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<VisKillStrengthMin>1.0</VisKillStrengthMin>
-			<VisKillStrengthMax>1.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ENGLISHAH64</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<ID>PROJECTILE</ID>
-			<VisKillStrengthMin>10.0</VisKillStrengthMin>
-			<VisKillStrengthMax>15.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<ProjectileSpeed>4.0</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION20POUND</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_GREEKAH64</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<VisKillStrengthMin>1.0</VisKillStrengthMin>
-			<VisKillStrengthMax>1.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_GREEKAH64</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<ID>PROJECTILE</ID>
-			<VisKillStrengthMin>10.0</VisKillStrengthMin>
-			<VisKillStrengthMax>15.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<ProjectileSpeed>4.0</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION20POUND</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_JAPAH64</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<VisKillStrengthMin>1.0</VisKillStrengthMin>
-			<VisKillStrengthMax>1.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_JAPAH64</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<ID>PROJECTILE</ID>
-			<VisKillStrengthMin>10.0</VisKillStrengthMin>
-			<VisKillStrengthMax>15.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<ProjectileSpeed>4.0</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION20POUND</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_FA-18</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_FA_18</UnitMemberType>
 			<Index>1</Index>
 			<SubIndex>1</SubIndex>
 			<ID>PROJECTILE</ID>
@@ -4061,7 +1774,7 @@
 			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_FRENCHRAFALE</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_RAFALE</UnitMemberType>
 			<Index>1</Index>
 			<SubIndex>1</SubIndex>
 			<ID>PROJECTILE</ID>
@@ -4072,30 +1785,7 @@
 			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
 			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
 		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_INDIANRAFALE</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>1</SubIndex>
-			<ID>PROJECTILE</ID>
-			<HitRadius>20</HitRadius>
-			<VisKillStrengthMin>30.0</VisKillStrengthMin>
-			<VisKillStrengthMax>60.0</VisKillStrengthMax>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_EGYPTIANRAFALE</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>1</SubIndex>
-			<ID>PROJECTILE</ID>
-			<HitRadius>20</HitRadius>
-			<VisKillStrengthMin>30.0</VisKillStrengthMin>
-			<VisKillStrengthMax>60.0</VisKillStrengthMax>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
-		</Row>
+
 		<Row>
 			<UnitMemberType>ART_DEF_UNIT_MEMBER_MQ1</UnitMemberType>
 			<Index>0</Index>
@@ -4129,7 +1819,7 @@
 			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_RUSSIANSU25</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SU25</UnitMemberType>
 			<Index>0</Index>
 			<SubIndex>0</SubIndex>
 			<ProjectileSpeed>3.0</ProjectileSpeed>
@@ -4139,7 +1829,7 @@
 			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_RUSSIANSU25</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SU25</UnitMemberType>
 			<Index>1</Index>
 			<SubIndex>0</SubIndex>
 			<VisKillStrengthMin>1.0</VisKillStrengthMin>
@@ -4150,7 +1840,7 @@
 			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_RUSSIANSU25</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SU25</UnitMemberType>
 			<Index>1</Index>
 			<SubIndex>1</SubIndex>
 			<ID>PROJECTILE</ID>
@@ -4161,7 +1851,7 @@
 			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_AUSTRIANEUROFIGHTER</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_EUROFIGHTER</UnitMemberType>
 			<Index>0</Index>
 			<SubIndex>0</SubIndex>
 			<ProjectileSpeed>3.0</ProjectileSpeed>
@@ -4171,7 +1861,7 @@
 			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_AUSTRIANEUROFIGHTER</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_EUROFIGHTER</UnitMemberType>
 			<Index>1</Index>
 			<SubIndex>0</SubIndex>
 			<VisKillStrengthMin>1.0</VisKillStrengthMin>
@@ -4182,7 +1872,7 @@
 			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_AUSTRIANEUROFIGHTER</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_EUROFIGHTER</UnitMemberType>
 			<Index>1</Index>
 			<SubIndex>1</SubIndex>
 			<ID>PROJECTILE</ID>
@@ -4192,166 +1882,7 @@
 			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
 			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
 		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_GERMANEUROFIGHTER</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_GERMANEUROFIGHTER</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<VisKillStrengthMin>1.0</VisKillStrengthMin>
-			<VisKillStrengthMax>1.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_GERMANEUROFIGHTER</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>1</SubIndex>
-			<ID>PROJECTILE</ID>
-			<VisKillStrengthMin>25.0</VisKillStrengthMin>
-			<VisKillStrengthMax>50.0</VisKillStrengthMax>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ITALIANEUROFIGHTER</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ITALIANEUROFIGHTER</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<VisKillStrengthMin>1.0</VisKillStrengthMin>
-			<VisKillStrengthMax>1.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ITALIANEUROFIGHTER</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>1</SubIndex>
-			<ID>PROJECTILE</ID>
-			<VisKillStrengthMin>25.0</VisKillStrengthMin>
-			<VisKillStrengthMax>50.0</VisKillStrengthMax>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_SARABIANEUROFIGHTER</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_SARABIANEUROFIGHTER</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<VisKillStrengthMin>1.0</VisKillStrengthMin>
-			<VisKillStrengthMax>1.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_SARABIANEUROFIGHTER</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>1</SubIndex>
-			<ID>PROJECTILE</ID>
-			<VisKillStrengthMin>25.0</VisKillStrengthMin>
-			<VisKillStrengthMax>50.0</VisKillStrengthMax>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_SPANISHEUROFIGHTER</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_SPANISHEUROFIGHTER</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<VisKillStrengthMin>1.0</VisKillStrengthMin>
-			<VisKillStrengthMax>1.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_SPANISHEUROFIGHTER</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>1</SubIndex>
-			<ID>PROJECTILE</ID>
-			<VisKillStrengthMin>25.0</VisKillStrengthMin>
-			<VisKillStrengthMax>50.0</VisKillStrengthMax>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ENGLISHEUROFIGHTER</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ENGLISHEUROFIGHTER</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<VisKillStrengthMin>1.0</VisKillStrengthMin>
-			<VisKillStrengthMax>1.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ENGLISHEUROFIGHTER</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>1</SubIndex>
-			<ID>PROJECTILE</ID>
-			<VisKillStrengthMin>25.0</VisKillStrengthMin>
-			<VisKillStrengthMax>50.0</VisKillStrengthMax>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
-		</Row>
+
 		<Row>
 			<UnitMemberType>ART_DEF_UNIT_MEMBER_F117</UnitMemberType>
 			<Index>0</Index>
@@ -4384,8 +1915,9 @@
 			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
 			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
 		</Row>
+		
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_RUSSIANMIG29</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MIG29</UnitMemberType>
 			<Index>0</Index>
 			<SubIndex>0</SubIndex>
 			<ProjectileSpeed>3.0</ProjectileSpeed>
@@ -4395,7 +1927,7 @@
 			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_RUSSIANMIG29</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MIG29</UnitMemberType>
 			<Index>1</Index>
 			<SubIndex>0</SubIndex>
 			<VisKillStrengthMin>1.0</VisKillStrengthMin>
@@ -4406,7 +1938,7 @@
 			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_RUSSIANMIG29</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MIG29</UnitMemberType>
 			<Index>1</Index>
 			<SubIndex>1</SubIndex>
 			<ID>PROJECTILE</ID>
@@ -4416,200 +1948,9 @@
 			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
 			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
 		</Row>
+
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_EGYPTIANMIG29</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_EGYPTIANMIG29</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<VisKillStrengthMin>1.0</VisKillStrengthMin>
-			<VisKillStrengthMax>1.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_EGYPTIANMIG29</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>1</SubIndex>
-			<ID>PROJECTILE</ID>
-			<VisKillStrengthMin>25.0</VisKillStrengthMin>
-			<VisKillStrengthMax>50.0</VisKillStrengthMax>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_PERSIANMIG29</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_PERSIANMIG29</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<VisKillStrengthMin>1.0</VisKillStrengthMin>
-			<VisKillStrengthMax>1.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_PERSIANMIG29</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>1</SubIndex>
-			<ID>PROJECTILE</ID>
-			<VisKillStrengthMin>25.0</VisKillStrengthMin>
-			<VisKillStrengthMax>50.0</VisKillStrengthMax>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ARABIANMIG29</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ARABIANMIG29</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<VisKillStrengthMin>1.0</VisKillStrengthMin>
-			<VisKillStrengthMax>1.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ARABIANMIG29</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>1</SubIndex>
-			<ID>PROJECTILE</ID>
-			<VisKillStrengthMin>25.0</VisKillStrengthMin>
-			<VisKillStrengthMax>50.0</VisKillStrengthMax>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_POLISHMIG29</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_POLISHMIG29</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<VisKillStrengthMin>1.0</VisKillStrengthMin>
-			<VisKillStrengthMax>1.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_POLISHMIG29</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>1</SubIndex>
-			<ID>PROJECTILE</ID>
-			<VisKillStrengthMin>25.0</VisKillStrengthMin>
-			<VisKillStrengthMax>50.0</VisKillStrengthMax>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_KOREANMIG29</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_KOREANMIG29</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<VisKillStrengthMin>1.0</VisKillStrengthMin>
-			<VisKillStrengthMax>1.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_KOREANMIG29</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>1</SubIndex>
-			<ID>PROJECTILE</ID>
-			<VisKillStrengthMin>25.0</VisKillStrengthMin>
-			<VisKillStrengthMax>50.0</VisKillStrengthMax>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_KOREANSU25</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_KOREANSU25</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<VisKillStrengthMin>1.0</VisKillStrengthMin>
-			<VisKillStrengthMax>1.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>15.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_KOREANSU25</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>1</SubIndex>
-			<ID>PROJECTILE</ID>
-			<VisKillStrengthMin>25.0</VisKillStrengthMin>
-			<VisKillStrengthMax>50.0</VisKillStrengthMax>
-			<ProjectileSpeed>3.0</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_F-14</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_F_14</UnitMemberType>
 			<Index>0</Index>
 			<SubIndex>0</SubIndex>
 			<ProjectileSpeed>3.5</ProjectileSpeed>
@@ -4619,7 +1960,7 @@
 			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_F-14</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_F_14</UnitMemberType>
 			<Index>1</Index>
 			<SubIndex>0</SubIndex>
 			<VisKillStrengthMin>40.0</VisKillStrengthMin>
@@ -4630,7 +1971,7 @@
 			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_F-14</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_F_14</UnitMemberType>
 			<Index>1</Index>
 			<SubIndex>1</SubIndex>
 			<ID>PROJECTILE</ID>
@@ -4673,7 +2014,7 @@
 			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_USAHARRIER</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_HARRIER</UnitMemberType>
 			<Index>0</Index>
 			<SubIndex>0</SubIndex>
 			<ProjectileSpeed>3.5</ProjectileSpeed>
@@ -4683,7 +2024,7 @@
 			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_USAHARRIER</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_HARRIER</UnitMemberType>
 			<Index>1</Index>
 			<SubIndex>0</SubIndex>
 			<VisKillStrengthMin>40.0</VisKillStrengthMin>
@@ -4694,7 +2035,7 @@
 			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
 		</Row>
 		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_USAHARRIER</UnitMemberType>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_HARRIER</UnitMemberType>
 			<Index>1</Index>
 			<SubIndex>1</SubIndex>
 			<ID>PROJECTILE</ID>
@@ -4704,103 +2045,9 @@
 			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
 			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
 		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ITALIANHARRIER</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.5</ProjectileSpeed>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>25.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ITALIANHARRIER</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<VisKillStrengthMin>40.0</VisKillStrengthMin>
-			<VisKillStrengthMax>50.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>25.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ITALIANHARRIER</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>1</SubIndex>
-			<ID>PROJECTILE</ID>
-			<VisKillStrengthMin>15.0</VisKillStrengthMin>
-			<VisKillStrengthMax>25.0</VisKillStrengthMax>
-			<ProjectileSpeed>2.5</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_SPANISHHARRIER</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.5</ProjectileSpeed>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>25.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_SPANISHHARRIER</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<VisKillStrengthMin>40.0</VisKillStrengthMin>
-			<VisKillStrengthMax>50.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>25.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_SPANISHHARRIER</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>1</SubIndex>
-			<ID>PROJECTILE</ID>
-			<VisKillStrengthMin>15.0</VisKillStrengthMin>
-			<VisKillStrengthMax>25.0</VisKillStrengthMax>
-			<ProjectileSpeed>2.5</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ENGLISHHARRIER</UnitMemberType>
-			<Index>0</Index>
-			<SubIndex>0</SubIndex>
-			<ProjectileSpeed>3.5</ProjectileSpeed>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>25.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ENGLISHHARRIER</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>0</SubIndex>
-			<VisKillStrengthMin>40.0</VisKillStrengthMin>
-			<VisKillStrengthMax>50.0</VisKillStrengthMax>
-			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
-			<HitRadius>25.0</HitRadius>
-			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
-		</Row>
-		<Row>
-			<UnitMemberType>ART_DEF_UNIT_MEMBER_ENGLISHHARRIER</UnitMemberType>
-			<Index>1</Index>
-			<SubIndex>1</SubIndex>
-			<ID>PROJECTILE</ID>
-			<VisKillStrengthMin>15.0</VisKillStrengthMin>
-			<VisKillStrengthMax>25.0</VisKillStrengthMax>
-			<ProjectileSpeed>2.5</ProjectileSpeed>
-			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
-			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
-		</Row>
+
 	</ArtDefine_UnitMemberCombatWeapons>
+	
 	<ArtDefine_StrategicView>
 		<Row>
 			<StrategicViewType>ART_DEF_UNIT_MQ1</StrategicViewType>
@@ -4810,16 +2057,16 @@
 	</ArtDefine_StrategicView>
 
 	<Language_en_US>
-		<Row Tag="TXT_KEY_UNIT_FA-18">
+		<Row Tag="TXT_KEY_UNIT_FA_18">
 			<Text>Boeing F/A-18C Hornet - Strike Fighter</Text>
 		</Row>
-		<Row Tag="TXT_KEY_UNIT_HELP_FA-18">
+		<Row Tag="TXT_KEY_UNIT_HELP_FA_18">
 			<Text>American Air Unit designed to perform air to ground attacks or strike missions on an aircraft carrier or land based aviation platform.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_UNIT_FA-18_STRATEGY">
+		<Row Tag="TXT_KEY_UNIT_FA_18_STRATEGY">
 			<Text>The American F/A-18C Hornet is a powerful air unit. It can be based in any city you own or aboard an aircraft carrier. It can move from base to base and can perform strike missions within its range of 9. It's primary role is as a strike aircraft or bomber, so it provides that function, but from a sea or land based location, which sets it apart from the Stealth Bomber unit, unlocked with later technologies.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_FA-18_TEXT">
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_FA_18_TEXT">
 			<Text>The McDonnell Douglas (now Boeing) F/A-18 Hornet is a twin-engine supersonic, all-weather carrier-capable multirole combat jet, designed as both a fighter and attack aircraft (F/A designation for Fighter/Attack).[NEWLINE]Designed by McDonnell Douglas and Northrop, the F/A-18 was derived from the latter's YF-17 in the 1970s for use by the United States Navy and Marine Corps. The Hornet is also used by the air forces of several other nations. The U.S. Navy's Flight Demonstration Squadron, the Blue Angels, has used the Hornet since 1986.[NEWLINE]The F/A-18 has a top speed of Mach 1.8 (1,190 mph or 1,915 km/h at 40,000 ft or 12,190 m). It can carry a wide variety of bombs and missiles, including air-to-air and air-to-ground, supplemented by the 20 mm M61 Vulcan cannon.[NEWLINE]It is powered by two General Electric F404 turbofan engines, which give the aircraft a high thrust-to-weight ratio. The F/A-18 has excellent aerodynamic characteristics, primarily attributed to its leading edge extensions (LEX).[NEWLINE]The fighter's primary missions are fighter escort, fleet air defense, Suppression of Enemy Air Defenses (SEAD), air interdiction, close air support and aerial reconnaissance. Its versatility and reliability have proven it to be a valuable carrier asset, though it has been criticized for its lack of range and payload compared to its earlier contemporaries, such as the Grumman F-14 Tomcat in the fighter and strike fighter role, and the Grumman A-6 Intruder and LTV A-7 Corsair II in the attack role.[NEWLINE]The Hornet saw its first combat action in 1986 during the 1986 United States bombing of Libya and subsequently participated in 1991 Gulf War and 2003 Iraq War.[NEWLINE]The F/A-18 Hornet provided the baseline design for the Boeing F/A-18E/F Super Hornet, a larger, evolutionary redesign of the F/A-18.[NEWLINE]Information Credit - WikiPedia</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_YF23">
@@ -4872,16 +2119,16 @@
 		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_RAFALE_TEXT">
 			<Text>The Dassault Rafale is a French twin-engine, canard delta-wing, multirole fighter aircraft designed and built by Dassault Aviation. Equipped with a wide range of weapons, the Rafale is intended to perform air supremacy, interdiction, aerial reconnaissance, and nuclear strike missions.[NEWLINE]In the late 1970s, the French Air Force and Navy were seeking to replace and consolidate their current fleets of aircraft. In order to reduce development costs and boost prospective sales, France entered into an arrangement with four other European nations to produce an agile multi-purpose fighter. Subsequent disagreements over workshare and differing requirements led to France's pursuit of its own development program. Dassault built a technology demonstrator which first flew in July 1986 as part of an eight-year flight-test programme, paving the way for the go-ahead of the project. The Rafale is distinct from other European fighters of its era in that it is almost entirely built by one country, involving most of France's major defence contractors, such as Dassault, Thales and Safran.[NEWLINE]Many of the aircraft's avionics and features, such as direct voice input, the RBE2 AA active electronically scanned array radar and the Optronique secteur frontal infra-red search and track sensor, were domestically developed and produced for the Rafale programme. Originally scheduled to enter service in 1996, the Rafale suffered significant delays due to post-Cold War budget cuts and changes in priorities. The aircraft is available in three variants: Rafale C single-seat land-based version, Rafale B twin-seat land-based version, and Rafale M single-seat carrier-based version.[NEWLINE]Introduced in 2001, the Rafale is being produced for both the French Air Force and for carrier-based operations in the French Navy. While the Rafale has been marketed for export to several countries, it has only been selected for purchase by the Indian Air Force and the Egyptian Air Force. The Rafale has been used in combat over Afghanistan, Libya, Mali and Iraq. Several upgrades to the weapons and avionics of the Rafale are planned to be introduced by 2018.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_UNIT_F-14">
+		<Row Tag="TXT_KEY_UNIT_F14">
 			<Text>Grumman F-14 Tomcat - Inteceptor/Fighter</Text>
 		</Row>
-		<Row Tag="TXT_KEY_UNIT_HELP_F-14">
+		<Row Tag="TXT_KEY_UNIT_HELP_F_14">
 			<Text>American Air Unit designed to perform Air to Air combat missions with limited ground strike capability based from an aircraft carrier or from land.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_UNIT_F-14_STRATEGY">
+		<Row Tag="TXT_KEY_UNIT_F14_STRATEGY">
 			<Text>The Grumman F-14 Tomcat is a powerful modern air unit, that excels in air to air combat.  It can be deployed aboard an aircraft carrier, or from a city/airfield.  It has extended range for a fighter/inteceptor with a range of 13, which gives it the capability to provide air escort for a naval battlegroup or extended enemy strike possibilities.  All Jet Fighters are especially effective against enemy helicopters. All Jet Fighters has the "air recon" ability, which means that everything within 6 tiles of its starting location is visible at the beginning of the turn. See the rules on Aircraft for more information.[NEWLINE]American pilot training is known as some of the best in the world, to reflect that, the F-14 will gain experience faster with successfull missions.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_F-14_TEXT">
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_F_14_TEXT">
 			<Text>The Grumman F-14 Tomcat is a fourth-generation, supersonic, twinjet, two-seat, variable-sweep wing fighter aircraft. The Tomcat was developed for the United States Navy's Naval Fighter Experimental (VFX) program following the collapse of the F-111B project. The F-14 was the first of the American teen-series fighters, which were designed incorporating the experience of air combat against MiG fighters during the Vietnam War.[NEWLINE]The F-14 first flew in December 1970 and made its first deployment in 1974 with the U.S. Navy aboard USS Enterprise (CVN-65), replacing the McDonnell Douglas F-4 Phantom II. The F-14 served as the U.S. Navy's primary maritime air superiority fighter, fleet defense interceptor and tactical aerial reconnaissance platform. In the 1990s, it added the Low Altitude Navigation and Targeting Infrared for Night (LANTIRN) pod system and began performing precision ground-attack missions.[NEWLINE]The Tomcat was retired from the U.S. Navy's active fleet on 22 September 2006, having been supplanted by the Boeing F/A-18E and F Super Hornets.  As of 2014, the F-14 was in service with only the Islamic Republic of Iran Air Force, having been exported to Iran in 1976, when the U.S. had amicable diplomatic relations with Iran.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_T50">

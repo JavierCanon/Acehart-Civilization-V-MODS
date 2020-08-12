@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_BRISTOLBLENHEIM</Type>
 			<Description>TXT_KEY_UNIT_BRISTOL_BLENHEIM</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_BRISTOL_BLENHEIM</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

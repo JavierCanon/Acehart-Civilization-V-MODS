@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_ALBATROSDIII</Type>
 			<Description>TXT_KEY_UNIT_ALBATROS_DIII</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_ALBATROS_DIII</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

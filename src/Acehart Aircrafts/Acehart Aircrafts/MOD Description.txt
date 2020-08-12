@@ -1,0 +1,43 @@
+-- MOD Description
+-- Author: Acehart
+-- DateCreated: 05/06/2014 08:00:00 PM
+--------------------------------------------------------------
+
+Run in Directx 11 mode.
+Generic Aircrafts mod for all eras. No cultural, you can build any.
+
+You need oil and aluminium or iron for you can build any.
+
+If want helicopters, check my Helicopters Mod.
+
+more than 30 NEW UNITS, including;
+
+1. Figthers
+2. Bombers
+4. Fighter-bombers
+5. Interceptors
+6. Heavy Bombers
+7. Spies planes
+
+*** NEW BUILDINGS ***
+
+1. Military Hangar (WWI) 
++defense +air units +1 production +5 mantenience
+
+2. Military Airbase (WWII to today) 
++defense +air units +1 production +5 mantenience
+
+*** PROMOTIONS ***
+
+
+*** TO DO ***
+1. Balance, please suggest.
+2. Icons.
+
+¿Suggestions? ¿want to help?
+Please post your comments.
+
+
+*** CREDITS ***
+Im using art and ideas from others mods.
+All Modders.

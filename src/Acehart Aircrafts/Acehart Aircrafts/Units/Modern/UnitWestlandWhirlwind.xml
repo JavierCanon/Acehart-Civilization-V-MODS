@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_WESTLANDWHIRLWIND</Type>
 			<Description>TXT_KEY_UNIT_WESTLAND_WHIRLWIND</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_WESTLAND_WHIRLWIND</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

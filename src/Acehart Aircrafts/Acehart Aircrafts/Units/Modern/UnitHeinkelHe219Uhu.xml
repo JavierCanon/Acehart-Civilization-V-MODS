@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_HEINKELHE219UHU</Type>
 			<Description>TXT_KEY_UNIT_HEINKEL_HE_219_UHU</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_HEINKEL_HE_219_UHU</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

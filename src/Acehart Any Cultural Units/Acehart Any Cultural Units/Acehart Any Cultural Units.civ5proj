@@ -5,15 +5,14 @@
     <ProjectGuid>{52a0468d-bd10-445d-a54a-6f6d56a07121}</ProjectGuid>
     <Name>Acehart Any Cultural Units</Name>
     <Guid>047225f3-c401-4112-97f0-84bc76321cf6</Guid>
-    <ModVersion>1</ModVersion>
+    <ModVersion>2</ModVersion>
     <Stability>Beta</Stability>
     <Teaser>With this MOD you can create any units of any culture.
 
 This can affect others mods, its better run at last mod, but i think</Teaser>
     <Description>With this MOD you can create any units of any culture.
 IMPORTANT NOTE:
-This can affect others mods, its better run at last mod, but i think that currently you canot select the order on the mods are started, SO, you can try select-deselect-reselect as your last MOD in the select form. 
-</Description>
+This can affect others mods, its better run at last mod, but i think that currently you canot select the order on the mods are started, SO, you can try select-deselect-reselect as your last MOD in the select form.</Description>
     <Authors>Acehart</Authors>
     <SpecialThanks>Acehart</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -25,7 +24,7 @@ This can affect others mods, its better run at last mod, but i think that curren
     <AssemblyName>Acehart Any Cultural Units</AssemblyName>
     <RootNamespace>Acehart Any Cultural Units</RootNamespace>
     <ModReferences />
-    <Homepage>http://https://github.com/JavierCanon/Acehart-Civilization-V-MODS</Homepage>
+    <Homepage>http://github.com/JavierCanon/Acehart-Civilization-V-MODS</Homepage>
     <ModActions>
       <Action xmlns="">
         <Set>OnModActivated</Set>
@@ -35,6 +34,7 @@ This can affect others mods, its better run at last mod, but i think that curren
     </ModActions>
     <ModDependencies>
     </ModDependencies>
+    <ReloadUnitSystem>true</ReloadUnitSystem>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>

@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_TYPHOON33</Type>
 			<Description>TXT_KEY_UNIT_HAWKER_TYPHOON33</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_HAWKER_TYPHOON33</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

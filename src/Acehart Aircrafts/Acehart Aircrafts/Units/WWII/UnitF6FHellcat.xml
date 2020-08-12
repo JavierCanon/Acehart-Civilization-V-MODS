@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameData>
-  <Units>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_F6F_HELLCAT</Type>
+			<Description>TXT_KEY_UNIT_F6F_HELLCAT</Description>
+			<DefaultUnit>UNIT_F6F_HELLCAT</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
     <Row>
       <Type>UNIT_F6F_HELLCAT</Type>
       <Description>TXT_KEY_UNIT_F6F_HELLCAT</Description>
       <CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
       <Domain>DOMAIN_AIR</Domain>
       <Special>SPECIALUNIT_FIGHTER</Special>
-      <Class>UNITCLASS_NAVALFIGHTER</Class>
+      <Class>UNITCLASS_F6F_HELLCAT</Class>
       <Cost>380</Cost>
       <AdvancedStartCost>29</AdvancedStartCost>
       <RangedCombat>54</RangedCombat>

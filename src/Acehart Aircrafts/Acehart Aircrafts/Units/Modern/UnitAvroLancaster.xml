@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_AVROLANCASTER</Type>
 			<Description>TXT_KEY_UNIT_AVRO_LANCASTER</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_AVRO_LANCASTER</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_SUPERFORTRESS99</Type>
 			<Description>TXT_KEY_UNIT_B29_SUPERFORTRESS99</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_B29_SUPERFORTRESS99</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

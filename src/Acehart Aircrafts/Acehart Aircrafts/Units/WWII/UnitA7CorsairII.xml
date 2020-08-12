@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameData>
-  <Units>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_A7CORSAIRII</Type>
+			<Description>TXT_KEY_UNIT_A7_CORSAIR_II</Description>
+			<DefaultUnit>UNIT_A7_CORSAIR_II</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
     <Row>
       <Type>UNIT_A7_CORSAIR_II</Type>
       <Description>TXT_KEY_UNIT_A7_CORSAIR_II</Description>
@@ -271,6 +280,7 @@
       <IconsPerColumn>1</IconsPerColumn>
     </Row>
   </IconTextureAtlases>
+	
   <Language_en_US>
     <Row Tag="TXT_KEY_UNIT_A7_CORSAIR_II">
       <Text>A-7 Corsair II</Text>
@@ -285,5 +295,6 @@
       <Text>The Ling-Temco-Vought A-7 Corsair II was a carrier-capable subsonic light attack aircraft introduced to replace the Douglas A-4 Skyhawk. The A-7 airframe design was based on the successful supersonic Vought F-8 Crusader. It was one of the first combat aircraft to feature a head-up display (HUD), an inertial navigation system (INS), and a turbofan engine.[NEWLINE]The Corsair II initially entered service with the United States Navy during the Vietnam War. It was later adopted by the United States Air Force, including the Air National Guard, to replace the Douglas A-1 Skyraider, North American F-100 Super Sabre and Republic F-105 Thunderchief.[citation needed] The aircraft was also exported to Greece in the 1970s, and Portugal in the late 1980s. - WikiPedia</Text>
     </Row>
   </Language_en_US>
+	
 </GameData>
 

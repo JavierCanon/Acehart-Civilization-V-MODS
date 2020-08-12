@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_SAABJ21</Type>
 			<Description>TXT_KEY_UNIT_SAAB_J21</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_SAAB_J21</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

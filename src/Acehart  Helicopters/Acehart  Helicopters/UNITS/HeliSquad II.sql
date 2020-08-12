@@ -206,7 +206,7 @@ SELECT ( 'UNITCLASS_HELISQUAD_II' ), --Type
        MaxTeamInstances,
        MaxPlayerInstances,
        InstanceCostModifier,
-       DefaultUnit
+       'UNIT_HELISQUAD_II' --DefaultUnit
   FROM UnitClasses
  WHERE ( Type = 'UNITCLASS_PARATROOPER' )
  ;
@@ -311,8 +311,8 @@ SELECT
     65 , --Combat, --INTEGER DEFAULT 0,
     RangedCombat                 ,--INTEGER DEFAULT 0,
     1000, --Cost, --INTEGER DEFAULT 0,
-    FaithCost                    ,--INTEGER DEFAULT 0,
-    RequiresFaithPurchaseEnabled ,--BOOLEAN DEFAULT 0,
+    0, --FaithCost                    ,--INTEGER DEFAULT 0,
+    0, --RequiresFaithPurchaseEnabled ,--BOOLEAN DEFAULT 0,
     6, --Moves, --INTEGER DEFAULT 0,
     Immobile                     ,--BOOLEAN DEFAULT 0,
     Range                        ,--INTEGER DEFAULT 0,
@@ -392,19 +392,16 @@ SELECT
     UnitFlagAtlas                 --TEXT    DEFAULT 'UNIT_FLAG_ATLAS',
   FROM Units
  WHERE ( Type = 'UNIT_PARATROOPER' );
-
+ 
 -- *** UPGRADES ***
-
 
 INSERT INTO Unit_ClassUpgrades ( 
     UnitType      ,--TEXT,
     UnitClassType  --TEXT,
 ) 
-SELECT ( 'UNIT_HELISQUAD_II' ),
-       UnitClassType
-  FROM Unit_ClassUpgrades
- WHERE ( UnitType = 'UNIT_PARATROOPER' );
-
+SELECT ( 'UNIT_HELISQUAD' ),
+       'UNITCLASS_HELISQUAD_II'
+;
 
 -- *** AI ***
 
@@ -415,7 +412,12 @@ INSERT INTO Unit_AITypes (
 SELECT ( 'UNIT_HELISQUAD_II' ),
        UnitAIType
   FROM Unit_AITypes
- WHERE ( UnitType = 'UNIT_PARATROOPER' );
+ WHERE ( UnitType = 'UNIT_PARATROOPER' )
+   UNION
+SELECT ( 'UNIT_HELISQUAD_II' ),
+       'UNITAI_GENERAL'
+ ;
+ 
 
 
 INSERT INTO Unit_Flavors ( 
@@ -425,7 +427,7 @@ INSERT INTO Unit_Flavors (
 ) 
 SELECT ( 'UNIT_HELISQUAD_II' ),
        FlavorType,
-       Flavor
+       (Flavor + 4)
   FROM Unit_Flavors
  WHERE ( UnitType = 'UNIT_PARATROOPER' );
 
@@ -460,11 +462,11 @@ INSERT INTO Unit_ResourceQuantityRequirements(
     ResourceType ,--TEXT,
     Cost          --INTEGER DEFAULT 1,
 )
-SELECT
+ SELECT
  'UNIT_HELISQUAD_II'
 ,'RESOURCE_OIL'
 ,1
-UNION
+ UNION
 SELECT
  'UNIT_HELISQUAD_II'
 ,'RESOURCE_ALUMINUM'

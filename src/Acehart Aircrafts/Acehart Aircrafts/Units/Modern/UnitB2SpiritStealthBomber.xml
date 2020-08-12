@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_B2SPIRITSTEALTHBOMBER</Type>
 			<Description>TXT_KEY_UNIT_B2_SPIRIT_STEALTH_BOMBER</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_B2_SPIRIT_STEALTH_BOMBER</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

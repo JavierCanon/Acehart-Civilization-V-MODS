@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameData>
-  <Units>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_F4U_CORSAIR</Type>
+			<Description>TXT_KEY_UNIT_F4U_CORSAIR</Description>
+			<DefaultUnit>UNIT_F4U_CORSAIR</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
     <Row>
       <Type>UNIT_F4U_CORSAIR</Type>
       <Description>TXT_KEY_UNIT_F4U_CORSAIR</Description>
       <CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
       <Domain>DOMAIN_AIR</Domain>
       <Special>SPECIALUNIT_FIGHTER</Special>
-      <Class>UNITCLASS_NAVALFIGHTER2</Class>
+      <Class>UNITCLASS_F4U_CORSAIR</Class>
       <Cost>400</Cost>
       <HurryCostModifier>10</HurryCostModifier>
       <AdvancedStartCost>50</AdvancedStartCost>

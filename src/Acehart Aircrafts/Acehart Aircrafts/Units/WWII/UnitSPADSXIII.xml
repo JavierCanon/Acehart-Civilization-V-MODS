@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameData>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SPAD_SXIII</Type>
+			<Description>TXT_KEY_UNIT_SPAD_SXIII</Description>
+			<DefaultUnit>UNIT_SPAD_SXIII</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	
   <Units>
     <Row>
       <Type>UNIT_SPAD_SXIII</Type>
@@ -7,7 +16,7 @@
       <CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
       <Domain>DOMAIN_AIR</Domain>
       <Special>SPECIALUNIT_STEALTH</Special>
-      <Class>UNITCLASS_TRIPLANE</Class>
+      <Class>UNITCLASS_SPAD_SXIII</Class>
       <Cost>327</Cost>
       <HurryCostModifier>10</HurryCostModifier>
       <AdvancedStartCost>40</AdvancedStartCost>

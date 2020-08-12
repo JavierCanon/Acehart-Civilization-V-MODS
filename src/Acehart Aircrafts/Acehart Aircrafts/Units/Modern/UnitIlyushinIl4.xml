@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_ILYUSHINIL4</Type>
 			<Description>TXT_KEY_UNIT_ILYUSHIN_IL4</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_ILYUSHIN_IL4</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

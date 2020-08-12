@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_MITSUBISHIKI21</Type>
 			<Description>TXT_KEY_UNIT_MITSUBISHI_KI21</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_MITSUBISHI_KI21</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

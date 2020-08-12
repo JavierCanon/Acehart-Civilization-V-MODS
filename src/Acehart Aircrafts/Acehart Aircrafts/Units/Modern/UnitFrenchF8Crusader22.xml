@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_FRENCHF8CRUSADER</Type>
 			<Description>TXT_KEY_UNIT_FRENCHF8_CRUSADER22</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_FRENCHF8_CRUSADER22</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

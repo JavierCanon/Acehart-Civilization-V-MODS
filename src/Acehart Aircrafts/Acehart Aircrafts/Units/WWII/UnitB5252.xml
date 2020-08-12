@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameData>
-  <Units>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_B5252</Type>
+			<Description>TXT_KEY_UNIT_B5252</Description>
+			<DefaultUnit>UNIT_B5252</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
    	  <Row>
 		  <Type>UNIT_B5252</Type>
 		  <Description>TXT_KEY_UNIT_B5252</Description>

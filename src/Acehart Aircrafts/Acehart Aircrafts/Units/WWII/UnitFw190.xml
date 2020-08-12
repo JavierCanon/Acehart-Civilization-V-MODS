@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameData>
-  <Units>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_FW1901</Type>
+			<Description>TXT_KEY_UNIT_FW_190</Description>
+			<DefaultUnit>UNIT_FW_190</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
     <Row>
       <Type>UNIT_FW_190</Type>
       <Description>TXT_KEY_UNIT_FW_190</Description>

@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_AEROA102</Type>
 			<Description>TXT_KEY_UNIT_AERO_A102</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_AERO_A102</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

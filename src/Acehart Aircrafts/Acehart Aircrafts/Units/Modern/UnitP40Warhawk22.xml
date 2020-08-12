@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_P40WARHAWK22</Type>
 			<Description>TXT_KEY_UNIT_P40_WARHAWK22</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_P40_WARHAWK22</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

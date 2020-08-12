@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_LANCER888</Type>
 			<Description>TXT_KEY_UNIT_B1_LANCER888</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_B1_LANCER888</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_TORNADO777</Type>
 			<Description>TXT_KEY_UNIT_PANAVIA_TORNADO777</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_PANAVIA_TORNADO777</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

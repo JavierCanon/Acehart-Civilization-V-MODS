@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_MSME262</Type>
 			<Description>TXT_KEY_UNIT_MESSERSCHMITT_ME_262_SCHWALBE</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_MESSERSCHMITT_ME_262_SCHWALBE</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

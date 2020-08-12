@@ -15,19 +15,18 @@
 
 			<Recon>1</Recon>
 
-			<CanMoveImpassable>1</CanMoveImpassable>
-			<NoDefensiveBonus>1</NoDefensiveBonus>
+			<CanMoveImpassable>0</CanMoveImpassable>
+			<NoDefensiveBonus>0</NoDefensiveBonus>
 			<AllowsEmbarkation>1</AllowsEmbarkation>
 
 			<AttackMod></AttackMod>
 			<RoughAttack>-50</RoughAttack>
-			<OpenRangedAttackMod></OpenRangedAttackMod>
+			<OpenRangedAttackMod>50</OpenRangedAttackMod>
 			<RoughRangedAttackMod>-50</RoughRangedAttackMod>
 			<AttackWoundedMod>-100</AttackWoundedMod>
-			<AttackFortifiedMod>100</AttackFortifiedMod>
+			<AttackFortifiedMod>50</AttackFortifiedMod>
 			<FlankAttackModifier>50</FlankAttackModifier>
 			<FriendlyLandsAttackModifier>50</FriendlyLandsAttackModifier>
-
 
 			<DefenseMod>-900</DefenseMod>
 			<OpenDefense>-900</OpenDefense>
@@ -35,7 +34,7 @@
 			<RoughDefense>-900</RoughDefense>
 
 			<HillsAttack>-50</HillsAttack>
-			<HillsDefense>-900</HillsDefense>
+			<HillsDefense>50</HillsDefense>
 
 			<RangeAttackIgnoreLOS>0</RangeAttackIgnoreLOS>
 			<RangedSupportFire>50</RangedSupportFire>
@@ -87,8 +86,46 @@
 			<UnitType>UNIT_AT_SNIPER</UnitType>
 			<PromotionType>PROMOTION_ANTITANK</PromotionType>
 		</Row>
+		
+		<Row>
+			<UnitType>UNIT_SNIPER</UnitType>
+			<PromotionType>PROMOTION_GREAT_GENERAL</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERN_SNIPER</UnitType>
+			<PromotionType>PROMOTION_GREAT_GENERAL</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AT_SNIPER</UnitType>
+			<PromotionType>PROMOTION_GREAT_GENERAL</PromotionType>
+		</Row>
 
+		<Row>
+			<UnitType>UNIT_SNIPER</UnitType>
+			<PromotionType>PROMOTION_ADJACENT_BONUS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERN_SNIPER</UnitType>
+			<PromotionType>PROMOTION_ADJACENT_BONUS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AT_SNIPER</UnitType>
+			<PromotionType>PROMOTION_ADJACENT_BONUS</PromotionType>
+		</Row>
 
+		<Row>
+			<UnitType>UNIT_SNIPER</UnitType>
+			<PromotionType>PROMOTION_PARADROP</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERN_SNIPER</UnitType>
+			<PromotionType>PROMOTION_PARADROP</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AT_SNIPER</UnitType>
+			<PromotionType>PROMOTION_PARADROP</PromotionType>
+		</Row>
+		
 
 	</Unit_FreePromotions>
 
@@ -113,22 +150,22 @@
 		<Row>
 			<PromotionType>PROMOTION_HEADSHOT</PromotionType>
 			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-			<Modifier>100</Modifier>
+			<Modifier>50</Modifier>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_HEADSHOT</PromotionType>
 			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
-			<Modifier>100</Modifier>
+			<Modifier>50</Modifier>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_HEADSHOT</PromotionType>
 			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-			<Modifier>100</Modifier>
+			<Modifier>50</Modifier>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_HEADSHOT</PromotionType>
 			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-			<Modifier>100</Modifier>
+			<Modifier>50</Modifier>
 		</Row>
 
 	</UnitPromotions_UnitCombatMods>
@@ -140,19 +177,19 @@
 		<Row>
 			<PromotionType>PROMOTION_ANTITANK</PromotionType>
 			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-			<Modifier>100</Modifier>
+			<Modifier>50</Modifier>
 		</Row>
 
 		<Row>
 			<PromotionType>PROMOTION_ANTITANK</PromotionType>
 			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
-			<Modifier>100</Modifier>
+			<Modifier>50</Modifier>
 		</Row>
 
 		<Row>
 			<PromotionType>PROMOTION_ANTITANK</PromotionType>
 			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
-			<Modifier>100</Modifier>
+			<Modifier>50</Modifier>
 		</Row>
 
 	</UnitPromotions_UnitCombatMods>

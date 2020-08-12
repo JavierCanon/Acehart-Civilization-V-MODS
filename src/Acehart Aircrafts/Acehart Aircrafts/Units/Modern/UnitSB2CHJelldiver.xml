@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_SB2CHELLDIVER</Type>
 			<Description>TXT_KEY_UNIT_SB2C_HJELLDIVER</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_SB2C_HJELLDIVER</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

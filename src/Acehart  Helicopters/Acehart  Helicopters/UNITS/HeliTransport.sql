@@ -206,7 +206,7 @@ SELECT ( 'UNITCLASS_HELITRANSPORT' ), --Type
        MaxTeamInstances,
        MaxPlayerInstances,
        InstanceCostModifier,
-       DefaultUnit
+       'UNIT_HELITRANSPORT' --DefaultUnit
   FROM UnitClasses
  WHERE ( Type = 'UNITCLASS_MARINE' )
  ;
@@ -311,8 +311,8 @@ SELECT
     90 , --Combat, --INTEGER DEFAULT 0,
     RangedCombat                 ,--INTEGER DEFAULT 0,
     1600, --Cost, --INTEGER DEFAULT 0,
-    FaithCost                    ,--INTEGER DEFAULT 0,
-    RequiresFaithPurchaseEnabled ,--BOOLEAN DEFAULT 0,
+    0, --FaithCost                    ,--INTEGER DEFAULT 0,
+    0, --RequiresFaithPurchaseEnabled ,--BOOLEAN DEFAULT 0,
     2, --Moves, --INTEGER DEFAULT 0,
     Immobile                     ,--BOOLEAN DEFAULT 0,
     Range                        ,--INTEGER DEFAULT 0,
@@ -395,16 +395,13 @@ SELECT
 
 -- *** UPGRADES ***
 
-
 INSERT INTO Unit_ClassUpgrades ( 
     UnitType      ,--TEXT,
     UnitClassType  --TEXT,
 ) 
-SELECT ( 'UNIT_HELITRANSPORT' ),
-       UnitClassType
-  FROM Unit_ClassUpgrades
- WHERE ( UnitType = 'UNIT_MARINE' );
-
+SELECT ( 'UNIT_HELISQUAD_II' ),
+       'UNITCLASS_HELITRANSPORT'
+;
 
 -- *** AI ***
 
@@ -425,7 +422,7 @@ INSERT INTO Unit_Flavors (
 ) 
 SELECT ( 'UNIT_HELITRANSPORT' ),
        FlavorType,
-       Flavor
+       (Flavor + 6)
   FROM Unit_Flavors
  WHERE ( UnitType = 'UNIT_MARINE' );
 
@@ -464,7 +461,7 @@ SELECT
  'UNIT_HELITRANSPORT'
 ,'RESOURCE_OIL'
 ,1
-UNION
+ UNION
 SELECT
  'UNIT_HELITRANSPORT'
 ,'RESOURCE_ALUMINUM'
@@ -480,21 +477,21 @@ INSERT INTO Language_en_US(
 SELECT
 
            'TXT_KEY_UNIT_HELITRANSPORT_DESCRIPTION' 
-           ,'Heli Troops'
+           ,'Modern Heli Troops'
 UNION
 SELECT
 
            'TXT_KEY_UNIT_HELITRANSPORT_CIVILOPEDIA' 
-           ,'Heli Troops'
+           ,'Modern Heli Troops'
 UNION
 SELECT
 
            'TXT_KEY_UNIT_HELITRANSPORT_STRATEGY' 
-           ,'Heli Troops'
+           ,'Modern Heli Troops'
 UNION
 SELECT
 
            'TXT_KEY_UNIT_HELITRANSPORT_HELP' 
-           ,'Heli Troops'   
+           ,'Modern Heli Troops'   
 ; 
 

@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_TUPOLEVTB3</Type>
 			<Description>TXT_KEY_UNIT_TUPOLEV_TB3</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_TUPOLEV_TB3</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

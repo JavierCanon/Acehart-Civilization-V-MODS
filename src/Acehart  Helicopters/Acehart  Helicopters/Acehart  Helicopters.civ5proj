@@ -2,22 +2,24 @@
 <Project DefaultTargets="Deploy" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <ProjectGuid>{5db364d3-a093-47ce-a028-fb738e307404}</ProjectGuid>
+    <ProjectGuid>{5DB364D3-A093-47CE-A028-FB738E307404}</ProjectGuid>
     <Name>Acehart  Helicopters</Name>
     <Guid>b9f93474-311b-43dc-824d-1c1d2d76dcb0</Guid>
-    <ModVersion>4</ModVersion>
-    <Stability>Beta</Stability>
+    <ModVersion>7</ModVersion>
+    <Stability>Stable</Stability>
     <Teaser>Acehart  Helicopters</Teaser>
     <Description>Generic Helicopters MOD.
 
 General New Behavior:
-- Attak Helis now can enter in lakes and coast (not in ocean). Good vs tanks and armor, weak vs airplanes and AA guns/missiles.
+- Fast units, can travel across mountains.
+- Attack Helis now can enter in lakes and coast (not in ocean). Good vs tanks and armor, weak vs airplanes and AA guns/missiles.
 - All terrain type cost is 1.
-- Can plot up to 2 units per tile (simulate flight).
-- Heli's now need aluminium and oil resource.  Why? because they are powerful, strategic and versatile units, and this is a war for resources... or make infantry...
-- Lost health each turn, if finish outside of friendly territory.</Description>
+- Heli's now need 1 aluminium + 1 oil. 
+- Lost health each turn, if finish outside of friendly territory.
+- Bonus vs Cities (Attack Helis).
+- Medics are support units works like a Great General.</Description>
     <Authors>Acehart</Authors>
-    <SpecialThanks>Acehart</SpecialThanks>
+    <SpecialThanks>All Moders</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
     <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
@@ -34,27 +36,6 @@ General New Behavior:
     <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
     <Homepage>http://https://github.com/JavierCanon/Acehart-Civilization-V-MODS</Homepage>
     <ModDependencies>
-      <Association>
-        <Type>Dlc</Type>
-        <Name>Expansion 1 - Gods and Kings</Name>
-        <Id>0E3751A1-F840-4e1b-9706-519BF484E59D</Id>
-        <MinVersion>0</MinVersion>
-        <MaxVersion>999</MaxVersion>
-      </Association>
-      <Association>
-        <Type>Dlc</Type>
-        <Name>Expansion 2 - Brave New World</Name>
-        <Id>6DA07636-4123-4018-B643-6575B4EC336B</Id>
-        <MinVersion>0</MinVersion>
-        <MaxVersion>999</MaxVersion>
-      </Association>
-      <Association>
-        <Type>Game</Type>
-        <Name />
-        <Id />
-        <MinVersion>1.0.3.279</MinVersion>
-        <MaxVersion>2.0.0.0</MaxVersion>
-      </Association>
     </ModDependencies>
     <ModActions>
       <Action>

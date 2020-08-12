@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_FULLBACK888</Type>
 			<Description>TXT_KEY_UNIT_SU34_FULLBACK888</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_SU34_FULLBACK888</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

@@ -207,7 +207,7 @@ SELECT ( 'UNITCLASS_HELIMEDIC' ), --Type
        MaxTeamInstances,
        MaxPlayerInstances,
        InstanceCostModifier,
-       DefaultUnit
+       'UNIT_HELIMEDIC' --DefaultUnit
   FROM UnitClasses
  WHERE ( Type = 'UNITCLASS_MARINE' )
  ;
@@ -312,8 +312,8 @@ SELECT
     30 , --Combat, --INTEGER DEFAULT 0,
     RangedCombat                 ,--INTEGER DEFAULT 0,
     800, --Cost, --INTEGER DEFAULT 0,
-    FaithCost                    ,--INTEGER DEFAULT 0,
-    RequiresFaithPurchaseEnabled ,--BOOLEAN DEFAULT 0,
+    0, --FaithCost                    ,--INTEGER DEFAULT 0,
+    0, --RequiresFaithPurchaseEnabled ,--BOOLEAN DEFAULT 0,
     4, --Moves, --INTEGER DEFAULT 0,
     Immobile                     ,--BOOLEAN DEFAULT 0,
     Range                        ,--INTEGER DEFAULT 0,
@@ -396,16 +396,20 @@ SELECT
 
 -- *** UPGRADES ***
 
-
 INSERT INTO Unit_ClassUpgrades ( 
     UnitType      ,--TEXT,
     UnitClassType  --TEXT,
 ) 
 SELECT ( 'UNIT_HELIMEDIC' ),
+       'UNITCLASS_HELIMEDIC_II'
+;
+
+/*
+SELECT ( 'UNIT_HELIMEDIC' ),
        UnitClassType
   FROM Unit_ClassUpgrades
  WHERE ( UnitType = 'UNIT_MARINE' );
-
+ */
 
 -- *** AI ***
 
@@ -414,9 +418,8 @@ INSERT INTO Unit_AITypes (
     UnitAIType 
 ) 
 SELECT ( 'UNIT_HELIMEDIC' ),
-       UnitAIType
-  FROM Unit_AITypes
- WHERE ( UnitType = 'UNIT_MARINE' );
+       'UNITAI_GENERAL'
+;
 
 
 INSERT INTO Unit_Flavors ( 
@@ -428,7 +431,7 @@ SELECT ( 'UNIT_HELIMEDIC' ),
        FlavorType,
        Flavor
   FROM Unit_Flavors
- WHERE ( UnitType = 'UNIT_MARINE' );
+ WHERE ( UnitType = 'UNIT_GREAT_GENERAL' );
 
 -- *** PROMOTIONS ***
 
@@ -441,11 +444,11 @@ SELECT ( 'UNIT_HELIMEDIC' ),
   FROM Unit_FreePromotions
  WHERE ( UnitType = 'UNIT_MARINE' )
 UNION
-SELECT -- make medic
+SELECT 
  'UNIT_HELIMEDIC'
 ,'PROMOTION_FASTER_HEAL'
 UNION
-SELECT -- make medic
+SELECT 
  'UNIT_HELIMEDIC'
 ,'PROMOTION_MEDIC_GENERAL'
 UNION
@@ -462,8 +465,20 @@ SELECT
 ,'PROMOTION_DEFENSE_PENALTY'
  UNION
 SELECT 
- 'UNIT_HELITRANSPORT'
+ 'UNIT_HELIMEDIC'
 ,'PROMOTION_HELI_REPAIR'
+ UNION
+SELECT 
+ 'UNIT_HELIMEDIC'
+,'PROMOTION_MARCH'
+ UNION
+SELECT 
+ 'UNIT_HELIMEDIC'
+,'PROMOTION_INSTA_HEAL'
+ UNION
+SELECT 
+ 'UNIT_HELIMEDIC'
+,'PROMOTION_MEDIC'
 ;
 
  -- *** RESOURCES ***
@@ -473,11 +488,11 @@ INSERT INTO Unit_ResourceQuantityRequirements(
     ResourceType ,--TEXT,
     Cost          --INTEGER DEFAULT 1,
 )
-SELECT
+ SELECT
  'UNIT_HELIMEDIC'
 ,'RESOURCE_OIL'
 ,1
-UNION
+ UNION
 SELECT
  'UNIT_HELIMEDIC'
 ,'RESOURCE_ALUMINUM'

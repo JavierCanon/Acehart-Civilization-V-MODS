@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameData>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SEAFIRE</Type>
+			<Description>TXT_KEY_UNIT_SEAFIRE</Description>
+			<DefaultUnit>UNIT_SEAFIRE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	
   <Units>
     <Row>
       <Type>UNIT_SEAFIRE</Type>

@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameData>
-  <Units>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_DE_HAVILLAND_VAMPIRE</Type>
+			<Description>TXT_KEY_UNIT_DE_HAVILLAND_VAMPIRE</Description>
+			<DefaultUnit>UNIT_DE_HAVILLAND_VAMPIRE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
     <Row>
       <Type>UNIT_DE_HAVILLAND_VAMPIRE</Type>
       <Description>TXT_KEY_UNIT_DE_HAVILLAND_VAMPIRE</Description>
       <CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
       <Domain>DOMAIN_AIR</Domain>
       <Special>SPECIALUNIT_STEALTH</Special>
-      <Class>UNITCLASS_VAMPIRE2</Class>
+      <Class>UNITCLASS_DE_HAVILLAND_VAMPIRE</Class>
       <Cost>390</Cost>
       <HurryCostModifier>20</HurryCostModifier>
       <AdvancedStartCost>55</AdvancedStartCost>
@@ -47,6 +56,7 @@
     </Row>
     
   </Unit_AITypes>
+	
   <Unit_Flavors>
     <Row>
       <UnitType>UNIT_DE_HAVILLAND_VAMPIRE</UnitType>
@@ -122,6 +132,7 @@
     </Row>
     
   </Unit_FreePromotions>
+	
   <Unit_ResourceQuantityRequirements>
     <Row>
       <UnitType>UNIT_DE_HAVILLAND_VAMPIRE</UnitType>
@@ -132,6 +143,7 @@
 		  <ResourceType>RESOURCE_IRON</ResourceType>
 	  </Row>
   </Unit_ResourceQuantityRequirements>
+	
   <ArtDefine_UnitInfos>
     <Row>
       <Type>ART_DEF_UNIT_DE_HAVILLAND_VAMPIRE</Type>

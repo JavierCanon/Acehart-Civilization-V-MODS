@@ -3,30 +3,17 @@
 -- DateCreated: 4/30/2014 11:44:50 AM
 --------------------------------------------------------------
 
-Adds the Sniper in industrial era, in modern era: Modern Sniper,  AT (Antitank) Sniper, as a ranged unit. Use it for recon and support unit, good for attack, bad defending, so protect them or hit and run. The sniper has 1 moves but large ranged view, can use as sentry . This means it can perform hit-and-run attacks; attack, and move out. Its strong in ranged. 
+Suppor unit like generals, put side by side with other units. Adds the Sniper in industrial era, in modern era: Modern Sniper,  AT (Antitank) Sniper, as a ranged unit. Use it for recon and support unit, good for attack, bad defending, so protect them or hit and run. The sniper has 1 moves. 
 
->>> PROMOTIONS <<< 
+Can enter in all terriories not in war.
+
+--- PROMOTIONS --- 
 Specific:
 1. Bad for attack cities, ships and melee combat. (all) 
 2. Headshot: bonus vs mounted, ranged, gun, melee and recon units. (all) 
 3. AntiTank: bonus vs armor and tanks. (only AT Sniper) 
 4. Very weak defending themselves. (all)
-
-General:
-1 = true
-      <RangedSupportFire>20</RangedSupportFire>
-      <CanMoveImpassable>1</CanMoveImpassable>
-      <OnlyDefensive>0</OnlyDefensive>
-      <NoDefensiveBonus>1</NoDefensiveBonus>
-      <AllowsEmbarkation>1</AllowsEmbarkation>
-      <RangeAttackIgnoreLOS>0</RangeAttackIgnoreLOS>
-      <CityAttack>-100</CityAttack>
-      <CityDefense>50</CityDefense>
-      <OpenRangedAttackMod>100</OpenRangedAttackMod>
-      <RoughRangedAttackMod>-50</RoughRangedAttackMod>
-      <AttackFortifiedMod>50</AttackFortifiedMod>
-      <FlankAttackModifier>50</FlankAttackModifier>
-      <FriendlyLandsAttackModifier>100</FriendlyLandsAttackModifier>
+5. Support adjacents units.
 
 >>> TECH <<< 
 1. <Type>UNIT_SNIPER</Type>

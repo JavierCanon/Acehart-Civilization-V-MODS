@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_SAVOIAMARCHETTISM84</Type>
 			<Description>TXT_KEY_UNIT_SAVOIAMARCHETTI_SM84</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_SAVOIAMARCHETTI_SM84</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

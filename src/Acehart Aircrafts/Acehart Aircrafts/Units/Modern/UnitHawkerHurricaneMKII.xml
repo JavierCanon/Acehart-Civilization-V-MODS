@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_HAWKERHURRICANEMKII</Type>
 			<Description>TXT_KEY_UNIT_HAWKER_HURRICANE_MKII</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_HAWKER_HURRICANE_MKII</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

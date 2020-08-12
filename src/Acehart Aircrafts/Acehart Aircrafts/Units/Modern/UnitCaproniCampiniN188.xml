@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_CAMPINI</Type>
 			<Description>TXT_KEY_UNIT_CAPRONI_CAMPINI_N188</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_CAPRONI_CAMPINI_N188</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

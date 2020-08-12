@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_F2ABUFFALO</Type>
 			<Description>TXT_KEY_UNIT_F2A_BUFFALO</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_F2A_BUFFALO</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

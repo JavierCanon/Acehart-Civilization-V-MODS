@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_USACRUSADER22</Type>
 			<Description>TXT_KEY_UNIT_F8_CRUSADER22</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_F8_CRUSADER22</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

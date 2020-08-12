@@ -5,8 +5,8 @@
     <ProjectGuid>{fae33b05-a7a1-47e5-a6ca-f30a9768309a}</ProjectGuid>
     <Name>Acehart Aircrafts</Name>
     <Guid>9db2560c-79bf-4913-8a59-9fce2c4c9a8b</Guid>
-    <ModVersion>2</ModVersion>
-    <Stability>Beta</Stability>
+    <ModVersion>3</ModVersion>
+    <Stability>Stable</Stability>
     <Teaser>Generic Aircrafts mod for all eras.
 
 1. Figther
@@ -15,23 +15,23 @@
 5. Interceptor
 6. Heavy Bomber
 7. Spy</Teaser>
-    <Description>MOD STATUS: Beta. Run in Directx 11 mode.
+    <Description>Run in Directx 11 mode.
 Generic Aircrafts mod for all eras. No cultural, you can build any.
 
-You need oil, aluminium and or iron for you can build any.
+You need oil and aluminium or iron for you can build any.
 
 If want helicopters, check my Helicopters Mod.
 
-(+30) NEW UNITS
+more than 30 NEW UNITS, including;
 
-1. Figther
-2. Bomber
-4. Fighter-bomber
-5. Interceptor
-6. Heavy Bomber
-7. Spy
+1. Figthers
+2. Bombers
+4. Fighter-bombers
+5. Interceptors
+6. Heavy Bombers
+7. Spies planes
 
-BUILDINGS
+NEW BUILDINGS:
 
 1. Military Hangar (WWI) 
 +defense +air units +1 production +5 mantenience
@@ -363,11 +363,6 @@ BUILDINGS
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>Units/Modern/UnitSukhoiPAKFAT50.xml</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
         <FileName>Units/Modern/UnitSukhoiSu977.xml</FileName>
       </Action>
       <Action>
@@ -409,21 +404,6 @@ BUILDINGS
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
         <FileName>Units/Modern/UnitZeppelin.xml</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>Units/WWII/GREEKA7CORSAIRII.xml</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>Units/WWII/PORTUGALA7CORSAIRII.xml</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>Units/WWII/SIAMA7CORSAIRII.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
@@ -549,7 +529,7 @@ BUILDINGS
         <FileName>Lua/AirRecon.lua</FileName>
       </Content>
     </ModContent>
-    <Homepage>http://https://github.com/JavierCanon/Acehart-Civilization-V-MODS</Homepage>
+    <Homepage>http://github.com/JavierCanon/Acehart-Civilization-V-MODS</Homepage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -611,6 +591,10 @@ BUILDINGS
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Lua\AirRecon.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="MOD Description.txt">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -4714,10 +4698,6 @@ BUILDINGS
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="Units\Modern\UnitSukhoiPAKFAT50.xml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
     <Content Include="Units\Modern\UnitSukhoiSU2799.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -5002,10 +4982,6 @@ BUILDINGS
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Units\WWII\GREEKA7CORSAIRII.xml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
     <Content Include="Units\WWII\Icons\ICON_UNIT_AR_234_128.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -5265,14 +5241,6 @@ BUILDINGS
     <Content Include="Units\WWII\Icons\ICON_UNIT_TU95_80.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Units\WWII\PORTUGALA7CORSAIRII.xml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="Units\WWII\SIAMA7CORSAIRII.xml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Units\WWII\UnitA10ThunderboltII.xml">
       <SubType>Lua</SubType>

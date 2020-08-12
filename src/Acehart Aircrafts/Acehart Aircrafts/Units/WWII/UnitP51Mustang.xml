@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameData>
-  <Units>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_P51MUSTANG1</Type>
+			<Description>TXT_KEY_UNIT_P51_MUSTANG1</Description>
+			<DefaultUnit>UNIT_P51_MUSTANG1</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
     <Row>
       <Type>UNIT_P51_MUSTANG1</Type>
       <Description>TXT_KEY_UNIT_P51_MUSTANG1</Description>

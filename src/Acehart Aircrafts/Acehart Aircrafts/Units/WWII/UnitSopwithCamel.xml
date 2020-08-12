@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameData>
-  <Units>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SOPWITH_CAMEL</Type>
+			<Description>TXT_KEY_UNIT_SOPWITH_CAMEL</Description>
+			<DefaultUnit>UNIT_SOPWITH_CAMEL</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
     <Row>
       <Type>UNIT_SOPWITH_CAMEL</Type>
       <Description>TXT_KEY_UNIT_SOPWITH_CAMEL</Description>
       <CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
       <Domain>DOMAIN_AIR</Domain>
       <Special>SPECIALUNIT_FIGHTER</Special>
-      <Class>UNITCLASS_TRIPLANE</Class>
+      <Class>UNITCLASS_SOPWITH_CAMEL</Class>
       <Cost>326</Cost>
       <HurryCostModifier>10</HurryCostModifier>
       <AdvancedStartCost>25</AdvancedStartCost>

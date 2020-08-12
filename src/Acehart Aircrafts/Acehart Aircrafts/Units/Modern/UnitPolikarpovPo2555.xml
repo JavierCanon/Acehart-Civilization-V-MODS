@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_PO2555</Type>
 			<Description>TXT_KEY_UNIT_POLIKARPOV_PO2555</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_POLIKARPOV_PO2555</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

@@ -204,7 +204,7 @@ SELECT ( 'UNITCLASS_ATTACKHELI' ), --Type
        MaxTeamInstances,
        MaxPlayerInstances,
        InstanceCostModifier,
-       DefaultUnit
+       'UNIT_ATTACKHELI' --DefaultUnit
   FROM UnitClasses
  WHERE ( Type = 'UNITCLASS_HELICOPTER_GUNSHIP' )
  ;
@@ -309,8 +309,8 @@ SELECT
     60, --Combat, --INTEGER DEFAULT 0,
     70, --RangedCombat, --INTEGER DEFAULT 0,
     600, --Cost, --INTEGER DEFAULT 0,
-    FaithCost                    ,--INTEGER DEFAULT 0,
-    RequiresFaithPurchaseEnabled ,--BOOLEAN DEFAULT 0,
+    0, --FaithCost                    ,--INTEGER DEFAULT 0,
+    0, --RequiresFaithPurchaseEnabled ,--BOOLEAN DEFAULT 0,
     6, --Moves, --INTEGER DEFAULT 0,
     Immobile                     ,--BOOLEAN DEFAULT 0,
     2, --Range, --INTEGER DEFAULT 0,
@@ -411,9 +411,19 @@ INSERT INTO Unit_AITypes (
     UnitAIType 
 ) 
 SELECT ( 'UNIT_ATTACKHELI' ),
+       'UNITAI_RANGED'
+ UNION
+SELECT ( 'UNIT_ATTACKHELI' ),
+       'UNITAI_CITY_BOMBARD'
+ ;
+
+/*
+SELECT ( 'UNIT_ATTACKHELI' ),
        UnitAIType
   FROM Unit_AITypes
- WHERE ( UnitType = 'UNIT_HELICOPTER_GUNSHIP' );
+ WHERE ( UnitType = 'UNIT_HELICOPTER_GUNSHIP' )
+  UNION
+*/  
 
 
 INSERT INTO Unit_Flavors ( 
@@ -425,7 +435,12 @@ SELECT ( 'UNIT_ATTACKHELI' ),
        FlavorType,
        Flavor
   FROM Unit_Flavors
- WHERE ( UnitType = 'UNIT_HELICOPTER_GUNSHIP' );
+ WHERE ( UnitType = 'UNIT_HELICOPTER_GUNSHIP' )
+ UNION
+SELECT ( 'UNIT_ATTACKHELI' ),
+       'FLAVOR_RANGED',
+       16 
+;
 
 -- *** PROMOTIONS ***
 
@@ -462,11 +477,11 @@ INSERT INTO Unit_ResourceQuantityRequirements(
     ResourceType ,--TEXT,
     Cost          --INTEGER DEFAULT 1,
 )
-SELECT
+ SELECT
  'UNIT_ATTACKHELI'
 ,'RESOURCE_OIL'
 ,1
-UNION
+ UNION
 SELECT
  'UNIT_ATTACKHELI'
 ,'RESOURCE_ALUMINUM'

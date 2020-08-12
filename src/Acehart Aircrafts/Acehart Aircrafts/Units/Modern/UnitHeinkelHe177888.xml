@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_HEINKELHE177</Type>
 			<Description>TXT_KEY_UNIT_HEINKEL_HE_177888</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_HEINKEL_HE_177888</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

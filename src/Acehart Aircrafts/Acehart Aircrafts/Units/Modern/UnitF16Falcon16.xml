@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameData>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_F16FALCON16</Type>
+			<Description>TXT_KEY_UNIT_F16_FALCON16</Description>
+			<DefaultUnit>UNIT_F16_FALCON16</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	
   <Units>
     <Row>
       <Type>UNIT_F16_FALCON16</Type>

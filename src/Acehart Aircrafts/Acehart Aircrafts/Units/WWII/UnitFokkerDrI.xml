@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameData>
-  <Units>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_FOKKER_DRI</Type>
+			<Description>TXT_KEY_UNIT_FOKKER_DRI</Description>
+			<DefaultUnit>UNIT_FOKKER_DRI</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
     <Row>
       <Type>UNIT_FOKKER_DRI</Type>
       <Description>TXT_KEY_UNIT_FOKKER_DRI</Description>
       <CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
       <Domain>DOMAIN_AIR</Domain>
       <Special>SPECIALUNIT_FIGHTER</Special>
-      <Class>UNITCLASS_TRIPLANE</Class>
+      <Class>UNITCLASS_FOKKER_DRI</Class>
       <Cost>330</Cost>
       <HurryCostModifier>10</HurryCostModifier>
       <AdvancedStartCost>40</AdvancedStartCost>

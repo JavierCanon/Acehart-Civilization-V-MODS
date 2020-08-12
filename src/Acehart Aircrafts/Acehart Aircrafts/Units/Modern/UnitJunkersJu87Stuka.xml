@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_JUNKERSJU87</Type>
 			<Description>TXT_KEY_UNIT_JUNKERS_JU_87_STUKA</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_JUNKERS_JU_87_STUKA</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

@@ -2,9 +2,9 @@
 <GameData>
 	<UnitClasses>
 		<Row>
-			<Type>UNITCLASS_THUNDERBOLT89</Type>
+			<Type>UNITCLASS_P47_THUNDERBOLT89</Type>
 			<Description>TXT_KEY_UNIT_P47_THUNDERBOLT89</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_P47_THUNDERBOLT89</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>
@@ -14,7 +14,7 @@
       <CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
       <Domain>DOMAIN_AIR</Domain>
       <Special>SPECIALUNIT_STEALTH</Special>
-      <Class>UNITCLASS_THUNDERBOLT89</Class>
+      <Class>UNITCLASS_P47_THUNDERBOLT89</Class>
       <Cost>375</Cost>
       <HurryCostModifier>36</HurryCostModifier>
       <AdvancedStartCost>50</AdvancedStartCost>

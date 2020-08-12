@@ -5,12 +5,14 @@
     <ProjectGuid>{e31c49ef-5d0f-479f-8140-63d8b6477470}</ProjectGuid>
     <Name>Acehart Ghost Snipers</Name>
     <Guid>22ddd8ea-a673-4dba-8b8d-4352d06ddbfd</Guid>
-    <ModVersion>3</ModVersion>
-    <Stability>Alpha</Stability>
+    <ModVersion>5</ModVersion>
+    <Stability>Beta</Stability>
     <Teaser>Acehart Ghost Snipers</Teaser>
-    <Description>Special Forces Snipers, variation of Acehart Snipers MOD.
+    <Description>Special Forces Snipers, variation of Acehart Snipers MOD, only activate 1 at time.
 
 Adds in modern era: G Modern Sniper, G  AT  Sniper (Antitank), as a ranged unit. Use it for recon and support unit, good for attack, bad defending, so protect them or hit and run. The sniper has 1 moves but large ranged view, can use as sentry . This means it can perform hit-and-run attacks; attack, and move out. Its strong in ranged. 
+
+Can enter in all terriories not in war.
 
 --- PROMOTIONS --- 
 Specific:
@@ -30,31 +32,10 @@ Specific:
     <RootNamespace>Acehart Ghost Snipers</RootNamespace>
     <ModReferences />
     <ReloadUnitSystem>true</ReloadUnitSystem>
-    <ReloadAudioSystem>true</ReloadAudioSystem>
+    <ReloadAudioSystem>false</ReloadAudioSystem>
     <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
     <Homepage>http://github.com/JavierCanon/Acehart-Civilization-V-MODS</Homepage>
     <ModDependencies>
-      <Association>
-        <Type>Dlc</Type>
-        <Name>Expansion 1 - Gods and Kings</Name>
-        <Id>0E3751A1-F840-4e1b-9706-519BF484E59D</Id>
-        <MinVersion>0</MinVersion>
-        <MaxVersion>999</MaxVersion>
-      </Association>
-      <Association>
-        <Type>Dlc</Type>
-        <Name>Expansion 2 - Brave New World</Name>
-        <Id>6DA07636-4123-4018-B643-6575B4EC336B</Id>
-        <MinVersion>0</MinVersion>
-        <MaxVersion>999</MaxVersion>
-      </Association>
-      <Association>
-        <Type>Game</Type>
-        <Name />
-        <Id />
-        <MinVersion>1.0.3.279</MinVersion>
-        <MaxVersion>2.0.0.0</MaxVersion>
-      </Association>
     </ModDependencies>
     <ModActions>
       <Action>

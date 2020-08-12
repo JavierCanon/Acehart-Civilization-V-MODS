@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_KIKKA1</Type>
 			<Description>TXT_KEY_UNIT_NAKAJIMA_KIKKA</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_NAKAJIMA_KIKKA</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

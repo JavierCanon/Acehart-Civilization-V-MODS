@@ -2,9 +2,9 @@
 <GameData>
 	<UnitClasses>
 		<Row>
-			<Type>UNITCLASS_MOSQUITO</Type>
+			<Type>UNITCLASS_DE_HAVILLAND_MOSQUITO</Type>
 			<Description>TXT_KEY_UNIT_DE_HAVILLAND_MOSQUITO</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_DE_HAVILLAND_MOSQUITO</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>
@@ -14,7 +14,7 @@
       <CombatClass>UNITCOMBAT_BOMBER</CombatClass>
       <Domain>DOMAIN_AIR</Domain>
       <Special>SPECIALUNIT_STEALTH</Special>
-      <Class>UNITCLASS_MOSQUITO</Class>
+      <Class>UNITCLASS_DE_HAVILLAND_MOSQUITO</Class>
       <Cost>380</Cost>
       <HurryCostModifier>50</HurryCostModifier>
       <AdvancedStartCost>55</AdvancedStartCost>

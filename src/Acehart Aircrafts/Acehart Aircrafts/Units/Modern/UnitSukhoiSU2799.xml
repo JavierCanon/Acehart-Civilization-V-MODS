@@ -2,9 +2,9 @@
 <GameData>
 	<UnitClasses>
 		<Row>
-			<Type>UNITCLASS_FLANKER1</Type>
+			<Type>UNITCLASS_SUKHOI_SU2799</Type>
 			<Description>TXT_KEY_UNIT_SUKHOI_SU2799</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_SUKHOI_SU2799</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>
@@ -14,7 +14,7 @@
       <CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
       <Domain>DOMAIN_AIR</Domain>
       <Special>SPECIALUNIT_STEALTH</Special>
-      <Class>UNITCLASS_FLANKER1</Class>
+      <Class>UNITCLASS_SUKHOI_SU2799</Class>
       <Cost>415</Cost>
       <HurryCostModifier>15</HurryCostModifier>
       <AdvancedStartCost>70</AdvancedStartCost>

@@ -206,7 +206,7 @@ SELECT ( 'UNITCLASS_HELISQUAD' ), --Type
        MaxTeamInstances,
        MaxPlayerInstances,
        InstanceCostModifier,
-       DefaultUnit
+       'UNIT_HELISQUAD' --DefaultUnit
   FROM UnitClasses
  WHERE ( Type = 'UNITCLASS_MARINE' )
  ;
@@ -311,8 +311,8 @@ SELECT
     65 , --Combat, --INTEGER DEFAULT 0,
     RangedCombat                 ,--INTEGER DEFAULT 0,
     800, --Cost, --INTEGER DEFAULT 0,
-    FaithCost                    ,--INTEGER DEFAULT 0,
-    RequiresFaithPurchaseEnabled ,--BOOLEAN DEFAULT 0,
+    0, --FaithCost                    ,--INTEGER DEFAULT 0,
+    0, --RequiresFaithPurchaseEnabled ,--BOOLEAN DEFAULT 0,
     4, --Moves, --INTEGER DEFAULT 0,
     Immobile                     ,--BOOLEAN DEFAULT 0,
     Range                        ,--INTEGER DEFAULT 0,
@@ -395,7 +395,6 @@ SELECT
 
 -- *** UPGRADES ***
 
-
 INSERT INTO Unit_ClassUpgrades ( 
     UnitType      ,--TEXT,
     UnitClassType  --TEXT,
@@ -404,8 +403,7 @@ SELECT ( 'UNIT_HELISQUAD' ),
        UnitClassType
   FROM Unit_ClassUpgrades
  WHERE ( UnitType = 'UNIT_MARINE' );
-
-
+ 
 -- *** AI ***
 
 INSERT INTO Unit_AITypes ( 
@@ -425,7 +423,7 @@ INSERT INTO Unit_Flavors (
 ) 
 SELECT ( 'UNIT_HELISQUAD' ),
        FlavorType,
-       Flavor
+       (Flavor + 2)
   FROM Unit_Flavors
  WHERE ( UnitType = 'UNIT_MARINE' );
 
@@ -464,7 +462,7 @@ SELECT
  'UNIT_HELISQUAD'
 ,'RESOURCE_OIL'
 ,1
-UNION
+ UNION
 SELECT
  'UNIT_HELISQUAD'
 ,'RESOURCE_ALUMINUM'

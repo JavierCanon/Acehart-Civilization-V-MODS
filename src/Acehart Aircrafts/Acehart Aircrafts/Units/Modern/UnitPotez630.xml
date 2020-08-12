@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_POTEZ630</Type>
 			<Description>TXT_KEY_UNIT_POTEZ_630</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_POTEZ_630</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

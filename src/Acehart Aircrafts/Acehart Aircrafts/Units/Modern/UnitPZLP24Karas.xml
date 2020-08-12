@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_PZLP24</Type>
 			<Description>TXT_KEY_UNIT_PZL_P24_KARAS</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_PZL_P24_KARAS</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

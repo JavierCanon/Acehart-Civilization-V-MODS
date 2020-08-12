@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_LIBERATOR88</Type>
 			<Description>TXT_KEY_UNIT_B24_LIBERATOR88</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_B24_LIBERATOR88</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

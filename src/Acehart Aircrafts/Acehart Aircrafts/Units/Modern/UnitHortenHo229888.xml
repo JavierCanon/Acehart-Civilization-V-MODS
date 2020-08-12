@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_HORTON888</Type>
 			<Description>TXT_KEY_UNIT_HORTEN_HO_229888</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_HORTEN_HO_229888</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

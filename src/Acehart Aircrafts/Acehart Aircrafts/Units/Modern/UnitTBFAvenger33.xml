@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_AVENGER33</Type>
 			<Description>TXT_KEY_UNIT_TBF_AVENGER33</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_TBF_AVENGER33</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

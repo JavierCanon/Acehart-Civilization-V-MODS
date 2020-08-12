@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameData>
-  <Units>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_TU95</Type>
+			<Description>TXT_KEY_UNIT_TU95</Description>
+			<DefaultUnit>UNIT_TU95</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
     <Row>
       <Type>UNIT_TU95</Type>
       <Description>TXT_KEY_UNIT_TU95</Description>
       <CombatClass>UNITCOMBAT_BOMBER</CombatClass>
       <Domain>DOMAIN_AIR</Domain>
       <Special>SPECIALUNIT_STEALTH</Special>
-      <Class>UNITCLASS_RUSSIANBEAR</Class>
+      <Class>UNITCLASS_TU95</Class>
       <Cost>400</Cost>
       <HurryCostModifier>25</HurryCostModifier>
       <AdvancedStartCost>57</AdvancedStartCost>

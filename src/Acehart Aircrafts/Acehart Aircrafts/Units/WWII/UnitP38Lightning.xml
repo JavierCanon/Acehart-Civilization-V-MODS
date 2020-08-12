@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameData>
-  <Units>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_P38_LIGHTNING</Type>
+			<Description>TXT_KEY_UNIT_P38_LIGHTNING</Description>
+			<DefaultUnit>UNIT_P38_LIGHTNING</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
     <Row>
       <Type>UNIT_P38_LIGHTNING</Type>
       <Description>TXT_KEY_UNIT_P38_LIGHTNING</Description>
       <CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
       <Domain>DOMAIN_AIR</Domain>
       <Special>SPECIALUNIT_STEALTH</Special>
-      <Class>UNITCLASS_FIGHTER</Class>
+      <Class>UNITCLASS_P38_LIGHTNING</Class>
       <Cost>377</Cost>
       <AdvancedStartCost>28</AdvancedStartCost>
       <RangedCombat>53</RangedCombat>

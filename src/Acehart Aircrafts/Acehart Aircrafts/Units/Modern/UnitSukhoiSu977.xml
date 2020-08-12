@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_SU977</Type>
 			<Description>TXT_KEY_UNIT_SUKHOI_SU977</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_SUKHOI_SU977</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

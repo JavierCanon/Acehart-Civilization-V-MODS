@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_YAK9</Type>
 			<Description>TXT_KEY_UNIT_YAKOLEV_YAK9</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_YAKOLEV_YAK9</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

@@ -2,9 +2,9 @@
 <GameData>
 	<UnitClasses>
 		<Row>
-			<Type>UNITCLASS_OURAGAN87</Type>
+			<Type>UNITCLASS_DASSAULT_OURAGAN87</Type>
 			<Description>TXT_KEY_UNIT_DASSAULT_OURAGAN87</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_DASSAULT_OURAGAN87</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>
@@ -14,7 +14,7 @@
       <CombatClass>UNITCOMBAT_BOMBER</CombatClass>
       <Domain>DOMAIN_AIR</Domain>
       <Special>SPECIALUNIT_STEALTH</Special>
-      <Class>UNITCLASS_OURAGAN87</Class>
+      <Class>UNITCLASS_DASSAULT_OURAGAN87</Class>
       <Cost>385</Cost>
       <HurryCostModifier>50</HurryCostModifier>
       <AdvancedStartCost>50</AdvancedStartCost>

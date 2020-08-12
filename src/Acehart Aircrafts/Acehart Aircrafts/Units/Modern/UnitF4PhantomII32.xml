@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_NAVAL_FIGHTER3</Type>
 			<Description>TXT_KEY_UNIT_F4_PHANTOM_II</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_F4_PHANTOM_IIUSA</DefaultUnit>
 		</Row>
 		</UnitClasses>
   <Units>

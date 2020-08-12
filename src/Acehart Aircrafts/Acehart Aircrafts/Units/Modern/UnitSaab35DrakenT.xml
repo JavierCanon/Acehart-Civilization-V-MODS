@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_DRAKEN1</Type>
 			<Description>TXT_KEY_UNIT_SAAB_35_DRAKENT</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_SAAB_35_DRAKENT</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

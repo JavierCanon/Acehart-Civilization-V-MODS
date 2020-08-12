@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_MIRAGE2000888</Type>
 			<Description>TXT_KEY_UNIT_DASSAULT_MIRAGE_2000888</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_DASSAULT_MIRAGE_2000888</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>

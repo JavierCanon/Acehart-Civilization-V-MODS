@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameData>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SR71BLACKBIRD</Type>
+			<Description>TXT_KEY_UNIT_SR71_BLACKBIRD</Description>
+			<DefaultUnit>UNIT_SR71_BLACKBIRD</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	
   <Units>
    	  <Row>
 		  <Type>UNIT_SR71_BLACKBIRD</Type>

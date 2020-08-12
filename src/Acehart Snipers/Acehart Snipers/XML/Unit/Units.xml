@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	
 	<Units>
 
 		<Row>
@@ -7,11 +8,11 @@
 			<Type>UNIT_SNIPER</Type>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<ObsoleteTech>TECH_PLASTIC</ObsoleteTech>
-			<Combat>50</Combat>
-			<RangedCombat>50</RangedCombat>
+			<Combat>30</Combat>
+			<RangedCombat>40</RangedCombat>
 			<Cost>240</Cost>
 			<Moves>1</Moves>
-			<Range>2</Range>
+			<Range>1</Range>
 			<BaseSightRange>1</BaseSightRange>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -34,17 +35,20 @@
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_SNIPER</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
+			
+			<RivalTerritory>true</RivalTerritory>
+
 		</Row>
 
 		<Row>
 			<Class>UNITCLASS_MODERN_SNIPER</Class>
 			<Type>UNIT_MODERN_SNIPER</Type>
 			<PrereqTech>TECH_PLASTIC</PrereqTech>
-			<Combat>80</Combat>
-			<RangedCombat>80</RangedCombat>
+			<Combat>40</Combat>
+			<RangedCombat>50</RangedCombat>
 			<Cost>360</Cost>
 			<Moves>1</Moves>
-			<Range>2</Range>
+			<Range>1</Range>
 			<BaseSightRange>1</BaseSightRange>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -68,17 +72,19 @@
 			<UnitFlagIconOffset>1</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_SNIPER</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
+
+			<RivalTerritory>true</RivalTerritory>
 		</Row>
 
 		<Row>
 			<Class>UNITCLASS_AT_SNIPER</Class>
 			<Type>UNIT_AT_SNIPER</Type>
 			<PrereqTech>TECH_BALLISTICS</PrereqTech>
-			<Combat>100</Combat>
-			<RangedCombat>100</RangedCombat>
+			<Combat>50</Combat>
+			<RangedCombat>60</RangedCombat>
 			<Cost>480</Cost>
 			<Moves>1</Moves>
-			<Range>2</Range>
+			<Range>1</Range>
 			<BaseSightRange>1</BaseSightRange>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -101,30 +107,39 @@
 			<UnitFlagIconOffset>2</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_SNIPER</IconAtlas>
 			<PortraitIndex>1</PortraitIndex>
-		</Row>
 
+			<RivalTerritory>true</RivalTerritory>
+		</Row>
+<!-- 
 		<Update>
 			<Set GoodyHutUpgradeUnitClass="UNITCLASS_SNIPER"/>
 			<Where Class="UNITCLASS_CROSSBOWMAN"/>
 		</Update>
+-->		
+		
 	</Units>
 
 	<Unit_AITypes>
+
 		<Row>
 			<UnitType>UNIT_SNIPER</UnitType>
-			<UnitAIType>UNITAI_RANGED</UnitAIType>
+			<UnitAIType>UNITAI_GENERAL</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MODERN_SNIPER</UnitType>
-			<UnitAIType>UNITAI_RANGED</UnitAIType>
+			<UnitAIType>UNITAI_GENERAL</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_AT_SNIPER</UnitType>
-			<UnitAIType>UNITAI_RANGED</UnitAIType>
+			<UnitAIType>UNITAI_GENERAL</UnitAIType>
 		</Row>
+	
+
 	</Unit_AITypes>
 
+	<!-- 
 	<Unit_ClassUpgrades>
+		
 		<Update>
 			<Set UnitClassType="UNITCLASS_SNIPER"/>
 			<Where UnitType="UNIT_ENGLISH_LONGBOWMAN"/>
@@ -141,13 +156,10 @@
 			<UnitType>UNIT_SNIPER</UnitType>
 			<UnitClassType>UNITCLASS_MODERN_SNIPER</UnitClassType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_MODERN_SNIPER</UnitType>
-			<UnitClassType>UNITCLASS_AT_SNIPER</UnitClassType>
-		</Row>
-
+		
 	</Unit_ClassUpgrades>
-
+-->
+	
 	<Unit_Flavors>
 		<Row>
 			<UnitType>UNIT_SNIPER</UnitType>
@@ -162,8 +174,9 @@
 		<Row>
 			<UnitType>UNIT_SNIPER</UnitType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>1</Flavor>
 		</Row>
+		
 		<Row>
 			<UnitType>UNIT_MODERN_SNIPER</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -177,8 +190,9 @@
 		<Row>
 			<UnitType>UNIT_MODERN_SNIPER</UnitType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>1</Flavor>
 		</Row>
+		
 		<Row>
 			<UnitType>UNIT_AT_SNIPER</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -192,22 +206,7 @@
 		<Row>
 			<UnitType>UNIT_AT_SNIPER</UnitType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SNIPER</UnitType>
-			<FlavorType>FLAVOR_RECON</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MODERN_SNIPER</UnitType>
-			<FlavorType>FLAVOR_RECON</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AT_SNIPER</UnitType>
-			<FlavorType>FLAVOR_RECON</FlavorType>
-			<Flavor>6</Flavor>
+			<Flavor>1</Flavor>
 		</Row>
 	</Unit_Flavors>
 

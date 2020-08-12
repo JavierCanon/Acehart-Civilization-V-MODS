@@ -4,7 +4,7 @@
 		<Row>
 			<Type>UNITCLASS_MSBF110888</Type>
 			<Description>TXT_KEY_UNIT_MESSERSCHMITT_BF_110888</Description>
-			<DefaultUnit>NONE</DefaultUnit>
+			<DefaultUnit>UNIT_MESSERSCHMITT_BF_110888</DefaultUnit>
 		</Row>
 	</UnitClasses>
   <Units>
